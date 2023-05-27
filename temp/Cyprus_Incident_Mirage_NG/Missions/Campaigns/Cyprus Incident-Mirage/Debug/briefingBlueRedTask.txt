@@ -1,0 +1,87 @@
+Air Tasking Order:
+Sorties Mission                TOT
+4       North Cyprus Force 3   17:43:38
+1       Airlift Paphos Airbase 17:51:05
+
+
+
+
+
+
+
+_________________________________________ BRIEFING Part: _______________________________________
+__________________________________ Mi-24P 450 M-E/P-1 Strike __________________________________
+________________________________________________________________________________________________
+
+You are tasked to strike North Cyprus Force 3 with a Time On Target of 17:43.
+
+Target:
+North Cyprus Force 3 (100%)
+- NCF 3-1
+- NCF 3-2
+- NCF 3-3
+- NCF 3-4
+- NCF 3-5
+- NCF 3-6
+- NCF 3-7
+- NCF 3-8
+- NCF 3-9
+- NCF 3-10
+- NCF 3-11
+- NCF 3-12
+- NCF 3-13
+- NCF 3-14
+- NCF 3-15
+- NCF 3-16
+
+
+Package:
+Task     Num Type     Base                Callsign  
+Strike   4   Mi-24P   Lakatamia Airbase   Dodge81   (player)
+
+
+Flight:
+CallSign    Designated aircraft number 
+Dodge81       018
+Dodge82       003
+Dodge83       076
+Dodge84       073
+
+
+Bullseye:
+ bullseye Name Marj Ruhayyil Airbase 
+
+
+Flightplan:
+WP  Descr       Altitute    Speed     ETA
+0   Departure   0 m AGL     0 kph     17:41:24
+1   Join        50 m AGL    190 kph   17:41:37
+2   IP          50 m AGL    190 kph   17:41:44
+3   Target      0 m AGL     190 kph   17:43:38
+4   Egress      50 m AGL    190 kph   17:46:03
+5   Split       50 m AGL    190 kph   17:47:18
+6   Land        240 m AGL   190 kph   17:51:51
+
+
+Radio Navigation:
+Base: Lakatamia Airbase
+Divert: FARP-Dallas
+Divert: Larnaca Airbase VOR: 112.80 NDB: 432 ILS: RWY 228/110.80
+
+
+Communication:
+
+Package:                        230.325 MHz   Radio 1 / Channel 0   
+ATC:        Lakatamia Airbase   251.900 MHz   Radio 1 / Channel 1   
+EWR:        Eyeball             133.400 MHz   Radio 1 / Channel 2   
+Divert:     FARP-Dallas         129.600 MHz   Radio 1 / Channel 3   
+Divert:     Larnaca Airbase     251.850 MHz   Radio 1 / Channel 4   
+Strike:     Dodge81             230.325 MHz   Radio 1 / Channel 5   
+
+
+
+
+Meteo:
+Good flying weather due to influence of a high pressure system in theater of operations, expected to remain dominant for next 2 days. 
+
+METAR 211716 32001MPS CAVOK NSW SKC Q1030=\n\nDictKey_descriptionRedTask_2

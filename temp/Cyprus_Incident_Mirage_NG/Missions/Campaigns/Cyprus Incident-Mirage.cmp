@@ -1,0 +1,47 @@
+campaign = 
+{
+    ["picture"] = "Cyprus Incident-Mirage.png",
+	["startStage"] = 1,
+    ["name"] = "Cyprus Incident-Mirage",
+    ["description"] = "June 2004,Pro-Turkish forces are trying to circle Nicosia with surprised light columms attack. Their hope is to capture the city and win lot more territorial possessions. Your unit will try to resist and destroy those weak enemy columns in the suburbs of Nicosia",
+    ["necessaryUnits"] = {}, -- end of ["necessaryUnits"]
+    ["stages"] = 
+    {
+        [1] = 
+        {
+            ["name"] = "Stage 1",
+            ["missions"] = 
+            {
+                [1] = 
+                {
+                    ["interval"] = 
+                    {
+                        [1] = 50,
+                        [2] = 100,
+                    }, -- end of ["interval"]
+                    ["file"] = "Cyprus Incident-Mirage_first.miz",
+                    ["description"] = "",
+                    ["fullpath"] = "C:\\Mods\\tech\\DCE\\Missions\\Campaigns\\",
+                }, -- end of [1]
+            }, -- end of ["missions"]
+        }, -- end of [1]
+        [2] = 
+        {
+            ["name"] = "Stage 2",
+            ["missions"] = 
+            {
+                [1] = 
+                {
+                    ["interval"] = 
+                    {
+                        [1] = 0,
+                        [2] = 100,
+                    }, -- end of ["interval"]
+                    ["file"] = "Cyprus Incident-Mirage_ongoing.miz",
+                    ["description"] = "",
+                    ["fullpath"] = "C:\\Mods\\tech\\DCE\\Missions\\Campaigns\\",
+                }, -- end of [1]
+            }, -- end of ["missions"]
+        }, -- end of [2]
+    }, -- end of ["stages"]
+} -- end of campaign

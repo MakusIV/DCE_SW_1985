@@ -1,0 +1,170 @@
+Mission 1 - October 6, 2004 (H+1), 08:23
+----------------------------------------
+
+You have been tasked with striking EWR 1 501 but were unable to inflict any damage. EWR 1 501 remains 100% intact.
+
+EWR 1 501   (100%)
+- Unit      
+- Unit      
+- Unit      
+
+Your package has scored 6 air-air kills while sustaining 6 losses.
+
+Package:
+Callsign     Type              Task       Kills Air     Kills Ground     Kills Ship     Lost     
+Uzi11        AV8BNA            Strike     0             0                0              1        (Player)
+Uzi12        AV8BNA            Strike     0             0                0              1        
+Colt21       FA-18C_hornet     SEAD       1             0                0              0        
+Colt22       FA-18C_hornet     SEAD       0             0                0              0        
+Dodge81      F-14B             Escort     1             0                0              1        
+Dodge82      F-14B             Escort     1             0                0              1        
+Dodge83      F-14B             Escort     2             0                0              1        
+Dodge84      F-14B             Escort     1             0                0              1        
+
+
+
+Order of Battle:
+----------------
+
+Blue Air Units:
+Unit            Type              Base                          Kills Air     Kills Ground     Kills Ship     Lost         Damaged     Ready
+VFA-106         FA-18C_hornet     CVN-71 Theodore Roosevelt     12 (+12)      8 (+8)           0              6 (+6)       0           10 (-6)
+VF-101          F-14B             CVN-71 Theodore Roosevelt     15 (+15)      0                0              7 (+7)       0           9 (-7)
+VAW-125         E-2C              CVN-71 Theodore Roosevelt     0             0                0              0            0           8
+174 ARW         S-3B Tanker       CVN-71 Theodore Roosevelt     0             0                0              0            0           12
+VMFA-312        FA-18C_hornet     CVN-74 John C. Stennis        8 (+8)        11 (+11)         0              12 (+12)     0           4 (-12)
+69 BS           B-52H             Dyess AFB                     0             15 (+15)         0              0            0           12
+175 ARW         S-3B Tanker       CVN-71 Theodore Roosevelt     0             0                0              0            0           12
+VF-143          F-14B             CVN-74 John C. Stennis        9 (+9)        0                0              3 (+3)       0           13 (-3)
+VMA 311         AV8BNA            LHA_Tarawa                    0             0                0              2 (+2)       0           2 (-2)
+
+
+Red Air Units:
+Unit            Type              Base                          Kills Air     Kills Ground     Kills Ship     Lost         Damaged     Ready
+19.IAP          MiG-29A           Batumi                        6 (+6)        0                0              4 (+4)       0           6 (-4)
+11.RAP          Su-24MR           Maykop-Khanskaya              0             0                0              2 (+2)       0           4 (-2)
+31.IAP          MiG-29A           Sukhumi                       9 (+9)        0                0              8 (+8)       0           4 (-8)
+28.IAP          MiG-29A           Gudauta                       4 (+4)        0                0              3 (+3)       0           9 (-3)
+368.ShAP        Su-25TM           Kobuleti                      1 (+1)        0                0              12 (+12)     0           4 (-12)
+3.IAP           Su-27             Kutaisi                       4 (+4)        0                0              6 (+6)       0           6 (-6)
+559.BAP         Su-24M            Senaki-Kolkhi                 0             0                0              0            0           12
+174.IAP-PVO     MiG-31            Mozdok                        0             0                0              0            0           8
+52.TBAP         Tu-22M3           Mineralnye-Vody               0             0                0              0            0           6
+959.BAP         Su-24M            Kutaisi                       0             0                0              11 (+11)     0           1 (-11)
+79.TBAP         Tu-142            Tbilissi-Lochini              0             0                0              4 (+4)       0           2 (-4)
+2457 SDRLO      A-50              Nalchik                       0             0                0              0            0           4
+
+
+
+Red Ground Assets:
+Adzhkhahara Train Station - FH28           100%   
+Batumi Airbase                             100%   
+Batumi Harbor                              100%   
+Batumi Harbor Supply                       100%   
+Batumi Marshalling Yard                    100%   
+Batumi Power Supply Unit                   100%   
+Bridge Adzhkhahara-FH28                    100%   
+Bridge Akvara-FH18                         100%   
+Bridge Anaklia-GG19                        100%   
+Bridge Dapnari-KM76                        100%   
+Bridge East Gantiadi-EJ80                  100%   
+Bridge Geguti-LM17                         100%   
+Bridge Grebeshok-EH99                      100%   
+Bridge Gudauta-FH27                        100%   
+Bridge Gumista-FH56                        100%   
+Bridge Koki-GH20                           100%   
+Bridge Kul tubani-EJ80                     100%   
+Bridge Kutaisi-LM18                        100%   
+Bridge Kvemo-Merheuli North-FH65           100%   
+Bridge Kvemo-Merheuli-FH75                 100%   
+Bridge Mugudzyrhva-FH28                    100%   
+Bridge Nizh Armyanskoe Uschele-FH47        100%   
+Bridge Orsantia-GH10                       100%   
+Bridge Pahulani-GH42                       100%   
+Bridge Patara-Poti East-GG27               100%   
+Bridge Patara-Poti West-GG27               100%   
+Bridge Primorskoe North-FH37               100%   
+Bridge Primorskoe-FH37                     100%   
+Bridge Pshap East-FH75                     100%   
+Bridge Pshap West-FH75                     100%   
+Bridge Rike-GH31                           100%   
+Bridge Sukhumi-Babushara North East-FH74   100%   
+Bridge Sukhumi-Babushara North West-FH74   100%   
+Bridge Sukhumi-Babushara North-FH74        100%   
+Bridge Tagrskiy-FH08                       100%   
+Bridge Tsalkoti-EJ80                       100%   
+Bridge Uazabaa-FH66                        100%   
+Bridge Vartsihe-LM16                       100%   
+Bridge West Gantiadi-EJ80                  100%   
+Bzyb Train Station - FH18                  100%   
+Cargo convoy 1                             100%   
+Cargo convoy 2                             100%   
+EWR 1 501                                  100%   
+EWR 2 502                                  100%   
+EWR 3 503                                  33%    (-66%)
+Gudauta Airbase                            100%   
+Gudauta Train Station - FH37               100%   
+Gumista Train Station - FH56               100%   
+Kobuleti Airbase                           100%   
+Kobuleti Train Station - GG44              100%   
+Kutaisi Air Supply Base                    100%   
+Kutaisi Airbase                            100%   
+Kutaisi Russian Army Depot                 100%   
+Kvemo-Merheuli Train Station - FH66        100%   
+Leselidze Train Station - EJ80             100%   
+Novyy Afon Train Station - FH57            100%   
+Rail Bridge Akvara-FH18                    100%   
+Rail Bridge Dapnari-KM76                   100%   
+Rail Bridge East Gantiadi-EJ80             100%   
+Rail Bridge Grebeshok-EH99                 100%   
+Rail Bridge Gudauta-FH27                   100%   
+Rail Bridge Gumista East-FH56              100%   
+Rail Bridge Gumista West-FH56              100%   
+Rail Bridge Kul tubani-EJ80                100%   
+Rail Bridge Kvemo-Merheuli North-FH65      100%   
+Rail Bridge Kvemo-Merheuli-FH65            100%   
+Rail Bridge Mugudzyrhva-FH28               100%   
+Rail Bridge Nizh Armyanskoe Uschele-FH47   100%   
+Rail Bridge North Geguti-LM17              100%   
+Rail Bridge Patara-Poti-GG27               100%   
+Rail Bridge Primorskoe-FH37                100%   
+Rail Bridge Pshap-FH75                     100%   
+Rail Bridge Sukhumi-Babushara North-FH74   100%   
+Rail Bridge Tagiloni-GH21                  100%   
+Rail Bridge Tsalkoti-EJ80                  100%   
+Rail Bridge West Gantiadi-EJ80             100%   
+SA-10 Grumble Site C1                      0%     (-100%)
+SA-2 Guideline Site C1                     100%   
+SA-2 Guideline Site N1                     100%   
+SA-2 Guideline Site N2                     0%     (-100%)
+SA-2 Guideline Site S1                     100%   
+SA-2 Guideline Site Tbilisi                100%   
+SA-3 Goa Site Batumi                       100%   
+SA-3 Goa Site Gudauta                      100%   
+SA-3 Goa Site Kutaisi                      100%   
+SA-6 Gainful Site Kobuleti                 100%   
+SA-6 Gainful Site Senaki                   100%   
+Senaki Airbase                             100%   
+Senaki-Kolkhi Train Station - KM58         100%   
+Sukhumi Airbase                            100%   
+Sukhumi Airbase Strategics                 100%   
+Sukhumi Russian Army Depot                 100%   
+Sukhumi Train Station - FH66               100%   
+Sukhumi-Babushara Train Station - FH74     100%   
+Tbilisi Airbase                            100%   
+Tbilisi High Value Target                  100%   
+Zugdidi Power Supply Complex               100%   
+
+
+Blue Ground Assets:
+LHA-Group   100%   
+TF-71       100%   
+TF-74       100%   
+
+
+
+Scoreboard:
+-----------
+
+Name     Missions     Kills Air     Kills Ground     Kills Ship     Crashed     Ejected     Dead
+CEF      1 (+1)       0             0                0              1 (+1)      0           1 (+1)

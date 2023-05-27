@@ -1,0 +1,96 @@
+June 24, 2004, 10:05: 
+
+Cyprus Defense Force 3 is still moving
+
+Cyprus Defense Force 4 is still moving
+
+Turkish naval forces are shipping reinforcement to Cyprus. One convoy is near Kyrenia port in North Cyprus
+
+Cyprus Defense Force 5 is still moving
+
+A Turkish artillery battery is pounding Lakatamia Airbase, it seems to move often so it will be difficult to localize it
+
+Cyprus Defense Force 2 is still moving
+
+Cyprus Defense Force 1 is still moving
+
+Heavy Turkish column 1 is still moving
+
+Greek naval forces are shipping reinforcement to Cyprus.
+
+June 24, 2004, 10:05:
+
+A Turkish artillery battery is pounding Lakatamia Airbase, it seems to move often so it will be difficult to localize it
+
+Intel Update: North Cyprus-Turkish Force 1 has been reduced to 79%.
+
+June 24, 2004, 10:05:
+
+A Turkish artillery battery is pounding Lakatamia Airbase, it seems to move often so it will be difficult to localize it
+
+Intel Update: North Cyprus-Turkish Force 1 has been reduced to 79%.
+
+
+AirLift:
+
+The objective of the Ercan Airbase airlift is 95% of the 60000 Kg
+ 
+
+Order of Battle:
+
+Blue Air Units:
+Unit                                                Type         Base                     Lst    Dm    Rdy
+356th Tactical Transport Squadron    C-130       Kasteli Airbase    0       0      6
+EC 331                                             M-2000C    Paphos Airbase      39      0      7
+450 M-E/P-1                                     Mi-35P      FARP-London          5       0      6
+450 M-E/P-2                                     SA342M      FARP-Dallas          3       0      4
+
+
+Red Air Units:
+Unit            Type       Base                         Lst    Dm    Rdy
+222.Filo      C-130      Incirlik Airbase       5       0      6
+2nd KHA       AH-1W      Ercan Airbase            0       0      6
+2nd-2 KHA    AH-1W      FARP-Madrid               2       1      6
+134.Filo      F-5E-3    Gecitkale Airbase      23      0      5
+3rd KHA       UH-1H      Pinarbashi Airbase    7       0      6
+111.Filo      F-4E       Incirlik Airbase       30      1      9
+
+
+Red Ground Assets:
+- EWR-Deathstar (100%)
+- Ercan Airbase (91%)
+- Ercan Airbase Strategics (62%)
+- Gecitkale Airbase (100%)
+- Larnaca Turkish Assault Force 1 (83%)
+- North Cyprus-Turkish Force 1 (79%)
+- Pinarbashi Airbase (100%)
+- Pinarbashi Airbase Strategics (100%)
+- Turkish Air Defense Hawk battery (100%)
+- Turkish Artillery Force 1 (100%)
+- Turkish Naval Convoy 1 (100%)
+- Turkish Naval Convoy 2 (100%)
+
+
+Blue Ground Assets:
+- Cyprus Border Force 1 (100%)
+- Cyprus Border Force 2 (100%)
+- Cyprus Border Force 3 (100%)
+- Cyprus Border Force 4 (100%)
+- Cyprus Border Force 5 (100%)
+- Cyprus Border Force 6 (100%)
+- Cyprus Defense Force 1 (80%)
+- Cyprus Defense Force 2 (100%)
+- Cyprus Defense Force 3 (100%)
+- Cyprus Defense Force 4 (100%)
+- Cyprus Defense Force 5 (100%)
+- EWR-Eyeball (100%)
+- Greek Expeditionary Force 4 (100%)
+- Greek Naval Convoy (100%)
+- Greek Naval Convoy 2 (100%)
+- Lakatamia Airbase (100%)
+- Lakatamia Airbase Strategics (100%)
+- Larnaca Cyprus defenses (100%)
+- Paphos Airbase (100%)
+- Paphos Airbase Strategics (100%)
+
+

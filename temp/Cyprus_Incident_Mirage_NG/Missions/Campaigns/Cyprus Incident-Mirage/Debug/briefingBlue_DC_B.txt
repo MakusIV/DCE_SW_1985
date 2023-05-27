@@ -1,0 +1,86 @@
+Air Tasking Order:
+Sorties Mission              TOT
+3       North Cyprus Force 4 07:38:10
+6       North Cyprus Force 2 07:00:02
+
+
+
+
+
+
+
+_________________________________________ BRIEFING Part: _______________________________________
+__________________________________ Mi-24P 450 M-E/P-1 Strike __________________________________
+________________________________________________________________________________________________
+
+You are tasked to strike North Cyprus Force 2 with a Time On Target of 07:00.
+
+Target:
+North Cyprus Force 2 (100%)
+- NCF 2-1
+- NCF 2-2
+- NCF 2-3
+- NCF 2-4
+- NCF 2-5
+- NCF 2-6
+- NCF 2-7
+- NCF 2-8
+- NCF 2-9
+- NCF 2-10
+- NCF 2-11
+- NCF 2-12
+- NCF 2-13
+- NCF 2-14
+- NCF 2-15
+- NCF 2-16
+
+
+Package:
+Task     Num Type     Base                Callsign
+Strike   4   Mi-24P   Lakatamia Airbase   111     (player)
+Strike   2   Mi-24P   Lakatamia Airbase   121     
+
+
+Flight:
+CallSign    Designated aircraft number 
+111       033
+112       039
+113       037
+114       068
+
+
+Bullseye:
+ bullseye Name Wujah Al Hajar Airbase 
+
+
+Flightplan:
+WP  Descr       Altitute   Speed     ETA
+0   Departure   0 m AGL    0 kph     06:58:06
+1   Join        50 m AGL   190 kph   06:58:07
+2   IP          50 m AGL   190 kph   06:58:07
+3   Target      50 m AGL   190 kph   07:00:02
+4   Egress      50 m AGL   190 kph   07:02:26
+5   Split       50 m AGL   190 kph   07:03:53
+6   Land        50 m AGL   190 kph   07:08:26
+
+
+Radio Navigation:
+Base: Lakatamia Airbase
+Divert: Larnaca Airbase VOR: 112.80 NDB: 432 ILS: RWY 228/110.80
+
+
+Communication:
+
+Package:                        302.200 MHz   Radio 1 / Channel 0   
+ATC:        Lakatamia Airbase   251.900 MHz   Radio 1 / Channel 1   
+Divert:     Larnaca Airbase     251.850 MHz   Radio 1 / Channel 2   
+Strike:     101                 118.750 MHz   Radio 1 / Channel 3   
+Strike:     111                 302.200 MHz   Radio 1 / Channel 4   
+
+
+
+
+Meteo:
+Good flying weather due to influence of a high pressure system in theater of operations, expected to remain dominant for next 2 days. 
+
+METAR 210633 29002MPS CAVOK NSW SKC Q1037=

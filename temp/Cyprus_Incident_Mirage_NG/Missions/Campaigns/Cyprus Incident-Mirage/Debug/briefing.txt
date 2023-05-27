@@ -1,0 +1,100 @@
+Air Tasking Order:
+Sorties Mission                      TOT
+2       North Cyprus-Turkish Force 1 10:26:07
+
+
+
+
+
+
+
+_________________________________________ BRIEFING Part: _______________________________________
+____________________________________ M-2000C EC 331 Strike ____________________________________
+________________________________________________________________________________________________
+
+You are tasked to strike North Cyprus-Turkish Force 1 with a Time On Target of 10:26.
+
+Target:
+North Cyprus-Turkish Force 1 (79%)
+- NCTF 1-1
+- NCTF 1-2
+- NCTF 1-3
+- NCTF 1-4
+- NCTF 1-5
+- NCTF 1-6
+- NCTF 1-7 (destroyed)
+- NCTF 1-8 (destroyed)
+- NCTF 1-9 (destroyed)
+- NCTF 1-10 (destroyed)
+- NCTF 1-11 (destroyed)
+- NCTF 1-12
+- NCTF 1-13
+- NCTF 1-14
+- NCTF 1-15
+- NCTF 1-16
+- NCTF 1-17
+- NCTF 1-18
+- NCTF 1-19
+- NCTF 1-20
+- NCTF 1-21
+- NCTF 1-22
+- NCTF 1-23
+- NCTF 1-24
+
+
+Package:
+Task     Num Type      Base             Callsign 
+Strike   2   M-2000C   Paphos Airbase   Ford71   (player)
+
+
+Flight:
+CallSign    Designated aircraft number 
+Ford71       099
+Ford72       049
+
+
+Bullseye:
+ bullseye Name Naqoura Airbase 
+
+
+Flightplan:
+WP  Descr       Altitute    Speed      ETA            Cap   /   Dist   /   ETE  
+0   Departure   0 m AGL     0 kph      10:20      Departure
+1   Join        310 m AGL   660 kph    10:21      Join   057  /   16 KM /   1 mn
+2   Nav         310 m AGL   880 kph    10:24      Nav    057  /   45 KM /   3 mn
+3   IP          200 m AGL   880 kph    10:24      IP     057  /    1 KM /   0 mn
+4   Target      0 m AGL     1260 kph   10:26      Target 057  /   32 KM /   1 mn
+5   Egress      200 m AGL   1260 kph   10:28      Egress 327  /   43 KM /   2 mn
+6   Nav         310 m AGL   880 kph    10:28      Nav    212  /    2 KM /   0 mn
+7   Split       310 m AGL   880 kph    10:33      Split  212  /   86 KM /   6 mn
+8   Land        20 m AGL    880 kph    10:35      Land   212  /   16 KM /   1 mn
+
+                                                           TOTAL   263 KM /  00:14
+
+
+Radio Navigation:
+Base: Paphos Airbase VOR: 117.90 NDB: 328 ILS: RWY 294/108.90
+Divert: Akrotiri Airbase TACAN: 107X-116.00 NDB: 365 ILS: RWY 291/109.70
+Divert: FARP-London
+Divert: Lakatamia Airbase
+
+
+Communication:
+
+Package:                        322.900 MHz   Radio 1 / Channel 1   
+ATC:        Paphos Airbase      251.800 MHz   Radio 2 / Channel 1   
+EWR:        Eyeball             295.050 MHz   Radio 2 / Channel 2   
+Divert:     Akrotiri Airbase    251.800 MHz   Radio 2 / Channel 3   
+Divert:     FARP-London         129.500 MHz   Radio 2 / Channel 4   
+Divert:     Lakatamia Airbase   251.900 MHz   Radio 2 / Channel 5   
+Strike:     Ford71              322.900 MHz   Radio 2 / Channel 6   
+
+
+
+
+Meteo:
+Good flying weather due to influence of a high pressure system in theater of operations, expected to remain in effect for next 17 hours. 
+
+METAR 241005 31003MPS CAVOK NSW SKC Q1026=
+
+\n\nDictKey_descriptionRedTask_2

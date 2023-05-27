@@ -1,0 +1,47 @@
+campaign = 
+{
+    ["startStage"] = 1,
+    ["picture"] = "TF-71-Harrier.png",	
+    ["name"] = "TF-71-Harrier",
+    ["description"] = "Georgia has been invaded by russian forces in few days despite courageous fight of poor trained Georgian ground forces. United Nations were not able to stop russians invasion and the United States of America decided to do something to convince Russia to remove its forces from Georgia. Turkish government was not ready to open his bases to US attack planes and only Navy Task Forces can be sent near Georgian coasts to show Russia they have to leave Georgian country. AV-8B NA Harrier of the VMA-311 based on LHA-Tarawa will be part of Task Force 71.",
+    ["necessaryUnits"] = {},
+    ["stages"] = 
+    {
+        [1] = 
+        {
+            ["name"] = "Stage 1",
+            ["missions"] = 
+            {
+                [1] = 
+                {
+                    ["interval"] = 
+                    {
+                        [1] = 50,
+                        [2] = 100,
+                    }, -- end of ["interval"]
+                    ["file"] = "TF-71-Harrier_first.miz",
+                    ["description"] = "",
+                    ---["fullpath"] = "C:\\Mods\\tech\\DCE\\Missions\\Campaigns\\",
+                }, -- end of [1]
+            }, -- end of ["missions"]
+        }, -- end of [1]
+        [2] = 
+        {
+            ["name"] = "Stage 2",
+            ["missions"] = 
+            {
+                [1] = 
+                {
+                    ["interval"] = 
+                    {
+                        [1] = 0,
+                        [2] = 100,
+                    }, -- end of ["interval"]
+                    ["file"] = "TF-71-Harrier_ongoing.miz",
+                    ["description"] = "",
+                    ---["fullpath"] = "C:\\Mods\\tech\\DCE\\Missions\\Campaigns\\",
+                }, -- end of [1]
+            }, -- end of ["missions"]
+        }, -- end of [2]
+    }, -- end of ["stages"]
+} -- end of campaign
