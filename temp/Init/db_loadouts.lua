@@ -101,6 +101,18 @@ db_loadouts = {
 	-- C101 Aviojet 1980
 	-- F-117A 1983
 
+
+	--GBU-31 no
+	--AIM-120B, C no
+	--AIM-120 (uso1988, primo lancio e prblemi produzione 1984)
+	--AIM-9R 1986 si
+	--AN/ALQ-131 1970? SI
+	--GBU-27 1987 SI
+	-- AN/AAQ 28 NO
+	--AIM-54A Mk47, Mk60 SI
+	--AIM-54C Mk47, Mk60 SI
+	--AN/ASQ-T50
+
 	--devi ridefinire i loadouts tramite ME
 
     -- Nato
