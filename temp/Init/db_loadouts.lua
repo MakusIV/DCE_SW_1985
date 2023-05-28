@@ -92,13 +92,14 @@ db_loadouts = {
 	-- SA-342 Gazelle (1978-2000 (sistemi d'arma)?)
 	-- Harrier AV-8B 1985
 	-- F-18? NO
-	-- A-10A II 1977
+	-- A-10A II 1977 SI
 	
 	-- F-16C 1984
 	-- Mirage 2000C 1982(?)
 	-- F-15C - 1976
 	-- F-15E Strike Eagle - 1986
 	-- C101 Aviojet 1980
+	-- OH-58D 1983 si
 	-- F-117A 1983
 
 
@@ -111,7 +112,9 @@ db_loadouts = {
 	-- AN/AAQ 28 NO
 	--AIM-54A Mk47, Mk60 SI
 	--AIM-54C Mk47, Mk60 SI
-	--AN/ASQ-T50
+	--AN/ASQ-T50 boh?  SI
+	--Lantirn Pod 1987 SI
+	--AGM-114 Hellfire 1984 SI
 
 	--devi ridefinire i loadouts tramite ME
 
@@ -11429,6 +11432,12 @@ db_loadouts = {
 	-- Su-25T 1991 NO
 	-- Mig-31 1982 SI
 	-- Ka-50 1995 NO
+	-- Tu-142 1980 SI
+	-- Tu-160 1993 NO
+
+	-- Kh-35 2003(?) NO
+	-- Kh-65 NO
+	--Kh-55 SI
 
 	["SA342M"] = { --Syria
 		["Strike"] = {
