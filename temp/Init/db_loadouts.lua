@@ -93,11 +93,16 @@ db_loadouts = {
 	--  F-16A, F-4E possono effettuare Laser Illumination
 	--  AJS 37 Viggen: Laser, Flare Illumination e SEAD con altro missile idoneo
 	--  S-3B Laser, SEAD
-	--  F-5E Laser, Flare
+	--  F-5E, Mig-21, Su-17, Mig-27, Mig-19, L-39C Laser, Flare
+	--  Verifica se Mig-25PD ha altri missili
+	--  verifica altre versioni L-39
+	--  riverifica armamento Tu-142
+	-- RIVERIFICA IL LOADOUT DEL F-15c CAP, ESCORT, ... AIM-7M*4, AIM-7MH*3 E AIM-9*2? 
 
 	-- verifica/inserisci se presente role="attacker", "bomber"
 	-- inserisci weapon = []
 	-- verifica/ridefinisci attribute = {}
+	-- VERIFICA SE E COME VIENE GESTITA PER I LOADOUT LA PROPRIETA' coalition = "red", "blue"
 
 
 	-- UH-60 --1974 (primo volo) 1978 (entrata in servizio)
@@ -129,12 +134,14 @@ db_loadouts = {
 	-- GBU-27 1987 SI
 	-- GBU-16 1976 SI
 	-- AN/AAQ 28 NO
-	-- AIM-54A Mk47, Mk60 SI
-	-- AIM-54C Mk47, Mk60 SI
+	-- AIM-54A Mk47, Mk60 1974, 1975SI
+	-- AIM-54C Mk47, Mk60 1986 SI
 	-- AN/ASQ-T50 boh?  SI
 	-- Lantirn Pod 1987 SI
 	-- AGM-114 Hellfire 1984 SI
 	-- RB 15F (RBS-15 Antiship) 1985 SI
+	-- GBU-27 Paveway II 1985/87 SI
+	-- GBU-24 Paveway I 1983 SI
 
 	--devi ridefinire i loadouts tramite ME
 
@@ -589,6 +596,10 @@ db_loadouts = {
 		["Intercept"] = {
 			["Day, MagicII*2, S-530D*2, FT*1"] = {
 				attributes = {},
+				weapons = {-- task dedicated weapons
+					["R-550"] = 2,
+					["R-530EM"] = 2,					
+				},
 				weaponType = nil,
 				expend = nil,
 				day = true,
@@ -607,48 +618,52 @@ db_loadouts = {
 				-- --- self_escort = true,
 				sortie_rate = 10,
 				stores = {
-				["pylons"] = 
-				{
-					[9] = 
+					["pylons"] = 
 					{
-						["CLSID"] = "{MMagicII}",
-						["num"] = 9,
+						[9] = 
+						{
+							["CLSID"] = "{MMagicII}",
+							["num"] = 9,
+						},
+						[1] = 
+						{
+							["CLSID"] = "{MMagicII}",
+							["num"] = 1,
+						},
+						[8] = 
+						{
+							["CLSID"] = "{Matra_S530D}",
+							["num"] = 8,
+						},
+						[2] = 
+						{
+							["CLSID"] = "{Matra_S530D}",
+							["num"] = 2,
+						},
+						[5] = 
+						{
+							["CLSID"] = "{M2KC_RPL_522}",
+							["num"] = 5,
+						},
+						[10] = {
+						["CLSID"] = "{Eclair}",
+						["num"] = 10,
+						},					
 					},
-					[1] = 
-					{
-						["CLSID"] = "{MMagicII}",
-						["num"] = 1,
-					},
-					[8] = 
-					{
-						["CLSID"] = "{Matra_S530D}",
-						["num"] = 8,
-					},
-					[2] = 
-					{
-						["CLSID"] = "{Matra_S530D}",
-						["num"] = 2,
-					},
-					[5] = 
-					{
-						["CLSID"] = "{M2KC_RPL_522}",
-						["num"] = 5,
-					},
-					[10] = {
-					["CLSID"] = "{Eclair}",
-					["num"] = 10,
-					},					
-				},
-				["fuel"] = 3165,
-				["flare"] = 48,
-				["chaff"] = 112,
-				["gun"] = 100,
+					["fuel"] = 3165,
+					["flare"] = 48,
+					["chaff"] = 112,
+					["gun"] = 100,
 				},
 			},
 		},
 		["CAP"] = {
 			["Day, MagicII*2, S-530D*2, FT*1"] = {
 				attributes = {"Air Forces"},
+				weapons = {-- task dedicated weapons
+					["R-550"] = 2,
+					["R-530EM"] = 2,					
+				},
 				weaponType = nil,
 				expend = nil,
 				day = true,
@@ -709,6 +724,12 @@ db_loadouts = {
 		["Escort"] = {
 			["MagicII*2, S-530D*2, FT*1"] = {
 				attributes = {},
+				role = "escort_bomber",
+				role_altitude = "normal",
+				weapons = {-- task dedicated weapons
+					["R-550"] = 2,
+					["R-530M"] = 2,					
+				},
 				weaponType = nil,
 				expend = nil,
 				day = true,
@@ -769,6 +790,10 @@ db_loadouts = {
 		["Fighter Sweep"] = {
 			["MagicII*2, S-530D*2, FT*1"] = {
 				attributes = {},
+				weapons = {-- task dedicated weapons
+					["R-550"] = 2,
+					["R-530M"] = 2,					
+				},
 				weaponType = nil,
 				expend = nil,
 				day = true,
@@ -828,7 +853,9 @@ db_loadouts = {
 		},
 		["Strike"] = {
 			["GBU-16*1, MagicII*2, FT*2"] = {
-			 minscore = 0.3,
+			 	minscore = 0.3,
+				role = "attacker",
+				role_altitude = "normal",
 				 support = {
 					["Escort"] = true,
 					["SEAD"] = true,
@@ -836,6 +863,10 @@ db_loadouts = {
 				},
 				attributes = {"Bridge", "Structure"},
 				weaponType = "Guided bombs",
+				weapons = {-- task dedicated weapons
+					["R-550"] = 2,
+					["GBU-16"] = 1,					
+				},
 				expend = "Auto",
 				day = true,
 				night = false,
@@ -887,6 +918,8 @@ db_loadouts = {
 			},
 			["GBU-12*4, MagicII*2, FT*2"] = {
 				minscore = 0.3,
+				role = "attacker",
+				role_altitude = "normal",
 				support = {
 					["Escort"] = true,
 					["SEAD"] = true,
@@ -894,6 +927,10 @@ db_loadouts = {
 				},
 				attributes = {"Bridge"},
 				weaponType = "Guided bombs",
+				weapons = {-- task dedicated weapons
+					["R-550"] = 2,
+					["GBU-12"] = 4,					
+				},
 				expend = "Auto",
 				day = true,
 				night = false,
@@ -945,9 +982,15 @@ db_loadouts = {
 			},			
 			["MR, Mk-82*4, MagicII*2, FT*2"] = {
 				minscore = 0.3,
+				role = "attacker",
+				role_altitude = "normal",
 				support = {
 					["Escort"] = true,
 					["SEAD"] = true,
+				},
+				weapons = {-- task dedicated weapons
+					["R-550"] = 2,
+					["Mk-82"] = 4,					
 				},
 				attributes = {"soft", "Parked Aircraft", "SAM"},
 				weaponType = "Bombs",
@@ -1014,11 +1057,17 @@ db_loadouts = {
 			},
 			["SR, Mk-82*8, MagicII*2, FT*1"] = {
 				minscore = 0.3,
+				role = "attacker",
+				role_altitude = "normal",
 				support = {
 					["Escort"] = true,
 					["SEAD"] = true,
 				},
 				attributes = {"soft", "Parked Aircraft", "SAM"},
+				weapons = {-- task dedicated weapons
+					["R-550"] = 2,
+					["Mk-82"] = 8,					
+				},
 				weaponType = "Bombs",
 				expend = "All",
 				day = true,
@@ -1087,11 +1136,17 @@ db_loadouts = {
 			},
 			["OCA, MR, Mk-82*4, MagicII*2, FT*2"] = {
 				minscore = 0.3,
+				role = "attacker",
+				role_altitude = "normal",
 				support = {
 					["Escort"] = true,
 					["SEAD"] = true,
 				},
 				attributes = {"Parked Aircraft"},
+				weapons = {-- task dedicated weapons
+					["R-550"] = 2,
+					["Mk-82"] = 4,					
+				},
 				weaponType = "Bombs",
 				expend = "All",
 				day = true,
@@ -1156,11 +1211,17 @@ db_loadouts = {
 			},
 			["Mk-82*4, MagicII*2, FT*2"] = {
 				minscore = 0.3,
+				role = "attacker",
+				role_altitude = "normal",
 				support = {
 					["Escort"] = true,
 					["SEAD"] = true,
 				},
 				attributes = {"Bridge"},
+				weapons = {-- task dedicated weapons
+					["R-550"] = 2,
+					["Mk-82"] = 4,					
+				},
 				weaponType = "Bombs",
 				expend = "All",
 				day = true,
@@ -1293,8 +1354,13 @@ db_loadouts = {
 					["gun"] = 100,
 				},
 			},]]
-			["Intercept AIM-7M*2, AIM-7M*2H, AIM-9M*4, Fuel*1"] = {
+			["Intercept AIM-7M*2, AIM-7MH*2, AIM-9M*4, Fuel*1"] = {
 				attributes = {},
+				weapons = {-- task dedicated weapons
+					["AIM-7M"] = 2,
+					["AIM-7MH"] = 2,					
+					["AIM-9M"] = 4,
+				},
 				weaponType = nil,
 				expend = nil,
 				day = true,
@@ -1434,8 +1500,12 @@ db_loadouts = {
 				["gun"] = 100,
 				},
 			},]]
-			["CAP-Escort AIM-7MH*4, AIM-7M*4, AIM-9M, Fuel*3"] = {
+			["CAP-Escort AIM-7MH*4, AIM-9M*2, Fuel*3"] = {
 				attributes = {"Air Forces"},
+				weapons = {-- task dedicated weapons
+					["AIM-7MH"] = 4,					
+					["AIM-9M"] = 2,
+				},
 				weaponType = nil,
 				expend = nil,
 				day = true,
@@ -1582,8 +1652,14 @@ db_loadouts = {
 				["gun"] = 100,
 				},
 			},]]
-			["CAP-Escort AIM-7MH*4, AIM-7M*4, AIM-9M, Fuel*3"] = {
+			["CAP-Escort AIM-7MH*4, AIM-9M*2, Fuel*3"] = {
 				attributes = {"Air Forces"},
+				role = "escort_bomber",
+				role_altitude = "normal",
+				weapons = {-- task dedicated weapons
+					["AIM-7MH"] = 4,					
+					["AIM-9M"] = 2,
+				},
 				weaponType = nil,
 				expend = nil,
 				day = true,
@@ -1730,8 +1806,12 @@ db_loadouts = {
 				["gun"] = 100,
 				},
 			},]]
-			["CAP-Escort AIM-7MH*4, AIM-7M*4, AIM-9M, Fuel*3"] = {
+			["CAP-Escort AIM-7MH*4, AIM-9M, Fuel*3"] = {
 				attributes = {"Air Forces"},
+				weapons = {-- task dedicated weapons
+					["AIM-7MH"] = 4,					
+					["AIM-9M"] = 2,
+				},
 				weaponType = nil,
 				expend = nil,
 				day = true,
@@ -1797,10 +1877,10 @@ db_loadouts = {
 							["CLSID"] = "{6CEB49FC-DED8-4DED-B053-E1F033FF72D3}",
 						}, -- end of [11]
 					}, -- end of ["pylons"]
-				["fuel"] = "6103",
-				["flare"] = 60,
-				["chaff"] = 120,
-				["gun"] = 100,
+					["fuel"] = "6103",
+					["flare"] = 60,
+					["chaff"] = 120,
+					["gun"] = 100,
 				},
 			},
 		},		
@@ -1810,6 +1890,10 @@ db_loadouts = {
 		["Intercept"] = {
 			["Intercept AIM-9P5*4, AIM-9M*2, ECM"] = {
 				attributes = {},
+				weapons = {-- task dedicated weapons
+					["AIM-9P5"] = 4,					
+					["AIM-9M"] = 2,
+				},
 				weaponType = nil,
 				expend = nil,
 				day = true,
@@ -1869,6 +1953,10 @@ db_loadouts = {
 		["CAP"] = {
 			["CAP-Escort AIM-9P5*4, AIM-9M*2, ECM, Fuel*2"] = {
 				attributes = {"Air Forces"},
+				weapons = {-- task dedicated weapons
+					["AIM-9P5"] = 4,					
+					["AIM-9M"] = 2,
+				},
 				weaponType = nil,
 				expend = nil,
 				day = true,
@@ -1935,7 +2023,13 @@ db_loadouts = {
 		},
 		["Escort"] = {
 			["CAP-Escort AIM-9P5*4, AIM-9M*2, ECM, Fuel*2"] = {
+				role = "escort_attacker",
+				role_altitude = "normal",
 				attributes = {},
+				weapons = {-- task dedicated weapons
+					["AIM-9P5"] = 4,					
+					["AIM-9M"] = 2,
+				},
 				weaponType = nil,
 				expend = nil,
 				day = true,
@@ -2003,6 +2097,10 @@ db_loadouts = {
 		["Fighter Sweep"] = {
 			["CAP-Escort AIM-9P5*4, AIM-9M*2, ECM, Fuel*2"] = {
 				attributes = {},
+				weapons = {-- task dedicated weapons
+					["AIM-9P5"] = 4,					
+					["AIM-9M"] = 2,
+				},
 				weaponType = nil,
 				expend = nil,
 				day = true,
@@ -2070,11 +2168,17 @@ db_loadouts = {
 		["Strike"] = {
 			["Strike AIM-9P*2, Mk-82*6, ECM, Fuel*2"] = {
 				minscore = 0.2,
+				role = "attacker",
+				role_altitude = "normal",
 				support = {
 					["Escort"] = true,
 					["SEAD"] = true,
 				},
 				attributes = {"Structure", "Bridge"},
+				weapons = {-- task dedicated weapons
+					["AIM-9P"] = 2,					
+					["Mk-82"] = 6,
+				},
 					weaponType = "Guided bombs",
 					expend = "Auto",
 					day = true,
@@ -2131,11 +2235,17 @@ db_loadouts = {
 			},
 			["Strike Bombs AIM-9M*2, Mk-84*2, ECM, Fuel*2"] = {
 				minscore = 0.2,
+				role = "attacker",
+				role_altitude = "normal",
 				support = {
 					["Escort"] = true,
 					["SEAD"] = true,
 				},
 				attributes = {"Structure", "Bridge"},
+				weapons = {-- task dedicated weapons
+					["AIM-9M"] = 2,					
+					["Mk-84"] = 2,
+				},
 					weaponType = "Guided bombs",
 					expend = "Auto",
 					day = true,
@@ -2193,9 +2303,15 @@ db_loadouts = {
 			},	
 			["Pinpoint Strike, bombs, AIM-9P*2, GBU-10*2, ECM, Lantirn, Fuel*2"] = {
 				minscore = 0.2,
+				role = "attacker",
+				role_altitude = "normal",
 				support = {
 					["Escort"] = true,
 					["SEAD"] = true,
+				},
+				weapons = {-- task dedicated weapons
+					["AIM-9P"] = 2,					
+					["GBU-10"] = 2,
 				},
 				attributes = {"Structure", "Bridge"},
 					weaponType = "Guided bombs",
@@ -2264,11 +2380,16 @@ db_loadouts = {
 		["Strike"] = {
 			["Pinpoint Strike  GBU-10*2"] = {
 				minscore = 0.3,
+				role = "bomber",
+				role_altitude = "low",
 				support = {
 					["Escort"] = true,
 					["SEAD"] = true,
 				},
 				attributes = {"Structure", "Bridge"},
+				weapons = {-- task dedicated weapons				
+					["GBU-10"] = 2,
+				},
 				weaponType = "Guided bombs",
 				expend = "All",
 				day = false,
@@ -2303,13 +2424,18 @@ db_loadouts = {
 					["gun"] = 100,
 				},
 			},
-			["Pinpoint Hard Strike  GBU-27*2"] = {
+			["Pinpoint Hard Strike  GBU-27*2"] = { --GBU-27 1987
 				minscore = 0.3,
+				role = "bomber",
+				role_altitude = "low",
 				support = {
 					["Escort"] = true,
 					["SEAD"] = true,
 				},
 				attributes = {"Structure", "Bridge"},
+				weapons = {-- task dedicated weapons				
+					["GBU-27"] = 2, --1987 (deriva dalla BLU-109 del 1985)
+				},
 				weaponType = "Guided bombs",
 				expend = "All",
 				day = false,
@@ -2466,7 +2592,7 @@ db_loadouts = {
 				night = true,
 				adverseWeather = true,
 				range = 500000,
-				capability = 6,
+				capability = 7,
 				firepower = 1, --8, -- = evaluate_weapon_firepower(weapon = "AIM-54A-MK60", quantity = 4) + evaluate_weapon_firepower(weapon = "AIM-7M", quantity = 2) + evaluate_weapon_firepower(weapon = "AIM-9M", quantity = 2)
 				vCruise = nil,
 				vAttack = nil,
@@ -2544,9 +2670,9 @@ db_loadouts = {
 			["Intercept AIM-54C-Mk47*4, AIM-7MH*2, AIM-9M*1, Fuel *2"] = {
 				attributes = {},
 				weapons = {-- task dedicated weapons
-					["AIM-54A-MK60"] = 4,
-					["AIM-7M"] = 2,
-					["AIM-9M"] = 2,
+					["AIM-54C-MK47"] = 4,
+					["AIM-7MH"] = 2,
+					["AIM-9M"] = 1,
 				},
 				weaponType = nil,
 				expend = nil,
@@ -2630,10 +2756,101 @@ db_loadouts = {
 					["LGB1000"] = 1,
 				},
 			},
+			["IRAN TF-Old-AIM-54A-MK60*4, AIM-7M*2, AIM-9M*2, XT*2"] = {
+				attributes = {},
+				coalition = "red",
+				weapons = {-- task dedicated weapons
+					["AIM-54A-MK60"] = 4,
+					["AIM-7M"] = 2, --cambia in F se possibile
+					["AIM-9M"] = 2,
+				},
+				weaponType = nil,
+				expend = nil,
+				day = true,
+				night = true,
+				adverseWeather = true,
+				range = 500000,
+				capability = 7,
+				firepower = 1, --8, -- = evaluate_weapon_firepower(weapon = "AIM-54A-MK60", quantity = 4) + evaluate_weapon_firepower(weapon = "AIM-7M", quantity = 2) + evaluate_weapon_firepower(weapon = "AIM-9M", quantity = 2)
+				vCruise = nil,
+				vAttack = nil,
+				hCruise = nil,
+				hAttack = nil,
+				standoff = nil,
+				tStation = nil,
+				LDSD = true,
+				self_escort = true,
+				sortie_rate = 4,
+				stores = {
+					["pylons"] = {
+						[10] = {
+							["CLSID"] = "{LAU-138 wtip - AIM-9M}",
+							["num"] = 10,
+						},
+						[9] = {
+							["CLSID"] = "{SHOULDER AIM-7MH}",
+							["num"] = 9,
+						},
+						[8] = {
+							["CLSID"] = "{F14-300gal}",
+							["num"] = 8,
+						},
+						[7] = {
+							["CLSID"] = "{AIM_54A_Mk60}",
+							["num"] = 7,
+						},
+						[6] = {
+							["CLSID"] = "{AIM_54A_Mk60}",
+							["num"] = 6,
+						},
+						[5] = {
+							["CLSID"] = "{AIM_54A_Mk60}",
+							["num"] = 5,
+						},
+						[4] = {
+							["CLSID"] = "{AIM_54A_Mk60}",
+							["num"] = 4,
+						},
+						[3] = {
+							["CLSID"] = "{F14-300gal}",
+							["num"] = 3,
+						},
+						[2] = {
+							["CLSID"] = "{SHOULDER AIM-7MH}",
+							["num"] = 2,
+						},
+						[1] = {
+							["CLSID"] = "{LAU-138 wtip - AIM-9M}",
+							["num"] = 1,
+						},
+					}, ----end of ["pylons"]
+					["fuel"] = "7348",
+					["flare"] = 60,
+					["chaff"] = 140,
+					["gun"] = 100,
+				},
+				AddPropAircraft =
+					{
+					["LGB100"] = 6,
+					["M61BURST"] = 0,
+					["IlsChannel"] = 11,				----preset ILS channel
+					["LGB1"] = 8,
+					["KY28Key"] = 1,
+					["TacanBand"] = 0,
+					["ALE39Loadout"] = 3,
+					["UseLAU138"] = true,
+					["LGB10"] = 8,
+					["INSAlignmentStored"] = true,		----fast alignment, remember to modify also the value: "startup_time_player" in this file
+					["TacanChannel"] = 37,				----preset TACAN channel
+					["LGB1000"] = 1,
+					},
+			},
 		},
 		["CAP"] = {
 			["TF-Old-AIM-54A-MK60*4, AIM-7M*2, AIM-9M*2, XT*2"] = {
 				attributes = {},
+				role = "escort_bomber",
+				role_altitude = "normal",
 				weapons = {-- task dedicated weapons
 					["AIM-54A-MK60"] = 4,
 					["AIM-7M"] = 2,
@@ -2645,7 +2862,189 @@ db_loadouts = {
 				night = true,
 				adverseWeather = true,
 				range = 500000,
-				capability = 8,
+				capability = 7,
+				firepower = 1, --8,  -- = evaluate_weapon_firepower(weapon = "AIM-54A-MK60", quantity = 4) + evaluate_weapon_firepower(weapon = "AIM-7M", quantity = 2) -- solo BVR(?)
+				vCruise = 213.83333333333,
+				vAttack = 213.83333333333,
+				hCruise = 10000,
+				hAttack = 10000,
+				standoff = 100300,
+				tStation = 3600,
+				LDSD = true,
+				self_escort = true,
+				sortie_rate = 2,
+				stores = {
+					["pylons"] = {
+						[10] = {
+							["CLSID"] = "{LAU-138 wtip - AIM-9M}",
+							["num"] = 10,
+						},
+						[9] = {
+							["CLSID"] = "{SHOULDER AIM-7MH}",
+							["num"] = 9,
+						},
+						[8] = {
+							["CLSID"] = "{F14-300gal}",
+							["num"] = 8,
+						},
+						[7] = {
+							["CLSID"] = "{AIM_54A_Mk60}",
+							["num"] = 7,
+						},
+						[6] = {
+							["CLSID"] = "{AIM_54A_Mk60}",
+							["num"] = 6,
+						},
+						[5] = {
+							["CLSID"] = "{AIM_54A_Mk60}",
+							["num"] = 5,
+						},
+						[4] = {
+							["CLSID"] = "{AIM_54A_Mk60}",
+							["num"] = 4,
+						},
+						[3] = {
+							["CLSID"] = "{F14-300gal}",
+							["num"] = 3,
+						},
+						[2] = {
+							["CLSID"] = "{SHOULDER AIM-7MH}",
+							["num"] = 2,
+						},
+						[1] = {
+							["CLSID"] = "{LAU-138 wtip - AIM-9M}",
+							["num"] = 1,
+						},
+					}, ----end of ["pylons"]
+					["fuel"] = "7348",
+					["flare"] = 60,
+					["chaff"] = 140,
+					["gun"] = 100,
+				},
+				AddPropAircraft =
+				{
+					["LGB100"] = 6,
+					["M61BURST"] = 0,
+					["IlsChannel"] = 11,				----preset ILS channel
+					["LGB1"] = 8,
+					["KY28Key"] = 1,
+					["TacanBand"] = 0,
+					["ALE39Loadout"] = 3,
+					["UseLAU138"] = true,
+					["LGB10"] = 8,
+					["INSAlignmentStored"] = true,		----fast alignment, remember to modify also the value: "startup_time_player" in this file
+					["TacanChannel"] = 37,				----preset TACAN channel
+					["LGB1000"] = 1,
+				},
+			},			
+			["CAP-Escort AIM-54C-Mk47*4, AIM-7P*2, AIM-9M*1, ACMI Pod, Fuel *2"] = {
+				attributes = {},
+				role = "escort_attacker",
+				role_altitude = "normal",
+				weapons = {-- task dedicated weapons
+					["AIM-54C-MK47"] = 4,
+					["AIM-7P"] = 2,
+					["AIM-9M"] = 1,
+				},
+				weaponType = nil,
+				expend = nil,
+				day = true,
+				night = true,
+				adverseWeather = true,
+				range = 500000,
+				capability = 9,
+				firepower = 1, --8,  -- = evaluate_weapon_firepower(weapon = "AIM-54A-MK60", quantity = 4) + evaluate_weapon_firepower(weapon = "AIM-7M", quantity = 2) -- solo BVR(?)
+				vCruise = 213.83333333333,
+				vAttack = 213.83333333333,
+				hCruise = 10000,
+				hAttack = 10000,
+				standoff = 100300,
+				tStation = 3600,
+				LDSD = true,
+				self_escort = true,
+				sortie_rate = 2,
+				stores = {
+					["pylons"] = 
+					{
+						[1] = 
+						{
+							["CLSID"] = "{LAU-138 wtip - AIM-9M}",
+						}, -- end of [1]
+						[2] = 
+						{
+							["CLSID"] = "{SHOULDER AIM-7P}",
+						}, -- end of [2]
+						[3] = 
+						{
+							["CLSID"] = "{F14-300gal}",
+						}, -- end of [3]
+						[4] = 
+						{
+							["CLSID"] = "{AIM_54C_Mk47}",
+						}, -- end of [4]
+						[5] = 
+						{
+							["CLSID"] = "{AIM_54C_Mk47}",
+						}, -- end of [5]
+						[6] = 
+						{
+							["CLSID"] = "{AIM_54C_Mk47}",
+						}, -- end of [6]
+						[7] = 
+						{
+							["CLSID"] = "{AIM_54C_Mk47}",
+						}, -- end of [7]
+						[8] = 
+						{
+							["CLSID"] = "{F14-300gal}",
+						}, -- end of [8]
+						[9] = 
+						{
+							["CLSID"] = "{SHOULDER AIM-7P}",
+						}, -- end of [9]
+						[10] = 
+						{
+							["CLSID"] = "{LAU-138 wtip - TCTS R}",
+						}, -- end of [10]
+					}, -- end of ["pylons"]
+					["fuel"] = 7348,
+					["flare"] = 60,
+					["ammo_type"] = 1,
+					["chaff"] = 140,
+					["gun"] = 100,
+				},
+				AddPropAircraft = {
+					["LGB100"] = 6,
+					["M61BURST"] = 0,
+					["IlsChannel"] = 11,				----preset ILS channel
+					["LGB1"] = 8,
+					["KY28Key"] = 1,
+					["TacanBand"] = 0,
+					["ALE39Loadout"] = 3,
+					["UseLAU138"] = true,
+					["LGB10"] = 8,
+					["INSAlignmentStored"] = true,		----fast alignment, remember to modify also the value: "startup_time_player" in this file
+					["TacanChannel"] = 37,				----preset TACAN channel
+					["LGB1000"] = 1,
+				},
+			},
+			["IRAN-TF-Old-AIM-54A-MK60*4, AIM-7M*2, AIM-9M*2, XT*2"] = {
+				attributes = {},
+				coalition = "red",
+				role = "escort_bomber",
+				role_altitude = "normal",
+				weapons = {-- task dedicated weapons
+					["AIM-54A-MK60"] = 4,
+					["AIM-7M"] = 2,
+					["AIM-9M"] = 2,
+				},
+				weaponType = nil,
+				expend = nil,
+				day = true,
+				night = true,
+				adverseWeather = true,
+				range = 500000,
+				capability = 7,
 				firepower = 1, --8,  -- = evaluate_weapon_firepower(weapon = "AIM-54A-MK60", quantity = 4) + evaluate_weapon_firepower(weapon = "AIM-7M", quantity = 2) -- solo BVR(?)
 				vCruise = 213.83333333333,
 				vAttack = 213.83333333333,
@@ -2720,96 +3119,6 @@ db_loadouts = {
 					["LGB1000"] = 1,
 				},
 			},
-
-			["CAP-Escort AIM-54C-Mk47*4, AIM-7P*2, AIM-9M*1, ACMI Pod, Fuel *2"] = {
-				attributes = {},
-				weapons = {-- task dedicated weapons
-					["AIM-54A-MK60"] = 4,
-					["AIM-7M"] = 2,
-					["AIM-9M"] = 2,
-				},
-				weaponType = nil,
-				expend = nil,
-				day = true,
-				night = true,
-				adverseWeather = true,
-				range = 500000,
-				capability = 8,
-				firepower = 1, --8,  -- = evaluate_weapon_firepower(weapon = "AIM-54A-MK60", quantity = 4) + evaluate_weapon_firepower(weapon = "AIM-7M", quantity = 2) -- solo BVR(?)
-				vCruise = 213.83333333333,
-				vAttack = 213.83333333333,
-				hCruise = 10000,
-				hAttack = 10000,
-				standoff = 100300,
-				tStation = 3600,
-				LDSD = true,
-				self_escort = true,
-				sortie_rate = 2,
-				stores = {
-					["pylons"] = 
-					{
-						[1] = 
-						{
-							["CLSID"] = "{LAU-138 wtip - AIM-9M}",
-						}, -- end of [1]
-						[2] = 
-						{
-							["CLSID"] = "{SHOULDER AIM-7P}",
-						}, -- end of [2]
-						[3] = 
-						{
-							["CLSID"] = "{F14-300gal}",
-						}, -- end of [3]
-						[4] = 
-						{
-							["CLSID"] = "{AIM_54C_Mk47}",
-						}, -- end of [4]
-						[5] = 
-						{
-							["CLSID"] = "{AIM_54C_Mk47}",
-						}, -- end of [5]
-						[6] = 
-						{
-							["CLSID"] = "{AIM_54C_Mk47}",
-						}, -- end of [6]
-						[7] = 
-						{
-							["CLSID"] = "{AIM_54C_Mk47}",
-						}, -- end of [7]
-						[8] = 
-						{
-							["CLSID"] = "{F14-300gal}",
-						}, -- end of [8]
-						[9] = 
-						{
-							["CLSID"] = "{SHOULDER AIM-7P}",
-						}, -- end of [9]
-						[10] = 
-						{
-							["CLSID"] = "{LAU-138 wtip - TCTS R}",
-						}, -- end of [10]
-					}, -- end of ["pylons"]
-					["fuel"] = 7348,
-					["flare"] = 60,
-					["ammo_type"] = 1,
-					["chaff"] = 140,
-					["gun"] = 100,
-				},
-				AddPropAircraft = {
-					["LGB100"] = 6,
-					["M61BURST"] = 0,
-					["IlsChannel"] = 11,				----preset ILS channel
-					["LGB1"] = 8,
-					["KY28Key"] = 1,
-					["TacanBand"] = 0,
-					["ALE39Loadout"] = 3,
-					["UseLAU138"] = true,
-					["LGB10"] = 8,
-					["INSAlignmentStored"] = true,		----fast alignment, remember to modify also the value: "startup_time_player" in this file
-					["TacanChannel"] = 37,				----preset TACAN channel
-					["LGB1000"] = 1,
-				},
-			},
 		},
 		["Escort"] = {
 			["TF-Old-AIM-54A-MK60*4, AIM-7M*2, AIM-9M*2, XT*2 role: ESCORT BOMBER @ NORMAL ALT"] = {
@@ -2828,7 +3137,7 @@ db_loadouts = {
 				night = true,
 				adverseWeather = true,
 				range = 500000,
-				capability = 8,
+				capability = 7,
 				firepower = 1, --8, --  = evaluate_weapon_firepower(weapon = "AIM-54A-MK60", quantity = 4) + evaluate_weapon_firepower(weapon = "AIM-7M", quantity = 2) + evaluate_weapon_firepower(weapon = "AIM-9M", quantity = 2)
 				vCruise = 200,
 				hCruise = 7000,
@@ -2899,7 +3208,7 @@ db_loadouts = {
 					["TacanChannel"] = 37,				----preset TACAN channel
 					["LGB1000"] = 1,
 				},
-			},
+			},			
 			["TF-Old-AIM-54A-MK60*4, AIM-7M*2, AIM-9M*2, XT*2 role: ESCORT ATTACKER @ NORMAL ALT"] = {
 				role = "escort_attacker",
 				role_altitude = "normal",
@@ -2916,7 +3225,7 @@ db_loadouts = {
 				night = true,
 				adverseWeather = true,
 				range = 500000,
-				capability = 8,
+				capability = 7,
 				firepower = 1, --8, --  = evaluate_weapon_firepower(weapon = "AIM-54A-MK60", quantity = 4) + evaluate_weapon_firepower(weapon = "AIM-7M", quantity = 2) + evaluate_weapon_firepower(weapon = "AIM-9M", quantity = 2)
 				vCruise = 200,
 				hCruise = 7000,
@@ -2990,10 +3299,12 @@ db_loadouts = {
 			},
 			["CAP-Escort AIM-54C-Mk47*4, AIM-7P*2, AIM-9M*1, ACMI Pod, Fuel *2"] = {
 				attributes = {},
+				role = "escort_bomber",
+				role_altitude = "normal",
 				weapons = {-- task dedicated weapons
-					["AIM-54A-MK60"] = 4,
-					["AIM-7M"] = 2,
-					["AIM-9M"] = 2,
+					["AIM-54C-MK47"] = 4,
+					["AIM-7P"] = 2,
+					["AIM-9M"] = 1,
 				},
 				weaponType = nil,
 				expend = nil,
@@ -3001,7 +3312,7 @@ db_loadouts = {
 				night = true,
 				adverseWeather = true,
 				range = 500000,
-				capability = 8,
+				capability = 9,
 				firepower = 1, --8,  -- = evaluate_weapon_firepower(weapon = "AIM-54A-MK60", quantity = 4) + evaluate_weapon_firepower(weapon = "AIM-7M", quantity = 2) -- solo BVR(?)
 				vCruise = 213.83333333333,
 				vAttack = 213.83333333333,
@@ -3059,6 +3370,94 @@ db_loadouts = {
 					["fuel"] = 7348,
 					["flare"] = 60,
 					["ammo_type"] = 1,
+					["chaff"] = 140,
+					["gun"] = 100,
+				},
+				AddPropAircraft = {
+					["LGB100"] = 6,
+					["M61BURST"] = 0,
+					["IlsChannel"] = 11,				----preset ILS channel
+					["LGB1"] = 8,
+					["KY28Key"] = 1,
+					["TacanBand"] = 0,
+					["ALE39Loadout"] = 3,
+					["UseLAU138"] = true,
+					["LGB10"] = 8,
+					["INSAlignmentStored"] = true,		----fast alignment, remember to modify also the value: "startup_time_player" in this file
+					["TacanChannel"] = 37,				----preset TACAN channel
+					["LGB1000"] = 1,
+				},
+			},
+			["IRAN-TF-Old-AIM-54A-MK60*4, AIM-7M*2, AIM-9M*2, XT*2 role: ESCORT BOMBER @ NORMAL ALT"] = {
+				role = "escort_bomber",
+				role_altitude = "normal",
+				coalition = "red",
+				attributes = {},
+				weapons = {
+					["AIM-54A-MK60"] = 4,
+					["AIM-7M"] = 2,
+					["AIM-9M"] = 2,
+				},
+				weaponType = nil,
+				expend = nil,
+				day = true,
+				night = true,
+				adverseWeather = true,
+				range = 500000,
+				capability = 7,
+				firepower = 1, --8, --  = evaluate_weapon_firepower(weapon = "AIM-54A-MK60", quantity = 4) + evaluate_weapon_firepower(weapon = "AIM-7M", quantity = 2) + evaluate_weapon_firepower(weapon = "AIM-9M", quantity = 2)
+				vCruise = 200,
+				hCruise = 7000,
+				standoff = 80300,
+				tStation = 7200,
+				LDSD = true,
+				self_escort = true,
+				sortie_rate = 3,
+				stores = {
+					["pylons"] = {
+						[10] = {
+							["CLSID"] = "{LAU-138 wtip - AIM-9M}",
+							["num"] = 10,
+						},
+						[9] = {
+							["CLSID"] = "{SHOULDER AIM-7M}",
+							["num"] = 9,
+						},
+						[8] = {
+							["CLSID"] = "{F14-300gal}",
+							["num"] = 8,
+						},
+						[7] = {
+							["CLSID"] = "{AIM_54A_Mk60}",
+							["num"] = 7,
+						},
+						[6] = {
+							["CLSID"] = "{AIM_54A_Mk60}",
+							["num"] = 6,
+						},
+						[5] = {
+							["CLSID"] = "{AIM_54A_Mk60}",
+							["num"] = 5,
+						},
+						[4] = {
+							["CLSID"] = "{AIM_54A_Mk60}",
+							["num"] = 4,
+						},
+						[3] = {
+							["CLSID"] = "{F14-300gal}",
+							["num"] = 3,
+						},
+						[2] = {
+							["CLSID"] = "{SHOULDER AIM-7M}",
+							["num"] = 2,
+						},
+						[1] = {
+							["CLSID"] = "{LAU-138 wtip - AIM-9M}",
+							["num"] = 1,
+						},
+					}, ----end of ["pylons"]
+					["fuel"] = "7348",
+					["flare"] = 60,
 					["chaff"] = 140,
 					["gun"] = 100,
 				},
@@ -3092,7 +3491,95 @@ db_loadouts = {
 				night = true,
 				adverseWeather = true,
 				range = 500000,
-				capability = 9,
+				capability = 7,
+				firepower = 1, --8, --  = evaluate_weapon_firepower(weapon = "AIM-54A-MK60", quantity = 4) + evaluate_weapon_firepower(weapon = "AIM-7M", quantity = 2) solo BVR
+				vCruise = 255.83333333333,
+				vAttack = 315.83333333333,
+				hCruise = 9753.6,
+				hAttack = 9753.6,
+				standoff = 100300,
+				tStation = 7200,
+				LDSD = true,
+				self_escort = true,
+				sortie_rate = 2,
+				stores = {
+					["pylons"] = {
+						[10] = {
+							["CLSID"] = "{LAU-138 wtip - AIM-9M}",
+							["num"] = 10,
+						},
+						[9] = {
+							["CLSID"] = "{SHOULDER AIM-7M}",
+							["num"] = 9,
+						},
+						[8] = {
+							["CLSID"] = "{F14-300gal}",
+							["num"] = 8,
+						},
+						[7] = {
+							["CLSID"] = "{AIM_54A_Mk60}",
+							["num"] = 7,
+						},
+						[6] = {
+							["CLSID"] = "{AIM_54A_Mk60}",
+							["num"] = 6,
+						},
+						[5] = {
+							["CLSID"] = "{AIM_54A_Mk60}",
+							["num"] = 5,
+						},
+						[4] = {
+							["CLSID"] = "{AIM_54A_Mk60}",
+							["num"] = 4,
+						},
+						[3] = {
+							["CLSID"] = "{F14-300gal}",
+							["num"] = 3,
+						},
+						[2] = {
+							["CLSID"] = "{SHOULDER AIM-7M}",
+							["num"] = 2,
+						},
+						[1] = {
+							["CLSID"] = "{LAU-138 wtip - AIM-9M}",
+							["num"] = 1,
+						},
+					}, ----end of ["pylons"]
+					["fuel"] = "7348",
+					["flare"] = 60,
+					["chaff"] = 140,
+					["gun"] = 100,
+				},
+				AddPropAircraft = {
+					["LGB100"] = 6,
+					["M61BURST"] = 0,
+					["IlsChannel"] = 11,				--preset ILS channel
+					["LGB1"] = 8,
+					["KY28Key"] = 1,
+					["TacanBand"] = 0,
+					["ALE39Loadout"] = 3,
+					["UseLAU138"] = true,
+					["LGB10"] = 8,
+					["INSAlignmentStored"] = true,		--fast alignment, remember to modify also the value: "startup_time_player" in this file
+					["TacanChannel"] = 37,				--preset TACAN channel
+					["LGB1000"] = 1,
+				},
+			},
+			["IRAN-TF-Old-AIM-54A-MK60*4, AIM-7M*2, AIM-9M*2, XT*2"] = {
+				attributes = {},
+				weapons = {
+					["AIM-54A-MK60"] = 4,
+					["AIM-7M"] = 2,
+					["AIM-9M"] = 2,
+				},
+				coalition = "red",
+				weaponType = nil,
+				expend = nil,
+				day = true,
+				night = true,
+				adverseWeather = true,
+				range = 500000,
+				capability = 7,
 				firepower = 1, --8, --  = evaluate_weapon_firepower(weapon = "AIM-54A-MK60", quantity = 4) + evaluate_weapon_firepower(weapon = "AIM-7M", quantity = 2) solo BVR
 				vCruise = 255.83333333333,
 				vAttack = 315.83333333333,
@@ -3169,9 +3656,9 @@ db_loadouts = {
 			["CAP-Escort AIM-54C-Mk47*4, AIM-7P*2, AIM-9M*1, ACMI Pod, Fuel *2"] = {
 				attributes = {},
 				weapons = {-- task dedicated weapons
-					["AIM-54A-MK60"] = 4,
-					["AIM-7M"] = 2,
-					["AIM-9M"] = 2,
+					["AIM-54C-MK47"] = 4,
+					["AIM-7P"] = 2,
+					["AIM-9M"] = 1,
 				},
 				weaponType = nil,
 				expend = nil,
@@ -3179,7 +3666,7 @@ db_loadouts = {
 				night = true,
 				adverseWeather = true,
 				range = 500000,
-				capability = 8,
+				capability = 9,
 				firepower = 1, --8,  -- = evaluate_weapon_firepower(weapon = "AIM-54A-MK60", quantity = 4) + evaluate_weapon_firepower(weapon = "AIM-7M", quantity = 2) -- solo BVR(?)
 				vCruise = 213.83333333333,
 				vAttack = 213.83333333333,
@@ -3259,11 +3746,18 @@ db_loadouts = {
 		["Strike"] = {
 			["CAS Guided boms, GBU-12, AIM-7M, AIM-9M*2, Lantirn, Fuel *2"] = { -- lantirn 1980 (sviluppo)  1987 (in servizio) NO
 				minscore = 0.3,
+				role = "attacker",
+				role_altitude = "normal",
 				support = {
 					["Escort"] = true,
 					["SEAD"] = true,
 				},
-				attributes = {"soft", "Structure", "Bridge"},
+				attributes = {"Structure", "Bridge"},
+				weapons = { -- task dedicated weapons
+					["GBU-12"] = 1,		
+					["AIM-7M"] = 1,
+					["AIM-9M"] = 2,								
+				},
 				weaponType = "Guided bombs",
 				expend = "Auto",
 				attackType = nil,
@@ -3340,11 +3834,18 @@ db_loadouts = {
 			},
 			["CAS Guided boms, GBU-24, AIM-7M, AIM-9M*2, Lantirn, Fuel *2"] = {
 				minscore = 0.3,
+				role = "attacker",
+				role_altitude = "normal",
 				support = {
 					["Escort"] = true,
 					["SEAD"] = true,
 				},
 				attributes = {"Structure", "Bridge"},
+				weapons = { -- task dedicated weapons
+					["GBU-24"] = 1,		
+					["AIM-7M"] = 1,
+					["AIM-9M"] = 2,								
+				},
 				weaponType = "Guided bombs",
 				expend = "Auto",
 				attackType = nil,
@@ -3416,13 +3917,20 @@ db_loadouts = {
 					["LGB1000"] = 1,
 				}, -- lantirn 1980 (sviluppo)  1987 (in servizio) NO
 			},			
-			["Strike TF GBU-10*2, AIM-54C,*2AIM-9M*2, AIM-7M*1,Lantirn, FT*2"] = { 
+			["Strike TF GBU-10*2, AIM-54C*2, AIM-9M*2, AIM-7M*1,Lantirn, FT*2"] = { 
 				minscore = 0.3,
+				role = "attacker",
+				role_altitude = "normal",
 				support = {
 					["Escort"] = true,
 					["SEAD"] = true,
 				},
 				attributes = {"Structure", "Bridge"},
+				weapons = { -- task dedicated weapons
+					["GBU-10"] = 2,		
+					["AIM-54C"] = 2,
+					["AIM-9M"] = 2,								
+				},
 				weaponType = "Guided bombs",
 				expend = "Auto",
 				attackType = nil,
@@ -3804,7 +4312,8 @@ db_loadouts = {
 				attributes = {"soft", "Parked Aircraft", "SAM", "armor"},
 				weapons = { -- task dedicated weapons
 					["Mk-20"] = 2,		
-					["AIM-7M"] = 2,
+					["AIM-7M"] = 1,
+					["AIM-54C-MK47"] = 1,
 					["AIM-9M"] = 2,								
 				},
 				weaponType = "Bombs",
@@ -3897,9 +4406,7 @@ db_loadouts = {
 				},
 				attributes = {"soft", "Parked Aircraft", "SAM", "armor"},
 				weapons = { -- task dedicated weapons
-					["Mk-20"] = 2,		
-					["AIM-7M"] = 2,
-					["AIM-9M"] = 2,								
+					["Zuni-Mk71"] = 28,							
 				},
 				weaponType = "Bombs",
 				expend = "All",
@@ -5615,7 +6122,6 @@ db_loadouts = {
 					["gun"] = 100,
 				},
 			},
-
 			["SEAD AGM-65D-K*2 SEAD ESCORT FOR ATTACKER @ NORMAL ALT"] = {
 				role = "escort_sead_attacker",
 				role_altitude = "normal",
@@ -6808,7 +7314,7 @@ db_loadouts = {
 
 			["CAS Bombs, SAMP-400*4, AIM-9P*2, Fuel*2 role: ATTACKER @ LOW ALT"] = {
 				role = "attacker",
-				role_altitude = "low",
+				role_altitude = "normal",
 				coalition = "blue",
 				minscore = 0.0,
 				support = {
@@ -6817,8 +7323,8 @@ db_loadouts = {
 				},
 				attributes = {"Structure", "Bridge"},
 				weapons = { -- task dedicated weapons
-					["SAMP-400LD"] = 2, -- 	
-					["R-550"] = 2, 													
+					["SAMP-400LD"] = 4, -- 	
+					["AIM-9P"] = 2, 													
 				},
 				weaponType = "Bombs",
 				expend = "All",
@@ -6879,7 +7385,7 @@ db_loadouts = {
 				},
 				attributes = {"Structure", "Bridge"},
 				weapons = { -- task dedicated weapons
-					["SAMP-400LD"] = 2, -- 	
+					["SNEB-253"] = 144, -- 	
 					["R-550"] = 2, 													
 				},
 				weaponType = "Bombs",
@@ -7118,6 +7624,8 @@ db_loadouts = {
 		["Escort"] = {
 			["CAP-Escort, S-530F*2, R-550-Magic IR*2, ECM, Fuel"] = {
 				attributes = {},
+				role = "escort_attacker",
+				role_altitude = "normal",
 				weaponType = nil,
 				weapons = { -- task dedicated weapons
 					["R-550"] = 2, -- 														
@@ -8864,7 +9372,7 @@ db_loadouts = {
 					},
 				attributes = {"soft", "armor", "SAM", "Parked Aircraft"},
 				weapons = { -- task dedicated weapons										
-					["Hydra-70MK5"] = 38,	-- 4xM260(7 rockets/launcher) see pylons									
+					["Hydra-70MK1"] = 38,	-- 4xM260(7 rockets/launcher) see pylons									
 					["BGM-71"] = 8,
 				},
 				weaponType = "Rockets",
@@ -8917,7 +9425,7 @@ db_loadouts = {
 					},
 				attributes = {"soft", "armor", "SAM", "Parked Aircraft"},
 				weapons = { -- task dedicated weapons										
-					["Hydra-70MK5"] = 14,	-- 4xM260(7 rockets/launcher) see pylons									
+					["Hydra-70MK1"] = 14,	-- 4xM260(7 rockets/launcher) see pylons									
 					["BGM-71"] = 8,
 				},
 				weaponType = "Rockets",
@@ -8970,7 +9478,7 @@ db_loadouts = {
 					},
 				attributes = {"soft", "armor", "SAM", "Parked Aircraft"},
 				weapons = { -- task dedicated weapons										
-					["Hydra-70MK5"] = 76,	-- 4xM260(7 rockets/launcher) see pylons									
+					["Hydra-70MK1"] = 76,	-- 4xM260(7 rockets/launcher) see pylons									
 				},
 				weaponType = "Rockets",
 				expend = "Auto",
@@ -9022,7 +9530,7 @@ db_loadouts = {
 					},
 				attributes = {"soft", "armor", "SAM", "Parked Aircraft"},
 				weapons = { -- task dedicated weapons										
-					["Hydra-70MK5"] = 38,	-- 4xM260(7 rockets/launcher) see pylons									
+					["Hydra-70MK1"] = 38,	-- 4xM260(7 rockets/launcher) see pylons									
 				},
 				weaponType = "Rockets",
 				expend = "Auto",
@@ -9072,7 +9580,7 @@ db_loadouts = {
 						["Escort"] = false,
 						["SEAD"] = false,
 					},
-				attributes = {"soft", "SAM", "armor", "Parked Aircraft"},
+				attributes = {"SAM", "armor"},
 				weapons = { -- task dedicated weapons										
 					["BGM-71D"] = 8,	-- 4xM260(7 rockets/launcher) see pylons									
 				},
@@ -9163,7 +9671,7 @@ db_loadouts = {
 				attributes = {"soft", "SAM", "armor"},
 				weapons = { -- task dedicated weapons										
 					["AGM-114"] = 8,	-- 4xM260(7 rockets/launcher) see pylons					
-					["HYDRA-70"] = 14,					
+					["Hydra-70MK1"] = 14,					
 				},
 				weaponType = "ASM",
 				expend = "Auto",
@@ -9216,7 +9724,7 @@ db_loadouts = {
 				attributes = {"soft", "SAM", "armor"},
 				weapons = { -- task dedicated weapons										
 					["AGM-114"] = 8,	-- 4xM260(7 rockets/launcher) see pylons					
-					["HYDRA-70"] = 38,					
+					["Hydra-70MK1"] = 38,					
 				},
 				weaponType = "ASM",
 				expend = "Auto",
@@ -13141,10 +13649,11 @@ db_loadouts = {
 
 	-- Kh-35 2003(?) NO
 	-- Kh-65 NO
-	-- Kh-55 SI
+	-- Kh-55 1983 SI
+	-- Kh-59 1991 NO
 
 
-	["SA342M"] = { --Syria
+	["SA342M"] = { -- 1973 Syria -> OK <-  
 		["Strike"] = {
 			["Strike Hot3x4, IR Deflector"] = {
 				minscore = 0.1,
@@ -13203,7 +13712,7 @@ db_loadouts = {
 		},
 	},
 
-	["SA342Minigun"] = { --Syria
+	["SA342Minigun"] = { -- 1973 Syria -> OK <-  
 		["Strike"] = {			
 			["SA342Minigun"] = {
 				minscore = 0.1,
@@ -13250,7 +13759,7 @@ db_loadouts = {
 		},
 	},
 
-	["SA342Mistral"] = { --Syria
+	["SA342Mistral"] = { -- 1973 Syria -> OK <-  
 		["Strike"] = {			
 			["CAS Rockets Mistral *4"] = {
 				minscore = 0.1,
@@ -13297,7 +13806,7 @@ db_loadouts = {
 		},
 	},
 
-	["MiG-31"] = {
+	["MiG-31"] = { -- 1982 -> OK <-  
 		["Intercept"] = {
 			["Intercept High R-40R *2, R-33*4"] = {
 				attributes = {},
@@ -13574,7 +14083,7 @@ db_loadouts = {
 		},
 	},	
 
-	["MiG-29A"] = { --1983
+	["MiG-29A"] = { --1983 -> OK <-
 		["Intercept"] = {
 			["R-27R*2, R-60M*4, Fuel*1"] = {
 				attributes = {},
@@ -14037,7 +14546,7 @@ db_loadouts = {
 		},		
 	},	
 
-	["Su-27"] = { -- 1984
+	["Su-27"] = { -- 1984 -> OK <-
 		["Intercept"] = {
 			["Intercept Normal R-73*2 R-27ER*4 R-27ET*2"] = {
 				attributes = {},
@@ -14574,7 +15083,7 @@ db_loadouts = {
 		
 	},
 
-	["Su-25"] = { --1981
+	["Su-25"] = { --1981 -> OK <-
 		["SEAD"] = {
 			["ARM, Fuel*2, ECM"] = {
 				attributes = {},
@@ -15789,7 +16298,7 @@ db_loadouts = {
 		},		
 	},
 
-	["Mi-26"] = {--1977 (primo volo) 1983 (entrata in servizio) 
+	["Mi-26"] = {--1977 (primo volo) 1983 (entrata in servizio) -> OK <- 
 		["Transport"] = {
 			["Default"] = {
 				attributes = {},
@@ -15822,7 +16331,7 @@ db_loadouts = {
 		},
 	},
 
-	["Mi-24P"] = {--1980 (primo volo) (entrata in servizio)
+	["Mi-24P"] = {--1980 (primo volo) (entrata in servizio) -> OK <-
 		["Transport"] = {
 			["Default"] = {
 				attributes = {},
@@ -16040,7 +16549,7 @@ db_loadouts = {
 		},
 	},
 
-	["Mi-24V"] = {--1969 (primo volo) 1972 (entrata in servizio)--Syria
+	["Mi-24V"] = {--1969 (primo volo) 1972 (entrata in servizio) -> OK <- --Syria
 		["Transport"] = {
 			["Default"] = {
 				attributes = {},
@@ -16612,10 +17121,7 @@ db_loadouts = {
 		},
 	},
 
-	--     <================================================        QUI
-
-
-	["Tu-22M3"] = { --1969 (primo volo) 1972 (entrata in servizio) ok
+	["Tu-22M3"] = { --1969 (primo volo) 1972 (entrata in servizio) -> OK <-
 		["Strike"] = {
 			["BAI FAB-500*33 FAB -250*36"] = {
 				role = "bomber",
@@ -16785,7 +17291,7 @@ db_loadouts = {
 		},
 	},
 
-	["Su-24MR"] = {--1967 (primo volo) 1974 (entrata in servizio)
+	["Su-24MR"] = {--1967 (primo volo) 1974 (entrata in servizio) -> OK <-
 		["Reconnaissance"] = {
 			["Reco TANGAZH,ETHER,R-60M*2,Fuel*2"] = {
 				role = "recon",
@@ -16904,7 +17410,7 @@ db_loadouts = {
 		]]
 	},
 
-	["Su-24M"] = {--1967 (primo volo) 1974 (entrata in servizio)
+	["Su-24M"] = {--1967 (primo volo) 1974 (entrata in servizio) -> OK <-
 		
 		["Anti-ship Strike"] = {
 			--[[
@@ -17630,7 +18136,7 @@ db_loadouts = {
 					["gun"] = 100,
 				},
 			},
-			["CAS Fab-500*2 B-13*4 (4*5=20 S-13 rockets)"] = {
+			["CAS Fab-500*2 UB-13*4 (4*5=20 S-13 rockets)"] = {
 				role = "bomber",
 				role_altitude = "normal",
 				coalition = "red",
@@ -17950,11 +18456,183 @@ db_loadouts = {
 					["chaff"] = 96,
 					["gun"] = 100,
 				},
-			},										
+			},	
+			["Pinpoint Strike R-60M*2 Kh-29T*2"] = {
+				role = "bomber",
+				role_altitude = "normal",
+				coalition = "red",
+				minscore = 0.0,
+				support = {
+					["Escort"] = true,
+					["SEAD"] = true,
+				},
+				attributes = {"Structure", "SAM", "armor"},
+				weapons = { -- task dedicated weapons										
+					["FAB-250M54"] = 8,										
+				},
+				weaponType = "Bombs",
+				expend = "All",
+				day = true,
+				night = true,
+				adverseWeather = true,
+				range = 900000,
+				capability = 8,
+				firepower = 4,
+				vCruise = 250,
+				vAttack = 230,
+				hCruise = 6096,
+				hAttack = 2000,
+				standoff = nil,
+				tStation = nil,
+				LDSD = false,
+				self_escort = false,
+				sortie_rate = 4,
+				stores = {
+					["pylons"] = 
+						{
+							[1] = 
+							{
+								["CLSID"] = "{APU-60-1_R_60M}",
+							}, -- end of [1]
+							[2] = 
+							{
+								["CLSID"] = "{B4FC81C9-B861-4E87-BBDC-A1158E648EBF}",
+							}, -- end of [2]
+							[7] = 
+							{
+								["CLSID"] = "{B4FC81C9-B861-4E87-BBDC-A1158E648EBF}",
+							}, -- end of [7]
+							[8] = 
+							{
+								["CLSID"] = "{APU-60-1_R_60M}",
+							}, -- end of [8]
+						}, -- end of ["pylons"]
+						["fuel"] = "11700",
+						["flare"] = 96,
+						["chaff"] = 96,
+						["gun"] = 100,
+				},
+			},	
+			["Pinpoint Strike R-60M*2 Kh-29L*2"] = {
+				role = "bomber",
+				role_altitude = "normal",
+				coalition = "red",
+				minscore = 0.0,
+				support = {
+					["Escort"] = true,
+					["SEAD"] = true,
+				},
+				attributes = {"Structure", "SAM", "armor"},
+				weapons = { -- task dedicated weapons										
+					["FAB-250M54"] = 8,										
+				},
+				weaponType = "Bombs",
+				expend = "All",
+				day = true,
+				night = true,
+				adverseWeather = true,
+				range = 900000,
+				capability = 8,
+				firepower = 4,
+				vCruise = 250,
+				vAttack = 230,
+				hCruise = 6096,
+				hAttack = 2000,
+				standoff = nil,
+				tStation = nil,
+				LDSD = false,
+				self_escort = false,
+				sortie_rate = 4,
+				stores = {
+					["pylons"] = 
+						{
+							[1] = 
+							{
+								["CLSID"] = "{APU-60-1_R_60M}",
+							}, -- end of [1]
+							[2] = 
+							{
+								["CLSID"] = "{3468C652-E830-4E73-AFA9-B5F260AB7C3D}",
+							}, -- end of [2]
+							[7] = 
+							{
+								["CLSID"] = "{3468C652-E830-4E73-AFA9-B5F260AB7C3D}",
+							}, -- end of [7]
+							[8] = 
+							{
+								["CLSID"] = "{APU-60-1_R_60M}",
+							}, -- end of [8]
+						}, -- end of ["pylons"]
+						["fuel"] = "11700",
+						["flare"] = 96,
+						["chaff"] = 96,
+						["gun"] = 100,
+				},
+			},
+			["Su-24M CAS B-8 Fab100 Fuel*2"] = {
+				role = "bomber",
+				role_altitude = "normal",
+				coalition = "red",
+				minscore = 0.0,
+				support = {
+					["Escort"] = true,
+					["SEAD"] = true,
+				},
+				attributes = {"Structure", "SAM", "armor"},
+				weapons = { -- task dedicated weapons										
+					["FAB-250M54"] = 8,										
+				},
+				weaponType = "Bombs",
+				expend = "All",
+				day = true,
+				night = true,
+				adverseWeather = true,
+				range = 900000,
+				capability = 8,
+				firepower = 4,
+				vCruise = 250,
+				vAttack = 230,
+				hCruise = 6096,
+				hAttack = 2000,
+				standoff = nil,
+				tStation = nil,
+				LDSD = false,
+				self_escort = false,
+				sortie_rate = 4,
+				stores = {
+					["pylons"] = 
+						{
+							[1] = 
+							{
+								["CLSID"] = "{F72F47E5-C83A-4B85-96ED-D3E46671EE9A}",
+							}, -- end of [1]
+							[2] = 
+							{
+								["CLSID"] = "{7D7EC917-05F6-49D4-8045-61FC587DD019}",
+							}, -- end of [2]
+							[4] = 
+							{
+								["CLSID"] = "{F99BEC1A-869D-4AC7-9730-FBA0E3B1F5FC}",
+							}, -- end of [4]
+							[7] = 
+							{
+								["CLSID"] = "{7D7EC917-05F6-49D4-8045-61FC587DD019}",
+							}, -- end of [7]
+							[8] = 
+							{
+								["CLSID"] = "{F72F47E5-C83A-4B85-96ED-D3E46671EE9A}",
+							}, -- end of [8]
+						}, -- end of ["pylons"]
+						["fuel"] = "11700",
+						["flare"] = 96,
+						["chaff"] = 96,
+						["gun"] = 100,
+				},
+			},							
 		},
-	},
+	},	
 
-	["Mi-8MT"] = {--1961 (primo volo) 1967 (entrata in servizio)
+	["Mi-8MT"] = {--1961 (primo volo) 1967 (entrata in servizio) -> OK <-
 		["Transport"] = {
 			["Default"] = {
 				attributes = {},
@@ -18130,11 +18808,68 @@ db_loadouts = {
 					["chaff"] = 0,
 					["gun"] = 100,
 				},
+			},	
+			["Bombs Fab-100*6"] = {
+				minscore = 0.0,
+				attributes = {"soft"},
+				weapons = { -- task dedicated weapons											
+					["Gsh-23L"] = 2, --rockets soft target									
+				},
+				weaponType = "Rockets",
+				expend = "Auto",
+				day = true,
+				night = false,
+				adverseWeather = false,
+				range = 80000,
+				capability = 13,
+				firepower = 7,
+				vCruise = 100,
+				vAttack = 100,
+				hCruise = 100,
+				hAttack = 50,
+				standoff = nil,
+				tStation = nil,
+				LDSD = false,
+				self_escort = false,
+				sortie_rate = 6,
+				stores = {
+					["pylons"] = 
+						{
+							[1] = 
+							{
+								["CLSID"] = "{FB3CE165-BF07-4979-887C-92B87F13276B}",
+							}, -- end of [1]
+							[2] = 
+							{
+								["CLSID"] = "{FB3CE165-BF07-4979-887C-92B87F13276B}",
+							}, -- end of [2]
+							[3] = 
+							{
+								["CLSID"] = "{FB3CE165-BF07-4979-887C-92B87F13276B}",
+							}, -- end of [3]
+							[4] = 
+							{
+								["CLSID"] = "{FB3CE165-BF07-4979-887C-92B87F13276B}",
+							}, -- end of [4]
+							[5] = 
+							{
+								["CLSID"] = "{FB3CE165-BF07-4979-887C-92B87F13276B}",
+							}, -- end of [5]
+							[6] = 
+							{
+								["CLSID"] = "{FB3CE165-BF07-4979-887C-92B87F13276B}",
+							}, -- end of [6]
+						}, -- end of ["pylons"]
+						["fuel"] = "1929",
+						["flare"] = 128,
+						["chaff"] = 0,
+						["gun"] = 100,
+				},
 			},			
 		},
-	},
+	},	
 
-	["A-50"] = { -- 1978 (primo volo) 1984 (entrata in servizio) SI in quanto in DCS non esiste un'altro AWACS per l'USSR
+	["A-50"] = { -- 1978 (primo volo) 1984 (entrata in servizio) -> OK <-
 
 		["AWACS"] = {
 			["Default"] = {
@@ -18170,7 +18905,7 @@ db_loadouts = {
 		}, -- 1978
 	},
 
-	["An-26B"] = {--1969 (primo volo) 1973 (entrata in servizio)
+	["An-26B"] = {--1969 (primo volo) 1973 (entrata in servizio) -> OK <-
 
 		["Transport"] = {
 
@@ -19187,7 +19922,7 @@ db_loadouts = {
 		},
 	},
 
-	["Su-17M4"] = {--1967 (primo volo) 1972 (entrata in servizio) Syra
+	["Su-17M4"] = {--1967 (primo volo) 1972 (entrata in servizio) -> OK <- Syra
 		["Anti-ship Strike"] = {
 			["IPW - AntishipStrike - FAB 500 M62*4"] = {
 				role = "bomber",
@@ -19982,7 +20717,216 @@ db_loadouts = {
 					["chaff"] = 60,
 					["gun"] = 100,
 				},
-			},			
+			},	
+			["Pinpoint Strike Long RangeR-60M*2 Kh-29L*2 Fuel*2"] = {
+				role = "attacker",
+				role_altitude = "normal",
+				coalition = "red",
+				minscore = 0.1,
+				support = {
+						["Escort"] = true,
+						["SEAD"] = false,
+					},
+				attributes = {"Structure", "Bridge"},
+				weaponType = "ASM",
+				expend = "All",
+				attackType = "Dive",
+				weapons = { -- task dedicated weapons
+					["Kh-25ML"] = 2, --??										
+					["Kh-25MR"] = 2, --??		
+					["R-60M"] = 2,									
+				},
+				day = true,
+				night = false,
+				adverseWeather = false,
+				range = 700000,
+				capability = 7,
+				firepower = 12,
+				vCruise = 200,
+				vAttack = 250,
+				hCruise = 7500,
+				hAttack = nil,
+				standoff = nil,
+				tStation = nil,
+				LDSD = false,
+				self_escort = false,
+				sortie_rate = 4,
+				stores = {
+					["pylons"] = 
+						{
+							[2] = 
+							{
+								["CLSID"] = "{APU-60-1_R_60M}",
+							}, -- end of [2]
+							[3] = 
+							{
+								["CLSID"] = "{3468C652-E830-4E73-AFA9-B5F260AB7C3D}",
+							}, -- end of [3]
+							[4] = 
+							{
+								["CLSID"] = "{A5BAEAB7-6FAF-4236-AF72-0FD900F493F9}",
+							}, -- end of [4]
+							[5] = 
+							{
+								["CLSID"] = "{A5BAEAB7-6FAF-4236-AF72-0FD900F493F9}",
+							}, -- end of [5]
+							[6] = 
+							{
+								["CLSID"] = "{3468C652-E830-4E73-AFA9-B5F260AB7C3D}",
+							}, -- end of [6]
+							[7] = 
+							{
+								["CLSID"] = "{APU-60-1_R_60M}",
+							}, -- end of [7]
+						}, -- end of ["pylons"]
+						["fuel"] = "3770",
+						["flare"] = 64,
+						["chaff"] = 64,
+						["gun"] = 100,
+				},
+			},	
+			["Pinpoint Strike Long RangeR-60M*2 Kh-29T*2 Fuel*2"] = {
+				role = "attacker",
+				role_altitude = "normal",
+				coalition = "red",
+				minscore = 0.1,
+				support = {
+						["Escort"] = true,
+						["SEAD"] = false,
+					},
+				attributes = {"Structure", "Bridge"},
+				weaponType = "ASM",
+				expend = "All",
+				attackType = "Dive",
+				weapons = { -- task dedicated weapons
+					["Kh-25ML"] = 2, --??										
+					["Kh-25MR"] = 2, --??		
+					["R-60M"] = 2,									
+				},
+				day = true,
+				night = false,
+				adverseWeather = false,
+				range = 700000,
+				capability = 7,
+				firepower = 12,
+				vCruise = 200,
+				vAttack = 250,
+				hCruise = 7500,
+				hAttack = nil,
+				standoff = nil,
+				tStation = nil,
+				LDSD = false,
+				self_escort = false,
+				sortie_rate = 4,
+				stores = {
+					["pylons"] = 
+						{
+							[2] = 
+							{
+								["CLSID"] = "{APU-60-1_R_60M}",
+							}, -- end of [2]
+							[3] = 
+							{
+								["CLSID"] = "{B4FC81C9-B861-4E87-BBDC-A1158E648EBF}",
+							}, -- end of [3]
+							[4] = 
+							{
+								["CLSID"] = "{A5BAEAB7-6FAF-4236-AF72-0FD900F493F9}",
+							}, -- end of [4]
+							[5] = 
+							{
+								["CLSID"] = "{A5BAEAB7-6FAF-4236-AF72-0FD900F493F9}",
+							}, -- end of [5]
+							[6] = 
+							{
+								["CLSID"] = "{B4FC81C9-B861-4E87-BBDC-A1158E648EBF}",
+							}, -- end of [6]
+							[7] = 
+							{
+								["CLSID"] = "{APU-60-1_R_60M}",
+							}, -- end of [7]
+						}, -- end of ["pylons"]
+						["fuel"] = "3770",
+						["flare"] = 64,
+						["chaff"] = 64,
+						["gun"] = 100,
+				},
+			},
+			["Strike runway R-60M*2 BetAB-500*6"] = {
+				role = "attacker",
+				role_altitude = "normal",
+				coalition = "red",
+				minscore = 0.1,
+				support = {
+						["Escort"] = true,
+						["SEAD"] = false,
+					},
+				attributes = {"Structure", "Bridge"},
+				weaponType = "ASM",
+				expend = "All",
+				attackType = "Dive",
+				weapons = { -- task dedicated weapons
+					["Kh-25ML"] = 2, --??										
+					["Kh-25MR"] = 2, --??		
+					["R-60M"] = 2,									
+				},
+				day = true,
+				night = false,
+				adverseWeather = false,
+				range = 700000,
+				capability = 7,
+				firepower = 12,
+				vCruise = 200,
+				vAttack = 250,
+				hCruise = 7500,
+				hAttack = nil,
+				standoff = nil,
+				tStation = nil,
+				LDSD = false,
+				self_escort = false,
+				sortie_rate = 4,
+				stores = {
+					["pylons"] = 
+					{
+						[1] = 
+						{
+							["CLSID"] = "{35B698AC-9FEF-4EC4-AD29-484A0085F62B}",
+						}, -- end of [1]
+						[2] = 
+						{
+							["CLSID"] = "{APU-60-1_R_60M}",
+						}, -- end of [2]
+						[3] = 
+						{
+							["CLSID"] = "{35B698AC-9FEF-4EC4-AD29-484A0085F62B}",
+						}, -- end of [3]
+						[4] = 
+						{
+							["CLSID"] = "{35B698AC-9FEF-4EC4-AD29-484A0085F62B}",
+						}, -- end of [4]
+						[5] = 
+						{
+							["CLSID"] = "{35B698AC-9FEF-4EC4-AD29-484A0085F62B}",
+						}, -- end of [5]
+						[6] = 
+						{
+							["CLSID"] = "{35B698AC-9FEF-4EC4-AD29-484A0085F62B}",
+						}, -- end of [6]
+						[7] = 
+						{
+							["CLSID"] = "{APU-60-1_R_60M}",
+						}, -- end of [7]
+						[8] = 
+						{
+							["CLSID"] = "{35B698AC-9FEF-4EC4-AD29-484A0085F62B}",
+						}, -- end of [8]
+					}, -- end of ["pylons"]
+					["fuel"] = "3770",
+					["flare"] = 64,
+					["chaff"] = 64,
+					["gun"] = 100,
+				},
+			},				
 		},
 		["SEAD"] = {
 			["ASM SEAD Kh-25MPU*4 R-60M*2 Fuel*2 escort bomber normal altitude"] = {
@@ -20124,10 +21068,81 @@ db_loadouts = {
 					["gun"] = 100,
 				},
 			},
+
+			["SEAD Long Range R-60M*2 Kh-25MPU*2 Kh-58*2 Fuel*2"] = {
+				role = "escort_sead_bomber",
+				role_altitude = "high",
+				coalition = "red",
+				minscore = 0.0,				
+				attributes = {"SAM"},
+				weaponType = "ASM",
+				expend = "All",
+				weapons = { -- task dedicated weapons				
+					["Kh-25MPU"] = 4, --??		
+					["R-60M"] = 2,									
+				},
+				attackType = "Dive",
+				day = true,
+				night = true,
+				adverseWeather = true,
+				range = 700000,
+				capability = 13,
+				firepower = 12,
+				vCruise = 220,
+				vAttack = 250,
+				hCruise = 6500,
+				hAttack = nil,
+				standoff = nil,-- Kh-25MP range 40km
+				tStation = nil,
+				LDSD = false,
+				self_escort = false,
+				sortie_rate = 10,
+				stores = {
+					["pylons"] = 
+						{
+						[1] = 
+						{
+							["CLSID"] = "{6DADF342-D4BA-4D8A-B081-BA928C4AF86D}",
+						}, -- end of [1]
+						[2] = 
+						{
+							["CLSID"] = "{APU-60-1_R_60M}",
+						}, -- end of [2]
+						[3] = 
+						{
+							["CLSID"] = "{FE382A68-8620-4AC0-BDF5-709BFE3977D7}",
+						}, -- end of [3]
+						[4] = 
+						{
+							["CLSID"] = "{A5BAEAB7-6FAF-4236-AF72-0FD900F493F9}",
+						}, -- end of [4]
+						[5] = 
+						{
+							["CLSID"] = "{A5BAEAB7-6FAF-4236-AF72-0FD900F493F9}",
+						}, -- end of [5]
+						[6] = 
+						{
+							["CLSID"] = "{FE382A68-8620-4AC0-BDF5-709BFE3977D7}",
+						}, -- end of [6]
+						[7] = 
+						{
+							["CLSID"] = "{APU-60-1_R_60M}",
+						}, -- end of [7]
+						[8] = 
+						{
+							["CLSID"] = "{6DADF342-D4BA-4D8A-B081-BA928C4AF86D}",
+						}, -- end of [8]
+					}, -- end of ["pylons"]
+					["fuel"] = "3770",
+					["flare"] = 64,
+					["chaff"] = 64,
+					["gun"] = 100,
+				},
+			},
 		},
 	},
 
-	["MiG-27K"] = {--1970 (primo volo) 1975 (entrata in servizio) -- Bombe?
+	["MiG-27K"] = {--1970 (primo volo) 1975 (entrata in servizio) -> OK <-
 		["Anti-ship Strike"] = {
 			["GA Kh-25MPL*2 R-60M*2 Fuel"] = {
 				role = "attacker",
@@ -20824,7 +21839,68 @@ db_loadouts = {
 					["chaff"] = 60,
 					["gun"] = 100,
 				},
-			},			
+			},	
+			["Pinpoint Strike Long RangeR-60M*2 Kh-29T*2"] = {
+				role = "attacker",
+				role_altitude = "normal",
+				coalition = "red",
+				minscore = 0.0,
+				support = {
+						["Escort"] = true,
+						["SEAD"] = false,
+					},
+				attributes = {"soft"},
+				weaponType = "Rockets",
+				expend = "All",
+				weapons = { -- task dedicated weapons
+					["S-5 M"] = 128,										
+				},
+				attackType = "Dive",
+				day = true,
+				night = false,
+				adverseWeather = false,
+				range = 500000,
+				capability = 7,
+				firepower = 5,
+				vCruise = 150,
+				vAttack = 150,
+				hCruise = 7500,
+				hAttack = nil,
+				standoff = nil,
+				tStation = nil,
+				LDSD = false,
+				self_escort = false,
+				sortie_rate = 4,
+				stores = {
+					["pylons"] = 
+						{
+							[2] = 
+							{
+								["CLSID"] = "{601C99F7-9AF3-4ed7-A565-F8B8EC0D7AAC}",
+							}, -- end of [2]
+							[3] = 
+							{
+								["CLSID"] = "{APU-60-1_R_60M}",
+							}, -- end of [3]
+							[5] = 
+							{
+								["CLSID"] = "{A5BAEAB7-6FAF-4236-AF72-0FD900F493F9}",
+							}, -- end of [5]
+							[7] = 
+							{
+								["CLSID"] = "{APU-60-1_R_60M}",
+							}, -- end of [7]
+							[8] = 
+							{
+								["CLSID"] = "{601C99F7-9AF3-4ed7-A565-F8B8EC0D7AAC}",
+							}, -- end of [8]
+						}, -- end of ["pylons"]
+						["fuel"] = "4500",
+						["flare"] = 60,
+						["chaff"] = 60,
+						["gun"] = 100,
+				},
+			},		
 		},
 		["SEAD"] = {
 			["Mig-27K SEAD Kh-25MPU*2 R-60M*2 Fuel escort bomber normal altitude"] = {
@@ -20943,7 +22019,7 @@ db_loadouts = {
 				},
 			},
 		},
-	},
+	},	
 
 	["MiG-23MLD"] = {--1967 (primo volo) 1970 (entrata in servizio)--Syria
 		["Intercept"] = {

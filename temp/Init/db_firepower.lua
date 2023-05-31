@@ -51,7 +51,7 @@ weapon_db = {
             ["semiactive_range"] = 130,                         -- km, semiactive range (aircraft must track target)                  
             ["active_range"] = 18,                              -- km, active range  (missile has active autonomous tracking target)                
             ["max_height"] = 24.8,                              -- km max height
-            ["max_speed"] = 3,                                  -- mach                            
+            ["max_speed"] = 3.8,                                  -- mach                            
             ["manouvrability"] = 0.6,                           -- manouvrability (min 0 - max 1)
         },
 
@@ -68,24 +68,41 @@ weapon_db = {
             ["semiactive_range"] = 130,                         -- km, semiactive range (aircraft must track target)                  
             ["active_range"] = 18,                              -- km, active range  (missile has active autonomous tracking target)                
             ["max_height"] = 24.8 ,                             -- km max height
-            ["max_speed"] = 3,                                  -- mach                            
+            ["max_speed"] = 3.8,                                  -- mach                            
             ["manouvrability"] = 0.6,
         },
 
-        ["AIM-54C"] = {                                             -- weapon name
+        ["AIM-54C-MK47"] = {                                             -- weapon name
             ["type"] = "AAM",                                       -- weapon type
             ["seeker"] = "radar",                                -- seeker type (infrared, radar)
             ["task"] = {"A2A"},                               -- weapon task: loadout and targetlist task (Strike, Anti-ship Strike, CAP, Intercept, AWACS, Fighter Sweep, Escort, SEAD)
-            ["start_service"] = 1986,
+            ["start_service"] = 1982, 
             ["end_service"] = 2004,
             ["cost"] = 477,-- k$  
             ["tnt"] = 61, --kg
             ["reliability"] = 0.8,                              -- reliability (0-1)
             ["range"] = 160,                                    -- km, range ()                  
-            ["semiactive_range"] = 130,                         -- km, semiactive range (aircraft must track target)                  
+            ["semiactive_range"] = 148,                         -- km, semiactive range (aircraft must track target)                  
             ["active_range"] = 18,                              -- km, active range  (missile has active autonomous tracking target)                
             ["max_height"] = 24.8 ,                             -- km max height
-            ["max_speed"] = 3,                                  -- mach                             
+            ["max_speed"] = 4.5,                                  -- mach                             
+            ["manouvrability"] = 0.73,
+        },
+
+        ["AIM-54C-MK60"] = {                                             -- weapon name
+            ["type"] = "AAM",                                       -- weapon type
+            ["seeker"] = "radar",                                -- seeker type (infrared, radar)
+            ["task"] = {"A2A"},                               -- weapon task: loadout and targetlist task (Strike, Anti-ship Strike, CAP, Intercept, AWACS, Fighter Sweep, Escort, SEAD)
+            ["start_service"] = 1982, 
+            ["end_service"] = 2004,
+            ["cost"] = 477,-- k$  
+            ["tnt"] = 61, --kg
+            ["reliability"] = 0.8,                              -- reliability (0-1)
+            ["range"] = 160,                                    -- km, range ()                  
+            ["semiactive_range"] = 148,                         -- km, semiactive range (aircraft must track target)                  
+            ["active_range"] = 18,                              -- km, active range  (missile has active autonomous tracking target)                
+            ["max_height"] = 24.8 ,                             -- km max height
+            ["max_speed"] = 4.5,                                  -- mach                             
             ["manouvrability"] = 0.73,
         },
 
@@ -1754,6 +1771,234 @@ weapon_db = {
                 },        
             },                   
         },
+
+        ["GBU-24"] = {
+            ["type"] = "Guided Bombs",
+            ["task"] = {"Strike"},
+            ["start_service"] = 1983,
+            ["end_service"] = nil,
+            ["cost"] = 55,-- k$  
+            ["tnt"] = 429, --kg
+            ["perc_efficiency_variability"] = 0.05, -- percentage of efficiecy variability 0-1 (100%)
+            ["Structure"] = { -- fixed target (guided bombs and agm missile are more efficiency)            
+                    ["big"] = {
+                        ["accuracy"] = 1,   -- 1 max, 0.1 min ( hit success percentage )
+                        ["destroy_capacity"] = 0.8, -- 1 max: element destroyed (single hit), 0.1 min ( element destroy capacity )                                    
+                    },
+                    ["med"] = {
+                        ["accuracy"] = 0.9, 
+                        ["destroy_capacity"] = 0.9,
+                    },
+                    ["small"] = {
+                        ["accuracy"] = 0.8, 
+                        ["destroy_capacity"] = 1,
+                    },
+                    ["mix"] = {
+                        ["accuracy"] = 0.8, 
+                        ["destroy_capacity"] = 0.85,
+                    },
+                },                
+            
+                ["Bridge"] = {-- fixed target (guided bombs and agm missile are more efficiency)            
+                    ["big"] = {
+                        ["accuracy"] = 1,   
+                        ["destroy_capacity"] = 0.7,
+                    },
+                    ["med"] = {
+                        ["accuracy"] = 0.9, 
+                        ["destroy_capacity"] = 0.8,
+                    },
+                    ["small"] = {
+                        ["accuracy"] = 0.8, 
+                        ["destroy_capacity"] = 0.9,
+                    },
+                    ["mix"] = {
+                        ["accuracy"] = 0.85, 
+                        ["destroy_capacity"] = 0.8,
+                    },
+                },        
+
+                ["ship"] = { -- mobile target
+                    ["big"] = {
+                        ["accuracy"] = 0.5,   -- 
+                        ["destroy_capacity"] = 0.85,
+                    },
+                    ["med"] = {
+                        ["accuracy"] = 0.4,  
+                        ["destroy_capacity"] = 1,
+                    },
+                    ["small"] = {
+                        ["accuracy"] = 0.2,   
+                        ["destroy_capacity"] = 1,
+                    },
+                    ["mix"] = {
+                        ["accuracy"] = 0.3, 
+                        ["destroy_capacity"] = 0.8,
+                    },
+                },
+                
+                ["soft"] = { -- fixed target (guided bombs and agm missile are more efficiency)            
+                
+                    ["med"] = {
+                        ["accuracy"] = 0.8, 
+                        ["destroy_capacity"] = 0.85,
+                    },
+                    ["small"] = {
+                        ["accuracy"] = 0.7, 
+                        ["destroy_capacity"] = 0.95,
+                    },
+                    ["mix"] = {
+                        ["accuracy"] = 0.7, 
+                        ["destroy_capacity"] = 0.85,
+                    },
+                },                
+
+                ["Parked Aircraft"] = { -- fixed target (guided bombs and agm missile are more efficiency)            
+                
+                    ["med"] = {
+                        ["accuracy"] = 0.9, 
+                        ["destroy_capacity"] = 1,
+                    },
+                    ["small"] = {
+                        ["accuracy"] = 0.8, 
+                        ["destroy_capacity"] = 1,
+                    },
+                    ["mix"] = {
+                        ["accuracy"] = 0.9, 
+                        ["destroy_capacity"] = 1,
+                    },
+                },                
+
+                ["SAM"] = { -- fixed target (guided bombs and agm missile are more efficiency)            
+                
+                    ["med"] = {
+                        ["accuracy"] = 0.85, 
+                        ["destroy_capacity"] = 1,
+                    },
+                    ["small"] = {
+                        ["accuracy"] = 0.8, 
+                        ["destroy_capacity"] = 1,
+                    },
+                    ["mix"] = {
+                        ["accuracy"] = 0.85, 
+                        ["destroy_capacity"] = 0.85,
+                    },
+                },                      
+        },
+
+        ["GBU-27"] = {
+            ["type"] = "Guided Bombs",
+            ["task"] = {"Strike"},
+            ["start_service"] = 1985,
+            ["end_service"] = nil,
+            ["cost"] = 55,-- k$  
+            ["tnt"] = 429, --kg
+            ["perc_efficiency_variability"] = 0.05, -- percentage of efficiecy variability 0-1 (100%)
+            ["Structure"] = { -- fixed target (guided bombs and agm missile are more efficiency)            
+                    ["big"] = {
+                        ["accuracy"] = 1,   -- 1 max, 0.1 min ( hit success percentage )
+                        ["destroy_capacity"] = 0.8, -- 1 max: element destroyed (single hit), 0.1 min ( element destroy capacity )                                    
+                    },
+                    ["med"] = {
+                        ["accuracy"] = 0.9, 
+                        ["destroy_capacity"] = 0.9,
+                    },
+                    ["small"] = {
+                        ["accuracy"] = 0.8, 
+                        ["destroy_capacity"] = 1,
+                    },
+                    ["mix"] = {
+                        ["accuracy"] = 0.8, 
+                        ["destroy_capacity"] = 0.85,
+                    },
+                },                
+            
+                ["Bridge"] = {-- fixed target (guided bombs and agm missile are more efficiency)            
+                    ["big"] = {
+                        ["accuracy"] = 1,   
+                        ["destroy_capacity"] = 0.7,
+                    },
+                    ["med"] = {
+                        ["accuracy"] = 0.9, 
+                        ["destroy_capacity"] = 0.8,
+                    },
+                    ["small"] = {
+                        ["accuracy"] = 0.8, 
+                        ["destroy_capacity"] = 0.9,
+                    },
+                    ["mix"] = {
+                        ["accuracy"] = 0.85, 
+                        ["destroy_capacity"] = 0.8,
+                    },
+                },        
+
+                ["ship"] = { -- mobile target
+                    ["big"] = {
+                        ["accuracy"] = 0.5,   -- 
+                        ["destroy_capacity"] = 0.85,
+                    },
+                    ["med"] = {
+                        ["accuracy"] = 0.4,  
+                        ["destroy_capacity"] = 1,
+                    },
+                    ["small"] = {
+                        ["accuracy"] = 0.2,   
+                        ["destroy_capacity"] = 1,
+                    },
+                    ["mix"] = {
+                        ["accuracy"] = 0.3, 
+                        ["destroy_capacity"] = 0.8,
+                    },
+                },
+                
+                ["soft"] = { -- fixed target (guided bombs and agm missile are more efficiency)            
+                
+                    ["med"] = {
+                        ["accuracy"] = 0.8, 
+                        ["destroy_capacity"] = 0.85,
+                    },
+                    ["small"] = {
+                        ["accuracy"] = 0.7, 
+                        ["destroy_capacity"] = 0.95,
+                    },
+                    ["mix"] = {
+                        ["accuracy"] = 0.7, 
+                        ["destroy_capacity"] = 0.85,
+                    },
+                },                
+
+                ["Parked Aircraft"] = { -- fixed target (guided bombs and agm missile are more efficiency)            
+                
+                    ["med"] = {
+                        ["accuracy"] = 0.9, 
+                        ["destroy_capacity"] = 1,
+                    },
+                    ["small"] = {
+                        ["accuracy"] = 0.8, 
+                        ["destroy_capacity"] = 1,
+                    },
+                    ["mix"] = {
+                        ["accuracy"] = 0.9, 
+                        ["destroy_capacity"] = 1,
+                    },
+                },                
+
+                ["SAM"] = { -- fixed target (guided bombs and agm missile are more efficiency)            
+                
+                    ["med"] = {
+                        ["accuracy"] = 0.85, 
+                        ["destroy_capacity"] = 1,
+                    },
+                    ["small"] = {
+                        ["accuracy"] = 0.8, 
+                        ["destroy_capacity"] = 1,
+                    },
+                    ["mix"] = {
+                        ["accuracy"] = 0.85, 
+                        ["destroy_capacity"] = 0.85,
+                    },
+                },                      
+        },
             
         ["Mk-20"] = {  --aka CBU-100 anti-armor cluster
             ["type"] = "Cluster Bombs",
@@ -2841,7 +3086,7 @@ weapon_db = {
             },                              
         }, 
 
-        ["SNEB-253"] = { -- Rockets ? mm HE , 
+        ["SNEB-253"] = { -- Rockets ? mm HE , aka Matra f1
             ["type"] = "Rockets",       
             ["task"] = {"Strike", "Anti-ship Strike"},
             ["start_service"] = 1955,
@@ -2932,6 +3177,7 @@ weapon_db = {
         }, 
     },
 
+    -- MATRA_F1_SNEBT253
     --russia
     -- a2a missile: /K-13A/, /R-60M/, /R-3R/, /R-3S/, /R-24T/, /R-24R/, /R-40R/, /R-40T/, /R-27T(dopo)/, /R-27R(dopo)/
     -- bomb: /FAB-1500/, /FAB-500/, /FAB-250/, /FAB-100/, /FAB-50/, BL-755(cluster? att inglese??), /RBK-250(cluster)/, /RBK-500AO(cluster)/, /KAB-500L(laser)/, /KMGU-96r(cluster)/, /KMGU-2F/2B(cluster )/
