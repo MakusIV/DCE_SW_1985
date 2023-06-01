@@ -88,12 +88,16 @@
 
 db_loadouts = {
 
+
+	-- NOTA: riporta i nuovi inserimenti in miz: Mig-21Bis flare illumination, Su-24M SEAD Kh-58, L-39ZA, C-101CC, F-16A Laser Illumination, OH-58D
+
 	-- VERIFICA:
 	--  F-15 e F-16A possono effettuare SEAD con AGM-88 Harm
 	--  F-16A, F-4E possono effettuare Laser Illumination
 	--  AJS 37 Viggen: Laser, Flare Illumination e SEAD con altro missile idoneo
 	--  S-3B Laser, SEAD
 	--  F-5E, Mig-21, Su-17, Mig-27, Mig-19, L-39C Laser, Flare
+	--  INSERIRE C-101
 	--  Verifica se Mig-25PD ha altri missili
 	--  verifica altre versioni L-39
 	--  riverifica armamento Tu-142
@@ -13647,9 +13651,12 @@ db_loadouts = {
 	-- Tu-160 1993 NO
 	-- Mi-26 1983 SI
 
+	-- Kh-31P Krypton 1988 NO (antiradar)
+	-- Kh-31A Krypton 1988 SI (antinave)
 	-- Kh-35 2003(?) NO
 	-- Kh-65 NO
 	-- Kh-55 1983 SI
+	-- Kh-58 1978 SI
 	-- Kh-59 1991 NO
 
 
