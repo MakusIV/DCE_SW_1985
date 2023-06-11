@@ -48,6 +48,110 @@ airport oca strike: 15 elements(structure and aircraft) -> min firepower: 9, max
 
 targetlist = {   
 	["blue"] = {
+		["Silifke Storage Site"] = {
+			task = "Strike",
+			priority = 4,
+			picture = {},
+			attributes = {"Structure"},
+			firepower = {
+				min = 3,  --3,
+				max = 3,  --6,
+			},
+			class = "static",
+			elements = {
+				[1] = {
+					name = "Silifke Storage Site 1",
+				},
+				[2] = {
+					name = "Silifke Storage Site 2",
+				},
+				[3] = {
+					name = "Silifke Storage Site 3",
+				},
+				[4] = {
+					name = "Silifke Storage Site 4",
+				},
+				[5] = {
+					name = "Silifke Storage Site 5",
+				},
+				[6] = {
+					name = "Silifke Storage Site 6",
+				},
+				[7] = {
+					name = "Silifke Storage Site 7",
+				},
+				[8] = {
+					name = "Silifke Storage Site 8",
+				},
+				[9] = {
+					name = "Silifke Storage Site 9",
+				},
+				[10] = {
+					name = "Silifke Storage Site 10",
+				},
+				[11] = {
+					name = "Silifke Storage Site 11",
+				},
+				[12] = {
+					name = "Silifke Storage Site 12",
+				},
+				[13] = {
+					name = "Silifke Storage Site 13",
+				},
+				[14] = {
+					name = "Silifke Storage Site 14",
+				},
+				[15] = {
+					name = "Silifke Storage Site 15",
+				},
+				[16] = {
+					name = "Silifke Storage Site 16",
+				},
+				[17] = {
+					name = "Silifke Storage Site 17",
+				},
+				[18] = {
+					name = "Silifke Storage Site 18",
+				},
+				[19] = {
+					name = "Silifke Storage Site 19",
+				},
+				[20] = {
+					name = "Silifke Storage Site 20",
+				},
+				[21] = {
+					name = "Silifke Storage Site 21",
+				},
+				[22] = {
+					name = "Silifke Storage Site 22",
+				},
+				[23] = {
+					name = "Silifke Storage Site 23",
+				},
+				[24] = {
+					name = "Silifke Storage Site 24",
+				},
+				[25] = {
+					name = "Silifke Storage Site 25",
+				},
+				[26] = {
+					name = "Silifke Storage Site 26",
+				},
+				[27] = {
+					name = "Silifke Storage Site 27",
+				},
+				[28] = {
+					name = "Silifke Storage Site 28",
+				},
+				[29] = {
+					name = "Silifke Storage Site 29",
+				},
+				[30] = {
+					name = "Silifke Storage Site 30",
+				},
+			},
+		},	
+
 		["Vaziani Alert"] = {
 			task = "Intercept",
 			priority = 5,
@@ -826,132 +930,7 @@ targetlist = {
 					y = 708177.25,
 				},
 			},
-		},		
-		["Prohladniy Depot MP 24"] = {
-			task = "Strike",
-			priority = 4,
-			picture = {"Prohladniy_Depot.png"},
-			attributes = {"Structure"},
-			firepower = {
-				min = 3,  --3,
-				max = 3,  --6,
-			},
-			class = "static",
-			elements = {
-				[1] = {
-					name = "Prohladniy Depot 1",
-				},
-				[2] = {
-					name = "Prohladniy Depot 2",
-				},
-				[3] = {
-					name = "Prohladniy Depot 3",
-				},
-				[4] = {
-					name = "Prohladniy Depot 4",
-				},
-				[5] = {
-					name = "Prohladniy Depot 5",
-				},
-				[6] = {
-					name = "Prohladniy Depot 6",
-				},
-				[7] = {
-					name = "Prohladniy Depot Railway station",
-				},
-				[8] = {
-					name = "Prohladniy Depot container 1",
-				},
-				[9] = {
-					name = "Prohladniy Depot container 2",
-				},
-				[10] = {
-					name = "Prohladniy Depot container 3",
-				},
-				[11] = {
-					name = "Prohladniy Depot container 4",
-				},
-				[12] = {
-					name = "Prohladniy Depot container 5",
-				},
-				[13] = {
-					name = "Prohladniy Depot container 6",
-				},
-				[14] = {
-					name = "Prohladniy Depot container 7",
-				},
-				[15] = {
-					name = "Prohladniy Depot container 8",
-				},
-				[16] = {
-					name = "Prohladniy Depot container 9",
-				},
-				[17] = {
-					name = "Prohladniy Depot container 10",
-				},
-				[18] = {
-					name = "Prohladniy Depot container 11",
-				},
-				[19] = {
-					name = "Prohladniy Depot container 12",
-				},
-				[20] = {
-					name = "Prohladniy Depot container 13",
-				},
-				[21] = {
-					name = "Prohladniy Depot container 14",
-				},
-				[22] = {
-					name = "Prohladniy Depot container 15",
-				},
-				[23] = {
-					name = "Prohladniy Depot container 16",
-				},
-				[24] = {
-					name = "Prohladniy Depot container 17",
-				},
-				[25] = {
-					name = "Prohladniy Depot container 18",
-				},
-				[26] = {
-					name = "Prohladniy Depot container 19",
-				},
-				[27] = {
-					name = "Prohladniy Depot container 20",
-				},
-				[28] = {
-					name = "Prohladniy Depot Fuel tank 1",
-				},
-				[29] = {
-					name = "Prohladniy Depot Fuel tank 2",
-				},
-				[30] = {
-					name = "Prohladniy Depot Fuel tank 3",
-				},
-				[31] = {
-					name = "Prohladniy Depot Fuel tank 4",
-				},
-				[32] = {
-					name = "Prohladniy Depot Fuel tank 5",
-				},
-				[33] = {
-					name = "Prohladniy Depot Fuel tank 6",
-				},
-				[34] = {
-					name = "Prohladniy Depot Fuel tank 7",
-				},
-				[35] = {
-					name = "Prohladniy Depot Fuel tank 8",
-				},
-				[36] = {
-					name = "Prohladniy Depot Fuel tank 9",
-				},
-				[37] = {
-					name = "Prohladniy Depot Fuel tank 10",
-				},
-
-			},
-		},		
+		},					
 		["Peredovaya SUPPLY PLANT"] = {
 			task = "Strike",
 			priority = 4,
