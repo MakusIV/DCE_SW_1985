@@ -743,6 +743,7 @@ Bassel Al-Assad AFB
 		-- ILS = "",							-- ILS : optionnel
 		LimitedParkNb = 8,
 	},
+
 	['Damascus Airbase'] = {
 		x =	 -178652.320313,
 		y =  52081.296875,
@@ -761,6 +762,26 @@ Bassel Al-Assad AFB
 		ILS = "RWY 230/109.90 - 50/111.10",							-- ILS : optionnel
 		LimitedParkNb = 90,
 	},
+
+	['Deir ez-Zor Airbase'] = {
+		x =	 25461,
+		y =  389768,
+		elevation = 218,
+		airdromeId = 42,
+		-- ATC_frequency = "41.400",
+		ATC_frequency = "118.100",
+		ATC_frequency = "251.700",
+		-- ATC_frequency = "5.100",
+		startup = 300,
+		side = "red",							-- side : info obligatoire
+		divert = false,							-- divert : info obligatoire (pour l instant)
+		VOR = "117.00",
+		NDB = "295",
+		--TACAN = "",							-- TACAN : optionnel
+		--ILS = "RWY 230/109.90 - 50/111.10",							-- ILS : optionnel
+		LimitedParkNb = 90,
+	},
+
 	['Marj Ruhayyil Airbase'] = {             
 		x =	 -194233.6875,
 		y =  46043.976563,

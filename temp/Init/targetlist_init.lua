@@ -152,7 +152,623 @@ targetlist = {
 			},
 		},	
 
-		["Vaziani Alert"] = {
+		["Al Ghizlaniyah Military Base"] = {
+			task = "Strike",
+			priority = 4,
+			picture = {"Syria_Al Ghizlaniyah_Military_base.png"},
+			attributes = {"Structure"},
+			firepower = {
+				min = 3,  --3,
+				max = 3,  --6,
+			},
+			class = "static",
+			elements = {
+				[1] = {
+					name = "Syria Al Ghizlaniyah Road Outpost-1",
+				},
+				[2] = {
+					name = "Syria Al Ghizlaniyah Garage1",
+				},
+				[3] = {
+					name = "Syria Al Ghizlaniyah Garage2",
+				},
+				[4] = {
+					name = "Syria Al Ghizlaniyah Garage3",
+				},
+				[5] = {
+					name = "Syria Al Ghizlaniyah Garage3-1",
+				},
+				[6] = {
+					name = "Syria Al Ghizlaniyah Garage3-2",
+				},
+				[7] = {
+					name = "Syria Al Ghizlaniyah Compound1",
+				},
+				[8] = {
+					name = "Syria Al Ghizlaniyah Small house 2C-1",
+				},
+				[9] = {
+					name = "Syria Al Ghizlaniyah Small house 2C-2",
+				},
+				[10] = {
+					name = "Syria Al Ghizlaniyah Small warehouse 4-1",
+				},
+				[11] = {
+					name = "Syria Al Ghizlaniyah Small warehouse 4-2",
+				},
+				[12] = {
+					name = "Syria Al Ghizlaniyah Small warehouse 4-3",
+				},
+				[13] = {
+					name = "Syria Al Ghizlaniyah Small warehouse 4-4",
+				},
+				[14] = {
+					name = "Syria Al Ghizlaniyah Small warehouse 4-5",
+				},
+				[15] = {
+					name = "Syria Al Ghizlaniyah Small warehouse 4-6",
+				},
+				[16] = {
+					name = "Syria Al Ghizlaniyah Small warehouse 4-7",
+				},
+				[17] = {
+					name = "Syria Al Ghizlaniyah Tech hangar A-1",
+				},
+				[18] = {
+					name = "Syria Al Ghizlaniyah Workshop1",
+				},
+				[19] = {
+					name = "Syria Al Ghizlaniyah Workshop1-1",
+				},				
+			},
+		},
+
+		["IR-Al Kiswah Military Base"] = {
+			task = "Strike",
+			priority = 4,
+			picture = {"IR_al_Kiswah_Military_base.png"},
+			attributes = {"Structure"},
+			firepower = {
+				min = 3,  --3,
+				max = 3,  --6,
+			},
+			class = "static",
+			elements = {
+				[1] = {
+					name = "IR-Al Kiswah Warehouse-1",
+				},
+				[2] = {
+					name = "IR-Al Kiswah Warehouse-2",
+				},
+				[3] = {
+					name = "IR-Al Kiswah Warehouse-3",
+				},
+				[4] = {
+					name = "IR-Al Kiswah Warehouse-4",
+				},
+				[5] = {
+					name = "IR-Al Kiswah Warehouse-5",
+				},
+				[6] = {
+					name = "IR-Al Kiswah Warehouse-6",
+				},
+				[7] = {
+					name = "IR-Al Kiswah Warehouse-7",
+				},
+				[8] = {
+					name = "IR-Al Kiswah Warehouse-8",
+				},
+				[9] = {
+					name = "IR-Al Kiswah Warehouse-9",
+				},
+				[10] = {
+					name = "IR-Al Kiswah Warehouse-10",
+				},
+				[11] = {
+					name = "IR-Al Kiswah Warehouse-11",
+				},
+				[12] = {
+					name = "IR-Al Kiswah Warehouse-12",
+				},
+				[13] = {
+					name = "IR-Al Kiswah Warehouse-13",
+				},
+				[14] = {
+					name = "IR-Al Kiswah Warehouse-14",
+				},
+				[15] = {
+					name = "IR-Al Kiswah Warehouse-15",
+				},
+				[16] = {
+					name = "IR-Al Kiswah Warehouse-16",
+				},
+				[17] = {
+					name = "IR-Al Kiswah Warehouse-17",
+				},
+				[18] = {
+					name = "IR-Al Kiswah Warehouse-18",
+				},
+				[19] = {
+					name = "IR-Al Kiswah Warehouse-19",
+				},
+				[20] = {
+					name = "IR-Al Kiswah Warehouse-26",
+				},
+				[21] = {
+					name = "IR-Al Kiswah Warehouse-27",
+				},
+				[22] = {
+					name = "IR-Al Kiswah Warehouse-28",
+				},
+				[23] = {
+					name = "IR-Al Kiswah Warehouse-29",
+				},
+				[24] = {
+					name = "IR-Al Kiswah Hut-1",
+				},
+				[25] = {
+					name = "IR-Al Kiswah Hut-2",
+				},
+				[26] = {
+					name = "IR-Al Kiswah Hut-3",
+				},
+				[27] = {
+					name = "IR-Al Kiswah Barracks-1",
+				},
+				[28] = {
+					name = "IR-Al Kiswah Barracks-2",
+				},
+				[29] = {
+					name = "IR-Al Kiswah Barracks-3",
+				},
+				[30] = {
+					name = "IR-Al Kiswah Barracks-4",
+				},
+				[31] = {
+					name = "IR-Al Kiswah Barracks-5",
+				},
+			},
+		},	
+
+		["An Nasiriyah Military Base"] = {
+			task = "Strike",
+			priority = 4,
+			picture = {},
+			attributes = {"Structure"},
+			firepower = {
+				min = 3,  --3,
+				max = 3,  --6,
+			},
+			class = "static",
+			elements = {
+				[1] = {
+					name = "Syria An Nasiriyah 1",
+				},
+				[2] = {
+					name = "Syria An Nasiriyah 2",
+				},
+				[3] = {
+					name = "Syria An Nasiriyah 3",
+				},
+				[4] = {
+					name = "Syria An Nasiriyah 4",
+				},
+				[5] = {
+					name = "Syria An Nasiriyah 5",
+				},
+				[6] = {
+					name = "Syria An Nasiriyah 6",
+				},
+				[7] = {
+					name = "Syria An Nasiriyah 7",
+				},
+				[8] = {
+					name = "Syria An Nasiriyah 8",
+				},
+				[9] = {
+					name = "Syria An Nasiriyah 9",
+				},
+				[10] = {
+					name = "Syria An Nasiriyah 10",
+				},
+				[11] = {
+					name = "Syria An Nasiriyah 11",
+				},
+				[12] = {
+					name = "Syria An Nasiriyah 12",
+				},
+				[13] = {
+					name = "Syria An Nasiriyah 13",
+				},
+				[14] = {
+					name = "Syria An Nasiriyah 14",
+				},
+				[15] = {
+					name = "Syria An Nasiriyah 15",
+				},
+				[16] = {
+					name = "Syria An Nasiriyah 16",
+				},
+				[17] = {
+					name = "Syria An Nasiriyah 17",
+				},
+				[18] = {
+					name = "Syria An Nasiriyah 18",
+				},
+				[19] = {
+					name = "Syria An Nasiriyah 19",
+				},
+				[20] = {
+					name = "Syria An Nasiriyah 20",
+				},
+				[20] = {
+					name = "Syria An Nasiriyah 20",
+				},
+				[21] = {
+					name = "Syria An Nasiriyah 21",
+				},
+				[22] = {
+					name = "Syria An Nasiriyah 22",
+				},
+				[23] = {
+					name = "Syria An Nasiriyah 23",
+				},
+				[24] = {
+					name = "Syria An Nasiriyah 24",
+				},
+				[25] = {
+					name = "Syria An Nasiriyah 25",
+				},
+				[26] = {
+					name = "Syria An Nasiriyah 26",
+				},
+				[27] = {
+					name = "Syria An Nasiriyah 27",
+				},
+				[28] = {
+					name = "Syria An Nasiriyah 28",
+				},
+				[29] = {
+					name = "Syria An Nasiriyah 29",
+				},
+				[30] = {
+					name = "Syria An Nasiriyah 30",
+				},
+				[31] = {
+					name = "Syria An Nasiriyah Barrack1",
+				},
+				[32] = {
+					name = "Syria An Nasiriyah Barrack2",
+				},
+				[33] = {
+					name = "Syria An Nasiriyah Bunker",
+				},
+				[34] = {
+					name = "Syria An Nasiriyah 21-1",
+				},
+				
+			},
+		},
+
+		["Ad Dumayr SAM SA-6 Site"] = {
+			task = "Strike",
+			priority = 6,
+			attributes = {"SAM"},
+			firepower = {
+				min = 2, 
+				max = 4, 
+			},
+			class = "vehicle",
+			name = "Syria Ad Dumayr SAM SA-6 Site",
+		},
+
+		["Ad Dumayr SAM SA-2 Site"] = {
+			task = "Strike",
+			priority = 6,
+			attributes = {"SAM"},
+			firepower = {
+				min = 2, 
+				max = 4, 
+			},
+			class = "vehicle",
+			name = "Ad Dumayr SAM SA-2 Site",
+		},
+
+		["An Nasiriyah SAM SA-2 Site"] = {
+			task = "Strike",
+			priority = 6,
+			attributes = {"SAM"},
+			firepower = {
+				min = 2, 
+				max = 4, 
+			},
+			class = "vehicle",
+			name = "Syria An Nasiriyah SAM SA-2",
+		},
+
+		["Ram Tarza SA10 A Site"] = {
+			task = "Strike",
+			priority = 6,
+			attributes = {"SAM"},
+			firepower = {
+				min = 2, 
+				max = 4, 
+			},
+			class = "vehicle",
+			name = "Syria Ram Tarza SA10 A Site",
+		},
+
+		["Al Haylunah SA10 Site"] = {
+			task = "Strike",
+			priority = 6,
+			attributes = {"SAM"},
+			firepower = {
+				min = 2, 
+				max = 4, 
+			},
+			class = "vehicle",
+			name = "Al Haylunah SA10 Site",
+		},
+
+		["Khirbet Tin Nur SA-2 Site"] = {
+			task = "Strike",
+			priority = 6,
+			attributes = {"SAM"},
+			firepower = {
+				min = 2, 
+				max = 4, 
+			},
+			class = "vehicle",
+			name = "Syria Khirbet Tin Nur SA-2 Site",
+		},
+
+		["Deir ez-Zor SA-5 Site"] = {
+			task = "Strike",
+			picture = {"Deir_ez_Zor_Airbase_and_SAM.png"},
+			priority = 6,
+			attributes = {"SAM"},
+			firepower = {
+				min = 2, 
+				max = 4, 
+			},
+			class = "vehicle",
+			name = "Deir ez-Zor SA-5 Site",
+		},
+
+		["SA-11 Buk Site Beirut"] = {
+
+			task = "Strike",
+			picture = {},
+			priority = 6,
+			attributes = {"SAM"},
+			firepower = {
+				min = 2, 
+				max = 4, 
+			},
+			class = "vehicle",
+			name = "SA-11 Buk Site Beirut",
+		},
+
+		["Hin Shinshar Chemical Storage"] = {
+			task = "Strike",
+			priority = 4,
+			picture = {},
+			attributes = {"Structure"},
+			firepower = {
+				min = 3,  --3,
+				max = 3,  --6,
+			},
+			class = "static",
+			elements = {
+				[1] = {
+					name = "Hin Shinshar Chemical Weapons-1",
+				},
+				[2] = {
+					name = "Hin Shinshar Chemical Weapons-2",
+				},
+				[3] = {
+					name = "Hin Shinshar Chemical Weapons-3",
+				},
+				[4] = {
+					name = "Hin Shinshar Chemical Weapons-4",
+				},
+				[5] = {
+					name = "Hin Shinshar Chemical Weapons-5",
+				},
+				[6] = {
+					name = "Hin Shinshar Chemical Weapons-6",
+				},
+				[7] = {
+					name = "Hin Shinshar Chemical Weapons-7",
+				},
+				[8] = {
+					name = "Hin Shinshar Chemical Weapons-8",
+				},
+				[9] = {
+					name = "Hin Shinshar Chemical Weapons-9",
+				},
+				[10] = {
+					name = "Hin Shinshar Chemical Weapons-10",
+				},
+				[11] = {
+					name = "Hin Shinshar Chemical Weapons-11",
+				},
+				[12] = {
+					name = "Hin Shinshar Chemical Weapons-12",
+				},
+				[13] = {
+					name = "Hin Shinshar Chemical Weapons-13",
+				},
+				[14] = {
+					name = "Hin Shinshar Chemical Weapons Bunker",
+				},
+			},
+		},
+
+		["Khirbet Tin Nur Chemical Storage"] = {
+			task = "Strike",
+			priority = 4,
+			picture = {},
+			attributes = {"Structure"},
+			firepower = {
+				min = 3,  --3,
+				max = 3,  --6,
+			},
+			class = "static",
+			elements = {
+				[1] = {
+					name = "Khirbet Tin Nur Chemical Weapons-1",
+				},
+				[2] = {
+					name = "Khirbet Tin Nur Chemical Weapons-2",
+				},
+				[3] = {
+					name = "Khirbet Tin Nur Chemical Weapons-3",
+				},
+				[4] = {
+					name = "Khirbet Tin Nur Chemical Weapons-4",
+				},
+				[5] = {
+					name = "Khirbet Tin Nur Chemical Weapons-5",
+				},
+				[6] = {
+					name = "Khirbet Tin Nur Chemical Weapons-6",
+				},
+				[7] = {
+					name = "Khirbet Tin Nur Chemical Weapons-7",
+				},
+				[8] = {
+					name = "Khirbet Tin Nur Chemical Weapons-8",
+				},
+				[9] = {
+					name = "Khirbet Tin Nur Chemical Weapons-9",
+				},
+				[10] = {
+					name = "Khirbet Tin Nur Chemical Weapons-10",
+				},
+				[11] = {
+					name = "Khirbet Tin Nur Chemical Weapons-11",
+				},
+				[12] = {
+					name = "Khirbet Tin Nur Chemical Weapons-12",
+				},				
+				[13] = {
+					name = "Khirbet Tin Nur Chemical Weapons Bunker",
+				},
+			},
+		},
+
+		["Palmyra Syrian Chemical Storage"] = {
+			task = "Strike",
+			priority = 4,
+			picture = {},
+			attributes = {"Structure"},
+			firepower = {
+				min = 3,  --3,
+				max = 3,  --6,
+			},
+			class = "static",
+			elements = {
+				[1] = {
+					name = "Palmyra Syrian Chemical Storage-1",
+				},
+				[2] = {
+					name = "Palmyra Syrian Chemical Storage-2",
+				},
+				[3] = {
+					name = "Palmyra Syrian Chemical Storage-3",
+				},
+				[4] = {
+					name = "Palmyra Syrian Chemical Storage-4",
+				},
+				[5] = {
+					name = "Palmyra Syrian Chemical Storage-5",
+				},
+				[6] = {
+					name = "Palmyra Syrian Chemical Storage-6",
+				},
+				[7] = {
+					name = "Palmyra Syrian Chemical Storage-7",
+				},
+			},
+		},
+
+		["IR-Abukamal Storage"] = {
+			task = "Strike",
+			priority = 4,
+			picture = {},
+			attributes = {"Structure"},
+			firepower = {
+				min = 3,  --3,
+				max = 3,  --6,
+			},
+			class = "static",
+			elements = {
+				[1] = {
+					name = "IR-Abukamal Warehouse-1",
+				},
+				[2] = {
+					name = "IR-Abukamal Warehouse-2",
+				},
+				[3] = {
+					name = "IR-Abukamal Warehouse-3",
+				},
+				[4] = {
+					name = "IR-Abukamal Warehouse-4",
+				},
+				[5] = {
+					name = "IR-Abukamal Tank-1",
+				},
+				[6] = {
+					name = "IR-Abukamal Tank-2",
+				},
+				[7] = {
+					name = "IR-Abukamal Bunker-1",
+				},
+				[8] = {
+					name = "IR-Abukamal Bunker-2",
+				},
+			},
+		},
+
+		["23th-Artillery Brigade"] = {
+			task = "Strike",
+			priority = 1,
+			attributes = {"soft"},
+			firepower = {
+				min = 3,  -- 2,
+				max = 3,  -- 4,
+			},
+			class = "vehicle",
+			name = "23th-Artillery Brigade",
+		},	
+		
+		["248th Armored Regiment"] = {
+			task = "Strike",
+			priority = 1,
+			attributes = {"armor"},
+			firepower = {
+				min = 3,  -- 2,
+				max = 3,  -- 4,
+			},
+			class = "vehicle",
+			name = "248th Armored Regiment",
+		},	
+
+		["237th Armored Regiment"] = {
+			task = "Strike",
+			priority = 1,
+			attributes = {"armor"},
+			firepower = {
+				min = 3,  -- 2,
+				max = 3,  -- 4,
+			},
+			class = "vehicle",
+			name = "237th Armored Regiment",
+		},	
+
+
+		["Deir ez-Zor Alert"] = {
 			task = "Intercept",
 			priority = 5,
 			attributes = {},
@@ -160,10 +776,17 @@ targetlist = {
 				min = 2,  -- min num enemy aircraft
 				max = 4, -- max num enemy aircraft
 			},
-			base = "Vaziani",
+			base = "Deir ez-Zor",
 			radius = 200000,
 			inactive = false,
 		},
+
+
+
+
+
+
+		
 		["Kutaisi Alert"] = {
 			task = "Intercept",
 			priority = 5,
@@ -441,17 +1064,7 @@ targetlist = {
 			radius = 50000,
 			text = "North of Kutaisi",
 		},
-		["203 SA-2 Site A-3"] = {
-			task = "Strike",
-			priority = 6,
-			attributes = {"SAM"},
-			firepower = {
-				min = 2, 
-				max = 4, 
-			},
-			class = "vehicle",
-			name = "203 SA-2 Site A-3",
-		},
+		
 		["204 SA-6 Site B-1"] = {
 			task = "Strike",
 			priority = 6,
@@ -1731,17 +2344,7 @@ targetlist = {
 			class = "vehicle",
 			name = "503 5th Artillery Division/3.Btry",
 		},
-		["504 5th Artillery Division/4.Btry"] = {
-			task = "Strike",
-			priority = 1,
-			attributes = {"soft"},
-			firepower = {
-				min = 3,  -- 2,
-				max = 3,  -- 4,
-			},
-			class = "vehicle",
-			name = "504 5th Artillery Division/4.Btry",
-		},		
+		
 		["Bridge Alagir MN 36"] = {
 			task = "Strike",
 			priority = 3,
