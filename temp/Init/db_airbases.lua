@@ -55,141 +55,141 @@ db_airbases = {
 
 
 	--[[
-Turkish Air Force Units
+	Turkish Air Force Units
 
-111th Squadron "Panther" (111. Filo "Panter") - F-4E 2020T Terminator (last operational F-4 unit)
-112th Squadron "Devil" (112. Filo "Şeytan") (temporarily disbanded in anticipation of F-35As[146])
-113th Squadron "Gazelle" (113. Filo "Ceylan") - F-16C/D Block 30/50 Fighting Falcon[147][148][149] (SNIPER and DB.110 recon pods-specialised. The former 113th Squadron "Light" ("Işık") flying RF-4E 
+	111th Squadron "Panther" (111. Filo "Panter") - F-4E 2020T Terminator (last operational F-4 unit)
+	112th Squadron "Devil" (112. Filo "Şeytan") (temporarily disbanded in anticipation of F-35As[146])
+	113th Squadron "Gazelle" (113. Filo "Ceylan") - F-16C/D Block 30/50 Fighting Falcon[147][148][149] (SNIPER and DB.110 recon pods-specialised. The former 113th Squadron "Light" ("Işık") flying RF-4E 
 
-01st Test Squadron (401. Test Filosu) - F-16C/D Block 30/40, F-4E 2020 (weapons testing and evaluation squadron, took over this role from the 132nd Squadron[152])
+	01st Test Squadron (401. Test Filosu) - F-16C/D Block 30/40, F-4E 2020 (weapons testing and evaluation squadron, took over this role from the 132nd Squadron[152])
 
-131st Squadron "Dragon" (131. Filo "Ejder") - B-737-7ES AEW&C (AEW squadron)
-132nd Squadron "Dagger" (132. Filo "Hançer") - F-16C/D Block 50 Fighting Falcon
+	131st Squadron "Dragon" (131. Filo "Ejder") - B-737-7ES AEW&C (AEW squadron)
+	132nd Squadron "Dagger" (132. Filo "Hançer") - F-16C/D Block 50 Fighting Falcon
 
-151st Squadron "Bronze" (151. Filo "Tunç")[147][155][156][157] - F-16C/D Block 40/50 Fighting Falcon (HARM-specialised)
-152nd Squadron "Raider" (152. Filo "Akıncı") - F-16C/D Block 40 Fighting Falcon[158] (relocated to Incirlik Air Base to free facilities at Merzifon for the relocation of 4th Main Jet Base's 143rd Squadron from Ankara-Akıncı, but retained as part of 5th Main Jet Base Command)
-153rd Squadron "Forefather" (153. Filo "Öncel") - F-16C/D Block 30/40 Fighting Falcon (F-16 OCU, the former 4th Main Jet Base's (in Ankara-Akıncı) 143rd Squadron in the OCU role, relocated to Merzifon and rebadged as the 153rd.)
+	151st Squadron "Bronze" (151. Filo "Tunç")[147][155][156][157] - F-16C/D Block 40/50 Fighting Falcon (HARM-specialised)
+	152nd Squadron "Raider" (152. Filo "Akıncı") - F-16C/D Block 40 Fighting Falcon[158] (relocated to Incirlik Air Base to free facilities at Merzifon for the relocation of 4th Main Jet Base's 143rd Squadron from Ankara-Akıncı, but retained as part of 5th Main Jet Base Command)
+	153rd Squadron "Forefather" (153. Filo "Öncel") - F-16C/D Block 30/40 Fighting Falcon (F-16 OCU, the former 4th Main Jet Base's (in Ankara-Akıncı) 143rd Squadron in the OCU role, relocated to Merzifon and rebadged as the 153rd.)
 
-161st Squadron "Bat" (161. Filo "Yarasa") - F-16C/D Block 40/50+ Fighting Falcon (LANTIRN-specialised)
-162nd Squadron "Harpoon" (162. Filo "Zıpkın") - F-16C/D Block 40 Fighting Falcon
-
-
-181st Squadron "Leopard" (181. Filo "Pars") - F-16C/D Block 40TM/Block 50+ Fighting Falcon (LANTIRN-specialised)
-182nd Squadron "Accipiter" (182. Filo "Atmaca") - F-16C/D Block 40 Fighting Falcon
-202nd Liaison and SAR Squadron "East" (202. İrtibat ve Arama-Kurtarma Filosu "Şark") - CN-235M-100, AS-532UL Mk.1+
+	161st Squadron "Bat" (161. Filo "Yarasa") - F-16C/D Block 40/50+ Fighting Falcon (LANTIRN-specialised)
+	162nd Squadron "Harpoon" (162. Filo "Zıpkın") - F-16C/D Block 40 Fighting Falcon
 
 
+	181st Squadron "Leopard" (181. Filo "Pars") - F-16C/D Block 40TM/Block 50+ Fighting Falcon (LANTIRN-specialised)
+	182nd Squadron "Accipiter" (182. Filo "Atmaca") - F-16C/D Block 40 Fighting Falcon
+	202nd Liaison and SAR Squadron "East" (202. İrtibat ve Arama-Kurtarma Filosu "Şark") - CN-235M-100, AS-532UL Mk.1+
 
 
 
 
-	https://military-history.fandom.com/wiki/List_of_Syrian_Air_Force_squadrons
 
-Syrian Air Force Units:[1]
 
-Abu al-Duhur AFB
-678 Squadron [MiG-23MS]
-2 Squadron [L-39ZO]
-??? Squadron [L-39ZO]
+		https://military-history.fandom.com/wiki/List_of_Syrian_Air_Force_squadrons
 
-Afis AFB (also called Taftanaz)
-253 Squadron [Mi-8 Hip C/H]
-255 Squadron [Mi-8 Hip C/H]
+	Syrian Air Force Units:[1]
 
-Aleppo AFB (Regional overhaul centre)
-??? Squadron [Mi-8 Hip C]
-??? Squadron [Mi-8 Hip C]
+	Abu al-Duhur AFB
+	678 Squadron [MiG-23MS]
+	2 Squadron [L-39ZO]
+	??? Squadron [L-39ZO]
 
-al Mezzeh AFB
-One Brigade:
-976 Squadron [SA-342L]
-977 Squadron [SA-342L]
-988 Squadron [SA-342M]
-989 Squadron [SA-342M]
+	Afis AFB (also called Taftanaz)
+	253 Squadron [Mi-8 Hip C/H]
+	255 Squadron [Mi-8 Hip C/H]
 
-al Qusayr AFB
-825 Squadron [MiG-21Bis]
-826 Squadron [Su-27SK] - Unconfirmed
+	Aleppo AFB (Regional overhaul centre)
+	??? Squadron [Mi-8 Hip C]
+	??? Squadron [Mi-8 Hip C]
 
-an Nasiriya AFB
-695 Squadron [MiG-23BN/UB]
-698 Squadron [MiG-23BN/UB]
+	al Mezzeh AFB
+	One Brigade:
+	976 Squadron [SA-342L]
+	977 Squadron [SA-342L]
+	988 Squadron [SA-342M]
+	989 Squadron [SA-342M]
 
-as Suwayda AFB
-One Wing:
-765 Squadron [Mi-25]
-766 Squadron [Mi-25]
+	al Qusayr AFB
+	825 Squadron [MiG-21Bis]
+	826 Squadron [Su-27SK] - Unconfirmed
 
-Damascus/Intl AFB
-29th Brigade:
-522 Squadron [An-24/An-26/Il-76]
-565 Squadron [Yak-40]
-575 Squadron [Dassault Falcon 20E/900]
-585 Squadron [Tu-134]
+	an Nasiriya AFB
+	695 Squadron [MiG-23BN/UB]
+	698 Squadron [MiG-23BN/UB]
 
-Deir Zzor AFB
-8 Squadron [MiG-21MF/UM]
+	as Suwayda AFB
+	One Wing:
+	765 Squadron [Mi-25]
+	766 Squadron [Mi-25]
 
-Dumayr AFB
-67 Squadron [MiG-23ML]
-??? Squadron [Su-22M-2]
+	Damascus/Intl AFB
+	29th Brigade:
+	522 Squadron [An-24/An-26/Il-76]
+	565 Squadron [Yak-40]
+	575 Squadron [Dassault Falcon 20E/900]
+	585 Squadron [Tu-134]
 
-Hamah AFB
-679 Squadron [MiG-21MF/UM]
-680 Squadron [MiG-21MF/UM]
-??? Squadron [MiG-29]
+	Deir Zzor AFB
+	8 Squadron [MiG-21MF/UM]
 
-Jirah AFB
-??? Squadron [L-39ZA]
-Khalkhalah AFB
-945 Squadron [MiG-21Bis]
-946 Squadron [MiG-21Bis]
+	Dumayr AFB
+	67 Squadron [MiG-23ML]
+	??? Squadron [Su-22M-2]
 
-Marj As Sultan AFB
-525 Squadron [Mi-8 Hip C/H]
-537 Squadron [Mi-8 Hip C/H]
-909 Squadron [Mi-8] VIP
-??? Squadron [Mi-8 Hip H/J/K] - EW
+	Hamah AFB
+	679 Squadron [MiG-21MF/UM]
+	680 Squadron [MiG-21MF/UM]
+	??? Squadron [MiG-29]
 
-Marj Ruhayyil AFB
-54 Squadron [MiG-23ML]
-77 Squadron [MiG-23ML/UM]
-767 Squadron [Mi-25]
+	Jirah AFB
+	??? Squadron [L-39ZA]
+	Khalkhalah AFB
+	945 Squadron [MiG-21Bis]
+	946 Squadron [MiG-21Bis]
 
-Minakh AFB
-4 FTS [Mi-8 Hip C, MBB 223 Flamingo]
+	Marj As Sultan AFB
+	525 Squadron [Mi-8 Hip C/H]
+	537 Squadron [Mi-8 Hip C/H]
+	909 Squadron [Mi-8] VIP
+	??? Squadron [Mi-8 Hip H/J/K] - EW
 
-Qabr as Sitt AFB
-532 Squadron [Mi-2/Mi-8 Hip C/H]
+	Marj Ruhayyil AFB
+	54 Squadron [MiG-23ML]
+	77 Squadron [MiG-23ML/UM]
+	767 Squadron [Mi-25]
 
-Rasin el Aboud AFB (also called Kuwayris)
-3 FTS [L-39ZA, MBB 223 Flamingo]
+	Minakh AFB
+	4 FTS [Mi-8 Hip C, MBB 223 Flamingo]
 
-Saiqal/Tsaykal AFB
-697 Squadron [MiG-29]
-698(?) Squadron [MiG-29]
-699 Squadron [MiG-29]
+	Qabr as Sitt AFB
+	532 Squadron [Mi-2/Mi-8 Hip C/H]
 
-Shayrat AFB
-675 Squadron [MiG-23MF/UM]
-677 Squadron [Su-22M-2]
-685 Squadron [Su-22M-4]
+	Rasin el Aboud AFB (also called Kuwayris)
+	3 FTS [L-39ZA, MBB 223 Flamingo]
 
-Tabqa AFB
-12 Squadron [MiG-21MF/UM]
-Base flight - 24 Brigade [Mi-8]
+	Saiqal/Tsaykal AFB
+	697 Squadron [MiG-29]
+	698(?) Squadron [MiG-29]
+	699 Squadron [MiG-29]
 
-Tiyas AFB
-1 Squadron [MiG-25PD/PU/RB]
-5 Squadron [MiG-25PD/PU/RB]
-7 Squadron [MiG-25PD/PU/RB] - Disbanded[2]
-819 Squadron [Su-24MK]
-827 Squadron [Su-22M-4]
-Fighter/FGA squadrons
-10 Squadron [MiG-21] - Location unknown.
+	Shayrat AFB
+	675 Squadron [MiG-23MF/UM]
+	677 Squadron [Su-22M-2]
+	685 Squadron [Su-22M-4]
 
-Bassel Al-Assad AFB
-618 Squadron [Mi-14,Ka-25,Ka-27] - Naval aviation
+	Tabqa AFB
+	12 Squadron [MiG-21MF/UM]
+	Base flight - 24 Brigade [Mi-8]
+
+	Tiyas AFB
+	1 Squadron [MiG-25PD/PU/RB]
+	5 Squadron [MiG-25PD/PU/RB]
+	7 Squadron [MiG-25PD/PU/RB] - Disbanded[2]
+	819 Squadron [Su-24MK]
+	827 Squadron [Su-22M-4]
+	Fighter/FGA squadrons
+	10 Squadron [MiG-21] - Location unknown.
+
+	Bassel Al-Assad AFB
+	618 Squadron [Mi-14,Ka-25,Ka-27] - Naval aviation
 
 	]]
 	-- ['Sanliurfa Airbase'] = {
@@ -235,7 +235,7 @@ Bassel Al-Assad AFB
 		ILS = "RWY 55/109.30 - RWY 235/111.70",							-- ILS : optionnel
 		LimitedParkNb = 120,
 	},
-	['Adana Sakirpasa Airbase'] = {
+	--[[['Adana Sakirpasa Airbase'] = {
 		x =	219468.65625,
 		y = -48332.732422,
 		elevation = 17,
@@ -252,7 +252,7 @@ Bassel Al-Assad AFB
 		-- TACAN = "",							-- TACAN : optionnel
 		ILS = "RWY 56/108.70",							-- ILS : optionnel
 		LimitedParkNb = 39,
-	},
+	},]]
 	['Gaziantep Airbase'] = {   
 		x =	210314.796875,
 		y = 147379.28125,
@@ -289,7 +289,7 @@ Bassel Al-Assad AFB
 		ILS = "RWY 86/108.50",							-- ILS : optionnel
 		LimitedParkNb = 6,
 	},
-	['Minakh Airbase'] = {
+	--[[['Minakh Airbase'] = {
 		x =	163697.53125,
 		y = 107430.609375,
 		elevation = 492,
@@ -305,7 +305,7 @@ Bassel Al-Assad AFB
 		-- TACAN = "",							-- TACAN : optionnel
 		-- ILS = "",							-- ILS : optionnel
 		LimitedParkNb = 20,
-	},
+	},]]
 	['Hatay Airbase'] = {
 		x =	147687.484375,
 		y = 39418.742188,
@@ -326,7 +326,7 @@ Bassel Al-Assad AFB
 	},	
 
 	-- red
-	['Aleppo Airbase'] = {
+	--[[['Aleppo Airbase'] = {
 		x =	125576.863281,
 		y = 123125.304688,
 		elevation = 382,
@@ -343,8 +343,8 @@ Bassel Al-Assad AFB
 		-- TACAN = "",							-- TACAN : optionnel
 		-- ILS = "",							-- ILS : optionnel
 		LimitedParkNb = 8,
-	},
-	['Kuweires Airbase'] = {   
+	},]]
+	--[[['Kuweires Airbase'] = {   
 		x =	125810.890625,
 		y = 155253.8125,
 		elevation = 366,
@@ -361,8 +361,8 @@ Bassel Al-Assad AFB
 		-- TACAN = "",							-- TACAN : optionnel
 		-- ILS = "",							-- ILS : optionnel
 		LimitedParkNb = 37,
-	},
-	['Jirah Airbase'] = {  
+	},]]
+	--[[['Jirah Airbase'] = {  
 		x =	115359.652344,
 		y = 187020.734375,
 		elevation = 353,
@@ -379,7 +379,7 @@ Bassel Al-Assad AFB
 		-- TACAN = "",							-- TACAN : optionnel
 		-- ILS = "",							-- ILS : optionnel
 		LimitedParkNb = 28,
-	},
+	},]]
 	['Taftanaz Airbase'] = {
 		x =	103485.980469,
 		y = 82766.671875,
@@ -470,7 +470,7 @@ Bassel Al-Assad AFB
 		-- ILS = "",							-- ILS : optionnel
 		LimitedParkNb = 46,
 	},
-	['Rene Mouawad Airbase'] = {
+	--[[['Rene Mouawad Airbase'] = {
 		x =	-48306.007813,
 		y = 8690.693604,
 		elevation = 5,
@@ -487,8 +487,8 @@ Bassel Al-Assad AFB
 		-- TACAN = "",							-- TACAN : optionnel
 		-- ILS = "",							-- ILS : optionnel
 		LimitedParkNb = 13,
-	},
-	['Al Qusayr Airbase'] = {  
+	},]]
+	--[[['Al Qusayr Airbase'] = {  
 		x =	-51906.964844,
 		y = 60013.205078,
 		elevation = 527,
@@ -505,7 +505,7 @@ Bassel Al-Assad AFB
 		-- TACAN = "",							-- TACAN : optionnel
 		-- ILS = "",							-- ILS : optionnel
 		LimitedParkNb = 34,
-	},
+	},]]
 	['Palmyra Airbase'] = {  
 		x =	-55704.023438,
 		y = 220114.742188,
@@ -524,7 +524,7 @@ Bassel Al-Assad AFB
 		-- ILS = "",							-- ILS : optionnel
 		LimitedParkNb = 22,
 	},
-	['Tiyas Airbase'] = {
+	--[[['Tiyas Airbase'] = {
 		x =	-58907.53125,
 		y = 157071.484375,
 		elevation = 548,
@@ -541,8 +541,8 @@ Bassel Al-Assad AFB
 		-- TACAN = "",							-- TACAN : optionnel
 		-- ILS = "",							-- ILS : optionnel
 		LimitedParkNb = 81,
-	},
-	['Shayrat Airbase'] = {
+	},]]
+	--[[['Shayrat Airbase'] = {
 		x =	-61368.207031,
 		y = 90675.136719,
 		elevation = 804,
@@ -559,8 +559,8 @@ Bassel Al-Assad AFB
 		-- TACAN = "",							-- TACAN : optionnel
 		-- ILS = "",							-- ILS : optionnel
 		LimitedParkNb = 56,
-	},
-	['Wujah Al Hajar Airbase'] = {
+	},]]
+	--[[['Wujah Al Hajar Airbase'] = {
 		x =	-81524.375,
 		y = -22832.533203,
 		elevation = 198,
@@ -577,7 +577,7 @@ Bassel Al-Assad AFB
 		-- TACAN = "",							-- TACAN : optionnel
 		-- ILS = "",							-- ILS : optionnel
 		LimitedParkNb = 6,
-	},
+	},]]
 	['An Nasiriyah Airbase'] = {
 		x =	-124683.738281,
 		y = 85510.820313,
@@ -596,7 +596,7 @@ Bassel Al-Assad AFB
 		-- ILS = "",							-- ILS : optionnel
 		LimitedParkNb = 20,
 	},
-	['Rayak Airbase'] = {
+	--[[['Rayak Airbase'] = {
 		x =	-130132.492188,
 		y = 4053.336304,
 		elevation = 909, 
@@ -613,7 +613,7 @@ Bassel Al-Assad AFB
 		-- TACAN = "",							-- TACAN : optionnel
 		-- ILS = "",							-- ILS : optionnel
 		LimitedParkNb = 12,
-	},
+	},]]
 	['Beirut-Rafic Hariri Airbase'] = {
 		x =	-131310.8125,
 		y = -42286.496094,
@@ -650,7 +650,7 @@ Bassel Al-Assad AFB
 		-- ILS = "",							-- ILS : optionnel
 		LimitedParkNb = 59,
 	},
-	['Al-Dumayr Airbase'] = {
+	--[[['Al-Dumayr Airbase'] = {
 		x =	-158713.039063,
 		y = 73973.316406,
 		elevation = 630,
@@ -667,8 +667,8 @@ Bassel Al-Assad AFB
 		-- TACAN = "",							-- TACAN : optionnel
 		-- ILS = "",							-- ILS : optionnel
 		LimitedParkNb = 57,
-	},
-	['Marj as Sultan North Airbase'] = {
+	},]]
+	--[[['Marj as Sultan North Airbase'] = {
 		-- Helicopter base
 		x =	-170244.028992,
 		y = 47506.718825,
@@ -686,8 +686,8 @@ Bassel Al-Assad AFB
 		-- TACAN = "",							-- TACAN : optionnel
 		-- ILS = "",			-- ILS : optionnel
 		LimitedParkNb = 14,
-	},
-	['Marj as Sultan South Airbase'] = {
+	},]]
+	--[[['Marj as Sultan South Airbase'] = {
 		-- Helicopter base
 		x =	-171711.336701,
 		y = 48243.74032,
@@ -705,7 +705,7 @@ Bassel Al-Assad AFB
 		-- TACAN = "",							-- TACAN : optionnel
 		-- ILS = "",			-- ILS : optionnel
 		LimitedParkNb = 20,
-	},
+	},]]
 	['Mezzeh Airbase'] = {   
 		x =	-172160.453125,
 		y = 24865.682617,
@@ -724,7 +724,7 @@ Bassel Al-Assad AFB
 		-- ILS = "",							-- ILS : optionnel
 		LimitedParkNb = 28,
 	},
-	['Qabr as Sitt Airbase'] = {
+	--[[['Qabr as Sitt Airbase'] = {
 		-- Helicopter base
 		x =	 -174597.761535,
 		y =  37221.970678,
@@ -742,7 +742,7 @@ Bassel Al-Assad AFB
 		-- TACAN = "",							-- TACAN : optionnel
 		-- ILS = "",							-- ILS : optionnel
 		LimitedParkNb = 8,
-	},
+	},]]
 
 	['Damascus Airbase'] = {
 		x =	 -178652.320313,
@@ -782,7 +782,7 @@ Bassel Al-Assad AFB
 		LimitedParkNb = 90,
 	},
 
-	['Marj Ruhayyil Airbase'] = {             
+	--[[['Marj Ruhayyil Airbase'] = {             
 		x =	 -194233.6875,
 		y =  46043.976563,
 		elevation = 659,
@@ -799,9 +799,9 @@ Bassel Al-Assad AFB
 		-- TACAN = "",							-- TACAN : optionnel
 		-- ILS = "",							-- ILS : optionnel
 		LimitedParkNb = 33,
-	},
+	},]]
 
-	['Kiryat Shmona Airbase'] = {             
+	--[[['Kiryat Shmona Airbase'] = {             
 		x =	 -199486.164063,
 		y =  -34500.691406,
 		elevation = 101,
@@ -818,7 +818,7 @@ Bassel Al-Assad AFB
 		-- TACAN = "",							-- TACAN : optionnel
 		-- ILS = "",							-- ILS : optionnel
 		LimitedParkNb = 5,
-	},
+	},]]
 	['Naqoura Airbase'] = {             
 		-- Helicopter base
 		x =	 -209938.1875,
@@ -857,7 +857,7 @@ Bassel Al-Assad AFB
 		LimitedParkNb = 35,
 	},
 	-- blue israele
-	['Rosh Pina Airbase'] = {             
+	--[[['Rosh Pina Airbase'] = {             
 		x =	 -225277.733943,
 		y =  -37687.536255,
 		elevation = 265,
@@ -874,8 +874,8 @@ Bassel Al-Assad AFB
 		-- TACAN = "",							-- TACAN : optionnel
 		-- ILS = "",							-- ILS : optionnel
 		LimitedParkNb = 9,
-	},
-	['Haifa Airbase'] = {             
+	},]]
+	--[[['Haifa Airbase'] = {             
 		x =	 -242620.8125,
 		y =  -87704.417969,
 		elevation = 6,
@@ -892,8 +892,8 @@ Bassel Al-Assad AFB
 		-- TACAN = "",							-- TACAN : optionnel
 		-- ILS = "",							-- ILS : optionnel
 		LimitedParkNb = 11,
-	},
-	['Tha lah Airbase'] = {             
+	},]]
+	--[[['Tha lah Airbase'] = {             
 		x =	 -258434.929688,
 		y =  40368.677734,
 		elevation = 733,
@@ -910,7 +910,7 @@ Bassel Al-Assad AFB
 		-- TACAN = "",							-- TACAN : optionnel
 		-- ILS = "",							-- ILS : optionnel
 		LimitedParkNb = 16,
-	},
+	},]]
 	['Ramat David Airbase'] = {             
 		x =	 -259102.132813,
 		y =  -75789.410156,
@@ -929,7 +929,7 @@ Bassel Al-Assad AFB
 		ILS = "RWY 326/111.10",							-- ILS : optionnel
 		LimitedParkNb = 42,
 	},
-	['Meggido Airbase'] = {             
+	--[[['Meggido Airbase'] = {             
 		x =	 -266965.015625,
 		y =  -71068.832031,
 		elevation = 55,
@@ -946,8 +946,8 @@ Bassel Al-Assad AFB
 		-- TACAN = "",							-- TACAN : optionnel
 		-- ILS = "",							-- ILS : optionnel
 		LimitedParkNb = 9,
-	},
-	['H4 Airbase'] = {             
+	},]]
+	--[[['H4 Airbase'] = {             
 		x =	 -279366.765625,
 		y =  207219.265625,
 		elevation = 688,
@@ -964,8 +964,8 @@ Bassel Al-Assad AFB
 		-- TACAN = "",							-- TACAN : optionnel
 		-- ILS = "",							-- ILS : optionnel
 		LimitedParkNb = 12,
-	},
-	['Eyn Shemer Airbase'] = {             
+	},]]
+	--[[['Eyn Shemer Airbase'] = {             
 		x =	 -283538.6875,
 		y =  -92619.707031,
 		elevation = 31,
@@ -982,8 +982,8 @@ Bassel Al-Assad AFB
 		-- TACAN = "",							-- TACAN : optionnel
 		-- ILS = "",							-- ILS : optionnel
 		LimitedParkNb = 5,
-	},
-	['King Hussein Air College Airbase'] = {             
+	},]]
+	--[[['King Hussein Air College Airbase'] = {             
 		x =	 -296592.405413,
 		y =  24944.355658,
 		elevation = 672,
@@ -1000,8 +1000,8 @@ Bassel Al-Assad AFB
 		-- TACAN = "",							-- TACAN : optionnel
 		-- ILS = "",							-- ILS : optionnel
 		LimitedParkNb = 52,
-	},
-	['Pinarbashi Airbase'] = {             
+	},]]
+	--[[['Pinarbashi Airbase'] = {             
 		x =	 38639.882813,
 		y =  -238774.6875,
 		elevation = 235,
@@ -1018,8 +1018,8 @@ Bassel Al-Assad AFB
 		-- TACAN = "",							-- TACAN : optionnel
 		-- ILS = "",							-- ILS : optionnel
 		LimitedParkNb = 4,
-	},
-	['Gecitkale Airbase'] = {             
+	},]]
+	--[[['Gecitkale Airbase'] = {             
 		x =	 32144.729634,
 		y =  -197767.51907,
 		elevation = 45,
@@ -1036,8 +1036,8 @@ Bassel Al-Assad AFB
 		-- TACAN = "",							-- TACAN : optionnel
 		-- ILS = "",							-- ILS : optionnel
 		LimitedParkNb = 3,
-	},
-	['Ercan Airbase'] = {             
+	},]]
+	--[[['Ercan Airbase'] = {             
 		x =	 24250.327148,
 		y =  -218240.28125,
 		elevation = 117,
@@ -1054,8 +1054,8 @@ Bassel Al-Assad AFB
 		-- TACAN = "",							-- TACAN : optionnel
 		-- ILS = "",							-- ILS : optionnel
 		LimitedParkNb = 7,
-	},
-	['Lakatamia Airbase'] = {             
+	},]]
+	--[[['Lakatamia Airbase'] = {             
 		-- Helicopter base
 		x =	 19561.164063,
 		y =  -234985.75,
@@ -1073,8 +1073,8 @@ Bassel Al-Assad AFB
 		-- TACAN = "",							-- TACAN : optionnel
 		-- ILS = "",							-- ILS : optionnel
 		LimitedParkNb = 8,
-	},
-	['Kingsfield Airbase'] = {
+	},]]
+	--[[['Kingsfield Airbase'] = {
 		x =	 7596.761963,
 		y =  -199426.492188,
 		elevation = 86,
@@ -1091,7 +1091,7 @@ Bassel Al-Assad AFB
 		-- TACAN = "",							-- TACAN : optionnel
 		-- ILS = "",							-- ILS : optionnel
 		LimitedParkNb = 2,
-	},
+	},]]
 	['Larnaca Airbase'] = {
 		x =	 -7674.737061,
 		y =  -208843.625,
@@ -1110,7 +1110,7 @@ Bassel Al-Assad AFB
 		ILS = "RWY 228/110.80",							-- ILS : optionnel
 		LimitedParkNb = 94,
 	},
-	['Paphos Airbase'] = {
+	--[[['Paphos Airbase'] = {
 		x =	 -18696.34668,
 		y =  -314208.375,
 		elevation = 12,
@@ -1127,8 +1127,8 @@ Bassel Al-Assad AFB
 		-- TACAN = "",							-- TACAN : optionnel
 		ILS = "RWY 294/108.90",							-- ILS : optionnel
 		LimitedParkNb = 49,
-	},
-	['Akrotiri Airbase'] = {
+	},]]
+	--[[['Akrotiri Airbase'] = {
 		x =	 -35778.628906,
 		y =  -268906.125,
 		elevation = 20,
@@ -1145,7 +1145,7 @@ Bassel Al-Assad AFB
 		TACAN = "107X-116.00",							-- TACAN : optionnel
 		ILS = "RWY 291/109.70",							-- ILS : optionnel
 		LimitedParkNb = 41,
-	},
+	},]]
 	['FARP-London'] = {                            ----Crisis in PG campaigns only
 		x =	-8686.627718003,
 		y = -250921.24950583,
