@@ -591,6 +591,38 @@ weapon_db = {
             },                              
         },
 
+        ["Sea Eagle"] = { -- ROBOT 05 RB-05E  antiship Viggen radar 
+            ["type"] = "ASM",       
+            ["task"] = {"Anti-ship Strike"},
+            ["start_service"] = 1985,
+            ["end_service"] = nil,
+            ["cost"] = 700,-- k$  
+            ["tnt"] = 230, --kg
+            ["range"] = 100, --Km
+            ["perc_efficiency_variability"] = 0.1, -- efficiency variability 0-1 (100%)
+            ["efficiency"] = {  
+                
+                ["ship"] = { -- mobile target
+                    ["big"] = {
+                        ["accuracy"] = 0.9,   -- 
+                        ["destroy_capacity"] = 0.6,
+                    },
+                    ["med"] = {
+                        ["accuracy"] = 0.8,  
+                        ["destroy_capacity"] = 0.7,
+                    },
+                    ["small"] = {
+                        ["accuracy"] = 0.7,   
+                        ["destroy_capacity"] = 0.8,
+                    },
+                    ["mix"] = {
+                        ["accuracy"] = 0.75, 
+                        ["destroy_capacity"] = 0.8,
+                    },
+                },                                   
+            },                              
+        },
+
         ["RB-75T"] = { -- ROBOT 05 RB-75T aka AGM-65D Viggen electro optical
             ["type"] = "ASM",       
             ["task"] = {"Anti-ship Strike", "Strike", "SEAD"},
@@ -2085,6 +2117,75 @@ weapon_db = {
                         ["destroy_capacity"] = 6,
                     },
                 },    
+            },                  
+        },
+
+        ["BLG66"] = {  --aka Belouga cluster soft target
+            ["type"] = "Cluster Bombs",
+            ["task"] = {"Strike"},	
+            ["start_service"] = 1980,
+            ["end_service"] = nil,
+            ["cost"] = 15,-- k$  
+            ["weight"] = 305, --kg
+            ["perc_efficiency_variability"] = 0.1, -- percentage of efficiecy variability 0-1 (100%)
+            ["efficiency"] = {  
+                
+                ["SAM"] = { -- fixed target (guided bombs and agm missile are more efficiency)            
+                    ["big"] = {
+                        ["accuracy"] = 0.75,   -- 1 max, 0.1 min ( hit success percentage )
+                        ["destroy_capacity"] = 2.1, -- element destroyed (single hit), 0.1 min ( element destroy capacity )                                    
+                    },
+                    ["med"] = {
+                        ["accuracy"] = 0.7, 
+                        ["destroy_capacity"] = 3.2,
+                    },
+                    ["small"] = {
+                        ["accuracy"] = 0.65, 
+                        ["destroy_capacity"] = 4.5,
+                    },
+                    ["mix"] = {
+                        ["accuracy"] = 0.65, 
+                        ["destroy_capacity"] = 4,
+                    },
+                },                              
+            
+                ["Parked Aircraft"] = {-- fixed target (guided bombs and agm missile are more efficiency)            
+                    ["big"] = {
+                        ["accuracy"] = 0.75,   
+                        ["destroy_capacity"] = 3.2,
+                    },
+                    ["med"] = {
+                        ["accuracy"] = 0.7, 
+                        ["destroy_capacity"] = 4.5,
+                    },
+                    ["small"] = {
+                        ["accuracy"] = 0.65, 
+                        ["destroy_capacity"] = 6.5,
+                    },
+                    ["mix"] = {
+                        ["accuracy"] = 0.67, 
+                        ["destroy_capacity"] = 5,
+                    },
+                },        
+
+                ["soft"] = { -- mobile target(artillery group)
+                    ["big"] = {
+                        ["accuracy"] = 0.7,   -- 
+                        ["destroy_capacity"] = 2.7,
+                    },
+                    ["med"] = {
+                        ["accuracy"] = 0.6,  
+                        ["destroy_capacity"] = 4.5,
+                    },
+                    ["small"] = {
+                        ["accuracy"] = 0.5,   
+                        ["destroy_capacity"] = 6.5,
+                    },
+                    ["mix"] = {
+                        ["accuracy"] = 0.6, 
+                        ["destroy_capacity"] = 5.5,
+                    },
+                },                
             },                  
         },
 

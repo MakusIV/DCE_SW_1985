@@ -7,7 +7,7 @@ options =
         ["TrackIR_external_views"] = false,
         ["f11_free_camera"] = true,
         ["f10_awacs"] = true,
-        ["Coordinate_Display"] = "Lat Long",
+        ["Coordinate_Display"] = "Metric",
         ["accidental_failures"] = false,
         ["Datum"] = 1,
         ["show_pilot_body"] = true,
@@ -285,21 +285,21 @@ options =
         }, -- end of ["F-14"]
         ["SA342"] = 
         {
-            ["StickRollCurve"] = 0,
-            ["VibrationRate"] = 100,
             ["EngineBreak"] = true,
-            ["CPLocalListM"] = "default",
-            ["CPLocalList"] = "default",
-            ["EasierControls"] = false,
-            ["HOT_MIC"] = false,
-            ["StickPitchCurve"] = 0,
-            ["RudderTrim"] = false,
-            ["MiniStick"] = true,
-            ["ControlsDisplayLocation"] = 0,
-            ["CPLocalListMG"] = "default",
-            ["CPLocalListL"] = "default",
-            ["FFB_TOGGLE"] = false,
+            ["VibrationRate"] = 100,
+            ["StickRollCurve"] = 0,
             ["PreloadWaypoints"] = true,
+            ["CPLocalList"] = "default",
+            ["FFB_TOGGLE"] = false,
+            ["HOT_MIC"] = false,
+            ["CPLocalListMG"] = "default",
+            ["CyclicTrimType"] = 1,
+            ["MiniStick"] = true,
+            ["StickPitchCurve"] = 0,
+            ["VR_DECOUPLE"] = false,
+            ["CPLocalListL"] = "default",
+            ["ControlsDisplayLocation"] = 0,
+            ["PedalTrimType"] = 0,
         }, -- end of ["SA342"]
         ["F/A-18C"] = 
         {
