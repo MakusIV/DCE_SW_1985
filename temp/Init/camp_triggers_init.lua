@@ -70,7 +70,6 @@ camp_triggers = {
 		},
 	},
 	
-	
 	----- CAMPAIGN END -----
 	["Campaign End Victory 1"] = {
 		active = true,
@@ -78,7 +77,7 @@ camp_triggers = {
 		condition = 'GroundTarget["blue"].percent < 40',
 		action = {
 			[1] = 'Action.CampaignEnd("win")',
-			[2] = 'Action.Text("The Allied units deployed to Georgia have successfully destroyed all the targets that they were assigned by US Central Command with the precious help of the French and Swedish fighters. With the complete destruction of the Russian airbases, the air campaign of this war comes to an end. Allied air power has once again proven its effectiveness and decisiveness. Well done.")',
+			[2] = 'Action.Text("The Allied units deployed in Syria to  have successfully destroyed above the 40 percent of the targets that they were assigned by US Central Command with the precious help of the French, Turkish and Swedish fighters. With the complete destruction of the Russian airbases, the air campaign of this war comes to an end. Allied air power has once again proven its effectiveness and decisiveness. Well done.")',
 			[3] = 'Action.AddImage("Newspaper_Victory_blue.jpg", "blue")',
 			[4] = 'Action.AddImage("Newspaper_Defeat_red.jpg", "red")',
 			[5] = 'NoMoreNewspaper = true',
