@@ -92,21 +92,22 @@ db_loadouts = {
 	-- NOTA: riporta i nuovi inserimenti in miz: Mig-21Bis flare illumination, Su-24M SEAD Kh-58, L-39ZA, C-101CC, F-16A Laser Illumination, OH-58D
 
 	-- VERIFICA:
-	--  F-15 e F-16A possono effettuare SEAD con AGM-88 Harm
-	--  F-16A, F-4E possono effettuare Laser Illumination
-	--  AJS 37 Viggen: Laser, Flare Illumination e SEAD con altro missile idoneo
-	--  S-3B Laser, SEAD
-	--  F-5E, Mig-21, Su-17, Mig-27, Mig-19, L-39C Laser, Flare
-	--  INSERIRE C-101
-	--  Verifica se Mig-25PD ha altri missili
-	--  verifica altre versioni L-39
-	--  riverifica armamento Tu-142
+	-- F-15 e F-16A possono effettuare SEAD con AGM-88 Harm
+	-- F-16A, F-4E possono effettuare Laser Illumination
+	-- AJS 37 Viggen: Laser, Flare Illumination e SEAD con altro missile idoneo
+	-- S-3B Laser, SEAD
+	-- F-5E, Mig-21, Su-17, Mig-27, Mig-19, L-39C Laser, Flare
+	-- INSERIRE C-101
+	-- Verifica se Mig-25PD ha altri missili
+	-- verifica altre versioni L-39
+	-- riverifica armamento Tu-142
 	-- RIVERIFICA IL LOADOUT DEL F-15c CAP, ESCORT, ... AIM-7M*4, AIM-7MH*3 E AIM-9*2? 
 
 	-- verifica/inserisci se presente role="attacker", "bomber"
 	-- inserisci weapon = []
 	-- verifica/ridefinisci attribute = {}
 	-- VERIFICA SE E COME VIENE GESTITA PER I LOADOUT LA PROPRIETA' coalition = "red", "blue"
+	-- inserisci qui il loadout del IRAN F-14A (no il 135-GR)
 
 
 	-- UH-60 --1974 (primo volo) 1978 (entrata in servizio)
@@ -149,7 +150,6 @@ db_loadouts = {
 	-- GBU-38 1991 NO
 	-- AGM-122 antiradar 1986 SI
 
-	--devi ridefinire i loadouts tramite ME
 
     -- Nato
 
@@ -2503,7 +2503,7 @@ db_loadouts = {
 		},	
 	},
 
-	["F-14A-135-GR"] = { --1974 with AIM-54C (1982) SI -> OK <-    
+	["F-14A-135-GR"] = { --1974 with AIM-54C (1982) SI -> OK <-    anche IRAN
 		["Intercept"] = {
 			["TF-Old-AIM-54A-MK60*4, AIM-7M*2, AIM-9M*2, XT*2"] = {
 				attributes = {},
@@ -10081,7 +10081,7 @@ db_loadouts = {
 
 	["OH-58D"] = {-- 1973 SI -> OK <-  
 		
-	["Strike"] = {
+		["Strike"] = {
 			
 			["CAS ASM AGM-114*4"] = {
 				minscore = 0.0,
@@ -12927,7 +12927,7 @@ db_loadouts = {
 			},
 		},
 
-		["F-14B"] = { --1987-91
+		["F-14B"] = { --1987-91 aggiorna in base al payload riportato in syria_loadouts_miz
 			["Intercept"] = {
 				["AIM-54C-MK47*4, AIM-7M*2, AIM-9M*2, XT*2"] = {
 					attributes = {},
@@ -14006,6 +14006,7 @@ db_loadouts = {
 
 
     -- URSS
+	-- F-14A Iran SI
 	-- Mig-29 1983 SI
 	-- Su-27 1984 SI
 	-- Su-33 1987 NO
@@ -14025,6 +14026,296 @@ db_loadouts = {
 	-- Kh-58 1978 SI
 	-- Kh-59 1991 NO
 
+	["F-14A"] = { -- -> OK <-    anche IRAN
+
+		["Intercept"] = {
+			
+			["Interceptor - AIM-54C*4 , AIM-7M*2, AIM-9M*2"] = {
+				attributes = {},
+				coalition = "red",
+				weapons = {-- task dedicated weapons
+					["AIM-54C-MK47"] = 4,
+					["AIM-7M"] = 2, --cambia in F se possibile
+					["AIM-9M"] = 2,
+				},
+				weaponType = nil,
+				expend = nil,
+				day = true,
+				night = true,
+				adverseWeather = true,
+				range = 300000,
+				capability = 7,
+				firepower = 1, --8, -- = evaluate_weapon_firepower(weapon = "AIM-54A-MK60", quantity = 4) + evaluate_weapon_firepower(weapon = "AIM-7M", quantity = 2) + evaluate_weapon_firepower(weapon = "AIM-9M", quantity = 2)
+				vCruise = nil,
+				vAttack = nil,
+				hCruise = nil,
+				hAttack = nil,
+				standoff = nil,
+				tStation = nil,
+				LDSD = true,
+				self_escort = true,
+				sortie_rate = 4,
+				stores = {
+					["pylons"] = 
+						{
+							[1] = 
+							{
+								["CLSID"] = "{6CEB49FC-DED8-4DED-B053-E1F033FF72D3}",
+							}, -- end of [1]
+							[2] = 
+							{
+								["CLSID"] = "{8D399DDA-FF81-4F14-904D-099B34FE7918}",
+							}, -- end of [2]
+							[4] = 
+							{
+								["CLSID"] = "{7575BA0B-7294-4844-857B-031A144B2595}",
+							}, -- end of [4]
+							[5] = 
+							{
+								["CLSID"] = "{7575BA0B-7294-4844-857B-031A144B2595}",
+							}, -- end of [5]
+							[8] = 
+							{
+								["CLSID"] = "{7575BA0B-7294-4844-857B-031A144B2595}",
+							}, -- end of [8]
+							[11] = 
+							{
+								["CLSID"] = "{8D399DDA-FF81-4F14-904D-099B34FE7918}",
+							}, -- end of [11]
+							[9] = 
+							{
+								["CLSID"] = "{7575BA0B-7294-4844-857B-031A144B2595}",
+							}, -- end of [9]
+							[12] = 
+							{
+								["CLSID"] = "{6CEB49FC-DED8-4DED-B053-E1F033FF72D3}",
+							}, -- end of [12]
+						}, -- end of ["pylons"]
+					["fuel"] = "7348",
+					["flare"] = 15,
+					["chaff"] = 30,
+					["gun"] = 100,
+				},
+			},
+		},
+		
+		["CAP"] = {
+			
+			["CAP - AIM-7M*4, AIM-9M*2, Fuel*2"] = {
+				attributes = {},
+				coalition = "red",
+				role = "escort_bomber",
+				role_altitude = "normal",
+				weapons = {-- task dedicated weapons
+					["AIM-7M"] = 4,
+					["AIM-9M"] = 2,
+				},
+				weaponType = nil,
+				expend = nil,
+				day = true,
+				night = true,
+				adverseWeather = true,
+				range = 500000,
+				capability = 7,
+				firepower = 1, --8,  -- = evaluate_weapon_firepower(weapon = "AIM-54A-MK60", quantity = 4) + evaluate_weapon_firepower(weapon = "AIM-7M", quantity = 2) -- solo BVR(?)
+				vCruise = 213.83333333333,
+				vAttack = 213.83333333333,
+				hCruise = 10000,
+				hAttack = 10000,
+				standoff = 100300,
+				tStation = 3600,
+				LDSD = true,
+				self_escort = true,
+				sortie_rate = 2,
+				stores = {
+					["pylons"] = 
+						{
+							[1] = 
+							{
+								["CLSID"] = "{6CEB49FC-DED8-4DED-B053-E1F033FF72D3}",
+							}, -- end of [1]
+							[2] = 
+							{
+								["CLSID"] = "{8D399DDA-FF81-4F14-904D-099B34FE7918}",
+							}, -- end of [2]
+							[3] = 
+							{
+								["CLSID"] = "{82364E69-5564-4043-A866-E13032926C3E}",
+							}, -- end of [3]
+							[6] = 
+							{
+								["CLSID"] = "{8D399DDA-FF81-4F14-904D-099B34FE7918}",
+							}, -- end of [6]
+							[7] = 
+							{
+								["CLSID"] = "{8D399DDA-FF81-4F14-904D-099B34FE7918}",
+							}, -- end of [7]
+							[11] = 
+							{
+								["CLSID"] = "{8D399DDA-FF81-4F14-904D-099B34FE7918}",
+							}, -- end of [11]
+							[10] = 
+							{
+								["CLSID"] = "{82364E69-5564-4043-A866-E13032926C3E}",
+							}, -- end of [10]
+							[12] = 
+							{
+								["CLSID"] = "{6CEB49FC-DED8-4DED-B053-E1F033FF72D3}",
+							}, -- end of [12]
+						}, -- end of ["pylons"]
+					["fuel"] = 7348,
+					["flare"] = 15,
+					["chaff"] = 30,
+					["gun"] = 100,
+				},
+			},
+		},
+		
+		["Escort"] = {
+			
+			["CAP - AIM-7M*4, AIM-9M*2, Fuel*2"] = {
+				attributes = {},
+				coalition = "red",
+				role = "escort_bomber",
+				role_altitude = "normal",
+				weapons = {-- task dedicated weapons
+					["AIM-7M"] = 4,
+					["AIM-9M"] = 2,
+				},
+				weaponType = nil,
+				expend = nil,
+				day = true,
+				night = true,
+				adverseWeather = true,
+				range = 500000,
+				capability = 7,
+				firepower = 1, --8,  -- = evaluate_weapon_firepower(weapon = "AIM-54A-MK60", quantity = 4) + evaluate_weapon_firepower(weapon = "AIM-7M", quantity = 2) -- solo BVR(?)
+				vCruise = 213.83333333333,
+				vAttack = 213.83333333333,
+				hCruise = 10000,
+				hAttack = 10000,
+				standoff = 100300,
+				tStation = 3600,
+				LDSD = true,
+				self_escort = true,
+				sortie_rate = 2,
+				stores = {
+					["pylons"] = 
+						{
+							[1] = 
+							{
+								["CLSID"] = "{6CEB49FC-DED8-4DED-B053-E1F033FF72D3}",
+							}, -- end of [1]
+							[2] = 
+							{
+								["CLSID"] = "{8D399DDA-FF81-4F14-904D-099B34FE7918}",
+							}, -- end of [2]
+							[3] = 
+							{
+								["CLSID"] = "{82364E69-5564-4043-A866-E13032926C3E}",
+							}, -- end of [3]
+							[6] = 
+							{
+								["CLSID"] = "{8D399DDA-FF81-4F14-904D-099B34FE7918}",
+							}, -- end of [6]
+							[7] = 
+							{
+								["CLSID"] = "{8D399DDA-FF81-4F14-904D-099B34FE7918}",
+							}, -- end of [7]
+							[11] = 
+							{
+								["CLSID"] = "{8D399DDA-FF81-4F14-904D-099B34FE7918}",
+							}, -- end of [11]
+							[10] = 
+							{
+								["CLSID"] = "{82364E69-5564-4043-A866-E13032926C3E}",
+							}, -- end of [10]
+							[12] = 
+							{
+								["CLSID"] = "{6CEB49FC-DED8-4DED-B053-E1F033FF72D3}",
+							}, -- end of [12]
+						}, -- end of ["pylons"]
+					["fuel"] = 7348,
+					["flare"] = 15,
+					["chaff"] = 30,
+					["gun"] = 100,
+				},
+			},
+			
+		},
+		
+		["Fighter Sweep"] = {
+			
+			["CAP - AIM-7M*4, AIM-9M*2, Fuel*2"] = {
+				attributes = {},
+				coalition = "red",
+				role = "escort_bomber",
+				role_altitude = "normal",
+				weapons = {-- task dedicated weapons
+					["AIM-7M"] = 4,
+					["AIM-9M"] = 2,
+				},
+				weaponType = nil,
+				expend = nil,
+				day = true,
+				night = true,
+				adverseWeather = true,
+				range = 500000,
+				capability = 7,
+				firepower = 1, --8,  -- = evaluate_weapon_firepower(weapon = "AIM-54A-MK60", quantity = 4) + evaluate_weapon_firepower(weapon = "AIM-7M", quantity = 2) -- solo BVR(?)
+				vCruise = 213.83333333333,
+				vAttack = 213.83333333333,
+				hCruise = 10000,
+				hAttack = 10000,
+				standoff = 100300,
+				tStation = 3600,
+				LDSD = true,
+				self_escort = true,
+				sortie_rate = 2,
+				stores = {
+					["pylons"] = 
+						{
+							[1] = 
+							{
+								["CLSID"] = "{6CEB49FC-DED8-4DED-B053-E1F033FF72D3}",
+							}, -- end of [1]
+							[2] = 
+							{
+								["CLSID"] = "{8D399DDA-FF81-4F14-904D-099B34FE7918}",
+							}, -- end of [2]
+							[3] = 
+							{
+								["CLSID"] = "{82364E69-5564-4043-A866-E13032926C3E}",
+							}, -- end of [3]
+							[6] = 
+							{
+								["CLSID"] = "{8D399DDA-FF81-4F14-904D-099B34FE7918}",
+							}, -- end of [6]
+							[7] = 
+							{
+								["CLSID"] = "{8D399DDA-FF81-4F14-904D-099B34FE7918}",
+							}, -- end of [7]
+							[11] = 
+							{
+								["CLSID"] = "{8D399DDA-FF81-4F14-904D-099B34FE7918}",
+							}, -- end of [11]
+							[10] = 
+							{
+								["CLSID"] = "{82364E69-5564-4043-A866-E13032926C3E}",
+							}, -- end of [10]
+							[12] = 
+							{
+								["CLSID"] = "{6CEB49FC-DED8-4DED-B053-E1F033FF72D3}",
+							}, -- end of [12]
+						}, -- end of ["pylons"]
+					["fuel"] = 7348,
+					["flare"] = 15,
+					["chaff"] = 30,
+					["gun"] = 100,
+				},
+			},
+		},
+	},
 
 	["SA342M"] = { -- 1973 Syria -> OK <-  
 		["Strike"] = {
