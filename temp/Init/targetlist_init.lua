@@ -49,6 +49,291 @@ airport oca strike: 15 elements(structure and aircraft) -> min firepower: 9, max
 targetlist = {   
 	["blue"] = {
 
+		-- Production & Storage
+
+		["Hin Shinshar Chemical Storage"] = {
+			task = "Strike",
+			priority = 4,
+			picture = {},
+			attributes = {"Structure"},
+			firepower = {
+				min = 3,  --3,
+				max = 3,  --6,
+			},
+			class = "static",
+			elements = {
+				[1] = {
+					name = "Hin Shinshar Chemical Weapons-1",
+				},
+				[2] = {
+					name = "Hin Shinshar Chemical Weapons-2",
+				},
+				[3] = {
+					name = "Hin Shinshar Chemical Weapons-3",
+				},
+				[4] = {
+					name = "Hin Shinshar Chemical Weapons-4",
+				},
+				[5] = {
+					name = "Hin Shinshar Chemical Weapons-5",
+				},
+				[6] = {
+					name = "Hin Shinshar Chemical Weapons-6",
+				},
+				[7] = {
+					name = "Hin Shinshar Chemical Weapons-7",
+				},
+				[8] = {
+					name = "Hin Shinshar Chemical Weapons-8",
+				},
+				[9] = {
+					name = "Hin Shinshar Chemical Weapons-9",
+				},
+				[10] = {
+					name = "Hin Shinshar Chemical Weapons-10",
+				},
+				[11] = {
+					name = "Hin Shinshar Chemical Weapons-11",
+				},
+				[12] = {
+					name = "Hin Shinshar Chemical Weapons-12",
+				},
+				[13] = {
+					name = "Hin Shinshar Chemical Weapons-13",
+				},
+				[14] = {
+					name = "Hin Shinshar Chemical Weapons Bunker",
+				},
+			},
+		},
+
+		["Khirbet Tin Nur Chemical Storage"] = {
+			task = "Strike",
+			priority = 4,
+			picture = {},
+			attributes = {"Structure"},
+			firepower = {
+				min = 3,  --3,
+				max = 3,  --6,
+			},
+			class = "static",
+			elements = {
+				[1] = {
+					name = "Khirbet Tin Nur Chemical Weapons-1",
+				},
+				[2] = {
+					name = "Khirbet Tin Nur Chemical Weapons-2",
+				},
+				[3] = {
+					name = "Khirbet Tin Nur Chemical Weapons-3",
+				},
+				[4] = {
+					name = "Khirbet Tin Nur Chemical Weapons-4",
+				},
+				[5] = {
+					name = "Khirbet Tin Nur Chemical Weapons-5",
+				},
+				[6] = {
+					name = "Khirbet Tin Nur Chemical Weapons-6",
+				},
+				[7] = {
+					name = "Khirbet Tin Nur Chemical Weapons-7",
+				},
+				[8] = {
+					name = "Khirbet Tin Nur Chemical Weapons-8",
+				},
+				[9] = {
+					name = "Khirbet Tin Nur Chemical Weapons-9",
+				},
+				[10] = {
+					name = "Khirbet Tin Nur Chemical Weapons-10",
+				},
+				[11] = {
+					name = "Khirbet Tin Nur Chemical Weapons-11",
+				},
+				[12] = {
+					name = "Khirbet Tin Nur Chemical Weapons-12",
+				},				
+				[13] = {
+					name = "Khirbet Tin Nur Chemical Weapons Bunker",
+				},
+			},
+		},
+
+		["Palmyra Syrian Chemical Storage"] = {
+			task = "Strike",
+			priority = 4,
+			picture = {},
+			attributes = {"Structure"},
+			firepower = {
+				min = 3,  --3,
+				max = 3,  --6,
+			},
+			class = "static",
+			elements = {
+				[1] = {
+					name = "Palmyra Syrian Chemical Storage-1",
+				},
+				[2] = {
+					name = "Palmyra Syrian Chemical Storage-2",
+				},
+				[3] = {
+					name = "Palmyra Syrian Chemical Storage-3",
+				},
+				[4] = {
+					name = "Palmyra Syrian Chemical Storage-4",
+				},
+				[5] = {
+					name = "Palmyra Syrian Chemical Storage-5",
+				},
+				[6] = {
+					name = "Palmyra Syrian Chemical Storage-6",
+				},
+				[7] = {
+					name = "Palmyra Syrian Chemical Storage-7",
+				},
+			},
+		},
+
+		["IR-Abukamal Storage"] = {
+			task = "Strike",
+			priority = 4,
+			picture = {},
+			attributes = {"Structure"},
+			firepower = {
+				min = 3,  --3,
+				max = 3,  --6,
+			},
+			class = "static",
+			elements = {
+				[1] = {
+					name = "IR-Abukamal Warehouse-1",
+				},
+				[2] = {
+					name = "IR-Abukamal Warehouse-2",
+				},
+				[3] = {
+					name = "IR-Abukamal Warehouse-3",
+				},
+				[4] = {
+					name = "IR-Abukamal Warehouse-4",
+				},
+				[5] = {
+					name = "IR-Abukamal Tank-1",
+				},
+				[6] = {
+					name = "IR-Abukamal Tank-2",
+				},
+				[7] = {
+					name = "IR-Abukamal Bunker-1",
+				},
+				[8] = {
+					name = "IR-Abukamal Bunker-2",
+				},
+			},
+		},
+
+		-- SAM Site
+		["Ad Dumayr SAM SA-6 Site"] = {
+			task = "Strike",
+			priority = 6,
+			attributes = {"SAM"},
+			firepower = {
+				min = 2, 
+				max = 4, 
+			},
+			class = "vehicle",
+			name = "Syria Ad Dumayr SAM SA-6 Site",
+		},
+
+		["Ad Dumayr SAM SA-2 Site"] = {
+			task = "Strike",
+			priority = 6,
+			attributes = {"SAM"},
+			firepower = {
+				min = 2, 
+				max = 4, 
+			},
+			class = "vehicle",
+			name = "Ad Dumayr SAM SA-2 Site",
+		},
+
+		["An Nasiriyah SAM SA-2 Site"] = {
+			task = "Strike",
+			priority = 6,
+			attributes = {"SAM"},
+			firepower = {
+				min = 2, 
+				max = 4, 
+			},
+			class = "vehicle",
+			name = "Syria An Nasiriyah SAM SA-2",
+		},
+
+		["Ram Tarza SA10 A Site"] = {
+			task = "Strike",
+			priority = 6,
+			attributes = {"SAM"},
+			firepower = {
+				min = 2, 
+				max = 4, 
+			},
+			class = "vehicle",
+			name = "Syria Ram Tarza SA10 A Site",
+		},
+
+		["Al Haylunah SA10 Site"] = {
+			task = "Strike",
+			priority = 6,
+			attributes = {"SAM"},
+			firepower = {
+				min = 2, 
+				max = 4, 
+			},
+			class = "vehicle",
+			name = "Al Haylunah SA10 Site",
+		},
+
+		["Khirbet Tin Nur SA-2 Site"] = {
+			task = "Strike",
+			priority = 6,
+			attributes = {"SAM"},
+			firepower = {
+				min = 2, 
+				max = 4, 
+			},
+			class = "vehicle",
+			name = "Syria Khirbet Tin Nur SA-2 Site",
+		},
+
+		["Deir ez-Zor SA-5 Site"] = {
+			task = "Strike",
+			picture = {"Deir_ez_Zor_Airbase_and_SAM.png"},
+			priority = 6,
+			attributes = {"SAM"},
+			firepower = {
+				min = 2, 
+				max = 4, 
+			},
+			class = "vehicle",
+			name = "Deir ez-Zor SA-5 Site",
+		},
+
+		["SA-11 Buk Site Beirut"] = {
+
+			task = "Strike",
+			picture = {},
+			priority = 6,
+			attributes = {"SAM"},
+			firepower = {
+				min = 2, 
+				max = 4, 
+			},
+			class = "vehicle",
+			name = "SA-11 Buk Site Beirut",
+		},
+
+		-- Army
 		["Al Ghizlaniyah Military Base"] = {
 			task = "Strike",
 			priority = 4,
@@ -347,287 +632,6 @@ targetlist = {
 			},
 		},
 
-		["Ad Dumayr SAM SA-6 Site"] = {
-			task = "Strike",
-			priority = 6,
-			attributes = {"SAM"},
-			firepower = {
-				min = 2, 
-				max = 4, 
-			},
-			class = "vehicle",
-			name = "Syria Ad Dumayr SAM SA-6 Site",
-		},
-
-		["Ad Dumayr SAM SA-2 Site"] = {
-			task = "Strike",
-			priority = 6,
-			attributes = {"SAM"},
-			firepower = {
-				min = 2, 
-				max = 4, 
-			},
-			class = "vehicle",
-			name = "Ad Dumayr SAM SA-2 Site",
-		},
-
-		["An Nasiriyah SAM SA-2 Site"] = {
-			task = "Strike",
-			priority = 6,
-			attributes = {"SAM"},
-			firepower = {
-				min = 2, 
-				max = 4, 
-			},
-			class = "vehicle",
-			name = "Syria An Nasiriyah SAM SA-2",
-		},
-
-		["Ram Tarza SA10 A Site"] = {
-			task = "Strike",
-			priority = 6,
-			attributes = {"SAM"},
-			firepower = {
-				min = 2, 
-				max = 4, 
-			},
-			class = "vehicle",
-			name = "Syria Ram Tarza SA10 A Site",
-		},
-
-		["Al Haylunah SA10 Site"] = {
-			task = "Strike",
-			priority = 6,
-			attributes = {"SAM"},
-			firepower = {
-				min = 2, 
-				max = 4, 
-			},
-			class = "vehicle",
-			name = "Al Haylunah SA10 Site",
-		},
-
-		["Khirbet Tin Nur SA-2 Site"] = {
-			task = "Strike",
-			priority = 6,
-			attributes = {"SAM"},
-			firepower = {
-				min = 2, 
-				max = 4, 
-			},
-			class = "vehicle",
-			name = "Syria Khirbet Tin Nur SA-2 Site",
-		},
-
-		["Deir ez-Zor SA-5 Site"] = {
-			task = "Strike",
-			picture = {"Deir_ez_Zor_Airbase_and_SAM.png"},
-			priority = 6,
-			attributes = {"SAM"},
-			firepower = {
-				min = 2, 
-				max = 4, 
-			},
-			class = "vehicle",
-			name = "Deir ez-Zor SA-5 Site",
-		},
-
-		["SA-11 Buk Site Beirut"] = {
-
-			task = "Strike",
-			picture = {},
-			priority = 6,
-			attributes = {"SAM"},
-			firepower = {
-				min = 2, 
-				max = 4, 
-			},
-			class = "vehicle",
-			name = "SA-11 Buk Site Beirut",
-		},
-
-		["Hin Shinshar Chemical Storage"] = {
-			task = "Strike",
-			priority = 4,
-			picture = {},
-			attributes = {"Structure"},
-			firepower = {
-				min = 3,  --3,
-				max = 3,  --6,
-			},
-			class = "static",
-			elements = {
-				[1] = {
-					name = "Hin Shinshar Chemical Weapons-1",
-				},
-				[2] = {
-					name = "Hin Shinshar Chemical Weapons-2",
-				},
-				[3] = {
-					name = "Hin Shinshar Chemical Weapons-3",
-				},
-				[4] = {
-					name = "Hin Shinshar Chemical Weapons-4",
-				},
-				[5] = {
-					name = "Hin Shinshar Chemical Weapons-5",
-				},
-				[6] = {
-					name = "Hin Shinshar Chemical Weapons-6",
-				},
-				[7] = {
-					name = "Hin Shinshar Chemical Weapons-7",
-				},
-				[8] = {
-					name = "Hin Shinshar Chemical Weapons-8",
-				},
-				[9] = {
-					name = "Hin Shinshar Chemical Weapons-9",
-				},
-				[10] = {
-					name = "Hin Shinshar Chemical Weapons-10",
-				},
-				[11] = {
-					name = "Hin Shinshar Chemical Weapons-11",
-				},
-				[12] = {
-					name = "Hin Shinshar Chemical Weapons-12",
-				},
-				[13] = {
-					name = "Hin Shinshar Chemical Weapons-13",
-				},
-				[14] = {
-					name = "Hin Shinshar Chemical Weapons Bunker",
-				},
-			},
-		},
-
-		["Khirbet Tin Nur Chemical Storage"] = {
-			task = "Strike",
-			priority = 4,
-			picture = {},
-			attributes = {"Structure"},
-			firepower = {
-				min = 3,  --3,
-				max = 3,  --6,
-			},
-			class = "static",
-			elements = {
-				[1] = {
-					name = "Khirbet Tin Nur Chemical Weapons-1",
-				},
-				[2] = {
-					name = "Khirbet Tin Nur Chemical Weapons-2",
-				},
-				[3] = {
-					name = "Khirbet Tin Nur Chemical Weapons-3",
-				},
-				[4] = {
-					name = "Khirbet Tin Nur Chemical Weapons-4",
-				},
-				[5] = {
-					name = "Khirbet Tin Nur Chemical Weapons-5",
-				},
-				[6] = {
-					name = "Khirbet Tin Nur Chemical Weapons-6",
-				},
-				[7] = {
-					name = "Khirbet Tin Nur Chemical Weapons-7",
-				},
-				[8] = {
-					name = "Khirbet Tin Nur Chemical Weapons-8",
-				},
-				[9] = {
-					name = "Khirbet Tin Nur Chemical Weapons-9",
-				},
-				[10] = {
-					name = "Khirbet Tin Nur Chemical Weapons-10",
-				},
-				[11] = {
-					name = "Khirbet Tin Nur Chemical Weapons-11",
-				},
-				[12] = {
-					name = "Khirbet Tin Nur Chemical Weapons-12",
-				},				
-				[13] = {
-					name = "Khirbet Tin Nur Chemical Weapons Bunker",
-				},
-			},
-		},
-
-		["Palmyra Syrian Chemical Storage"] = {
-			task = "Strike",
-			priority = 4,
-			picture = {},
-			attributes = {"Structure"},
-			firepower = {
-				min = 3,  --3,
-				max = 3,  --6,
-			},
-			class = "static",
-			elements = {
-				[1] = {
-					name = "Palmyra Syrian Chemical Storage-1",
-				},
-				[2] = {
-					name = "Palmyra Syrian Chemical Storage-2",
-				},
-				[3] = {
-					name = "Palmyra Syrian Chemical Storage-3",
-				},
-				[4] = {
-					name = "Palmyra Syrian Chemical Storage-4",
-				},
-				[5] = {
-					name = "Palmyra Syrian Chemical Storage-5",
-				},
-				[6] = {
-					name = "Palmyra Syrian Chemical Storage-6",
-				},
-				[7] = {
-					name = "Palmyra Syrian Chemical Storage-7",
-				},
-			},
-		},
-
-		["IR-Abukamal Storage"] = {
-			task = "Strike",
-			priority = 4,
-			picture = {},
-			attributes = {"Structure"},
-			firepower = {
-				min = 3,  --3,
-				max = 3,  --6,
-			},
-			class = "static",
-			elements = {
-				[1] = {
-					name = "IR-Abukamal Warehouse-1",
-				},
-				[2] = {
-					name = "IR-Abukamal Warehouse-2",
-				},
-				[3] = {
-					name = "IR-Abukamal Warehouse-3",
-				},
-				[4] = {
-					name = "IR-Abukamal Warehouse-4",
-				},
-				[5] = {
-					name = "IR-Abukamal Tank-1",
-				},
-				[6] = {
-					name = "IR-Abukamal Tank-2",
-				},
-				[7] = {
-					name = "IR-Abukamal Bunker-1",
-				},
-				[8] = {
-					name = "IR-Abukamal Bunker-2",
-				},
-			},
-		},
-
 		["23th-Artillery Brigade"] = {
 			task = "Strike",
 			priority = 1,
@@ -664,6 +668,7 @@ targetlist = {
 			name = "237th Armored Regiment",
 		},	
 
+		-- Intercept
 		["Larnaca 120 km Alert"] = {
 			task = "Intercept",
 			priority = 5,
@@ -740,6 +745,7 @@ targetlist = {
 			radius = 150000,
 		},
 
+		-- CAP
 		["CAP Megiddo south"] = {
 			task = "CAP",
 			priority = 20,
@@ -779,34 +785,227 @@ targetlist = {
 			text = "north-est of Cyprus",
 		},
 
+		["CAP AWACS"] = {
+			task = "CAP",
+			priority = 20,
+			attributes = {"Air Forces"},
+			firepower = {
+				min = 2,
+				max = 4,
+			},
+			refpoint = "CAP AWACS",
+			radius = 50000,
+			text = "west of Cyprus",
+		},
+
+		["AWACS"] = {
+			task = "AWACS",
+			priority = 10,
+			attributes = {"Sentry"},
+			firepower = {
+				min = 1,
+				max = 1,
+			},
+			refpoint = "AWACS USA",
+			radius = 30000,
+			text = "",
+		},
+
+		-- Airbase
+		["An Nasiriyah airbase OCA Strike"] = {
+			task = "Strike",
+			priority = 1,
+			attributes = {"Parked Aircraft"},
+			firepower = {
+				min = 2,
+				max = 4, 
+			},
+			class = "airbase",
+			name = "An Nasiriyah",
+		},
+
+		["An Nasiriyah Airbase"] = {
+			task = "Strike",
+			priority = 4,
+			picture = {"An_Nasiriyah_Airbase.png"},
+			attributes = {"Structure"},
+			firepower = {
+				min = 3, -- --3,
+				max = 3, -- --6,
+			},
+			elements = {
+				[1] = {
+					name = "An Nasiriyah Airbase Logistic 1",
+					["y"] = 86762.515547433,
+                    ["x"] = -122673.50017915,
+				},
+				[2] = {
+					name = "An Nasiriyah Airbase Logistic 2",
+					["y"] = 86776.784711065,
+                    ["x"] = -122680.5221112,
+				},
+				[3] = {
+					name = "An Nasiriyah Airbase Logistic 3",
+					["y"] = 86787.1321199,
+                    ["x"] = -122663.42472333,
+				},
+				[4] = {
+					name = "An Nasiriyah Airbase Logistic 4",
+					["y"] = 86770.358780848,
+                    ["x"] = -122656.06799567,
+				},
+				[5] = {
+					name = "An Nasiriyah Airbase Logistic 5",
+					["y"] = 86779.333988586,
+                    ["x"] = -122637.67617654,
+				},
+				[6] = {
+					name = "An Nasiriyah Airbase Logistic 6",
+					["y"] = 86795.518789426,
+                    ["x"] = -122645.91571151,
+				},
+				[7] = {
+					name = "An Nasiriyah Airbase Logistic 7",
+					["y"] = 86786.837850794,
+                    ["x"] = -122622.66845212,
+				},
+				[8] = {
+					name = "An Nasiriyah Airbase Logistic 8",
+					["y"] = 86803.022651633,
+                    ["x"] = -122630.31944888,
+				},
+				[9] = {
+					name = "An Nasiriyah Airbase Logistic 9",
+					["y"] = 85847.307706892,
+                    ["x"] = -123249.33361623,
+				},
+				[10] = {
+					name = "An Nasiriyah Airbase Logistic 10",
+					["y"] = 85895.452314271,
+                    ["x"] = -123205.12926208,
+				},
+				[11] = {
+					name = "An Nasiriyah Airbase Logistic 11",
+					["y"] = 85783.54873661,
+                    ["x"] = -123872.67395514,
+				},
+				[12] = {
+					name = "An Nasiriyah Airbase Logistic 12",
+					["y"] = 85661.488898936,
+                    ["x"] = -123790.43042815,
+				},
+				[13] = {
+					name = "An Nasiriyah Airbase Logistic 13",
+					["y"] = 85584.467183184,
+                    ["x"] = -123721.89415566,
+				},
+				[14] = {
+					name = "An Nasiriyah Airbase Logistic 14",
+					["y"] = 85487.210948887,
+                    ["x"] = -123640.95608148,
+				},
+				[15] = {
+					name = "An Nasiriyah Airbase Logistic 15",
+					["y"] = 85971.674528902,
+                    ["x"] = -122655.5654005,
+				},
+				[16] = {
+					name = "An Nasiriyah Airbase Logistic 16",
+					["y"] = 85994.52327452,
+                    ["x"] = -122705.29502332,
+				},
+			},
+		},
+
+		["Damascus airbase OCA Strike"] = {
+			task = "Strike",
+			priority = 1,
+			attributes = {"Parked Aircraft"},
+			firepower = {
+				min = 2,
+				max = 4, 
+			},
+			class = "airbase",
+			name = "Damascus",
+		},
+
+		["Damascus Airbase"] = {
+			task = "Strike",
+			priority = 4,
+			picture = {"Damascus_Airbase.png"},
+			attributes = {"Structure"},
+			firepower = {
+				min = 3, -- --3,
+				max = 3, -- --6,
+			},
+			elements = {
+				[1] = {
+					name = "Damascus Airbase Logistic-1",
+					["y"] = 52528.232495553,
+                    ["x"] = -180191.34926924,
+				},
+				[2] = {
+					name = "Damascus Airbase Logistic-2",
+					["y"] = 52556.369910765,
+                    ["x"] = -180223.46644492,
+				},
+				[3] = {
+					name = "Damascus Airbase Logistic-3",
+					["y"] = 52586.939808088,
+                    ["x"] = -180254.58223326,
+				},
+				[4] = {
+					name = "Damascus Airbase Logistic-4",
+					["y"] = 52557.461692813,
+                    ["x"] = -180154.13828492,
+				},
+				[5] = {
+					name = "Damascus Airbase Logistic-5",
+					["y"] = 52591.306936277,
+                    ["x"] = -180182.52461814,
+				},
+				[6] = {
+					name = "Damascus Airbase Logistic-6",
+					["y"] = 52624.060397693,
+                    ["x"] = -180221.28288082,
+				},
+				[7] = {
+					name = "Damascus Airbase Logistic-7",
+					["y"] = 51804.244522921,
+                    ["x"] = -179513.83714859,
+				},
+				[8] = {
+					name = "Damascus Airbase Logistic-8",
+					["y"] = 51826.539551566,
+                    ["x"] = -179539.56218164,
+				},
+				[9] = {
+					name = "Damascus Airbase Logistic-9",
+					["y"] = 51847.977079109,
+                    ["x"] = -179565.28721469,
+				},
+				[10] = {
+					name = "Damascus Airbase Logistic-10",
+					["y"] = 50497.230964957,
+					["x"] = -182199.06180369,
+				},
+				[11] = {
+					name = "Damascus Airbase Logistic-11",
+					["y"] = 50257.372863667,
+                    ["x"] = -181989.46857361,
+				},
+				[12] = {
+					name = "Damascus Airbase Logistic-12",
+					["y"] = 50479.71472886,
+                    ["x"] = -182178.3607974,
+				},
+			},
+		},
 
 
-
+		------------------------------------------------------------------------ OLD
 		
-		["Kutaisi Alert"] = {
-			task = "Intercept",
-			priority = 5,
-			attributes = {},
-			firepower = {
-				min = 2,
-				max = 4,
-			},
-			base = "Kutaisi",
-			radius = 200000,
-			inactive = false,
-		},
-		["Kutaisi Alert 100"] = {
-			task = "Intercept",
-			priority = 7,
-			attributes = {},
-			firepower = {
-				min = 2,
-				max = 4,
-			},
-			base = "Kutaisi",
-			radius = 100000,
-			inactive = false,
-		},
+
 		
 		["Battle Group CAP"] = {
 			task = "CAP",
@@ -866,18 +1065,7 @@ targetlist = {
 			name = "Russian Convoy 1",
 		},
 			
-		["AWACS"] = {
-			task = "AWACS",
-			priority = 10,
-			attributes = {"Sentry"},
-			firepower = {
-				min = 1,
-				max = 1,
-			},
-			refpoint = "AWACS",
-			radius = 15000,
-			text = "",
-		},
+		
 		["Tanker Track West"] = {
 			task = "Refueling",
 			priority = 10,
@@ -938,29 +1126,9 @@ targetlist = {
 			y = 888342,
 			text = "in the east front area",
 		},
-		["Beslan Airbase OCA Strike"] = {
-			task = "Strike",
-			priority = 1,
-			attributes = {"Parked Aircraft"},
-			firepower = {
-				min = 2, 
-				max = 4, 
-			},
-			class = "airbase",
-			name = "Beslan",
-		},
 		
-		["Mineralnye-Vody airbase OCA Strike"] = {
-			task = "Strike",
-			priority = 1,
-			attributes = {"Parked Aircraft"},
-			firepower = {
-				min = 2,
-				max = 4, 
-			},
-			class = "airbase",
-			name = "Mineralnye-Vody",
-		},
+		
+		
 		["101 EWR Site"] = {
 			task = "Strike",
 			priority = 5,
@@ -1000,68 +1168,6 @@ targetlist = {
 			name = "LENIGORI FARP AA",
 		},
 			
-		["Beslan Airbase"] = {
-			task = "Strike",
-			priority = 4,
-			picture = {"Beslan_Airbase.png"},
-			attributes = {"Structure"},
-			firepower = {
-				min = 3, -- --3,
-				max = 3, -- --6,
-			},
-			elements = {
-				[1] = {
-					name = "Beslan Control Tower",
-					x = -148962.921875,
-					y = 843620.0625,
-				},
-				[2] = {
-					name = "Beslan Hangar 1",
-					x = -148993.71875,
-					y = 843839.625,
-				},
-				[3] = {
-					name = "Beslan Hangar 2",
-					x = -149028.84375,
-					y = 843837.375,
-				},
-				[4] = {
-					name = "Beslan Barrack",
-					x = -149005.96875,
-					y = 843724.125,
-				},
-				[5] = {
-					name = "Rescue Station",
-					x = -149021.625,
-					y = 844018.875,
-				},
-				[6] = {
-					name = "Repair Hangar",
-					x = -149043.3125,
-					y = 844111.125,
-				},
-				[7] = {
-					name = "Refuel Station",
-					x = -149049.53125,
-					y = 844187,
-				},
-				[8] = {
-					name = "Beslan Terminal",
-					x = -148948.96875,
-					y = 843511.75,
-				},
-				[9] = {
-					name = "Beslan Hangar 3",
-					x = -149149.171875,
-					y = 843921.125,
-				},
-				[10] = {
-					name = "Beslan Power Supply",
-					x = -149095.828125,
-					y = 843622.9375,
-				},
-			},
-		},
 					
 		["Peredovaya SUPPLY PLANT"] = {
 			task = "Strike",
@@ -1242,75 +1348,6 @@ targetlist = {
 			},
 		},			
 		
-		
-		["NOGIR FARP MN76"] = {
-			task = "Strike",
-			priority = 6,
-			picture = {"FARP_Vladikavkaz.png"},
-			attributes = {"SAM"},
-			firepower = {
-				min = 3, --3,
-				max = 3, -- --6,
-			},
-			class = "static",
-			elements = {
-				[1] = {
-					name = "NOGIR FARP - Hind 1",
-				},
-				[2] = {
-					name = "NOGIR FARP - Hind 2",
-				},
-				[3] = {
-					name = "NOGIR FARP - Hind 3",
-				},
-				[4] = {
-					name = "NOGIR FARP - Hip 1",
-				},
-				[5] = {
-					name = "NOGIR FARP - Hip 2",
-				},
-				[6] = {
-					name = "NOGIR FARP - Hip 3",
-				},
-				[7] = {
-					name = "NOGIR FARP - Hip 4",
-				},
-				[8] = {
-					name = "NOGIR FARP - Hip 5",
-				},
-				[9] = {
-					name = "NOGIR FARP - Ammo depot 1",
-				},
-				[10] = {
-					name = "NOGIR FARP - Ammo depot 2",
-				},
-				[11] = {
-					name = "NOGIR FARP - Ammo depot 3",
-				},
-				[12] = {
-					name = "NOGIR FARP - Fuel depot 1",
-				},
-				[13] = {
-					name = "NOGIR FARP - Fuel depot 2",
-				},
-				[14] = {
-					name = "NOGIR FARP - Fuel depot 3",
-				},
-				[15] = {
-					name = "NOGIR FARP - Crew house",
-				},
-				[16] = {
-					name = "NOGIR FARP - Crew Tent 1",
-				},
-				[17] = {
-					name = "NOGIR FARP - Crew Tent 2",
-				},
-				[18] = {
-					name = "NOGIR FARP - Crew Tent 3",
-				},
-			},
-		},
-		
 		["407 8th Army ELINT Station"] = {
 			task = "Strike",
 			priority = 6,
@@ -1379,6 +1416,8 @@ targetlist = {
 	},
 	["red"] = {		
 
+
+		-- Production & Storage
 		["Silifke Storage Site"] = {
 			task = "Strike",
 			priority = 4,
@@ -1542,6 +1581,7 @@ targetlist = {
 			},
 		},	
 
+		-- SAM Site
 		["SAM Patriot Site Mersin"] = {
 			task = "Strike",
 			priority = 6,
@@ -1602,6 +1642,7 @@ targetlist = {
 			name = "SAM Hawk Site Haifa",
 		},
 
+		-- Fleet
 		["CVN-71 Theodore Roosevelt"] = {
 			task = "Anti-ship Strike",
 			priority = 5,
@@ -1638,6 +1679,7 @@ targetlist = {
 			name = "USA Fleet 1",
 		},
 
+		-- Army
 		["3th Mechanized Division"] = {
 			task = "Strike",
 			priority = 1,
@@ -1686,6 +1728,7 @@ targetlist = {
 			name = "9th Armored Division",
 		},	
 
+		-- Intercept
 		["Deir ez-Zor 200km Alert"] = {
 			task = "Intercept",
 			priority = 5,
@@ -1764,6 +1807,7 @@ targetlist = {
 			inactive = false,
 		},
 
+		-- CAP 
 		["CAP Deir ez-Zor south"] = {
 			task = "CAP",
 			priority = 20,
@@ -1840,6 +1884,19 @@ targetlist = {
 			refpoint = "CAP Damascus south",
 			radius = 40000,
 			text = "south-west of Damascus",
+		},
+
+		["AWACS"] = {
+			task = "AWACS",
+			priority = 10,
+			attributes = {"Sentry"},
+			firepower = {
+				min = 1,
+				max = 1,
+			},
+			refpoint = "AWACS Russia",
+			radius = 30000,
+			text = "",
 		},
 		--
 
