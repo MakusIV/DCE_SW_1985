@@ -163,7 +163,7 @@ targetlist = {
 		["Palmyra Syrian Chemical Storage"] = {
 			task = "Strike",
 			priority = 4,
-			picture = {},
+			picture = {"Target.Palmyra_Storage"},
 			attributes = {"Structure"},
 			firepower = {
 				min = 3,  --3,
@@ -198,7 +198,7 @@ targetlist = {
 		["IR-Abukamal Storage"] = {
 			task = "Strike",
 			priority = 4,
-			picture = {},
+			picture = {"Target.IR_Abukamal_Storage"},
 			attributes = {"Structure"},
 			firepower = {
 				min = 3,  --3,
@@ -333,6 +333,34 @@ targetlist = {
 			name = "SA-11 Buk Site Beirut",
 		},
 
+		--EWR Site
+		["102 EWR Site"] = {
+			task = "Strike",
+			priority = 5,
+			picture = {"102_EWR_Site"},
+			attributes = {"soft"},
+			firepower = {
+				min = 2, 
+				max = 4, 
+			},
+			class = "vehicle",
+			name = "102 EWR Site",
+		},
+
+		["101 EWR Site"] = {
+			task = "Strike",
+			priority = 5,
+			picture = {"101_EWR_Site"},
+			attributes = {"soft"},
+			firepower = {
+				min = 2, 
+				max = 4, 
+			},
+			class = "vehicle",
+			name = "101 EWR Site",
+		},
+
+
 		-- Army
 		["Al Ghizlaniyah Military Base"] = {
 			task = "Strike",
@@ -346,61 +374,61 @@ targetlist = {
 			class = "static",
 			elements = {
 				[1] = {
-					name = "Syria Al Ghizlaniyah Road Outpost-1",
+					name = "Al Ghizlaniyah Military Base 1",
 				},
 				[2] = {
-					name = "Syria Al Ghizlaniyah Garage1",
+					name = "Al Ghizlaniyah Military Base 2",
 				},
 				[3] = {
-					name = "Syria Al Ghizlaniyah Garage2",
+					name = "Al Ghizlaniyah Military Base 3",
 				},
 				[4] = {
-					name = "Syria Al Ghizlaniyah Garage3",
-				},
+					name = "Al Ghizlaniyah Military Base 4",
+				},	
 				[5] = {
-					name = "Syria Al Ghizlaniyah Garage3-1",
+					name = "Al Ghizlaniyah Military Base 5",
 				},
 				[6] = {
-					name = "Syria Al Ghizlaniyah Garage3-2",
+					name = "Al Ghizlaniyah Military Base 6",
 				},
 				[7] = {
-					name = "Syria Al Ghizlaniyah Compound1",
+					name = "Al Ghizlaniyah Military Base 7",
 				},
 				[8] = {
-					name = "Syria Al Ghizlaniyah Small house 2C-1",
-				},
+					name = "Al Ghizlaniyah Military Base 8",
+				},	
 				[9] = {
-					name = "Syria Al Ghizlaniyah Small house 2C-2",
+					name = "Al Ghizlaniyah Military Base 9",
 				},
 				[10] = {
-					name = "Syria Al Ghizlaniyah Small warehouse 4-1",
+					name = "Al Ghizlaniyah Military Base 10",
 				},
 				[11] = {
-					name = "Syria Al Ghizlaniyah Small warehouse 4-2",
+					name = "Al Ghizlaniyah Military Base 11",
 				},
 				[12] = {
-					name = "Syria Al Ghizlaniyah Small warehouse 4-3",
-				},
+					name = "Al Ghizlaniyah Military Base 12",
+				},	
 				[13] = {
-					name = "Syria Al Ghizlaniyah Small warehouse 4-4",
+					name = "Al Ghizlaniyah Military Base 13",
 				},
 				[14] = {
-					name = "Syria Al Ghizlaniyah Small warehouse 4-5",
+					name = "Al Ghizlaniyah Military Base 14",
 				},
 				[15] = {
-					name = "Syria Al Ghizlaniyah Small warehouse 4-6",
+					name = "Al Ghizlaniyah Military Base 15",
 				},
 				[16] = {
-					name = "Syria Al Ghizlaniyah Small warehouse 4-7",
-				},
+					name = "Al Ghizlaniyah Military Base 16",
+				},	
 				[17] = {
-					name = "Syria Al Ghizlaniyah Tech hangar A-1",
+					name = "Al Ghizlaniyah Military Base 17",
 				},
 				[18] = {
-					name = "Syria Al Ghizlaniyah Workshop1",
+					name = "Al Ghizlaniyah Military Base 18",
 				},
 				[19] = {
-					name = "Syria Al Ghizlaniyah Workshop1-1",
+					name = "Al Ghizlaniyah Military Base 19",
 				},				
 			},
 		},
@@ -515,7 +543,7 @@ targetlist = {
 		["An Nasiriyah Military Base"] = {
 			task = "Strike",
 			priority = 4,
-			picture = {},
+			picture = {"An_Nasiriyah_Military_Base.png"},
 			attributes = {"Structure"},
 			firepower = {
 				min = 3,  --3,
@@ -1002,9 +1030,211 @@ targetlist = {
 			},
 		},
 
+		["Deir ez-Zor airbase OCA Strike"] = {
+			task = "Strike",
+			priority = 1,
+			attributes = {"Parked Aircraft"},
+			firepower = {
+				min = 2,
+				max = 4, 
+			},
+			class = "airbase",
+			name = "Deir ez-Zor",
+		},
 
+		["Deir ez-Zor Airbase"] = { -- devi aggiornare le coordinate [x], [y]. PROVA A NON INSERIRLE ESSENDO ELEMENTI STATICI INSERITI IN ME  
+			task = "Strike",
+			priority = 4,
+			picture = {"Deir ez-Zor_Airbase.png"},
+			attributes = {"Structure"},
+			firepower = {
+				min = 3, -- --3,
+				max = 3, -- --6,
+			},
+			elements = {
+				[1] = {
+					name = "Deir ez-Zor Logistic 1",
+					
+				},
+				[2] = {
+					name = "Deir ez-Zor Logistic 2",
+					
+				},
+				[3] = {
+					name = "Deir ez-Zor Logistic 3",
+					
+				},
+				[4] = {
+					name = "Deir ez-Zor Logistic 4",
+					
+				},
+				[5] = {
+					name = "Deir ez-Zor Logistic 5",
+					
+				},
+				[6] = {
+					name = "Deir ez-Zor Logistic 6",
+					
+				},
+				[7] = {
+					name = "Deir ez-Zor Logistic 7",
+					
+				},
+			},
+		},
+
+		["Tabqa Airbase"] = { -- devi aggiornare le coordinate [x], [y]. PROVA A NON INSERIRLE ESSENDO ELEMENTI STATICI INSERITI IN ME  
+			task = "Strike",
+			priority = 4,
+			picture = {"Tabqua_Airbase.png"},
+			attributes = {"Structure"},
+			firepower = {
+				min = 3, -- --3,
+				max = 3, -- --6,
+			},
+			elements = {
+				[1] = {
+					name = "Tabqua Airbase Logistic 1",
+					
+				},
+				[2] = {
+					name = "Tabqua Airbase Logistic 2",
+					
+				},
+				[3] = {
+					name = "Tabqua Airbase Logistic 3",
+					
+				},
+				[4] = {
+					name = "Tabqua Airbase Logistic 4",
+					
+				},
+				[5] = {
+					name = "Tabqua Airbase Logistic 5",
+					
+				},
+				[6] = {
+					name = "Tabqua Airbase Logistic 6",
+					
+				},
+				[7] = {
+					name = "Tabqua Airbase Logistic 7",
+					
+				},
+				[8] = {
+					name = "Tabqua Airbase Logistic 8",
+					
+				},
+				[9] = {
+					name = "Tabqua Airbase Logistic 9",
+					
+				},
+			},
+		},
+
+		["Tabqa airbase OCA Strike"] = {
+			task = "Strike",
+			priority = 1,
+			attributes = {"Parked Aircraft"},
+			firepower = {
+				min = 2,
+				max = 4, 
+			},
+			class = "airbase",
+			name = "Tabqa",
+		},
+
+		--
+
+		-- Helibase, Farp
+		["Sayqal helibase OCA Strike"] = {
+			task = "Strike",
+			priority = 1,
+			attributes = {"Parked Aircraft"},
+			firepower = {
+				min = 2,
+				max = 4, 
+			},
+			class = "airbase",
+			name = "Sayqal",
+		},
+
+		["Sayqal Helibase"] = { -- devi aggiornare le coordinate [x], [y]. PROVA A NON INSERIRLE ESSENDO ELEMENTI STATICI INSERITI IN ME  
+			task = "Strike",
+			priority = 4,
+			picture = {"Sayqal_Helibase.png"},
+			attributes = {"Structure"},
+			firepower = {
+				min = 3, -- --3,
+				max = 3, -- --6,
+			},
+			elements = {
+				[1] = {
+					name = "Sayqal Helibase Logistic 1",
+					
+				},
+				[2] = {
+					name = "Sayqal Helibase Logistic 2",
+					
+				},
+				[3] = {
+					name = "Sayqal Helibase Logistic 3",
+					
+				},
+				[4] = {
+					name = "Sayqal Helibase Logistic 4",
+					
+				},
+				[5] = {
+					name = "Sayqal Helibase Logistic 5",
+					
+				},
+				[6] = {
+					name = "Sayqal Helibase Logistic 6",
+					
+				},
+				[7] = {
+					name = "Sayqal Helibase Logistic 7",
+					
+				},
+				[8] = {
+					name = "Sayqal Helibase Logistic 8",
+					
+				},
+				[9] = {
+					name = "Sayqal Helibase Logistic 9",
+					
+				},
+				[10] = {
+					name = "Sayqal Helibase Logistic 10",
+					
+				},
+				[11] = {
+					name = "Sayqal Helibase Logistic 11",
+					
+				},
+				[12] = {
+					name = "Sayqal Helibase Logistic 12",
+					
+				},
+				[13] = {
+					name = "Sayqal Helibase Logistic 13",
+					
+				},
+				[14] = {
+					name = "Sayqal Helibase Logistic 14",
+					
+				},
+				[15] = {
+					name = "Sayqal Helibase Logistic 15",
+					
+				},
+			},
+		},
+
+--Sayqal Helibase Logistic 15
 		------------------------------------------------------------------------ OLD
-		
+		--Al_Ghizlaniyah_Military_Base
 
 		
 		["Battle Group CAP"] = {
@@ -1129,29 +1359,7 @@ targetlist = {
 		
 		
 		
-		["101 EWR Site"] = {
-			task = "Strike",
-			priority = 5,
-			-- picture = {""},
-			attributes = {"soft"},
-			firepower = {
-				min = 2, 
-				max = 4, 
-			},
-			class = "vehicle",
-			name = "101 EWR Site",
-		},
-		["102 EWR Site"] = {
-			task = "Strike",
-			priority = 5,
-			attributes = {"soft"},
-			firepower = {
-				min = 2, 
-				max = 4, 
-			},
-			class = "vehicle",
-			name = "102 EWR Site",
-		},
+
 		
 		
 		
@@ -1898,7 +2106,13 @@ targetlist = {
 			radius = 30000,
 			text = "",
 		},
-		--
+		
+		-- Airbase
+
+
+		-- Helibase, Farp
+
+
 
 
 
