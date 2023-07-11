@@ -47,10 +47,10 @@ airport oca strike: 15 elements(structure and aircraft) -> min firepower: 9, max
 
 
 targetlist = {   
+
 	["blue"] = {
 
 		-- Production & Storage
-
 		["Hin Shinshar Chemical Storage"] = {
 			task = "Strike",
 			priority = 4,
@@ -1232,9 +1232,9 @@ targetlist = {
 			},
 		},
 
---Sayqal Helibase Logistic 15
+		
 		------------------------------------------------------------------------ OLD
-		--Al_Ghizlaniyah_Military_Base
+		
 
 		
 		["Battle Group CAP"] = {
@@ -1622,6 +1622,7 @@ targetlist = {
 		},
 	
 	},
+
 	["red"] = {		
 
 
@@ -1812,18 +1813,6 @@ targetlist = {
 			},
 			class = "vehicle",
 			name = "SAM Patriot SIte Gaziantep",
-		},
-
-		["Cyprus Larnaca SAM Hawk"] = {
-			task = "Strike",
-			priority = 6,
-			attributes = {"SAM"},
-			firepower = {
-				min = 2, 
-				max = 4, 
-			},
-			class = "vehicle",
-			name = "Cyprus Larnaca SAM Hawk",
 		},
 
 		["Cyprus Larnaca SAM Hawk"] = {

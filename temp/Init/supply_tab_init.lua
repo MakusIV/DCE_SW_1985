@@ -1,6 +1,6 @@
 supply_tab = {
 	['red'] = {
-		['Prohladniy Depot MP 24'] = {--        supply plant
+		['Hin Shinshar Chemical Storage'] = {--        supply plant
 			['integrity'] = 1, --             supply plant integrity    
 			['supply_line_names'] = {--         table of supply lines supplyed by supply plant
 				['Mozdok Airbase'] = {
@@ -17,7 +17,7 @@ supply_tab = {
 				},
 			},
 		},
-		['Peredovaya SUPPLY PLANT'] = {--        supply plant
+		['Khirbet Tin Nur Chemical Storage'] = {--        supply plant
 			['integrity'] = 1, --             supply plant integrity    
 			['supply_line_names'] = {--         table of supply lines supplyed by supply plant
 				['Sochi-Adler Airbase'] = {
@@ -34,7 +34,7 @@ supply_tab = {
 				},
 			},
 		},
-		['SUPPLY PLANT BAKSAN LP83'] = {--      supply plant
+		['IR-Abukamal Storage'] = {--      supply plant
 			['integrity'] = 1,
 			['supply_line_names'] = {
 				['BAKSAN-MINERALNYE SUPPLY LINE'] = {
@@ -57,7 +57,7 @@ supply_tab = {
 				},
 			},
 		},
-		['CHERKESSK SUPPLY PLANT KP69'] = {--   supply plant
+		['Al Ghizlaniyah Military Base'] = {--   supply plant
 			['integrity'] = 1,
 			['supply_line_names'] = {
 				['Mineralnye-Vody Airbase'] = {
@@ -75,7 +75,7 @@ supply_tab = {
 				},				
 			},
 		},
-		['Mineralnye-Vody Airbase'] = {
+		['IR-Al Kiswah Military Base'] = {
 			['integrity'] = 1,
 			['supply_line_names'] = {
 				['Mineralnye-Vody Airbase'] = {
@@ -90,7 +90,7 @@ supply_tab = {
 				},			
 			},
 		},
-		['Beslan Airbase'] = {
+		['An Nasiriyah Military Base'] = {
 			['integrity'] = 1,
 			['supply_line_names'] = {
 				['Beslan Airbase'] = {
@@ -124,7 +124,7 @@ supply_tab = {
 				},						
 			},
 		},
-		['Nalchik Airbase'] = {
+		['An Nasiriyah Airbase'] = {
 			['integrity'] = 1,
 			['supply_line_names'] = {
 				['Nalchik Airbase'] = {
@@ -145,7 +145,7 @@ supply_tab = {
 				},				
 			},
 		},
-		['Mozdok Airbase'] = {
+		['Damascus Airbase'] = {
 			['integrity'] = 1,
 			['supply_line_names'] = {
 				['Mozdok Airbase'] = {
@@ -157,7 +157,7 @@ supply_tab = {
 				},				
 			},
 		},		
-		['Krasnodar-Center Airbase'] = {
+		['Deir ez-Zor Airbase'] = {
 			['integrity'] = 1,
 			['supply_line_names'] = {
 				['Krasnodar-Center Airbase'] = {
@@ -193,7 +193,7 @@ supply_tab = {
 		},
 	},
 	['blue'] = {
-		['SUPPLY PLANT DAPNARI KM76'] = {--      supply plant: Gori Farp, Ambrolauri Farp, Kobuleti, Khashuri Farp
+		['Hamdilli Ammunition Depot'] = {--      supply plant: Gori Farp, Ambrolauri Farp, Kobuleti, Khashuri Farp
 			['integrity'] = 1,
 			['supply_line_names'] = {
 				['Bridge Supply Line Marneuli - Tbilisi'] = {
@@ -246,7 +246,7 @@ supply_tab = {
 				},
 			},
 		},
-		['SUPPLY PLANT  MARNEULI ML89'] = {--      supply plant: Gori Farp, Tbilissi
+		['Silifke Storage Site'] = {--      supply plant: Gori Farp, Tbilissi
 			['integrity'] = 1,
 			['supply_line_names'] = {
 				['Bridge Supply Line Gori - Tbilisi'] = {
@@ -263,7 +263,7 @@ supply_tab = {
 				},			
 			},
 		},
-		['Sukhumi Airbase Strategics'] = {  -- supply plant: Sukhumi, Senaki, Kobuleti
+		['USA Fleet 1'] = {  -- supply plant: Sukhumi, Senaki, Kobuleti
 			['integrity'] = 1,
 			['supply_line_names'] = {
 				['Sukhumi Airbase Strategics'] = {
@@ -302,7 +302,7 @@ supply_tab = {
 				},
 			},
 		},
-		['CVN-74 John C. Stennis'] = {-- supply: batumi
+		['CVN-72 Abraham Lincoln'] = {-- supply: batumi
 			['integrity'] = 1,
 			['supply_line_names'] = {
 				['CVN-74 John C. Stennis'] = {
@@ -318,6 +318,7 @@ supply_tab = {
 				},
 			},
 		},
+
 		['Kutaisi Airbase'] = {
 			['integrity'] = 1,
 			['supply_line_names'] = {

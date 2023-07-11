@@ -163,18 +163,77 @@ heli:
 
 
 
+M-2000C
+F-15C *
+F-117A *
+CH-47D
+E-3A *
+E-2C
+KC-135 *
+KC135MPRS *
+AJS37 *
+Mirage-F1C
+Mirage-F1EE
+C-101CC
+
+UH-1H
+AH-1W
+SH-60B
+OH-58D
+
+
+
+
+F-14A
+MiG-31
+MiG-29A
+Su-27
+Su-25
+Tu-22M3
+Su-24MR
+Su-24M
+A-50
+An-26B
+MiG-21Bis
+Su-17M4
+MiG-27K
+MiG-23MLD
+MiG-25PD
+MiG-25RBT
+MiG-19P
+Il-76MD
+L-39C
+
+
+SA342M
+SA342Minigun
+SA342Mistral
+Mi-26
+Mi-24P
+Mi-24V
+Mi-8MT
+
+
 ]]-----------------------------------------------------------------------------------------------------
 
 oob_air = {
 
 	["blue"] = { --side 1
-        -------------- Batumi -------------------------
+
+        -------------- Incirlik -------------------------
+		-- VMFA-151 				F-4E
+		-- VMFA-157 				F-5E-3
+		-- 315th Air Division 		C-130
+		-- 69 BS 					B-52H
+		-- 171 ARW 					KC135MPRS
+		-- 4450th Tactical Group	F-117A
+
 		[1] = {
 			name = "VMFA-151",								--unit name			
 			type = "F-4E",									--aircraft type
-			country = "USA",								--unit country
+			country = "Turkey",								--unit country
 			livery = "",									--unit livery
-			base = "Batumi",								--unit base
+			base = "Incirlik",								--unit base
 			skill = getSkill(mission_ini.min_skill_blue_fighter, mission_ini.max_skill_blue_fighter),			--unit skill
 			tasks = {										--unit tasks
 				["CAP"] = true,
@@ -200,7 +259,7 @@ oob_air = {
 			name = "R/VMFA-151",							--unit name
 			inactive = true,
 			type = "F-4E",									--aircraft type
-			country = "Usa",								--unit country
+			country = "Turkey",								--unit country
 			base = "Reserves",								--unit base
 			skill = getSkill(mission_ini.min_skill_blue_fighter, mission_ini.max_skill_blue_fighter),			--unit skill
 			tasks = {},										--unit tasks
@@ -210,9 +269,9 @@ oob_air = {
 			name = "VMFA-157",								--unit name
 			--player = true,								--player unit
 			type = "F-5E-3",								--aircraft type
-			country = "USA",								--unit country
+			country = "Turkey",								--unit country
 			livery = "",									--unit livery
-			base = "Batumi",								--unit base
+			base = "Incirlik",								--unit base
 			skill = getSkill(mission_ini.min_skill_blue_attacker, mission_ini.max_skill_blue_attacker),			--unit skill
 			tasks = {										--unit tasks
 				["CAP"] = true,
@@ -236,7 +295,7 @@ oob_air = {
 			name = "R/VMFA-157",							--unit name
 			inactive = true,
 			type = "F-5E-3",								--aircraft type
-			country = "USA",								--unit country
+			country = "Turkey",								--unit country
 			base = "Reserves",								--unit base
 			skill = getSkill(mission_ini.min_skill_blue_attacker, mission_ini.max_skill_blue_attacker),			--unit skill
 			tasks = {},										--unit tasks
@@ -247,7 +306,7 @@ oob_air = {
 			type = "C-130",									--aircraft type
 			country = "USA",								--unit country
 			livery = "",									--unit livery
-			base = "Batumi",								--unit base
+			base = "Incirlik",								--unit base
 			skill = getSkill(mission_ini.min_skill_blue_transport, mission_ini.max_skill_blue_transport),			--unit skill
 			tasks = {										--unit tasks
 				["Transport"] = true,
@@ -264,12 +323,12 @@ oob_air = {
 			tasks = {},										--unit tasks
 			number = 7,
 		},
-		[7] = { -- KOBULETI --------------------------------------------------------------------
+		[7] = { 
 			name = "69 BS",									--unit name
 			type = "B-52H",									--aircraft type
 			country = "USA",								--unit country
 			livery = "usaf standard",						--unit livery
-			base = "Kobuleti",								--unit base
+			base = "Incirlik",								--unit base
 			skill = getSkill(mission_ini.min_skill_blue_bomber, mission_ini.max_skill_blue_bomber),			--unit skill
 			tasks = {										--unit tasks
 				["Strike"] = true,
@@ -285,13 +344,13 @@ oob_air = {
 			skill = getSkill(mission_ini.min_skill_blue_bomber, mission_ini.max_skill_blue_bomber),			--unit skill
 			tasks = {},										--unit tasks
 			number = 15,
-		},-- END KOBULETI --------------------------------------------------------------------
+		},
 		[9] = {
 			name = "171 ARW",								--unit name
 			type = "KC135MPRS",								--aircraft type
 			country = "USA",								--unit country
 			livery = "",									--unit livery
-			base = "Batumi",								--unit base
+			base = "Incirlik",								--unit base
 			skill = getSkill(mission_ini.min_skill_blue_refuelling, mission_ini.max_skill_blue_refuelling),			--unit skill
 			tasks = {										--unit tasks
 				["Refueling"] = true,
@@ -308,13 +367,40 @@ oob_air = {
 			tasks = {},										--unit tasks
 			number = 9,
 		},		
-			------------------ Vaziani ---------------------		
-		[11] = {
-			name = "GA 3rd AS",								--unit name
-			type = "MiG-27K",								--aircraft type
-			country = "Georgia",							--unit country
-			livery = "af standard",							--unit livery
-			base = "Vaziani",								--unit base
+		[9] = {
+			name = "4450th Tactical Group",								--unit name
+			type = "F-117A",								--aircraft type
+			country = "USA",								--unit country
+			livery = "",									--unit livery
+			base = "Incirlik",								--unit base
+			skill = getSkill(mission_ini.min_skill_blue_refuelling, mission_ini.max_skill_blue_refuelling),			--unit skill
+			tasks = {										--unit tasks
+				["Refueling"] = true,
+			},
+			number = 3,
+		},
+		[10] = {
+			name = "R/4450th Tactical Group",								--unit name
+			inactive = true,
+			type = "F-117A",								--aircraft type
+			country = "USA",								--unit country
+			base = "Reserves",								--unit base
+			skill = getSkill(mission_ini.min_skill_blue_refuelling, mission_ini.max_skill_blue_refuelling),			--unit skill
+			tasks = {},										--unit tasks
+			number = 9,
+		},		
+		------------------ end Incirlik ---------------------	
+
+		------------------ Gaziantep --------
+		-- 56th Operations Group			F-16A
+		-- 23rd FG							A-10A
+
+		[11] = { 
+			name = "56th Operations Group",					--unit name
+			type = "F-16A",									--aircraft type
+			country = "USA",								--unit country
+			livery = "",									--unit livery
+			base = "Gaziantep",								--unit base
 			skill = getSkill(mission_ini.min_skill_blue_attacker, mission_ini.max_skill_blue_attacker),			--unit skill
 			tasks = {										--unit tasks
 				["Strike"] = true,
@@ -329,21 +415,22 @@ oob_air = {
 			number = 12,
 		},
 		[12] = {
-			name = "R/GA 3rd AS",							--unit name
+			name = "R/56th Operations Group",							--unit name
 			inactive = true,
-			type = "MiG-27K",								--aircraft type
-			country = "Georgia",							--unit country
+			type = "F-16A",									--aircraft type
+			country = "USA",								--unit country
+			livery = "",									--unit livery
 			base = "Reserves",
 			skill = getSkill(mission_ini.min_skill_blue_attacker, mission_ini.max_skill_blue_attacker),			--unit skill
 			tasks = {},										--unit tasks
 			number = 36,
 		},
 		[13] = {
-			name = "GA 4rd AS",								--unit name
-			type = "MiG-19P",								--aircraft type
-			country = "Georgia",							--unit country
+			name = "23rd FG",								--unit name
+			type = "A-10A",									--aircraft type
+			country = "USA",							--unit country
 			livery = "",									--unit livery
-			base = "Vaziani",								--unit base
+			base = "Gaziantep",								--unit base
 			skill = getSkill(mission_ini.min_skill_blue_fighter, mission_ini.max_skill_blue_fighter),			--unit skill
 			tasks = {										--unit tasks
 				["Intercept"] = true,
@@ -363,110 +450,38 @@ oob_air = {
 			number = 12,
 		},
 		[14] = {
-			name = "R/GA 4rd AS",							--unit name
+			name = "R/23rd FG",							--unit name
 			inactive = true,
-			type = "MiG-19P",								--aircraft type
-			country = "Georgia",							--unit country
+			type = "A-10A",								--aircraft type
+			country = "USA",							--unit country
 			base = "Reserves",
 			skill = getSkill(mission_ini.min_skill_blue_fighter, mission_ini.max_skill_blue_fighter),			--unit skill
 			tasks = {},										--unit tasks
 			number = 36,
 		},		
-			----------------------- Kutaisi -------------------------		
-		[15] = {
-			name = "58 TFS",								--unit name			
-			type = "F-4E",									--aircraft type
-			country = "USA",								--unit country
-			livery = "",									--unit livery
-			base = "Kutaisi",								--unit base
-			skill = getSkill(mission_ini.min_skill_blue_attacker, mission_ini.max_skill_blue_attacker),			--unit skill
-			tasks = {										--unit tasks
-				["CAP"] = true,
-				["Escort"] = true,
-				["Fighter Sweep"] = true,
-				["Strike"] = true,
-				["SEAD"] = true,
-				["Anti-ship Strike"] = false,
-				["Laser Illumination"] = false,
-			},
-			tasksCoef = {									--unit tasks coef (optional)
-				["Strike"] = 2,								-- coef normal : = 1
-				["SEAD"] = 1.5,
-				["Laser Illumination"] = 1,
-				["Intercept"] = 0.5,
-				["CAP"] = 0.5,
-				["Escort"] = 1,
-				["Fighter Sweep"] = 0.2,	
-			},
-			number = 12,
-		},
-		[16] = {
-			name = "R/58 TFS",								--unit name
-			inactive = true,
-			type = "F-4E",									--aircraft type
-			country = "USA",								--unit country
-			base = "Reserves",								--unit base
-			skill = getSkill(mission_ini.min_skill_blue_attacker, mission_ini.max_skill_blue_attacker),			--unit skill
-			tasks = {},										--unit tasks
-			number = 36,
-		},
+		---- end Gaziantep --------	
+		
+		-------- Gazipasa -------------------------
+		-- 7 ACCS					E-3A
+		-- 801 ARS					KC-135
 		[17] = {
 			name = "7 ACCS",								--unit name
 			type = "E-3A",									--aircraft type
 			country = "USA",								--unit country
 			livery = "usaf standard",						--unit livery
-			base = "Kutaisi",								--unit base
+			base = "Gazipasa",								--unit base
 			skill = getSkill(mission_ini.min_skill_blue_awacs, mission_ini.max_skill_blue_awacs),			--unit skill
 			tasks = {										--unit tasks
 				["AWACS"] = true,
 			},
 			number = 3,
-		},
-			---------------------- Senaki-Kolkhi ----------------------
-		[18] = {
-			name = "GA 7rd AS",							--unit name
-			--player = false,							--player unit
-			type = "MiG-21Bis",							--aircraft type
-			country = "Georgia",						--unit country
-			livery = "",								--unit livery
-			base = "Senaki-Kolkhi",						--unit base
-			skill = getSkill(mission_ini.min_skill_blue_fighter, mission_ini.max_skill_blue_fighter),			--unit skill
-			tasks = {									--unit tasks
-				["Intercept"] = true,
-				["CAP"] = true,
-				["Escort"] = true,
-				["Fighter Sweep"] = true,
-				["Anti-ship Strike"] = true,
-				["Strike"] = true,
-			},
-			tasksCoef = {								--unit tasks coef (optional)
-				["Strike"] = 0.5,							-- coef normal : = 1
-				["SEAD"] = 0.2,
-				["Laser Illumination"] = 1,
-				["Intercept"] = 2,
-				["CAP"] = 1.5,
-				["Escort"] = 1,
-				["Fighter Sweep"] = 1.5,
-				["Anti-ship Strike"] = 0.5,
-			},
-			number = 12,
-		},
-		[19] = {
-			name = "R/GA 7rd AS",						--unit name
-			inactive = true,
-			type = "MiG-21Bis",							--aircraft type
-			base = "Reserves",
-			skill = getSkill(mission_ini.min_skill_blue_fighter, mission_ini.max_skill_blue_fighter),			--unit skill
-			tasks = {},									--unit tasks
-			number = 36,
-		},
-			----------------------- Soganlug ----------------------------
+		},		
 		[20] = {
 			name = "801 ARS",							--unit name
 			type = "KC-135",							--aircraft type
 			country = "USA",							--unit country
 			livery = "Standard USAF",					--unit livery
-			base = "Soganlug",						--unit base
+			base = "Gazipasa",						--unit base
 			skill = getSkill(mission_ini.min_skill_blue_refuelling, mission_ini.max_skill_blue_refuelling),			--unit skill
 			tasks = {									--unit tasks
 				["Refueling"] = true,
@@ -483,37 +498,20 @@ oob_air = {
 			tasks = {},									--unit tasks
 			number = 7,
 		},		
-			---------------------- Senaki-Kolkhi ----------------------
-		[22] = { 
-			name = "GA 5rd TS",							--unit name
-			type = "An-26B",							--aircraft type
-			country = "Georgia",						--unit country
-			livery = "",								--unit livery
-			base = "Senaki-Kolkhi",						--unit base
-			skill = getSkill(mission_ini.min_skill_blue_transport, mission_ini.max_skill_blue_transport),			--unit skill
-			tasks = {
-				["Transport"] = true,
-			},
-			number = 1,
-		},
-		[23] = {
-			name = "R/GA 5rd TS",						--unit name
-			inactive = true,
-			type = "An-26B",							--aircraft type
-			country = "Georgia",						--unit country
-			base = "Reserves",
-			skill = getSkill(mission_ini.min_skill_blue_transport, mission_ini.max_skill_blue_transport),			--unit skill
-			tasks = {},									--unit tasks
-			number = 4,
-		},
-			--------------------- Tbilissi-Lochini -------------------
+		
+		-------- end Gazipasa -------------------------
+
+		--------- Hatay -------------------------------
+		-- F9							AJS37
+		-- 173rd Fighter Group			F-15C
+		
 		[24] = {
 			name = "F9",								--unit name
 			--player = true,							--player unit
 			type = "AJS37",								--aircraft type
 			country = "Sweden",							--unit country
 			livery = {"#4 Splinter F7 Skaraborgs Flygflottilj 76"},					--unit livery
-			base = "Tbilissi-Lochini",					--unit base
+			base = "Hatay",					--unit base
 			skill = getSkill(mission_ini.min_skill_blue_attacker, mission_ini.max_skill_blue_attacker),			--unit skill
 			tasks = {									--unit tasks
 				["CAP"] = false, -- no loadout
@@ -544,103 +542,38 @@ oob_air = {
 			tasks = {},										--unit tasks
 			number = 36,
 		},
-		[26] = {
-			name = "174 ARW",								--unit name
-			type = "KC135MPRS",								--aircraft type
+		[11] = { 
+			name = "173rd Fighter Group",					--unit name
+			type = "F-15C",									--aircraft type
 			country = "USA",								--unit country
 			livery = "",									--unit livery
-			base = "Tbilissi-Lochini",						--unit base
-			skill = getSkill(mission_ini.min_skill_blue_refuelling, mission_ini.max_skill_blue_refuelling),			--unit skill
-			tasks = {										--unit tasks
-				["Refueling"] = true,
-			},
-			number = 3,
-		},
-		[27] = {
-			name = "R/174 ARW",								--unit name
-			inactive = true,
-			type = "KC135MPRS",								--aircraft type
-			country = "USA",								--unit country
-			base = "Reserves",								--unit base
-			skill = getSkill(mission_ini.min_skill_blue_refuelling, mission_ini.max_skill_blue_refuelling),			--unit skill
-			tasks = {},										--unit tasks
-			number = 7,
-		},
-        	-------------------- Sukhumi -------------------------------------
-		[28] = {
-			name = "VMFA-159",								--unit name			
-			type = "F-4E",									--aircraft type
-			country = "USA",								--unit country
-			livery = "",									--unit livery
-			base = "Sukhumi",								--unit base
+			base = "Hatay",								--unit base
 			skill = getSkill(mission_ini.min_skill_blue_attacker, mission_ini.max_skill_blue_attacker),			--unit skill
 			tasks = {										--unit tasks
-				["CAP"] = true,
-				["Escort"] = true,
-				["Fighter Sweep"] = true,
 				["Strike"] = true,
+				["Anti-ship Strike"] = true,
 				["SEAD"] = true,
-				["Anti-ship Strike"] = false,
-				["Laser Illumination"] = false,
 			},
 			tasksCoef = {									--unit tasks coef (optional)
-				["Strike"] = 1,								-- coef normal : = 1
+				["Strike"] = 1.5,							-- coef normal : = 1
 				["SEAD"] = 2,
-				["Laser Illumination"] = 1,
-				["Intercept"] = 1.3,
-				["CAP"] = 1,
-				["Escort"] = 1.5,
-				["Fighter Sweep"] = 1,	
+				["Laser Illumination"] = 1,				
 			},
 			number = 12,
 		},
-		[29] = {
-			name = "R/VMFA-159",							--unit name
-			type = "F-4E",									--aircraft type
+		[12] = {
+			name = "R/173rd Fighter Group",							--unit name
 			inactive = true,
-			country = "Usa",								--unit country
-			base = "Reserves",								--unit base
+			type = "F-15C",									--aircraft type
+			country = "USA",								--unit country
+			livery = "",									--unit livery
+			base = "Reserves",
 			skill = getSkill(mission_ini.min_skill_blue_attacker, mission_ini.max_skill_blue_attacker),			--unit skill
 			tasks = {},										--unit tasks
 			number = 36,
 		},
-		[30] = {
-			name = "F7",								--unit name
-			--player = true,							--player unit
-			type = "AJS37",								--aircraft type
-			country = "Sweden",							--unit country
-			livery = {"#4 Splinter F7 Skaraborgs Flygflottilj 76"},					--unit livery
-			base = "Sukhumi",							--unit base
-			skill = getSkill(mission_ini.min_skill_blue_attacker, mission_ini.max_skill_blue_attacker),			--unit skill
-			tasks = {									--unit tasks
-				["CAP"] = false,
-				["Escort"] = false,
-				["Fighter Sweep"] = false,	
-				["Strike"] = true,
-				["Anti-ship Strike"] = true,		
-			},
-			tasksCoef = {								--unit tasks coef (optional)
-				["Strike"] = 2,							-- coef normal : = 1
-				["SEAD"] = 1.5,
-				["Laser Illumination"] = 1,
-				["Intercept"] = 0.5,
-				["CAP"] = 1,
-				["Escort"] = 1,
-				["Fighter Sweep"] = 0.5,
-				["Anti-ship Strike"] = 2,
-			},
-			number = 12,
-		},				
-		[31] = {
-			name = "R/F7",									--unit name
-			inactive = true,
-			type = "AJS37",									--aircraft type
-			country = "Sweden",								--unit country
-			base = "Reserves",								--unit base
-			skill = getSkill(mission_ini.min_skill_blue_attacker, mission_ini.max_skill_blue_attacker),			--unit skill
-			tasks = {},										--unit tasks
-			number = 36
-		},
+		
+		
 			--------------- CVN-71 Theodore Roosevelt ----------------------
 		[32] = {
 			name = "VF-101",								--unit name

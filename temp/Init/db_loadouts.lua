@@ -17785,6 +17785,243 @@ db_loadouts = {
 		},
 	},
 
+	["Mi-8MT"] = {--1961 (primo volo) 1967 (entrata in servizio) -> OK <-
+		["Transport"] = {
+			["Default"] = {
+				attributes = {},
+				weaponType = nil,
+				expend = "Auto",
+				day = true,
+				night = true,
+				adverseWeather = true,
+				range = 200000,
+				capability = 7,
+				firepower = 1,
+				vCruise = 100,
+				vAttack = 100,
+				hCruise = 100,
+				hAttack = 100,
+				standoff = nil,
+				tStation = nil,
+				LDSD = false,
+				self_escort = false,
+				sortie_rate = 2,
+				stores = {
+					["pylons"] = {
+						[8] = {
+						["CLSID"] = "PKT_7_62",
+						["num"] = 8,
+						},
+						[7] = {
+						["CLSID"] = "KORD_12_7",
+						["num"] = 7,
+						},
+					}, ----end of ["pylons"]
+					["fuel"] = "1929",
+					["flare"] = 128,
+					["chaff"] = 0,
+					["gun"] = 100,
+				},
+			},
+		},
+		["Strike"] = { --verify loadout miz
+			["Rockets S-8KOM*80"] = {
+				minscore = 0.0,
+				attributes = {"soft"},
+				weapons = { -- task dedicated weapons											
+					["S-8 KOM"] = 80, --rockets soft target										
+				},
+				weaponType = "Rockets",
+				expend = "Auto",
+				day = true,
+				night = false,
+				adverseWeather = false,
+				range = 80000,
+				capability = 13,
+				firepower = 7,
+				vCruise = 100,
+				vAttack = 100,
+				hCruise = 100,
+				hAttack = 50,
+				standoff = nil,
+				tStation = nil,
+				LDSD = false,
+				self_escort = false,
+				sortie_rate = 6,
+				stores = {
+					["pylons"] = {
+						[5] = 
+						{
+							["CLSID"] = "{6A4B9E69-64FE-439a-9163-3A87FB6A4D81}",
+						}, -- end of [5]
+						[2] = 
+						{
+							["CLSID"] = "{6A4B9E69-64FE-439a-9163-3A87FB6A4D81}",
+						}, -- end of [2]
+						[4] = 
+						{
+							["CLSID"] = "{6A4B9E69-64FE-439a-9163-3A87FB6A4D81}",
+						}, -- end of [4]
+						[3] = 
+						{
+							["CLSID"] = "{6A4B9E69-64FE-439a-9163-3A87FB6A4D81}",
+						}, -- end of [3]
+					}, -- end of ["pylons"]
+					["fuel"] = "1929",
+					["flare"] = 128,
+					["chaff"] = 0,
+					["gun"] = 100,
+				},
+			},
+			["S-8KOM*20-Gsh-23L Autocannon*2"] = {
+				minscore = 0.0,
+				attributes = {"soft"},
+				weapons = { -- task dedicated weapons											
+					["S-8 KOM"] = 20, --rockets soft target		
+					["Gsh-23L"] = 2, --rockets soft target									
+				},
+				weaponType = "Rockets",
+				expend = "Auto",
+				day = true,
+				night = false,
+				adverseWeather = false,
+				range = 80000,
+				capability = 13,
+				firepower = 7,
+				vCruise = 100,
+				vAttack = 100,
+				hCruise = 100,
+				hAttack = 50,
+				standoff = nil,
+				tStation = nil,
+				LDSD = false,
+				self_escort = false,
+				sortie_rate = 6,
+				stores = {
+					["pylons"] =  {
+						[5] = 
+						{
+							["CLSID"] = "{05544F1A-C39C-466b-BC37-5BD1D52E57BB}",
+						}, -- end of [5]
+						[2] = 
+						{
+							["CLSID"] = "{05544F1A-C39C-466b-BC37-5BD1D52E57BB}",
+						}, -- end of [2]
+						[4] = 
+						{
+							["CLSID"] = "{6A4B9E69-64FE-439a-9163-3A87FB6A4D81}",
+						}, -- end of [4]
+						[3] = 
+						{
+							["CLSID"] = "{6A4B9E69-64FE-439a-9163-3A87FB6A4D81}",
+						}, -- end of [3]
+					}, -- end of ["pylons"]
+					["fuel"] = "1929",
+					["flare"] = 128,
+					["chaff"] = 0,
+					["gun"] = 100,
+				},
+			},
+			["Gsh-23L Autocannon*2"] = {
+				minscore = 0.0,
+				attributes = {"soft"},
+				weapons = { -- task dedicated weapons											
+					["Gsh-23L"] = 2, --rockets soft target									
+				},
+				weaponType = "Rockets",
+				expend = "Auto",
+				day = true,
+				night = false,
+				adverseWeather = false,
+				range = 80000,
+				capability = 13,
+				firepower = 7,
+				vCruise = 100,
+				vAttack = 100,
+				hCruise = 100,
+				hAttack = 50,
+				standoff = nil,
+				tStation = nil,
+				LDSD = false,
+				self_escort = false,
+				sortie_rate = 6,
+				stores = {
+					["pylons"] =  {
+						[5] = 
+						{
+							["CLSID"] = "{05544F1A-C39C-466b-BC37-5BD1D52E57BB}",
+						}, -- end of [5]
+						[2] = 
+						{
+							["CLSID"] = "{05544F1A-C39C-466b-BC37-5BD1D52E57BB}",
+						}, -- end of [2]
+					}, -- end of ["pylons"]
+					["fuel"] = "1929",
+					["flare"] = 128,
+					["chaff"] = 0,
+					["gun"] = 100,
+				},
+			},	
+			["Bombs Fab-100*6"] = {
+				minscore = 0.0,
+				attributes = {"soft"},
+				weapons = { -- task dedicated weapons											
+					["Gsh-23L"] = 2, --rockets soft target									
+				},
+				weaponType = "Rockets",
+				expend = "Auto",
+				day = true,
+				night = false,
+				adverseWeather = false,
+				range = 80000,
+				capability = 13,
+				firepower = 7,
+				vCruise = 100,
+				vAttack = 100,
+				hCruise = 100,
+				hAttack = 50,
+				standoff = nil,
+				tStation = nil,
+				LDSD = false,
+				self_escort = false,
+				sortie_rate = 6,
+				stores = {
+					["pylons"] = 
+						{
+							[1] = 
+							{
+								["CLSID"] = "{FB3CE165-BF07-4979-887C-92B87F13276B}",
+							}, -- end of [1]
+							[2] = 
+							{
+								["CLSID"] = "{FB3CE165-BF07-4979-887C-92B87F13276B}",
+							}, -- end of [2]
+							[3] = 
+							{
+								["CLSID"] = "{FB3CE165-BF07-4979-887C-92B87F13276B}",
+							}, -- end of [3]
+							[4] = 
+							{
+								["CLSID"] = "{FB3CE165-BF07-4979-887C-92B87F13276B}",
+							}, -- end of [4]
+							[5] = 
+							{
+								["CLSID"] = "{FB3CE165-BF07-4979-887C-92B87F13276B}",
+							}, -- end of [5]
+							[6] = 
+							{
+								["CLSID"] = "{FB3CE165-BF07-4979-887C-92B87F13276B}",
+							}, -- end of [6]
+						}, -- end of ["pylons"]
+						["fuel"] = "1929",
+						["flare"] = 128,
+						["chaff"] = 0,
+						["gun"] = 100,
+				},
+			},			
+		},
+	},	
+
 	["Tu-22M3"] = { --1969 (primo volo) 1972 (entrata in servizio) -> OK <-
 		["Strike"] = {
 			["BAI FAB-500*33 FAB -250*36"] = {
@@ -19293,243 +19530,6 @@ db_loadouts = {
 						["gun"] = 100,
 				},
 			},							
-		},
-	},	
-
-	["Mi-8MT"] = {--1961 (primo volo) 1967 (entrata in servizio) -> OK <-
-		["Transport"] = {
-			["Default"] = {
-				attributes = {},
-				weaponType = nil,
-				expend = "Auto",
-				day = true,
-				night = true,
-				adverseWeather = true,
-				range = 200000,
-				capability = 7,
-				firepower = 1,
-				vCruise = 100,
-				vAttack = 100,
-				hCruise = 100,
-				hAttack = 100,
-				standoff = nil,
-				tStation = nil,
-				LDSD = false,
-				self_escort = false,
-				sortie_rate = 2,
-				stores = {
-					["pylons"] = {
-						[8] = {
-						["CLSID"] = "PKT_7_62",
-						["num"] = 8,
-						},
-						[7] = {
-						["CLSID"] = "KORD_12_7",
-						["num"] = 7,
-						},
-					}, ----end of ["pylons"]
-					["fuel"] = "1929",
-					["flare"] = 128,
-					["chaff"] = 0,
-					["gun"] = 100,
-				},
-			},
-		},
-		["Strike"] = { --verify loadout miz
-			["Rockets S-8KOM*80"] = {
-				minscore = 0.0,
-				attributes = {"soft"},
-				weapons = { -- task dedicated weapons											
-					["S-8 KOM"] = 80, --rockets soft target										
-				},
-				weaponType = "Rockets",
-				expend = "Auto",
-				day = true,
-				night = false,
-				adverseWeather = false,
-				range = 80000,
-				capability = 13,
-				firepower = 7,
-				vCruise = 100,
-				vAttack = 100,
-				hCruise = 100,
-				hAttack = 50,
-				standoff = nil,
-				tStation = nil,
-				LDSD = false,
-				self_escort = false,
-				sortie_rate = 6,
-				stores = {
-					["pylons"] = {
-						[5] = 
-						{
-							["CLSID"] = "{6A4B9E69-64FE-439a-9163-3A87FB6A4D81}",
-						}, -- end of [5]
-						[2] = 
-						{
-							["CLSID"] = "{6A4B9E69-64FE-439a-9163-3A87FB6A4D81}",
-						}, -- end of [2]
-						[4] = 
-						{
-							["CLSID"] = "{6A4B9E69-64FE-439a-9163-3A87FB6A4D81}",
-						}, -- end of [4]
-						[3] = 
-						{
-							["CLSID"] = "{6A4B9E69-64FE-439a-9163-3A87FB6A4D81}",
-						}, -- end of [3]
-					}, -- end of ["pylons"]
-					["fuel"] = "1929",
-					["flare"] = 128,
-					["chaff"] = 0,
-					["gun"] = 100,
-				},
-			},
-			["S-8KOM*20-Gsh-23L Autocannon*2"] = {
-				minscore = 0.0,
-				attributes = {"soft"},
-				weapons = { -- task dedicated weapons											
-					["S-8 KOM"] = 20, --rockets soft target		
-					["Gsh-23L"] = 2, --rockets soft target									
-				},
-				weaponType = "Rockets",
-				expend = "Auto",
-				day = true,
-				night = false,
-				adverseWeather = false,
-				range = 80000,
-				capability = 13,
-				firepower = 7,
-				vCruise = 100,
-				vAttack = 100,
-				hCruise = 100,
-				hAttack = 50,
-				standoff = nil,
-				tStation = nil,
-				LDSD = false,
-				self_escort = false,
-				sortie_rate = 6,
-				stores = {
-					["pylons"] =  {
-						[5] = 
-						{
-							["CLSID"] = "{05544F1A-C39C-466b-BC37-5BD1D52E57BB}",
-						}, -- end of [5]
-						[2] = 
-						{
-							["CLSID"] = "{05544F1A-C39C-466b-BC37-5BD1D52E57BB}",
-						}, -- end of [2]
-						[4] = 
-						{
-							["CLSID"] = "{6A4B9E69-64FE-439a-9163-3A87FB6A4D81}",
-						}, -- end of [4]
-						[3] = 
-						{
-							["CLSID"] = "{6A4B9E69-64FE-439a-9163-3A87FB6A4D81}",
-						}, -- end of [3]
-					}, -- end of ["pylons"]
-					["fuel"] = "1929",
-					["flare"] = 128,
-					["chaff"] = 0,
-					["gun"] = 100,
-				},
-			},
-			["Gsh-23L Autocannon*2"] = {
-				minscore = 0.0,
-				attributes = {"soft"},
-				weapons = { -- task dedicated weapons											
-					["Gsh-23L"] = 2, --rockets soft target									
-				},
-				weaponType = "Rockets",
-				expend = "Auto",
-				day = true,
-				night = false,
-				adverseWeather = false,
-				range = 80000,
-				capability = 13,
-				firepower = 7,
-				vCruise = 100,
-				vAttack = 100,
-				hCruise = 100,
-				hAttack = 50,
-				standoff = nil,
-				tStation = nil,
-				LDSD = false,
-				self_escort = false,
-				sortie_rate = 6,
-				stores = {
-					["pylons"] =  {
-						[5] = 
-						{
-							["CLSID"] = "{05544F1A-C39C-466b-BC37-5BD1D52E57BB}",
-						}, -- end of [5]
-						[2] = 
-						{
-							["CLSID"] = "{05544F1A-C39C-466b-BC37-5BD1D52E57BB}",
-						}, -- end of [2]
-					}, -- end of ["pylons"]
-					["fuel"] = "1929",
-					["flare"] = 128,
-					["chaff"] = 0,
-					["gun"] = 100,
-				},
-			},	
-			["Bombs Fab-100*6"] = {
-				minscore = 0.0,
-				attributes = {"soft"},
-				weapons = { -- task dedicated weapons											
-					["Gsh-23L"] = 2, --rockets soft target									
-				},
-				weaponType = "Rockets",
-				expend = "Auto",
-				day = true,
-				night = false,
-				adverseWeather = false,
-				range = 80000,
-				capability = 13,
-				firepower = 7,
-				vCruise = 100,
-				vAttack = 100,
-				hCruise = 100,
-				hAttack = 50,
-				standoff = nil,
-				tStation = nil,
-				LDSD = false,
-				self_escort = false,
-				sortie_rate = 6,
-				stores = {
-					["pylons"] = 
-						{
-							[1] = 
-							{
-								["CLSID"] = "{FB3CE165-BF07-4979-887C-92B87F13276B}",
-							}, -- end of [1]
-							[2] = 
-							{
-								["CLSID"] = "{FB3CE165-BF07-4979-887C-92B87F13276B}",
-							}, -- end of [2]
-							[3] = 
-							{
-								["CLSID"] = "{FB3CE165-BF07-4979-887C-92B87F13276B}",
-							}, -- end of [3]
-							[4] = 
-							{
-								["CLSID"] = "{FB3CE165-BF07-4979-887C-92B87F13276B}",
-							}, -- end of [4]
-							[5] = 
-							{
-								["CLSID"] = "{FB3CE165-BF07-4979-887C-92B87F13276B}",
-							}, -- end of [5]
-							[6] = 
-							{
-								["CLSID"] = "{FB3CE165-BF07-4979-887C-92B87F13276B}",
-							}, -- end of [6]
-						}, -- end of ["pylons"]
-						["fuel"] = "1929",
-						["flare"] = 128,
-						["chaff"] = 0,
-						["gun"] = 100,
-				},
-			},			
 		},
 	},	
 
