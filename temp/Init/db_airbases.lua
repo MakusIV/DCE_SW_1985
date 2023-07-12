@@ -493,7 +493,7 @@ db_airbases = {
 		-- ILS = "",							-- ILS : optionnel
 		LimitedParkNb = 28,
 	},]]
-	['Taftanaz Airbase'] = {
+	['Taftanaz Airbase'] = { --helibase
 		x =	103485.980469,
 		y = 82766.671875,
 		elevation = 311,
