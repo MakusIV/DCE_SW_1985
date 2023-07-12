@@ -235,7 +235,7 @@ db_airbases = {
 		ILS = "RWY 55/109.30 - RWY 235/111.70",							-- ILS : optionnel
 		LimitedParkNb = 120,
 	},
-	--[[['Adana Sakirpasa Airbase'] = {
+	['Adana Sakirpasa Airbase'] = {
 		x =	219468.65625,
 		y = -48332.732422,
 		elevation = 17,
@@ -252,7 +252,7 @@ db_airbases = {
 		-- TACAN = "",							-- TACAN : optionnel
 		ILS = "RWY 56/108.70",							-- ILS : optionnel
 		LimitedParkNb = 39,
-	},]]
+	},
 	['Gaziantep Airbase'] = {   
 		x =	210314.796875,
 		y = 147379.28125,
@@ -324,6 +324,119 @@ db_airbases = {
 		ILS = "RWY 44/108.90 - RWY 224/108.15",		-- ILS : optionnel
 		LimitedParkNb = 10,
 	},	
+
+	-- blue Cyprus
+	['Larnaca Airbase'] = {
+		x =	 -7674.737061,
+		y =  -208843.625,
+		elevation = 5,
+		airdromeId = 47,
+		-- ATC_frequency = "40.350",
+		-- ATC_frequency = "121.200",
+		ATC_frequency = "251.900",
+		-- ATC_frequency = "4.725",
+		startup = 300,
+		side = "blue",							-- side : info obligatoire
+		divert = false,							-- divert : info obligatoire (pour l instant)
+		VOR = "112.80",
+		NDB = "432",
+		-- TACAN = "",							-- TACAN : optionnel
+		ILS = "RWY 228/110.80",							-- ILS : optionnel
+		LimitedParkNb = 94,
+	},
+	--[[['Paphos Airbase'] = {
+		x =	 -18696.34668,
+		y =  -314208.375,
+		elevation = 12,
+		airdromeId = 46,
+		-- ATC_frequency = "40.300",
+		-- ATC_frequency = "119.900",
+		ATC_frequency = "251.850",
+		-- ATC_frequency = "4.700",
+		startup = 300,
+		side = "blue",							-- side : info obligatoire
+		divert = true,							-- divert : info obligatoire (pour l instant)
+		VOR = "117.90",
+		NDB = "328",
+		-- TACAN = "",							-- TACAN : optionnel
+		ILS = "RWY 294/108.90",							-- ILS : optionnel
+		LimitedParkNb = 49,
+	},]]
+	--[[['Pinarbashi Airbase'] = {             
+		x =	 38639.882813,
+		y =  -238774.6875,
+		elevation = 235,
+		airdromeId = 51,
+		-- ATC_frequency = "40.600",
+		-- ATC_frequency = "121.000",
+		ATC_frequency = "252.150",
+		-- ATC_frequency = "4.850",
+		startup = 600,
+		side = "red",							-- side : info obligatoire
+		divert = true,							-- divert : info obligatoire (pour l instant)
+		-- VOR = "",
+		-- NDB = "",
+		-- TACAN = "",							-- TACAN : optionnel
+		-- ILS = "",							-- ILS : optionnel
+		LimitedParkNb = 4,
+	},]]
+	--[[['Gecitkale Airbase'] = {             
+		x =	 32144.729634,
+		y =  -197767.51907,
+		elevation = 45,
+		airdromeId = 50,
+		-- ATC_frequency = "40.550",
+		-- ATC_frequency = "120.000",
+		ATC_frequency = "252.100",
+		-- ATC_frequency = "4.825",
+		startup = 600,
+		side = "red",							-- side : info obligatoire
+		divert = true,							-- divert : info obligatoire (pour l instant)
+		VOR = "114.30",
+		NDB = "435",
+		-- TACAN = "",							-- TACAN : optionnel
+		-- ILS = "",							-- ILS : optionnel
+		LimitedParkNb = 3,
+	},]]
+	--[[['Ercan Airbase'] = {             
+		x =	 24250.327148,
+		y =  -218240.28125,
+		elevation = 117,
+		airdromeId = 49,
+		-- ATC_frequency = "40.450",
+		-- ATC_frequency = "120.200",
+		ATC_frequency = "252.000",
+		-- ATC_frequency = "4.775",
+		startup = 600,
+		side = "red",							-- side : info obligatoire
+		divert = true,							-- divert : info obligatoire (pour l instant)
+		VOR = "117.00",
+		-- NDB = "",
+		-- TACAN = "",							-- TACAN : optionnel
+		-- ILS = "",							-- ILS : optionnel
+		LimitedParkNb = 7,
+	},]]
+	--[[['Lakatamia Airbase'] = {             
+		-- Helicopter base
+		x =	 19561.164063,
+		y =  -234985.75,
+		elevation = 231,
+		airdromeId = 48,
+		-- ATC_frequency = "40.400",
+		-- ATC_frequency = "120.200",
+		ATC_frequency = "251.950",
+		-- ATC_frequency = "4.750",
+		startup = 300,
+		side = "blue",							-- side : info obligatoire
+		divert = true,							-- divert : info obligatoire (pour l instant)
+		-- VOR = "",
+		-- NDB = "",
+		-- TACAN = "",							-- TACAN : optionnel
+		-- ILS = "",							-- ILS : optionnel
+		LimitedParkNb = 8,
+	},]]
+
+
 
 	-- red
 	--[[['Aleppo Airbase'] = {
@@ -1001,79 +1114,7 @@ db_airbases = {
 		-- ILS = "",							-- ILS : optionnel
 		LimitedParkNb = 52,
 	},]]
-	--[[['Pinarbashi Airbase'] = {             
-		x =	 38639.882813,
-		y =  -238774.6875,
-		elevation = 235,
-		airdromeId = 51,
-		-- ATC_frequency = "40.600",
-		-- ATC_frequency = "121.000",
-		ATC_frequency = "252.150",
-		-- ATC_frequency = "4.850",
-		startup = 600,
-		side = "red",							-- side : info obligatoire
-		divert = true,							-- divert : info obligatoire (pour l instant)
-		-- VOR = "",
-		-- NDB = "",
-		-- TACAN = "",							-- TACAN : optionnel
-		-- ILS = "",							-- ILS : optionnel
-		LimitedParkNb = 4,
-	},]]
-	--[[['Gecitkale Airbase'] = {             
-		x =	 32144.729634,
-		y =  -197767.51907,
-		elevation = 45,
-		airdromeId = 50,
-		-- ATC_frequency = "40.550",
-		-- ATC_frequency = "120.000",
-		ATC_frequency = "252.100",
-		-- ATC_frequency = "4.825",
-		startup = 600,
-		side = "red",							-- side : info obligatoire
-		divert = true,							-- divert : info obligatoire (pour l instant)
-		VOR = "114.30",
-		NDB = "435",
-		-- TACAN = "",							-- TACAN : optionnel
-		-- ILS = "",							-- ILS : optionnel
-		LimitedParkNb = 3,
-	},]]
-	--[[['Ercan Airbase'] = {             
-		x =	 24250.327148,
-		y =  -218240.28125,
-		elevation = 117,
-		airdromeId = 49,
-		-- ATC_frequency = "40.450",
-		-- ATC_frequency = "120.200",
-		ATC_frequency = "252.000",
-		-- ATC_frequency = "4.775",
-		startup = 600,
-		side = "red",							-- side : info obligatoire
-		divert = true,							-- divert : info obligatoire (pour l instant)
-		VOR = "117.00",
-		-- NDB = "",
-		-- TACAN = "",							-- TACAN : optionnel
-		-- ILS = "",							-- ILS : optionnel
-		LimitedParkNb = 7,
-	},]]
-	--[[['Lakatamia Airbase'] = {             
-		-- Helicopter base
-		x =	 19561.164063,
-		y =  -234985.75,
-		elevation = 231,
-		airdromeId = 48,
-		-- ATC_frequency = "40.400",
-		-- ATC_frequency = "120.200",
-		ATC_frequency = "251.950",
-		-- ATC_frequency = "4.750",
-		startup = 300,
-		side = "blue",							-- side : info obligatoire
-		divert = true,							-- divert : info obligatoire (pour l instant)
-		-- VOR = "",
-		-- NDB = "",
-		-- TACAN = "",							-- TACAN : optionnel
-		-- ILS = "",							-- ILS : optionnel
-		LimitedParkNb = 8,
-	},]]
+	
 	--[[['Kingsfield Airbase'] = {
 		x =	 7596.761963,
 		y =  -199426.492188,
@@ -1092,42 +1133,7 @@ db_airbases = {
 		-- ILS = "",							-- ILS : optionnel
 		LimitedParkNb = 2,
 	},]]
-	['Larnaca Airbase'] = {
-		x =	 -7674.737061,
-		y =  -208843.625,
-		elevation = 5,
-		airdromeId = 47,
-		-- ATC_frequency = "40.350",
-		-- ATC_frequency = "121.200",
-		ATC_frequency = "251.900",
-		-- ATC_frequency = "4.725",
-		startup = 300,
-		side = "blue",							-- side : info obligatoire
-		divert = false,							-- divert : info obligatoire (pour l instant)
-		VOR = "112.80",
-		NDB = "432",
-		-- TACAN = "",							-- TACAN : optionnel
-		ILS = "RWY 228/110.80",							-- ILS : optionnel
-		LimitedParkNb = 94,
-	},
-	--[[['Paphos Airbase'] = {
-		x =	 -18696.34668,
-		y =  -314208.375,
-		elevation = 12,
-		airdromeId = 46,
-		-- ATC_frequency = "40.300",
-		-- ATC_frequency = "119.900",
-		ATC_frequency = "251.850",
-		-- ATC_frequency = "4.700",
-		startup = 300,
-		side = "blue",							-- side : info obligatoire
-		divert = true,							-- divert : info obligatoire (pour l instant)
-		VOR = "117.90",
-		NDB = "328",
-		-- TACAN = "",							-- TACAN : optionnel
-		ILS = "RWY 294/108.90",							-- ILS : optionnel
-		LimitedParkNb = 49,
-	},]]
+	
 	--[[['Akrotiri Airbase'] = {
 		x =	 -35778.628906,
 		y =  -268906.125,
@@ -1222,27 +1228,27 @@ db_airbases = {
 		divert = false,								-- divert : Required information for the divert)
 		--BaseAirStart = true,
 	},
-	-- ['CVN-74 John C. Stennis'] = {                            
-		-- unitname = "CVN-74 John C. Stennis",
-		-- startup = 300,
-		-- LimitedParkNb  = 10,
-		-- side = "blue",							-- side : info obligatoire
-		-- ATC_frequency = "255.255",				--si ATC_frequency non present, on utilise la freq de base_mission
-	-- },
-	-- ['CVN-71 Theodore Roosevelt'] = {                            
-		-- unitname = "CVN-71 Theodore Roosevelt",
-		-- startup = 300,
-		-- side = "blue",							-- side : info obligatoire
-		-- -- ATC_frequency = "255.500",			--si ATC_frequency non present, on utilise la freq de base_mission
-		-- LimitedParkNb  = 9, 
-	-- },	
-	-- ['LHA_Tarawa'] = {
-		-- unitname = "LHA_Tarawa",
-		-- startup = 300,
-		-- side = "blue",							-- side : info obligatoire
-		-- ATC_frequency = "250.255",				--si ATC_frequency non present, on utilise la freq de base_mission
-		-- LimitedParkNb  = 4,
-	-- },
+	['CVN-72 Abraham Lincoln'] = {                            
+		unitname = "CVN-72 Abraham Lincoln",
+		startup = 300,
+		side = "blue",							-- side : info obligatoire
+		LimitedParkNb  = 10, 
+		ATC_frequency = "272.500",				--si ATC_frequency non present, on utilise la freq de base_mission
+	},
+	['CVN-71 Theodore Roosevelt'] = {                            
+		unitname = "CVN-71 Theodore Roosevelt",
+		startup = 300,
+		side = "blue",							-- side : info obligatoire
+		ATC_frequency = "275.500",			--si ATC_frequency non present, on utilise la freq de base_mission
+		LimitedParkNb  = 9, 
+	},	
+	['LHA_Tarawa'] = {
+		unitname = "LHA_Tarawa",
+		startup = 300,
+		side = "blue",							-- side : info obligatoire
+		ATC_frequency = "250.255",				--si ATC_frequency non present, on utilise la freq de base_mission
+		LimitedParkNb  = 4,
+	},
 	-- ['LHA_Nassau'] = {
 		-- unitname = "LHA_Nassau",
 		-- startup = 300,
