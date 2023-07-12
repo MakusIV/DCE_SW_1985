@@ -1493,7 +1493,6 @@ oob_air = {
 		-- 133.IAP						MiG-29A
 		-- 81.IAP						Su-24M
 		-- 27.OSAP						An-26B
-
 		
 		[18] = {
 			name = "368 ShAP",							--unit name
@@ -1617,7 +1616,6 @@ oob_air = {
 		-- 61.IAP						Tu-22M3
 		-- 159.IAP						Su-27				
 
-
 		[33] = {
 			name = "2.OSAP",								--unit name
 			type = "An-26B",								--aircraft type
@@ -1689,41 +1687,17 @@ oob_air = {
 			tasks = {},										--unit tasks
 			number = 36,
 		},	
-	-------------------- Palmyra Airbase ----------------
+	-------------------- end Palmyra Airbase ----------------
 
 
-
-
-
-
-
-
-
-		[17] = {
-			name = "2457 SDRLO",							--unit name
-			type = "A-50",									--aircraft type
-			country = "Russia",								--unit country
-			--sidenumber = {800, 805},						--unit range of sidenumbers (optional)
-			livery = {""},									--unit livery
-			base = "Nalchik",								--unit base
-			skill = getSkill(mission_ini.min_skill_red_awacs, mission_ini.max_skill_red_awacs),			--unit skill
-			tasks = {										--unit tasks
-				["AWACS"] = true,
-			},
-			number = 4,
-		},
-		
-		
-			
-		
-		
-		
+	-------------------- An Nasiriyah Airbase ----------------
+		-- 373 ShAP						Su-25
 		[42] = {
-			name = "115.IAP",							--unit name
-			type = "Su-17M4",								--aircraft type
+			name = "373 ShAP",							    --unit name
+			type = "Su-25",								--aircraft type
 			country = "Russia",								--unit country
 			livery = "",									--unit livery
-			base = "Maykop-Khanskaya",								--unit base
+			base = "An Nasiriyah",								--unit base
 			skill = getSkill(mission_ini.min_skill_red_attacker, mission_ini.max_skill_red_attacker),			--unit skill
 			tasks = {										--unit tasks
 				["Strike"] = true,
@@ -1739,22 +1713,78 @@ oob_air = {
 			number = 12,
 		},
 		[43] = {
-			name = "R/115.IAP",							--unit name
+			name = "R/373 ShAP",							--unit name
 			inactive = true,
-			type = "Su-17M4",								--aircraft type
+			type = "Su-25",								--aircraft type
 			country = "Russia",								--unit country
 			base = "Reserves",
 			skill = getSkill(mission_ini.min_skill_red_attacker, mission_ini.max_skill_red_attacker),			--unit skill
 			tasks = {},										--unit tasks
 			number = 36,
 		},
-		--------------------- Anapa-Vityazevo --------------
+
+	
+
+	-------------------- end An Nasiriyah Airbase ------------
+
+
+
+	
+		-- 2457 SDRLO					A-50
+		-- O7 SDRLO						Su-24MR
+
+	
+
+
+
+
+
+		[17] = {
+			name = "2457 SDRLO",							--unit name
+			type = "A-50",									--aircraft type
+			country = "Russia",								--unit country
+			--sidenumber = {800, 805},						--unit range of sidenumbers (optional)
+			livery = {""},									--unit livery
+			base = "Deir ez-Zor",								--unit base
+			skill = getSkill(mission_ini.min_skill_red_awacs, mission_ini.max_skill_red_awacs),			--unit skill
+			tasks = {										--unit tasks
+				["AWACS"] = true,
+			},
+			number = 4,
+		},
+		[57] = {
+			name = "O7 SDRLO",								--unit name
+			type = "Su-24MR",								--aircraft type
+			country = "Russia",								--unit country
+			--sidenumber = {800, 805},						--unit range of sidenumbers (optional)
+			livery = {""},			--unit livery
+			base = "Deir ez-Zor",						--unit base
+			skill = getSkill(mission_ini.min_skill_red_recognition, mission_ini.max_skill_red_recognition),			--unit skill
+			tasks = {										--unit tasks				
+				["Reconnaissance"] = true,
+			},
+			number = 5,
+		},
+		[58] = {
+			name = "09 SDRLO",								--unit name
+			type = "MiG-25RBT",								--aircraft type
+			country = "Russia",								--unit country
+			--sidenumber = {800, 805},						--unit range of sidenumbers (optional)
+			livery = {""},									--unit livery
+			base = "Deir ez-Zor",						--unit base
+			skill = getSkill(mission_ini.min_skill_red_recognition, mission_ini.max_skill_red_recognition),			--unit skill
+			tasks = {										--unit tasks
+				["AWACS"] = true,
+				["Reconnaissance"] = true,
+			},
+			number = 5,
+		},
 		[44] = {
 			name = "23.OSAP",								--unit name
 			type = "An-26B",								--aircraft type
 			country = "Russia",								--unit country
 			livery = "",									--unit livery
-			base = "Anapa-Vityazevo",						--unit base
+			base = "Deir ez-Zor",						--unit base
 			skill = getSkill(mission_ini.min_skill_red_transport, mission_ini.max_skill_red_transport),			--unit skill
 			tasks = {
 				["Transport"] = true,
@@ -1771,6 +1801,10 @@ oob_air = {
 			tasks = {},										--unit tasks
 			number = 4,
 		},
+
+
+
+
 		--------------------- Krasnodar-Center --------------
 		[46] = {
 			name = "2457.I SDRLO",							--unit name
@@ -1884,33 +1918,7 @@ oob_air = {
 			number = 24,
 		},
 		---------------- Integration 		
-		[57] = {
-			name = "O7 SDRLO",								--unit name
-			type = "Su-24MR",								--aircraft type
-			country = "Russia",								--unit country
-			--sidenumber = {800, 805},						--unit range of sidenumbers (optional)
-			livery = {""},			--unit livery
-			base = "Krasnodar-Center",						--unit base
-			skill = getSkill(mission_ini.min_skill_red_recognition, mission_ini.max_skill_red_recognition),			--unit skill
-			tasks = {										--unit tasks				
-				["Reconnaissance"] = true,
-			},
-			number = 5,
-		},
-		[58] = {
-			name = "09 SDRLO",								--unit name
-			type = "MiG-25RBT",								--aircraft type
-			country = "Russia",								--unit country
-			--sidenumber = {800, 805},						--unit range of sidenumbers (optional)
-			livery = {""},									--unit livery
-			base = "Krasnodar-Center",						--unit base
-			skill = getSkill(mission_ini.min_skill_red_recognition, mission_ini.max_skill_red_recognition),			--unit skill
-			tasks = {										--unit tasks
-				["AWACS"] = true,
-				["Reconnaissance"] = true,
-			},
-			number = 5,
-		},
+		
 
 	
 
