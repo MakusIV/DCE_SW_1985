@@ -932,7 +932,7 @@ db_airbases = {
 		-- ILS = "",							-- ILS : optionnel
 		LimitedParkNb = 5,
 	},]]
-	['Naqoura Airbase'] = {             
+	['Naqoura Airbase'] = {             -- UN helibase
 		-- Helicopter base
 		x =	 -209938.1875,
 		y =  -78642.609375,

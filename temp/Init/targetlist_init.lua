@@ -1144,10 +1144,7 @@ targetlist = {
 			name = "Tabqa",
 		},
 
-		--
-
-		-- Helibase, Farp
-		["Sayqal helibase OCA Strike"] = {
+		["Sayqal airbase OCA Strike"] = {
 			task = "Strike",
 			priority = 1,
 			attributes = {"Parked Aircraft"},
@@ -1159,7 +1156,7 @@ targetlist = {
 			name = "Sayqal",
 		},
 
-		["Sayqal Helibase"] = { -- devi aggiornare le coordinate [x], [y]. PROVA A NON INSERIRLE ESSENDO ELEMENTI STATICI INSERITI IN ME  
+		["Sayqal Airbase"] = { -- devi aggiornare le coordinate [x], [y]. PROVA A NON INSERIRLE ESSENDO ELEMENTI STATICI INSERITI IN ME  
 			task = "Strike",
 			priority = 4,
 			picture = {"Sayqal_Helibase.png"},
@@ -1231,6 +1228,10 @@ targetlist = {
 				},
 			},
 		},
+		--
+
+		-- Helibase, Farp
+		-- Taftanaz Helibase
 
 		
 		------------------------------------------------------------------------ OLD
