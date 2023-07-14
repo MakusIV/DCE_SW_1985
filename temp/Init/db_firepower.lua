@@ -451,6 +451,70 @@ weapon_db = {
             },                              
         },
 
+        ["AGM-88"] = {                                             -- weapon name
+            ["type"] = "ASM",                                       -- weapon type
+            ["task"] = {"SEAD"},                        -- weapon task: loadout and targetlist task (Strike, Anti-ship Strike, CAP, Intercept, AWACS, Fighter Sweep, Escort, SEAD)
+            ["start_service"] = 1966,
+            ["end_service"] = 1992,
+            ["cost"] = 200,-- k$  
+            ["tnt"] = 88, --kg
+            ["range"] = 80, -- Km
+            ["perc_efficiency_variability"] = 0.2,                  -- efficiecy variability(0-1): firepower_max = firepower_max * ( 1 + perc_efficiency_variability )
+            ["efficiency"] = {                                      -- efficiency attribute table
+                
+                ["SAM"] = {                                        -- attribute                    
+                    ["big"] = {
+                        ["accuracy"] = 0.8,  
+                        ["destroy_capacity"] = 0.77,
+                    },
+                    ["med"] = {
+                        ["accuracy"] = 0.7,  
+                        ["destroy_capacity"] = 0.88,
+                    },
+                    ["small"] = {
+                        ["accuracy"] = 0.6,   
+                        ["destroy_capacity"] = 1,
+                    },
+                    ["mix"] = {
+                        ["accuracy"] = 0.7, 
+                        ["destroy_capacity"] = 0.85,
+                    },
+                },        
+            },                              
+        },
+
+        ["Kormoran"] = {                                             -- weapon name
+            ["type"] = "ASM",                                       -- weapon type
+            ["task"] = {"Anti-ship Strike"},                        -- weapon task: loadout and targetlist task (Strike, Anti-ship Strike, CAP, Intercept, AWACS, Fighter Sweep, Escort, SEAD)
+            ["start_service"] = 1973,
+            ["end_service"] = nil,
+            ["cost"] = 200,-- k$  
+            ["tnt"] = 165, --kg
+            ["range"] = 30, -- Km
+            ["perc_efficiency_variability"] = 0.1,                  -- efficiecy variability(0-1): firepower_max = firepower_max * ( 1 + perc_efficiency_variability )
+            ["efficiency"] = {                                      -- efficiency attribute table
+                
+                ["ship"] = {                                        -- attribute
+                    ["big"] = {                                     -- element dimension (big, medium, small, mix)
+                        ["accuracy"] = 1,                           -- accuracy: hit success probability percentage, 1 max, 0.1 min
+                        ["destroy_capacity"] = 0.45,                 -- destroy_capacity: number of destroyed single element ( element destroyed with single hit),  0.1 min
+                    },
+                    ["med"] = {
+                        ["accuracy"] = 1,  
+                        ["destroy_capacity"] = 0.7,
+                    },
+                    ["small"] = {
+                        ["accuracy"] = 1,   
+                        ["destroy_capacity"] = 1,
+                    },
+                    ["mix"] = {
+                        ["accuracy"] = 1, 
+                        ["destroy_capacity"] = 0.70,
+                    },
+                },        
+            },                              
+        },
+
         ["RB-05E"] = { -- ROBOT 05 RB-05E  Viggen electro optical
             ["type"] = "ASM",       
             ["task"] = {"Anti-ship Strike", "Strike", "SEAD"},

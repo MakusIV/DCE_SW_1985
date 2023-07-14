@@ -2099,6 +2099,308 @@ targetlist = {
 		
 		-- Airbase
 
+		-- Gazipasa Logistic 2
+		
+		["Incirlik Airbase"] = { -- devi aggiornare le coordinate [x], [y]. PROVA A NON INSERIRLE ESSENDO ELEMENTI STATICI INSERITI IN ME  
+			task = "Strike",
+			priority = 4,
+			picture = {"Incirlik.Airbase.png"},
+			attributes = {"Structure"},
+			firepower = {
+				min = 3, -- --3,
+				max = 3, -- --6,
+			},
+			elements = {
+				[1] = {
+					name = "Incirlik Airbase Logistic 1",
+				},
+				[2] = {
+					name = "Incirlik Airbase Logistic 2",
+				},
+				[3] = {
+					name = "Incirlik Airbase Logistic 3",
+				},
+				[4] = {
+					name = "Incirlik Airbase Logistic 4",
+				},
+				[5] = {
+					name = "Incirlik Airbase Logistic 5",
+				},
+				[6] = {
+					name = "Incirlik Airbase Logistic 6",
+				},
+				[7] = {
+					name = "Incirlik Airbase Logistic 7",
+				},
+				[8] = {
+					name = "Incirlik Airbase Logistic 8",	
+				},
+				[9] = {
+					name = "Incirlik Airbase Logistic 9",					
+				},
+				[10] = {
+					name = "Incirlik Airbase Logistic 10",
+				},
+				[11] = {
+					name = "Incirlik Airbase Logistic 11",
+				},
+				[12] = {
+					name = "Incirlik Airbase Logistic 12",
+				},
+				[13] = {
+					name = "Incirlik Airbase Logistic 13",
+				},
+				[14] = {
+					name = "Incirlik Airbase Logistic 14",
+				},
+				[15] = {
+					name = "Incirlik Airbase Logistic 15",
+				},
+				[16] = {
+					name = "Incirlik Airbase Logistic 16",
+				},
+				[17] = {
+					name = "Incirlik Airbase Logistic 17",
+				},
+				[18] = {
+					name = "Incirlik Airbase Logistic 18",	
+				},
+				[19] = {
+					name = "Incirlik Airbase Logistic 19",					
+				},
+			},
+		},
+
+		["Adana Sakirpasa Airbase"] = { -- devi aggiornare le coordinate [x], [y]. PROVA A NON INSERIRLE ESSENDO ELEMENTI STATICI INSERITI IN ME  
+			task = "Strike",
+			priority = 4,
+			picture = {"Adana.Sakirpasa.Airbase.png"},
+			attributes = {"Structure"},
+			firepower = {
+				min = 3, -- --3,
+				max = 3, -- --6,
+			},
+			elements = {
+				[1] = {
+					name = "Adana Sakirpasa Logistic 1",
+				},
+				[2] = {
+					name = "Adana Sakirpasa Logistic 2",
+				},
+				[3] = {
+					name = "Adana Sakirpasa Logistic 3",
+				},
+				[4] = {
+					name = "Adana Sakirpasa Logistic 4",
+				},
+				[5] = {
+					name = "Adana Sakirpasa Logistic 5",
+				},
+				[6] = {
+					name = "Adana Sakirpasa Logistic 6",
+				},
+				[7] = {
+					name = "Adana Sakirpasa Logistic 7",
+				},
+				[8] = {
+					name = "Adana Sakirpasa Logistic 8",	
+				},
+				[9] = {
+					name = "Adana Sakirpasa Logistic 9",					
+				},
+				[10] = {
+					name = "Adana Sakirpasa Logistic 10",
+				},
+				[11] = {
+					name = "Adana Sakirpasa Logistic 11",
+				},
+				[12] = {
+					name = "Adana Sakirpasa Logistic 12",
+				},
+				[13] = {
+					name = "Adana Sakirpasa Logistic 13",
+				},
+				[14] = {
+					name = "Adana Sakirpasa Logistic 14",
+				},
+				[15] = {
+					name = "Adana Sakirpasa Logistic 15",
+				},
+			},
+		},
+
+		["Gazipasa Airbase"] = { -- devi aggiornare le coordinate [x], [y]. PROVA A NON INSERIRLE ESSENDO ELEMENTI STATICI INSERITI IN ME  
+			task = "Strike",
+			priority = 4,
+			picture = {"Gazipasa.Airbase.png"},
+			attributes = {"Structure"},
+			firepower = {
+				min = 3, -- --3,
+				max = 3, -- --6,
+			},
+			elements = {
+				[1] = {
+					name = "Gazipasa Logistic 1",
+				},
+				[2] = {
+					name = "Gazipasa Logistic 2",
+				},
+				[3] = {
+					name = "Gazipasa Logistic 3",
+				},
+				[4] = {
+					name = "Gazipasa Logistic 4",
+				},
+				[5] = {
+					name = "Gazipasa Logistic 5",
+				},
+				[6] = {
+					name = "Gazipasa Logistic 6",
+				},
+				[7] = {
+					name = "Gazipasa Logistic 7",
+				},
+				[8] = {
+					name = "Gazipasa Logistic 8",	
+				},
+				[9] = {
+					name = "Gazipasa Logistic 9",					
+				},
+				[10] = {
+					name = "Gazipasa Logistic 10",
+				},
+				[11] = {
+					name = "Gazipasa Logistic 11",
+				},
+				[12] = {
+					name = "Gazipasa Logistic 12",
+				},
+				[13] = {
+					name = "Gazipasa Logistic 13",
+				},
+				[14] = {
+					name = "Gazipasa Logistic 14",
+				},
+				[15] = {
+					name = "Gazipasa Logistic 15",
+				},
+			},
+		},
+
+		["Gaziantep Airbase"] = { -- devi aggiornare le coordinate [x], [y]. PROVA A NON INSERIRLE ESSENDO ELEMENTI STATICI INSERITI IN ME  
+			task = "Strike",
+			priority = 4,
+			picture = {"Gaziantep.Airbase.png"},
+			attributes = {"Structure"},
+			firepower = {
+				min = 3, -- --3,
+				max = 3, -- --6,
+			},
+			elements = {
+				[1] = {
+					name = "Gaziantep Logistic 1",
+				},
+				[2] = {
+					name = "Gaziantep Logistic 2",
+				},
+				[3] = {
+					name = "Gaziantep Logistic 3",
+				},
+				[4] = {
+					name = "Gaziantep Logistic 4",
+				},
+				[5] = {
+					name = "Gaziantep Logistic 5",
+				},
+				[6] = {
+					name = "Gaziantep Logistic 6",
+				},
+				[7] = {
+					name = "Gaziantep Logistic 7",
+				},
+				[8] = {
+					name = "Gaziantep Logistic 8",	
+				},
+				[9] = {
+					name = "Gaziantep Logistic 9",					
+				},
+				[10] = {
+					name = "Gaziantep Logistic 10",
+				},
+				[11] = {
+					name = "Gaziantep Logistic 11",
+				},
+				[12] = {
+					name = "Gaziantep Logistic 12",
+				},
+				[13] = {
+					name = "Gaziantep Logistic 13",
+				},
+				[14] = {
+					name = "Gaziantep Logistic 14",
+				},
+				[15] = {
+					name = "Gaziantep Logistic 15",
+				},
+			},
+		},
+
+		["Hatay Airbase"] = { -- devi aggiornare le coordinate [x], [y]. PROVA A NON INSERIRLE ESSENDO ELEMENTI STATICI INSERITI IN ME  
+			task = "Strike",
+			priority = 4,
+			picture = {"Hatay.Airbase.png"},
+			attributes = {"Structure"},
+			firepower = {
+				min = 3, -- --3,
+				max = 3, -- --6,
+			},
+			elements = {
+				[1] = {
+					name = "Hatay Logistic 1",
+				},
+				[2] = {
+					name = "Hatay Logistic 2",
+				},
+				[3] = {
+					name = "Hatay Logistic 3",
+				},
+				[4] = {
+					name = "Hatay Logistic 4",
+				},
+				[5] = {
+					name = "Hatay Logistic 5",
+				},
+				[6] = {
+					name = "Hatay Logistic 6",
+				},
+				[7] = {
+					name = "Hatay Logistic 7",
+				},
+				[8] = {
+					name = "Hatay Logistic 8",	
+				},
+				[9] = {
+					name = "Hatay Logistic 9",					
+				},
+				[10] = {
+					name = "Hatay Logistic 10",
+				},
+				[11] = {
+					name = "Hatay Logistic 11",
+				},
+				[12] = {
+					name = "Hatay Logistic 12",
+				},
+				[13] = {
+					name = "Hatay Logistic 13",
+				},
+				[14] = {
+					name = "Hatay Logistic 14",
+				},
+			},
+		},
+
+
 
 		-- Helibase, Farp
 
