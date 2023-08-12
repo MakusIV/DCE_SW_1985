@@ -1,0 +1,1243 @@
+staticTemplate = 
+{
+    ["coalition"] = 
+    {
+        ["neutrals"] = 
+        {
+            ["name"] = "neutrals",
+            ["country"] = 
+            {
+                [1] = 
+                {
+                    ["id"] = 70,
+                    ["name"] = "Algeria",
+                }, -- end of [1]
+                [2] = 
+                {
+                    ["id"] = 83,
+                    ["name"] = "Argentina",
+                }, -- end of [2]
+                [3] = 
+                {
+                    ["id"] = 65,
+                    ["name"] = "Bahrain",
+                }, -- end of [3]
+                [4] = 
+                {
+                    ["id"] = 64,
+                    ["name"] = "Brazil",
+                }, -- end of [4]
+                [5] = 
+                {
+                    ["id"] = 63,
+                    ["name"] = "Chile",
+                }, -- end of [5]
+                [6] = 
+                {
+                    ["id"] = 27,
+                    ["name"] = "China",
+                }, -- end of [6]
+                [7] = 
+                {
+                    ["id"] = 76,
+                    ["name"] = "Cuba",
+                }, -- end of [7]
+                [8] = 
+                {
+                    ["id"] = 29,
+                    ["name"] = "Egypt",
+                }, -- end of [8]
+                [9] = 
+                {
+                    ["id"] = 62,
+                    ["name"] = "Ethiopia",
+                }, -- end of [9]
+                [10] = 
+                {
+                    ["id"] = 78,
+                    ["name"] = "GDR",
+                }, -- end of [10]
+                [11] = 
+                {
+                    ["id"] = 61,
+                    ["name"] = "Honduras",
+                }, -- end of [11]
+                [12] = 
+                {
+                    ["id"] = 33,
+                    ["name"] = "India",
+                }, -- end of [12]
+                [13] = 
+                {
+                    ["id"] = 60,
+                    ["name"] = "Indonesia",
+                }, -- end of [13]
+                [14] = 
+                {
+                    ["id"] = 17,
+                    ["name"] = "Insurgents",
+                }, -- end of [14]
+                [15] = 
+                {
+                    ["id"] = 34,
+                    ["name"] = "Iran",
+                }, -- end of [15]
+                [16] = 
+                {
+                    ["id"] = 35,
+                    ["name"] = "Iraq",
+                }, -- end of [16]
+                [17] = 
+                {
+                    ["id"] = 69,
+                    ["name"] = "Italian Social Republic",
+                }, -- end of [17]
+                [18] = 
+                {
+                    ["id"] = 36,
+                    ["name"] = "Japan",
+                }, -- end of [18]
+                [19] = 
+                {
+                    ["id"] = 59,
+                    ["name"] = "Jordan",
+                }, -- end of [19]
+                [20] = 
+                {
+                    ["id"] = 37,
+                    ["name"] = "Kazakhstan",
+                }, -- end of [20]
+                [21] = 
+                {
+                    ["id"] = 71,
+                    ["name"] = "Kuwait",
+                }, -- end of [21]
+                [22] = 
+                {
+                    ["id"] = 79,
+                    ["name"] = "Lebanon",
+                }, -- end of [22]
+                [23] = 
+                {
+                    ["id"] = 57,
+                    ["name"] = "Malaysia",
+                }, -- end of [23]
+                [24] = 
+                {
+                    ["id"] = 56,
+                    ["name"] = "Mexico",
+                }, -- end of [24]
+                [25] = 
+                {
+                    ["id"] = 55,
+                    ["name"] = "Morocco",
+                }, -- end of [25]
+                [26] = 
+                {
+                    ["id"] = 38,
+                    ["name"] = "North Korea",
+                }, -- end of [26]
+                [27] = 
+                {
+                    ["id"] = 73,
+                    ["name"] = "Oman",
+                }, -- end of [27]
+                [28] = 
+                {
+                    ["id"] = 39,
+                    ["name"] = "Pakistan",
+                }, -- end of [28]
+                [29] = 
+                {
+                    ["id"] = 54,
+                    ["name"] = "Philippines",
+                }, -- end of [29]
+                [30] = 
+                {
+                    ["id"] = 77,
+                    ["name"] = "Portugal",
+                }, -- end of [30]
+                [31] = 
+                {
+                    ["id"] = 72,
+                    ["name"] = "Qatar",
+                }, -- end of [31]
+                [32] = 
+                {
+                    ["id"] = 42,
+                    ["name"] = "Saudi Arabia",
+                }, -- end of [32]
+                [33] = 
+                {
+                    ["id"] = 85,
+                    ["name"] = "Slovenia",
+                }, -- end of [33]
+                [34] = 
+                {
+                    ["id"] = 75,
+                    ["name"] = "South Africa",
+                }, -- end of [34]
+                [35] = 
+                {
+                    ["id"] = 45,
+                    ["name"] = "South Korea",
+                }, -- end of [35]
+                [36] = 
+                {
+                    ["id"] = 53,
+                    ["name"] = "Sudan",
+                }, -- end of [36]
+                [37] = 
+                {
+                    ["id"] = 22,
+                    ["name"] = "Switzerland",
+                }, -- end of [37]
+                [38] = 
+                {
+                    ["id"] = 52,
+                    ["name"] = "Thailand",
+                }, -- end of [38]
+                [39] = 
+                {
+                    ["id"] = 66,
+                    ["name"] = "Third Reich",
+                }, -- end of [39]
+                [40] = 
+                {
+                    ["id"] = 51,
+                    ["name"] = "Tunisia",
+                }, -- end of [40]
+                [41] = 
+                {
+                    ["id"] = 74,
+                    ["name"] = "United Arab Emirates",
+                }, -- end of [41]
+                [42] = 
+                {
+                    ["id"] = 82,
+                    ["name"] = "UN",
+                }, -- end of [42]
+                [43] = 
+                {
+                    ["id"] = 7,
+                    ["name"] = "USAF Aggressors",
+                }, -- end of [43]
+                [44] = 
+                {
+                    ["id"] = 68,
+                    ["name"] = "USSR",
+                }, -- end of [44]
+                [45] = 
+                {
+                    ["id"] = 50,
+                    ["name"] = "Venezuela",
+                }, -- end of [45]
+                [46] = 
+                {
+                    ["id"] = 49,
+                    ["name"] = "Vietnam",
+                }, -- end of [46]
+                [47] = 
+                {
+                    ["id"] = 48,
+                    ["name"] = "Yemen",
+                }, -- end of [47]
+                [48] = 
+                {
+                    ["id"] = 67,
+                    ["name"] = "Yugoslavia",
+                }, -- end of [48]
+                [49] = 
+                {
+                    ["id"] = 86,
+                    ["name"] = "Bolivia",
+                }, -- end of [49]
+                [50] = 
+                {
+                    ["id"] = 87,
+                    ["name"] = "Ghana",
+                }, -- end of [50]
+                [51] = 
+                {
+                    ["id"] = 88,
+                    ["name"] = "Nigeria",
+                }, -- end of [51]
+                [52] = 
+                {
+                    ["id"] = 89,
+                    ["name"] = "Peru",
+                }, -- end of [52]
+            }, -- end of ["country"]
+        }, -- end of ["neutrals"]
+        ["blue"] = 
+        {
+            ["name"] = "blue",
+            ["country"] = 
+            {
+                [1] = 
+                {
+                    ["id"] = 21,
+                    ["name"] = "Australia",
+                }, -- end of [1]
+                [2] = 
+                {
+                    ["id"] = 23,
+                    ["name"] = "Austria",
+                }, -- end of [2]
+                [3] = 
+                {
+                    ["id"] = 11,
+                    ["name"] = "Belgium",
+                }, -- end of [3]
+                [4] = 
+                {
+                    ["id"] = 25,
+                    ["name"] = "Bulgaria",
+                }, -- end of [4]
+                [5] = 
+                {
+                    ["id"] = 8,
+                    ["name"] = "Canada",
+                }, -- end of [5]
+                [6] = 
+                {
+                    ["id"] = 80,
+                    ["name"] = "CJTF Blue",
+                }, -- end of [6]
+                [7] = 
+                {
+                    ["id"] = 28,
+                    ["name"] = "Croatia",
+                }, -- end of [7]
+                [8] = 
+                {
+                    ["id"] = 84,
+                    ["name"] = "Cyprus",
+                }, -- end of [8]
+                [9] = 
+                {
+                    ["id"] = 26,
+                    ["name"] = "Czech Republic",
+                }, -- end of [9]
+                [10] = 
+                {
+                    ["id"] = 13,
+                    ["name"] = "Denmark",
+                }, -- end of [10]
+                [11] = 
+                {
+                    ["id"] = 30,
+                    ["name"] = "Finland",
+                }, -- end of [11]
+                [12] = 
+                {
+                    ["id"] = 5,
+                    ["name"] = "France",
+                }, -- end of [12]
+                [13] = 
+                {
+                    ["id"] = 16,
+                    ["name"] = "Georgia",
+                }, -- end of [13]
+                [14] = 
+                {
+                    ["id"] = 6,
+                    ["name"] = "Germany",
+                }, -- end of [14]
+                [15] = 
+                {
+                    ["name"] = "Greece",
+                    ["id"] = 31,
+                    ["static"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["heading"] = 1.4835298641952,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -215911.66178012,
+                                            ["speed"] = 0,
+                                            ["x"] = -556.99407485791,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 2,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Armor",
+                                        ["type"] = "M1043 HMMWV Armament",
+                                        ["unitId"] = 7,
+                                        ["rate"] = 5,
+                                        ["y"] = -215911.66178012,
+                                        ["x"] = -556.99407485791,
+                                        ["name"] = "GEF 2-1-1",
+                                        ["heading"] = 1.4835298641952,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -215911.66178012,
+                                ["x"] = -556.99407485791,
+                                ["name"] = "GEF 2-1",
+                                ["dead"] = false,
+                            }, -- end of [1]
+                            [2] = 
+                            {
+                                ["heading"] = 1.5184364492351,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -215884.5879193,
+                                            ["speed"] = 0,
+                                            ["x"] = -927.8148283426,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 3,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Armor",
+                                        ["type"] = "M1045 HMMWV TOW",
+                                        ["unitId"] = 8,
+                                        ["rate"] = 5,
+                                        ["y"] = -215884.5879193,
+                                        ["x"] = -927.8148283426,
+                                        ["name"] = "GEF 2-2-1",
+                                        ["heading"] = 1.5184364492351,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -215884.5879193,
+                                ["x"] = -927.8148283426,
+                                ["name"] = "GEF 2-2",
+                                ["dead"] = false,
+                            }, -- end of [2]
+                            [3] = 
+                            {
+                                ["heading"] = 1.5009831567151,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -216011.1230121,
+                                            ["speed"] = 0,
+                                            ["x"] = -1212.2328636789,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 4,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Armor",
+                                        ["type"] = "Leopard1A3",
+                                        ["unitId"] = 9,
+                                        ["rate"] = 10,
+                                        ["y"] = -216011.1230121,
+                                        ["x"] = -1212.2328636789,
+                                        ["name"] = "GEF 2-3-1",
+                                        ["heading"] = 1.5009831567151,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -216011.1230121,
+                                ["x"] = -1212.2328636789,
+                                ["name"] = "GEF 2-3",
+                                ["dead"] = false,
+                            }, -- end of [3]
+                            [4] = 
+                            {
+                                ["heading"] = 1.9198621771938,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -215937.98249146,
+                                            ["speed"] = 0,
+                                            ["x"] = -651.39885623625,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 5,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Armor",
+                                        ["type"] = "Leopard1A3",
+                                        ["unitId"] = 10,
+                                        ["rate"] = 10,
+                                        ["y"] = -215937.98249146,
+                                        ["x"] = -651.39885623625,
+                                        ["name"] = "GEF 2-4-1",
+                                        ["heading"] = 1.9198621771938,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -215937.98249146,
+                                ["x"] = -651.39885623625,
+                                ["name"] = "GEF 2-4",
+                                ["dead"] = false,
+                            }, -- end of [4]
+                            [5] = 
+                            {
+                                ["heading"] = 1.3439035240356,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -215992.14770539,
+                                            ["speed"] = 0,
+                                            ["x"] = -852.56824401389,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 6,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Armor",
+                                        ["type"] = "Leopard1A3",
+                                        ["unitId"] = 11,
+                                        ["rate"] = 10,
+                                        ["y"] = -215992.14770539,
+                                        ["x"] = -852.56824401389,
+                                        ["name"] = "GEF 2-5-1",
+                                        ["heading"] = 1.3439035240356,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -215992.14770539,
+                                ["x"] = -852.56824401389,
+                                ["name"] = "GEF 2-5",
+                                ["dead"] = false,
+                            }, -- end of [5]
+                            [6] = 
+                            {
+                                ["heading"] = 2.0943951023932,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -215993.78334591,
+                                            ["speed"] = 0,
+                                            ["x"] = -1072.7858860771,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 7,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Armor",
+                                        ["type"] = "Leopard1A3",
+                                        ["unitId"] = 12,
+                                        ["rate"] = 10,
+                                        ["y"] = -215993.78334591,
+                                        ["x"] = -1072.7858860771,
+                                        ["name"] = "GEF 2-6-1",
+                                        ["heading"] = 2.0943951023932,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -215993.78334591,
+                                ["x"] = -1072.7858860771,
+                                ["name"] = "GEF 2-6",
+                                ["dead"] = false,
+                            }, -- end of [6]
+                            [7] = 
+                            {
+                                ["heading"] = 2.0071286397935,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -216095.89603063,
+                                            ["speed"] = 0,
+                                            ["x"] = -1331.1440971386,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 8,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Armor",
+                                        ["type"] = "Leopard1A3",
+                                        ["unitId"] = 13,
+                                        ["rate"] = 10,
+                                        ["y"] = -216095.89603063,
+                                        ["x"] = -1331.1440971386,
+                                        ["name"] = "GEF 2-7-1",
+                                        ["heading"] = 2.0071286397935,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -216095.89603063,
+                                ["x"] = -1331.1440971386,
+                                ["name"] = "GEF 2-7",
+                                ["dead"] = false,
+                            }, -- end of [7]
+                            [8] = 
+                            {
+                                ["heading"] = 2.2514747350727,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -216278.56641992,
+                                            ["speed"] = 0,
+                                            ["x"] = -1268.4859414598,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 9,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Armor",
+                                        ["type"] = "Leopard1A3",
+                                        ["unitId"] = 14,
+                                        ["rate"] = 10,
+                                        ["y"] = -216278.56641992,
+                                        ["x"] = -1268.4859414598,
+                                        ["name"] = "GEF 2-8-1",
+                                        ["heading"] = 2.2514747350727,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -216278.56641992,
+                                ["x"] = -1268.4859414598,
+                                ["name"] = "GEF 2-8",
+                                ["dead"] = false,
+                            }, -- end of [8]
+                            [9] = 
+                            {
+                                ["heading"] = 1.2740903539559,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -216191.78223339,
+                                            ["speed"] = 0,
+                                            ["x"] = -619.99969444519,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 10,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Armor",
+                                        ["type"] = "M-113",
+                                        ["unitId"] = 15,
+                                        ["rate"] = 10,
+                                        ["y"] = -216191.78223339,
+                                        ["x"] = -619.99969444519,
+                                        ["name"] = "GEF 2-9-1",
+                                        ["heading"] = 1.2740903539559,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -216191.78223339,
+                                ["x"] = -619.99969444519,
+                                ["name"] = "GEF 2-9",
+                                ["dead"] = false,
+                            }, -- end of [9]
+                            [10] = 
+                            {
+                                ["heading"] = 1.9373154697137,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -216128.55532151,
+                                            ["speed"] = 0,
+                                            ["x"] = -1380.8924584032,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 11,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Armor",
+                                        ["type"] = "M-113",
+                                        ["unitId"] = 16,
+                                        ["rate"] = 10,
+                                        ["y"] = -216128.55532151,
+                                        ["x"] = -1380.8924584032,
+                                        ["name"] = "GEF 2-10-1",
+                                        ["heading"] = 1.9373154697137,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -216128.55532151,
+                                ["x"] = -1380.8924584032,
+                                ["name"] = "GEF 2-10",
+                                ["dead"] = false,
+                            }, -- end of [10]
+                            [11] = 
+                            {
+                                ["heading"] = 1.6755160819146,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -215935.38351,
+                                            ["speed"] = 0,
+                                            ["x"] = -1006.4384926141,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 12,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Armor",
+                                        ["type"] = "M-113",
+                                        ["unitId"] = 17,
+                                        ["rate"] = 10,
+                                        ["y"] = -215935.38351,
+                                        ["x"] = -1006.4384926141,
+                                        ["name"] = "GEF 2-11-1",
+                                        ["heading"] = 1.6755160819146,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -215935.38351,
+                                ["x"] = -1006.4384926141,
+                                ["name"] = "GEF 2-11",
+                                ["dead"] = false,
+                            }, -- end of [11]
+                            [12] = 
+                            {
+                                ["heading"] = 1.8675022996339,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -216063.97040271,
+                                            ["speed"] = 0,
+                                            ["x"] = -1102.2928466033,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 13,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Armor",
+                                        ["type"] = "M-113",
+                                        ["unitId"] = 18,
+                                        ["rate"] = 10,
+                                        ["y"] = -216063.97040271,
+                                        ["x"] = -1102.2928466033,
+                                        ["name"] = "GEF 2-12-1",
+                                        ["heading"] = 1.8675022996339,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -216063.97040271,
+                                ["x"] = -1102.2928466033,
+                                ["name"] = "GEF 2-12",
+                                ["dead"] = false,
+                            }, -- end of [12]
+                            [13] = 
+                            {
+                                ["heading"] = 1.7976891295542,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -215951.94158083,
+                                            ["speed"] = 0,
+                                            ["x"] = -678.55316340551,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 14,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Armor",
+                                        ["type"] = "M-113",
+                                        ["unitId"] = 19,
+                                        ["rate"] = 10,
+                                        ["y"] = -215951.94158083,
+                                        ["x"] = -678.55316340551,
+                                        ["name"] = "GEF 2-13-1",
+                                        ["heading"] = 1.7976891295542,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -215951.94158083,
+                                ["x"] = -678.55316340551,
+                                ["name"] = "GEF 2-13",
+                                ["dead"] = false,
+                            }, -- end of [13]
+                            [14] = 
+                            {
+                                ["heading"] = 1.8675022996339,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -215976.09113209,
+                                            ["speed"] = 0,
+                                            ["x"] = -775.48505490047,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 15,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Armor",
+                                        ["type"] = "M-113",
+                                        ["unitId"] = 20,
+                                        ["rate"] = 10,
+                                        ["y"] = -215976.09113209,
+                                        ["x"] = -775.48505490047,
+                                        ["name"] = "GEF 2-14-1",
+                                        ["heading"] = 1.8675022996339,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -215976.09113209,
+                                ["x"] = -775.48505490047,
+                                ["name"] = "GEF 2-14",
+                                ["dead"] = false,
+                            }, -- end of [14]
+                            [15] = 
+                            {
+                                ["heading"] = 2.0943951023932,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -216009.44994875,
+                                            ["speed"] = 0,
+                                            ["x"] = -1284.0085511513,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 16,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Armor",
+                                        ["type"] = "M-113",
+                                        ["unitId"] = 21,
+                                        ["rate"] = 10,
+                                        ["y"] = -216009.44994875,
+                                        ["x"] = -1284.0085511513,
+                                        ["name"] = "GEF 2-15-1",
+                                        ["heading"] = 2.0943951023932,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -216009.44994875,
+                                ["x"] = -1284.0085511513,
+                                ["name"] = "GEF 2-15",
+                                ["dead"] = false,
+                            }, -- end of [15]
+                        }, -- end of ["group"]
+                    }, -- end of ["static"]
+                    ["vehicle"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 71,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = -216043.23577704,
+                                            ["x"] = -1050.6052049567,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 0,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 1,
+                                ["hidden"] = true,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "ZSU-23-4 Shilka",
+                                        ["unitId"] = 4,
+                                        ["y"] = -216043.23577704,
+                                        ["x"] = -1050.6052049567,
+                                        ["name"] = "GEF 2-AA-1",
+                                        ["heading"] = 1.5009831567151,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "M1043 HMMWV Armament",
+                                        ["unitId"] = 2,
+                                        ["y"] = -215958.7463446,
+                                        ["x"] = -512.0769058427,
+                                        ["name"] = "GEF 2-AA-2",
+                                        ["heading"] = 1.8849555921539,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [2]
+                                    [3] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Leopard1A3",
+                                        ["unitId"] = 3,
+                                        ["y"] = -216741.88089894,
+                                        ["x"] = -576.57037766891,
+                                        ["name"] = "GEF 2-AA-3",
+                                        ["heading"] = 0.85521133347722,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [3]
+                                    [4] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Soldier stinger",
+                                        ["unitId"] = 5,
+                                        ["y"] = -215970.75009304,
+                                        ["x"] = -959.25048964634,
+                                        ["name"] = "GEF 2-AA-4",
+                                        ["heading"] = 2.5307274153918,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [4]
+                                    [5] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Osa 9A33 ln",
+                                        ["unitId"] = 6,
+                                        ["y"] = -216557.75910403,
+                                        ["x"] = -851.00245008312,
+                                        ["name"] = "GEF 2-AA-5",
+                                        ["heading"] = 1.5707963267949,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [5]
+                                    [6] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "M-113",
+                                        ["unitId"] = 1,
+                                        ["y"] = -216422.53275512,
+                                        ["x"] = -1287.0502181072,
+                                        ["name"] = "GEF 2-AA-6",
+                                        ["heading"] = 3.0194196059502,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [6]
+                                }, -- end of ["units"]
+                                ["y"] = -216043.23577704,
+                                ["x"] = -1050.6052049567,
+                                ["name"] = "GEF 2-AA",
+                                ["start_time"] = 0,
+                            }, -- end of [1]
+                        }, -- end of ["group"]
+                    }, -- end of ["vehicle"]
+                }, -- end of [15]
+                [16] = 
+                {
+                    ["id"] = 32,
+                    ["name"] = "Hungary",
+                }, -- end of [16]
+                [17] = 
+                {
+                    ["id"] = 15,
+                    ["name"] = "Israel",
+                }, -- end of [17]
+                [18] = 
+                {
+                    ["id"] = 20,
+                    ["name"] = "Italy",
+                }, -- end of [18]
+                [19] = 
+                {
+                    ["id"] = 12,
+                    ["name"] = "Norway",
+                }, -- end of [19]
+                [20] = 
+                {
+                    ["id"] = 40,
+                    ["name"] = "Poland",
+                }, -- end of [20]
+                [21] = 
+                {
+                    ["id"] = 41,
+                    ["name"] = "Romania",
+                }, -- end of [21]
+                [22] = 
+                {
+                    ["id"] = 0,
+                    ["name"] = "Russia",
+                }, -- end of [22]
+                [23] = 
+                {
+                    ["id"] = 44,
+                    ["name"] = "Slovakia",
+                }, -- end of [23]
+                [24] = 
+                {
+                    ["id"] = 9,
+                    ["name"] = "Spain",
+                }, -- end of [24]
+                [25] = 
+                {
+                    ["id"] = 46,
+                    ["name"] = "Sweden",
+                }, -- end of [25]
+                [26] = 
+                {
+                    ["id"] = 47,
+                    ["name"] = "Syria",
+                }, -- end of [26]
+                [27] = 
+                {
+                    ["id"] = 10,
+                    ["name"] = "The Netherlands",
+                }, -- end of [27]
+                [28] = 
+                {
+                    ["id"] = 4,
+                    ["name"] = "UK",
+                }, -- end of [28]
+                [29] = 
+                {
+                    ["id"] = 1,
+                    ["name"] = "Ukraine",
+                }, -- end of [29]
+            }, -- end of ["country"]
+        }, -- end of ["blue"]
+        ["red"] = 
+        {
+            ["name"] = "red",
+            ["country"] = 
+            {
+                [1] = 
+                {
+                    ["id"] = 18,
+                    ["name"] = "Abkhazia",
+                }, -- end of [1]
+                [2] = 
+                {
+                    ["id"] = 24,
+                    ["name"] = "Belarus",
+                }, -- end of [2]
+                [3] = 
+                {
+                    ["id"] = 81,
+                    ["name"] = "CJTF Red",
+                }, -- end of [3]
+                [4] = 
+                {
+                    ["id"] = 58,
+                    ["name"] = "Libya",
+                }, -- end of [4]
+                [5] = 
+                {
+                    ["id"] = 43,
+                    ["name"] = "Serbia",
+                }, -- end of [5]
+                [6] = 
+                {
+                    ["id"] = 19,
+                    ["name"] = "South Ossetia",
+                }, -- end of [6]
+                [7] = 
+                {
+                    ["id"] = 3,
+                    ["name"] = "Turkey",
+                }, -- end of [7]
+                [8] = 
+                {
+                    ["id"] = 2,
+                    ["name"] = "USA",
+                }, -- end of [8]
+            }, -- end of ["country"]
+        }, -- end of ["red"]
+    }, -- end of ["coalition"]
+    ["name"] = "Greek Expeditionary Force 2 T4",
+    ["requiredModules"] = 
+    {
+    }, -- end of ["requiredModules"]
+    ["localization"] = 
+    {
+        ["DEFAULT"] = 
+        {
+            ["DictKey_descriptionNeutralsTask_4"] = "",
+            ["DictKey_sortie_5"] = "",
+            ["DictKey_descriptionText_1"] = "",
+            ["DictKey_descriptionBlueTask_3"] = "",
+            ["DictKey_descriptionRedTask_2"] = "",
+        }, -- end of ["DEFAULT"]
+    }, -- end of ["localization"]
+    ["theatre"] = "Syria",
+    ["desc"] = "",
+} -- end of staticTemplate

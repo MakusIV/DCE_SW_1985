@@ -1,0 +1,4 @@
+Installation:
+1. create a folder 'MiG-21Bis' under 'DCS World Install\Mods\aircraft\MiG-21BIS\Liveries\' or 'Saved Games\DCS(.openbeta)\Liveries\MiG-21BIS\'
+2. unzip the file and move 'Syria CAMO 1980' into the newly created folder
+3. choose the skin in ME (Syria CAMO 1980)

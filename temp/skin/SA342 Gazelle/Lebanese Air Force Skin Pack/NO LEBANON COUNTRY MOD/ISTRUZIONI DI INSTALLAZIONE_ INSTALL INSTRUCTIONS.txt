@@ -1,0 +1,139 @@
+                                                                     
+																	 
+																	 FOR ENGLISH INSTRUCTIONS SCROLL DOWN DOWN DOWN
+
+
+
+
+																	 
+1________    Creare (se non l'avete già creata in precedenza) una cartella nuova chiamata UH-1H dentro qui (dipende dove avete installato DCS World nel mio caso è installato dentro Programmi):
+
+C:\Programmi\Eagle Dynamics\DCS World\Mods\aircraft\Uh-1H\Liveries\
+
+a questo punto verificate di avere all'interno della cartella Liveries almeno le seguenti 2 cartelle:
+
+Cockpit_UH-1H
+UH-1H
+
+
+2________    spachettare dal file "Lebanese Air Force Skin Pack.rar" dentro la nuova cartella UH-1H che si trova in:
+
+C:\Programmi\Eagle Dynamics\DCS World\Mods\aircraft\Uh-1H\Liveries\
+
+le seguenti quattro cartelle:
+
+LAF 1003
+LAF 1010
+LAF 1102
+LAF 1201
+
+
+
+3_________    Creare (se non l'avete già creata in precedenza) una cartella nuova chiamata SA342L dentro qui (dipende dove avete installato DCS World nel mio caso è installato dentro Programmi):
+
+ 
+C:\Programmi\Eagle Dynamics\DCS World\Mods\aircraft\SA342\Liveries
+
+a questo punto verificate di avere all'interno della cartella Liveries almeno le seguenti 4 cartelle:
+
+Cockpit_SA342L
+Cockpit_SA342M
+Cockpit_SA342Mistral
+SA342L
+
+
+
+4________    spachettare dal file "Lebanese Air Force Skin Pack.rar" dentro la nuova cartella SA342L che si trova in:
+
+C:\Programmi\Eagle Dynamics\DCS World\Mods\aircraft\SA342\Liveries\
+
+la seguente cartella:
+
+LAF L812
+
+
+
+
+5__________ Ora avrete 4 livree dentro USA e Italy in DCS World scegliendo l'UH-1H e una livrea dentro USA e Italy in DCS World scegliendo il Gazelle SA342L
+
+
+
+
+Divertitevi e se avevte bisogno di aiuto ecco la mia mail: maiochine@hotmail.com
+
+
+Happy landings :P
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                     
+																					 
+																					 
+																					 ENGLISH INSTRUCTIONS
+																					 
+																					 
+																					 
+																					 
+																					 
+																					 
+
+
+1________    Create (if you do not have it already there) a new folder and name it UH-1H inside you main DCS World folder (depending wether you installed it in Program Files or directly onto your main hard drive):
+
+C:\Program Files\Eagle Dynamics\DCS World\Mods\aircraft\Uh-1H\Liveries\
+
+You should have now inside the folder called Liveries at least the following 2 sub-folders:
+
+Cockpit_UH-1H
+UH-1H
+
+
+2________    unpack from the file "Lebanese Air Force Skin Pack.rar" inside the new folder "UH-1H" found in:
+
+C:\Program Files\Eagle Dynamics\DCS World\Mods\aircraft\Uh-1H\Liveries\
+
+the 4 follwing folders:
+
+LAF 1003
+LAF 1010
+LAF 1102
+LAF 1201
+
+
+
+3________    Create (if you do not have it already there) a new folder and name it SA342L inside you main DCS World folder (depending wether you installed it in Program Files or directly onto your main hard drive):
+
+C:\Programmi\Eagle Dynamics\DCS World\Mods\aircraft\SA342\Liveries\
+
+You should have now inside the folder called Liveries at least the following 5 sub-folders:
+
+Cockpit_SA342L
+Cockpit_SA342M
+Cockpit_SA342Mistral
+SA342L
+
+
+4________    unpack from the file "Lebanese Air Force Skin Pack.rar" inside the new folder SA342L found in:
+
+C:\Programmi\Eagle Dynamics\DCS World\Mods\aircraft\SA342\Liveries\
+
+the following folder:
+
+LAF L812
+
+
+
+
+5__________ Now you have one livery inside USA and Italy in DCS World when you chose the Gazelle SA342L Helicopter and 4 liveries inside USA and Italy in DCS World when you chose the UH-1H Helicopter
+
+
+
+
+
+
+
+
+Have fun and if you have any question here's my email: maiochine@hotmail.com
+
+
+Happy landings :P

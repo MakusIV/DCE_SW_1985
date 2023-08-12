@@ -1,0 +1,978 @@
+staticTemplate = 
+{
+    ["coalition"] = 
+    {
+        ["neutrals"] = 
+        {
+            ["name"] = "neutrals",
+            ["country"] = 
+            {
+                [1] = 
+                {
+                    ["id"] = 70,
+                    ["name"] = "Algeria",
+                }, -- end of [1]
+                [2] = 
+                {
+                    ["id"] = 83,
+                    ["name"] = "Argentina",
+                }, -- end of [2]
+                [3] = 
+                {
+                    ["id"] = 65,
+                    ["name"] = "Bahrain",
+                }, -- end of [3]
+                [4] = 
+                {
+                    ["id"] = 64,
+                    ["name"] = "Brazil",
+                }, -- end of [4]
+                [5] = 
+                {
+                    ["id"] = 63,
+                    ["name"] = "Chile",
+                }, -- end of [5]
+                [6] = 
+                {
+                    ["id"] = 27,
+                    ["name"] = "China",
+                }, -- end of [6]
+                [7] = 
+                {
+                    ["id"] = 76,
+                    ["name"] = "Cuba",
+                }, -- end of [7]
+                [8] = 
+                {
+                    ["id"] = 29,
+                    ["name"] = "Egypt",
+                }, -- end of [8]
+                [9] = 
+                {
+                    ["id"] = 62,
+                    ["name"] = "Ethiopia",
+                }, -- end of [9]
+                [10] = 
+                {
+                    ["id"] = 78,
+                    ["name"] = "GDR",
+                }, -- end of [10]
+                [11] = 
+                {
+                    ["id"] = 61,
+                    ["name"] = "Honduras",
+                }, -- end of [11]
+                [12] = 
+                {
+                    ["id"] = 33,
+                    ["name"] = "India",
+                }, -- end of [12]
+                [13] = 
+                {
+                    ["id"] = 60,
+                    ["name"] = "Indonesia",
+                }, -- end of [13]
+                [14] = 
+                {
+                    ["id"] = 17,
+                    ["name"] = "Insurgents",
+                }, -- end of [14]
+                [15] = 
+                {
+                    ["id"] = 34,
+                    ["name"] = "Iran",
+                }, -- end of [15]
+                [16] = 
+                {
+                    ["id"] = 35,
+                    ["name"] = "Iraq",
+                }, -- end of [16]
+                [17] = 
+                {
+                    ["id"] = 69,
+                    ["name"] = "Italian Social Republic",
+                }, -- end of [17]
+                [18] = 
+                {
+                    ["id"] = 36,
+                    ["name"] = "Japan",
+                }, -- end of [18]
+                [19] = 
+                {
+                    ["id"] = 59,
+                    ["name"] = "Jordan",
+                }, -- end of [19]
+                [20] = 
+                {
+                    ["id"] = 37,
+                    ["name"] = "Kazakhstan",
+                }, -- end of [20]
+                [21] = 
+                {
+                    ["id"] = 71,
+                    ["name"] = "Kuwait",
+                }, -- end of [21]
+                [22] = 
+                {
+                    ["id"] = 79,
+                    ["name"] = "Lebanon",
+                }, -- end of [22]
+                [23] = 
+                {
+                    ["id"] = 57,
+                    ["name"] = "Malaysia",
+                }, -- end of [23]
+                [24] = 
+                {
+                    ["id"] = 56,
+                    ["name"] = "Mexico",
+                }, -- end of [24]
+                [25] = 
+                {
+                    ["id"] = 55,
+                    ["name"] = "Morocco",
+                }, -- end of [25]
+                [26] = 
+                {
+                    ["id"] = 38,
+                    ["name"] = "North Korea",
+                }, -- end of [26]
+                [27] = 
+                {
+                    ["id"] = 73,
+                    ["name"] = "Oman",
+                }, -- end of [27]
+                [28] = 
+                {
+                    ["id"] = 39,
+                    ["name"] = "Pakistan",
+                }, -- end of [28]
+                [29] = 
+                {
+                    ["id"] = 54,
+                    ["name"] = "Philippines",
+                }, -- end of [29]
+                [30] = 
+                {
+                    ["id"] = 77,
+                    ["name"] = "Portugal",
+                }, -- end of [30]
+                [31] = 
+                {
+                    ["id"] = 72,
+                    ["name"] = "Qatar",
+                }, -- end of [31]
+                [32] = 
+                {
+                    ["id"] = 42,
+                    ["name"] = "Saudi Arabia",
+                }, -- end of [32]
+                [33] = 
+                {
+                    ["id"] = 85,
+                    ["name"] = "Slovenia",
+                }, -- end of [33]
+                [34] = 
+                {
+                    ["id"] = 75,
+                    ["name"] = "South Africa",
+                }, -- end of [34]
+                [35] = 
+                {
+                    ["id"] = 45,
+                    ["name"] = "South Korea",
+                }, -- end of [35]
+                [36] = 
+                {
+                    ["id"] = 53,
+                    ["name"] = "Sudan",
+                }, -- end of [36]
+                [37] = 
+                {
+                    ["id"] = 22,
+                    ["name"] = "Switzerland",
+                }, -- end of [37]
+                [38] = 
+                {
+                    ["id"] = 52,
+                    ["name"] = "Thailand",
+                }, -- end of [38]
+                [39] = 
+                {
+                    ["id"] = 66,
+                    ["name"] = "Third Reich",
+                }, -- end of [39]
+                [40] = 
+                {
+                    ["id"] = 51,
+                    ["name"] = "Tunisia",
+                }, -- end of [40]
+                [41] = 
+                {
+                    ["id"] = 74,
+                    ["name"] = "United Arab Emirates",
+                }, -- end of [41]
+                [42] = 
+                {
+                    ["id"] = 82,
+                    ["name"] = "UN",
+                }, -- end of [42]
+                [43] = 
+                {
+                    ["id"] = 7,
+                    ["name"] = "USAF Aggressors",
+                }, -- end of [43]
+                [44] = 
+                {
+                    ["id"] = 68,
+                    ["name"] = "USSR",
+                }, -- end of [44]
+                [45] = 
+                {
+                    ["id"] = 50,
+                    ["name"] = "Venezuela",
+                }, -- end of [45]
+                [46] = 
+                {
+                    ["id"] = 49,
+                    ["name"] = "Vietnam",
+                }, -- end of [46]
+                [47] = 
+                {
+                    ["id"] = 48,
+                    ["name"] = "Yemen",
+                }, -- end of [47]
+                [48] = 
+                {
+                    ["id"] = 67,
+                    ["name"] = "Yugoslavia",
+                }, -- end of [48]
+            }, -- end of ["country"]
+        }, -- end of ["neutrals"]
+        ["blue"] = 
+        {
+            ["name"] = "blue",
+            ["country"] = 
+            {
+                [1] = 
+                {
+                    ["id"] = 21,
+                    ["name"] = "Australia",
+                }, -- end of [1]
+                [2] = 
+                {
+                    ["id"] = 23,
+                    ["name"] = "Austria",
+                }, -- end of [2]
+                [3] = 
+                {
+                    ["id"] = 11,
+                    ["name"] = "Belgium",
+                }, -- end of [3]
+                [4] = 
+                {
+                    ["id"] = 25,
+                    ["name"] = "Bulgaria",
+                }, -- end of [4]
+                [5] = 
+                {
+                    ["id"] = 8,
+                    ["name"] = "Canada",
+                }, -- end of [5]
+                [6] = 
+                {
+                    ["id"] = 80,
+                    ["name"] = "CJTF Blue",
+                }, -- end of [6]
+                [7] = 
+                {
+                    ["id"] = 28,
+                    ["name"] = "Croatia",
+                }, -- end of [7]
+                [8] = 
+                {
+                    ["name"] = "Cyprus",
+                    ["id"] = 84,
+                    ["static"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["heading"] = 0.028634037459951,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -228395.51472365,
+                                            ["speed"] = 0,
+                                            ["x"] = 13912.80556064,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 2,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Armor",
+                                        ["type"] = "VAB_Mephisto",
+                                        ["unitId"] = 4,
+                                        ["rate"] = 15,
+                                        ["y"] = -228395.51472365,
+                                        ["x"] = 13912.80556064,
+                                        ["name"] = "CBF 6-1-1",
+                                        ["heading"] = 0.028634037459951,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -228395.51472365,
+                                ["x"] = 13912.80556064,
+                                ["name"] = "CBF 6-1",
+                                ["dead"] = false,
+                            }, -- end of [1]
+                            [2] = 
+                            {
+                                ["heading"] = 0.00049975823181554,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -228532.32815161,
+                                            ["speed"] = 0,
+                                            ["x"] = 13979.123273459,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 3,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Armor",
+                                        ["type"] = "VAB_Mephisto",
+                                        ["unitId"] = 5,
+                                        ["rate"] = 15,
+                                        ["y"] = -228532.32815161,
+                                        ["x"] = 13979.123273459,
+                                        ["name"] = "CBF 6-2-1",
+                                        ["heading"] = 0.00049975823181554,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -228532.32815161,
+                                ["x"] = 13979.123273459,
+                                ["name"] = "CBF 6-2",
+                                ["dead"] = false,
+                            }, -- end of [2]
+                            [3] = 
+                            {
+                                ["heading"] = 0.27925268031909,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -228735.11203869,
+                                            ["speed"] = 0,
+                                            ["x"] = 13842.901111546,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 4,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Armor",
+                                        ["type"] = "VAB_Mephisto",
+                                        ["unitId"] = 6,
+                                        ["rate"] = 15,
+                                        ["y"] = -228735.11203869,
+                                        ["x"] = 13842.901111546,
+                                        ["name"] = "CBF 6-3-1",
+                                        ["heading"] = 0.27925268031909,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -228735.11203869,
+                                ["x"] = 13842.901111546,
+                                ["name"] = "CBF 6-3",
+                                ["dead"] = false,
+                            }, -- end of [3]
+                            [4] = 
+                            {
+                                ["heading"] = 0.61086523819802,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -228988.27527787,
+                                            ["speed"] = 0,
+                                            ["x"] = 13912.916896396,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 5,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Armor",
+                                        ["type"] = "VAB_Mephisto",
+                                        ["unitId"] = 7,
+                                        ["rate"] = 15,
+                                        ["y"] = -228988.27527787,
+                                        ["x"] = 13912.916896396,
+                                        ["name"] = "CBF 6-4-1",
+                                        ["heading"] = 0.61086523819802,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -228988.27527787,
+                                ["x"] = 13912.916896396,
+                                ["name"] = "CBF 6-4",
+                                ["dead"] = false,
+                            }, -- end of [4]
+                            [5] = 
+                            {
+                                ["heading"] = 0.010661609692535,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -228355.6292729,
+                                            ["speed"] = 0,
+                                            ["x"] = 13699.435594461,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 6,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Unarmed",
+                                        ["type"] = "KAMAZ Truck",
+                                        ["unitId"] = 8,
+                                        ["rate"] = 5,
+                                        ["y"] = -228355.6292729,
+                                        ["x"] = 13699.435594461,
+                                        ["name"] = "CBF 6-5-1",
+                                        ["heading"] = 0.010661609692535,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -228355.6292729,
+                                ["x"] = 13699.435594461,
+                                ["name"] = "CBF 6-5",
+                                ["dead"] = false,
+                            }, -- end of [5]
+                            [6] = 
+                            {
+                                ["heading"] = 0.010661609692535,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -228631.7864686,
+                                            ["speed"] = 0,
+                                            ["x"] = 13886.098765994,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 7,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Unarmed",
+                                        ["type"] = "KAMAZ Truck",
+                                        ["unitId"] = 9,
+                                        ["rate"] = 5,
+                                        ["y"] = -228631.7864686,
+                                        ["x"] = 13886.098765994,
+                                        ["name"] = "CBF 6-6-1",
+                                        ["heading"] = 0.010661609692535,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -228631.7864686,
+                                ["x"] = 13886.098765994,
+                                ["name"] = "CBF 6-6",
+                                ["dead"] = false,
+                            }, -- end of [6]
+                            [7] = 
+                            {
+                                ["heading"] = 0.54105206811824,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -228787.8321407,
+                                            ["speed"] = 0,
+                                            ["x"] = 13854.218467392,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 8,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Unarmed",
+                                        ["type"] = "KAMAZ Truck",
+                                        ["unitId"] = 10,
+                                        ["rate"] = 5,
+                                        ["y"] = -228787.8321407,
+                                        ["x"] = 13854.218467392,
+                                        ["name"] = "CBF 6-7-1",
+                                        ["heading"] = 0.54105206811824,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -228787.8321407,
+                                ["x"] = 13854.218467392,
+                                ["name"] = "CBF 6-7",
+                                ["dead"] = false,
+                            }, -- end of [7]
+                            [8] = 
+                            {
+                                ["heading"] = 0.6457718232379,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -228849.10843278,
+                                            ["speed"] = 0,
+                                            ["x"] = 13844.257441412,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 9,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Unarmed",
+                                        ["type"] = "KAMAZ Truck",
+                                        ["unitId"] = 11,
+                                        ["rate"] = 5,
+                                        ["y"] = -228849.10843278,
+                                        ["x"] = 13844.257441412,
+                                        ["name"] = "CBF 6-8-1",
+                                        ["heading"] = 0.6457718232379,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -228849.10843278,
+                                ["x"] = 13844.257441412,
+                                ["name"] = "CBF 6-8",
+                                ["dead"] = false,
+                            }, -- end of [8]
+                            [9] = 
+                            {
+                                ["heading"] = 0.97738438111682,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -228908.86690013,
+                                            ["speed"] = 0,
+                                            ["x"] = 13870.542498721,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 10,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Unarmed",
+                                        ["type"] = "KAMAZ Truck",
+                                        ["unitId"] = 12,
+                                        ["rate"] = 5,
+                                        ["y"] = -228908.86690013,
+                                        ["x"] = 13870.542498721,
+                                        ["name"] = "CBF 6-9-1",
+                                        ["heading"] = 0.97738438111682,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -228908.86690013,
+                                ["x"] = 13870.542498721,
+                                ["name"] = "CBF 6-9",
+                                ["dead"] = false,
+                            }, -- end of [9]
+                            [10] = 
+                            {
+                                ["heading"] = 1.4486232791553,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -229020.9556624,
+                                            ["speed"] = 0,
+                                            ["x"] = 14011.659192083,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 11,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Unarmed",
+                                        ["type"] = "KAMAZ Truck",
+                                        ["unitId"] = 13,
+                                        ["rate"] = 5,
+                                        ["y"] = -229020.9556624,
+                                        ["x"] = 14011.659192083,
+                                        ["name"] = "CBF 6-10-1",
+                                        ["heading"] = 1.4486232791553,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -229020.9556624,
+                                ["x"] = 14011.659192083,
+                                ["name"] = "CBF 6-10",
+                                ["dead"] = false,
+                            }, -- end of [10]
+                        }, -- end of ["group"]
+                    }, -- end of ["static"]
+                    ["vehicle"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 226,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = -228551.88264778,
+                                            ["x"] = 13803.897851959,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 0,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 1,
+                                ["hidden"] = true,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Ural-375 ZU-23",
+                                        ["unitId"] = 1,
+                                        ["y"] = -228551.88264778,
+                                        ["x"] = 13803.897851959,
+                                        ["name"] = "CBF 6-AA-1",
+                                        ["heading"] = 3.5430183815485,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Ural-375 ZU-23",
+                                        ["unitId"] = 2,
+                                        ["y"] = -229136.67352337,
+                                        ["x"] = 13933.044475629,
+                                        ["name"] = "CBF 6-AA-2",
+                                        ["heading"] = 3.5430183815485,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [2]
+                                    [3] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Soldier stinger",
+                                        ["unitId"] = 3,
+                                        ["y"] = -228928.75636006,
+                                        ["x"] = 13754.44510529,
+                                        ["name"] = "CBF 6-AA-3",
+                                        ["heading"] = 3.5430183815485,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [3]
+                                }, -- end of ["units"]
+                                ["y"] = -228551.88264778,
+                                ["x"] = 13803.897851959,
+                                ["name"] = "CBF 6-AA",
+                                ["start_time"] = 0,
+                            }, -- end of [1]
+                        }, -- end of ["group"]
+                    }, -- end of ["vehicle"]
+                }, -- end of [8]
+                [9] = 
+                {
+                    ["id"] = 26,
+                    ["name"] = "Czech Republic",
+                }, -- end of [9]
+                [10] = 
+                {
+                    ["id"] = 13,
+                    ["name"] = "Denmark",
+                }, -- end of [10]
+                [11] = 
+                {
+                    ["id"] = 30,
+                    ["name"] = "Finland",
+                }, -- end of [11]
+                [12] = 
+                {
+                    ["id"] = 5,
+                    ["name"] = "France",
+                }, -- end of [12]
+                [13] = 
+                {
+                    ["id"] = 16,
+                    ["name"] = "Georgia",
+                }, -- end of [13]
+                [14] = 
+                {
+                    ["id"] = 6,
+                    ["name"] = "Germany",
+                }, -- end of [14]
+                [15] = 
+                {
+                    ["id"] = 31,
+                    ["name"] = "Greece",
+                }, -- end of [15]
+                [16] = 
+                {
+                    ["id"] = 32,
+                    ["name"] = "Hungary",
+                }, -- end of [16]
+                [17] = 
+                {
+                    ["id"] = 15,
+                    ["name"] = "Israel",
+                }, -- end of [17]
+                [18] = 
+                {
+                    ["id"] = 20,
+                    ["name"] = "Italy",
+                }, -- end of [18]
+                [19] = 
+                {
+                    ["id"] = 12,
+                    ["name"] = "Norway",
+                }, -- end of [19]
+                [20] = 
+                {
+                    ["id"] = 40,
+                    ["name"] = "Poland",
+                }, -- end of [20]
+                [21] = 
+                {
+                    ["id"] = 41,
+                    ["name"] = "Romania",
+                }, -- end of [21]
+                [22] = 
+                {
+                    ["id"] = 0,
+                    ["name"] = "Russia",
+                }, -- end of [22]
+                [23] = 
+                {
+                    ["id"] = 44,
+                    ["name"] = "Slovakia",
+                }, -- end of [23]
+                [24] = 
+                {
+                    ["id"] = 9,
+                    ["name"] = "Spain",
+                }, -- end of [24]
+                [25] = 
+                {
+                    ["id"] = 46,
+                    ["name"] = "Sweden",
+                }, -- end of [25]
+                [26] = 
+                {
+                    ["id"] = 47,
+                    ["name"] = "Syria",
+                }, -- end of [26]
+                [27] = 
+                {
+                    ["id"] = 10,
+                    ["name"] = "The Netherlands",
+                }, -- end of [27]
+                [28] = 
+                {
+                    ["id"] = 4,
+                    ["name"] = "UK",
+                }, -- end of [28]
+                [29] = 
+                {
+                    ["id"] = 1,
+                    ["name"] = "Ukraine",
+                }, -- end of [29]
+            }, -- end of ["country"]
+        }, -- end of ["blue"]
+        ["red"] = 
+        {
+            ["name"] = "red",
+            ["country"] = 
+            {
+                [1] = 
+                {
+                    ["id"] = 18,
+                    ["name"] = "Abkhazia",
+                }, -- end of [1]
+                [2] = 
+                {
+                    ["id"] = 24,
+                    ["name"] = "Belarus",
+                }, -- end of [2]
+                [3] = 
+                {
+                    ["id"] = 81,
+                    ["name"] = "CJTF Red",
+                }, -- end of [3]
+                [4] = 
+                {
+                    ["id"] = 58,
+                    ["name"] = "Libya",
+                }, -- end of [4]
+                [5] = 
+                {
+                    ["id"] = 43,
+                    ["name"] = "Serbia",
+                }, -- end of [5]
+                [6] = 
+                {
+                    ["id"] = 19,
+                    ["name"] = "South Ossetia",
+                }, -- end of [6]
+                [7] = 
+                {
+                    ["id"] = 3,
+                    ["name"] = "Turkey",
+                }, -- end of [7]
+                [8] = 
+                {
+                    ["id"] = 2,
+                    ["name"] = "USA",
+                }, -- end of [8]
+            }, -- end of ["country"]
+        }, -- end of ["red"]
+    }, -- end of ["coalition"]
+    ["name"] = "Cyprus Border Force 6 T1",
+    ["requiredModules"] = 
+    {
+    }, -- end of ["requiredModules"]
+    ["localization"] = 
+    {
+        ["DEFAULT"] = 
+        {
+            ["DictKey_descriptionNeutralsTask_4"] = "",
+            ["DictKey_sortie_5"] = "",
+            ["DictKey_descriptionText_1"] = "",
+            ["DictKey_descriptionBlueTask_3"] = "",
+            ["DictKey_descriptionRedTask_2"] = "",
+        }, -- end of ["DEFAULT"]
+    }, -- end of ["localization"]
+    ["theatre"] = "Syria",
+    ["desc"] = "",
+} -- end of staticTemplate

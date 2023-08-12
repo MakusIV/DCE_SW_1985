@@ -1,0 +1,101 @@
+campaign = 
+{
+    ["picture_EN"] = "Map Conflict.png",
+    ["directory"] = "C:\\Users\\marco\\Saved Games\\DCS.openbeta\\Mods\\tech\\DCE\\Missions\\Campaigns\\",
+    ["startStage"] = 1,
+    ["picture"] = "Map Conflict.png",
+    ["stages"] = 
+    {
+        [1] = 
+        {
+            ["name"] = "Stage 1",
+            ["missions"] = 
+            {
+                [1] = 
+                {
+                    ["description"] = "",
+                    ["interval"] = 
+                    {
+                        [1] = 0,
+                        [2] = 100,
+                    }, -- end of ["interval"]
+                    ["file"] = "1985 Syrian War_first.miz",
+                    ["fullpath"] = "C:\\Users\\marco\\Saved Games\\DCS.openbeta\\Mods\\tech\\DCE\\Missions\\Campaigns\\1985 Syrian War_first.miz",
+                    ["skipScore"] = 100,
+                }, -- end of [1]
+            }, -- end of ["missions"]
+        }, -- end of [1]
+        [2] = 
+        {
+            ["name"] = "Stage 2",
+            ["missions"] = 
+            {
+                [1] = 
+                {
+                    ["description"] = "",
+                    ["interval"] = 
+                    {
+                        [1] = 0,
+                        [2] = 100,
+                    }, -- end of ["interval"]
+                    ["file"] = "1985 Syrian War_ongoing.miz",
+                    ["skipScore"] = 100,
+                    ["fullpath"] = "C:\\Users\\marco\\Saved Games\\DCS.openbeta\\Mods\\tech\\DCE\\Missions\\Campaigns\\1985 Syrian War_ongoing.miz",
+                }, -- end of [1]
+            }, -- end of ["missions"]
+        }, -- end of [2]
+    }, -- end of ["stages"]
+    ["description_EN"] = "The United States, after careful verification of the effective weakness of the Soviet Union, decided to undertake military action aimed at establishing total control of Syria as a stronghold to control the Middle Eastern regions, in particular Iran. \
+The US military initiative is supported by several NATO nations, including Turkey, Greece, France, Germany, Sweden and Italy. The US-NATO invasion is based on the deployment of air and naval forces in the Mediterranean near the island of Cyprus, air forces stationed in the air bases in Cyprus (Larnaca, ..) and in Turkish territory (Incirlik, Adana, Gaziantep). Four directions of attack by land means are defined: the first directed from Hatay towards the northern coast of Syria, the second from Gaziantep towards the center of Syria, the third from the Israeli air base of Ramat David towards the southern coast of Lebanon and the fourth from Jordan in a northerly direction towards Syria. \
+The military operations consists mainly of air supremacy, interdiction and ground support missions. \
+Syria reacted by asking for the intervention of the Soviet Union as its main ally and also receiving the full support of Iran. \
+All active Syrian military bases have been made available to the allies. \
+The Soviet Union has confirmed full support for the defense of the integrity of the Syrian territory and has provided all the most modern military assets available, including: Mig-31, Mig-29, Mig-27, Mig-25, Su-27, Su-25, Su-24 and Tu-22 in support of modest Syrian resources: Su-17, Mig-21 and L-39C. \
+Iran has contributed by sending its dedicated F-14As for interception or patrol missions. \
+The United States and the NATO nations involved used assets such as: F-16A, F-15C, A-10A, F-14A, F-117A, Tornado IDS (from Germany and Italy), Mirage 2000/F1 (from France), AJS39 (from Sweden), C101CC (from Spain).\
+You are a US Navy F-14A pilot assigned to VS-101 aboard the aircraft carrier Theodore Roosevelt sailing northwest of Cyprus.\
+\
+---------------------------------------------------------------------------------------------\
+\
+Gli Stati Uniti dopo una attenta verifica sulla effettiva debolezza dell'Unione Sovietica hanno deciso di intraprendere un'azione militare volta a stabilire il controllo totale della Syria come caposaldo per controllare le regioni del medio-oriente, in particolare Iran e Siria. \
+L'iniziativa militare statunitense è supportata da diverse nazioni appartenenti alla Nato, tra le quali Turchia, Grecia, Francia, Germania, Svezia e Italia. L'invasione USA-Nato si basa sul dispiegamento di forze aereonavali nel mediterraneo in prossimità dell'isola di Cipro, di forze aeree stanziate nelle basi aeree presenti a Cipro (Larnaca, ..) e nel territorio turco (Incirlik, Adana, Gaziantep). Sono definite quattro direttrici di attacco con mezzi terrestri: la prima diretta da Hatay verso la costa nord della Siria, la seconda da Gaziantep verso il centro della Siria, la terza dalla base aerea israeliana di Ramat David verso la costa sud del Libano e la quarta dalla Giordania in direzione nord verso la Siria. \
+La tipologia delle operazioni militare è costituita prevalentemente da missioni di supremazia aerea, interdizione e supporto all'azione terrestre. \
+La Siria ha reagito chiedendo l'intervento dell'Unione Sovietica in qualità di suo principale alleato ricevendo anche il pieno supporto dell'Iran. \
+Tutte le basi militari siriane attive sono state messe a disposizione dei loro alleati. \
+L'Unione Sovietica ha confermato il totale appoggio per la difesa dell'integrità del territorio Siriano ed ha fornito tutti i più moderni asset militari disponibili, tra i quali: Mig-31, Mig-29, Mig-27, Mig-25, Su-27, Su-25, Su-24 and Tu-22 in supporto alle modeste risorse siriane costituite da: Su-17, Mig-21 and L-39C. \
+L'Iran ha contribuito tramite l'invio dei suoi F-14A dedicati alle missioni di intercettazione o di pattugliamento. \
+Gli stati uniti e le nazioni Nato coinvolte hanno impiegato per l'invasione asset quali: Tornado Panavia, F-16A, F-15C, A-10A, F-14A, SB-2, B-52H. \
+Tu sei un pilota di F-14A della US Navy assegnato al VS-101 imbarcato sulla portaerei Theodore Roosvelt in navigazione a nord ovest di Cipro.",
+    ["pictureSuccess"] = "Newspaper_Victory_blue.jpg",
+    ["pictureSuccess_EN"] = "Newspaper_Victory_blue.jpg",
+    ["pictureFailed"] = "Newspaper_Victory_red.jpg",
+    ["description"] = "The United States, after careful verification of the effective weakness of the Soviet Union, decided to undertake military action aimed at establishing total control of Syria as a stronghold to control the Middle Eastern regions, in particular Iran. \
+The US military initiative is supported by several NATO nations, including Turkey, Greece, France, Germany, Sweden and Italy. The US-NATO invasion is based on the deployment of air and naval forces in the Mediterranean near the island of Cyprus, air forces stationed in the air bases in Cyprus (Larnaca, ..) and in Turkish territory (Incirlik, Adana, Gaziantep). Four directions of attack by land means are defined: the first directed from Hatay towards the northern coast of Syria, the second from Gaziantep towards the center of Syria, the third from the Israeli air base of Ramat David towards the southern coast of Lebanon and the fourth from Jordan in a northerly direction towards Syria. \
+The military operations consists mainly of air supremacy, interdiction and ground support missions. \
+Syria reacted by asking for the intervention of the Soviet Union as its main ally and also receiving the full support of Iran. \
+All active Syrian military bases have been made available to the allies. \
+The Soviet Union has confirmed full support for the defense of the integrity of the Syrian territory and has provided all the most modern military assets available, including: Mig-31, Mig-29, Mig-27, Mig-25, Su-27, Su-25, Su-24 and Tu-22 in support of modest Syrian resources: Su-17, Mig-21 and L-39C. \
+Iran has contributed by sending its dedicated F-14As for interception or patrol missions. \
+The United States and the NATO nations involved used assets such as: F-16A, F-15C, A-10A, F-14A, F-117A, Tornado IDS (from Germany and Italy), Mirage 2000/F1 (from France), AJS39 (from Sweden), C101CC (from Spain).\
+You are a US Navy F-14A pilot assigned to VS-101 aboard the aircraft carrier Theodore Roosevelt sailing northwest of Cyprus.\
+\
+---------------------------------------------------------------------------------------------\
+\
+Gli Stati Uniti dopo una attenta verifica sulla effettiva debolezza dell'Unione Sovietica hanno deciso di intraprendere un'azione militare volta a stabilire il controllo totale della Syria come caposaldo per controllare le regioni del medio-oriente, in particolare Iran e Siria. \
+L'iniziativa militare statunitense è supportata da diverse nazioni appartenenti alla Nato, tra le quali Turchia, Grecia, Francia, Germania, Svezia e Italia. L'invasione USA-Nato si basa sul dispiegamento di forze aereonavali nel mediterraneo in prossimità dell'isola di Cipro, di forze aeree stanziate nelle basi aeree presenti a Cipro (Larnaca, ..) e nel territorio turco (Incirlik, Adana, Gaziantep). Sono definite quattro direttrici di attacco con mezzi terrestri: la prima diretta da Hatay verso la costa nord della Siria, la seconda da Gaziantep verso il centro della Siria, la terza dalla base aerea israeliana di Ramat David verso la costa sud del Libano e la quarta dalla Giordania in direzione nord verso la Siria. \
+La tipologia delle operazioni militare è costituita prevalentemente da missioni di supremazia aerea, interdizione e supporto all'azione terrestre. \
+La Siria ha reagito chiedendo l'intervento dell'Unione Sovietica in qualità di suo principale alleato ricevendo anche il pieno supporto dell'Iran. \
+Tutte le basi militari siriane attive sono state messe a disposizione dei loro alleati. \
+L'Unione Sovietica ha confermato il totale appoggio per la difesa dell'integrità del territorio Siriano ed ha fornito tutti i più moderni asset militari disponibili, tra i quali: Mig-31, Mig-29, Mig-27, Mig-25, Su-27, Su-25, Su-24 and Tu-22 in supporto alle modeste risorse siriane costituite da: Su-17, Mig-21 and L-39C. \
+L'Iran ha contribuito tramite l'invio dei suoi F-14A dedicati alle missioni di intercettazione o di pattugliamento. \
+Gli stati uniti e le nazioni Nato coinvolte hanno impiegato per l'invasione asset quali: Tornado Panavia, F-16A, F-15C, A-10A, F-14A, SB-2, B-52H. \
+Tu sei un pilota di F-14A della US Navy assegnato al VS-101 imbarcato sulla portaerei Theodore Roosvelt in navigazione a nord ovest di Cipro.",
+    ["name"] = "1985 Syrian War",
+    ["version"] = 1,
+    ["name_EN"] = "1985 Syrian War",
+    ["pictureFailed_EN"] = "Newspaper_Victory_red.jpg",
+    ["fullPath"] = "C:\\Users\\marco\\Saved Games\\DCS.openbeta\\Mods\\tech\\DCE\\Missions\\Campaigns\\1985 Syrian War.cmp",
+    ["necessaryUnits"] = 
+    {
+    }, -- end of ["necessaryUnits"]
+} -- end of campaign

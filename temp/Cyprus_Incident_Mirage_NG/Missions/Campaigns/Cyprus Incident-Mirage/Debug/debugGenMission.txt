@@ -1,0 +1,14 @@
+
+
+AtoFP FirstMsg Pack 1 - EC 331 - Strike 1
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+Pack: 1 Nb   2  M-2000C  Pack 1 - EC 331 - Strike 1  Paphos Airbase  North Cyprus-Turkish Force 1  ETA 0    task CAS || 80s 90s 2000s SR AG Belouga*8,MagicII*2,FT*1 TakeOffParking
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+logExp  
+ _affiche(titre) testDeckPlace
+
+AtoFP startup_time_player: 00:15
+AtoFP NowTime: 10:05

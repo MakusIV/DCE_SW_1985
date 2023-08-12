@@ -1,0 +1,234 @@
+                                                                     
+																	 
+																	 FOR ENGLISH INSTRUCTIONS SCROLL DOWN DOWN DOWN
+
+
+
+
+																	 
+1________    Creare (se non l'avete già creata in precedenza) una cartella nuova chiamata UH-1H dentro qui (dipende dove avete installato DCS World nel mio caso è installato dentro Programmi):
+
+C:\Programmi\Eagle Dynamics\DCS World\Mods\aircraft\Uh-1H\Liveries\
+
+a questo punto verificate di avere all'interno della cartella Liveries almeno le seguenti 2 cartelle:
+
+Cockpit_UH-1H
+UH-1H
+
+
+2________    spachettare dal file "Lebanese Air Force Skin Pack.rar" dentro la nuova cartella UH-1H che si trova in:
+
+C:\Programmi\Eagle Dynamics\DCS World\Mods\aircraft\Uh-1H\Liveries\
+
+le seguenti quattro cartelle:
+
+LAF 1003
+LAF 1010
+LAF 1102
+LAF 1201
+
+
+3_________    Aprire il file "db_countries.lua" ( tramite Notepad o ancora meglio Notepad++ ) che trovate in:
+
+ 
+C:\Programmi\Eagle Dynamics\DCS World\Scripts\Database
+
+
+
+4__________   FATTE UN BACKUP PRIMA DI MODIFICARLO poi aggiungere le seguenti stringhe seguendo le immagini JPEG "INSTALL INSTRUCTION 1.jpg", "INSTALL INSTRUCTION 2.jpg", "INSTALL INSTRUCTION 3.jpg", "INSTALL INSTRUCTION 4.jpg": 
+
+----------------------------------------
+"Lebanon"           , "LEB"
+----------------------------------------
+country:add('LEBANON',_("Lebanon"), "Lebanon", "LEB",
+  use_default_callsigns,
+  use_default_ranks,
+  {
+    award('Commemorative Medal of Peace Operations', _('Commemorative Medal of Peace Operations'), 200,  'IT-01-Commemorative_Medal_of_Peace_Operations.png'),
+    award('Honor Decoration Interforce', _('Honor Decoration Interforce'), 600,  'IT-02-Honor_Decoration_Interforce.png'),
+    award('NATO Medal for Merits', _('NATO Medal for Merits'), 1000, 'IT-03-NATO_Medal_for_Merits.png'),
+    award('Dannebrogordenen Ridderkors af 1. grad', _('Dannebrogordenen Ridderkors af 1. grad'), 1400, 'DEN-04-Order_of_Danneburg_Knight_1st_Degree.png'),
+    award('Bronze Medal for Military Valour', _('Bronze Medal for Military Valour'), 1800, 'IT-04-Bronze_Medal_for_Military_Valour.png'),
+    award('Silver Medal for Military Valor', _('Silver Medal for Military Valor'), 2200, 'IT-05-Silver_Medal_for_Military_Valor.png'),
+    award('Cross of Aeronautical Merit Bronze', _('Cross of Aeronautical Merit Bronze'), 2600, 'IT-06-Cross_of_Aeronautical_Merit_Bronze.png'),
+    award('Silver Cross of Merit Air Force', _('Silver Cross of Merit Air Force'), 3000, 'IT-07-Silver_Cross_of_Merit_Air_Force.png'),
+	award('Gold Cros of Merit Aeronautical', _('Gold Cros of Merit Aeronautical'), 4000, 'IT-8-Gold_Cros_of_Merit_Aeronautical.png'),
+  },
+  'Italy.lua'
+);
+-------------------------------------------
+
+country:add("LEBANON",		_("Lebanon"),	    "Lebanon"			, "LEB", use_default_callsigns	,	use_default_ranks,	no_awards, no_squadrons )
+
+
+-------------------------------------------
+
+-- LEBANON
+local units = country:get("LEBANON").Units
+        cnt_unit( units.Planes.Plane, "C-130");
+        cnt_unit( units.Planes.Plane, "F-16A MLU");
+		cnt_unit( units.Planes.Plane, "P-51D");
+		cnt_unit( units.Planes.Plane, "Tornado IDS");
+        cnt_unit( units.Cars.Car, "M-113");
+		cnt_unit( units.Cars.Car, "AAV7")
+        cnt_unit( units.Cars.Car, "Hawk sr");
+		cnt_unit( units.Cars.Car, "Hawk cwar");
+		cnt_unit( units.Cars.Car, "Hawk pcp");
+        cnt_unit( units.Cars.Car, "Hawk tr");
+        cnt_unit( units.Cars.Car, "Hawk ln");
+        cnt_unit( units.Cars.Car, "Hummer");
+        cnt_unit( units.Cars.Car, "M-109");
+        cnt_unit( units.Cars.Car, "MLRS");
+        cnt_unit( units.Cars.Car, "Soldier stinger");
+        cnt_unit( units.Cars.Car, "Stinger comm");
+        cnt_unit( units.Cars.Car, "M 818");
+        cnt_unit( units.Cars.Car, "Leopard1A3");
+		cnt_unit( units.Cars.Car, "M978 HEMTT Tanker");
+		cnt_unit( units.Cars.Car, "HEMTT TFFT");
+		cnt_unit( units.Cars.Car, "2B11 mortar");
+		cnt_unit( units.Helicopters.Helicopter, "Mi-8MT");
+		cnt_unit( units.Helicopters.Helicopter, "UH-1H");
+		
+--------------------------------------------
+
+
+5__________ Piazzare i 2 file Lebanon.png che trovate all'interno della cartella FLAGS del file "UH-1H LAF.rar" dentro le correspettive cartelle Flags che trovate in 
+
+.../Eagle Dynamics/DCS World/FUI/Common/Flags
+.../Eagle Dynamics/DCS World/MissionEditor/data/images/Flags
+
+
+6__________ Ora avrete 4 livree dentro Lebanon USA e Italy in DCS World scegliendo l'UH-1H
+
+
+
+
+Divertitevi e se avevte bisogno di aiuto ecco la mia mail: maiochine@hotmail.com
+
+
+Happy landings :P
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                     
+																					 
+																					 
+																					 ENGLISH INSTRUCTIONS
+																					 
+																					 
+																					 
+																					 
+																					 
+																					 
+
+
+1________    Create (if you do not have it already there) a new folder and name it UH-1H inside you main DCS World folder (depending wether you installed it in Program Files or directly onto your main hard drive):
+
+C:\Program Files\Eagle Dynamics\DCS World\Mods\aircraft\Uh-1H\Liveries\
+
+You should have now inside the folder called Liveries at least the following 2 sub-folders:
+
+Cockpit_UH-1H
+UH-1H
+
+
+2________    unpack from the file "Lebanese Air Force Skin Pack.rar" inside the new folder "UH-1H" found in:
+
+C:\Program Files\Eagle Dynamics\DCS World\Mods\aircraft\Uh-1H\Liveries\
+
+the 4 follwing folders:
+
+LAF 1003
+LAF 1010
+LAF 1102
+LAF 1201
+
+
+
+3_________    Open the file "db_countries.lua" ( using Notepad or even better using Notepad++ ) that you find inside:
+
+ 
+C:\Program Files\Eagle Dynamics\DCS World\Scripts\Database
+
+
+
+4__________   CREATE A BACKUP BEFORE YOU MODIFY IT, than add the following lines, use the JPEG "INSTALL INSTRUCTION 1.jpg", "INSTALL INSTRUCTION 2.jpg", "INSTALL INSTRUCTION 3.jpg", "INSTALL INSTRUCTION 4.jpg" to understand better where they go: 
+
+----------------------------------------
+
+
+"Lebanon"           , "LEB"
+
+
+
+----------------------------------------
+
+
+country:add('LEBANON',_("Lebanon"), "Lebanon", "LEB",
+  use_default_callsigns,
+  use_default_ranks,
+  {
+    award('Commemorative Medal of Peace Operations', _('Commemorative Medal of Peace Operations'), 200,  'IT-01-Commemorative_Medal_of_Peace_Operations.png'),
+    award('Honor Decoration Interforce', _('Honor Decoration Interforce'), 600,  'IT-02-Honor_Decoration_Interforce.png'),
+    award('NATO Medal for Merits', _('NATO Medal for Merits'), 1000, 'IT-03-NATO_Medal_for_Merits.png'),
+    award('Dannebrogordenen Ridderkors af 1. grad', _('Dannebrogordenen Ridderkors af 1. grad'), 1400, 'DEN-04-Order_of_Danneburg_Knight_1st_Degree.png'),
+    award('Bronze Medal for Military Valour', _('Bronze Medal for Military Valour'), 1800, 'IT-04-Bronze_Medal_for_Military_Valour.png'),
+    award('Silver Medal for Military Valor', _('Silver Medal for Military Valor'), 2200, 'IT-05-Silver_Medal_for_Military_Valor.png'),
+    award('Cross of Aeronautical Merit Bronze', _('Cross of Aeronautical Merit Bronze'), 2600, 'IT-06-Cross_of_Aeronautical_Merit_Bronze.png'),
+    award('Silver Cross of Merit Air Force', _('Silver Cross of Merit Air Force'), 3000, 'IT-07-Silver_Cross_of_Merit_Air_Force.png'),
+	award('Gold Cros of Merit Aeronautical', _('Gold Cros of Merit Aeronautical'), 4000, 'IT-8-Gold_Cros_of_Merit_Aeronautical.png'),
+  },
+  'Italy.lua'
+);
+
+
+-------------------------------------------
+
+country:add("LEBANON",		_("Lebanon"),	    "Lebanon"			, "LEB", use_default_callsigns	,	use_default_ranks,	no_awards, no_squadrons )
+
+
+-------------------------------------------
+
+-- LEBANON
+local units = country:get("LEBANON").Units
+        cnt_unit( units.Planes.Plane, "C-130");
+        cnt_unit( units.Planes.Plane, "F-16A MLU");
+		cnt_unit( units.Planes.Plane, "P-51D");
+		cnt_unit( units.Planes.Plane, "Tornado IDS");
+        cnt_unit( units.Cars.Car, "M-113");
+		cnt_unit( units.Cars.Car, "AAV7")
+        cnt_unit( units.Cars.Car, "Hawk sr");
+		cnt_unit( units.Cars.Car, "Hawk cwar");
+		cnt_unit( units.Cars.Car, "Hawk pcp");
+        cnt_unit( units.Cars.Car, "Hawk tr");
+        cnt_unit( units.Cars.Car, "Hawk ln");
+        cnt_unit( units.Cars.Car, "Hummer");
+        cnt_unit( units.Cars.Car, "M-109");
+        cnt_unit( units.Cars.Car, "MLRS");
+        cnt_unit( units.Cars.Car, "Soldier stinger");
+        cnt_unit( units.Cars.Car, "Stinger comm");
+        cnt_unit( units.Cars.Car, "M 818");
+        cnt_unit( units.Cars.Car, "Leopard1A3");
+		cnt_unit( units.Cars.Car, "M978 HEMTT Tanker");
+		cnt_unit( units.Cars.Car, "HEMTT TFFT");
+		cnt_unit( units.Cars.Car, "2B11 mortar");
+		cnt_unit( units.Helicopters.Helicopter, "Mi-8MT");
+		cnt_unit( units.Helicopters.Helicopter, "UH-1H");
+		
+--------------------------------------------
+
+5__________ Place the 2 file Lebanon.png found inside the folder FLAGS of the file "UH-1H LAF.rar" , respectivly inside the Flags folders found in: 
+
+.../Eagle Dynamics/DCS World/FUI/Common/Flags
+.../Eagle Dynamics/DCS World/MissionEditor/data/images/Flags
+
+
+6__________ Now you have 4 liveries inside Lebanon USA and Italy in DCS World when you chose the UH-1H Helicopter
+
+
+
+
+Have fun and if you have any question here's my email: maiochine@hotmail.com
+
+
+Happy landings :P

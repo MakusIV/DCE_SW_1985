@@ -1,0 +1,20 @@
+Skins to load to have a better Game play experience :
+Generally it's better to put main skin folder to your \Saved Games\DCS.openbeta\Liveries\Aircraft folder
+If it doesn't exist you can create it 
+
+For Cyprus Incident :
+
+
+I recommend using 
+- Hind's skin from Scorch and Midgard available here: https://www.digitalcombatsimulator.com/fr/files/3317166/  and https://www.digitalcombatsimulator.com/fr/files/3317491/    and 
+
+- The excellent F-4E HD mod from Sanikkat available here  https://drive.google.com/file/d/1YY5K6vlmo-O2swKDYual4qVyBxGoxANK/view 
+
+- with the skin I adapted for the Turkish air force waiting for a better one https://drive.google.com/file/d/1yuykehOYjncyK2Cud9nAIa7VWBS7WgiN/view?usp=sharing  to put (for exemple) in the  Mod : X:\Mods-OvGME\F4EHD\Bazar\Liveries\f-4e
+
+- Greek C-130 :  https://www.digitalcombatsimulator.com/fr/files/2534864/
+
+
+
+
+

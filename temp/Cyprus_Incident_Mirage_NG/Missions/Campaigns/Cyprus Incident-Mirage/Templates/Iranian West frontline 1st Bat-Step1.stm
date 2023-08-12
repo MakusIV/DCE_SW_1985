@@ -1,0 +1,1093 @@
+staticTemplate = 
+{
+    ["coalition"] = 
+    {
+        ["blue"] = 
+        {
+            ["name"] = "blue",
+            ["country"] = 
+            {
+                [1] = 
+                {
+                    ["id"] = 21,
+                    ["name"] = "Australia",
+                }, -- end of [1]
+                [2] = 
+                {
+                    ["id"] = 23,
+                    ["name"] = "Austria",
+                }, -- end of [2]
+                [3] = 
+                {
+                    ["id"] = 65,
+                    ["name"] = "Bahrain",
+                }, -- end of [3]
+                [4] = 
+                {
+                    ["id"] = 11,
+                    ["name"] = "Belgium",
+                }, -- end of [4]
+                [5] = 
+                {
+                    ["id"] = 25,
+                    ["name"] = "Bulgaria",
+                }, -- end of [5]
+                [6] = 
+                {
+                    ["id"] = 8,
+                    ["name"] = "Canada",
+                }, -- end of [6]
+                [7] = 
+                {
+                    ["id"] = 80,
+                    ["name"] = "CJTF Blue",
+                }, -- end of [7]
+                [8] = 
+                {
+                    ["id"] = 28,
+                    ["name"] = "Croatia",
+                }, -- end of [8]
+                [9] = 
+                {
+                    ["id"] = 26,
+                    ["name"] = "Czech Republic",
+                }, -- end of [9]
+                [10] = 
+                {
+                    ["id"] = 13,
+                    ["name"] = "Denmark",
+                }, -- end of [10]
+                [11] = 
+                {
+                    ["id"] = 29,
+                    ["name"] = "Egypt",
+                }, -- end of [11]
+                [12] = 
+                {
+                    ["id"] = 30,
+                    ["name"] = "Finland",
+                }, -- end of [12]
+                [13] = 
+                {
+                    ["id"] = 5,
+                    ["name"] = "France",
+                }, -- end of [13]
+                [14] = 
+                {
+                    ["id"] = 16,
+                    ["name"] = "Georgia",
+                }, -- end of [14]
+                [15] = 
+                {
+                    ["id"] = 6,
+                    ["name"] = "Germany",
+                }, -- end of [15]
+                [16] = 
+                {
+                    ["id"] = 31,
+                    ["name"] = "Greece",
+                }, -- end of [16]
+                [17] = 
+                {
+                    ["id"] = 32,
+                    ["name"] = "Hungary",
+                }, -- end of [17]
+                [18] = 
+                {
+                    ["id"] = 15,
+                    ["name"] = "Israel",
+                }, -- end of [18]
+                [19] = 
+                {
+                    ["id"] = 20,
+                    ["name"] = "Italy",
+                }, -- end of [19]
+                [20] = 
+                {
+                    ["id"] = 71,
+                    ["name"] = "Kuwait",
+                }, -- end of [20]
+                [21] = 
+                {
+                    ["id"] = 12,
+                    ["name"] = "Norway",
+                }, -- end of [21]
+                [22] = 
+                {
+                    ["id"] = 40,
+                    ["name"] = "Poland",
+                }, -- end of [22]
+                [23] = 
+                {
+                    ["id"] = 72,
+                    ["name"] = "Qatar",
+                }, -- end of [23]
+                [24] = 
+                {
+                    ["id"] = 41,
+                    ["name"] = "Romania",
+                }, -- end of [24]
+                [25] = 
+                {
+                    ["id"] = 42,
+                    ["name"] = "Saudi Arabia",
+                }, -- end of [25]
+                [26] = 
+                {
+                    ["id"] = 44,
+                    ["name"] = "Slovakia",
+                }, -- end of [26]
+                [27] = 
+                {
+                    ["id"] = 9,
+                    ["name"] = "Spain",
+                }, -- end of [27]
+                [28] = 
+                {
+                    ["id"] = 46,
+                    ["name"] = "Sweden",
+                }, -- end of [28]
+                [29] = 
+                {
+                    ["id"] = 10,
+                    ["name"] = "The Netherlands",
+                }, -- end of [29]
+                [30] = 
+                {
+                    ["id"] = 3,
+                    ["name"] = "Turkey",
+                }, -- end of [30]
+                [31] = 
+                {
+                    ["id"] = 4,
+                    ["name"] = "UK",
+                }, -- end of [31]
+                [32] = 
+                {
+                    ["id"] = 1,
+                    ["name"] = "Ukraine",
+                }, -- end of [32]
+                [33] = 
+                {
+                    ["id"] = 74,
+                    ["name"] = "United Arab Emirates",
+                }, -- end of [33]
+                [34] = 
+                {
+                    ["id"] = 2,
+                    ["name"] = "USA",
+                }, -- end of [34]
+            }, -- end of ["country"]
+        }, -- end of ["blue"]
+        ["neutrals"] = 
+        {
+            ["name"] = "neutrals",
+            ["country"] = 
+            {
+                [1] = 
+                {
+                    ["id"] = 70,
+                    ["name"] = "Algeria",
+                }, -- end of [1]
+                [2] = 
+                {
+                    ["id"] = 83,
+                    ["name"] = "Argentina",
+                }, -- end of [2]
+                [3] = 
+                {
+                    ["id"] = 64,
+                    ["name"] = "Brazil",
+                }, -- end of [3]
+                [4] = 
+                {
+                    ["id"] = 63,
+                    ["name"] = "Chile",
+                }, -- end of [4]
+                [5] = 
+                {
+                    ["id"] = 27,
+                    ["name"] = "China",
+                }, -- end of [5]
+                [6] = 
+                {
+                    ["id"] = 76,
+                    ["name"] = "Cuba",
+                }, -- end of [6]
+                [7] = 
+                {
+                    ["id"] = 84,
+                    ["name"] = "Cyprus",
+                }, -- end of [7]
+                [8] = 
+                {
+                    ["id"] = 62,
+                    ["name"] = "Ethiopia",
+                }, -- end of [8]
+                [9] = 
+                {
+                    ["id"] = 78,
+                    ["name"] = "GDR",
+                }, -- end of [9]
+                [10] = 
+                {
+                    ["id"] = 61,
+                    ["name"] = "Honduras",
+                }, -- end of [10]
+                [11] = 
+                {
+                    ["id"] = 33,
+                    ["name"] = "India",
+                }, -- end of [11]
+                [12] = 
+                {
+                    ["id"] = 60,
+                    ["name"] = "Indonesia",
+                }, -- end of [12]
+                [13] = 
+                {
+                    ["id"] = 35,
+                    ["name"] = "Iraq",
+                }, -- end of [13]
+                [14] = 
+                {
+                    ["id"] = 69,
+                    ["name"] = "Italian Social Republic",
+                }, -- end of [14]
+                [15] = 
+                {
+                    ["id"] = 36,
+                    ["name"] = "Japan",
+                }, -- end of [15]
+                [16] = 
+                {
+                    ["id"] = 59,
+                    ["name"] = "Jordan",
+                }, -- end of [16]
+                [17] = 
+                {
+                    ["id"] = 37,
+                    ["name"] = "Kazakhstan",
+                }, -- end of [17]
+                [18] = 
+                {
+                    ["id"] = 79,
+                    ["name"] = "Lebanon",
+                }, -- end of [18]
+                [19] = 
+                {
+                    ["id"] = 57,
+                    ["name"] = "Malaysia",
+                }, -- end of [19]
+                [20] = 
+                {
+                    ["id"] = 56,
+                    ["name"] = "Mexico",
+                }, -- end of [20]
+                [21] = 
+                {
+                    ["id"] = 55,
+                    ["name"] = "Morocco",
+                }, -- end of [21]
+                [22] = 
+                {
+                    ["id"] = 38,
+                    ["name"] = "North Korea",
+                }, -- end of [22]
+                [23] = 
+                {
+                    ["id"] = 73,
+                    ["name"] = "Oman",
+                }, -- end of [23]
+                [24] = 
+                {
+                    ["id"] = 39,
+                    ["name"] = "Pakistan",
+                }, -- end of [24]
+                [25] = 
+                {
+                    ["id"] = 54,
+                    ["name"] = "Philippines",
+                }, -- end of [25]
+                [26] = 
+                {
+                    ["id"] = 77,
+                    ["name"] = "Portugal",
+                }, -- end of [26]
+                [27] = 
+                {
+                    ["id"] = 85,
+                    ["name"] = "Slovenia",
+                }, -- end of [27]
+                [28] = 
+                {
+                    ["id"] = 75,
+                    ["name"] = "South Africa",
+                }, -- end of [28]
+                [29] = 
+                {
+                    ["id"] = 45,
+                    ["name"] = "South Korea",
+                }, -- end of [29]
+                [30] = 
+                {
+                    ["id"] = 53,
+                    ["name"] = "Sudan",
+                }, -- end of [30]
+                [31] = 
+                {
+                    ["id"] = 22,
+                    ["name"] = "Switzerland",
+                }, -- end of [31]
+                [32] = 
+                {
+                    ["id"] = 52,
+                    ["name"] = "Thailand",
+                }, -- end of [32]
+                [33] = 
+                {
+                    ["id"] = 66,
+                    ["name"] = "Third Reich",
+                }, -- end of [33]
+                [34] = 
+                {
+                    ["id"] = 51,
+                    ["name"] = "Tunisia",
+                }, -- end of [34]
+                [35] = 
+                {
+                    ["id"] = 82,
+                    ["name"] = "UN",
+                }, -- end of [35]
+                [36] = 
+                {
+                    ["id"] = 7,
+                    ["name"] = "USAF Aggressors",
+                }, -- end of [36]
+                [37] = 
+                {
+                    ["id"] = 68,
+                    ["name"] = "USSR",
+                }, -- end of [37]
+                [38] = 
+                {
+                    ["id"] = 50,
+                    ["name"] = "Venezuela",
+                }, -- end of [38]
+                [39] = 
+                {
+                    ["id"] = 49,
+                    ["name"] = "Vietnam",
+                }, -- end of [39]
+                [40] = 
+                {
+                    ["id"] = 48,
+                    ["name"] = "Yemen",
+                }, -- end of [40]
+                [41] = 
+                {
+                    ["id"] = 67,
+                    ["name"] = "Yugoslavia",
+                }, -- end of [41]
+            }, -- end of ["country"]
+        }, -- end of ["neutrals"]
+        ["red"] = 
+        {
+            ["name"] = "red",
+            ["country"] = 
+            {
+                [1] = 
+                {
+                    ["id"] = 18,
+                    ["name"] = "Abkhazia",
+                }, -- end of [1]
+                [2] = 
+                {
+                    ["id"] = 24,
+                    ["name"] = "Belarus",
+                }, -- end of [2]
+                [3] = 
+                {
+                    ["id"] = 81,
+                    ["name"] = "CJTF Red",
+                }, -- end of [3]
+                [4] = 
+                {
+                    ["id"] = 17,
+                    ["name"] = "Insurgents",
+                }, -- end of [4]
+                [5] = 
+                {
+                    ["id"] = 34,
+                    ["static"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["heading"] = 3.2812189937493,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -18990.76793588,
+                                            ["speed"] = 0,
+                                            ["x"] = -30714.355437573,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 2,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["category"] = "Armor",
+                                        ["type"] = "M-113",
+                                        ["unitId"] = 5,
+                                        ["rate"] = 10,
+                                        ["y"] = -18990.76793588,
+                                        ["x"] = -30714.355437573,
+                                        ["name"] = "Iranian West frontline 1st Bat-1-1",
+                                        ["heading"] = 3.2812189937493,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -18990.76793588,
+                                ["x"] = -30714.355437573,
+                                ["name"] = "Iranian West frontline 1st Bat-1",
+                                ["dead"] = false,
+                            }, -- end of [1]
+                            [2] = 
+                            {
+                                ["heading"] = 3.2986722862693,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -18977.82486576,
+                                            ["speed"] = 0,
+                                            ["x"] = -30628.19323619,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 3,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["category"] = "Armor",
+                                        ["type"] = "M-60",
+                                        ["unitId"] = 6,
+                                        ["rate"] = 15,
+                                        ["y"] = -18977.82486576,
+                                        ["x"] = -30628.19323619,
+                                        ["name"] = "Iranian West frontline 1st Bat-2-1",
+                                        ["heading"] = 3.2986722862693,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -18977.82486576,
+                                ["x"] = -30628.19323619,
+                                ["name"] = "Iranian West frontline 1st Bat-2",
+                                ["dead"] = false,
+                            }, -- end of [2]
+                            [3] = 
+                            {
+                                ["heading"] = 3.8397243543875,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -18923.993348094,
+                                            ["speed"] = 0,
+                                            ["x"] = -30539.072144636,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 4,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["category"] = "Armor",
+                                        ["type"] = "M-60",
+                                        ["unitId"] = 7,
+                                        ["rate"] = 15,
+                                        ["y"] = -18923.993348094,
+                                        ["x"] = -30539.072144636,
+                                        ["name"] = "Iranian West frontline 1st Bat-3-1",
+                                        ["heading"] = 3.8397243543875,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -18923.993348094,
+                                ["x"] = -30539.072144636,
+                                ["name"] = "Iranian West frontline 1st Bat-3",
+                                ["dead"] = false,
+                            }, -- end of [3]
+                            [4] = 
+                            {
+                                ["heading"] = 3.8920842319474,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -18857.218760308,
+                                            ["speed"] = 0,
+                                            ["x"] = -30465.620098072,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 5,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["category"] = "Armor",
+                                        ["type"] = "M-60",
+                                        ["unitId"] = 8,
+                                        ["rate"] = 15,
+                                        ["y"] = -18857.218760308,
+                                        ["x"] = -30465.620098072,
+                                        ["name"] = "Iranian West frontline 1st Bat-4-1",
+                                        ["heading"] = 3.8920842319474,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -18857.218760308,
+                                ["x"] = -30465.620098072,
+                                ["name"] = "Iranian West frontline 1st Bat-4",
+                                ["dead"] = false,
+                            }, -- end of [4]
+                            [5] = 
+                            {
+                                ["heading"] = 4.0840704496667,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -18762.698701531,
+                                            ["speed"] = 0,
+                                            ["x"] = -30390.545181517,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 6,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["category"] = "Armor",
+                                        ["type"] = "M-60",
+                                        ["unitId"] = 9,
+                                        ["rate"] = 15,
+                                        ["y"] = -18762.698701531,
+                                        ["x"] = -30390.545181517,
+                                        ["name"] = "Iranian West frontline 1st Bat-5-1",
+                                        ["heading"] = 4.0840704496667,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -18762.698701531,
+                                ["x"] = -30390.545181517,
+                                ["name"] = "Iranian West frontline 1st Bat-5",
+                                ["dead"] = false,
+                            }, -- end of [5]
+                            [6] = 
+                            {
+                                ["heading"] = 4.0666171571468,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -18657.821700718,
+                                            ["speed"] = 0,
+                                            ["x"] = -30317.274948072,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 7,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["category"] = "Armor",
+                                        ["type"] = "BMP-1",
+                                        ["unitId"] = 10,
+                                        ["rate"] = 10,
+                                        ["y"] = -18657.821700718,
+                                        ["x"] = -30317.274948072,
+                                        ["name"] = "Iranian West frontline 1st Bat-6-1",
+                                        ["heading"] = 4.0666171571468,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -18657.821700718,
+                                ["x"] = -30317.274948072,
+                                ["name"] = "Iranian West frontline 1st Bat-6",
+                                ["dead"] = false,
+                            }, -- end of [6]
+                            [7] = 
+                            {
+                                ["heading"] = 4.0666171571468,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -18555.532875974,
+                                            ["speed"] = 0,
+                                            ["x"] = -30247.836017257,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 8,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["category"] = "Armor",
+                                        ["type"] = "BMP-1",
+                                        ["unitId"] = 11,
+                                        ["rate"] = 10,
+                                        ["y"] = -18555.532875974,
+                                        ["x"] = -30247.836017257,
+                                        ["name"] = "Iranian West frontline 1st Bat-7-1",
+                                        ["heading"] = 4.0666171571468,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -18555.532875974,
+                                ["x"] = -30247.836017257,
+                                ["name"] = "Iranian West frontline 1st Bat-7",
+                                ["dead"] = false,
+                            }, -- end of [7]
+                            [8] = 
+                            {
+                                ["heading"] = 4.0666171571468,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -18470.95333962,
+                                            ["speed"] = 0,
+                                            ["x"] = -30188.760909509,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 9,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["category"] = "Armor",
+                                        ["type"] = "BMP-1",
+                                        ["unitId"] = 12,
+                                        ["rate"] = 10,
+                                        ["y"] = -18470.95333962,
+                                        ["x"] = -30188.760909509,
+                                        ["name"] = "Iranian West frontline 1st Bat-8-1",
+                                        ["heading"] = 4.0666171571468,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -18470.95333962,
+                                ["x"] = -30188.760909509,
+                                ["name"] = "Iranian West frontline 1st Bat-8",
+                                ["dead"] = false,
+                            }, -- end of [8]
+                            [9] = 
+                            {
+                                ["heading"] = 3.9269908169872,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -18392.27331527,
+                                            ["speed"] = 0,
+                                            ["x"] = -30118.036333034,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 10,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["category"] = "Armor",
+                                        ["type"] = "BMP-1",
+                                        ["unitId"] = 13,
+                                        ["rate"] = 10,
+                                        ["y"] = -18392.27331527,
+                                        ["x"] = -30118.036333034,
+                                        ["name"] = "Iranian West frontline 1st Bat-9-1",
+                                        ["heading"] = 3.9269908169872,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -18392.27331527,
+                                ["x"] = -30118.036333034,
+                                ["name"] = "Iranian West frontline 1st Bat-9",
+                                ["dead"] = false,
+                            }, -- end of [9]
+                            [10] = 
+                            {
+                                ["heading"] = 3.3335788713092,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -18318.720986896,
+                                            ["speed"] = 0,
+                                            ["x"] = -29980.835901407,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 11,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["category"] = "Armor",
+                                        ["type"] = "M-113",
+                                        ["unitId"] = 14,
+                                        ["rate"] = 10,
+                                        ["y"] = -18318.720986896,
+                                        ["x"] = -29980.835901407,
+                                        ["name"] = "Iranian West frontline 1st Bat-10-1",
+                                        ["heading"] = 3.3335788713092,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -18318.720986896,
+                                ["x"] = -29980.835901407,
+                                ["name"] = "Iranian West frontline 1st Bat-10",
+                                ["dead"] = false,
+                            }, -- end of [10]
+                            [11] = 
+                            {
+                                ["heading"] = 3.3335788713092,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -18309.642871393,
+                                            ["speed"] = 0,
+                                            ["x"] = -29875.748331749,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 12,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["category"] = "Armor",
+                                        ["type"] = "M-113",
+                                        ["unitId"] = 15,
+                                        ["rate"] = 10,
+                                        ["y"] = -18309.642871393,
+                                        ["x"] = -29875.748331749,
+                                        ["name"] = "Iranian West frontline 1st Bat-11-1",
+                                        ["heading"] = 3.3335788713092,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -18309.642871393,
+                                ["x"] = -29875.748331749,
+                                ["name"] = "Iranian West frontline 1st Bat-11",
+                                ["dead"] = false,
+                            }, -- end of [11]
+                            [12] = 
+                            {
+                                ["heading"] = 3.3335788713092,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -18327.261102572,
+                                            ["speed"] = 0,
+                                            ["x"] = -29774.713169274,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 13,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["livery_id"] = "desert",
+                                        ["category"] = "Armor",
+                                        ["type"] = "M-113",
+                                        ["unitId"] = 16,
+                                        ["rate"] = 10,
+                                        ["y"] = -18327.261102572,
+                                        ["x"] = -29774.713169274,
+                                        ["name"] = "Iranian West frontline 1st Bat-12-1",
+                                        ["heading"] = 3.3335788713092,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -18327.261102572,
+                                ["x"] = -29774.713169274,
+                                ["name"] = "Iranian West frontline 1st Bat-12",
+                                ["dead"] = false,
+                            }, -- end of [12]
+                        }, -- end of ["group"]
+                    }, -- end of ["static"]
+                    ["name"] = "Iran",
+                }, -- end of [5]
+                [6] = 
+                {
+                    ["id"] = 58,
+                    ["name"] = "Libya",
+                }, -- end of [6]
+                [7] = 
+                {
+                    ["id"] = 0,
+                    ["vehicle"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 7,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = -18892.674896165,
+                                            ["x"] = -30503.57953296,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 5.5555555555556,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 1,
+                                ["hidden"] = false,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
+                                        ["type"] = "ZSU-23-4 Shilka",
+                                        ["unitId"] = 1,
+                                        ["y"] = -18892.674896165,
+                                        ["x"] = -30503.57953296,
+                                        ["name"] = "Iranian West frontline 1st Bat-AA-1",
+                                        ["heading"] = 3.8397243543875,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
+                                        ["AddPropVehicle"] = 
+                                        {
+                                            ["Branches"] = false,
+                                        }, -- end of ["AddPropVehicle"]
+                                        ["type"] = "ZSU_57_2",
+                                        ["unitId"] = 2,
+                                        ["y"] = -18708.35516125,
+                                        ["x"] = -30351.437333089,
+                                        ["name"] = "Iranian West frontline 1st Bat-AA-2",
+                                        ["heading"] = 3.8397243543875,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [2]
+                                    [3] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
+                                        ["type"] = "Strela-10M3",
+                                        ["unitId"] = 4,
+                                        ["y"] = -18600.293630936,
+                                        ["x"] = -30278.728664101,
+                                        ["name"] = "Iranian West frontline 1st Bat-AA-3",
+                                        ["heading"] = 4.0491638646268,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [3]
+                                    [4] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["livery_id"] = "desert",
+                                        ["skill"] = "Average",
+                                        ["type"] = "ZSU-23-4 Shilka",
+                                        ["unitId"] = 3,
+                                        ["y"] = -18337.035567502,
+                                        ["x"] = -30029.031721762,
+                                        ["name"] = "Iranian West frontline 1st Bat-AA-4",
+                                        ["heading"] = 3.6128315516283,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [4]
+                                }, -- end of ["units"]
+                                ["y"] = -18892.674896165,
+                                ["x"] = -30503.57953296,
+                                ["name"] = "Iranian West frontline 1st Bat-AA",
+                                ["start_time"] = 0,
+                            }, -- end of [1]
+                        }, -- end of ["group"]
+                    }, -- end of ["vehicle"]
+                    ["name"] = "Russia",
+                }, -- end of [7]
+                [8] = 
+                {
+                    ["id"] = 43,
+                    ["name"] = "Serbia",
+                }, -- end of [8]
+                [9] = 
+                {
+                    ["id"] = 19,
+                    ["name"] = "South Ossetia",
+                }, -- end of [9]
+                [10] = 
+                {
+                    ["id"] = 47,
+                    ["name"] = "Syria",
+                }, -- end of [10]
+            }, -- end of ["country"]
+        }, -- end of ["red"]
+    }, -- end of ["coalition"]
+    ["name"] = "Iranian West frontline 1st Bat-Step1",
+    ["requiredModules"] = 
+    {
+    }, -- end of ["requiredModules"]
+    ["localization"] = 
+    {
+        ["DEFAULT"] = 
+        {
+            ["DictKey_descriptionNeutralsTask_4"] = "",
+            ["DictKey_sortie_5"] = "",
+            ["DictKey_descriptionText_1"] = "",
+            ["DictKey_descriptionBlueTask_3"] = "",
+            ["DictKey_descriptionRedTask_2"] = "",
+        }, -- end of ["DEFAULT"]
+    }, -- end of ["localization"]
+    ["theatre"] = "PersianGulf",
+    ["desc"] = "Step 1",
+} -- end of staticTemplate

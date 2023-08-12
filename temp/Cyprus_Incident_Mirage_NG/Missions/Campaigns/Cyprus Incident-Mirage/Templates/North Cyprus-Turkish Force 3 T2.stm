@@ -1,0 +1,1633 @@
+staticTemplate = 
+{
+    ["coalition"] = 
+    {
+        ["neutrals"] = 
+        {
+            ["name"] = "neutrals",
+            ["country"] = 
+            {
+                [1] = 
+                {
+                    ["id"] = 70,
+                    ["name"] = "Algeria",
+                }, -- end of [1]
+                [2] = 
+                {
+                    ["id"] = 83,
+                    ["name"] = "Argentina",
+                }, -- end of [2]
+                [3] = 
+                {
+                    ["id"] = 65,
+                    ["name"] = "Bahrain",
+                }, -- end of [3]
+                [4] = 
+                {
+                    ["id"] = 64,
+                    ["name"] = "Brazil",
+                }, -- end of [4]
+                [5] = 
+                {
+                    ["id"] = 63,
+                    ["name"] = "Chile",
+                }, -- end of [5]
+                [6] = 
+                {
+                    ["id"] = 27,
+                    ["name"] = "China",
+                }, -- end of [6]
+                [7] = 
+                {
+                    ["id"] = 76,
+                    ["name"] = "Cuba",
+                }, -- end of [7]
+                [8] = 
+                {
+                    ["id"] = 29,
+                    ["name"] = "Egypt",
+                }, -- end of [8]
+                [9] = 
+                {
+                    ["id"] = 62,
+                    ["name"] = "Ethiopia",
+                }, -- end of [9]
+                [10] = 
+                {
+                    ["id"] = 78,
+                    ["name"] = "GDR",
+                }, -- end of [10]
+                [11] = 
+                {
+                    ["id"] = 61,
+                    ["name"] = "Honduras",
+                }, -- end of [11]
+                [12] = 
+                {
+                    ["id"] = 33,
+                    ["name"] = "India",
+                }, -- end of [12]
+                [13] = 
+                {
+                    ["id"] = 60,
+                    ["name"] = "Indonesia",
+                }, -- end of [13]
+                [14] = 
+                {
+                    ["id"] = 17,
+                    ["name"] = "Insurgents",
+                }, -- end of [14]
+                [15] = 
+                {
+                    ["id"] = 34,
+                    ["name"] = "Iran",
+                }, -- end of [15]
+                [16] = 
+                {
+                    ["id"] = 35,
+                    ["name"] = "Iraq",
+                }, -- end of [16]
+                [17] = 
+                {
+                    ["id"] = 69,
+                    ["name"] = "Italian Social Republic",
+                }, -- end of [17]
+                [18] = 
+                {
+                    ["id"] = 36,
+                    ["name"] = "Japan",
+                }, -- end of [18]
+                [19] = 
+                {
+                    ["id"] = 59,
+                    ["name"] = "Jordan",
+                }, -- end of [19]
+                [20] = 
+                {
+                    ["id"] = 37,
+                    ["name"] = "Kazakhstan",
+                }, -- end of [20]
+                [21] = 
+                {
+                    ["id"] = 71,
+                    ["name"] = "Kuwait",
+                }, -- end of [21]
+                [22] = 
+                {
+                    ["id"] = 79,
+                    ["name"] = "Lebanon",
+                }, -- end of [22]
+                [23] = 
+                {
+                    ["id"] = 57,
+                    ["name"] = "Malaysia",
+                }, -- end of [23]
+                [24] = 
+                {
+                    ["id"] = 56,
+                    ["name"] = "Mexico",
+                }, -- end of [24]
+                [25] = 
+                {
+                    ["id"] = 55,
+                    ["name"] = "Morocco",
+                }, -- end of [25]
+                [26] = 
+                {
+                    ["id"] = 38,
+                    ["name"] = "North Korea",
+                }, -- end of [26]
+                [27] = 
+                {
+                    ["id"] = 73,
+                    ["name"] = "Oman",
+                }, -- end of [27]
+                [28] = 
+                {
+                    ["id"] = 39,
+                    ["name"] = "Pakistan",
+                }, -- end of [28]
+                [29] = 
+                {
+                    ["id"] = 54,
+                    ["name"] = "Philippines",
+                }, -- end of [29]
+                [30] = 
+                {
+                    ["id"] = 77,
+                    ["name"] = "Portugal",
+                }, -- end of [30]
+                [31] = 
+                {
+                    ["id"] = 72,
+                    ["name"] = "Qatar",
+                }, -- end of [31]
+                [32] = 
+                {
+                    ["id"] = 42,
+                    ["name"] = "Saudi Arabia",
+                }, -- end of [32]
+                [33] = 
+                {
+                    ["id"] = 85,
+                    ["name"] = "Slovenia",
+                }, -- end of [33]
+                [34] = 
+                {
+                    ["id"] = 75,
+                    ["name"] = "South Africa",
+                }, -- end of [34]
+                [35] = 
+                {
+                    ["id"] = 45,
+                    ["name"] = "South Korea",
+                }, -- end of [35]
+                [36] = 
+                {
+                    ["id"] = 53,
+                    ["name"] = "Sudan",
+                }, -- end of [36]
+                [37] = 
+                {
+                    ["id"] = 22,
+                    ["name"] = "Switzerland",
+                }, -- end of [37]
+                [38] = 
+                {
+                    ["id"] = 52,
+                    ["name"] = "Thailand",
+                }, -- end of [38]
+                [39] = 
+                {
+                    ["id"] = 66,
+                    ["name"] = "Third Reich",
+                }, -- end of [39]
+                [40] = 
+                {
+                    ["id"] = 51,
+                    ["name"] = "Tunisia",
+                }, -- end of [40]
+                [41] = 
+                {
+                    ["id"] = 74,
+                    ["name"] = "United Arab Emirates",
+                }, -- end of [41]
+                [42] = 
+                {
+                    ["id"] = 82,
+                    ["name"] = "UN",
+                }, -- end of [42]
+                [43] = 
+                {
+                    ["id"] = 7,
+                    ["name"] = "USAF Aggressors",
+                }, -- end of [43]
+                [44] = 
+                {
+                    ["id"] = 68,
+                    ["name"] = "USSR",
+                }, -- end of [44]
+                [45] = 
+                {
+                    ["id"] = 50,
+                    ["name"] = "Venezuela",
+                }, -- end of [45]
+                [46] = 
+                {
+                    ["id"] = 49,
+                    ["name"] = "Vietnam",
+                }, -- end of [46]
+                [47] = 
+                {
+                    ["id"] = 48,
+                    ["name"] = "Yemen",
+                }, -- end of [47]
+                [48] = 
+                {
+                    ["id"] = 67,
+                    ["name"] = "Yugoslavia",
+                }, -- end of [48]
+                [49] = 
+                {
+                    ["id"] = 86,
+                    ["name"] = "Bolivia",
+                }, -- end of [49]
+                [50] = 
+                {
+                    ["id"] = 87,
+                    ["name"] = "Ghana",
+                }, -- end of [50]
+                [51] = 
+                {
+                    ["id"] = 88,
+                    ["name"] = "Nigeria",
+                }, -- end of [51]
+                [52] = 
+                {
+                    ["id"] = 89,
+                    ["name"] = "Peru",
+                }, -- end of [52]
+            }, -- end of ["country"]
+        }, -- end of ["neutrals"]
+        ["blue"] = 
+        {
+            ["name"] = "blue",
+            ["country"] = 
+            {
+                [1] = 
+                {
+                    ["id"] = 21,
+                    ["name"] = "Australia",
+                }, -- end of [1]
+                [2] = 
+                {
+                    ["id"] = 23,
+                    ["name"] = "Austria",
+                }, -- end of [2]
+                [3] = 
+                {
+                    ["id"] = 11,
+                    ["name"] = "Belgium",
+                }, -- end of [3]
+                [4] = 
+                {
+                    ["id"] = 25,
+                    ["name"] = "Bulgaria",
+                }, -- end of [4]
+                [5] = 
+                {
+                    ["id"] = 8,
+                    ["name"] = "Canada",
+                }, -- end of [5]
+                [6] = 
+                {
+                    ["id"] = 80,
+                    ["name"] = "CJTF Blue",
+                }, -- end of [6]
+                [7] = 
+                {
+                    ["id"] = 28,
+                    ["name"] = "Croatia",
+                }, -- end of [7]
+                [8] = 
+                {
+                    ["id"] = 84,
+                    ["name"] = "Cyprus",
+                }, -- end of [8]
+                [9] = 
+                {
+                    ["id"] = 26,
+                    ["name"] = "Czech Republic",
+                }, -- end of [9]
+                [10] = 
+                {
+                    ["id"] = 13,
+                    ["name"] = "Denmark",
+                }, -- end of [10]
+                [11] = 
+                {
+                    ["id"] = 30,
+                    ["name"] = "Finland",
+                }, -- end of [11]
+                [12] = 
+                {
+                    ["id"] = 5,
+                    ["name"] = "France",
+                }, -- end of [12]
+                [13] = 
+                {
+                    ["id"] = 16,
+                    ["name"] = "Georgia",
+                }, -- end of [13]
+                [14] = 
+                {
+                    ["id"] = 6,
+                    ["name"] = "Germany",
+                }, -- end of [14]
+                [15] = 
+                {
+                    ["id"] = 31,
+                    ["name"] = "Greece",
+                }, -- end of [15]
+                [16] = 
+                {
+                    ["id"] = 32,
+                    ["name"] = "Hungary",
+                }, -- end of [16]
+                [17] = 
+                {
+                    ["id"] = 15,
+                    ["name"] = "Israel",
+                }, -- end of [17]
+                [18] = 
+                {
+                    ["id"] = 20,
+                    ["name"] = "Italy",
+                }, -- end of [18]
+                [19] = 
+                {
+                    ["id"] = 12,
+                    ["name"] = "Norway",
+                }, -- end of [19]
+                [20] = 
+                {
+                    ["id"] = 40,
+                    ["name"] = "Poland",
+                }, -- end of [20]
+                [21] = 
+                {
+                    ["id"] = 41,
+                    ["name"] = "Romania",
+                }, -- end of [21]
+                [22] = 
+                {
+                    ["id"] = 0,
+                    ["name"] = "Russia",
+                }, -- end of [22]
+                [23] = 
+                {
+                    ["id"] = 44,
+                    ["name"] = "Slovakia",
+                }, -- end of [23]
+                [24] = 
+                {
+                    ["id"] = 9,
+                    ["name"] = "Spain",
+                }, -- end of [24]
+                [25] = 
+                {
+                    ["id"] = 46,
+                    ["name"] = "Sweden",
+                }, -- end of [25]
+                [26] = 
+                {
+                    ["id"] = 47,
+                    ["name"] = "Syria",
+                }, -- end of [26]
+                [27] = 
+                {
+                    ["id"] = 10,
+                    ["name"] = "The Netherlands",
+                }, -- end of [27]
+                [28] = 
+                {
+                    ["id"] = 4,
+                    ["name"] = "UK",
+                }, -- end of [28]
+                [29] = 
+                {
+                    ["id"] = 1,
+                    ["name"] = "Ukraine",
+                }, -- end of [29]
+            }, -- end of ["country"]
+        }, -- end of ["blue"]
+        ["red"] = 
+        {
+            ["name"] = "red",
+            ["country"] = 
+            {
+                [1] = 
+                {
+                    ["id"] = 18,
+                    ["name"] = "Abkhazia",
+                }, -- end of [1]
+                [2] = 
+                {
+                    ["id"] = 24,
+                    ["name"] = "Belarus",
+                }, -- end of [2]
+                [3] = 
+                {
+                    ["id"] = 81,
+                    ["name"] = "CJTF Red",
+                }, -- end of [3]
+                [4] = 
+                {
+                    ["id"] = 58,
+                    ["name"] = "Libya",
+                }, -- end of [4]
+                [5] = 
+                {
+                    ["id"] = 43,
+                    ["name"] = "Serbia",
+                }, -- end of [5]
+                [6] = 
+                {
+                    ["id"] = 19,
+                    ["name"] = "South Ossetia",
+                }, -- end of [6]
+                [7] = 
+                {
+                    ["name"] = "Turkey",
+                    ["id"] = 3,
+                    ["static"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["heading"] = 4.7123889803847,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -243038.70389959,
+                                            ["speed"] = 0,
+                                            ["x"] = 31889.876374079,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 2,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Armor",
+                                        ["type"] = "Leopard1A3",
+                                        ["unitId"] = 9,
+                                        ["rate"] = 10,
+                                        ["y"] = -243038.70389959,
+                                        ["x"] = 31889.876374079,
+                                        ["name"] = "NCTF 3-1-1",
+                                        ["heading"] = 4.7123889803847,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -243038.70389959,
+                                ["x"] = 31889.876374079,
+                                ["name"] = "NCTF 3-1",
+                                ["dead"] = false,
+                            }, -- end of [1]
+                            [2] = 
+                            {
+                                ["heading"] = 4.7123889803847,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -241980.70661044,
+                                            ["speed"] = 0,
+                                            ["x"] = 31886.358195453,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 3,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Armor",
+                                        ["type"] = "Leopard1A3",
+                                        ["unitId"] = 10,
+                                        ["rate"] = 10,
+                                        ["y"] = -241980.70661044,
+                                        ["x"] = 31886.358195453,
+                                        ["name"] = "NCTF 3-2-1",
+                                        ["heading"] = 4.7123889803847,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -241980.70661044,
+                                ["x"] = 31886.358195453,
+                                ["name"] = "NCTF 3-2",
+                                ["dead"] = false,
+                            }, -- end of [2]
+                            [3] = 
+                            {
+                                ["heading"] = 4.7123889803847,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -242906.90715551,
+                                            ["speed"] = 0,
+                                            ["x"] = 31890.428216806,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 4,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Armor",
+                                        ["type"] = "Leopard1A3",
+                                        ["unitId"] = 11,
+                                        ["rate"] = 10,
+                                        ["y"] = -242906.90715551,
+                                        ["x"] = 31890.428216806,
+                                        ["name"] = "NCTF 3-3-1",
+                                        ["heading"] = 4.7123889803847,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -242906.90715551,
+                                ["x"] = 31890.428216806,
+                                ["name"] = "NCTF 3-3",
+                                ["dead"] = false,
+                            }, -- end of [3]
+                            [4] = 
+                            {
+                                ["heading"] = 4.7123889803847,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -242823.63014102,
+                                            ["speed"] = 0,
+                                            ["x"] = 31890.668439592,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 5,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Armor",
+                                        ["type"] = "Leopard1A3",
+                                        ["unitId"] = 12,
+                                        ["rate"] = 10,
+                                        ["y"] = -242823.63014102,
+                                        ["x"] = 31890.668439592,
+                                        ["name"] = "NCTF 3-4-1",
+                                        ["heading"] = 4.7123889803847,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -242823.63014102,
+                                ["x"] = 31890.668439592,
+                                ["name"] = "NCTF 3-4",
+                                ["dead"] = false,
+                            }, -- end of [4]
+                            [5] = 
+                            {
+                                ["heading"] = 4.7123889803847,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -242330.47563325,
+                                            ["speed"] = 0,
+                                            ["x"] = 31886.330345047,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 6,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Armor",
+                                        ["type"] = "M-60",
+                                        ["unitId"] = 13,
+                                        ["rate"] = 15,
+                                        ["y"] = -242330.47563325,
+                                        ["x"] = 31886.330345047,
+                                        ["name"] = "NCTF 3-5-1",
+                                        ["heading"] = 4.7123889803847,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -242330.47563325,
+                                ["x"] = 31886.330345047,
+                                ["name"] = "NCTF 3-5",
+                                ["dead"] = false,
+                            }, -- end of [5]
+                            [6] = 
+                            {
+                                ["heading"] = 4.7123889803847,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -242172.12672866,
+                                            ["speed"] = 0,
+                                            ["x"] = 31886.241660289,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 7,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Armor",
+                                        ["type"] = "M-60",
+                                        ["unitId"] = 14,
+                                        ["rate"] = 15,
+                                        ["y"] = -242172.12672866,
+                                        ["x"] = 31886.241660289,
+                                        ["name"] = "NCTF 3-6-1",
+                                        ["heading"] = 4.7123889803847,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -242172.12672866,
+                                ["x"] = 31886.241660289,
+                                ["name"] = "NCTF 3-6",
+                                ["dead"] = false,
+                            }, -- end of [6]
+                            [7] = 
+                            {
+                                ["heading"] = 4.7647488579445,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -241816.02006062,
+                                            ["speed"] = 0,
+                                            ["x"] = 31886.867679095,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 8,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Armor",
+                                        ["type"] = "M-60",
+                                        ["unitId"] = 15,
+                                        ["rate"] = 15,
+                                        ["y"] = -241816.02006062,
+                                        ["x"] = 31886.867679095,
+                                        ["name"] = "NCTF 3-7-1",
+                                        ["heading"] = 4.7647488579445,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -241816.02006062,
+                                ["x"] = 31886.867679095,
+                                ["name"] = "NCTF 3-7",
+                                ["dead"] = false,
+                            }, -- end of [7]
+                            [8] = 
+                            {
+                                ["heading"] = 4.7123889803847,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -242629.38026971,
+                                            ["speed"] = 0,
+                                            ["x"] = 31889.876388306,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 9,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Armor",
+                                        ["type"] = "M-60",
+                                        ["unitId"] = 16,
+                                        ["rate"] = 15,
+                                        ["y"] = -242629.38026971,
+                                        ["x"] = 31889.876388306,
+                                        ["name"] = "NCTF 3-8-1",
+                                        ["heading"] = 4.7123889803847,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -242629.38026971,
+                                ["x"] = 31889.876388306,
+                                ["name"] = "NCTF 3-8",
+                                ["dead"] = false,
+                            }, -- end of [8]
+                            [9] = 
+                            {
+                                ["heading"] = 4.7123889803847,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -241362.43278737,
+                                            ["speed"] = 0,
+                                            ["x"] = 31884.725012968,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 10,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Armor",
+                                        ["type"] = "M-113",
+                                        ["unitId"] = 17,
+                                        ["rate"] = 10,
+                                        ["y"] = -241362.43278737,
+                                        ["x"] = 31884.725012968,
+                                        ["name"] = "NCTF 3-9-1",
+                                        ["heading"] = 4.7123889803847,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -241362.43278737,
+                                ["x"] = 31884.725012968,
+                                ["name"] = "NCTF 3-9",
+                                ["dead"] = false,
+                            }, -- end of [9]
+                            [10] = 
+                            {
+                                ["heading"] = 4.7123889803847,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -241658.20063333,
+                                            ["speed"] = 0,
+                                            ["x"] = 31886.086777798,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 11,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Armor",
+                                        ["type"] = "M-113",
+                                        ["unitId"] = 18,
+                                        ["rate"] = 10,
+                                        ["y"] = -241658.20063333,
+                                        ["x"] = 31886.086777798,
+                                        ["name"] = "NCTF 3-10-1",
+                                        ["heading"] = 4.7123889803847,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -241658.20063333,
+                                ["x"] = 31886.086777798,
+                                ["name"] = "NCTF 3-10",
+                                ["dead"] = false,
+                            }, -- end of [10]
+                            [11] = 
+                            {
+                                ["heading"] = 4.7123889803847,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -241563.6534567,
+                                            ["speed"] = 0,
+                                            ["x"] = 31885.706567815,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 12,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Armor",
+                                        ["type"] = "M-113",
+                                        ["unitId"] = 19,
+                                        ["rate"] = 10,
+                                        ["y"] = -241563.6534567,
+                                        ["x"] = 31885.706567815,
+                                        ["name"] = "NCTF 3-11-1",
+                                        ["heading"] = 4.7123889803847,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -241563.6534567,
+                                ["x"] = 31885.706567815,
+                                ["name"] = "NCTF 3-11",
+                                ["dead"] = false,
+                            }, -- end of [11]
+                            [12] = 
+                            {
+                                ["heading"] = 4.7123889803847,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -241160.24724594,
+                                            ["speed"] = 0,
+                                            ["x"] = 31883.069203291,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 13,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Armor",
+                                        ["type"] = "M-113",
+                                        ["unitId"] = 20,
+                                        ["rate"] = 10,
+                                        ["y"] = -241160.24724594,
+                                        ["x"] = 31883.069203291,
+                                        ["name"] = "NCTF 3-12-1",
+                                        ["heading"] = 4.7123889803847,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -241160.24724594,
+                                ["x"] = 31883.069203291,
+                                ["name"] = "NCTF 3-12",
+                                ["dead"] = false,
+                            }, -- end of [12]
+                            [13] = 
+                            {
+                                ["heading"] = 4.7123889803847,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -241456.76196351,
+                                            ["speed"] = 0,
+                                            ["x"] = 31884.725012968,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 14,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Armor",
+                                        ["type"] = "M-113",
+                                        ["unitId"] = 21,
+                                        ["rate"] = 10,
+                                        ["y"] = -241456.76196351,
+                                        ["x"] = 31884.725012968,
+                                        ["name"] = "NCTF 3-13-1",
+                                        ["heading"] = 4.7123889803847,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -241456.76196351,
+                                ["x"] = 31884.725012968,
+                                ["name"] = "NCTF 3-13",
+                                ["dead"] = false,
+                            }, -- end of [13]
+                            [14] = 
+                            {
+                                ["heading"] = 4.7123889803847,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -241052.09403211,
+                                            ["speed"] = 0,
+                                            ["x"] = 31881.667982897,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 15,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Armor",
+                                        ["type"] = "M-113",
+                                        ["unitId"] = 22,
+                                        ["rate"] = 10,
+                                        ["y"] = -241052.09403211,
+                                        ["x"] = 31881.667982897,
+                                        ["name"] = "NCTF 3-14-1",
+                                        ["heading"] = 4.7123889803847,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -241052.09403211,
+                                ["x"] = 31881.667982897,
+                                ["name"] = "NCTF 3-14",
+                                ["dead"] = false,
+                            }, -- end of [14]
+                            [15] = 
+                            {
+                                ["heading"] = 4.7123889803847,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -240935.83580388,
+                                            ["speed"] = 0,
+                                            ["x"] = 31879.492619459,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 16,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Armor",
+                                        ["type"] = "M-113",
+                                        ["unitId"] = 23,
+                                        ["rate"] = 10,
+                                        ["y"] = -240935.83580388,
+                                        ["x"] = 31879.492619459,
+                                        ["name"] = "NCTF 3-15-1",
+                                        ["heading"] = 4.7123889803847,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -240935.83580388,
+                                ["x"] = 31879.492619459,
+                                ["name"] = "NCTF 3-15",
+                                ["dead"] = false,
+                            }, -- end of [15]
+                            [16] = 
+                            {
+                                ["heading"] = 4.7123889803847,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -241288.36429223,
+                                            ["speed"] = 0,
+                                            ["x"] = 31883.831711128,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 17,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Armor",
+                                        ["type"] = "M-113",
+                                        ["unitId"] = 24,
+                                        ["rate"] = 10,
+                                        ["y"] = -241288.36429223,
+                                        ["x"] = 31883.831711128,
+                                        ["name"] = "NCTF 3-16-1",
+                                        ["heading"] = 4.7123889803847,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -241288.36429223,
+                                ["x"] = 31883.831711128,
+                                ["name"] = "NCTF 3-16",
+                                ["dead"] = false,
+                            }, -- end of [16]
+                            [17] = 
+                            {
+                                ["heading"] = 4.7123889803847,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -240820.91453828,
+                                            ["speed"] = 0,
+                                            ["x"] = 31878.66769048,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 18,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Unarmed",
+                                        ["type"] = "Land_Rover_101_FC",
+                                        ["unitId"] = 25,
+                                        ["rate"] = 3,
+                                        ["y"] = -240820.91453828,
+                                        ["x"] = 31878.66769048,
+                                        ["name"] = "NCTF 3-17-1",
+                                        ["heading"] = 4.7123889803847,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -240820.91453828,
+                                ["x"] = 31878.66769048,
+                                ["name"] = "NCTF 3-17",
+                                ["dead"] = false,
+                            }, -- end of [17]
+                            [18] = 
+                            {
+                                ["heading"] = 4.7123889803847,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -240729.44825083,
+                                            ["speed"] = 0,
+                                            ["x"] = 31874.514732979,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 19,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Unarmed",
+                                        ["type"] = "Land_Rover_101_FC",
+                                        ["unitId"] = 26,
+                                        ["rate"] = 3,
+                                        ["y"] = -240729.44825083,
+                                        ["x"] = 31874.514732979,
+                                        ["name"] = "NCTF 3-18-1",
+                                        ["heading"] = 4.7123889803847,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -240729.44825083,
+                                ["x"] = 31874.514732979,
+                                ["name"] = "NCTF 3-18",
+                                ["dead"] = false,
+                            }, -- end of [18]
+                            [19] = 
+                            {
+                                ["heading"] = 4.7123889803847,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -240636.02346039,
+                                            ["speed"] = 0,
+                                            ["x"] = 31873.300347036,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 20,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Unarmed",
+                                        ["type"] = "Land_Rover_101_FC",
+                                        ["unitId"] = 27,
+                                        ["rate"] = 3,
+                                        ["y"] = -240636.02346039,
+                                        ["x"] = 31873.300347036,
+                                        ["name"] = "NCTF 3-19-1",
+                                        ["heading"] = 4.7123889803847,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -240636.02346039,
+                                ["x"] = 31873.300347036,
+                                ["name"] = "NCTF 3-19",
+                                ["dead"] = false,
+                            }, -- end of [19]
+                            [20] = 
+                            {
+                                ["heading"] = 4.7123889803847,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -240528.21674689,
+                                            ["speed"] = 0,
+                                            ["x"] = 31872.665501601,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 21,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Unarmed",
+                                        ["type"] = "Land_Rover_101_FC",
+                                        ["unitId"] = 28,
+                                        ["rate"] = 3,
+                                        ["y"] = -240528.21674689,
+                                        ["x"] = 31872.665501601,
+                                        ["name"] = "NCTF 3-20-1",
+                                        ["heading"] = 4.7123889803847,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -240528.21674689,
+                                ["x"] = 31872.665501601,
+                                ["name"] = "NCTF 3-20",
+                                ["dead"] = false,
+                            }, -- end of [20]
+                            [21] = 
+                            {
+                                ["heading"] = 4.7123889803847,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -243366.9694095,
+                                            ["speed"] = 0,
+                                            ["x"] = 31890.789112214,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 22,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Armor",
+                                        ["type"] = "Cobra",
+                                        ["unitId"] = 29,
+                                        ["rate"] = 8,
+                                        ["y"] = -243366.9694095,
+                                        ["x"] = 31890.789112214,
+                                        ["name"] = "NCTF 3-21-1",
+                                        ["heading"] = 4.7123889803847,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -243366.9694095,
+                                ["x"] = 31890.789112214,
+                                ["name"] = "NCTF 3-21",
+                                ["dead"] = false,
+                            }, -- end of [21]
+                            [22] = 
+                            {
+                                ["heading"] = 4.7647488579445,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -243178.28822983,
+                                            ["speed"] = 0,
+                                            ["x"] = 31890.018469888,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 23,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Armor",
+                                        ["type"] = "Cobra",
+                                        ["unitId"] = 30,
+                                        ["rate"] = 8,
+                                        ["y"] = -243178.28822983,
+                                        ["x"] = 31890.018469888,
+                                        ["name"] = "NCTF 3-22-1",
+                                        ["heading"] = 4.7647488579445,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -243178.28822983,
+                                ["x"] = 31890.018469888,
+                                ["name"] = "NCTF 3-22",
+                                ["dead"] = false,
+                            }, -- end of [22]
+                            [23] = 
+                            {
+                                ["heading"] = 4.7123889803847,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -240407.5737767,
+                                            ["speed"] = 0,
+                                            ["x"] = 31872.056685695,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 24,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Unarmed",
+                                        ["type"] = "M 818",
+                                        ["unitId"] = 31,
+                                        ["rate"] = 5,
+                                        ["y"] = -240407.5737767,
+                                        ["x"] = 31872.056685695,
+                                        ["name"] = "NCTF 3-23-1",
+                                        ["heading"] = 4.7123889803847,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -240407.5737767,
+                                ["x"] = 31872.056685695,
+                                ["name"] = "NCTF 3-23",
+                                ["dead"] = false,
+                            }, -- end of [23]
+                            [24] = 
+                            {
+                                ["heading"] = 4.7123889803847,
+                                ["route"] = 
+                                {
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 0,
+                                            ["type"] = "",
+                                            ["name"] = "",
+                                            ["y"] = -240202.89546863,
+                                            ["speed"] = 0,
+                                            ["x"] = 31871.663852178,
+                                            ["formation_template"] = "",
+                                            ["action"] = "",
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 25,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["category"] = "Unarmed",
+                                        ["type"] = "M 818",
+                                        ["unitId"] = 32,
+                                        ["rate"] = 5,
+                                        ["y"] = -240202.89546863,
+                                        ["x"] = 31871.663852178,
+                                        ["name"] = "NCTF 3-24-1",
+                                        ["heading"] = 4.7123889803847,
+                                    }, -- end of [1]
+                                }, -- end of ["units"]
+                                ["y"] = -240202.89546863,
+                                ["x"] = 31871.663852178,
+                                ["name"] = "NCTF 3-24",
+                                ["dead"] = false,
+                            }, -- end of [24]
+                        }, -- end of ["group"]
+                    }, -- end of ["static"]
+                    ["vehicle"] = 
+                    {
+                        ["group"] = 
+                        {
+                            [1] = 
+                            {
+                                ["visible"] = false,
+                                ["tasks"] = 
+                                {
+                                }, -- end of ["tasks"]
+                                ["uncontrollable"] = false,
+                                ["task"] = "Ground Nothing",
+                                ["taskSelected"] = true,
+                                ["route"] = 
+                                {
+                                    ["spans"] = 
+                                    {
+                                    }, -- end of ["spans"]
+                                    ["points"] = 
+                                    {
+                                        [1] = 
+                                        {
+                                            ["alt"] = 165,
+                                            ["type"] = "Turning Point",
+                                            ["ETA"] = 0,
+                                            ["alt_type"] = "BARO",
+                                            ["formation_template"] = "",
+                                            ["y"] = -243498.83548285,
+                                            ["x"] = 31893.025466437,
+                                            ["ETA_locked"] = true,
+                                            ["speed"] = 0,
+                                            ["action"] = "Off Road",
+                                            ["task"] = 
+                                            {
+                                                ["id"] = "ComboTask",
+                                                ["params"] = 
+                                                {
+                                                    ["tasks"] = 
+                                                    {
+                                                    }, -- end of ["tasks"]
+                                                }, -- end of ["params"]
+                                            }, -- end of ["task"]
+                                            ["speed_locked"] = true,
+                                        }, -- end of [1]
+                                    }, -- end of ["points"]
+                                }, -- end of ["route"]
+                                ["groupId"] = 1,
+                                ["hidden"] = true,
+                                ["units"] = 
+                                {
+                                    [1] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Cobra",
+                                        ["unitId"] = 5,
+                                        ["y"] = -243498.83548285,
+                                        ["x"] = 31893.025466437,
+                                        ["name"] = "NCTF 3-AA-1",
+                                        ["heading"] = 4.6600291028249,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [1]
+                                    [2] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Cobra",
+                                        ["unitId"] = 2,
+                                        ["y"] = -240583.34512904,
+                                        ["x"] = 31872.944366796,
+                                        ["name"] = "NCTF 3-AA-2",
+                                        ["heading"] = 4.7123889803847,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [2]
+                                    [3] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "M-113",
+                                        ["unitId"] = 4,
+                                        ["y"] = -241738.00421787,
+                                        ["x"] = 31886.076523824,
+                                        ["name"] = "NCTF 3-AA-3",
+                                        ["heading"] = 4.7123889803847,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [3]
+                                    [4] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "M-113",
+                                        ["unitId"] = 6,
+                                        ["y"] = -242965.49503527,
+                                        ["x"] = 31890.428216806,
+                                        ["name"] = "NCTF 3-AA-4",
+                                        ["heading"] = 4.7123889803847,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [4]
+                                    [5] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "M-113",
+                                        ["unitId"] = 7,
+                                        ["y"] = -240321.94632597,
+                                        ["x"] = 31871.663852178,
+                                        ["name"] = "NCTF 3-AA-5",
+                                        ["heading"] = 4.7123889803847,
+                                        ["playerCanDrive"] = true,
+                                    }, -- end of [5]
+                                    [6] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "M-60",
+                                        ["unitId"] = 1,
+                                        ["y"] = -242708.22509925,
+                                        ["x"] = 31889.342004327,
+                                        ["name"] = "NCTF 3-AA-6",
+                                        ["heading"] = 4.7123889803847,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [6]
+                                    [7] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "M1097 Avenger",
+                                        ["unitId"] = 8,
+                                        ["y"] = -240997.83711322,
+                                        ["x"] = 31881.030997339,
+                                        ["name"] = "NCTF 3-AA-7",
+                                        ["heading"] = 4.7123889803847,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [7]
+                                    [8] = 
+                                    {
+                                        ["transportable"] = 
+                                        {
+                                            ["randomTransportable"] = false,
+                                        }, -- end of ["transportable"]
+                                        ["skill"] = "Average",
+                                        ["type"] = "Soldier stinger",
+                                        ["unitId"] = 3,
+                                        ["y"] = -242590.54093425,
+                                        ["x"] = 31870.406427861,
+                                        ["name"] = "NCTF 3-AA-8",
+                                        ["heading"] = 2.9321531433505,
+                                        ["playerCanDrive"] = false,
+                                    }, -- end of [8]
+                                }, -- end of ["units"]
+                                ["y"] = -243498.83548285,
+                                ["x"] = 31893.025466437,
+                                ["name"] = "NCTF 3-AA",
+                                ["start_time"] = 0,
+                            }, -- end of [1]
+                        }, -- end of ["group"]
+                    }, -- end of ["vehicle"]
+                }, -- end of [7]
+                [8] = 
+                {
+                    ["id"] = 2,
+                    ["name"] = "USA",
+                }, -- end of [8]
+            }, -- end of ["country"]
+        }, -- end of ["red"]
+    }, -- end of ["coalition"]
+    ["name"] = "North Cyprus-Turkish Force 3 T2",
+    ["requiredModules"] = 
+    {
+    }, -- end of ["requiredModules"]
+    ["localization"] = 
+    {
+        ["DEFAULT"] = 
+        {
+            ["DictKey_descriptionNeutralsTask_4"] = "",
+            ["DictKey_sortie_5"] = "",
+            ["DictKey_descriptionText_1"] = "",
+            ["DictKey_descriptionBlueTask_3"] = "",
+            ["DictKey_descriptionRedTask_2"] = "",
+        }, -- end of ["DEFAULT"]
+    }, -- end of ["localization"]
+    ["theatre"] = "Syria",
+    ["desc"] = "",
+} -- end of staticTemplate
