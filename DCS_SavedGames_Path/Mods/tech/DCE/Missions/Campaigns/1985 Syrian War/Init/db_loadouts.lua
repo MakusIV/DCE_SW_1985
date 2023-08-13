@@ -2858,7 +2858,7 @@ db_loadouts = {
 				adverseWeather = true,
 				range = 500000,
 				capability = 7,
-				firepower = 1, --8, -- = evaluate_weapon_firepower(weapon = "AIM-54A-MK60", quantity = 4) + evaluate_weapon_firepower(weapon = "AIM-7M", quantity = 2) + evaluate_weapon_firepower(weapon = "AIM-9M", quantity = 2)
+				firepower = 8, --8, -- = evaluate_weapon_firepower(weapon = "AIM-54A-MK60", quantity = 4) + evaluate_weapon_firepower(weapon = "AIM-7M", quantity = 2) + evaluate_weapon_firepower(weapon = "AIM-9M", quantity = 2)
 				vCruise = nil,
 				vAttack = nil,
 				hCruise = nil,
@@ -2946,7 +2946,7 @@ db_loadouts = {
 				adverseWeather = true,
 				range = 500000,
 				capability = 9,
-				firepower = 1, --8,  -- = evaluate_weapon_firepower(weapon = "AIM-54A-MK60", quantity = 4) + evaluate_weapon_firepower(weapon = "AIM-7M", quantity = 2) -- solo BVR(?)
+				firepower = 8, --8,  -- = evaluate_weapon_firepower(weapon = "AIM-54A-MK60", quantity = 4) + evaluate_weapon_firepower(weapon = "AIM-7M", quantity = 2) -- solo BVR(?)
 				vCruise = 213.83333333333,
 				vAttack = 213.83333333333,
 				hCruise = 10000,
@@ -3036,7 +3036,7 @@ db_loadouts = {
 				adverseWeather = true,
 				range = 500000,
 				capability = 7,
-				firepower = 1, --8, -- = evaluate_weapon_firepower(weapon = "AIM-54A-MK60", quantity = 4) + evaluate_weapon_firepower(weapon = "AIM-7M", quantity = 2) + evaluate_weapon_firepower(weapon = "AIM-9M", quantity = 2)
+				firepower = 8, --8, -- = evaluate_weapon_firepower(weapon = "AIM-54A-MK60", quantity = 4) + evaluate_weapon_firepower(weapon = "AIM-7M", quantity = 2) + evaluate_weapon_firepower(weapon = "AIM-9M", quantity = 2)
 				vCruise = nil,
 				vAttack = nil,
 				hCruise = nil,
@@ -3128,7 +3128,7 @@ db_loadouts = {
 				adverseWeather = true,
 				range = 500000,
 				capability = 7,
-				firepower = 1, --8,  -- = evaluate_weapon_firepower(weapon = "AIM-54A-MK60", quantity = 4) + evaluate_weapon_firepower(weapon = "AIM-7M", quantity = 2) -- solo BVR(?)
+				firepower = 8, --8,  -- = evaluate_weapon_firepower(weapon = "AIM-54A-MK60", quantity = 4) + evaluate_weapon_firepower(weapon = "AIM-7M", quantity = 2) -- solo BVR(?)
 				vCruise = 213.83333333333,
 				vAttack = 213.83333333333,
 				hCruise = 10000,
@@ -3310,7 +3310,7 @@ db_loadouts = {
 				adverseWeather = true,
 				range = 500000,
 				capability = 7,
-				firepower = 1, --8,  -- = evaluate_weapon_firepower(weapon = "AIM-54A-MK60", quantity = 4) + evaluate_weapon_firepower(weapon = "AIM-7M", quantity = 2) -- solo BVR(?)
+				firepower = 8, --8,  -- = evaluate_weapon_firepower(weapon = "AIM-54A-MK60", quantity = 4) + evaluate_weapon_firepower(weapon = "AIM-7M", quantity = 2) -- solo BVR(?)
 				vCruise = 213.83333333333,
 				vAttack = 213.83333333333,
 				hCruise = 10000,
@@ -3403,7 +3403,7 @@ db_loadouts = {
 				adverseWeather = true,
 				range = 500000,
 				capability = 7,
-				firepower = 1, --8, --  = evaluate_weapon_firepower(weapon = "AIM-54A-MK60", quantity = 4) + evaluate_weapon_firepower(weapon = "AIM-7M", quantity = 2) + evaluate_weapon_firepower(weapon = "AIM-9M", quantity = 2)
+				firepower = 8, --8, --  = evaluate_weapon_firepower(weapon = "AIM-54A-MK60", quantity = 4) + evaluate_weapon_firepower(weapon = "AIM-7M", quantity = 2) + evaluate_weapon_firepower(weapon = "AIM-9M", quantity = 2)
 				vCruise = 200,
 				hCruise = 7000,
 				standoff = 80300,
@@ -3491,7 +3491,7 @@ db_loadouts = {
 				adverseWeather = true,
 				range = 500000,
 				capability = 7,
-				firepower = 1, --8, --  = evaluate_weapon_firepower(weapon = "AIM-54A-MK60", quantity = 4) + evaluate_weapon_firepower(weapon = "AIM-7M", quantity = 2) + evaluate_weapon_firepower(weapon = "AIM-9M", quantity = 2)
+				firepower = 8, --8, --  = evaluate_weapon_firepower(weapon = "AIM-54A-MK60", quantity = 4) + evaluate_weapon_firepower(weapon = "AIM-7M", quantity = 2) + evaluate_weapon_firepower(weapon = "AIM-9M", quantity = 2)
 				vCruise = 200,
 				hCruise = 7000,
 				standoff = 80300,
@@ -3578,7 +3578,7 @@ db_loadouts = {
 				adverseWeather = true,
 				range = 500000,
 				capability = 9,
-				firepower = 1, --8,  -- = evaluate_weapon_firepower(weapon = "AIM-54A-MK60", quantity = 4) + evaluate_weapon_firepower(weapon = "AIM-7M", quantity = 2) -- solo BVR(?)
+				firepower = 8, --8,  -- = evaluate_weapon_firepower(weapon = "AIM-54A-MK60", quantity = 4) + evaluate_weapon_firepower(weapon = "AIM-7M", quantity = 2) -- solo BVR(?)
 				vCruise = 213.83333333333,
 				vAttack = 213.83333333333,
 				hCruise = 10000,
@@ -3670,7 +3670,7 @@ db_loadouts = {
 				adverseWeather = true,
 				range = 500000,
 				capability = 7,
-				firepower = 1, --8, --  = evaluate_weapon_firepower(weapon = "AIM-54A-MK60", quantity = 4) + evaluate_weapon_firepower(weapon = "AIM-7M", quantity = 2) + evaluate_weapon_firepower(weapon = "AIM-9M", quantity = 2)
+				firepower = 8, --8, --  = evaluate_weapon_firepower(weapon = "AIM-54A-MK60", quantity = 4) + evaluate_weapon_firepower(weapon = "AIM-7M", quantity = 2) + evaluate_weapon_firepower(weapon = "AIM-9M", quantity = 2)
 				vCruise = 200,
 				hCruise = 7000,
 				standoff = 80300,
@@ -3757,7 +3757,7 @@ db_loadouts = {
 				adverseWeather = true,
 				range = 500000,
 				capability = 7,
-				firepower = 1, --8, --  = evaluate_weapon_firepower(weapon = "AIM-54A-MK60", quantity = 4) + evaluate_weapon_firepower(weapon = "AIM-7M", quantity = 2) solo BVR
+				firepower = 8 --8, --  = evaluate_weapon_firepower(weapon = "AIM-54A-MK60", quantity = 4) + evaluate_weapon_firepower(weapon = "AIM-7M", quantity = 2) solo BVR
 				vCruise = 255.83333333333,
 				vAttack = 315.83333333333,
 				hCruise = 9753.6,
@@ -3845,7 +3845,7 @@ db_loadouts = {
 				adverseWeather = true,
 				range = 500000,
 				capability = 7,
-				firepower = 1, --8, --  = evaluate_weapon_firepower(weapon = "AIM-54A-MK60", quantity = 4) + evaluate_weapon_firepower(weapon = "AIM-7M", quantity = 2) solo BVR
+				firepower = 8, --8, --  = evaluate_weapon_firepower(weapon = "AIM-54A-MK60", quantity = 4) + evaluate_weapon_firepower(weapon = "AIM-7M", quantity = 2) solo BVR
 				vCruise = 255.83333333333,
 				vAttack = 315.83333333333,
 				hCruise = 9753.6,
@@ -3932,7 +3932,7 @@ db_loadouts = {
 				adverseWeather = true,
 				range = 500000,
 				capability = 9,
-				firepower = 1, --8,  -- = evaluate_weapon_firepower(weapon = "AIM-54A-MK60", quantity = 4) + evaluate_weapon_firepower(weapon = "AIM-7M", quantity = 2) -- solo BVR(?)
+				firepower = 8, --8,  -- = evaluate_weapon_firepower(weapon = "AIM-54A-MK60", quantity = 4) + evaluate_weapon_firepower(weapon = "AIM-7M", quantity = 2) -- solo BVR(?)
 				vCruise = 213.83333333333,
 				vAttack = 213.83333333333,
 				hCruise = 10000,

@@ -653,8 +653,7 @@ oob_air = {
 			number = 36,
 		},
 		[32] = {
-			name = "Jagdbombergeschwader 33",								--unit name
-			--player = true,							--player unit
+			name = "Jagdbombergeschwader 33",								--unit name							--player unit
 			type = "Tornado IDS",								--aircraft type
 			country = "Germany",							--unit country
 			livery = {""},					--unit livery
@@ -682,7 +681,6 @@ oob_air = {
 		},
 		[34] = {
 			name = "154 Gruppo, 6 Stormo",								--unit name
-			--player = true,							--player unit
 			type = "Tornado IDS",								--aircraft type
 			country = "Italy",							--unit country
 			livery = {""},					--unit livery
@@ -876,7 +874,6 @@ oob_air = {
 		},
 		[46] = {
 			name = "12 Gruppo, 36 Stormo",								--unit name
-			--player = true,							--player unit
 			type = "Tornado IDS",								--aircraft type
 			country = "Italy",							--unit country
 			livery = {""},					--unit livery
@@ -936,10 +933,10 @@ oob_air = {
 			tasksCoef = {									--unit tasks coef (optional)
 				["Strike"] = 1.7,								-- coef normal : = 1				
 				["Laser Illumination"] = 1,
-				["Intercept"] = 1.5,
+				["Intercept"] = 3,
 				["CAP"] = 1,
-				["Escort"] = 2,
-				["Fighter Sweep"] = 1,
+				["Escort"] = 3,
+				["Fighter Sweep"] = 2,
 			},
 			number = 12,
 		},
@@ -1695,9 +1692,9 @@ oob_air = {
 			skill = getSkill(mission_ini.min_skill_red_fighter, mission_ini.max_skill_red_fighter),			--unit skill
 			tasks = {										--unit tasks
 				["Intercept"] = true,
-				["CAP"] = false,
+				["CAP"] = true,
 				["Escort"] = true,
-				["Fighter Sweep"] = false,
+				["Fighter Sweep"] = true,
 				["Strike"] = false,
 				["Anti-ship Strike"] = false,			
 				["SEAD"] = false,
@@ -1792,9 +1789,9 @@ oob_air = {
 			skill = getSkill(mission_ini.min_skill_red_fighter, mission_ini.max_skill_red_fighter),			--unit skill
 			tasks = {										--unit tasks
 				["Intercept"] = true,
-				["CAP"] = false,
+				["CAP"] = true,
 				["Escort"] = true,
-				["Fighter Sweep"] = false,
+				["Fighter Sweep"] = true,
 				["Strike"] = false,
 				["Anti-ship Strike"] = false,			
 				["SEAD"] = false,
