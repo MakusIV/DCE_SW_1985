@@ -1,0 +1,10 @@
+C:\Users\marco\Saved Games\DCS.openbeta\Missions\1985 Syrian War_first.miz": [string "mission = {..."]:10522: unfinished string near ''STAR 3800'
+
+
+controlla se ci sono in base_miz ed in altri moduli dei neutrals attivi 
+
+ci sono 10 nav point neutral da eliminare (vedi i callsignStr e gli id in first miz/mission
+
+mmmh  sembra che le singole missioni associate alla key coalition non siano generate
+
+ATT IL NOME DELLA SORTIE  è CAMPAIGN VICTORY CONTROLLA NEI TRIGGER LIST LE CONDIZIONI DI VITTORIA VERIFICANDO SE IL CONTROLLO DEI TRIGGER AVVIENE SUBITO ALLA PRIMA GHENERAZIONE
