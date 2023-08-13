@@ -215,6 +215,21 @@ db_airbases = {
 	-- red: Russia, Syria, Lebanon, Lybia, France, Abkhazia, Ossetia
 	-- neutral: Jordan,
 
+	-- blue navy
+	['CVN-72 Abraham Lincoln'] = {                            
+		unitname = "CVN-72 Abraham Lincoln",
+		startup = 300,
+		side = "blue",							-- side : info obligatoire
+		LimitedParkNb  = 9, 
+		ATC_frequency = "272.500",				--si ATC_frequency non present, on utilise la freq de base_mission
+	},
+	['CVN-71 Theodore Roosevelt'] = {                            
+		unitname = "CVN-71 Theodore Roosevelt",
+		startup = 300,
+		side = "blue",							-- side : info obligatoire
+		ATC_frequency = "275.500",			--si ATC_frequency non present, on utilise la freq de base_mission
+		LimitedParkNb  = 9, 
+	},	
 
 	-- blue turkish
 	['Incirlik'] = {

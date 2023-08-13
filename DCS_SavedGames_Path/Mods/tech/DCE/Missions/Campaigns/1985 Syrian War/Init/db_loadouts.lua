@@ -3021,7 +3021,8 @@ db_loadouts = {
 					["LGB1000"] = 1,
 				},
 			},
-			["IRAN TF-Old-AIM-54A-MK60*4, AIM-7M*2, AIM-9M*2, XT*2"] = {
+			
+			--[[["IRAN TF-Old-AIM-54A-MK60*4, AIM-7M*2, AIM-9M*2, XT*2"] = {
 				attributes = {},
 				coalition = "red",
 				weapons = {-- task dedicated weapons
@@ -3109,7 +3110,7 @@ db_loadouts = {
 					["TacanChannel"] = 37,				----preset TACAN channel
 					["LGB1000"] = 1,
 					},
-			},
+			},]]
 		},
 		["CAP"] = {
 			["TF-Old-AIM-54A-MK60*4, AIM-7M*2, AIM-9M*2, XT*2"] = {
@@ -3293,7 +3294,7 @@ db_loadouts = {
 					["LGB1000"] = 1,
 				},
 			},
-			["IRAN-TF-Old-AIM-54A-MK60*4, AIM-7M*2, AIM-9M*2, XT*2"] = {
+			--[[["IRAN-TF-Old-AIM-54A-MK60*4, AIM-7M*2, AIM-9M*2, XT*2"] = {
 				attributes = {},
 				coalition = "red",
 				role = "escort_bomber",
@@ -3383,7 +3384,7 @@ db_loadouts = {
 					["TacanChannel"] = 37,				----preset TACAN channel
 					["LGB1000"] = 1,
 				},
-			},
+			},]]
 		},
 		["Escort"] = {
 			["TF-Old-AIM-54A-MK60*4, AIM-7M*2, AIM-9M*2, XT*2 role: ESCORT BOMBER @ NORMAL ALT"] = {
@@ -3653,7 +3654,7 @@ db_loadouts = {
 					["LGB1000"] = 1,
 				},
 			},
-			["IRAN-TF-Old-AIM-54A-MK60*4, AIM-7M*2, AIM-9M*2, XT*2 role: ESCORT BOMBER @ NORMAL ALT"] = {
+			--[[["IRAN-TF-Old-AIM-54A-MK60*4, AIM-7M*2, AIM-9M*2, XT*2 role: ESCORT BOMBER @ NORMAL ALT"] = {
 				role = "escort_bomber",
 				role_altitude = "normal",
 				coalition = "red",
@@ -3740,7 +3741,7 @@ db_loadouts = {
 					["TacanChannel"] = 37,				----preset TACAN channel
 					["LGB1000"] = 1,
 				},
-			},
+			},]]
 		},
 		["Fighter Sweep"] = {
 			["TF-Old-AIM-54A-MK60*4, AIM-7M*2, AIM-9M*2, XT*2"] = {
@@ -3757,7 +3758,7 @@ db_loadouts = {
 				adverseWeather = true,
 				range = 500000,
 				capability = 7,
-				firepower = 8 --8, --  = evaluate_weapon_firepower(weapon = "AIM-54A-MK60", quantity = 4) + evaluate_weapon_firepower(weapon = "AIM-7M", quantity = 2) solo BVR
+				firepower = 8, --8, --  = evaluate_weapon_firepower(weapon = "AIM-54A-MK60", quantity = 4) + evaluate_weapon_firepower(weapon = "AIM-7M", quantity = 2) solo BVR
 				vCruise = 255.83333333333,
 				vAttack = 315.83333333333,
 				hCruise = 9753.6,
@@ -3830,7 +3831,7 @@ db_loadouts = {
 					["LGB1000"] = 1,
 				},
 			},
-			["IRAN-TF-Old-AIM-54A-MK60*4, AIM-7M*2, AIM-9M*2, XT*2"] = {
+			--[[["IRAN-TF-Old-AIM-54A-MK60*4, AIM-7M*2, AIM-9M*2, XT*2"] = {
 				attributes = {},
 				weapons = {
 					["AIM-54A-MK60"] = 4,
@@ -3917,7 +3918,7 @@ db_loadouts = {
 					["TacanChannel"] = 37,				--preset TACAN channel
 					["LGB1000"] = 1,
 				},
-			},
+			},]]
 			["CAP-Escort AIM-54C-Mk47*4, AIM-7P*2, AIM-9M*1, ACMI Pod, Fuel *2"] = {
 				attributes = {},
 				weapons = {-- task dedicated weapons

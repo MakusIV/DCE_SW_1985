@@ -269,14 +269,14 @@ camp_triggers = {
 		active = true,
 		once = true,
 		condition = 'Return.Mission() == 1',
-		action = 'Action.ShipMission("CVN-72 Abraham Lincoln", {{"Indy 1-1", "Indy 1-2", "Indy 1-3"}}, 10, 8, nil)',
+		action = 'Action.ShipMission("CVN-72", {{"Indy 1-1", "Indy 1-2", "Indy 1-3"}}, 10, 8, nil)',
 	},
 
 	["CVN-71 Theodore Roosevelt Patrol ATest Sea"] = {
 		active = true,
 		once = true,
 		condition = 'Return.Mission() == 1',
-		action = 'Action.ShipMission("CVN-71 Theodore Roosevelt", {{"Indy 2-1", "Indy 2-2", "Indy 2-3"}}, 10, 8, nil)',
+		action = 'Action.ShipMission("CVN-71", {{"Indy 2-1", "Indy 2-2", "Indy 2-3"}}, 10, 8, nil)',
 	},
 	--[[["LHA-Group Patrol ATest Sea"] = {
 		active = true,
