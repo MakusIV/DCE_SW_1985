@@ -74,6 +74,7 @@ camp_triggers = {
 	},
 	
 	----- CAMPAIGN END -----
+	--[[
 	["Campaign End Victory 1"] = {
 		active = true,
 		once = true,
@@ -146,6 +147,7 @@ camp_triggers = {
 			[5] = 'NoMoreNewspaper = true',
 		},
 	},
+	
 	["Campaign End Loss"] = {
 		active = true,
 		once = true,
@@ -229,7 +231,7 @@ camp_triggers = {
 		},
 	},
 	
-
+]]
 	----- CAMPAIGN SITUATION -----
 	["Campaign first destructions"] = {
 		active = true,

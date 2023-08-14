@@ -8,3 +8,15 @@ ci sono 10 nav point neutral da eliminare (vedi i callsignStr e gli id in first 
 mmmh  sembra che le singole missioni associate alla key coalition non siano generate
 
 ATT IL NOME DELLA SORTIE  è CAMPAIGN VICTORY CONTROLLA NEI TRIGGER LIST LE CONDIZIONI DI VITTORIA VERIFICANDO SE IL CONTROLLO DEI TRIGGER AVVIENE SUBITO ALLA PRIMA GHENERAZIONE
+
+
+commentando tutte le condizioni di vittoria o perdita DCE tenta 20 volte di generare una missione per il player ma non riesce. numero aerei disponibili (no!?) troppi SAM, rotte impossibili boh
+
+
+verifica le distanze dei target in relzione al range degli aerei (considerando le minacce sembrano essere elevate)
+
+verifica il livello di mminaccia dei SAM (in ATO_qualcosa e config_ini in camp_mod (forse)
+
+avvicina la CVN-71 e risistema le triggers zone del tragitto
+
+prova a decommentare passo passo i trigger victory-loss
