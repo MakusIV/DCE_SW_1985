@@ -20,3 +20,18 @@ verifica il livello di mminaccia dei SAM (in ATO_qualcosa e config_ini in camp_m
 avvicina la CVN-71 e risistema le triggers zone del tragitto
 
 prova a decommentare passo passo i trigger victory-loss
+
+
+
+IL PROBLEMA E' NELLA BASE (CVN-71) CONSIDERATA NON ATTIVA:
+
+ATO_Generator 489:
+
+if db_airbases[unit[n].base] and db_airbases[unit[n].base].inactive ~= true and db_airbases[unit[n].base].x and db_airbases[unit[n].base].y then	--base exists and is active and has a position value (carrier that exists)
+TrackPlayability(unit[n].player, "base")	
+
+
+
+in ME verifica se la Roosvelt si chiama come unita:
+
+CVN-71 Theodore Roosevelt (vedi oob_air_init e db_airbase
