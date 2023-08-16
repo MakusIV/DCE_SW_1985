@@ -3486,15 +3486,10 @@ for side, pack in pairs(ATO) do													--iterate through sides in ATO
 				end
 				
 				------ add group to mission -----
-				local foundCountry = false				
-								
+				local foundCountry = false
 				for c = 1, #mission.coalition[side].country do
-					--print("ATO_FlightPlan - mission.coalition[" .. side .. "].country[" .. c .. "].name: " .. mission.coalition[side].country[c].name .. ", flight[" .. f .. "].country: " .. flight[f].country)
-					
 					if mission.coalition[side].country[c].name == flight[f].country then
-
 						if flight[f].helicopter ~= true then
-
 							if mission.coalition[side].country[c].plane == nil then
 								mission.coalition[side].country[c].plane = {
 									group = {}
@@ -3502,13 +3497,10 @@ for side, pack in pairs(ATO) do													--iterate through sides in ATO
 							end
 							table.insert(mission.coalition[side].country[c].plane.group, group)
 							foundCountry = true
-							
-							
 							if flight[f].player == true then										
 								camp.player.group = mission.coalition[side].country[c].plane.group[#mission.coalition[side].country[c].plane.group]		--store a link to the player group in mission
 							-- Miguel21 modification M11B. : Multiplayer--briefing	
-							
-						elseif flight[f].client == true then										
+							elseif flight[f].client == true then										
 								camp.client[flight[f].IdClient].group = mission.coalition[side].country[c].plane.group[#mission.coalition[side].country[c].plane.group]		--store a link to the player group in mission
 								-- camp.client[flight[f].IdClient].group["divert"] = tabDivert
 							end
@@ -3516,9 +3508,7 @@ for side, pack in pairs(ATO) do													--iterate through sides in ATO
 							if groupRTB.groupId then
 								table.insert(mission.coalition[side].country[c].plane.group, groupRTB)
 							end
-						
 						else
-							
 							if mission.coalition[side].country[c].helicopter == nil then
 								mission.coalition[side].country[c].helicopter = {
 									group = {}
@@ -3526,15 +3516,12 @@ for side, pack in pairs(ATO) do													--iterate through sides in ATO
 							end
 							table.insert(mission.coalition[side].country[c].helicopter.group, group)
 							foundCountry = true
-							
 							if flight[f].player == true then										
 								camp.player.group = mission.coalition[side].country[c].helicopter.group[#mission.coalition[side].country[c].helicopter.group]		--store a link to the player group in mission
 							-- Miguel21 modification M11B. : Multiplayer--briefing	
-							
 							elseif flight[f].client == true then										
 								camp.client[flight[f].IdClient].group = mission.coalition[side].country[c].helicopter.group[#mission.coalition[side].country[c].helicopter.group]		--store a link to the player group in mission
 							end
-							
 							if groupRTB.groupId then
 								table.insert(mission.coalition[side].country[c].helicopter.group, groupRTB)
 							end

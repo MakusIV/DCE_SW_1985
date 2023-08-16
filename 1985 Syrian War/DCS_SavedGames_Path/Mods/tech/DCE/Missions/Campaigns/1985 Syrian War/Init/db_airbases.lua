@@ -215,6 +215,22 @@ db_airbases = {
 	-- red: Russia, Syria, Lebanon, Lybia, France, Abkhazia, Ossetia
 	-- neutral: Jordan,
 
+	-- blue navy
+	['CVN-72 Abraham Lincoln'] = {                            
+		unitname = "CVN-72 Abraham Lincoln",
+		startup = 300,
+		side = "blue",							-- side : info obligatoire
+		LimitedParkNb  = 9, 
+		ATC_frequency = "272.500",				--si ATC_frequency non present, on utilise la freq de base_mission
+	},
+	
+	['CVN-71 Theodore Roosevelt'] = {                            
+		unitname = "CVN-71 Theodore Roosevelt",
+		startup = 300,
+		side = "blue",							-- side : info obligatoire
+		ATC_frequency = "275.500",			--si ATC_frequency non present, on utilise la freq de base_mission
+		LimitedParkNb  = 9, 
+	},	
 
 	-- blue turkish
 	['Incirlik'] = {
@@ -227,7 +243,7 @@ db_airbases = {
 		-- ATC_frequency = "38.700",
 		-- ATC_frequency = "3.900",
 		startup = 300,
-		side = "red",							-- side : info obligatoire
+		side = "blue",							-- side : info obligatoire
 		divert = true,							-- divert : info obligatoire (pour l instant)
 		-- VOR = "",
 		-- NDB = "",
@@ -245,7 +261,7 @@ db_airbases = {
 		ATC_frequency = "251.000",
 		-- ATC_frequency = "4.275",
 		startup = 300,
-		side = "red",							-- side : info obligatoire
+		side = "blue",							-- side : info obligatoire
 		divert = true,							-- divert : info obligatoire (pour l instant)
 		VOR = "112.70",
 		NDB = "395",
@@ -263,7 +279,7 @@ db_airbases = {
 		ATC_frequency = "250.050",
 		-- ATC_frequency = "3.775",
 		startup = 300,
-		side = "red",							-- side : info obligatoire
+		side = "blue",							-- side : info obligatoire
 		divert = true,							-- divert : info obligatoire (pour l instant)
 		VOR = "116.70",
 		NDB = "432",
@@ -281,7 +297,7 @@ db_airbases = {
 		ATC_frequency = "251.650",
 		-- ATC_frequency = "4.600",
 		startup = 600,
-		side = "red",							-- side : info obligatoire
+		side = "blue",							-- side : info obligatoire
 		divert = true,							-- divert : info obligatoire (pour l instant)
 		VOR = "114.2",
 		NDB = "316",
@@ -453,6 +469,86 @@ db_airbases = {
 		-- ILS = "",							-- ILS : optionnel
 		LimitedParkNb = 8,
 	},]]
+	['FARP-Hatay FARP 1'] = {                            
+		x =	143464.08813154,
+		y = 41871.567590793,
+		elevation = 69,
+		airdromeId = 101,	--be careful this Id depends on units placements and is helipadID in fact
+		helipadId = 101,
+		ATC_frequency = "129.500",
+		side = "blue",							-- side : info obligatoire
+		divert = false,							-- divert : info obligatoire (pour l instant)
+		-- TACAN = "",							-- TACAN : optionnel
+		-- ILS = "",							-- ILS : optionnel
+		LimitedParkNb = 4,
+	},
+	['FARP-Hatay FARP 2'] = {                            
+		y = 42261.054707957,
+        x = 143452.20826485,
+		elevation = 67,
+		airdromeId = 102,	--be careful this Id depends on units placements and is helipadID in fact
+		helipadId = 102,
+		ATC_frequency = "130.500",
+		side = "blue",							-- side : info obligatoire
+		divert = false,							-- divert : info obligatoire (pour l instant)
+		-- TACAN = "",							-- TACAN : optionnel
+		-- ILS = "",							-- ILS : optionnel
+		LimitedParkNb = 4,
+	},
+	['Silifke Storage FARP'] = {                            ----Crisis in PG campaigns only
+		y = -175103.09885755,
+		x = 151534.80750016,
+		elevation = 8,
+		airdromeId = 199,	--be careful this Id depends on units placements and is helipadID in fact
+		helipadId = 199,
+		ATC_frequency = "129.600",
+		side = "blue",							-- side : info obligatoire
+		divert = false,							-- divert : info obligatoire (pour l instant)
+		-- TACAN = "",							-- TACAN : optionnel
+		-- ILS = "",							-- ILS : optionnel
+		LimitedParkNb = 4,
+	},
+
+	['Ramat David'] = {             
+		x =	 -259102.132813,
+		y =  -75789.410156,
+		elevation = 36,
+		airdromeId = 30,
+		-- ATC_frequency = "39.500",
+		-- ATC_frequency = "118.600",
+		ATC_frequency = "251.050",
+		-- ATC_frequency = "4.300",
+		startup = 300,
+		side = "blue",							-- side : info obligatoire
+		divert = false,							-- divert : info obligatoire (pour l instant)
+		-- VOR = "",
+		NDB = "368",
+		TACAN = "84X - 113.70",							-- TACAN : optionnel
+		ILS = "RWY 326/111.10",							-- ILS : optionnel
+		LimitedParkNb = 42,
+	},
+	['Naqoura'] = {             -- UN helibase
+		-- Helicopter base
+		x =	 -209938.1875,
+		y =  -78642.609375,
+		elevation = 115,
+		airdromeId = 52,
+		-- ATC_frequency = "40.650",
+		-- ATC_frequency = "122.000",
+		ATC_frequency = "252.200",
+		-- ATC_frequency = "4.875",
+		startup = 300,
+		side = "blue",							-- side : info obligatoire
+		divert = false,							-- divert : info obligatoire (pour l instant)
+		-- VOR = "",
+		-- NDB = "",
+		-- TACAN = "",							-- TACAN : optionnel
+		-- ILS = "",							-- ILS : optionnel
+		LimitedParkNb = 9,
+	},
+
+
+
 
 	-- red
 	--[[['Aleppo Airbase'] = {
@@ -948,25 +1044,7 @@ db_airbases = {
 		-- ILS = "",							-- ILS : optionnel
 		LimitedParkNb = 5,
 	},]]
-	['Naqoura'] = {             -- UN helibase
-		-- Helicopter base
-		x =	 -209938.1875,
-		y =  -78642.609375,
-		elevation = 115,
-		airdromeId = 52,
-		-- ATC_frequency = "40.650",
-		-- ATC_frequency = "122.000",
-		ATC_frequency = "252.200",
-		-- ATC_frequency = "4.875",
-		startup = 300,
-		side = "red",							-- side : info obligatoire
-		divert = false,							-- divert : info obligatoire (pour l instant)
-		-- VOR = "",
-		-- NDB = "",
-		-- TACAN = "",							-- TACAN : optionnel
-		-- ILS = "",							-- ILS : optionnel
-		LimitedParkNb = 9,
-	},
+
 	['Khalkhalah'] = {             
 		x =	 -218620.25,
 		y =  56161.078125,
@@ -1040,24 +1118,7 @@ db_airbases = {
 		-- ILS = "",							-- ILS : optionnel
 		LimitedParkNb = 16,
 	},]]
-	['Ramat David'] = {             
-		x =	 -259102.132813,
-		y =  -75789.410156,
-		elevation = 36,
-		airdromeId = 30,
-		-- ATC_frequency = "39.500",
-		-- ATC_frequency = "118.600",
-		ATC_frequency = "251.050",
-		-- ATC_frequency = "4.300",
-		startup = 300,
-		side = "blue",							-- side : info obligatoire
-		divert = false,							-- divert : info obligatoire (pour l instant)
-		-- VOR = "",
-		NDB = "368",
-		TACAN = "84X - 113.70",							-- TACAN : optionnel
-		ILS = "RWY 326/111.10",							-- ILS : optionnel
-		LimitedParkNb = 42,
-	},
+	
 	--[[['Meggido Airbase'] = {             
 		x =	 -266965.015625,
 		y =  -71068.832031,
@@ -1150,48 +1211,7 @@ db_airbases = {
 		LimitedParkNb = 2,
 	},]]
 	
-	['FARP-Hatay FARP 1'] = {                            
-		x =	143464.08813154,
-		y = 41871.567590793,
-		elevation = 69,
-		airdromeId = 101,	--be careful this Id depends on units placements and is helipadID in fact
-		helipadId = 101,
-		ATC_frequency = "129.500",
-		side = "blue",							-- side : info obligatoire
-		divert = false,							-- divert : info obligatoire (pour l instant)
-		-- TACAN = "",							-- TACAN : optionnel
-		-- ILS = "",							-- ILS : optionnel
-		LimitedParkNb = 4,
-	},
-	['FARP-Hatay FARP 2'] = {                            
-		y = 42261.054707957,
-        x = 143452.20826485,
-		elevation = 67,
-		airdromeId = 102,	--be careful this Id depends on units placements and is helipadID in fact
-		helipadId = 102,
-		ATC_frequency = "130.500",
-		side = "blue",							-- side : info obligatoire
-		divert = false,							-- divert : info obligatoire (pour l instant)
-		-- TACAN = "",							-- TACAN : optionnel
-		-- ILS = "",							-- ILS : optionnel
-		LimitedParkNb = 4,
-	},
-	['Silifke Storage FARP'] = {                            ----Crisis in PG campaigns only
-		y = -175103.09885755,
-		x = 151534.80750016,
-		elevation = 8,
-		airdromeId = 199,	--be careful this Id depends on units placements and is helipadID in fact
-		helipadId = 199,
-		ATC_frequency = "129.600",
-		side = "blue",							-- side : info obligatoire
-		divert = false,							-- divert : info obligatoire (pour l instant)
-		-- TACAN = "",							-- TACAN : optionnel
-		-- ILS = "",							-- ILS : optionnel
-		LimitedParkNb = 4,
-	},
-
-
-
+	
 
 
 
@@ -1200,70 +1220,7 @@ db_airbases = {
 
 
 	
-	['FARP-Dublin'] = {                            ----Crisis in PG campaigns only
-		x =	19643.800331041,
-		y = -234054.34501055,
-		elevation = 216,
-		airdromeId = 232,	--be careful this Id depends on units placements and is helipadID in fact
-		helipadId = 232,
-		ATC_frequency = "129.700",
-		side = "blue",							-- side : info obligatoire
-		divert = false,							-- divert : info obligatoire (pour l instant)
-		-- TACAN = "",							-- TACAN : optionnel
-		-- ILS = "",							-- ILS : optionnel
-		LimitedParkNb = 4,
-	},
-	['FARP-Perth'] = {                            ----Crisis in PG campaigns only
-		x = -8357.8030311526,
-		y = -250908.28810597,
-		elevation = 438,
-		airdromeId = 237,	--be careful this Id depends on units placements and is helipadID in fact
-		helipadId = 237,
-		ATC_frequency = "129.400",
-		side = "blue",							-- side : info obligatoire
-		divert = false,							-- divert : info obligatoire (pour l instant)
-		-- TACAN = "",							-- TACAN : optionnel
-		-- ILS = "",							-- ILS : optionnel
-		LimitedParkNb = 4,
-	},
-	['FARP-Madrid'] = {                            ----Crisis in PG campaigns only
-		x =	20758.79834497,
-		y = -198761.43526331,
-		elevation = 34,
-		airdromeId = 210,	--be careful this Id depends on units placements and is helipadID in fact
-		helipadId = 199,
-		ATC_frequency = "128.500",
-		side = "red",							-- side : info obligatoire
-		divert = false,							-- divert : info obligatoire (pour l instant)
-		-- TACAN = "",							-- TACAN : optionnel
-		-- ILS = "",							-- ILS : optionnel
-		LimitedParkNb = 4,
-	},
-	['Kasteli Airbase'] = {
-		x = -00003194,
-		y = -00575875, 
-		elevation = 0,
-		airdromeId = nil,
-		ATC_frequency = "0",
-		BaseAirStart = true,
-		side = "blue",								-- side : Required information for the divert
-		divert = false,								-- divert : Required information for the divert)
-		--BaseAirStart = true,
-	},
-	['CVN-72 Abraham Lincoln'] = {                            
-		unitname = "CVN-72 Abraham Lincoln",
-		startup = 300,
-		side = "blue",							-- side : info obligatoire
-		LimitedParkNb  = 10, 
-		ATC_frequency = "272.500",				--si ATC_frequency non present, on utilise la freq de base_mission
-	},
-	['CVN-71 Theodore Roosevelt'] = {                            
-		unitname = "CVN-71 Theodore Roosevelt",
-		startup = 300,
-		side = "blue",							-- side : info obligatoire
-		ATC_frequency = "275.500",			--si ATC_frequency non present, on utilise la freq de base_mission
-		LimitedParkNb  = 9, 
-	},	
+	
 
 	--[[['LHA_Tarawa'] = {
 		unitname = "LHA_Tarawa",

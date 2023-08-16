@@ -9,7 +9,7 @@ if not versionDCE then versionDCE = {} end
 versionDCE["conf_mod.lua"] = "1.27.30"
 
 --By Old_Boy
-ACTIVATE_TESTING_ENVIROMENTS = true -- false: for running in DCE enviroment (DEBRIEF_Master.lua launched from DEBUG_DebriefMission.bat), true: for running in testing enviroment (DEBRIEF_Master.lua launched from DEBUG_DebriefMissionTesting.bat). By Old_Boy
+ACTIVATE_TESTING_ENVIROMENTS = false -- false: for running in DCE enviroment (DEBRIEF_Master.lua launched from DEBUG_DebriefMission.bat), true: for running in testing enviroment (DEBRIEF_Master.lua launched from DEBUG_DebriefMissionTesting.bat). By Old_Boy
 LOGGING_LEVEL = "warn" -- trace, debug, info, warn, error, fatal     --By Old_Boy
 LOG_DIR = "Log/"
 
@@ -224,7 +224,7 @@ campMod = {
 					x =	-00011409,	-- 
 					y = -00000712,	-- 
 				},
-				rayon = 200,		-- distance en Km autour de laquelle on peut placer le bullsEye
+				rayon = 100,		-- distance en Km autour de laquelle on peut placer le bullsEye
 		},
 	},
 

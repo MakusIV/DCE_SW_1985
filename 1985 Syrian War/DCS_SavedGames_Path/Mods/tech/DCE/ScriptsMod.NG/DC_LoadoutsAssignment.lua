@@ -1696,7 +1696,7 @@ local function updateLoadoutsCostTable()
                     if not loadout.cost then
                         log.warn("aircraft_type: " .. aircraft_type .. ", task_name: " .. task_name .. ", loadout_name: " .. loadout_name)
                     end
-     
+                                
                     if loadouts_cost[task_name].max < loadout.cost then
                         loadouts_cost[task_name].max = loadout.cost
 

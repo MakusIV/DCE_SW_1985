@@ -1576,7 +1576,7 @@ for sidename, side in pairs(oob_ground) do									--Iterate through all sides
 							end
 
 							if ewr_task then
-								log.debug("group's unit: " .. unit.type .. "-" .. unit.name .. " added in EWR table, ewr_freq: " .. tostring(ewr_freq) .. ", ewr_call: " .. (ewr_call or "nil"))		
+								log.debug("group's unit: " .. unit.type .. "-" .. unit.name .. " added in EWR table, ewr_freq: " .. tostring(ewr_freq) .. ", ewr_call: " .. ewr_call)
 								AddEWR(unit, sidename, ewr_freq, ewr_call)	--Add to EWR table								
 							end
 						end

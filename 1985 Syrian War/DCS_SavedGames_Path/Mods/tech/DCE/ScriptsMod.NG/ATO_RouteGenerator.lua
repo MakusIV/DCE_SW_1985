@@ -142,7 +142,7 @@ function GetRoute(basePoint, targetPoint, profile, side_, task, time, multipackn
 	-- activateLog(true, not profile.hAttack or not profile.hCruise, log, "traceVeryLow")	-- per torvare quale loadout ha problemi con hattack o hcruise
 	local nameFunction = "function GetRoute(basePoint, targetPoint, profile, side_, task, time, multipackn, multipackmax, helicopter): "    
 	log.trace("Start " .. nameFunction)						
-	log.trace("GetRoute parameters:" .. inspect(basePoint) .. "\n" .. inspect(targetPoint) .. "\n " .. profile.name .. ", " .. side_ .. ", " .. task .. ",\n " .. time .. ",\n " .. tostring(multipackn) .. ",\n " .. multipackmax .. ",\n " .. tostring(helicopter) .. ")")	
+	log.trace("GetRoute parameters:" .. inspect(basePoint) .. "\n" .. inspect(targetPoint) .. "\n " .. profile.name .. ", " .. side_ .. ", " .. task .. ",\n " .. time .. ",\n " .. tostring(multipackn) .. ",\n " .. multipackmax .. ",\n " .. tostring(helicopter) .. ")")
 	local route = {}																									--table to store the route to be built
 	local route_axis = GetHeading(targetPoint, basePoint)
 	log.trace("targetPoint: " .. tostring(targetPoint) .. ", basePoint: " .. tostring(basePoint) .. ", route_axis(heading): " .. route_axis)																--axis base-target

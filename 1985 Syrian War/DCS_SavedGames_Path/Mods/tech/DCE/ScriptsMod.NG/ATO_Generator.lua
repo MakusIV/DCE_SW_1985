@@ -355,7 +355,6 @@ local function checkWeather(mission, unit, unit_loadout, flight_loadout, task, i
 			if not isSupportFlight and ( task == "Strike" or task == "Anti-ship Strike" or task == "Reconnaissance" ) then		--extra requirement for A-G tasks
 				if active_log then log.traceLow("extra requirement for A-G tasks in weather capable analisys")		 end
 
-				--print("ATO Generator unit name: " .. unit.name .. ", task: " .. task .. ", unit_loaout: " .. inspect(unit_loadout))
 				if unit_loadout.hAttack > cloud_base then																		--attack alt is above cloud base
 					if active_log then log.traceLow("attack alt(" .. unit_loadout.hAttack .. ") is above cloud base(" .. cloud_base .. ")") end
 					
@@ -486,7 +485,12 @@ for side,unit in pairs(oob_air) do																								--iterate through all 
 				if active_log then log.traceLow("unit[" .. n .. "]: " .. unit[n].name .. " is playable -> insert in trackPlayability tab") end
 			end
 
-			
+			--print("unit[" .. n .. "]: " .. unit[n].name .. " is playable -> insert in trackPlayability tab")
+			--print("unit[" .. n .. "]: " .. unit[n].name .. ", base exists: " .. unit[n].base)
+			--print("db_airbases[unit[n].base]: " .. ( db_airbases[unit[n].base].unitname or "nil"))
+
+			--if db_airbases[unit[n].base] then  print("db_airbases[unit[n].base]: " .. inspect(db_airbases[unit[n].base])) end
+
 			if db_airbases[unit[n].base] and db_airbases[unit[n].base].inactive ~= true and db_airbases[unit[n].base].x and db_airbases[unit[n].base].y then	--base exists and is active and has a position value (carrier that exists)
 				TrackPlayability(unit[n].player, "base")																		--track playabilty criterium has been met
 				if active_log then log.traceLow("unit[" .. n .. "]: " .. unit[n].name .. " active base exists: " .. unit[n].base) end
@@ -804,7 +808,6 @@ for side,unit in pairs(oob_air) do																								--iterate through all 
 
 																							elseif variant == 2 or variant == 3 then																
 																								if active_log then log.traceLow("daytime is day or day-night, compute route: getRoute(airbasePoint(" .. (airbasePoint.x or "nil") .. ", " .. (airbasePoint.y or "nil") .. "), target(" .. target_name .. "), unit_loadouts[" .. l .. "], enemy_side(" .. enemy_side .. "), task(" .. task .. "), night, r(" .. r .. "), multipack(" .. multipack .. "), unit[n].helicopter(" .. tostring(unit[n].helicopter) .. "))" .. ", loadout name: " .. unit_loadouts[l].name .. ", unit: " .. unit[n].type .. "-" .. unit[n].name) end
-																								print("ATO_Generator - daytime is day or day-night, compute route: getRoute(airbasePoint(" .. (airbasePoint.x or "nil") .. ", " .. (airbasePoint.y or "nil") .. "), target(" .. target_name .. "), unit_loadouts[" .. l .. "], enemy_side(" .. enemy_side .. "), task(" .. task .. "), night, r(" .. r .. "), multipack(" .. multipack .. "), unit[n].helicopter(" .. tostring(unit[n].helicopter) .. "))" .. ", loadout name: " .. unit_loadouts[l].name .. ", unit: " .. unit[n].type .. "-" .. unit[n].name)
 																								route = GetRoute(airbasePoint, target, unit_loadouts[l], enemy_side, task, "night", r, multipack, unit[n].helicopter)		--get the best route to this target at night-- Miguel21 modification M06 : helicoptere playable
 																							end
 																						end																						
@@ -1255,8 +1258,8 @@ for sideS, draftT in pairs(draft_sorties) do
 						if (task == "SEAD" or task == "Escort" or task == "Escort Jammer" or task == "Flare Illumination" or task == "Laser Illumination") and task_bool then	--task is a support task and is true
 							-- active_log = activateLog(true, true, log, "traceVeryLow")
 							
-							if active_log then log.traceLow("task: " .. task .. ", side: " .. side .. "draft_sortie_n: " .. draft_n .. ", sortie.score: " .. draft.score .. ", unit: " .. unit[n].name .. " - " .. unit[n].type .. ", airbase: " .. unit[n].base .. ", is active, its base is active and has available aircraft") end					
-							--print("task: " .. task .. ", side: " .. side .. "draft_sortie_n: " .. draft_n .. ", sortie.score: " .. draft.score .. ", unit: " .. unit[n].name .. " - " .. unit[n].type .. ", airbase: " .. unit[n].base .. ", unit task: " .. inspect(db_loadouts[unit[n].type][task]))					
+							if active_log then log.traceLow("side: " .. side .. "draft_sortie_n: " .. draft_n .. ", sortie.score: " .. draft.score .. ", unit: " .. unit[n].name .. " - " .. unit[n].type .. ", airbase: " .. unit[n].base ..", is active, its base is active and has available aircraft") end					
+							
 							--get possible loadouts
 							local unit_loadouts = {}														--table to hold all loadouts for this aircraft type and task
 							

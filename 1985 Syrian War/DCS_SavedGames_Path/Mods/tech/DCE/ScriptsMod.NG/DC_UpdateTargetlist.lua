@@ -448,7 +448,7 @@ for side_name, side in pairs(targetlist) do													--Iterate through all si
 	
 		if target.task == "Strike" then														
 			log.debug("target.task == Strike . Evalutate new target coordinate from media calculus of coordinate live elements")
-			
+
 			if target.class == nil then														--For scenery object targets
 				log.trace("scenery object targets, define dummy value for calculus alive% and coordinate")
 				target.alive = 100															--Introduce percentage of alive target elements
@@ -457,7 +457,7 @@ for side_name, side in pairs(targetlist) do													--Iterate through all si
 				target.dead_last = 0														--Introduce percentage of elements that died in last mission (for debriefing)
 				
 				-- evalutate new target coordinate from media calculus of coordinate live elements
-				for e = 1, #target.elements do												--Iterate through elements of target					
+				for e = 1, #target.elements do												--Iterate through elements of target
 					target.x = target.x + target.elements[e].x								--Sum x coordinates of all elements (for calculate media)
 					target.y = target.y + target.elements[e].y								--Sum y coordinates of all elements (for calculate media)
 					log.trace("sum coordinate for media calculus: target.element[" .. e .. "] - sum.target.x = " .. target.x .. ", sum.target.y = " .. target.y .. ". Update dead, dead_last and alive property")					
@@ -507,11 +507,11 @@ for side_name, side in pairs(targetlist) do													--Iterate through all si
 					
 					if country.static then													--country has static objects
 						
-						for group_n, group in pairs(country.static.group) do				--iterate through groups in country.static.group table						
+						for group_n, group in pairs(country.static.group) do				--iterate through groups in country.static.group table
 							
 							for e = 1, #target.elements do									--Iterate through elements of target						
-								checkBug(group.name, "base_mission", "static")								
-								log.trace("evaluate target.elements[" .. e .. "].name: " .. ( target.elements[e].name or "nil") .. " to update dead, dead_last, alive property and calculus media coordiante for items of group and tragetlist")
+								checkBug(group.name, "base_mission", "static")
+								log.trace("evaluate target.elements[" .. e .. "].name: " .. target.elements[e].name .. " to update dead, dead_last, alive property and calculus media coordiante for items of group and tragetlist")
 														
 								if group.name == target.elements[e].name then				--if the target element is found in group table									
 									target.x = target.x + group.x							--Sum x coordinates of all elements
@@ -557,20 +557,17 @@ for side_name, side in pairs(targetlist) do													--Iterate through all si
 				-- end
 				-- local comparePos
 			
-			elseif target.class == "airbase" or target.class == "helibase" then											--target consists of aircraft on ground
-				--print("target_name: " .. target_name .. ", target.name: " .. target.name)
+			elseif target.class == "airbase" then											--target consists of aircraft on ground
 				log.trace("airbase targets class. Iterate in oob_air")
-				target.ATO = false															--remove target from ATO (gets reverted further down if there are ready planes at target airbase)				
-
+				target.ATO = false															--remove target from ATO (gets reverted further down if there are ready planes at target airbase)
+				
 				for n = 1, #oob_air[targetside] do											--iterate through enemy aviation units
 					checkBug(oob_air[targetside][n].base, "oob_air", "airbase")
-					print("oob_air[" .. targetside .. "][" .. n .. "].base: " ..  oob_air[targetside][n].base)
 					
 					if oob_air[targetside][n].base == target.name then						--aviation unit is on target base
-						log.trace("aviation unit is on target base, airbase name: " .. target.name)	
-						--print("oob_air[targetside][n].base ==  target.name: " .. target.name)					
+						log.trace("aviation unit is on target base, airbase name: " .. target.name)
 						
-						if db_airbases[target.name] then --if the target airbase has an entry in db_airbases table
+						if db_airbases[target.name] then									--if the target airbase has an entry in db_airbases table
 							target.foundOobGround = true
 							log.trace("target airbase has an entry in db_airbases table, db_airbases[" .. target.name .. "]")
 							
