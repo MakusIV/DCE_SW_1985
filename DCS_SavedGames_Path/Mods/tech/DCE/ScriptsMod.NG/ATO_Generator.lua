@@ -485,11 +485,11 @@ for side,unit in pairs(oob_air) do																								--iterate through all 
 				if active_log then log.traceLow("unit[" .. n .. "]: " .. unit[n].name .. " is playable -> insert in trackPlayability tab") end
 			end
 
-			print("unit[" .. n .. "]: " .. unit[n].name .. " is playable -> insert in trackPlayability tab")
-			print("unit[" .. n .. "]: " .. unit[n].name .. ", base exists: " .. unit[n].base)
-			print("db_airbases[unit[n].base]: " .. ( db_airbases[unit[n].base].unitname or "nil"))
+			--print("unit[" .. n .. "]: " .. unit[n].name .. " is playable -> insert in trackPlayability tab")
+			--print("unit[" .. n .. "]: " .. unit[n].name .. ", base exists: " .. unit[n].base)
+			--print("db_airbases[unit[n].base]: " .. ( db_airbases[unit[n].base].unitname or "nil"))
 
-			if db_airbases[unit[n].base] then  print("db_airbases[unit[n].base]: " .. inspect(db_airbases[unit[n].base])) end
+			--if db_airbases[unit[n].base] then  print("db_airbases[unit[n].base]: " .. inspect(db_airbases[unit[n].base])) end
 
 			if db_airbases[unit[n].base] and db_airbases[unit[n].base].inactive ~= true and db_airbases[unit[n].base].x and db_airbases[unit[n].base].y then	--base exists and is active and has a position value (carrier that exists)
 				TrackPlayability(unit[n].player, "base")																		--track playabilty criterium has been met
