@@ -23,7 +23,8 @@ prova a decommentare passo passo i trigger victory-loss
 
 
 
-IL PROBLEMA E' NELLA BASE (CVN-71) CONSIDERATA NON ATTIVA:
+IL PROBLEMA E' NELLA BASE (CVN-71) CONSIDERATA NON ATTIVA :
+perchè non ci sono le coordinate
 
 ATO_Generator 489:
 
