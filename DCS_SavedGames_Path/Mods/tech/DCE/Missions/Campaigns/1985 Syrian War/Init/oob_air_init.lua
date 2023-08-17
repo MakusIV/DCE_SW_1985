@@ -146,14 +146,8 @@ oob_air = {
 			base = "Incirlik",								--unit base
 			skill = getSkill(mission_ini.min_skill_blue_fighter, mission_ini.max_skill_blue_fighter),			--unit skill
 			tasks = {										--unit tasks
-				["CAP"] = true,
-				["Escort"] = true,
-				["Fighter Sweep"] = true,
-				["Intercept"] = true,
 				["Strike"] = true,
 				["SEAD"] = true,
-				["Anti-ship Strike"] = false,
-				["Laser Illumination"] = false,
 			},
 			tasksCoef = {									--unit tasks coef (optional)
 				["Strike"] = 1.5,							-- coef normal : = 1

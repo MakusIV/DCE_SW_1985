@@ -9035,7 +9035,7 @@ db_loadouts = {
 					["gun"] = 100,
 				},
 			},
-			["Mk-84*2 AIM-7*2 ECM role: ATTACKER @ NORMAL ALT"] = {
+			--[[["Mk-84*2 AIM-7*2 ECM role: ATTACKER @ NORMAL ALT"] = { -- Structure, Bridge
 				role = "attacker",
 				role_altitude = "normal",
 				coalition = "blue",
@@ -9095,8 +9095,8 @@ db_loadouts = {
 					["chaff"] = 60,
 					["gun"] = 100,
 				},
-			},
-			["GBU-10*2, AIM-7M*3, ECM*1, Fuel*2 role: ATTACKER @ NORMAL ALT"] = {
+			},]]
+			--[[["GBU-10*2, AIM-7M*3, ECM*1, Fuel*2 role: ATTACKER @ NORMAL ALT"] = {-- Structure, Bridge
 				role = "attacker",
 				role_altitude = "normal",
 				coalition = "blue",
@@ -9169,8 +9169,8 @@ db_loadouts = {
 					["chaff"] = 60,
 					["gun"] = 100,
 				},
-			},			
-			["ASN AGM-65D*4 AIM-7E ECM Fuel role: ATTACKER @ LOW ALT"] = {
+			},]]			
+			--[[["ASN AGM-65D*4 AIM-7E ECM Fuel role: ATTACKER @ LOW ALT"] = {-- Structure, Bridge
 				role = "attacker",
 				role_altitude = "low",
 				coalition = "blue",
@@ -9242,7 +9242,7 @@ db_loadouts = {
 					["chaff"] = 60,
 					["gun"] = 100,
 				},
-			},			
+			},]]			
 		},
 		["SEAD"] = {
 			["AGM-45*2, AIM-7M*3, ECM*1, Fuel*2 role: SEAD ESCORT FOR BOMBER @ NORMAL ALT"] = { -- verifica sono gli stessi si differenziano solo per day, night puoi lasciarne solo l'ultimo con  day e night true
