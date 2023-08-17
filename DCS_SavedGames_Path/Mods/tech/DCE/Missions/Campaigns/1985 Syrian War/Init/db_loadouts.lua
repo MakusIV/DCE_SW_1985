@@ -187,7 +187,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = true,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = 
 						{
@@ -262,7 +262,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = 
 					{
@@ -305,7 +305,7 @@ db_loadouts = {
 					["gun"] = 100,
 				},
 			},
-			["Strike - Mk-82*4, AIM-9M*2, 2*Fuel - FT role: ATTACKER @ NORMAL ALT"] = { --
+			--[[["Strike - Mk-82*4, AIM-9M*2, 2*Fuel - FT role: ATTACKER @ NORMAL ALT"] = { --
 				role = "attacker",
 				role_altitude = "normal",
 				coalition = "blue",
@@ -384,7 +384,7 @@ db_loadouts = {
 					["flare"] = 45,
 					["chaff"] = 90,
 					["gun"] = 100,
-				},
+				},]]
 			},
 		},
 		["SEAD"] = {		
@@ -413,7 +413,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = 
 						{
@@ -481,7 +481,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = 
 						{
@@ -815,7 +815,7 @@ db_loadouts = {
 				},
 			},
 
-			["Strike Bomb, Mk-82*6, Mk-84*2"] = {
+			--[[["Strike Bomb, Mk-82*6, Mk-84*2"] = { -- Strike Structure
 				minscore = 0,
 				support = {
 					["Escort"] = false,
@@ -887,7 +887,7 @@ db_loadouts = {
 						["chaff"] = 240,
 						["gun"] = 100,
 				},
-			},
+			},]]
 		},		
 	},
 
@@ -1821,7 +1821,7 @@ db_loadouts = {
 				tStation = 7200,
 				LDSD = true,
 				--- self_escort = true,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = 
 					{
@@ -2272,7 +2272,7 @@ db_loadouts = {
 				tStation = 7200,
 				LDSD = true,
 				--- self_escort = true,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = 
 						{
@@ -2677,7 +2677,7 @@ db_loadouts = {
 
 	["F-117A"] = { --1983 SI -> OK <-  
 		["Strike"] = {
-			["Pinpoint Strike  GBU-10*2"] = {
+			["Pinpoint Strike  GBU-10*2"] = { --Strike Structure
 				minscore = 0.3,
 				role = "bomber",
 				role_altitude = "low",
@@ -2723,7 +2723,7 @@ db_loadouts = {
 					["gun"] = 100,
 				},
 			},
-			["Pinpoint Hard Strike  GBU-27*2"] = { --GBU-27 1987
+			["Pinpoint Hard Strike  GBU-27*2"] = { ----Strike Structure, GBU-27 1987
 				minscore = 0.3,
 				role = "bomber",
 				role_altitude = "low",
@@ -4895,7 +4895,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = true,
-				sortie_rate = 1,
+				sortie_rate = 2,
 				stores = {
 					["pylons"] = {
 						[4] = {
@@ -4965,7 +4965,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = true,
-				sortie_rate = 1,
+				sortie_rate = 2,
 				stores = {
 					["pylons"] = {
 						[2] = 
@@ -5026,7 +5026,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = true,
-				sortie_rate = 1,
+				sortie_rate = 2,
 				stores = {
 					["pylons"] = {
 						[2] = 
@@ -5703,7 +5703,7 @@ db_loadouts = {
 
 	["B-52H"] = { --1955 SI -> OK <-  
 		["Strike"] = {
-			["Strike Mk-84*18 role: BOMBER @ HIGH ALT"] = {
+			["Strike Mk-84*18 role: BOMBER @ HIGH ALT"] = { -- Strike Structure
 				role = "bomber",
 				role_altitude = "high",
 				coalition = "blue",
@@ -5712,7 +5712,7 @@ db_loadouts = {
 					["Escort"] = true,
 					["SEAD"] = true,
 				},
-				attributes = {"Structure", "Bridge", "hard"},
+				attributes = {"Structure", "Bridge"},
 				weapons = { -- task dedicated weapons
 					["Mk-84"] = 18,															
 				},
@@ -5750,7 +5750,7 @@ db_loadouts = {
 					["gun"] = 100,
 				},
 			},
-			["Strike Mk-20 Cluster Bombs role: BOMBER @ NORMAL ALT"] = {
+			--[[["Strike Mk-20 Cluster Bombs role: BOMBER @ NORMAL ALT"] = { -- Strike CAS
 				role = "bomber",
 				role_altitude = "normal",
 				coalition = "blue",
@@ -5796,7 +5796,7 @@ db_loadouts = {
 					["chaff"] = 1125,
 					["gun"] = 100,
 				},
-			},
+			},]]
 			--[[
 			["Strike TF  AGM-86C*20"] = { --1986
 				minscore = 0.3,
@@ -7464,8 +7464,8 @@ db_loadouts = {
 			},					
 		},
 		["Escort"] = {
-			["MirageF1C_CAP_2xR550_2xR530EM_1xFuel ESCORT BOMBER @ NORMAL ALTITUDE"] = {
-				role = "escort_bomber",
+			["MirageF1C_CAP_2xR550_2xR530EM_1xFuel ESCORT ATTACKER @ NORMAL ALTITUDE"] = {
+				role = "escort_attacker",
 				role_altitude = "normal",
 				coalition = "blue",
 				attributes = {},
@@ -7489,7 +7489,7 @@ db_loadouts = {
 				tStation = 1800,
 				LDSD = false,
 				self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = 
 					{
@@ -9805,7 +9805,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = 
 						{
@@ -9955,7 +9955,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 				["pylons"] = {
 					[1] = 
@@ -9987,7 +9987,7 @@ db_loadouts = {
 						["Escort"] = false,
 						["SEAD"] = false,
 					},
-				attributes = {"soft", "armor", "SAM", "Parked Aircraft"},
+				attributes = {"armor", "SAM"},
 				weapons = { -- task dedicated weapons										
 					["Hydra-70MK1"] = 38,	-- 4xM260(7 rockets/launcher) see pylons									
 					["BGM-71"] = 8,
@@ -10040,7 +10040,7 @@ db_loadouts = {
 						["Escort"] = false,
 						["SEAD"] = false,
 					},
-				attributes = {"soft", "armor", "SAM", "Parked Aircraft"},
+				attributes = {"armor", "SAM"},
 				weapons = { -- task dedicated weapons										
 					["Hydra-70MK1"] = 14,	-- 4xM260(7 rockets/launcher) see pylons									
 					["BGM-71"] = 8,
@@ -10061,7 +10061,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = {
 						[1] = 
@@ -10113,7 +10113,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] =  {
 						[1] = 
@@ -10217,7 +10217,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 				["pylons"] = {
 					[1] = 
@@ -10241,7 +10241,7 @@ db_loadouts = {
 						["Escort"] = false,
 						["SEAD"] = false,
 					},
-				attributes = {"soft", "SAM", "armor"},
+				attributes = {"SAM", "armor"},
 				weapons = { -- task dedicated weapons										
 					["AGM-114"] = 8,	-- 4xM260(7 rockets/launcher) see pylons									
 				},
@@ -10306,7 +10306,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 				["pylons"] = {
 					[1] = 
@@ -10463,7 +10463,7 @@ db_loadouts = {
 						["Escort"] = false,
 						["SEAD"] = false,
 					},
-				attributes = {"soft", "SAM", "armor"},
+				attributes = {"soft", "SAM"},
 				weapons = { -- task dedicated weapons										
 					["AGM-114"] = 4,									
 				},
@@ -10483,7 +10483,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = 
 						{
@@ -17271,7 +17271,7 @@ db_loadouts = {
 			},
 		},
 		["Strike"] = {			
-			["IPW - Strike - FAB 500 M62*4"] = {
+			["IPW - Strike - FAB 500 M62*4"] = { --Strike Structure
 				role = "bomber",
 				role_altitude = "normal",
 				coalition = "red",
@@ -17280,7 +17280,7 @@ db_loadouts = {
 						["Escort"] = true,
 						["SEAD"] = true,
 					},
-				attributes = {"Structure", "Bridge", "SAM"},
+				attributes = {"Structure", "Bridge"},
 				weaponType = "Bombs",
 				expend = "All",
 				weapons = { -- task dedicated weapons
@@ -17327,7 +17327,7 @@ db_loadouts = {
 					["gun"] = 100,
 				},
 			},
-			["CAS Bombs FAB-250*16 R-60M*2"] = {
+			--[[["CAS Bombs FAB-250*16 R-60M*2"] = {
 				role = "bomber",
 				role_altitude = "normal",
 				coalition = "red",
@@ -17399,8 +17399,8 @@ db_loadouts = {
 					["chaff"] = 64,
 					["gun"] = 100,
 				},
-			},
-			["CAS Bombs FAB-500*6 R-60M*2"] = {
+			},]]
+			["CAS Bombs FAB-500*6 R-60M*2"] = { --Strike Structure
 				role = "bomber",
 				role_altitude = "normal",
 				coalition = "red",
@@ -17473,7 +17473,7 @@ db_loadouts = {
 					["gun"] = 100,
 				},
 			},
-			["IPW - Strike - RBK-500 PTAB-10-5*4"] = {
+			--[[["IPW - Strike - RBK-500 PTAB-10-5*4"] = {
 				role = "attacker",
 				role_altitude = "normal",
 				coalition = "red",
@@ -17528,8 +17528,8 @@ db_loadouts = {
 					["chaff"] = 60,
 					["gun"] = 100,
 				},
-			},
-			["IPW - Strike - S-13*25"] = {
+			},]]
+			--[[["IPW - Strike - S-13*25"] = {
 				role = "attacker",
 				role_altitude = "normal",
 				coalition = "red",
@@ -17584,7 +17584,7 @@ db_loadouts = {
 					["chaff"] = 60,
 					["gun"] = 100,
 				},
-			},
+			},]]
 			["IPW - Strike - S-24B*4"] = {
 				role = "attacker",
 				role_altitude = "low",
@@ -17594,7 +17594,7 @@ db_loadouts = {
 						["Escort"] = false,
 						["SEAD"] = false,
 					},
-				attributes = {"soft", "Structure"},
+				attributes = {"Structure"},
 				weaponType = "Rockets",
 				expend = "All",
 				attackType = "Dive",
@@ -17714,7 +17714,7 @@ db_loadouts = {
 					["gun"] = 100,
 				},
 			},
-			["CAS Rockets UB-32*4 (S-5 M) R-60M*2 Fuel*2"] = {
+			--[[["CAS Rockets UB-32*4 (S-5 M) R-60M*2 Fuel*2"] = {
 				role = "attacker",
 				role_altitude = "normal",
 				coalition = "red",
@@ -17786,8 +17786,8 @@ db_loadouts = {
 					["chaff"] = 60,
 					["gun"] = 100,
 				},
-			},
-			["CAS Rockets B-8*4 R-60M*2 Fuel*2"] = {
+			},]]
+			--[[["CAS Rockets B-8*4 R-60M*2 Fuel*2"] = {
 				role = "attacker",
 				role_altitude = "normal",
 				coalition = "red",
@@ -17859,8 +17859,8 @@ db_loadouts = {
 					["chaff"] = 64,
 					["gun"] = 100,
 				},
-			},
-			["CAS Bombs FAB-100*24 R-60M*2"] = {
+			},]]
+			--[[["CAS Bombs FAB-100*24 R-60M*2"] = {
 				role = "attacker",
 				role_altitude = "normal",
 				coalition = "red",
@@ -17932,7 +17932,7 @@ db_loadouts = {
 					["chaff"] = 60,
 					["gun"] = 100,
 				},
-			},
+			},]]
 			["CAS ASM Kh-25ML-MPR*4 R-60M*2 Fuel*2"] = {
 				role = "attacker",
 				role_altitude = "normal",
@@ -18505,7 +18505,7 @@ db_loadouts = {
 						["Escort"] = true,
 						["SEAD"] = true,
 				},
-				attributes = {"SAM", "Structure"},
+				attributes = {"SAM"},
 				weapons = { -- task dedicated weapons				
 					["Kh-25MR"] = 2, --??	
 					["R-60M"] = 2,										
@@ -18566,7 +18566,7 @@ db_loadouts = {
 						["Escort"] = true,
 						["SEAD"] = true,
 					},
-				attributes = {"SAM", "Structure"},
+				attributes = {"SAM"},
 				weaponType = "ASM",
 				expend = "All",
 				weapons = { -- task dedicated weapons				
@@ -18618,7 +18618,7 @@ db_loadouts = {
 					["gun"] = 100,
 				},
 			},
-			["BAI Laser KAB-500LG*2 R-60M*2 Fuel"] = {
+			--[[["BAI Laser KAB-500LG*2 R-60M*2 Fuel"] = {
 				role = "attacker",
 				role_altitude = "normal",
 				coalition = "red",
@@ -18679,7 +18679,7 @@ db_loadouts = {
 					["chaff"] = 60,
 					["gun"] = 100,
 				},
-			},
+			},]]
 			["CAS Heavy Cluster RBK-500-255*2 R-60M*2 Fuel"] = {
 				role = "attacker",
 				role_altitude = "normal",
@@ -18758,7 +18758,7 @@ db_loadouts = {
 						["Escort"] = true,
 						["SEAD"] = false,
 					},
-				attributes = {"soft"},
+				attributes = {"soft", "SAM"},
 				weaponType = "Bombs",
 				expend = "All",
 				weapons = { -- task dedicated weapons				
@@ -18948,7 +18948,7 @@ db_loadouts = {
 					["gun"] = 100,
 				},
 			},	
-			["BAI Fab-500*2 Fab-250*2 R-60M*2 Fuel"] = {
+			--[[["BAI Fab-500*2 Fab-250*2 R-60M*2 Fuel"] = {
 				role = "attacker",
 				role_altitude = "normal",
 				coalition = "red",
@@ -19017,7 +19017,7 @@ db_loadouts = {
 					["chaff"] = 60,
 					["gun"] = 100,
 				},
-			},
+			},]]
 			["Rockets CAS B-8*4/80mm heat/ap(20*4=80 rockests"] = {
 				role = "attacker",
 				role_altitude = "normal",
@@ -19082,7 +19082,7 @@ db_loadouts = {
 						["Escort"] = true,
 						["SEAD"] = false,
 					},
-				attributes = {"soft"},
+				attributes = {"soft", "SAM"},
 				weaponType = "Rockets",
 				expend = "All",
 				weapons = { -- task dedicated weapons
@@ -19138,7 +19138,7 @@ db_loadouts = {
 						["Escort"] = true,
 						["SEAD"] = false,
 					},
-				attributes = {"soft"},
+				attributes = {"soft", "SAM", "armor"},
 				weaponType = "Rockets",
 				expend = "All",
 				weapons = { -- task dedicated weapons
@@ -19581,7 +19581,6 @@ db_loadouts = {
 					["gun"] = 100,
 				},
 			},
-
 			["R-24R*1, R-24T*1, R-60M*4, Fuel escort attacker at normal altitude"] = {
 				role = "escort_attacker",
 				role_altitude = "normal",

@@ -129,12 +129,12 @@ oob_air = {
 
 
 	-------------------- Incirlik (LimitedParkNb = 120) -------------------------
-		-- 111th Squadron Panther		F-4E			12+24			Turkey
-		-- 151th Squadron Bronze		F-5E-3			12+24			Turkey
-		-- 315th Air Division 			C-130			2+4				USA
-		-- 69 BS 						B-52H			2+22			USA
-		-- 171 ARW 						KC135MPRS		6				USA
-		-- 4450th Tactical Group		F-117A			2+20			USA
+		-- 111th Squadron Panther		F-4E			12+24			Turkey			Strike-CAS, SEAD
+		-- 151th Squadron Bronze		F-5E-3			12+24			Turkey			Escort
+		-- 315th Air Division 			C-130			2+4				USA				Transport
+		-- 69 BS 						B-52H			2+22			USA				Strike-Structure
+		-- 171 ARW 						KC135MPRS		6				USA				Refueling
+		-- 4450th Tactical Group		F-117A			2+20			USA				Strike-Structure
 
 		-- 72 F/A, 46 B, 6 T, 6 R
 
@@ -179,11 +179,11 @@ oob_air = {
 			base = "Incirlik",								--unit base
 			skill = getSkill(mission_ini.min_skill_blue_attacker, mission_ini.max_skill_blue_attacker),			--unit skill
 			tasks = {										--unit tasks
-				["CAP"] = true,
+				["CAP"] = false,
 				["Escort"] = true,
-				["Fighter Sweep"] = true,
-				["Intercept"] = true,
-				["Strike"] = true,
+				["Fighter Sweep"] = false,
+				["Intercept"] = false,
+				["Strike"] = false,
 			},
 			tasksCoef = {									--unit tasks coef (optional)
 				["Strike"] = 2,								-- coef normal : = 1
@@ -297,8 +297,8 @@ oob_air = {
 	-------------------- end Incirlik ---------------------	
 
 	-------------------- Gaziantep (LimitedParkNb = 12) --------
-		-- 56th Operations Group		F-16A		12+24			USA
-		-- 173rd Fighter Group			F-15C		12+24			USA		
+		-- 56th Operations Group		F-16A		12+24			USA			CAP, Fighter Sweep
+		-- 173rd Fighter Group			F-15C		12+24			USA			CAP, Intercept
 
 		-- 36 F, 36 F/A
 
@@ -311,10 +311,10 @@ oob_air = {
 			skill = getSkill(mission_ini.min_skill_blue_attacker, mission_ini.max_skill_blue_attacker),			--unit skill
 			tasks = {		
 				["CAP"] = true,
-				["Escort"] = true,
+				["Escort"] = false,
 				["Fighter Sweep"] = true,
-				["Intercept"] = true,								--unit tasks
-				["Strike"] = true,
+				["Intercept"] = false,								--unit tasks
+				["Strike"] = false,
 				["Anti-ship Strike"] = false,
 				["SEAD"] = false,
 			},
@@ -349,8 +349,8 @@ oob_air = {
 			skill = getSkill(mission_ini.min_skill_blue_attacker, mission_ini.max_skill_blue_attacker),			--unit skill
 			tasks = {										--unit tasks
 				["CAP"] = true,
-				["Escort"] = true,
-				["Fighter Sweep"] = true,
+				["Escort"] = false,
+				["Fighter Sweep"] = false,
 				["Intercept"] = true,	
 			},
 			tasksCoef = {									--unit tasks coef (optional)
@@ -376,7 +376,7 @@ oob_air = {
 	-------------------- end Gaziantep --------	
 		
 	-------------------- Gazipasa (LimitedParkNb = 6) -------------------------
-		-- 7 ACCS					E-3A			3			USA
+		-- 7 ACCS					E-3A			3			USA			
 		-- 801 ARS					KC-135			3			USA
 
 		-- 3 AW, 3 R
@@ -419,8 +419,8 @@ oob_air = {
 	-------------------- end Gazipasa -------------------------
 
 	-------------------- Hatay (LimitedParkNb = 10) -------------------------------
-		-- F6 Karlsborg					AJS37			12+24			Sweden
-		-- 23rd FG						A-10A			12+36			USA
+		-- F6 Karlsborg					AJS37			12+24			Sweden			Anti-ship Strike, SEAD
+		-- 23rd FG						A-10A			12+36			USA				Strike CAS
 
 		-- 84 A
 		
@@ -438,7 +438,7 @@ oob_air = {
 				["Fighter Sweep"] = false, -- no loadout
 				["Intercept"] = false, -- doubt on loadout
 				["SEAD"] = true,
-				["Strike"] = true,
+				["Strike"] = false,
 				["Anti-ship Strike"] = true,
 				["Escort Jammer"] = true,
 			},
@@ -494,9 +494,9 @@ oob_air = {
 	-------------------- end Hatay -------------------------------------
 
 	-------------------- Adana Sakirpasa (LimitedParkNb = 39) -------------------------------
-		-- Escadron de Chasse 2/5 Ile-de-France				M-2000C				6+18			France				
-		-- Escadron de Chasse 1/2 Cigognes					Mirage-F1C			6+24			France
-		-- Escadron de Chasse 1/5 Vendée					Mirage-F1EE			6+24			France
+		-- Escadron de Chasse 2/5 Ile-de-France				M-2000C				6+18			France			Escort Bomber		
+		-- Escadron de Chasse 1/2 Cigognes					Mirage-F1C			6+24			France			Escort Attacker
+		-- Escadron de Chasse 1/5 Vendée					Mirage-F1EE			6+24			France			Escort Attacker
 
 		-- 84 F/A
 		
@@ -509,11 +509,11 @@ oob_air = {
 			base = "Adana Sakirpasa",					--unit base
 			skill = getSkill(mission_ini.min_skill_blue_attacker, mission_ini.max_skill_blue_attacker),			--unit skill
 			tasks = {									--unit tasks
-				["CAP"] = true, 
+				["CAP"] = false, 
 				["Escort"] = true,
-				["Fighter Sweep"] = true, 
-				["Intercept"] = true,
-				["Strike"] = true,
+				["Fighter Sweep"] = false, 
+				["Intercept"] = false,
+				["Strike"] = false,
 				["Anti-ship Strike"] = false,
 			},
 			tasksCoef = {								--unit tasks coef (optional)
@@ -545,11 +545,11 @@ oob_air = {
 			base = "Adana Sakirpasa",					--unit base
 			skill = getSkill(mission_ini.min_skill_blue_attacker, mission_ini.max_skill_blue_attacker),			--unit skill
 			tasks = {									--unit tasks
-				["CAP"] = true, 
+				["CAP"] = false, 
 				["Escort"] = true,
-				["Fighter Sweep"] = true, 
-				["Intercept"] = true,
-				["Strike"] = true,
+				["Fighter Sweep"] = false, 
+				["Intercept"] = false,
+				["Strike"] = false,
 				["Anti-ship Strike"] = false,
 			},
 			tasksCoef = {								--unit tasks coef (optional)
@@ -581,11 +581,11 @@ oob_air = {
 			base = "Adana Sakirpasa",					--unit base
 			skill = getSkill(mission_ini.min_skill_blue_attacker, mission_ini.max_skill_blue_attacker),			--unit skill
 			tasks = {									--unit tasks
-				["CAP"] = true, 
+				["CAP"] = false, 
 				["Escort"] = true,
-				["Fighter Sweep"] = true, 
-				["Intercept"] = true,
-				["Strike"] = true,
+				["Fighter Sweep"] = false, 
+				["Intercept"] = false,
+				["Strike"] = false,
 				["Anti-ship Strike"] = false,
 			},
 			tasksCoef = {								--unit tasks coef (optional)
@@ -611,9 +611,9 @@ oob_air = {
 	-------------------- end Adana Sakirpasa -------------------------------
 
 	---------------------Larnaca (LimitedParkNb = 94) --------------------------------------------
-		-- 122nd Squadron									C-101CC				6+36			Spain
-		-- Jagdbombergeschwader 33							Tornado IDS			6+24			Germany
-		-- 154 Gruppo, 6 Stormo								Tornado IDS			6+24			Italy
+		-- 122nd Squadron									C-101CC				6+36			Spain			Strike CAS, Antiship Strike
+		-- Jagdbombergeschwader 33							Tornado IDS			6+24			Germany			Strike Structure, Antiship Strike, SEAD
+		-- 154 Gruppo, 6 Stormo								Tornado IDS			6+24			Italy			Strike Structure, Antiship Strike, SEAD
 
 		-- 60 F/A, 42 A
 		
@@ -653,11 +653,13 @@ oob_air = {
 			livery = {""},					--unit livery
 			base = "Larnaca",					--unit base
 			skill = getSkill(mission_ini.min_skill_blue_attacker, mission_ini.max_skill_blue_attacker),			--unit skill
-			tasks = {									--unit tasks
+			tasks = {																							--unit tasks
+				["Anti-ship Strike"] = true,							
 				["Strike"] = true,
 				["SEAD"] = true,
 			},
 			tasksCoef = {								--unit tasks coef (optional)
+				["Anti-ship Strike"] = 2,
 				["Strike"] = 2,						-- coef normal : = 1
 				["SEAD"] = 2,			
 			},
@@ -680,11 +682,13 @@ oob_air = {
 			livery = {""},					--unit livery
 			base = "Larnaca",					--unit base
 			skill = getSkill(mission_ini.min_skill_blue_attacker, mission_ini.max_skill_blue_attacker),			--unit skill
-			tasks = {									--unit tasks				
+			tasks = {									--unit tasks			
+				["Anti-ship Strike"] = true,	
 				["Strike"] = true,
 				["SEAD"] = true,
 			},
-			tasksCoef = {								--unit tasks coef (optional)
+			tasksCoef = {
+				["Anti-ship Strike"] = 2,								--unit tasks coef (optional)
 				["Strike"] = 2,						-- coef normal : = 1
 				["SEAD"] = 2,				
 			},
@@ -703,9 +707,9 @@ oob_air = {
 	-------------------- end Larnaca -------------------------------
 
 	-------------------- Paphos (LimitedParkNb = 49) -------------------------
-		-- 152th Squadron Iron			F-5E-3			12+24			Turkey
-		-- 326th Air Division 			C-130			2+4				USA
-		-- 4453th Tactical Group		F-117A			2+20			USA
+		-- 152th Squadron Iron			F-5E-3			12+24			Turkey			Escort
+		-- 326th Air Division 			C-130			2+4				USA				Transport
+		-- 4453th Tactical Group		F-117A			2+20			USA				Strike Structure
 
 		-- 36 F/A, 22 B, 6 T
 
@@ -719,11 +723,11 @@ oob_air = {
 			base = "Paphos",								--unit base
 			skill = getSkill(mission_ini.min_skill_blue_attacker, mission_ini.max_skill_blue_attacker),			--unit skill
 			tasks = {										--unit tasks
-				["CAP"] = true,
+				["CAP"] = false,
 				["Escort"] = true,
-				["Fighter Sweep"] = true,
-				["Intercept"] = true,
-				["Strike"] = true,
+				["Fighter Sweep"] = false,
+				["Intercept"] = false,
+				["Strike"] = false,
 			},
 			tasksCoef = {									--unit tasks coef (optional)
 				["Strike"] = 2,								-- coef normal : = 1
@@ -793,9 +797,9 @@ oob_air = {
 	-------------------- end Paphos ---------------------	
 
 	-------------------- Ramat David (LimitedParkNb = 42) -------------------------------
-		-- F17 Kallinge					AJS37					12+24			Sweden
-		-- 27rd FG						A-10A					12+36			USA
-		-- 12 Gruppo, 36 Stormo			Tornado IDS				6+24			Italy
+		-- F17 Kallinge					AJS37					12+24			Sweden			Anti-ship Strike, SEAD		
+		-- 27rd FG						A-10A					12+36			USA				Strike CAS
+		-- 12 Gruppo, 36 Stormo			Tornado IDS				6+24			Italy			Strike Structure, Antiship Strike, SEAD
 
 		-- 36 F/A, 78 A
 		
@@ -813,7 +817,7 @@ oob_air = {
 				["Fighter Sweep"] = false, -- no loadout
 				["Intercept"] = false, -- doubt on loadout
 				["SEAD"] = true,
-				["Strike"] = true,
+				["Strike"] = false,
 				["Anti-ship Strike"] = true,
 				["Escort Jammer"] = true,
 			},
@@ -875,10 +879,12 @@ oob_air = {
 			skill = getSkill(mission_ini.min_skill_blue_attacker, mission_ini.max_skill_blue_attacker),			--unit skill
 			tasks = {									--unit tasks
 				["Strike"] = true,
+				["Anti-ship Strike"] = true,
 				["SEAD"] = true,
 			},
 			tasksCoef = {								--unit tasks coef (optional)
 				["Strike"] = 2,						-- coef normal : = 1
+				["Anti-ship Strike"] = 2,
 				["SEAD"] = 2,				
 			},
 			number = 6,
@@ -896,10 +902,10 @@ oob_air = {
 	-------------------- end Ramat David -------------------------------------
 			
 	-------------------- CVN-71 Theodore Roosevelt ----------------------
-		-- VF-101					F-14A-135-GR			12+36			USA
-		-- VS-29					S-3B Tanker				2+8				USA
-		-- VS-21					S-3B					4+20			USA
-		-- VAW-125					E-2C					2+4				USA
+		-- VF-101					F-14A-135-GR			12+36			USA				Intercept, CAP, Escort, Fighter Sweep, Strike
+		-- VS-29					S-3B Tanker				2+8				USA				Refueling
+		-- VS-21					S-3B					4+20			USA				Anti-ship Strike
+		-- VAW-125					E-2C					2+4				USA				AWACS
 
 		-- 48 F/A, 40 B, 10 R, 6 AW
 
@@ -975,8 +981,8 @@ oob_air = {
 			base = "CVN-71 Theodore Roosevelt",				--unit base
 			skill = getSkill(mission_ini.min_skill_blue_attacker, mission_ini.max_skill_blue_attacker),			--unit skill
 			tasks = {										--unit tasks
-				["Strike"] = true,
-				["SEAD"] = true,
+				["Strike"] = false,
+				["SEAD"] = false,
 				["Anti-ship Strike"] = true,
 			},
 			tasksCoef = {									--unit tasks coef (optional)
@@ -1023,9 +1029,10 @@ oob_air = {
 	-------------------- end CVN-71 Theodore Roosevelt ----------------------
 	
 	-------------------- CVN-72 Abraham Lincoln --------------------
-		-- VF-118/GA				F-14A-135-GR			4+16			USA
-		-- VS-31					S-3B Tanker				2+8				USA			-- VS-22					S-3B					4+36			USA
-		-- VAW-123					E-2C					3				USA
+		-- VF-118/GA				F-14A-135-GR			4+16			USA			Intercept
+		-- VS-31					S-3B Tanker				2+8				USA			Refueling
+		-- VS-22					S-3B					4+36			USA			Anti-ship Strike
+		-- VAW-123					E-2C					3				USA			AWACS
 
 		-- 20 F/A, 40 B, 10 R, 3 AW
 
@@ -1048,7 +1055,7 @@ oob_air = {
 				["Intercept"] = true,
 				["Escort"] = false,
 				["Fighter Sweep"] = false,
-				["Strike"] = true,
+				["Strike"] = false,
 				["SEAD"] = false,
 				["Anti-ship Strike"] = false,
 				["Laser Illumination"] = false,
@@ -1090,8 +1097,8 @@ oob_air = {
 			base = "CVN-72 Abraham Lincoln",				--unit base
 			skill = getSkill(mission_ini.min_skill_blue_attacker, mission_ini.max_skill_blue_attacker),			--unit skill
 			tasks = {										--unit tasks
-				["Strike"] = true,
-				["SEAD"] = true,
+				["Strike"] = false,
+				["SEAD"] = false,
 				["Anti-ship Strike"] = true,
 			},
 			number = 4,
@@ -1122,9 +1129,9 @@ oob_air = {
 	-------------------- end CVN-72 Abraham Lincoln --------------------
 
 	-------------------- Naqoura Helibase (LimitedParkNb = 9) ----------------		
-		-- 1th Army Aviation Regiment	CH-47D			4+32			Turkey
-		-- HMLA-167						AH-1W			8+40			USA
-		-- 17th Cavalry Regiment		OH-58D			8+40			UK
+		-- 1th Army Aviation Regiment	CH-47D			4+32			Turkey				Transport
+		-- HMLA-167						AH-1W			8+40			USA					Strike CAS
+		-- 17th Cavalry Regiment		OH-58D			8+40			UK					Strike CAS Soft
 		
 
 		-- 126 H
@@ -1139,7 +1146,6 @@ oob_air = {
 			skill = getSkill(mission_ini.min_skill_red_helicopter, mission_ini.max_skill_red_helicopter),			--unit skill
 			tasks = {
 				["Transport"] = true,
-				["Strike"] = false,
 			},
 			number = 4,
 		},
@@ -1162,8 +1168,7 @@ oob_air = {
 			base = "Naqoura",								--unit base
 			skill = getSkill(mission_ini.min_skill_red_helicopter, mission_ini.max_skill_red_helicopter),			--unit skill
 			tasks = {
-				["Transport"] = true,
-				["Strike"] = false,
+				["Strike"] = true,
 			},
 			number = 8,
 		},
@@ -1186,8 +1191,7 @@ oob_air = {
 			base = "Naqoura",								--unit base
 			skill = getSkill(mission_ini.min_skill_red_helicopter, mission_ini.max_skill_red_helicopter),			--unit skill
 			tasks = {
-				["Transport"] = true,
-				["Strike"] = false,
+				["Strike"] = true,
 			},
 			number = 8,
 		},
@@ -1205,8 +1209,8 @@ oob_air = {
 	-------------------- end Naquora Airbase ----------------		
 
 	-------------------- Silifke Storage FARP (LimitedParkNb = 4) -----------------
-		-- 4th Army Aviation Regiment			CH-47D			4+16			Turkey
-		-- HS-6 Indians							SH-60B			4+16			USA
+		-- 4th Army Aviation Regiment			CH-47D			4+16			Turkey				Transport			
+		-- HS-6 Indians							SH-60B			4+16			USA					Transport
 
 		-- 40 H
 
@@ -1220,7 +1224,6 @@ oob_air = {
 			skill = getSkill(mission_ini.min_skill_red_helicopter, mission_ini.max_skill_red_helicopter),			--unit skill
 			tasks = {
 				["Transport"] = true,
-				["Strike"] = false,
 			},
 			number = 4,
 		},
@@ -1244,7 +1247,6 @@ oob_air = {
 			skill = getSkill(mission_ini.min_skill_red_helicopter, mission_ini.max_skill_red_helicopter),			--unit skill
 			tasks = {
 				["Transport"] = true,
-				["Strike"] = false,
 			},
 			number = 4,
 		},
@@ -1263,8 +1265,8 @@ oob_air = {
 	-------------------- end Silifke Storage FARP -----------------
 
 	-------------------- Hatay FARP 1 (LimitedParkNb = 4) -----------------
-		-- 14th Army Aviation Regiment			CH-47D			4+16			Turkey
-		-- HMLA-177								AH-1W			8+40			USA
+		-- 14th Army Aviation Regiment			CH-47D			4+16			Turkey				Transport
+		-- HMLA-177								AH-1W			8+40			USA					Strike CAS
 
 		-- 68 H
 
@@ -1278,7 +1280,6 @@ oob_air = {
 			skill = getSkill(mission_ini.min_skill_red_helicopter, mission_ini.max_skill_red_helicopter),			--unit skill
 			tasks = {
 				["Transport"] = true,
-				["Strike"] = false,
 			},
 			number = 4,
 		},
@@ -1301,8 +1302,7 @@ oob_air = {
 			base = "FARP-Hatay FARP 1",								--unit base
 			skill = getSkill(mission_ini.min_skill_red_helicopter, mission_ini.max_skill_red_helicopter),			--unit skill
 			tasks = {
-				["Transport"] = true,
-				["Strike"] = false,
+				["Strike"] = true,
 			},
 			number = 8,
 		},
@@ -1321,8 +1321,8 @@ oob_air = {
 	-------------------- end Silifke Storage FARP -----------------
 
 	-------------------- Hatay FARP 2 (LimitedParkNb = 4) -----------------
-		-- 11th Army Aviation Regiment			CH-47D			4+16			Turkey
-		-- 18th Cavalry Regiment				OH-58D			8+40			USA
+		-- 11th Army Aviation Regiment			CH-47D			4+16			Turkey				Transport
+		-- 18th Cavalry Regiment				OH-58D			8+40			USA					Strike CAS Soft
 
 		-- 68 H
 
@@ -1336,7 +1336,6 @@ oob_air = {
 			skill = getSkill(mission_ini.min_skill_red_helicopter, mission_ini.max_skill_red_helicopter),			--unit skill
 			tasks = {
 				["Transport"] = true,
-				["Strike"] = false,
 			},
 			number = 4,
 		},
@@ -1359,8 +1358,7 @@ oob_air = {
 			base = "FARP-Hatay FARP 2",								--unit base
 			skill = getSkill(mission_ini.min_skill_red_helicopter, mission_ini.max_skill_red_helicopter),			--unit skill
 			tasks = {
-				["Transport"] = true,
-				["Strike"] = false,
+				["Strike"] = true,
 			},
 			number = 8,
 		},
@@ -1399,12 +1397,12 @@ oob_air = {
 
 
 	-------------------- Damascus (LimitedParkNb = 90) -------------------	
-		-- 790.IAP							MiG-25PD		8		Russia
-		-- 117.IAP							MiG-27K			12+24	Russia
-		-- 113.IAP							MiG-23MLD		12+24	Russia
-		-- 945 Squadron						MiG-21Bis		12+24	Syria
-		-- 3.OSAP							An-26B			6		Russia
-		-- 13.OSAP							Il-76MD			4		Russia
+		-- 790.IAP							MiG-25PD		8		Russia			Intercept
+		-- 117.IAP							MiG-27K			12+24	Russia			Strike CAS, Anti-ship Strike 
+		-- 113.IAP							MiG-23MLD		12+24	Russia			Escort
+		-- 945 Squadron						MiG-21Bis		12+24	Syria			Escort
+		-- 3.OSAP							An-26B			6		Russia			Transport
+		-- 13.OSAP							Il-76MD			4		Russia			Transport
 
 		-- 8 F, 72 F/A, 36 A, 10 T
 
@@ -1418,9 +1416,9 @@ oob_air = {
 			skill = getSkill(mission_ini.min_skill_red_fighter, mission_ini.max_skill_red_fighter),			--unit skill
 			tasks = {										--unit tasks
 				["Intercept"] = true,
-				["CAP"] = true,
+				["CAP"] = false,
 				["Escort"] = false,
-				["Fighter Sweep"] = true,
+				["Fighter Sweep"] = false,
 			},
 			tasksCoef = {									--unit tasks coef (optional).
 				["Intercept"] = 2,
@@ -1439,7 +1437,7 @@ oob_air = {
 			skill = getSkill(mission_ini.min_skill_red_attacker, mission_ini.max_skill_red_attacker),			--unit skill
 			tasks = {										--unit tasks
 				["Strike"] = true,
-				["SEAD"] = true,
+				["SEAD"] = false,
 				["Anti-ship Strike"] = true,
 			},
 			tasksCoef = {									--unit tasks coef (optional)
@@ -1468,11 +1466,11 @@ oob_air = {
 			base = "Damascus",								--unit base
 			skill = getSkill(mission_ini.min_skill_red_fighter, mission_ini.max_skill_red_fighter),			--unit skill
 			tasks = {										--unit tasks
-				["Intercept"] = true,
-				["CAP"] = true,
+				["Intercept"] = false,
+				["CAP"] = false,
 				["Escort"] = true,
-				["Fighter Sweep"] = true,
-				["Strike"] = true,				
+				["Fighter Sweep"] = false,
+				["Strike"] = false,				
 			},
 			tasksCoef = {									--unit tasks coef (optional)
 				["Strike"] = 0.2,							-- coef normal : = 1				
@@ -1502,10 +1500,10 @@ oob_air = {
 			base = "Damascus",								--unit base
 			skill = getSkill(mission_ini.min_skill_red_fighter, mission_ini.max_skill_red_fighter),			--unit skill
 			tasks = {										--unit tasks
-				["Intercept"] = true,
-				["CAP"] = true,
+				["Intercept"] = false,
+				["CAP"] = false,
 				["Escort"] = true,
-				["Fighter Sweep"] = true,
+				["Fighter Sweep"] = false,
 				["Strike"] = false,
 				["Anti-ship Strike"] = false,			
 				["SEAD"] = false,
@@ -1930,7 +1928,7 @@ oob_air = {
 			skill = getSkill(mission_ini.min_skill_red_attacker, mission_ini.max_skill_red_attacker),			--unit skill
 			tasks = {										--unit tasks
 				["Strike"] = true,
-				["Anti-ship Strike"] = true,			
+				["Anti-ship Strike"] = false,			
 				["SEAD"] = true,
 			},
 			tasksCoef = {									--unit tasks coef (optional)
