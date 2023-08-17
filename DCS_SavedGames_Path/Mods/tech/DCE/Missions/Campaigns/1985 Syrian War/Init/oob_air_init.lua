@@ -1560,9 +1560,9 @@ oob_air = {
 	-------------------- end Damascus ---------------	
 
 	-------------------- Tabqa (LimitedParkNb = 27) ----------------------
-		-- 127.IAP					MiG-27K			12+24	Russia
-		-- 123.IAP					MiG-23MLD		12+24	Russia
-		-- 2 Squadron				L-39C			12+24	Syria
+		-- 127.IAP					MiG-27K			12+24	Russia				Strike CAS, Anti-ship Strike 
+		-- 123.IAP					MiG-23MLD		12+24	Russia				Escort
+		-- 2 Squadron				L-39C			12+24	Syria				Strike CAS soft
 
 		-- 36 F/A, 72 A
 	
@@ -1575,7 +1575,7 @@ oob_air = {
 			skill = getSkill(mission_ini.min_skill_red_attacker, mission_ini.max_skill_red_attacker),			--unit skill
 			tasks = {										--unit tasks
 				["Strike"] = true,
-				["SEAD"] = true,
+				["SEAD"] = false,
 				["Anti-ship Strike"] = true,
 			},
 			tasksCoef = {									--unit tasks coef (optional)
@@ -1604,11 +1604,11 @@ oob_air = {
 			base = "Tabqa",								--unit base
 			skill = getSkill(mission_ini.min_skill_red_fighter, mission_ini.max_skill_red_fighter),			--unit skill
 			tasks = {										--unit tasks
-				["Intercept"] = true,
-				["CAP"] = true,
+				["Intercept"] = false,
+				["CAP"] = false,
 				["Escort"] = true,
-				["Fighter Sweep"] = true,				
-				["Strike"] = true,
+				["Fighter Sweep"] = false,				
+				["Strike"] = false,
 			},
 			tasksCoef = {									--unit tasks coef (optional)
 				["Strike"] = 0.5,							-- coef normal : = 1				
@@ -1639,11 +1639,11 @@ oob_air = {
 			skill = getSkill(mission_ini.min_skill_red_attacker, mission_ini.max_skill_red_attacker),			--unit skill
 			tasks = {										--unit tasks
 				["Intercept"] = false,
-				["CAP"] = true,
+				["CAP"] = false,
 				["Escort"] = false,
 				["Fighter Sweep"] = false,				
 				["Strike"] = true,
-				["Anti-ship Strike"] = true,			
+				["Anti-ship Strike"] = false,			
 			},
 			tasksCoef = {									--unit tasks coef (optional)
 				["Strike"] = 1.5,							-- coef normal : = 1				
@@ -1669,9 +1669,9 @@ oob_air = {
 	-------------------- end Tabqa ------------------
 		
 	-------------------- Abu al-Duhur (LimitedParkNb = 36) ---------------
-		-- 946 Squadron							MiG-21Bis			12+24	Syria
-		-- 793.IAP								MiG-25PD			8		Russia
-		-- 2 Guards BAP 21 th BAA				Su-24M				8+24	Russia
+		-- 946 Squadron							MiG-21Bis			12+24	Syria				Escort
+		-- 793.IAP								MiG-25PD			8		Russia				Intercept
+		-- 2 Guards BAP 21 th BAA				Su-24M				8+24	Russia				Strike Structure-armor, SEAD
 
 		-- 8 F, 36 F/A, 32 A
 
@@ -1683,10 +1683,10 @@ oob_air = {
 			base = "Abu al-Duhur",								--unit base
 			skill = getSkill(mission_ini.min_skill_red_fighter, mission_ini.max_skill_red_fighter),			--unit skill
 			tasks = {										--unit tasks
-				["Intercept"] = true,
-				["CAP"] = true,
+				["Intercept"] = false,
+				["CAP"] = false,
 				["Escort"] = true,
-				["Fighter Sweep"] = true,
+				["Fighter Sweep"] = false,
 				["Strike"] = false,
 				["Anti-ship Strike"] = false,			
 				["SEAD"] = false,
@@ -1721,9 +1721,9 @@ oob_air = {
 			skill = getSkill(mission_ini.min_skill_red_fighter, mission_ini.max_skill_red_fighter),			--unit skill
 			tasks = {										--unit tasks
 				["Intercept"] = true,
-				["CAP"] = true,
+				["CAP"] = false,
 				["Escort"] = false,
-				["Fighter Sweep"] = true,
+				["Fighter Sweep"] = false,
 			},
 			tasksCoef = {									
 				["Intercept"] = 2, --unit tasks coef (optional)-- coef normal : = 1
@@ -1744,7 +1744,7 @@ oob_air = {
 				["Strike"] = true,
 				["SEAD"] = true,
 				["Laser Illumination"] = true,
-				["Anti-ship Strike"] = true,
+				["Anti-ship Strike"] = false,
 			},
 			tasksCoef = {									--unit tasks coef (optional)
 				["Strike"] = 1.5,								-- coef normal : = 1
@@ -1767,8 +1767,8 @@ oob_air = {
 	-------------------- end Abu al-Duhur -----------
 
 	-------------------- Beirut-Rafic Hariri (LimitedParkNb = 34) ---------------
-		-- 948 Squadron							MiG-21Bis			12+24	Syria
-		-- 3 Guards BAP 21 th BAA				Su-24M				8+24	Russia
+		-- 948 Squadron							MiG-21Bis			12+24	Syria				Escort
+		-- 3 Guards BAP 21 th BAA				Su-24M				8+24	Russia				Strike Structure-armor, SEAD
 
 		-- 36 F/A, 32 A
 
@@ -1780,10 +1780,10 @@ oob_air = {
 			base = "Beirut-Rafic Hariri",								--unit base
 			skill = getSkill(mission_ini.min_skill_red_fighter, mission_ini.max_skill_red_fighter),			--unit skill
 			tasks = {										--unit tasks
-				["Intercept"] = true,
-				["CAP"] = true,
+				["Intercept"] = false,
+				["CAP"] = false,
 				["Escort"] = true,
-				["Fighter Sweep"] = true,
+				["Fighter Sweep"] = false,
 				["Strike"] = false,
 				["Anti-ship Strike"] = false,			
 				["SEAD"] = false,
@@ -1820,7 +1820,7 @@ oob_air = {
 				["Strike"] = true,
 				["SEAD"] = true,
 				["Laser Illumination"] = true,
-				["Anti-ship Strike"] = true,
+				["Anti-ship Strike"] = false,
 			},
 			tasksCoef = {									--unit tasks coef (optional)
 				["Strike"] = 1.5,								-- coef normal : = 1
@@ -1843,10 +1843,10 @@ oob_air = {
 	-------------------- end Beirut-Rafic Hariri -----------
 
 	-------------------- Bassel Al-Assad Airbase (LimitedParkNb = 53) -----
-		-- 67 Squadron					MiG-23MLD			12+24	Russia
-		-- 3 Squadron					L-39C				12+24	Syria
-		-- 677 Squadron					Su-17M4				8+24	Syria
-		-- 522 Squadron					An-26B				4		Russia
+		-- 67 Squadron					MiG-23MLD			12+24	Russia						Escort
+		-- 3 Squadron					L-39C				12+24	Syria						Strike CAS soft
+		-- 677 Squadron					Su-17M4				8+24	Syria						Strike Structure, SEAD
+		-- 522 Squadron					An-26B				4		Russia						Transport
 
 		-- 72 F/A, 31 B, 4 T
 
@@ -1858,10 +1858,10 @@ oob_air = {
 			base = "Bassel Al-Assad",						--unit base
 			skill = getSkill(mission_ini.min_skill_red_fighter, mission_ini.max_skill_red_fighter),			--unit skill
 			tasks = {										--unit tasks
-				["Intercept"] = true,
-				["CAP"] = true,
+				["Intercept"] = false,
+				["CAP"] = false,
 				["Escort"] = true,
-				["Strike"] = true,			
+				["Strike"] = false,			
 			},
 			tasksCoef = {									--unit tasks coef (optional)
 				["Strike"] = 0.3,							-- coef normal : = 1				
@@ -1892,11 +1892,11 @@ oob_air = {
 			skill = getSkill(mission_ini.min_skill_red_attacker, mission_ini.max_skill_red_attacker),			--unit skill
 			tasks = {										--unit tasks
 				["Intercept"] = false,
-				["CAP"] = true,
+				["CAP"] = false,
 				["Escort"] = false,
 				["Fighter Sweep"] = false,				
 				["Strike"] = true,
-				["Anti-ship Strike"] = true,			
+				["Anti-ship Strike"] = false,			
 			},
 			tasksCoef = {									--unit tasks coef (optional)
 				["Strike"] = 1.5,							-- coef normal : = 1				
@@ -1973,10 +1973,10 @@ oob_air = {
 	-------------------- end Bassel Al-Assad Airbase -
 
 	-------------------- Hama Airbase (LimitedParkNb = 46) ----------------
-		-- 368 ShAP						Su-25			12+24		Russia
-		-- 133.IAP						MiG-29A			4+12		Russia
-		-- 3 BAP 149th BAA				Su-24M			8+24 		Russia
-		-- 27.OSAP						An-26B			6			Russia
+		-- 368 ShAP						Su-25			12+24		Russia					Strike CAS, SEAD
+		-- 133.IAP						MiG-29A			4+12		Russia					CAP
+		-- 3 BAP 149th BAA				Su-24M			8+24 		Russia					Strike Structure-armor, SEAD
+		-- 27.OSAP						An-26B			6			Russia					Transport
 
 		-- 16 F, 68 A, 6 T
 		
@@ -2021,8 +2021,8 @@ oob_air = {
 			tasks = {										--unit tasks
 				["Intercept"] = false,
 				["CAP"] = true,
-				["Escort"] = true,
-				["Fighter Sweep"] = true,
+				["Escort"] = false,
+				["Fighter Sweep"] = false,
 				["Strike"] = false,
 			},
 			tasksCoef = {									--unit tasks coef (optional)
@@ -2055,7 +2055,7 @@ oob_air = {
 				["Strike"] = true,
 				["SEAD"] = true,
 				["Laser Illumination"] = true,
-				["Anti-ship Strike"] = true,
+				["Anti-ship Strike"] = false,
 			},
 			tasksCoef = {									--unit tasks coef (optional)
 				["Strike"] = 1.3,							-- coef normal : = 1
@@ -2090,9 +2090,9 @@ oob_air = {
 	-------------------- end Hama Airbase ----------------
 
 	-------------------- Palmyra Airbase (LimitedParkNb = 22)----------------
-		-- 2.OSAP									An-26B		6			Russia
-		-- 402nd Heavy Bomber Aviation Regiment		Tu-22M3		3+15 		Russia
-		-- 159.IAP									Su-27		8+24 		Russia				
+		-- 2.OSAP									An-26B		6			Russia				Transport
+		-- 402nd Heavy Bomber Aviation Regiment		Tu-22M3		3+15 		Russia				Strike Structure, Anti-ship Strike
+		-- 159.IAP									Su-27		8+24 		Russia				CAP, Fighter Sweep				
 
 		-- 32 F, 18 B, 6 T
 
@@ -2142,9 +2142,10 @@ oob_air = {
 			base = "Palmyra",						--unit base
 			skill = getSkill(mission_ini.min_skill_red_fighter, mission_ini.max_skill_red_fighter),			--unit skill
 			tasks = {										--unit tasks
-				["Intercept"] = true,
+				["Intercept"] = false,
 				["CAP"] = true,
-				["Escort"] = true,
+				["Fighter Sweep"] = true,
+				["Escort"] = false,
 				["Strike"] = false,			
 			},
 			tasksCoef = {									--unit tasks coef (optional)
@@ -2169,8 +2170,8 @@ oob_air = {
 	-------------------- end Palmyra Airbase ----------------
 
 	-------------------- An Nasiriyah Airbase (LimitedParkNb = 20) ----------------
-		-- 373 ShAP						Su-25			12+24 		Russia
-		-- 764.IAP						MiG-31			2+10 		Russia
+		-- 373 ShAP						Su-25			12+24 		Russia					Strike CAS, SEAD
+		-- 764.IAP						MiG-31			2+10 		Russia					Intercept
 
 		-- 12 F, 36 A
 
@@ -2183,7 +2184,7 @@ oob_air = {
 			skill = getSkill(mission_ini.min_skill_red_attacker, mission_ini.max_skill_red_attacker),			--unit skill
 			tasks = {										--unit tasks
 				["Strike"] = true,
-				["Anti-ship Strike"] = true,			
+				["Anti-ship Strike"] = false,			
 				["SEAD"] = true,
 				["Flare Illumination"] = true
 			},
@@ -2214,9 +2215,9 @@ oob_air = {
 			skill = getSkill(mission_ini.min_skill_red_fighter, mission_ini.max_skill_red_fighter),			--unit skill
 			tasks = {										--unit tasks
 				["Intercept"] = true,
-				["CAP"] = true,
+				["CAP"] = false,
 				["Escort"] = false,
-				["Fighter Sweep"] = true,
+				["Fighter Sweep"] = false,
 			},
 			tasksCoef = {									
 				["Intercept"] = 2, --unit tasks coef (optional)-- coef normal : = 1
@@ -2240,12 +2241,12 @@ oob_air = {
 	-------------------- end An Nasiriyah Airbase ------------
 
 	-------------------- Deir ez-Zor Airbase (LimitedParkNb = 90)----------------
-		-- 132nd Heavy Bomber Aviation Regiment		Tu-22M3			2+8 		Russia
-		-- 797.IAP									Su-27			6+18 		Russia
-		-- 2457 SDRLO								A-50			4 			Russia
-		-- O7 SDRLO									Su-24MR			4 			Russia
-		-- 4 Guards BAP 132nd BAA					Su-24M			6+24		Russia
-		-- 23.OSAP									An-26B			1+3 		Russia	
+		-- 132nd Heavy Bomber Aviation Regiment		Tu-22M3			2+8 		Russia				Strike Structure, Anti-ship Strike
+		-- 797.IAP									Su-27			6+18 		Russia				CAP, Fighter Sweep
+		-- 2457 SDRLO								A-50			4 			Russia				AWACS
+		-- O7 SDRLO									Su-24MR			4 			Russia				Recognition
+		-- 4 Guards BAP 132nd BAA					Su-24M			6+24		Russia				Strike Structure-armor, SEAD
+		-- 23.OSAP									An-26B			1+3 		Russia				Transport
 
 		-- 24 F, 30 A, 10 B, 4 R, 4 AW, 1+3 T
 
@@ -2283,9 +2284,10 @@ oob_air = {
 			base = "Deir ez-Zor",						--unit base
 			skill = getSkill(mission_ini.min_skill_red_fighter, mission_ini.max_skill_red_fighter),			--unit skill
 			tasks = {										--unit tasks
-				["Intercept"] = true,
+				["Intercept"] = false,
 				["CAP"] = true,
-				["Escort"] = true,
+				["Fighter Sweep"] = true,
+				["Escort"] = false,
 				["Strike"] = false,			
 			},
 			tasksCoef = {									--unit tasks coef (optional)
@@ -2345,7 +2347,7 @@ oob_air = {
 				["Strike"] = true,
 				["SEAD"] = true,
 				["Laser Illumination"] = true,
-				["Anti-ship Strike"] = true,
+				["Anti-ship Strike"] = false,
 			},
 			tasksCoef = {									--unit tasks coef (optional)
 				["Strike"] = 2,								-- coef normal : = 1
@@ -2389,14 +2391,14 @@ oob_air = {
 	-------------------- end Deir ez-Zor Airbase ----------------
 
 	-------------------- Sayqal Airbase/Helibase (LimitedParkNb = 59) ----------------
-		-- 267 ShAP						Su-25				6+24			Russia
-		-- 133.IAP						MiG-29A				6+24 			Russia		
-		-- 27.OSAP						An-26B				1+4				Russia
-		-- 09 SDRLO						MiG-25RBT			4				Russia			
-		-- 81st TFS						F-14A				4+24			Iran
-		-- 1st GHR						Mi-8MT				6+24			Russia
-		-- 3rd GHR						Mi-26				3+12			Russia
-		-- 15th Squadron				SA342M				6+24			Lebanon
+		-- 267 ShAP						Su-25				6+24			Russia				Strike CAS, SEAD
+		-- 133.IAP						MiG-29A				6+24 			Russia				CAP
+		-- 27.OSAP						An-26B				1+4				Russia				Transport
+		-- 09 SDRLO						MiG-25RBT			4				Russia				Recognition, AWACS
+		-- 81st TFS						F-14A				4+24			Iran				Intercept
+		-- 1st GHR						Mi-8MT				6+24			Russia				Strike CAS Soft
+		-- 3rd GHR						Mi-26				3+12			Russia				Transport
+		-- 15th Squadron				SA342M				6+24			Lebanon				Strike CAS Soft
 
 		-- 58 F, 30 A, 1+5 T, 75 H
 
@@ -2411,7 +2413,7 @@ oob_air = {
 			tasks = {										--unit tasks
 				["Strike"] = true,
 				["SEAD"] = true,
-				["Anti-ship Strike"] = true,
+				["Anti-ship Strike"] = false,
 				["Flare Illumination"] = true
 			},
 			tasksCoef = {									--unit tasks coef (optional)
@@ -2442,8 +2444,8 @@ oob_air = {
 			tasks = {										--unit tasks
 				["Intercept"] = false,
 				["CAP"] = true,
-				["Escort"] = true,
-				["Fighter Sweep"] = true,
+				["Escort"] = false,
+				["Fighter Sweep"] = false,
 				["Strike"] = false,
 			},
 			tasksCoef = {									--unit tasks coef (optional)
@@ -2509,9 +2511,9 @@ oob_air = {
 			base = "Sayqal",							--unit base
 			skill = getSkill(mission_ini.min_skill_red_fighter, mission_ini.max_skill_red_fighter),			--unit skill
 			tasks = {									--unit tasks
-				["Intercept"] = false,
-				["CAP"] = true,
-				["Escort"] = true,
+				["Intercept"] = true,
+				["CAP"] = false,
+				["Escort"] = false,
 				["Fighter Sweep"] = true,
 				["Strike"] = false,
 			},
@@ -2543,7 +2545,7 @@ oob_air = {
 			base = "Sayqal", 						--unit base
 			skill = getSkill(mission_ini.min_skill_red_helicopter, mission_ini.max_skill_red_helicopter),			--unit skill
 			tasks = {
-				["Transport"] = true,
+				["Transport"] = false,
 				["Strike"] = true,
 			},
 			number = 6,
@@ -2568,7 +2570,6 @@ oob_air = {
 			skill = getSkill(mission_ini.min_skill_red_helicopter, mission_ini.max_skill_red_helicopter),			--unit skill
 			tasks = {
 				["Transport"] = true,
-				["Strike"] = false,
 			},
 			number = 3,
 		},
@@ -2591,7 +2592,7 @@ oob_air = {
 			base = "Sayqal",								--unit base
 			skill = getSkill(mission_ini.min_skill_red_helicopter, mission_ini.max_skill_red_helicopter),			--unit skill
 			tasks = {
-				["Transport"] = true,
+				["Transport"] = false,
 				["Strike"] = true,
 			},
 			number = 6,
