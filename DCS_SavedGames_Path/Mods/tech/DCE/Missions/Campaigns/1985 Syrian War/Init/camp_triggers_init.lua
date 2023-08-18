@@ -90,7 +90,7 @@ camp_triggers = {
 	["Campaign End Victory 2 (Fighter + Fighter-Bomber < 20%)"] = {
 		active = true,
 		once = true,
-		condition = 'Return.AirUnitReady("790.IAP") + Return.AirUnitReady("113.IAP") + Return.AirUnitReady("945 Squadron") + Return.AirUnitReady("123.IAP") + Return.AirUnitReady("945 Squadron") + Return.AirUnitReady("793.IAP") + Return.AirUnitReady("948 Squadron") + Return.AirUnitReady("67 Squadron") + Return.AirUnitReady("137.IAP") + Return.AirUnitReady("764.IAP") + Return.AirUnitReady("797.IAP") + Return.AirUnitReady("159.IAP") + Return.AirUnitReady("81st TFS") + Return.AirUnitReady("37 Squadron") < 8',
+		condition = 'Return.AirUnitReady("790.IAP") + Return.AirUnitReady("113.IAP") + Return.AirUnitReady("123.IAP") + + Return.AirUnitReady("948 Squadron") + Return.AirUnitReady("67 Squadron") + Return.AirUnitReady("137.IAP") + Return.AirUnitReady("764.IAP") + Return.AirUnitReady("797.IAP") + Return.AirUnitReady("159.IAP") + Return.AirUnitReady("81st TFS") + Return.AirUnitReady("37 Squadron") < 8',
 		action = {
 			[1] = 'Action.CampaignEnd("win")',
 			[2] = 'Action.Text("Syrian coalition fighter planes have been annihilated. After repeated air strikes and disastrous losses in air-air combat (aircraft losses are bigger of 80%), the Syrian coalition is not longer able to produce any sorties or offer any resistance. The The USA and Nato countries now owns complete air superiority. With the disappearance of the air threat, the role of the F-14A Tomcat in this war comes to an end. Once again the victorious Tomcat has proved to be to leading fighter in the world. Well done.")',
@@ -102,7 +102,7 @@ camp_triggers = {
 	["Campaign End Victory 3 (Attacker + Bomber < 20%)"] = {
 		active = true,
 		once = true,
-		condition = 'Return.AirUnitReady("117.IAP") + Return.AirUnitReady("127.IAP") + Return.AirUnitReady("2 Squadron") + Return.AirUnitReady("127.IAP") + Return.AirUnitReady("2 Guards BAP 21 th BAA") + Return.AirUnitReady("3 Guards BAP 21 th BAA") + Return.AirUnitReady("3 Squadron") + Return.AirUnitReady("677 Squadron") + Return.AirUnitReady("368 ShAP")  + Return.AirUnitReady("3 BAP 149th BAA")  + Return.AirUnitReady("402nd Heavy Bomber Aviation Regiment") + Return.AirUnitReady("373 ShAP") + Return.AirUnitReady("4 Guards BAP 132nd BAA") + Return.AirUnitReady("132nd Heavy Bomber Aviation Regiment") + Return.AirUnitReady("267 ShAP") + Return.AirUnitReady("7 Squadron") + Return.AirUnitReady("637 Squadron") + Return.AirUnitReady("11 Squadron") < 10',
+		condition = 'Return.AirUnitReady("117.IAP") + Return.AirUnitReady("127.IAP") + Return.AirUnitReady("127.IAP") + Return.AirUnitReady("2 Guards BAP 21 th BAA") + Return.AirUnitReady("3 Squadron") + Return.AirUnitReady("677 Squadron") + Return.AirUnitReady("368 ShAP")  + Return.AirUnitReady("3 BAP 149th BAA")  + Return.AirUnitReady("402nd Heavy Bomber Aviation Regiment") + Return.AirUnitReady("373 ShAP") + Return.AirUnitReady("4 Guards BAP 132nd BAA") + Return.AirUnitReady("132nd Heavy Bomber Aviation Regiment") + Return.AirUnitReady("267 ShAP") + Return.AirUnitReady("637 Squadron") + Return.AirUnitReady("11 Squadron") < 10',
 		action = {
 			[1] = 'Action.CampaignEnd("win")',
 			[2] = 'Action.Text("Syrian coalition Attacker and Bomber planes have been annihilated. After repeated air strikes and disastrous losses (aircraft losses are bigger of 80%), the Syrian coalition is not longer able to produce any sorties or offer any resistance. The USA and Nato countries now owns complete ground invasion. With the disappearance of the air threat, the role of the F-14A Tomcat in this war comes to an end. Once again the victorious Tomcat has proved to be to leading fighter in the world. Well done.")',
@@ -114,7 +114,7 @@ camp_triggers = {
 	["Campaign End Victory 4 (Fighter + Fighter-Bomber < 30% and Attacker + Bomber < 40%)"] = {
 		active = true,
 		once = true,
-		condition = '( Return.AirUnitReady("790.IAP") + Return.AirUnitReady("113.IAP") + Return.AirUnitReady("945 Squadron") + Return.AirUnitReady("123.IAP") + Return.AirUnitReady("945 Squadron") + Return.AirUnitReady("793.IAP") + Return.AirUnitReady("948 Squadron") + Return.AirUnitReady("67 Squadron") + Return.AirUnitReady("137.IAP") + Return.AirUnitReady("764.IAP") + Return.AirUnitReady("797.IAP") + Return.AirUnitReady("159.IAP") + Return.AirUnitReady("81st TFS") + Return.AirUnitReady("37 Squadron") < 5 ) and ( Return.AirUnitReady("117.IAP") + Return.AirUnitReady("127.IAP") + Return.AirUnitReady("2 Squadron") + Return.AirUnitReady("127.IAP") + Return.AirUnitReady("2 Guards BAP 21 th BAA") + Return.AirUnitReady("3 Guards BAP 21 th BAA") + Return.AirUnitReady("3 Squadron") + Return.AirUnitReady("677 Squadron") + Return.AirUnitReady("368 ShAP")  + Return.AirUnitReady("3 BAP 149th BAA")  + Return.AirUnitReady("402nd Heavy Bomber Aviation Regiment") + Return.AirUnitReady("373 ShAP") + Return.AirUnitReady("4 Guards BAP 132nd BAA") + Return.AirUnitReady("132nd Heavy Bomber Aviation Regiment") + Return.AirUnitReady("267 ShAP") + Return.AirUnitReady("7 Squadron") + Return.AirUnitReady("637 Squadron") + Return.AirUnitReady("11 Squadron") < 10 )',
+		condition = '( Return.AirUnitReady("790.IAP") + Return.AirUnitReady("113.IAP") + Return.AirUnitReady("123.IAP") + Return.AirUnitReady("948 Squadron") + Return.AirUnitReady("67 Squadron") + Return.AirUnitReady("137.IAP") + Return.AirUnitReady("764.IAP") + Return.AirUnitReady("797.IAP") + Return.AirUnitReady("159.IAP") + Return.AirUnitReady("81st TFS") + Return.AirUnitReady("37 Squadron") < 5 ) and ( Return.AirUnitReady("117.IAP") + Return.AirUnitReady("127.IAP") + Return.AirUnitReady("127.IAP") + Return.AirUnitReady("2 Guards BAP 21 th BAA") + Return.AirUnitReady("3 Squadron") + Return.AirUnitReady("677 Squadron") + Return.AirUnitReady("368 ShAP")  + Return.AirUnitReady("3 BAP 149th BAA")  + Return.AirUnitReady("402nd Heavy Bomber Aviation Regiment") + Return.AirUnitReady("373 ShAP") + Return.AirUnitReady("4 Guards BAP 132nd BAA") + Return.AirUnitReady("132nd Heavy Bomber Aviation Regiment") + Return.AirUnitReady("267 ShAP") + Return.AirUnitReady("637 Squadron") + Return.AirUnitReady("11 Squadron") < 10 )',
 		action = {
 			[1] = 'Action.CampaignEnd("win")',
 			[2] = 'Action.Text("Syrian coalition Air Force is in ruins. After repeated air strikes and disastrous losses in air-air combat (aircraft losses are bigger 70% for Fighter and 60% for Bomber), the Syrian coalition is not longer able to offer any resistance. The Usa and Nato countries now owns complete ground invasion. With the disappearance of the air threat, the role of the F-14A Tomcat in this war comes to an end. Once again the victorious Tomcat has proved to be to leading fighter in the world. Well done.")',
@@ -187,7 +187,7 @@ camp_triggers = {
 	["Campaign End Loss 4 (Fighter + Fighter-Bomber < 20%)"] = {
 		active = true,
 		once = true,
-		condition = 'Return.AirUnitReady("111th Squadron Panther") + Return.AirUnitReady("151th Squadron Bronze") + Return.AirUnitReady("56th Operations Group") + Return.AirUnitReady("173rd Fighter Group") + Return.AirUnitReady("F6 Karlsborg") + Return.AirUnitReady("Escadron de Chasse 2/5 Ile-de-France") + Return.AirUnitReady("Escadron de Chasse 1/2 Cigognes") + Return.AirUnitReady("Escadron de Chasse 1/5 Vendée") + Return.AirUnitReady("Jagdbombergeschwader 33") + Return.AirUnitReady("154 Gruppo, 6 Stormo") + Return.AirUnitReady("152th Squadron Iron") + Return.AirUnitReady("F17 Kallinge") + Return.AirUnitReady("12 Gruppo, 36 Stormo") + Return.AirUnitReady("VF-101") + Return.AirUnitReady("VF-118/GA") < 8',
+		condition = 'Return.AirUnitReady("111th Squadron Panther") + Return.AirUnitReady("151th Squadron Bronze") + Return.AirUnitReady("56th Operations Group") + Return.AirUnitReady("173rd Fighter Group") + Return.AirUnitReady("F6 Karlsborg") + Return.AirUnitReady("Escadron de Chasse 2/5 Ile-de-France") + Return.AirUnitReady("Escadron de Chasse 1/2 Cigognes") + Return.AirUnitReady("Jagdbombergeschwader 33") + Return.AirUnitReady("154 Gruppo, 6 Stormo") + Return.AirUnitReady("152th Squadron Iron") + Return.AirUnitReady("12 Gruppo, 36 Stormo") + Return.AirUnitReady("VF-101") + Return.AirUnitReady("VF-118/GA") < 8',
 		action = {
 			[1] = 'Action.CampaignEnd("win")',
 			[2] = 'Action.Text("The USA Air Force is in ruins. After repeated air strikes and disastrous losses (Fighter losses > 80% ) in air-air combat, USA and Nato Countries are no longer able to produce any sorties or offer any resistance.")',
@@ -199,7 +199,7 @@ camp_triggers = {
 	["Campaign End Loss 5 (Attacker + Bomber < 20%)"] = {
 		active = true,
 		once = true,
-		condition = 'Return.AirUnitReady("69 BS") + Return.AirUnitReady("4450th Tactical Group") + Return.AirUnitReady("23rd FG") + Return.AirUnitReady("122nd Squadron") + Return.AirUnitReady("4453th Tactical Group") + Return.AirUnitReady("27rd FG") + Return.AirUnitReady("VS-21") + Return.AirUnitReady("VS-22") < 10',
+		condition = 'Return.AirUnitReady("69 BS") + Return.AirUnitReady("4450th Tactical Group") + Return.AirUnitReady("23rd FG") + Return.AirUnitReady("122nd Squadron") + Return.AirUnitReady("4453th Tactical Group") + Return.AirUnitReady("27rd FG") + Return.AirUnitReady("VS-21") + < 10',
 		action = {
 			[1] = 'Action.CampaignEnd("win")',
 			[2] = 'Action.Text("The USA Air Force is in ruins. After repeated air strikes and disastrous losses (Attacker and Bomber losses > 80% )in air-air combat, USA and Nato Countries are no longer able to produce any sorties or offer any resistance.")',
@@ -211,7 +211,7 @@ camp_triggers = {
 	["Campaign End Loss 6 (Fighter + Fighter-Bomber < 30% and Attacker + Bomber < 40%)"] = {
 		active = true,
 		once = true,
-		condition = '( Return.AirUnitReady("111th Squadron Panther") + Return.AirUnitReady("151th Squadron Bronze") + Return.AirUnitReady("56th Operations Group") + Return.AirUnitReady("173rd Fighter Group") + Return.AirUnitReady("F6 Karlsborg") + Return.AirUnitReady("Escadron de Chasse 2/5 Ile-de-France") + Return.AirUnitReady("Escadron de Chasse 1/2 Cigognes") + Return.AirUnitReady("Escadron de Chasse 1/5 Vendée") + Return.AirUnitReady("Jagdbombergeschwader 33") + Return.AirUnitReady("154 Gruppo, 6 Stormo") + Return.AirUnitReady("152th Squadron Iron") + Return.AirUnitReady("F17 Kallinge") + Return.AirUnitReady("12 Gruppo, 36 Stormo") + Return.AirUnitReady("VF-101") + Return.AirUnitReady("VF-118/GA") < 10 ) and ( Return.AirUnitReady("69 BS") + Return.AirUnitReady("4450th Tactical Group") + Return.AirUnitReady("23rd FG") + Return.AirUnitReady("122nd Squadron") + Return.AirUnitReady("4453th Tactical Group") + Return.AirUnitReady("27rd FG") + Return.AirUnitReady("VS-21") + Return.AirUnitReady("VS-22") < 8 )',
+		condition = '( Return.AirUnitReady("111th Squadron Panther") + Return.AirUnitReady("151th Squadron Bronze") + Return.AirUnitReady("56th Operations Group") + Return.AirUnitReady("173rd Fighter Group") + Return.AirUnitReady("F6 Karlsborg") + Return.AirUnitReady("Escadron de Chasse 2/5 Ile-de-France") + Return.AirUnitReady("Escadron de Chasse 1/2 Cigognes") + Return.AirUnitReady("Jagdbombergeschwader 33") + Return.AirUnitReady("154 Gruppo, 6 Stormo") + Return.AirUnitReady("152th Squadron Iron") + Return.AirUnitReady("12 Gruppo, 36 Stormo") + Return.AirUnitReady("VF-101") + Return.AirUnitReady("VF-118/GA") < 10 ) and ( Return.AirUnitReady("69 BS") + Return.AirUnitReady("4450th Tactical Group") + Return.AirUnitReady("23rd FG") + Return.AirUnitReady("122nd Squadron") + Return.AirUnitReady("4453th Tactical Group") + Return.AirUnitReady("27rd FG") + Return.AirUnitReady("VS-21") + Return.AirUnitReady("VS-22") < 8 )',
 		action = {
 			[1] = 'Action.CampaignEnd("win")',
 			[2] = 'Action.Text("The USA Air Force is in ruins. After repeated air strikes and disastrous losses (Fighter loss > 70% and Attacker-Bomber loss > 60% ) in air-air combat, USA and Nato Countries are no longer able to produce any sorties or offer any resistance.")',
@@ -512,17 +512,17 @@ camp_triggers = {
 	["Reinforce 111th Squadron Panther"] = {
 		active = true,
 		condition = 'true',
-		action = 'Action.AirUnitReinforce("R/111th Squadron Panther", "111th Squadron Panther", 6)',
+		action = 'Action.AirUnitReinforce("R/111th Squadron Panther", "111th Squadron Panther", 4)',
 	},
 	["Reinforce 151th Squadron Bronze"] = {
 		active = true,
 		condition = 'true',
-		action = 'Action.AirUnitReinforce("R/151th Squadron Bronze", "151th Squadron Bronze", 6)',
+		action = 'Action.AirUnitReinforce("R/151th Squadron Bronze", "151th Squadron Bronze", 4)',
 	},
 	["Reinforce 315th Air Division"] = {
 		active = true,
 		condition = 'true',
-		action = 'Action.AirUnitReinforce("R/315th Air Division", "315th Air Division", 4)',
+		action = 'Action.AirUnitReinforce("R/315th Air Division", "315th Air Division", 2)',
 	},
 	["Reinforce 69 BS"] = {
 		active = true,
@@ -532,7 +532,7 @@ camp_triggers = {
 	["Reinforce 171 ARW"] = {
 		active = true,
 		condition = 'true',
-		action = 'Action.AirUnitReinforce("R/171 ARW", "171 ARW", 3)',
+		action = 'Action.AirUnitReinforce("R/171 ARW", "171 ARW", 2)',
 	},	
 	["Reinforce 4450th Tactical Group"] = {
 		active = true,
@@ -542,12 +542,12 @@ camp_triggers = {
 	["Reinforce 56th Operations Group"] = {
 		active = true,
 		condition = 'true',
-		action = 'Action.AirUnitReinforce("R/56th Operations Group", "56th Operations Group", 6)',
+		action = 'Action.AirUnitReinforce("R/56th Operations Group", "56th Operations Group", 4)',
 	},	
 	["Reinforce 173rd Fighter Group"] = {
 		active = true,
 		condition = 'true',
-		action = 'Action.AirUnitReinforce("R/173rd Fighter Group", "173rd Fighter Group", 6)',
+		action = 'Action.AirUnitReinforce("R/173rd Fighter Group", "173rd Fighter Group", 4)',
 	},
 	["Reinforce 7 ACCS"] = {
 		active = true,
@@ -562,23 +562,23 @@ camp_triggers = {
 	["Reinforce F6 Karlsborg"] = {
 		active = true,
 		condition = 'true',
-		action = 'Action.AirUnitReinforce("R/F6 Karlsborg", "F6 Karlsborg", 6)',
+		action = 'Action.AirUnitReinforce("R/F6 Karlsborg", "F6 Karlsborg", 4)',
 	},	
 	["Reinforce 23rd FG"] = {
 		active = true,
 		condition = 'true',
-		action = 'Action.AirUnitReinforce("R/23rd FG", "23rd FG", 6)',
+		action = 'Action.AirUnitReinforce("R/23rd FG", "23rd FG", 4)',
 	},
 	["Reinforce Escadron de Chasse 2/5 Ile-de-France"] = {
 		active = true,
 		condition = 'true',
 		action = 'Action.AirUnitReinforce("R/Escadron de Chasse 2/5 Ile-de-France", "Escadron de Chasse 2/5 Ile-de-France", 4)',
 	},
-	["Reinforce Escadron de Chasse 1/5 Vendée"] = {
+	--[[["Reinforce Escadron de Chasse 1/5 Vendée"] = {
 		active = true,
 		condition = 'true',
 		action = 'Action.AirUnitReinforce("R/Escadron de Chasse 1/5 Vendée", "Escadron de Chasse 1/5 Vendée", 4)',
-	},
+	},]]
 	["Reinforce Escadron de Chasse 1/2 Cigognes"] = {
 		active = true,
 		condition = 'true',
@@ -602,7 +602,7 @@ camp_triggers = {
 	["Reinforce152th Squadron Iron"] = {
 		active = true,
 		condition = 'true',
-		action = 'Action.AirUnitReinforce("R/152th Squadron Iron", "152th Squadron Iron", 6)',
+		action = 'Action.AirUnitReinforce("R/152th Squadron Iron", "152th Squadron Iron", 4)',
 	},
 	["Reinforce 326th Air Division"] = {
 		active = true,
@@ -614,15 +614,15 @@ camp_triggers = {
 		condition = 'true',
 		action = 'Action.AirUnitReinforce("R/4453th Tactical Group", "4453th Tactical Group", 2)',
 	},
-	["Reinforce F17 Kallinge"] = {
+	--[[["Reinforce F17 Kallinge"] = {
 		active = true,
 		condition = 'true',
 		action = 'Action.AirUnitReinforce("R/F17 Kallinge", "F17 Kallinge", 6)',
-	},
+	},]]
 	["Reinforce 27rd FG"] = {
 		active = true,
 		condition = 'true',
-		action = 'Action.AirUnitReinforce("R/27rd FG", "27rd FG", 6)',
+		action = 'Action.AirUnitReinforce("R/27rd FG", "27rd FG", 4)',
 	},
 	["Reinforce 12 Gruppo, 36 Stormo"] = {
 		active = true,
@@ -632,7 +632,7 @@ camp_triggers = {
 	["Reinforce VF-101"] = {
 		active = true,
 		condition = 'true',
-		action = 'Action.AirUnitReinforce("R/VF-101", "VF-101", 6)',
+		action = 'Action.AirUnitReinforce("R/VF-101", "VF-101", 4)',
 	},
 	["Reinforce VS-29"] = {
 		active = true,
@@ -647,24 +647,24 @@ camp_triggers = {
 	["Reinforce VAW-125"] = {
 		active = true,
 		condition = 'true',
-		action = 'Action.AirUnitReinforce("R/VAW-125", "VAW-125", 2)',
+		action = 'Action.AirUnitReinforce("R/VAW-125", "VAW-125", 1)',
 	},		
 	["Reinforce VF-118/GA"] = {
 		active = true,
 		condition = 'true',
-		action = 'Action.AirUnitReinforce("R/VF-118/GA", "VF-118/GA", 6)',
+		action = 'Action.AirUnitReinforce("R/VF-118/GA", "VF-118/GA", 4)',
 	},
-	["Reinforce VS-22"] = {
+	--[[["Reinforce VS-22"] = {
 		active = true,
 		condition = 'true',
 		action = 'Action.AirUnitReinforce("R/VS-22", "VS-22", 2)',
-	},
-	["Reinforce VAW-123"] = {
+	},]]
+	--[[["Reinforce VAW-123"] = {
 		active = true,
 		condition = 'true',
 		action = 'Action.AirUnitReinforce("R/VAW-123", "VAW-123", 2)',
 
-	},
+	},]]
 	["Reinforce 1th Army Aviation Regiment"] = {
 		active = true,
 		condition = 'true',
@@ -673,19 +673,19 @@ camp_triggers = {
 	["Reinforce HMLA-167"] = {
 		active = true,
 		condition = 'true',
-		action = 'Action.AirUnitReinforce("R/HMLA-167", "HMLA-167", 6)',
+		action = 'Action.AirUnitReinforce("R/HMLA-167", "HMLA-167", 4)',
 	},
 	["Reinforce17th Cavalry Regiment"] = {
 		active = true,
 		condition = 'true',
-		action = 'Action.AirUnitReinforce("R/17th Cavalry Regiment", "17th Cavalry Regiment", 6)',
+		action = 'Action.AirUnitReinforce("R/17th Cavalry Regiment", "17th Cavalry Regiment", 4)',
 
 	},
-	["Reinforce 4th Army Aviation Regiment"] = {
+	--[[["Reinforce 4th Army Aviation Regiment"] = {
 		active = true,
 		condition = 'true',
 		action = 'Action.AirUnitReinforce("R/4th Army Aviation Regiment", "4th Army Aviation Regiment", 2)',
-	},
+	},]]
 	["Reinforce HS-6 Indians"] = {
 		active = true,
 		condition = 'true',
@@ -694,23 +694,23 @@ camp_triggers = {
 	["Reinforce 14th Army Aviation Regiment"] = {
 		active = true,
 		condition = 'true',
-		action = 'Action.AirUnitReinforce("R/14th Army Aviation Regiment", "14th Army Aviation Regiment", 2)',
+		action = 'Action.AirUnitReinforce("R/14th Army Aviation Regiment", "14th Army Aviation Regiment", 3)',
 
 	},
 	["Reinforce HMLA-177"] = {
 		active = true,
 		condition = 'true',
-		action = 'Action.AirUnitReinforce("R/HMLA-177", "HMLA-177", 6)',
+		action = 'Action.AirUnitReinforce("R/HMLA-177", "HMLA-177", 4)',
 	},
 	["Reinforce 11th Army Aviation Regiment"] = {
 		active = true,
 		condition = 'true',
-		action = 'Action.AirUnitReinforce("R/11th Army Aviation Regiment", "11th Army Aviation Regiment", 2)',
+		action = 'Action.AirUnitReinforce("R/11th Army Aviation Regiment", "11th Army Aviation Regiment", 3)',
 	},
 	["Reinforce 18th Cavalry Regiment"] = {
 		active = true,
 		condition = 'true',
-		action = 'Action.AirUnitReinforce("R/18th Cavalry Regiment", "18th Cavalry Regiment", 6)',
+		action = 'Action.AirUnitReinforce("R/18th Cavalry Regiment", "18th Cavalry Regiment", 4)',
 
 	},
 
@@ -723,33 +723,33 @@ camp_triggers = {
 	["Reinforce 117.IAP"] = {
 		active = true,
 		condition = 'true',
-		action = 'Action.AirUnitReinforce("R/117.IAP", "117.IAP", 6)',
+		action = 'Action.AirUnitReinforce("R/117.IAP", "117.IAP", 4)',
 	},
 	["Reinforce 113.IAP"] = {
 		active = true,
 		condition = 'true',
 		action = 'Action.AirUnitReinforce("R/113.IAP", "113.IAP", 4)',
 	},
-	["Reinforce 945 Squadron"] = {
+	--[[["Reinforce 945 Squadron"] = {
 		active = true,
 		condition = 'true',
 		action = 'Action.AirUnitReinforce("R/945 Squadron", "945 Squadron", 4)',
-	},
+	},]]
 	["Reinforce 127.IAP"] = {
 		active = true,
 		condition = 'true',
-		action = 'Action.AirUnitReinforce("R/127.IAP", "127.IAP", 6)',
+		action = 'Action.AirUnitReinforce("R/127.IAP", "127.IAP", 4)',
 	},
 	["Reinforce 123.IAP"] = {
 		active = true,
 		condition = 'true',
 		action = 'Action.AirUnitReinforce("R/123.IAP", "123.IAP", 4)',
 	},
-	["Reinforce 2 Squadron"] = {
+	--[[["Reinforce 2 Squadron"] = {
 		active = true,
 		condition = 'true',
 		action = 'Action.AirUnitReinforce("R/2 Squadron", "2 Squadron", 4)',
-	},	
+	},]]
 	["Reinforce 946 Squadron"] = {
 		active = true,
 		condition = 'true',
@@ -763,17 +763,17 @@ camp_triggers = {
 	["Reinforce 948 Squadron"] = {
 		active = true,
 		condition = 'true',
-		action = 'Action.AirUnitReinforce("R/948 Squadron", "948 Squadron", 6)',
+		action = 'Action.AirUnitReinforce("R/948 Squadron", "948 Squadron", 4)',
 	},
-	["Reinforce 3 Guards BAP 21 th BAA"] = {
+	--[[["Reinforce 3 Guards BAP 21 th BAA"] = {
 		active = true,
 		condition = 'true',
 		action = 'Action.AirUnitReinforce("R/3 Guards BAP 21 th BAA", "3 Guards BAP 21 th BAA", 4)',
-	},			
+	},]]		
 	["Reinforce 67 Squadron"] = {
 		active = true,
 		condition = 'true',
-		action = 'Action.AirUnitReinforce("R/67 Squadron", "67 Squadron", 6)',
+		action = 'Action.AirUnitReinforce("R/67 Squadron", "67 Squadron", 4)',
 	},
 	["Reinforce 3 Squadron"] = {
 		active = true,
@@ -798,7 +798,7 @@ camp_triggers = {
 	["Reinforce 133.IAP"] = {
 		active = true,
 		condition = 'true',
-		action = 'Action.AirUnitReinforce("R/133.IAP", "133.IAP", 3)',
+		action = 'Action.AirUnitReinforce("R/133.IAP", "133.IAP", 4)',
 	},		
 	["Reinforce 3 BAP 149th BAA"] = {
 		active = true,
@@ -833,7 +833,7 @@ camp_triggers = {
 	["Reinforce 797.IAP"] = {
 		active = true,
 		condition = 'true',
-		action = 'Action.AirUnitReinforce("R/797.IAP", "797.IAP", 3)',
+		action = 'Action.AirUnitReinforce("R/797.IAP", "797.IAP", 4)',
 	},
 	["Reinforce 4 Guards BAP 132nd BAA"] = {
 		active = true,
@@ -848,22 +848,22 @@ camp_triggers = {
 	["Reinforce 267 ShAP"] = {
 		active = true,
 		condition = 'true',
-		action = 'Action.AirUnitReinforce("R/267 ShAP", "267 ShAP", 2)',
+		action = 'Action.AirUnitReinforce("R/267 ShAP", "267 ShAP", 4)',
 	},
 	["Reinforce 137.IAP"] = {
 		active = true,
 		condition = 'true',
-		action = 'Action.AirUnitReinforce("R/137.IAP", "137.IAP", 5)',
+		action = 'Action.AirUnitReinforce("R/137.IAP", "137.IAP", 4)',
 	},
-	["Reinforce 27.OSAP"] = {
+	--[[["Reinforce 27.OSAP"] = {
 		active = true,
 		condition = 'true',
 		action = 'Action.AirUnitReinforce("R/27.OSAP", "27.OSAP", 1)',
-	},
+	},]]
 	["Reinforce 81st TFS"] = {
 		active = true,
 		condition = 'true',
-		action = 'Action.AirUnitReinforce("R/81st TFS", "81st TFS", 2)',
+		action = 'Action.AirUnitReinforce("R/81st TFS", "81st TFS", 4)',
 	},	
 	["Reinforce 1st GHR"] = {
 		active = true,
@@ -873,18 +873,18 @@ camp_triggers = {
 	["Reinforce 3rd GHR"] = {
 		active = true,
 		condition = 'true',
-		action = 'Action.AirUnitReinforce("R/3rd GHR", "3rd GHR", 2)',
+		action = 'Action.AirUnitReinforce("R/3rd GHR", "3rd GHR", 4)',
 	},
 	["Reinforce 15th Squadron"] = {
 		active = true,
 		condition = 'true',
 		action = 'Action.AirUnitReinforce("R/15th Squadron", "15th Squadron", 4)',
 	},
-	["Reinforce 7 Squadron"] = {
+	--[[["Reinforce 7 Squadron"] = {
 		active = true,
 		condition = 'true',
 		action = 'Action.AirUnitReinforce("R/7 Squadron", "7 Squadron", 4)',
-	},
+	},]]
 	["Reinforce 637 Squadron"] = {
 		active = true,
 		condition = 'true',
@@ -923,12 +923,12 @@ camp_triggers = {
 	["Reinforce 16th Squadron"] = {
 		active = true,
 		condition = 'true',
-		action = 'Action.AirUnitReinforce("R/16th Squadron", "16th Squadron", 3)',
+		action = 'Action.AirUnitReinforce("R/16th Squadron", "16th Squadron", 4)',
 	},
 	["Reinforce 14th Squadron"] = {
 		active = true,
 		condition = 'true',
-		action = 'Action.AirUnitReinforce("R/14th Squadron", "14th Squadron", 3)',
+		action = 'Action.AirUnitReinforce("R/14th Squadron", "14th Squadron", 4)',
 	},
 	
 	----- AVIATION UNIT STATUS -----
