@@ -87,10 +87,10 @@ camp_triggers = {
 			[5] = 'NoMoreNewspaper = true',
 		},
 	},
-	["Campaign End Victory 2 (Fighter + Fighter-Bomber < 20%)"] = {
+	["Campaign End Victory 2 (enemy Fighter + Fighter-Bomber < 10 unit)"] = {
 		active = true,
 		once = true,
-		condition = 'Return.AirUnitReady("790.IAP") + Return.AirUnitReady("113.IAP") + Return.AirUnitReady("123.IAP") + + Return.AirUnitReady("948 Squadron") + Return.AirUnitReady("67 Squadron") + Return.AirUnitReady("137.IAP") + Return.AirUnitReady("764.IAP") + Return.AirUnitReady("797.IAP") + Return.AirUnitReady("159.IAP") + Return.AirUnitReady("81st TFS") + Return.AirUnitReady("37 Squadron") < 8',
+		condition = 'Return.AirUnitReady("790.IAP") + Return.AirUnitReady("113.IAP") + Return.AirUnitReady("123.IAP") + Return.AirUnitReady("948 Squadron") + Return.AirUnitReady("67 Squadron") + Return.AirUnitReady("137.IAP") + Return.AirUnitReady("764.IAP") + Return.AirUnitReady("797.IAP") + Return.AirUnitReady("159.IAP") + Return.AirUnitReady("81st TFS") + Return.AirUnitReady("37 Squadron") < 10',
 		action = {
 			[1] = 'Action.CampaignEnd("win")',
 			[2] = 'Action.Text("Syrian coalition fighter planes have been annihilated. After repeated air strikes and disastrous losses in air-air combat (aircraft losses are bigger of 80%), the Syrian coalition is not longer able to produce any sorties or offer any resistance. The The USA and Nato countries now owns complete air superiority. With the disappearance of the air threat, the role of the F-14A Tomcat in this war comes to an end. Once again the victorious Tomcat has proved to be to leading fighter in the world. Well done.")',
@@ -99,10 +99,10 @@ camp_triggers = {
 			[5] = 'NoMoreNewspaper = true',
 		},
 	},
-	["Campaign End Victory 3 (Attacker + Bomber < 20%)"] = {
+	["Campaign End Victory 3 (enemy Attacker + Bomber < 12 unit)"] = {
 		active = true,
 		once = true,
-		condition = 'Return.AirUnitReady("117.IAP") + Return.AirUnitReady("127.IAP") + Return.AirUnitReady("127.IAP") + Return.AirUnitReady("2 Guards BAP 21 th BAA") + Return.AirUnitReady("3 Squadron") + Return.AirUnitReady("677 Squadron") + Return.AirUnitReady("368 ShAP")  + Return.AirUnitReady("3 BAP 149th BAA")  + Return.AirUnitReady("402nd Heavy Bomber Aviation Regiment") + Return.AirUnitReady("373 ShAP") + Return.AirUnitReady("4 Guards BAP 132nd BAA") + Return.AirUnitReady("132nd Heavy Bomber Aviation Regiment") + Return.AirUnitReady("267 ShAP") + Return.AirUnitReady("637 Squadron") + Return.AirUnitReady("11 Squadron") < 10',
+		condition = 'Return.AirUnitReady("117.IAP") + Return.AirUnitReady("127.IAP") + Return.AirUnitReady("127.IAP") + Return.AirUnitReady("2 Guards BAP 21 th BAA") + Return.AirUnitReady("3 Squadron") + Return.AirUnitReady("677 Squadron") + Return.AirUnitReady("368 ShAP")  + Return.AirUnitReady("3 BAP 149th BAA")  + Return.AirUnitReady("402nd Heavy Bomber Aviation Regiment") + Return.AirUnitReady("373 ShAP") + Return.AirUnitReady("4 Guards BAP 132nd BAA") + Return.AirUnitReady("132nd Heavy Bomber Aviation Regiment") + Return.AirUnitReady("267 ShAP") + Return.AirUnitReady("637 Squadron") + Return.AirUnitReady("11 Squadron") < 12',
 		action = {
 			[1] = 'Action.CampaignEnd("win")',
 			[2] = 'Action.Text("Syrian coalition Attacker and Bomber planes have been annihilated. After repeated air strikes and disastrous losses (aircraft losses are bigger of 80%), the Syrian coalition is not longer able to produce any sorties or offer any resistance. The USA and Nato countries now owns complete ground invasion. With the disappearance of the air threat, the role of the F-14A Tomcat in this war comes to an end. Once again the victorious Tomcat has proved to be to leading fighter in the world. Well done.")',
@@ -111,10 +111,10 @@ camp_triggers = {
 			[5] = 'NoMoreNewspaper = true',
 		},
 	},
-	["Campaign End Victory 4 (Fighter + Fighter-Bomber < 30% and Attacker + Bomber < 40%)"] = {
+	["Campaign End Victory 4 (enemy Fighter + Fighter-Bomber < 12 unit and Attacker + Bomber < 15 unit)"] = {
 		active = true,
 		once = true,
-		condition = '( Return.AirUnitReady("790.IAP") + Return.AirUnitReady("113.IAP") + Return.AirUnitReady("123.IAP") + Return.AirUnitReady("948 Squadron") + Return.AirUnitReady("67 Squadron") + Return.AirUnitReady("137.IAP") + Return.AirUnitReady("764.IAP") + Return.AirUnitReady("797.IAP") + Return.AirUnitReady("159.IAP") + Return.AirUnitReady("81st TFS") + Return.AirUnitReady("37 Squadron") < 5 ) and ( Return.AirUnitReady("117.IAP") + Return.AirUnitReady("127.IAP") + Return.AirUnitReady("127.IAP") + Return.AirUnitReady("2 Guards BAP 21 th BAA") + Return.AirUnitReady("3 Squadron") + Return.AirUnitReady("677 Squadron") + Return.AirUnitReady("368 ShAP")  + Return.AirUnitReady("3 BAP 149th BAA")  + Return.AirUnitReady("402nd Heavy Bomber Aviation Regiment") + Return.AirUnitReady("373 ShAP") + Return.AirUnitReady("4 Guards BAP 132nd BAA") + Return.AirUnitReady("132nd Heavy Bomber Aviation Regiment") + Return.AirUnitReady("267 ShAP") + Return.AirUnitReady("637 Squadron") + Return.AirUnitReady("11 Squadron") < 10 )',
+		condition = '( Return.AirUnitReady("790.IAP") + Return.AirUnitReady("113.IAP") + Return.AirUnitReady("123.IAP") + Return.AirUnitReady("948 Squadron") + Return.AirUnitReady("67 Squadron") + Return.AirUnitReady("137.IAP") + Return.AirUnitReady("764.IAP") + Return.AirUnitReady("797.IAP") + Return.AirUnitReady("159.IAP") + Return.AirUnitReady("81st TFS") + Return.AirUnitReady("37 Squadron") < 12 ) and ( Return.AirUnitReady("117.IAP") + Return.AirUnitReady("127.IAP") + Return.AirUnitReady("127.IAP") + Return.AirUnitReady("2 Guards BAP 21 th BAA") + Return.AirUnitReady("3 Squadron") + Return.AirUnitReady("677 Squadron") + Return.AirUnitReady("368 ShAP")  + Return.AirUnitReady("3 BAP 149th BAA")  + Return.AirUnitReady("402nd Heavy Bomber Aviation Regiment") + Return.AirUnitReady("373 ShAP") + Return.AirUnitReady("4 Guards BAP 132nd BAA") + Return.AirUnitReady("132nd Heavy Bomber Aviation Regiment") + Return.AirUnitReady("267 ShAP") + Return.AirUnitReady("637 Squadron") + Return.AirUnitReady("11 Squadron") < 15 )',
 		action = {
 			[1] = 'Action.CampaignEnd("win")',
 			[2] = 'Action.Text("Syrian coalition Air Force is in ruins. After repeated air strikes and disastrous losses in air-air combat (aircraft losses are bigger 70% for Fighter and 60% for Bomber), the Syrian coalition is not longer able to offer any resistance. The Usa and Nato countries now owns complete ground invasion. With the disappearance of the air threat, the role of the F-14A Tomcat in this war comes to an end. Once again the victorious Tomcat has proved to be to leading fighter in the world. Well done.")',
@@ -184,10 +184,10 @@ camp_triggers = {
 			[5] = 'NoMoreNewspaper = true',
 		},
 	},
-	["Campaign End Loss 4 (Fighter + Fighter-Bomber < 20%)"] = {
+	["Campaign End Loss 4 (avalaible Fighter + Fighter-Bomber < 10 unit)"] = {
 		active = true,
 		once = true,
-		condition = 'Return.AirUnitReady("111th Squadron Panther") + Return.AirUnitReady("151th Squadron Bronze") + Return.AirUnitReady("56th Operations Group") + Return.AirUnitReady("173rd Fighter Group") + Return.AirUnitReady("F6 Karlsborg") + Return.AirUnitReady("Escadron de Chasse 2/5 Ile-de-France") + Return.AirUnitReady("Escadron de Chasse 1/2 Cigognes") + Return.AirUnitReady("Jagdbombergeschwader 33") + Return.AirUnitReady("154 Gruppo, 6 Stormo") + Return.AirUnitReady("152th Squadron Iron") + Return.AirUnitReady("12 Gruppo, 36 Stormo") + Return.AirUnitReady("VF-101") + Return.AirUnitReady("VF-118/GA") < 8',
+		condition = 'Return.AirUnitReady("111th Squadron Panther") + Return.AirUnitReady("151th Squadron Bronze") + Return.AirUnitReady("56th Operations Group") + Return.AirUnitReady("173rd Fighter Group") + Return.AirUnitReady("F6 Karlsborg") + Return.AirUnitReady("Escadron de Chasse 2/5 Ile-de-France") + Return.AirUnitReady("Escadron de Chasse 1/2 Cigognes") + Return.AirUnitReady("Jagdbombergeschwader 33") + Return.AirUnitReady("154 Gruppo, 6 Stormo") + Return.AirUnitReady("152th Squadron Iron") + Return.AirUnitReady("12 Gruppo, 36 Stormo") + Return.AirUnitReady("VF-101") + Return.AirUnitReady("VF-118/GA") < 10',
 		action = {
 			[1] = 'Action.CampaignEnd("win")',
 			[2] = 'Action.Text("The USA Air Force is in ruins. After repeated air strikes and disastrous losses (Fighter losses > 80% ) in air-air combat, USA and Nato Countries are no longer able to produce any sorties or offer any resistance.")',
@@ -196,10 +196,10 @@ camp_triggers = {
 			[5] = 'NoMoreNewspaper = true',
 		},
 	},
-	["Campaign End Loss 5 (Attacker + Bomber < 20%)"] = {
+	["Campaign End Loss 5 (avalaible Attacker + Bomber < 12 unit)"] = {
 		active = true,
 		once = true,
-		condition = 'Return.AirUnitReady("69 BS") + Return.AirUnitReady("4450th Tactical Group") + Return.AirUnitReady("23rd FG") + Return.AirUnitReady("122nd Squadron") + Return.AirUnitReady("4453th Tactical Group") + Return.AirUnitReady("27rd FG") + Return.AirUnitReady("VS-21") + < 10',
+		condition = 'Return.AirUnitReady("69 BS") + Return.AirUnitReady("4450th Tactical Group") + Return.AirUnitReady("23rd FG") + Return.AirUnitReady("122nd Squadron") + Return.AirUnitReady("4453th Tactical Group") + Return.AirUnitReady("27rd FG") + Return.AirUnitReady("VS-21") < 12',
 		action = {
 			[1] = 'Action.CampaignEnd("win")',
 			[2] = 'Action.Text("The USA Air Force is in ruins. After repeated air strikes and disastrous losses (Attacker and Bomber losses > 80% )in air-air combat, USA and Nato Countries are no longer able to produce any sorties or offer any resistance.")',
@@ -208,10 +208,10 @@ camp_triggers = {
 			[5] = 'NoMoreNewspaper = true',
 		},
 	},
-	["Campaign End Loss 6 (Fighter + Fighter-Bomber < 30% and Attacker + Bomber < 40%)"] = {
+	["Campaign End Loss 6 (avalaible Fighter + Fighter-Bomber < 12 unit and Attacker + Bomber < 15 unit)"] = {
 		active = true,
 		once = true,
-		condition = '( Return.AirUnitReady("111th Squadron Panther") + Return.AirUnitReady("151th Squadron Bronze") + Return.AirUnitReady("56th Operations Group") + Return.AirUnitReady("173rd Fighter Group") + Return.AirUnitReady("F6 Karlsborg") + Return.AirUnitReady("Escadron de Chasse 2/5 Ile-de-France") + Return.AirUnitReady("Escadron de Chasse 1/2 Cigognes") + Return.AirUnitReady("Jagdbombergeschwader 33") + Return.AirUnitReady("154 Gruppo, 6 Stormo") + Return.AirUnitReady("152th Squadron Iron") + Return.AirUnitReady("12 Gruppo, 36 Stormo") + Return.AirUnitReady("VF-101") + Return.AirUnitReady("VF-118/GA") < 10 ) and ( Return.AirUnitReady("69 BS") + Return.AirUnitReady("4450th Tactical Group") + Return.AirUnitReady("23rd FG") + Return.AirUnitReady("122nd Squadron") + Return.AirUnitReady("4453th Tactical Group") + Return.AirUnitReady("27rd FG") + Return.AirUnitReady("VS-21") + Return.AirUnitReady("VS-22") < 8 )',
+		condition = '( Return.AirUnitReady("111th Squadron Panther") + Return.AirUnitReady("151th Squadron Bronze") + Return.AirUnitReady("56th Operations Group") + Return.AirUnitReady("173rd Fighter Group") + Return.AirUnitReady("F6 Karlsborg") + Return.AirUnitReady("Escadron de Chasse 2/5 Ile-de-France") + Return.AirUnitReady("Escadron de Chasse 1/2 Cigognes") + Return.AirUnitReady("Jagdbombergeschwader 33") + Return.AirUnitReady("154 Gruppo, 6 Stormo") + Return.AirUnitReady("152th Squadron Iron") + Return.AirUnitReady("12 Gruppo, 36 Stormo") + Return.AirUnitReady("VF-101") + Return.AirUnitReady("VF-118/GA") < 12 ) and ( Return.AirUnitReady("69 BS") + Return.AirUnitReady("4450th Tactical Group") + Return.AirUnitReady("23rd FG") + Return.AirUnitReady("122nd Squadron") + Return.AirUnitReady("4453th Tactical Group") + Return.AirUnitReady("27rd FG") + Return.AirUnitReady("VS-21") + Return.AirUnitReady("VS-22") < 15 )',
 		action = {
 			[1] = 'Action.CampaignEnd("win")',
 			[2] = 'Action.Text("The USA Air Force is in ruins. After repeated air strikes and disastrous losses (Fighter loss > 70% and Attacker-Bomber loss > 60% ) in air-air combat, USA and Nato Countries are no longer able to produce any sorties or offer any resistance.")',
@@ -753,7 +753,7 @@ camp_triggers = {
 	["Reinforce 946 Squadron"] = {
 		active = true,
 		condition = 'true',
-		action = 'Action.AirUnitReinforce("R/946 Squadron", "945 Squadron", 4)',
+		action = 'Action.AirUnitReinforce("R/946 Squadron", "946 Squadron", 4)',
 	},	
 	["Reinforce 2 Guards BAP 21 th BAA"] = {
 		active = true,
