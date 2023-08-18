@@ -39,7 +39,7 @@
 			tStation = 1200,											--Number, seconds the aircraft can remain on station. Only used by CAP, AWACS and Refuelling tasks
 			LDSD = true,												--Boolean, aircraft is Look-Down/Shoot-Down capable. Only used by CAP and Intercept tasks
 			self_escort = false,										--Boolean, aircraft can defend itself against fighters. Only used by A-G tasks
-			sortie_rate = 2,											--Number, average amount of sorties that aircraft flies per day
+			sortie_rate = 1,											--Number, average amount of sorties that aircraft flies per day
 			stores = {													--Table, loadout table for DCS
 				["pylons"] =
 				{
@@ -187,7 +187,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = true,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = 
 						{
@@ -262,7 +262,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = 
 					{
@@ -305,7 +305,7 @@ db_loadouts = {
 					["gun"] = 100,
 				},
 			},
-			["Strike - Mk-82*4, AIM-9M*2, 2*Fuel - FT role: ATTACKER @ NORMAL ALT"] = { --
+			--[[["Strike - Mk-82*4, AIM-9M*2, 2*Fuel - FT role: ATTACKER @ NORMAL ALT"] = { --
 				role = "attacker",
 				role_altitude = "normal",
 				coalition = "blue",
@@ -335,7 +335,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = true,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = 
 					{
@@ -385,7 +385,7 @@ db_loadouts = {
 					["chaff"] = 90,
 					["gun"] = 100,
 				},
-			},
+			},]]
 		},
 		["SEAD"] = {		
 			["SEAD Long Range - AGM-88*2, AIM-9M*2, ECM, 2*Fuel role: SEAD ESCORT FOR BOMBER @ NORMAL ALT"] = {
@@ -413,7 +413,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = 
 						{
@@ -481,7 +481,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = 
 						{
@@ -572,7 +572,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				--- self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = 
 						{
@@ -630,7 +630,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				--- self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = 
 						{
@@ -778,7 +778,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				--- self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = 
 						{
@@ -815,7 +815,7 @@ db_loadouts = {
 				},
 			},
 
-			["Strike Bomb, Mk-82*6, Mk-84*2"] = {
+			--[[["Strike Bomb, Mk-82*6, Mk-84*2"] = { -- Strike Structure
 				minscore = 0,
 				support = {
 					["Escort"] = false,
@@ -887,7 +887,7 @@ db_loadouts = {
 						["chaff"] = 240,
 						["gun"] = 100,
 				},
-			},
+			},]]
 		},		
 	},
 
@@ -1109,7 +1109,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = true,
 				--- self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 				["pylons"] = 
 				{
@@ -1245,7 +1245,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = true,
 				self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = {
 						[10] = {
@@ -1383,7 +1383,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = true,
 				--- self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = {
 						[9] = {
@@ -1537,7 +1537,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = true,
 				--- self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = {
 						[9] = {
@@ -1606,7 +1606,7 @@ db_loadouts = {
 				-- tStation = nil,
 				LDSD = true,
 				-- --- self_escort = true,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = 
 					{
@@ -1676,7 +1676,7 @@ db_loadouts = {
 				-- tStation = nil,
 				LDSD = true,
 				-- --- self_escort = true,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = 
 					{
@@ -1744,7 +1744,7 @@ db_loadouts = {
 				tStation = 7200,
 				LDSD = true,
 				--- self_escort = true,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 				["pylons"] = 
 				{
@@ -1821,7 +1821,7 @@ db_loadouts = {
 				tStation = 7200,
 				LDSD = true,
 				--- self_escort = true,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = 
 					{
@@ -1896,7 +1896,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = true,
 				--- self_escort = true,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 				["pylons"] = 
 				{
@@ -1975,7 +1975,7 @@ db_loadouts = {
 				tStation = 7200,
 				LDSD = true,
 				--- self_escort = true,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = 
 					{
@@ -2050,7 +2050,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = true,
 				--- self_escort = true,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 				["pylons"] = 
 				{
@@ -2127,7 +2127,7 @@ db_loadouts = {
 				tStation = 7200,
 				LDSD = true,
 				--- self_escort = true,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = 
 					{
@@ -2209,7 +2209,7 @@ db_loadouts = {
 				-- tStation = nil,
 				LDSD = true,
 				-- --- self_escort = true,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = 
 					{
@@ -2272,7 +2272,7 @@ db_loadouts = {
 				tStation = 7200,
 				LDSD = true,
 				--- self_escort = true,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = 
 						{
@@ -2345,7 +2345,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = true,
 				--- self_escort = true,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = 
 					{
@@ -2416,7 +2416,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = true,
 				--- self_escort = true,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = 
 					{
@@ -2494,7 +2494,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = true,
 				--- self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = {
 						[1] = 
@@ -2561,7 +2561,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = true,
 				--- self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = 
 						{
@@ -2629,7 +2629,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = true,
 				--- self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = 
 						{
@@ -2677,7 +2677,7 @@ db_loadouts = {
 
 	["F-117A"] = { --1983 SI -> OK <-  
 		["Strike"] = {
-			["Pinpoint Strike  GBU-10*2"] = {
+			["Pinpoint Strike  GBU-10*2"] = { --Strike Structure
 				minscore = 0.3,
 				role = "bomber",
 				role_altitude = "low",
@@ -2705,7 +2705,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = true,
 				--- self_escort = true,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = {
 						[1] = 
@@ -2723,7 +2723,7 @@ db_loadouts = {
 					["gun"] = 100,
 				},
 			},
-			["Pinpoint Hard Strike  GBU-27*2"] = { --GBU-27 1987
+			["Pinpoint Hard Strike  GBU-27*2"] = { ----Strike Structure, GBU-27 1987
 				minscore = 0.3,
 				role = "bomber",
 				role_altitude = "low",
@@ -2751,7 +2751,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = true,
 				--- self_escort = true,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = 
 					{
@@ -2796,7 +2796,7 @@ db_loadouts = {
 				tStation = 36000,
 				LDSD = false,
 				self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] =
 					{
@@ -2830,7 +2830,7 @@ db_loadouts = {
 				hCruise = 7315.2,
 				hAttack = 7315.2,
 				tStation = 14400,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = {}, -- --end of ["pylons"]
 					["fuel"] = "65000",
@@ -3045,7 +3045,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = true,
 				self_escort = true,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = {
 						[10] = {
@@ -3227,7 +3227,7 @@ db_loadouts = {
 				tStation = 3600,
 				LDSD = true,
 				self_escort = true,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = 
 					{
@@ -3319,7 +3319,7 @@ db_loadouts = {
 				tStation = 3600,
 				LDSD = true,
 				self_escort = true,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = {
 						[10] = {
@@ -3410,7 +3410,7 @@ db_loadouts = {
 				tStation = 7200,
 				LDSD = true,
 				self_escort = true,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = {
 						[10] = {
@@ -3498,7 +3498,7 @@ db_loadouts = {
 				tStation = 7200,
 				LDSD = true,
 				self_escort = true,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = {
 						[10] = {
@@ -3677,7 +3677,7 @@ db_loadouts = {
 				tStation = 7200,
 				LDSD = true,
 				self_escort = true,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = {
 						[10] = {
@@ -3766,7 +3766,7 @@ db_loadouts = {
 				tStation = 7200,
 				LDSD = true,
 				self_escort = true,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = {
 						[10] = {
@@ -3854,7 +3854,7 @@ db_loadouts = {
 				tStation = 7200,
 				LDSD = true,
 				self_escort = true,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = {
 						[10] = {
@@ -4040,7 +4040,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = true,
 				self_escort = true,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] =     {
 						[1] = 
@@ -4128,7 +4128,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = true,
 				self_escort = true,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = 
 					{
@@ -4213,7 +4213,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = true,
 				self_escort = true,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = {
 						[10] = {
@@ -4309,7 +4309,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = true,
 				self_escort = true,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = {
 						[10] = {
@@ -4405,7 +4405,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = true,
 				self_escort = true,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = {
 						[10] = {
@@ -4501,7 +4501,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = true,
 				self_escort = true,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = {
 						[10] = {
@@ -4598,7 +4598,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = true,
 				self_escort = true,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = 
 						{
@@ -4690,7 +4690,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = true,
 				self_escort = true,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = 
 						{
@@ -5293,7 +5293,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 				["pylons"] = {
 					[2] = {
@@ -5362,7 +5362,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = {
 						[1] = 
@@ -5429,7 +5429,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] =
 					{
@@ -5487,7 +5487,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] =
 					{
@@ -5543,7 +5543,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] =
 					{
@@ -5607,7 +5607,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = {
 						[2] = 
@@ -5668,7 +5668,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = {
 						[2] = 
@@ -5703,7 +5703,7 @@ db_loadouts = {
 
 	["B-52H"] = { --1955 SI -> OK <-  
 		["Strike"] = {
-			["Strike Mk-84*18 role: BOMBER @ HIGH ALT"] = {
+			["Strike Mk-84*18 role: BOMBER @ HIGH ALT"] = { -- Strike Structure
 				role = "bomber",
 				role_altitude = "high",
 				coalition = "blue",
@@ -5712,7 +5712,7 @@ db_loadouts = {
 					["Escort"] = true,
 					["SEAD"] = true,
 				},
-				attributes = {"Structure", "Bridge", "hard"},
+				attributes = {"Structure", "Bridge"},
 				weapons = { -- task dedicated weapons
 					["Mk-84"] = 18,															
 				},
@@ -5750,7 +5750,7 @@ db_loadouts = {
 					["gun"] = 100,
 				},
 			},
-			["Strike Mk-20 Cluster Bombs role: BOMBER @ NORMAL ALT"] = {
+			--[[["Strike Mk-20 Cluster Bombs role: BOMBER @ NORMAL ALT"] = { -- Strike CAS
 				role = "bomber",
 				role_altitude = "normal",
 				coalition = "blue",
@@ -5796,7 +5796,7 @@ db_loadouts = {
 					["chaff"] = 1125,
 					["gun"] = 100,
 				},
-			},
+			},]]
 			--[[
 			["Strike TF  AGM-86C*20"] = { --1986
 				minscore = 0.3,
@@ -5825,7 +5825,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = {
 						[2] = {
@@ -5877,7 +5877,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = {
 						[2] = {
@@ -5920,7 +5920,7 @@ db_loadouts = {
 				hCruise = 7000,
 				hAttack = 7000,
 				tStation = 10800,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = {},
 					["fuel"] = 7813,
@@ -5945,7 +5945,7 @@ db_loadouts = {
 				hCruise = 10000,
 				hAttack = 10000,
 				tStation = 10800,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = {},
 					["fuel"] = 7813,
@@ -5996,7 +5996,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = true,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = {
 						[1] = 
@@ -6048,7 +6048,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] =
 					{
@@ -6112,7 +6112,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] =
 					{
@@ -6176,7 +6176,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] =
 					{
@@ -6243,7 +6243,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] =
 					{
@@ -6308,7 +6308,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] =
 					{
@@ -6365,7 +6365,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] =
 					{
@@ -6418,7 +6418,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] =
 					{
@@ -6481,7 +6481,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] =
 					{
@@ -6551,7 +6551,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = true,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] =
 					{
@@ -6620,7 +6620,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] =
 					{
@@ -6690,7 +6690,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] =
 					{
@@ -6744,7 +6744,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] =
 					{
@@ -6806,7 +6806,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] =
 					{
@@ -6860,7 +6860,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] =
 					{
@@ -6914,7 +6914,7 @@ db_loadouts = {
 				capability = 2,
 				firepower = 1,
 				LDSD = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] =
 					{
@@ -6961,7 +6961,7 @@ db_loadouts = {
 				tStation = 1800,
 				LDSD = false,
 				self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] =
 					{
@@ -7011,7 +7011,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] =
 					{
@@ -7431,7 +7431,7 @@ db_loadouts = {
 				tStation = 1800,
 				LDSD = false,
 				self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = 
 					{
@@ -7464,8 +7464,8 @@ db_loadouts = {
 			},					
 		},
 		["Escort"] = {
-			["MirageF1C_CAP_2xR550_2xR530EM_1xFuel ESCORT BOMBER @ NORMAL ALTITUDE"] = {
-				role = "escort_bomber",
+			["MirageF1C_CAP_2xR550_2xR530EM_1xFuel ESCORT ATTACKER @ NORMAL ALTITUDE"] = {
+				role = "escort_attacker",
 				role_altitude = "normal",
 				coalition = "blue",
 				attributes = {},
@@ -7489,7 +7489,7 @@ db_loadouts = {
 				tStation = 1800,
 				LDSD = false,
 				self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = 
 					{
@@ -7675,7 +7675,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = 
 					{
@@ -7745,7 +7745,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = 
 					{
@@ -8783,7 +8783,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = true,
 				self_escort = true,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = {
 						[1] = {
@@ -8919,7 +8919,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = true,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] =
 					{
@@ -9035,7 +9035,7 @@ db_loadouts = {
 					["gun"] = 100,
 				},
 			},
-			["Mk-84*2 AIM-7*2 ECM role: ATTACKER @ NORMAL ALT"] = {
+			--[[["Mk-84*2 AIM-7*2 ECM role: ATTACKER @ NORMAL ALT"] = { -- Structure, Bridge
 				role = "attacker",
 				role_altitude = "normal",
 				coalition = "blue",
@@ -9065,7 +9065,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] =
 					{
@@ -9095,8 +9095,8 @@ db_loadouts = {
 					["chaff"] = 60,
 					["gun"] = 100,
 				},
-			},
-			["GBU-10*2, AIM-7M*3, ECM*1, Fuel*2 role: ATTACKER @ NORMAL ALT"] = {
+			},]]
+			--[[["GBU-10*2, AIM-7M*3, ECM*1, Fuel*2 role: ATTACKER @ NORMAL ALT"] = {-- Structure, Bridge
 				role = "attacker",
 				role_altitude = "normal",
 				coalition = "blue",
@@ -9127,7 +9127,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] =
 					{
@@ -9169,8 +9169,8 @@ db_loadouts = {
 					["chaff"] = 60,
 					["gun"] = 100,
 				},
-			},			
-			["ASN AGM-65D*4 AIM-7E ECM Fuel role: ATTACKER @ LOW ALT"] = {
+			},]]			
+			--[[["ASN AGM-65D*4 AIM-7E ECM Fuel role: ATTACKER @ LOW ALT"] = {-- Structure, Bridge
 				role = "attacker",
 				role_altitude = "low",
 				coalition = "blue",
@@ -9200,7 +9200,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] =
 					{
@@ -9242,7 +9242,7 @@ db_loadouts = {
 					["chaff"] = 60,
 					["gun"] = 100,
 				},
-			},			
+			},]]			
 		},
 		["SEAD"] = {
 			["AGM-45*2, AIM-7M*3, ECM*1, Fuel*2 role: SEAD ESCORT FOR BOMBER @ NORMAL ALT"] = { -- verifica sono gli stessi si differenziano solo per day, night puoi lasciarne solo l'ultimo con  day e night true
@@ -9271,7 +9271,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] =
 					{
@@ -9340,7 +9340,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] =
 					{
@@ -9409,7 +9409,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] =
 					{
@@ -9599,7 +9599,7 @@ db_loadouts = {
 				tStation = nil, 
 				LDSD = false,
 				self_escort = true,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = 
 						{
@@ -9740,7 +9740,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = 
 						{
@@ -9805,7 +9805,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = 
 						{
@@ -9955,7 +9955,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 				["pylons"] = {
 					[1] = 
@@ -9987,7 +9987,7 @@ db_loadouts = {
 						["Escort"] = false,
 						["SEAD"] = false,
 					},
-				attributes = {"soft", "armor", "SAM", "Parked Aircraft"},
+				attributes = {"armor", "SAM"},
 				weapons = { -- task dedicated weapons										
 					["Hydra-70MK1"] = 38,	-- 4xM260(7 rockets/launcher) see pylons									
 					["BGM-71"] = 8,
@@ -10040,7 +10040,7 @@ db_loadouts = {
 						["Escort"] = false,
 						["SEAD"] = false,
 					},
-				attributes = {"soft", "armor", "SAM", "Parked Aircraft"},
+				attributes = {"armor", "SAM"},
 				weapons = { -- task dedicated weapons										
 					["Hydra-70MK1"] = 14,	-- 4xM260(7 rockets/launcher) see pylons									
 					["BGM-71"] = 8,
@@ -10061,7 +10061,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = {
 						[1] = 
@@ -10113,7 +10113,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] =  {
 						[1] = 
@@ -10217,7 +10217,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 				["pylons"] = {
 					[1] = 
@@ -10241,7 +10241,7 @@ db_loadouts = {
 						["Escort"] = false,
 						["SEAD"] = false,
 					},
-				attributes = {"soft", "SAM", "armor"},
+				attributes = {"SAM", "armor"},
 				weapons = { -- task dedicated weapons										
 					["AGM-114"] = 8,	-- 4xM260(7 rockets/launcher) see pylons									
 				},
@@ -10306,7 +10306,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 				["pylons"] = {
 					[1] = 
@@ -10439,7 +10439,7 @@ db_loadouts = {
 				hCruise = 304.8,
 				hAttack = 91.44,
 				tStation = 7200,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = {
 						[1] = {}, --end of [1]
@@ -10463,7 +10463,7 @@ db_loadouts = {
 						["Escort"] = false,
 						["SEAD"] = false,
 					},
-				attributes = {"soft", "SAM", "armor"},
+				attributes = {"soft", "SAM"},
 				weapons = { -- task dedicated weapons										
 					["AGM-114"] = 4,									
 				},
@@ -10483,7 +10483,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = 
 						{
@@ -10571,7 +10571,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				--- self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = 
 					{
@@ -10637,7 +10637,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = true,
 				self_escort = true,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = 
 						{
@@ -10929,7 +10929,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				-- self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = {
 						[1] = {
@@ -11086,7 +11086,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = true,
 				-- self_escort = true,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = 
 					{
@@ -11143,7 +11143,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = true,
 				-- self_escort = true,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					
 					["pylons"] = 
@@ -11201,7 +11201,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = true,
 				-- self_escort = true,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					
 					["pylons"] = 
@@ -11383,7 +11383,7 @@ db_loadouts = {
 				-- tStation = nil,
 				LDSD = true,
 				-- --- self_escort = true,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = 
 					{
@@ -11445,7 +11445,7 @@ db_loadouts = {
 				-- tStation = nil,
 				LDSD = true,
 				-- --- self_escort = true,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = 
 					{
@@ -11504,7 +11504,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = true,
 				--- self_escort = true,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 				["pylons"] = 
 				{
@@ -11566,7 +11566,7 @@ db_loadouts = {
 				tStation = 2700,
 				LDSD = true,
 				--- self_escort = true,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = 
 					{
@@ -11883,7 +11883,7 @@ db_loadouts = {
 				-- tStation = nil,
 				LDSD = true,
 				-- --- self_escort = true,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = 
 					{
@@ -11951,7 +11951,7 @@ db_loadouts = {
 				tStation = 3700,
 				LDSD = false,
 				--- self_escort = true,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = 
 					{
@@ -12012,7 +12012,7 @@ db_loadouts = {
 				tStation = 2700,
 				LDSD = true,
 				--- self_escort = true,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 				["pylons"] = {
 					[1] = {
@@ -12150,7 +12150,7 @@ db_loadouts = {
 				tStation = 2700,
 				LDSD = true,
 				--- self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 				["pylons"] = {
 					[1] = {
@@ -12364,7 +12364,7 @@ db_loadouts = {
 			tStation = 3700,
 			LDSD = false,
 			--- self_escort = true,
-			sortie_rate = 2,
+			sortie_rate = 1,
 			stores = {
 			["pylons"] = {
 				[1] = {
@@ -12444,7 +12444,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				--- self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 				["pylons"] = 
 				{
@@ -12539,7 +12539,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				--- self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = 
 					{
@@ -12753,7 +12753,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				--- self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = 
 						{
@@ -12944,7 +12944,7 @@ db_loadouts = {
 						["gun"] = 100,
 				},
 			},
-			["Runway Strike Bombs Long Range R-60*2 BetAB-500*6 Fuel*2"] = {
+			--[[["Runway Strike Bombs Long Range R-60*2 BetAB-500*6 Fuel*2"] = {
 				minscore = 0.0,
 				support = {
 					["Escort"] = true,
@@ -13021,8 +13021,8 @@ db_loadouts = {
 						["chaff"] = 128,
 						["gun"] = 100,
 				},
-			},
-			["Runway Strike Bombs R-60*2 BetAB-500ShP*8"] = {
+			},]]
+			--[[["Runway Strike Bombs R-60*2 BetAB-500ShP*8"] = {
 				minscore = 0.0,
 				support = {
 					["Escort"] = false,
@@ -13099,7 +13099,7 @@ db_loadouts = {
 					["chaff"] = 128,
 					["gun"] = 100,
 				},
-			},
+			},]]
 			["GA Rockets, R-60*2, B-13L*6"] = {
 				minscore = 0.0,
 				support = {
@@ -13127,7 +13127,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				--- self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = 
 					{
@@ -13170,7 +13170,7 @@ db_loadouts = {
 					["gun"] = 100,
 				},
 			},
-			["Strike Bombs  Long Range R-60*2 FAB-500*6"] = {
+			--[[["Strike Bombs  Long Range R-60*2 FAB-500*6"] = {
 				minscore = 0.0,
 				support = {
 					["Escort"] = true,
@@ -13247,8 +13247,8 @@ db_loadouts = {
 						["chaff"] = 128,
 						["gun"] = 100,
 				},
-			},
-			["Strike Bombs  Long Range R-60*2 FAB-250*6"] = {
+			},]]
+			--[[["Strike Bombs  Long Range R-60*2 FAB-250*6"] = {
 				minscore = 0.0,
 				support = {
 					["Escort"] = true,
@@ -13275,7 +13275,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				--- self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = 
 					{
@@ -13325,14 +13325,14 @@ db_loadouts = {
 					["chaff"] = 128,
 					["gun"] = 100,
 				},
-			},
+			},]]
 			["Pinpoint Strike SM Long Range R-60*2 Kh-25ML*4"] = {
 				minscore = 0.0,
 				support = {
 					["Escort"] = true,
 					["SEAD"] = false,
 				},
-				attributes = {"Structure", "Bridge", "armor"},
+				attributes = {"SAM", "armor"},
 				weaponType = "ASM",
 				weapons = {
 					["Kh-25ML"] = 4,	
@@ -13353,7 +13353,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				--- self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = 
 						{
@@ -13396,7 +13396,7 @@ db_loadouts = {
 						["gun"] = 100,
 				},
 			},
-			["Pinpoint Strike SM R-60*2 Kh-25ML*4 Kh-29L*2"] = {
+			--[[["Pinpoint Strike SM R-60*2 Kh-25ML*4 Kh-29L*2"] = {
 				minscore = 0.0,
 				support = {
 					["Escort"] = false,
@@ -13466,7 +13466,7 @@ db_loadouts = {
 					["chaff"] = 128,
 					["gun"] = 100,
 				},
-			},			
+			},	]]		
 			-- ["Rockets, R-60M*4, Fuel"] = {
 					-- support = {
 						-- ["Escort"] = true,
@@ -13489,7 +13489,7 @@ db_loadouts = {
 				-- tStation = nil,
 				-- LDSD = false,
 				-- --- self_escort = false,
-				-- sortie_rate = 2,
+				-- sortie_rate = 1,
 				-- stores = {
 				-- ["pylons"] = 
 				-- {
@@ -13575,7 +13575,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				--- self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = 
 						{
@@ -13649,7 +13649,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				--- self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = 
 						{
@@ -13778,7 +13778,7 @@ db_loadouts = {
 		["Strike"] = {			
 			["CAS Rockets Hard S-13*10 9M114*4"] = {
 				minscore = 0.0,
-				attributes = {"soft", "armor", "Structure"},
+				attributes = {"soft", "SAM"},
 				weaponType = "Rockets",
 				expend = "All",
 				weapons = { -- task dedicated weapons											
@@ -13799,7 +13799,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = {
 						[1] = 
@@ -13997,7 +13997,7 @@ db_loadouts = {
 			
 			["CAS Cannon Soft UPK-23*4 9M114*4"] = {
 				minscore = 0.1,
-				attributes = {"soft", "armor", "SAM", "Parked Aircraft"},
+				attributes = {"armor", "SAM"},
 				weaponType = "ASM",
 				expend = "All",
 				weapons = { -- task dedicated weapons											
@@ -14054,7 +14054,7 @@ db_loadouts = {
 			},
 			["CAS Rockets Hard S-13*10"] = {
 				minscore = 0.0,
-				attributes = {"soft", "SAM", "Parked Aircraft"},
+				attributes = {"armor", "SAM"},
 				weaponType = "Rockets",
 				expend = "All",
 				weapons = { -- task dedicated weapons											
@@ -14092,8 +14092,8 @@ db_loadouts = {
 						["chaff"] = 0,
 						["gun"] = 100,
 				},
-			},	
-			["CAS Rockets Soft S-5KO*128"] = {
+			},
+			--[[["CAS Rockets Soft S-5KO*128"] = {
 				minscore = 0.0,
 				attributes = {"soft", "Parked Aircraft"},
 				weaponType = "Rockets",
@@ -14115,7 +14115,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = 
 					{
@@ -14141,7 +14141,7 @@ db_loadouts = {
 					["chaff"] = 0,
 					["gun"] = 100,
 				},
-			},	
+			},	]]
 			["CAS Rockets S-8KOM*40"] = {
 				minscore = 0.0,
 				attributes = {"armor", "SAM"},
@@ -14185,7 +14185,7 @@ db_loadouts = {
 			},		
 			["CAS Rockets Hard S-13OF*10 84%Fuel"] = { --??
 				minscore = 0.0,
-				attributes = {"soft", "SAM", "Parked Aircraft"},
+				attributes = {"armor", "SAM"},
 				weaponType = "ASM",
 				expend = "All",
 				weapons = { -- task dedicated weapons											
@@ -14205,7 +14205,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = 
 					{
@@ -14227,7 +14227,7 @@ db_loadouts = {
 					}, -- end of ["restricted"]
 				},
 			},	
-			["CAS Rockets S-5KO*128 80%Fuel"] = {
+			--[[["CAS Rockets S-5KO*128 80%Fuel"] = {
 				minscore = 0.0,
 				attributes = {"soft", "Parked Aircraft", "SAM"},
 				weaponType = "Rockets",
@@ -14275,10 +14275,10 @@ db_loadouts = {
 						["chaff"] = 0,
 						["gun"] = 100,
 				},
-			},	
+			},	]]
 			["CAS Rockets 9M114*8"] = {
 				minscore = 0.0,
-				attributes = {"armor", "SAM", "Parked Aircraft"},
+				attributes = {"armor", "SAM"},
 				weaponType = "ASM",
 				expend = "All",
 				weapons = { -- task dedicated weapons																	
@@ -14298,7 +14298,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = 
 						{
@@ -14327,7 +14327,7 @@ db_loadouts = {
 			},	
 			["GA Bombs KMGU-2 *2 53% Fuel"] = { -- 
 				minscore = 0.0,
-				attributes = {"soft", "armor", "SAM", "Parked Aircraft"},
+				attributes = {"armor", "SAM"},
 				weaponType = "Bombs",
 				expend = "All",
 				weapons = { -- task dedicated weapons											
@@ -14347,7 +14347,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = 
 						{
@@ -14365,8 +14365,8 @@ db_loadouts = {
 						["chaff"] = 0,
 						["gun"] = 100,
 				},
-			},	
-			["GA Bombs FAB-500 *2 85% Fuel"] = {
+			},
+			--[[["GA Bombs FAB-500 *2 85% Fuel"] = {
 				minscore = 0.0,
 				attributes = {"Structure", "Bridge"},
 				weaponType = "Bombs",
@@ -14406,7 +14406,7 @@ db_loadouts = {
 						["chaff"] = 0,
 						["gun"] = 100,
 				},
-			},	
+			},	]]
 		},
 	},
 
@@ -14609,7 +14609,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = 
 						{
@@ -14658,7 +14658,7 @@ db_loadouts = {
 					["Escort"] = true,
 					["SEAD"] = true,
 				},
-				attributes = {"Structure", "Bridge", "hard", "SAM", "armor"},
+				attributes = {"Structure", "Bridge", "hard"},
 				weapons = { -- task dedicated weapons						
 					["FAB-500M62"] = 33,										
 					["FAB-250M54"] = 36,										
@@ -14680,7 +14680,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = {
 						[1] = 
@@ -14712,7 +14712,7 @@ db_loadouts = {
 			},
 		},
 		["Anti-ship Strike"] = {
-			["Antiship  Kh-22N*3"] = { --1962
+			--[[["Antiship  Kh-22N*3"] = { --1962
 				role = "bomber",
 				role_altitude = "supersonic",
 				coalition = "red",
@@ -14766,7 +14766,7 @@ db_loadouts = {
 					["chaff"] = 48,
 					["gun"] = 100,
 				},
-			},
+			},]]
 			["Antiship  Kh-22N*1"] = { --1962
 				role = "bomber",
 				role_altitude = "supersonic",
@@ -14800,7 +14800,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = {
 						[3] = 
@@ -14902,7 +14902,7 @@ db_loadouts = {
 				tStation = 36000,
 				LDSD = false,
 				self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = {
 						[1] = {
@@ -14963,7 +14963,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = {
 						[1] =
@@ -15146,7 +15146,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = {
 						[1] = {
@@ -15261,7 +15261,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = {
 						[8] = {
@@ -15316,7 +15316,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = {
 						[8] = {
@@ -15350,7 +15350,7 @@ db_loadouts = {
 
 		["Strike"] = {
 
-			["CAS Fab100*30"] = {
+			--[[["CAS Fab100*30"] = {
 				role = "bomber",
 				role_altitude = "normal",
 				coalition = "red",
@@ -15379,7 +15379,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = {
 						[1] = 
@@ -15408,8 +15408,8 @@ db_loadouts = {
 					["chaff"] = 96,
 					["gun"] = 100,
 				},
-			},
-			["CAS Rockets S-8/80mm*6(20*6=120 rocket)"] = {
+			},]]
+			--[[["CAS Rockets S-8/80mm*6(20*6=120 rocket)"] = {
 				role = "attacker",
 				role_altitude = "normal",
 				coalition = "red",
@@ -15438,7 +15438,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = {
 						[1] = 
@@ -15471,7 +15471,7 @@ db_loadouts = {
 					["chaff"] = 96,
 					["gun"] = 100,
 				},
-			},
+			},]]
 			["BAI Fab1500*2 R-60*4"] = {
 				role = "bomber",
 				role_altitude = "normal",
@@ -15536,7 +15536,7 @@ db_loadouts = {
 					["Escort"] = true,
 					["SEAD"] = true,
 				},
-				attributes = {"Structure", "SAM", "armor"},
+				attributes = {"Structure", "armor"},
 				weapons = { -- task dedicated weapons										
 					["FAB-250M54"] = 8,										
 				},
@@ -15598,7 +15598,7 @@ db_loadouts = {
 					["gun"] = 100,
 				},
 			},
-			["BAI Fab250*4 R-60M*4"] = {
+			--[[["BAI Fab250*4 R-60M*4"] = {
 				role = "bomber",
 				role_altitude = "normal",
 				coalition = "red",
@@ -15628,7 +15628,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = {
 						[1] = 
@@ -15661,8 +15661,8 @@ db_loadouts = {
 					["chaff"] = 96,
 					["gun"] = 100,
 				},
-			},
-			["CAS Fab-500*2 UB-13*4 (4*5=20 S-13 rockets)"] = {
+			},]]
+			--[[["CAS Fab-500*2 UB-13*4 (4*5=20 S-13 rockets)"] = {
 				role = "bomber",
 				role_altitude = "normal",
 				coalition = "red",
@@ -15725,8 +15725,8 @@ db_loadouts = {
 					["chaff"] = 96,
 					["gun"] = 100,
 				},
-			},
-			["CAS S24/240mm.235kg.he.frag*6"] = {
+			},]]
+			--[[["CAS S24/240mm.235kg.he.frag*6"] = {
 				role = "attacker",
 				role_altitude = "low",
 				coalition = "red",
@@ -15788,8 +15788,8 @@ db_loadouts = {
 					["chaff"] = 96,
 					["gun"] = 100,
 				},
-			},
-			["CAS S25/340mm.480kg.pntr*2 Fuel*3"] = {
+			},]]
+			--[[["CAS S25/340mm.480kg.pntr*2 Fuel*3"] = {
 				role = "bomber",
 				role_altitude = "normal",
 				coalition = "red",
@@ -15847,8 +15847,8 @@ db_loadouts = {
 					["chaff"] = 96,
 					["gun"] = 100,
 				},
-			},
-			["CAS S25/340mm.480kg.pntr*6"] = {
+			},]]
+			--[[["CAS S25/340mm.480kg.pntr*6"] = {
 				role = "attacker",
 				role_altitude = "low",
 				coalition = "red",
@@ -15910,8 +15910,8 @@ db_loadouts = {
 					["chaff"] = 96,
 					["gun"] = 100,
 				},
-			},
-			["CAS Fab-250*4 UB-32*4 S-5KO rockets"] = {
+			},]]
+			--[[["CAS Fab-250*4 UB-32*4 S-5KO rockets"] = {
 				role = "attacker",
 				role_altitude = "normal",
 				coalition = "red",
@@ -15982,7 +15982,7 @@ db_loadouts = {
 					["chaff"] = 96,
 					["gun"] = 100,
 				},
-			},	
+			},]]	
 			["Pinpoint Strike R-60M*2 Kh-29T*2"] = {
 				role = "bomber",
 				role_altitude = "normal",
@@ -15992,7 +15992,7 @@ db_loadouts = {
 					["Escort"] = true,
 					["SEAD"] = true,
 				},
-				attributes = {"Structure", "SAM", "armor"},
+				attributes = {"Structure", "armor"},
 				weapons = { -- task dedicated weapons										
 					["FAB-250M54"] = 8,										
 				},
@@ -16048,7 +16048,7 @@ db_loadouts = {
 					["Escort"] = true,
 					["SEAD"] = true,
 				},
-				attributes = {"Structure", "SAM", "armor"},
+				attributes = {"Structure", "armor"},
 				weapons = { -- task dedicated weapons										
 					["FAB-250M54"] = 8,										
 				},
@@ -16095,7 +16095,7 @@ db_loadouts = {
 						["gun"] = 100,
 				},
 			},
-			["Su-24M CAS B-8 Fab100 Fuel*2"] = {
+			--[[["Su-24M CAS B-8 Fab100 Fuel*2"] = {
 				role = "bomber",
 				role_altitude = "normal",
 				coalition = "red",
@@ -16154,7 +16154,7 @@ db_loadouts = {
 						["chaff"] = 96,
 						["gun"] = 100,
 				},
-			},							
+			},]]							
 		},
 	},	
 
@@ -16452,7 +16452,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = {
 						[5] = {
@@ -16563,7 +16563,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = {
 						[5] = {
@@ -16618,7 +16618,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = {
 						[5] = {
@@ -17271,7 +17271,7 @@ db_loadouts = {
 			},
 		},
 		["Strike"] = {			
-			["IPW - Strike - FAB 500 M62*4"] = {
+			["IPW - Strike - FAB 500 M62*4"] = { --Strike Structure
 				role = "bomber",
 				role_altitude = "normal",
 				coalition = "red",
@@ -17280,7 +17280,7 @@ db_loadouts = {
 						["Escort"] = true,
 						["SEAD"] = true,
 					},
-				attributes = {"Structure", "Bridge", "SAM"},
+				attributes = {"Structure", "Bridge"},
 				weaponType = "Bombs",
 				expend = "All",
 				weapons = { -- task dedicated weapons
@@ -17301,7 +17301,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = {
 						[8] = {
@@ -17327,7 +17327,7 @@ db_loadouts = {
 					["gun"] = 100,
 				},
 			},
-			["CAS Bombs FAB-250*16 R-60M*2"] = {
+			--[[["CAS Bombs FAB-250*16 R-60M*2"] = {
 				role = "bomber",
 				role_altitude = "normal",
 				coalition = "red",
@@ -17399,8 +17399,8 @@ db_loadouts = {
 					["chaff"] = 64,
 					["gun"] = 100,
 				},
-			},
-			["CAS Bombs FAB-500*6 R-60M*2"] = {
+			},]]
+			["CAS Bombs FAB-500*6 R-60M*2"] = { --Strike Structure
 				role = "bomber",
 				role_altitude = "normal",
 				coalition = "red",
@@ -17431,7 +17431,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = {
 						[1] = 
@@ -17473,7 +17473,7 @@ db_loadouts = {
 					["gun"] = 100,
 				},
 			},
-			["IPW - Strike - RBK-500 PTAB-10-5*4"] = {
+			--[[["IPW - Strike - RBK-500 PTAB-10-5*4"] = {
 				role = "attacker",
 				role_altitude = "normal",
 				coalition = "red",
@@ -17528,8 +17528,8 @@ db_loadouts = {
 					["chaff"] = 60,
 					["gun"] = 100,
 				},
-			},
-			["IPW - Strike - S-13*25"] = {
+			},]]
+			--[[["IPW - Strike - S-13*25"] = {
 				role = "attacker",
 				role_altitude = "normal",
 				coalition = "red",
@@ -17559,7 +17559,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = {
 						[8] = {
@@ -17584,7 +17584,7 @@ db_loadouts = {
 					["chaff"] = 60,
 					["gun"] = 100,
 				},
-			},
+			},]]
 			["IPW - Strike - S-24B*4"] = {
 				role = "attacker",
 				role_altitude = "low",
@@ -17594,7 +17594,7 @@ db_loadouts = {
 						["Escort"] = false,
 						["SEAD"] = false,
 					},
-				attributes = {"soft", "Structure"},
+				attributes = {"Structure"},
 				weaponType = "Rockets",
 				expend = "All",
 				attackType = "Dive",
@@ -17672,7 +17672,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = {
 						[1] = 
@@ -17714,7 +17714,7 @@ db_loadouts = {
 					["gun"] = 100,
 				},
 			},
-			["CAS Rockets UB-32*4 (S-5 M) R-60M*2 Fuel*2"] = {
+			--[[["CAS Rockets UB-32*4 (S-5 M) R-60M*2 Fuel*2"] = {
 				role = "attacker",
 				role_altitude = "normal",
 				coalition = "red",
@@ -17786,8 +17786,8 @@ db_loadouts = {
 					["chaff"] = 60,
 					["gun"] = 100,
 				},
-			},
-			["CAS Rockets B-8*4 R-60M*2 Fuel*2"] = {
+			},]]
+			--[[["CAS Rockets B-8*4 R-60M*2 Fuel*2"] = {
 				role = "attacker",
 				role_altitude = "normal",
 				coalition = "red",
@@ -17818,7 +17818,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = {
 						[1] = 
@@ -17859,8 +17859,8 @@ db_loadouts = {
 					["chaff"] = 64,
 					["gun"] = 100,
 				},
-			},
-			["CAS Bombs FAB-100*24 R-60M*2"] = {
+			},]]
+			--[[["CAS Bombs FAB-100*24 R-60M*2"] = {
 				role = "attacker",
 				role_altitude = "normal",
 				coalition = "red",
@@ -17932,7 +17932,7 @@ db_loadouts = {
 					["chaff"] = 60,
 					["gun"] = 100,
 				},
-			},
+			},]]
 			["CAS ASM Kh-25ML-MPR*4 R-60M*2 Fuel*2"] = {
 				role = "attacker",
 				role_altitude = "normal",
@@ -17965,7 +17965,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = {
 						[1] = 
@@ -18106,7 +18106,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = 
 						{
@@ -18245,7 +18245,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = {
 						[1] = 
@@ -18315,7 +18315,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = {
 						[1] = 
@@ -18385,7 +18385,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = 
 						{
@@ -18505,7 +18505,7 @@ db_loadouts = {
 						["Escort"] = true,
 						["SEAD"] = true,
 				},
-				attributes = {"SAM", "Structure"},
+				attributes = {"SAM"},
 				weapons = { -- task dedicated weapons				
 					["Kh-25MR"] = 2, --??	
 					["R-60M"] = 2,										
@@ -18527,7 +18527,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = {
 						[2] = 
@@ -18566,7 +18566,7 @@ db_loadouts = {
 						["Escort"] = true,
 						["SEAD"] = true,
 					},
-				attributes = {"SAM", "Structure"},
+				attributes = {"SAM"},
 				weaponType = "ASM",
 				expend = "All",
 				weapons = { -- task dedicated weapons				
@@ -18618,7 +18618,7 @@ db_loadouts = {
 					["gun"] = 100,
 				},
 			},
-			["BAI Laser KAB-500LG*2 R-60M*2 Fuel"] = {
+			--[[["BAI Laser KAB-500LG*2 R-60M*2 Fuel"] = {
 				role = "attacker",
 				role_altitude = "normal",
 				coalition = "red",
@@ -18650,7 +18650,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = {
 						[2] = 
@@ -18679,7 +18679,7 @@ db_loadouts = {
 					["chaff"] = 60,
 					["gun"] = 100,
 				},
-			},
+			},]]
 			["CAS Heavy Cluster RBK-500-255*2 R-60M*2 Fuel"] = {
 				role = "attacker",
 				role_altitude = "normal",
@@ -18758,7 +18758,7 @@ db_loadouts = {
 						["Escort"] = true,
 						["SEAD"] = false,
 					},
-				attributes = {"soft"},
+				attributes = {"soft", "SAM"},
 				weaponType = "Bombs",
 				expend = "All",
 				weapons = { -- task dedicated weapons				
@@ -18780,7 +18780,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = {
 						[2] = 
@@ -18910,7 +18910,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = {
 						[2] = 
@@ -18948,7 +18948,7 @@ db_loadouts = {
 					["gun"] = 100,
 				},
 			},	
-			["BAI Fab-500*2 Fab-250*2 R-60M*2 Fuel"] = {
+			--[[["BAI Fab-500*2 Fab-250*2 R-60M*2 Fuel"] = {
 				role = "attacker",
 				role_altitude = "normal",
 				coalition = "red",
@@ -19017,7 +19017,7 @@ db_loadouts = {
 					["chaff"] = 60,
 					["gun"] = 100,
 				},
-			},
+			},]]
 			["Rockets CAS B-8*4/80mm heat/ap(20*4=80 rockests"] = {
 				role = "attacker",
 				role_altitude = "normal",
@@ -19048,7 +19048,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = {
 						[3] = {
@@ -19082,7 +19082,7 @@ db_loadouts = {
 						["Escort"] = true,
 						["SEAD"] = false,
 					},
-				attributes = {"soft"},
+				attributes = {"soft", "SAM"},
 				weaponType = "Rockets",
 				expend = "All",
 				weapons = { -- task dedicated weapons
@@ -19138,7 +19138,7 @@ db_loadouts = {
 						["Escort"] = true,
 						["SEAD"] = false,
 					},
-				attributes = {"soft"},
+				attributes = {"soft", "SAM", "armor"},
 				weaponType = "Rockets",
 				expend = "All",
 				weapons = { -- task dedicated weapons
@@ -19159,7 +19159,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = 
 						{
@@ -19219,7 +19219,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = {
 						[2] = 
@@ -19277,7 +19277,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = {
 						[2] = 
@@ -19387,7 +19387,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = {
 						[2] =
@@ -19494,7 +19494,7 @@ db_loadouts = {
 				tStation = 1800,
 				LDSD = false,
 				self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = {
 						[2] =
@@ -19581,7 +19581,6 @@ db_loadouts = {
 					["gun"] = 100,
 				},
 			},
-
 			["R-24R*1, R-24T*1, R-60M*4, Fuel escort attacker at normal altitude"] = {
 				role = "escort_attacker",
 				role_altitude = "normal",
@@ -19608,7 +19607,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = {
 						[2] =
@@ -20122,7 +20121,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = {
 						[1] =
@@ -21085,7 +21084,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = {
 						[5] = {
@@ -21115,7 +21114,7 @@ db_loadouts = {
 					["gun"] = 100,
 				},
 			},
-			["IPW - Strike - R-3R*1, R-3S*1, FT800L, FAB-500*2"] = {
+			--[[["IPW - Strike - R-3R*1, R-3S*1, FT800L, FAB-500*2"] = {
 				role = "attacker",
 				role_altitude = "normal",
 				coalition = "red",
@@ -21176,7 +21175,7 @@ db_loadouts = {
 					["chaff"] = 0,
 					["gun"] = 100,
 				},
-			},
+			},]]
 			["IPW - Strike - R-3R*1, R-3S*1, FT800L, UB16UM*2"] = {
 				role = "attacker",
 				role_altitude = "low",
@@ -21209,7 +21208,7 @@ db_loadouts = {
 				tStation = nil,
 				LDSD = false,
 				self_escort = false,
-				sortie_rate = 2,
+				sortie_rate = 1,
 				stores = {
 					["pylons"] = {
 						[5] = {
@@ -21248,7 +21247,7 @@ db_loadouts = {
 						["Escort"] = false,
 						["SEAD"] = false,
 					},
-				attributes = {"soft", "Structure", "armor"},
+				attributes = {"soft", "armor"},
 				weaponType = "Rockets",
 				weapons = { -- task dedicated weapons				
 					["S-24"] = 2,
