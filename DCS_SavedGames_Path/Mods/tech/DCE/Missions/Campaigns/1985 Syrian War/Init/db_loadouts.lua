@@ -13778,7 +13778,7 @@ db_loadouts = {
 		["Strike"] = {			
 			["CAS Rockets Hard S-13*10 9M114*4"] = {
 				minscore = 0.0,
-				attributes = {"soft", "armor", "Structure"},
+				attributes = {"soft", "SAM"},
 				weaponType = "Rockets",
 				expend = "All",
 				weapons = { -- task dedicated weapons											
@@ -13997,7 +13997,7 @@ db_loadouts = {
 			
 			["CAS Cannon Soft UPK-23*4 9M114*4"] = {
 				minscore = 0.1,
-				attributes = {"soft", "armor", "SAM", "Parked Aircraft"},
+				attributes = {"armor", "SAM"},
 				weaponType = "ASM",
 				expend = "All",
 				weapons = { -- task dedicated weapons											
@@ -14054,7 +14054,7 @@ db_loadouts = {
 			},
 			["CAS Rockets Hard S-13*10"] = {
 				minscore = 0.0,
-				attributes = {"soft", "SAM", "Parked Aircraft"},
+				attributes = {"armor", "SAM"},
 				weaponType = "Rockets",
 				expend = "All",
 				weapons = { -- task dedicated weapons											
@@ -14092,8 +14092,8 @@ db_loadouts = {
 						["chaff"] = 0,
 						["gun"] = 100,
 				},
-			},	
-			["CAS Rockets Soft S-5KO*128"] = {
+			},
+			--[[["CAS Rockets Soft S-5KO*128"] = {
 				minscore = 0.0,
 				attributes = {"soft", "Parked Aircraft"},
 				weaponType = "Rockets",
@@ -14141,7 +14141,7 @@ db_loadouts = {
 					["chaff"] = 0,
 					["gun"] = 100,
 				},
-			},	
+			},	]]
 			["CAS Rockets S-8KOM*40"] = {
 				minscore = 0.0,
 				attributes = {"armor", "SAM"},
@@ -14185,7 +14185,7 @@ db_loadouts = {
 			},		
 			["CAS Rockets Hard S-13OF*10 84%Fuel"] = { --??
 				minscore = 0.0,
-				attributes = {"soft", "SAM", "Parked Aircraft"},
+				attributes = {"armor", "SAM"},
 				weaponType = "ASM",
 				expend = "All",
 				weapons = { -- task dedicated weapons											
@@ -14227,7 +14227,7 @@ db_loadouts = {
 					}, -- end of ["restricted"]
 				},
 			},	
-			["CAS Rockets S-5KO*128 80%Fuel"] = {
+			--[[["CAS Rockets S-5KO*128 80%Fuel"] = {
 				minscore = 0.0,
 				attributes = {"soft", "Parked Aircraft", "SAM"},
 				weaponType = "Rockets",
@@ -14275,10 +14275,10 @@ db_loadouts = {
 						["chaff"] = 0,
 						["gun"] = 100,
 				},
-			},	
+			},	]]
 			["CAS Rockets 9M114*8"] = {
 				minscore = 0.0,
-				attributes = {"armor", "SAM", "Parked Aircraft"},
+				attributes = {"armor", "SAM"},
 				weaponType = "ASM",
 				expend = "All",
 				weapons = { -- task dedicated weapons																	
@@ -14327,7 +14327,7 @@ db_loadouts = {
 			},	
 			["GA Bombs KMGU-2 *2 53% Fuel"] = { -- 
 				minscore = 0.0,
-				attributes = {"soft", "armor", "SAM", "Parked Aircraft"},
+				attributes = {"armor", "SAM"},
 				weaponType = "Bombs",
 				expend = "All",
 				weapons = { -- task dedicated weapons											
@@ -14365,8 +14365,8 @@ db_loadouts = {
 						["chaff"] = 0,
 						["gun"] = 100,
 				},
-			},	
-			["GA Bombs FAB-500 *2 85% Fuel"] = {
+			},
+			--[[["GA Bombs FAB-500 *2 85% Fuel"] = {
 				minscore = 0.0,
 				attributes = {"Structure", "Bridge"},
 				weaponType = "Bombs",
@@ -14406,7 +14406,7 @@ db_loadouts = {
 						["chaff"] = 0,
 						["gun"] = 100,
 				},
-			},	
+			},	]]
 		},
 	},
 

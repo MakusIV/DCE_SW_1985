@@ -1561,7 +1561,7 @@ oob_air = {
 
 	-------------------- Tabqa (LimitedParkNb = 27) ----------------------
 		-- 127.IAP					MiG-27K			12+24	Russia				Strike CAS, Anti-ship Strike 
-		-- 123.IAP					MiG-23MLD		12+24	Russia				Escort
+		-- 123.IAP					MiG-23MLD		12+24	Russia				Escort, CAP
 		-- 2 Squadron				L-39C			12+24	Syria				Strike CAS soft
 
 		-- 36 F/A, 72 A
@@ -1605,7 +1605,7 @@ oob_air = {
 			skill = getSkill(mission_ini.min_skill_red_fighter, mission_ini.max_skill_red_fighter),			--unit skill
 			tasks = {										--unit tasks
 				["Intercept"] = false,
-				["CAP"] = false,
+				["CAP"] = true,
 				["Escort"] = true,
 				["Fighter Sweep"] = false,				
 				["Strike"] = false,
@@ -1843,7 +1843,7 @@ oob_air = {
 	-------------------- end Beirut-Rafic Hariri -----------
 
 	-------------------- Bassel Al-Assad Airbase (LimitedParkNb = 53) -----
-		-- 67 Squadron					MiG-23MLD			12+24	Russia						Escort
+		-- 67 Squadron					MiG-23MLD			12+24	Russia						Escort, CAP
 		-- 3 Squadron					L-39C				12+24	Syria						Strike CAS soft
 		-- 677 Squadron					Su-17M4				8+24	Syria						Strike Structure, SEAD
 		-- 522 Squadron					An-26B				4		Russia						Transport
@@ -1859,7 +1859,7 @@ oob_air = {
 			skill = getSkill(mission_ini.min_skill_red_fighter, mission_ini.max_skill_red_fighter),			--unit skill
 			tasks = {										--unit tasks
 				["Intercept"] = false,
-				["CAP"] = false,
+				["CAP"] = true,
 				["Escort"] = true,
 				["Strike"] = false,			
 			},
@@ -2395,7 +2395,7 @@ oob_air = {
 		-- 133.IAP						MiG-29A				6+24 			Russia				CAP
 		-- 27.OSAP						An-26B				1+4				Russia				Transport
 		-- 09 SDRLO						MiG-25RBT			4				Russia				Recognition, AWACS
-		-- 81st TFS						F-14A				4+24			Iran				Intercept
+		-- 81st TFS						F-14A				4+24			Iran				Intercept, Fighter Sweep
 		-- 1st GHR						Mi-8MT				6+24			Russia				Strike CAS Soft
 		-- 3rd GHR						Mi-26				3+12			Russia				Transport
 		-- 15th Squadron				SA342M				6+24			Lebanon				Strike CAS Soft
@@ -2610,10 +2610,10 @@ oob_air = {
 	-------------------- end Sayqal Airbase ----------------
 
 	-------------------- Khalkhalah Airbase/Helibase (LimitedParkNb = 35) -----
-		-- 7 Squadron					L-39C			8+24			Syria
-		-- 637 Squadron					Su-17M4			6+24			Syria
-		-- 9th GHR						Mi-8MT			6+24			Russia
-		-- 17th GHR						Mi-24P			6+24			Russia
+		-- 7 Squadron					L-39C			8+24			Syria				Strike CAS soft
+		-- 637 Squadron					Su-17M4			6+24			Syria				Strike Structure, SEAD
+		-- 9th GHR						Mi-8MT			6+24			Russia				Strike CAS Soft
+		-- 17th GHR						Mi-24P			6+24			Russia				Strike CAS Soft
 
 		-- 32 A, 30 B, 60 H
 
@@ -2626,11 +2626,11 @@ oob_air = {
 			skill = getSkill(mission_ini.min_skill_red_attacker, mission_ini.max_skill_red_attacker),			--unit skill
 			tasks = {										--unit tasks
 				["Intercept"] = false,
-				["CAP"] = true,
+				["CAP"] = false,
 				["Escort"] = false,
 				["Fighter Sweep"] = false,				
 				["Strike"] = true,
-				["Anti-ship Strike"] = true,			
+				["Anti-ship Strike"] = false,			
 			},
 			tasksCoef = {									--unit tasks coef (optional)
 				["Strike"] = 1.5,							-- coef normal : = 1				
@@ -2662,7 +2662,7 @@ oob_air = {
 			skill = getSkill(mission_ini.min_skill_red_attacker, mission_ini.max_skill_red_attacker),			--unit skill
 			tasks = {										--unit tasks
 				["Strike"] = true,
-				["Anti-ship Strike"] = true,			
+				["Anti-ship Strike"] = false,			
 				["SEAD"] = true,
 			},
 			tasksCoef = {									--unit tasks coef (optional)
@@ -2683,7 +2683,6 @@ oob_air = {
 			tasks = {},										--unit tasks
 			number = 20,
 		},		
-
 		[78] = { 
 			name = "9th GHR",								--unit name
 			type = "Mi-8MT",								--aircraft type
@@ -2693,7 +2692,7 @@ oob_air = {
 			base = "Khalkhalah", 						--unit base
 			skill = getSkill(mission_ini.min_skill_red_helicopter, mission_ini.max_skill_red_helicopter),			--unit skill
 			tasks = {
-				["Transport"] = true,
+				["Transport"] = false,
 				["Strike"] = true,
 			},
 			number = 6,
@@ -2735,8 +2734,8 @@ oob_air = {
 	-------------------- end Khalkhalah Airbase -------------------------
 
 	-------------------- Mezzeh Airbase (LimitedParkNb = 28) -----
-		-- 37 Squadron					MiG-21Bis		8+24			Syria
-		-- 11 Squadron					L-39C			8+24			Syria
+		-- 37 Squadron					MiG-21Bis		8+24			Syria				Escort
+		-- 11 Squadron					L-39C			8+24			Syria				Strike CAS soft
 
 		-- 32 F/A, 32 A
 
@@ -2748,10 +2747,10 @@ oob_air = {
 			base = "Mezzeh",						--unit base
 			skill = getSkill(mission_ini.min_skill_red_fighter, mission_ini.max_skill_red_fighter),			--unit skill
 			tasks = {										--unit tasks
-				["Intercept"] = true,
-				["CAP"] = true,
+				["Intercept"] = false,
+				["CAP"] = false,
 				["Escort"] = true,
-				["Strike"] = true,			
+				["Strike"] = false,			
 			},
 			tasksCoef = {									--unit tasks coef (optional)
 				["Strike"] = 0.3,							-- coef normal : = 1				
@@ -2783,10 +2782,10 @@ oob_air = {
 			tasks = {										--unit tasks
 				["Intercept"] = false,
 				["CAP"] = false,
-				["Escort"] = true,
+				["Escort"] = false,
 				["Fighter Sweep"] = false,				
 				["Strike"] = true,
-				["Anti-ship Strike"] = true,			
+				["Anti-ship Strike"] = false,			
 			},
 			tasksCoef = {									--unit tasks coef (optional)
 				["Strike"] = 1.5,							-- coef normal : = 1				
@@ -2813,10 +2812,10 @@ oob_air = {
 	-------------------- end Mezzeh Airbase -------------------------
 
 	-------------------- Taftanaz Helibase (LimitedParkNb = 48) ----------------		
-		-- 13th GHR						Mi-24P			6+24			Russia
-		-- 2nd GHR						Mi-24V			6+24			Russia
-		-- 16th Squadron				SA342Minigun	4+16			Lebanon
-		-- 14th Squadron				SA342Mistral	4+16			Lebanon
+		-- 13th GHR						Mi-24P			6+24			Russia				Strike CAS Soft
+		-- 2nd GHR						Mi-24V			6+24			Russia				Strike CAS Armor
+		-- 16th Squadron				SA342Minigun	4+16			Lebanon				Strike CAS Soft
+		-- 14th Squadron				SA342Mistral	4+16			Lebanon				Strike CAS Soft
 
 		-- 100 H
 
@@ -2853,7 +2852,7 @@ oob_air = {
 			base = "Taftanaz",					--unit base
 			skill = getSkill(mission_ini.min_skill_red_helicopter, mission_ini.max_skill_red_helicopter),			--unit skill
 			tasks = {
-				["Transport"] = true,
+				["Transport"] = false,
 				["Strike"] = true,
 			},
 			number = 6,
