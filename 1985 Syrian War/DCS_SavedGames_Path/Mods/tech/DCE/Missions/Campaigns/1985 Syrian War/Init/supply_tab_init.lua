@@ -289,6 +289,7 @@ supply_tab = {
 			},
 		},
 		['CVN-72 Abraham Lincoln'] = {
+			['integrity'] = 1,
 			['supply_line_names'] = {
 				['CVN-72 Abraham Lincoln'] = {
 					['integrity'] = 1,
