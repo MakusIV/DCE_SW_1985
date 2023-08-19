@@ -913,7 +913,7 @@ camp_triggers = {
 	["Reinforce 13th GHR"] = {
 		active = true,
 		condition = 'true',
-		action = 'Action.AirUnitReinforce("R/13tbh GHR", "13th GHR", 4)',
+		action = 'Action.AirUnitReinforce("R/13th GHR", "13th GHR", 4)',
 	},
 	["Reinforce 2nd GHR"] = {
 		active = true,
