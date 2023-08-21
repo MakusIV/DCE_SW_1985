@@ -1127,6 +1127,38 @@ targetlist = {
 					name = "Deir ez-Zor Logistic 7",
 					
 				},
+				[8] = {
+					name = "Deir ez-Zor Logistic 8",
+					
+				},
+				[9] = {
+					name = "Deir ez-Zor Logistic 9",
+					
+				},
+				[10] = {
+					name = "Deir ez-Zor Logistic 10",
+					
+				},
+				[11] = {
+					name = "Deir ez-Zor Logistic 11",
+					
+				},
+				[12] = {
+					name = "Deir ez-Zor Logistic 12",
+					
+				},
+				[13] = {
+					name = "Deir ez-Zor Logistic 13",
+					
+				},
+				[14] = {
+					name = "Deir ez-Zor Logistic 14",
+					
+				},
+				[15] = {
+					name = "Deir ez-Zor Logistic 15",
+					
+				},
 			},
 		},
 
@@ -1187,6 +1219,30 @@ targetlist = {
 				},
 				[9] = {
 					name = "Tabqua Airbase Logistic 9",
+					
+				},
+				[10] = {
+					name = "Tabqua Airbase Logistic 10",
+					
+				},
+				[11] = {
+					name = "Tabqua Airbase Logistic 11",
+					
+				},
+				[12] = {
+					name = "Tabqua Airbase Logistic 12",
+					
+				},
+				[13] = {
+					name = "Tabqua Airbase Logistic 13",
+					
+				},
+				[14] = {
+					name = "Tabqua Airbase Logistic 14",
+					
+				},
+				[15] = {
+					name = "Tabqua Airbase Logistic 15",
 					
 				},
 			},
@@ -1385,81 +1441,67 @@ targetlist = {
 				min = 3, -- --3,
 				max = 3, -- --6,
 			},
+			class = "static",
 			elements = {
 				[1] = {
 					name = "Beirut-Rafic Hariri Airbase Logistic 1",
-					["y"] = 86762.515547433,
-                    ["x"] = -122673.50017915,
+					
 				},
 				[2] = {
 					name = "Beirut-Rafic Hariri Airbase Logistic 2",
-					["y"] = 86776.784711065,
-                    ["x"] = -122680.5221112,
+					
 				},
 				[3] = {
 					name = "Beirut-Rafic Hariri Airbase Logistic 3",
-					["y"] = 86787.1321199,
-                    ["x"] = -122663.42472333,
+					
 				},
 				[4] = {
 					name = "Beirut-Rafic Hariri Airbase Logistic 4",
-					["y"] = 86770.358780848,
-                    ["x"] = -122656.06799567,
+					
 				},
 				[5] = {
 					name = "Beirut-Rafic Hariri Airbase Logistic 5",
-					["y"] = 86779.333988586,
-                    ["x"] = -122637.67617654,
+					
 				},
 				[6] = {
 					name = "Beirut-Rafic Hariri Airbase Logistic 6",
-					["y"] = 86795.518789426,
-                    ["x"] = -122645.91571151,
+					
 				},
 				[7] = {
 					name = "Beirut-Rafic Hariri Airbase Logistic 7",
-					["y"] = 86786.837850794,
-                    ["x"] = -122622.66845212,
+					
 				},
 				[8] = {
 					name = "Beirut-Rafic Hariri Airbase Logistic 8",
-					["y"] = 86803.022651633,
-                    ["x"] = -122630.31944888,
+					
 				},
 				[9] = {
 					name = "Beirut-Rafic Hariri Airbase Logistic 9",
-					["y"] = 85847.307706892,
-                    ["x"] = -123249.33361623,
+					
 				},
 				[10] = {
 					name = "Beirut-Rafic Hariri Airbase Logistic 10",
-					["y"] = 85895.452314271,
-                    ["x"] = -123205.12926208,
+					
 				},
 				[11] = {
 					name = "Beirut-Rafic Hariri Airbase Logistic 11",
-					["y"] = 85783.54873661,
-                    ["x"] = -123872.67395514,
+					
 				},
 				[12] = {
 					name = "Beirut-Rafic Hariri Airbase Logistic 12",
-					["y"] = 85661.488898936,
-                    ["x"] = -123790.43042815,
+					
 				},
 				[13] = {
 					name = "Beirut-Rafic Hariri Airbase Logistic 13",
-					["y"] = 85584.467183184,
-                    ["x"] = -123721.89415566,
+					
 				},
 				[14] = {
 					name = "Beirut-Rafic Hariri Airbase Logistic 14",
-					["y"] = 85487.210948887,
-                    ["x"] = -123640.95608148,
+					
 				},
 				[15] = {
 					name = "Beirut-Rafic Hariri Airbase Logistic 15",
-					["y"] = 85971.674528902,
-                    ["x"] = -122655.5654005,
+					
 				},
 			},
 		},
@@ -1520,7 +1562,7 @@ targetlist = {
 					
 				},
 				[9] = {
-					name = "Taftanaz Logistic 16",
+					name = "Taftanaz Logistic 9",
 					
 				},
 				[10] = {
