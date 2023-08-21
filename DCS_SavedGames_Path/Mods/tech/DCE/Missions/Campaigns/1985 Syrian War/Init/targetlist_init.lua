@@ -1088,7 +1088,7 @@ targetlist = {
 			name = "Damascus",
 		},
 
-		["Deir ez-Zor Airbase"] = { -- devi aggiornare le coordinate [x], [y]. PROVA A NON INSERIRLE ESSENDO ELEMENTI STATICI INSERITI IN ME  
+		["Deir ez-Zor Airbase"] = { --   
 			task = "Strike",
 			priority = 4,
 			picture = {"Deir ez-Zor_Airbase.png"},
@@ -1174,10 +1174,10 @@ targetlist = {
 			name = "Deir ez-Zor",
 		},
 
-		["Tabqa Airbase"] = { -- devi aggiornare le coordinate [x], [y]. PROVA A NON INSERIRLE ESSENDO ELEMENTI STATICI INSERITI IN ME  
+		["Tabqa Airbase"] = { --   
 			task = "Strike",
 			priority = 4,
-			picture = {"Tabqua_Airbase.png"},
+			picture = {"Tabqa_Airbase.png"},
 			attributes = {"Structure"},
 			class = "static",
 			firepower = {
@@ -1186,63 +1186,63 @@ targetlist = {
 			},
 			elements = {
 				[1] = {
-					name = "Tabqua Airbase Logistic 1",
+					name = "Tabqa Airbase Logistic 1",
 					
 				},
 				[2] = {
-					name = "Tabqua Airbase Logistic 2",
+					name = "Tabqa Airbase Logistic 2",
 					
 				},
 				[3] = {
-					name = "Tabqua Airbase Logistic 3",
+					name = "Tabqa Airbase Logistic 3",
 					
 				},
 				[4] = {
-					name = "Tabqua Airbase Logistic 4",
+					name = "Tabqa Airbase Logistic 4",
 					
 				},
 				[5] = {
-					name = "Tabqua Airbase Logistic 5",
+					name = "Tabqa Airbase Logistic 5",
 					
 				},
 				[6] = {
-					name = "Tabqua Airbase Logistic 6",
+					name = "Tabqa Airbase Logistic 6",
 					
 				},
 				[7] = {
-					name = "Tabqua Airbase Logistic 7",
+					name = "Tabqa Airbase Logistic 7",
 					
 				},
 				[8] = {
-					name = "Tabqua Airbase Logistic 8",
+					name = "Tabqa Airbase Logistic 8",
 					
 				},
 				[9] = {
-					name = "Tabqua Airbase Logistic 9",
+					name = "Tabqa Airbase Logistic 9",
 					
 				},
 				[10] = {
-					name = "Tabqua Airbase Logistic 10",
+					name = "Tabqa Airbase Logistic 10",
 					
 				},
 				[11] = {
-					name = "Tabqua Airbase Logistic 11",
+					name = "Tabqa Airbase Logistic 11",
 					
 				},
 				[12] = {
-					name = "Tabqua Airbase Logistic 12",
+					name = "Tabqa Airbase Logistic 12",
 					
 				},
 				[13] = {
-					name = "Tabqua Airbase Logistic 13",
+					name = "Tabqa Airbase Logistic 13",
 					
 				},
 				[14] = {
-					name = "Tabqua Airbase Logistic 14",
+					name = "Tabqa Airbase Logistic 14",
 					
 				},
 				[15] = {
-					name = "Tabqua Airbase Logistic 15",
+					name = "Tabqa Airbase Logistic 15",
 					
 				},
 			},
@@ -1260,7 +1260,179 @@ targetlist = {
 			name = "Tabqa",
 		},
 
-		--[[["Sayqal Airbase"] = { -- devi aggiornare le coordinate [x], [y]. PROVA A NON INSERIRLE ESSENDO ELEMENTI STATICI INSERITI IN ME  
+		["Hama Airbase"] = { --   
+			task = "Strike",
+			priority = 4,
+			picture = {"Hama_Airbase.png"},
+			attributes = {"Structure"},
+			class = "static",
+			firepower = {
+				min = 3, -- --3,
+				max = 3, -- --6,
+			},
+			elements = {
+				[1] = {
+					name = "Hama Airbase Logistic 1",
+					
+				},
+				[2] = {
+					name = "Hama Airbase Logistic 2",
+					
+				},
+				[3] = {
+					name = "Hama Airbase Logistic 3",
+					
+				},
+				[4] = {
+					name = "Hama Airbase Logistic 4",
+					
+				},
+				[5] = {
+					name = "Hama Airbase Logistic 5",
+					
+				},
+				[6] = {
+					name = "Hama Airbase Logistic 6",
+					
+				},
+				[7] = {
+					name = "Hama Airbase Logistic 7",
+					
+				},
+				[8] = {
+					name = "Hama Airbase Logistic 8",
+					
+				},
+				[9] = {
+					name = "Hama Airbase Logistic 9",
+					
+				},
+				[10] = {
+					name = "Hama Airbase Logistic 10",
+					
+				},
+				[11] = {
+					name = "Hama Airbase Logistic 11",
+					
+				},
+				[12] = {
+					name = "Hama Airbase Logistic 12",
+					
+				},
+				[13] = {
+					name = "Hama Airbase Logistic 13",
+					
+				},
+				[14] = {
+					name = "Hama Airbase Logistic 14",
+					
+				},
+				[15] = {
+					name = "Hama Airbase Logistic 15",
+					
+				},
+			},
+		},
+
+		["Hama airbase OCA Strike"] = {
+			task = "Strike",
+			priority = 1,
+			attributes = {"Parked Aircraft"},
+			firepower = {
+				min = 2,
+				max = 4, 
+			},
+			class = "airbase",
+			name = "Hama",
+		},
+
+		["Palmyra Airbase"] = { --   
+			task = "Strike",
+			priority = 4,
+			picture = {"Palmyra_Airbase.png"},
+			attributes = {"Structure"},
+			class = "static",
+			firepower = {
+				min = 3, -- --3,
+				max = 3, -- --6,
+			},
+			elements = {
+				[1] = {
+					name = "Palmyra Airbase Logistic 1",
+					
+				},
+				[2] = {
+					name = "Palmyra Airbase Logistic 2",
+					
+				},
+				[3] = {
+					name = "Palmyra Airbase Logistic 3",
+					
+				},
+				[4] = {
+					name = "Palmyra Airbase Logistic 4",
+					
+				},
+				[5] = {
+					name = "Palmyra Airbase Logistic 5",
+					
+				},
+				[6] = {
+					name = "Palmyra Airbase Logistic 6",
+					
+				},
+				[7] = {
+					name = "Palmyra Airbase Logistic 7",
+					
+				},
+				[8] = {
+					name = "Palmyra Airbase Logistic 8",
+					
+				},
+				[9] = {
+					name = "Palmyra Airbase Logistic 9",
+					
+				},
+				[10] = {
+					name = "Palmyra Airbase Logistic 10",
+					
+				},
+				[11] = {
+					name = "Palmyra Airbase Logistic 11",
+					
+				},
+				[12] = {
+					name = "Palmyra Airbase Logistic 12",
+					
+				},
+				[13] = {
+					name = "Palmyra Airbase Logistic 13",
+					
+				},
+				[14] = {
+					name = "Palmyra Airbase Logistic 14",
+					
+				},
+				[15] = {
+					name = "Palmyra Airbase Logistic 15",
+					
+				},
+			},
+		},
+
+		["Palmyra airbase OCA Strike"] = {
+			task = "Strike",
+			priority = 1,
+			attributes = {"Parked Aircraft"},
+			firepower = {
+				min = 2,
+				max = 4, 
+			},
+			class = "airbase",
+			name = "Palmyra",
+		},
+
+		--[[["Sayqal Airbase"] = { --   
 			task = "Strike",
 			priority = 4,
 			picture = {"Sayqal_Helibase.png"},
@@ -1346,7 +1518,7 @@ targetlist = {
 			name = "Sayqal",
 		},]]
 
-		["Khalkhalah Airbase"] = { -- devi aggiornare le coordinate [x], [y]. PROVA A NON INSERIRLE ESSENDO ELEMENTI STATICI INSERITI IN ME  
+		["Khalkhalah Airbase"] = { --   
 			task = "Strike",
 			priority = 4,
 			picture = {"Khalkhalah.Airbase.png"},
@@ -1518,7 +1690,7 @@ targetlist = {
 			name = "Beirut-Rafic Hariri",
 		},
 
-		["Taftanaz Airbase"] = { -- devi aggiornare le coordinate [x], [y]. PROVA A NON INSERIRLE ESSENDO ELEMENTI STATICI INSERITI IN ME  
+		["Taftanaz Airbase"] = { --   
 			task = "Strike",
 			priority = 4,
 			picture = {"Taftanaz_Helibase.png"},
@@ -1604,7 +1776,7 @@ targetlist = {
 			name = "Taftanaz",
 		},
 
-		--[[["Mezzeh Airbase"] = { -- devi aggiornare le coordinate [x], [y]. PROVA A NON INSERIRLE ESSENDO ELEMENTI STATICI INSERITI IN ME  
+		--[[["Mezzeh Airbase"] = { --   
 			task = "Strike",
 			priority = 4,
 			picture = {"Mezze_Airbase.png"},
@@ -1662,7 +1834,7 @@ targetlist = {
 			},
 		},
 
-		["Mezzeh Airbase OCA Strike"] = { -- devi aggiornare le coordinate [x], [y]. PROVA A NON INSERIRLE ESSENDO ELEMENTI STATICI INSERITI IN ME  
+		["Mezzeh Airbase OCA Strike"] = { --   
 			task = "Strike",
 			priority = 1,
 			attributes = {"Parked Aircraft"},
@@ -1674,7 +1846,7 @@ targetlist = {
 			name = "Mezzeh",
 		},]]
 
-		["Bassel Al-Assad Airbase"] = { -- devi aggiornare le coordinate [x], [y]. PROVA A NON INSERIRLE ESSENDO ELEMENTI STATICI INSERITI IN ME  
+		["Bassel Al-Assad Airbase"] = { --   
 			task = "Strike",
 			priority = 4,
 			picture = {"Bassel_Al-Assad_Airbase.png"},
@@ -1740,7 +1912,7 @@ targetlist = {
 			},
 		},
 
-		["Bassel Al-Assad Airbase OCA Strike"] = { -- devi aggiornare le coordinate [x], [y]. PROVA A NON INSERIRLE ESSENDO ELEMENTI STATICI INSERITI IN ME  
+		["Bassel Al-Assad Airbase OCA Strike"] = { --   
 			task = "Strike",
 			priority = 1,
 			attributes = {"Parked Aircraft"},
@@ -2309,7 +2481,7 @@ targetlist = {
 			inactive = false,
 		},
 
-		["Tabqua 110km Alert"] = {
+		["Tabqa 110km Alert"] = {
 			task = "Intercept",
 			priority = 5,
 			attributes = {},
@@ -2317,7 +2489,7 @@ targetlist = {
 				min = 2,  -- min num enemy aircraft
 				max = 4, -- max num enemy aircraft
 			},
-			base = "Tabqua",
+			base = "Tabqa",
 			radius = 110000,
 			inactive = false,
 		},
@@ -2377,7 +2549,7 @@ targetlist = {
 			inactive = true,
 		},
 
-		["CAP Tabqua east"] = {
+		["CAP Tabqa east"] = {
 			task = "CAP",
 			priority = 20,
 			attributes = {"Air Forces"},
@@ -2385,9 +2557,9 @@ targetlist = {
 				min = 2,
 				max = 4,
 			},
-			refpoint = "CAP Tabqua east",
+			refpoint = "CAP Tabqa east",
 			radius = 80000,
-			text = "north-west of Tabqua",
+			text = "north-west of Tabqa",
 			--inactive = true,
 		},
 	
