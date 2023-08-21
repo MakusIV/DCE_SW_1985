@@ -1204,7 +1204,7 @@ targetlist = {
 			name = "Tabqa",
 		},
 
-		["Sayqal Airbase"] = { -- devi aggiornare le coordinate [x], [y]. PROVA A NON INSERIRLE ESSENDO ELEMENTI STATICI INSERITI IN ME  
+		--[[["Sayqal Airbase"] = { -- devi aggiornare le coordinate [x], [y]. PROVA A NON INSERIRLE ESSENDO ELEMENTI STATICI INSERITI IN ME  
 			task = "Strike",
 			priority = 4,
 			picture = {"Sayqal_Helibase.png"},
@@ -1288,7 +1288,7 @@ targetlist = {
 			},
 			class = "airbase",
 			name = "Sayqal",
-		},
+		},]]
 
 		["Khalkhalah Airbase"] = { -- devi aggiornare le coordinate [x], [y]. PROVA A NON INSERIRLE ESSENDO ELEMENTI STATICI INSERITI IN ME  
 			task = "Strike",
@@ -1562,7 +1562,7 @@ targetlist = {
 			name = "Taftanaz",
 		},
 
-		["Mezzeh Airbase"] = { -- devi aggiornare le coordinate [x], [y]. PROVA A NON INSERIRLE ESSENDO ELEMENTI STATICI INSERITI IN ME  
+		--[[["Mezzeh Airbase"] = { -- devi aggiornare le coordinate [x], [y]. PROVA A NON INSERIRLE ESSENDO ELEMENTI STATICI INSERITI IN ME  
 			task = "Strike",
 			priority = 4,
 			picture = {"Mezze_Airbase.png"},
@@ -1630,7 +1630,7 @@ targetlist = {
 			},
 			class = "airbase",
 			name = "Mezzeh",
-		},
+		},]]
 
 		["Bassel Al-Assad Airbase"] = { -- devi aggiornare le coordinate [x], [y]. PROVA A NON INSERIRLE ESSENDO ELEMENTI STATICI INSERITI IN ME  
 			task = "Strike",
@@ -1835,7 +1835,6 @@ targetlist = {
 			y = -40359,
 			text = "in the south east front area",
 		},
-		------------------------------------------------------------------------ OLD
 		
 		["Hin Shinshar-Bassel Al-Assad Supply Line 0-1"] =  { 
 			task = "Strike",
@@ -2691,7 +2690,7 @@ targetlist = {
 			name = "Gaziantep",
 		},
 
-		["Ramat David Airbase"] = {
+		--[[["Ramat David Airbase"] = {
 			task = "Strike",
 			priority = 4,
 			picture = {"Ramat.David.Airbase.png"},
@@ -2757,7 +2756,7 @@ targetlist = {
 			},
 			class = "airbase",
 			name = "Ramat David",
-		},
+		},]]
 
 		["Hatay Airbase"] = {
 			task = "Strike",

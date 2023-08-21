@@ -796,10 +796,10 @@ oob_air = {
 		},		
 	-------------------- end Paphos ---------------------	
 
-	-------------------- Ramat David (LimitedParkNb = 42) -------------------------------
+	-------------------- INACTIVE Ramat David (LimitedParkNb = 42) -------------------------------
 		-- INACTIVE F17 Kallinge					AJS37					12+24			Sweden			Anti-ship Strike, SEAD		
-		-- 27rd FG						A-10A					8+40			USA				Strike CAS
-		-- 12 Gruppo, 36 Stormo			Tornado IDS				8+28			Italy			Strike Structure, Antiship Strike, SEAD
+		-- INACTIVE 27rd FG						A-10A					8+40			USA				Strike CAS
+		-- INACTIVE 12 Gruppo, 36 Stormo			Tornado IDS				8+28			Italy			Strike Structure, Antiship Strike, SEAD
 
 		-- 84 A
 		
@@ -844,7 +844,7 @@ oob_air = {
 			tasks = {},										--unit tasks
 			number = 24,
 		},]]
-		[40] = {
+		--[[[40] = {
 			name = "27rd FG",								--unit name
 			type = "A-10A",									--aircraft type
 			country = "USA",							--unit country
@@ -869,8 +869,8 @@ oob_air = {
 			skill = getSkill(mission_ini.min_skill_blue_fighter, mission_ini.max_skill_blue_fighter),			--unit skill
 			tasks = {},										--unit tasks
 			number = 40,
-		},
-		[42] = {
+		},]]
+		--[[[42] = {
 			name = "12 Gruppo, 36 Stormo",								--unit name
 			type = "Tornado IDS",								--aircraft type
 			country = "Italy",							--unit country
@@ -898,7 +898,7 @@ oob_air = {
 			skill = getSkill(mission_ini.min_skill_blue_attacker, mission_ini.max_skill_blue_attacker),			--unit skill
 			tasks = {},										--unit tasks
 			number = 28,
-		},
+		},]]
 	-------------------- end Ramat David -------------------------------------
 			
 	-------------------- CVN-71 Theodore Roosevelt ----------------------

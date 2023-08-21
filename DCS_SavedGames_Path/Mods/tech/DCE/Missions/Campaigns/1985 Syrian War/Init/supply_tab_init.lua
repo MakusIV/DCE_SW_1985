@@ -55,14 +55,14 @@ supply_tab = {
 		['IR-Al Kiswah Military Base'] = {
 			['integrity'] = 1,
 			['supply_line_names'] = {
-				['Mezzeh Airbase'] = {
+				--[[['Mezzeh Airbase'] = {
 					['integrity'] = 1,
 					['airbase_supply'] = {					
 						['Mezzeh'] = true,			
 						['Reserves-R/37 Squadron'] = true,	
 						['Reserves-R/11 Squadron'] = true,												
 					},
-				},		
+				},]]		
 				['Damascus Airbase'] = {
 					['integrity'] = 1,
 					['airbase_supply'] = {					
@@ -92,7 +92,8 @@ supply_tab = {
 						['Reserves-R/7 Squadron'] = true,
 						['Reserves-R/637 Squadron'] = true,	
 						['Reserves-R/9th GHR'] = true,
-						['Reserves-R/17th GHR'] = true,												
+						['Reserves-R/17th GHR'] = true,	
+						['Reserves-R/81st TFS'] = true,											
 					},
 				},		
 			},
@@ -108,32 +109,30 @@ supply_tab = {
 						['Reserves-R/159.IAP'] = true,					
 					},
 				},	
-				['Sayqal Airbase'] = {
+				--[[['Sayqal Airbase'] = {
 					['integrity'] = 1,
 					['airbase_supply'] = {						
 						['Sayqal'] = true,
 						['Reserves-R/267 ShAP'] = true,		
 						['Reserves-R/137.IAP'] = true,
-						['Reserves-R/27.OSAP'] = true,		
-						['Reserves-R/81st TFS'] = true,
+						['Reserves-R/27.OSAP'] = true,								
 						['Reserves-R/1st GHR'] = true,		
-						['Reserves-R/3rd GHR'] = true,
-						['Reserves-R/15th Squadron'] = true,													
+						['Reserves-R/3rd GHR'] = true,																			
 					},
-				},				
+				},]]				
 			},
 		},		
 		['Iranian Storage Facility'] = {
 			['integrity'] = 1,
 			['supply_line_names'] = {
-				['Abu al-Duhur Airbase'] = {
+				--[[['Abu al-Duhur Airbase'] = {
 					['integrity'] = 1,
 					['airbase_supply'] = {													
 						['Abu al-Duhur'] = true,							
 						['Reserves-R/946 Squadron'] = true,	
 						['Reserves-R/2 Guards BAP 21 th BAA'] = true,													
 					},
-				},	
+				},]]	
 				['Taftanaz Airbase'] = {
 					['integrity'] = 1,
 					['airbase_supply'] = {						
@@ -142,6 +141,7 @@ supply_tab = {
 						['Reserves-R/2nd GHR'] = true,
 						['Reserves-R/16th Squadron'] = true,								
 						['Reserves-R/14th Squadron'] = true,
+						['Reserves-R/15th Squadron'] = true,
 					},
 				},	
 				['Tabqua Airbase'] = {

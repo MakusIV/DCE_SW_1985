@@ -187,7 +187,7 @@ camp_triggers = {
 	["Campaign End Loss 4 (avalaible Fighter + Fighter-Bomber < 10 unit)"] = {
 		active = true,
 		once = true,
-		condition = 'Return.AirUnitReady("111th Squadron Panther") + Return.AirUnitReady("151th Squadron Bronze") + Return.AirUnitReady("56th Operations Group") + Return.AirUnitReady("173rd Fighter Group") + Return.AirUnitReady("F6 Karlsborg") + Return.AirUnitReady("Escadron de Chasse 2/5 Ile-de-France") + Return.AirUnitReady("Escadron de Chasse 1/2 Cigognes") + Return.AirUnitReady("Jagdbombergeschwader 33") + Return.AirUnitReady("154 Gruppo, 6 Stormo") + Return.AirUnitReady("152th Squadron Iron") + Return.AirUnitReady("12 Gruppo, 36 Stormo") + Return.AirUnitReady("VF-101") + Return.AirUnitReady("VF-118/GA") < 10',
+		condition = 'Return.AirUnitReady("111th Squadron Panther") + Return.AirUnitReady("151th Squadron Bronze") + Return.AirUnitReady("56th Operations Group") + Return.AirUnitReady("173rd Fighter Group") + Return.AirUnitReady("F6 Karlsborg") + Return.AirUnitReady("Escadron de Chasse 2/5 Ile-de-France") + Return.AirUnitReady("Escadron de Chasse 1/2 Cigognes") + Return.AirUnitReady("Jagdbombergeschwader 33") + Return.AirUnitReady("154 Gruppo, 6 Stormo") + Return.AirUnitReady("152th Squadron Iron") + Return.AirUnitReady("VF-101") + Return.AirUnitReady("VF-118/GA") < 10',
 		action = {
 			[1] = 'Action.CampaignEnd("win")',
 			[2] = 'Action.Text("The USA Air Force is in ruins. After repeated air strikes and disastrous losses (Fighter losses > 80% ) in air-air combat, USA and Nato Countries are no longer able to produce any sorties or offer any resistance.")',
@@ -199,7 +199,7 @@ camp_triggers = {
 	["Campaign End Loss 5 (avalaible Attacker + Bomber < 12 unit)"] = {
 		active = true,
 		once = true,
-		condition = 'Return.AirUnitReady("69 BS") + Return.AirUnitReady("4450th Tactical Group") + Return.AirUnitReady("23rd FG") + Return.AirUnitReady("122nd Squadron") + Return.AirUnitReady("4453th Tactical Group") + Return.AirUnitReady("27rd FG") + Return.AirUnitReady("VS-21") < 12',
+		condition = 'Return.AirUnitReady("69 BS") + Return.AirUnitReady("4450th Tactical Group") + Return.AirUnitReady("23rd FG") + Return.AirUnitReady("122nd Squadron") + Return.AirUnitReady("4453th Tactical Group") + Return.AirUnitReady("VS-21") < 12',
 		action = {
 			[1] = 'Action.CampaignEnd("win")',
 			[2] = 'Action.Text("The USA Air Force is in ruins. After repeated air strikes and disastrous losses (Attacker and Bomber losses > 80% )in air-air combat, USA and Nato Countries are no longer able to produce any sorties or offer any resistance.")',
@@ -211,7 +211,7 @@ camp_triggers = {
 	["Campaign End Loss 6 (avalaible Fighter + Fighter-Bomber < 12 unit and Attacker + Bomber < 15 unit)"] = {
 		active = true,
 		once = true,
-		condition = '( Return.AirUnitReady("111th Squadron Panther") + Return.AirUnitReady("151th Squadron Bronze") + Return.AirUnitReady("56th Operations Group") + Return.AirUnitReady("173rd Fighter Group") + Return.AirUnitReady("F6 Karlsborg") + Return.AirUnitReady("Escadron de Chasse 2/5 Ile-de-France") + Return.AirUnitReady("Escadron de Chasse 1/2 Cigognes") + Return.AirUnitReady("Jagdbombergeschwader 33") + Return.AirUnitReady("154 Gruppo, 6 Stormo") + Return.AirUnitReady("152th Squadron Iron") + Return.AirUnitReady("12 Gruppo, 36 Stormo") + Return.AirUnitReady("VF-101") + Return.AirUnitReady("VF-118/GA") < 12 ) and ( Return.AirUnitReady("69 BS") + Return.AirUnitReady("4450th Tactical Group") + Return.AirUnitReady("23rd FG") + Return.AirUnitReady("122nd Squadron") + Return.AirUnitReady("4453th Tactical Group") + Return.AirUnitReady("27rd FG") + Return.AirUnitReady("VS-21") + Return.AirUnitReady("VS-22") < 15 )',
+		condition = '( Return.AirUnitReady("111th Squadron Panther") + Return.AirUnitReady("151th Squadron Bronze") + Return.AirUnitReady("56th Operations Group") + Return.AirUnitReady("173rd Fighter Group") + Return.AirUnitReady("F6 Karlsborg") + Return.AirUnitReady("Escadron de Chasse 2/5 Ile-de-France") + Return.AirUnitReady("Escadron de Chasse 1/2 Cigognes") + Return.AirUnitReady("Jagdbombergeschwader 33") + Return.AirUnitReady("154 Gruppo, 6 Stormo") + Return.AirUnitReady("152th Squadron Iron") + Return.AirUnitReady("VF-101") + Return.AirUnitReady("VF-118/GA") < 12 ) and ( Return.AirUnitReady("69 BS") + Return.AirUnitReady("4450th Tactical Group") + Return.AirUnitReady("23rd FG") + Return.AirUnitReady("122nd Squadron") + Return.AirUnitReady("4453th Tactical Group") + Return.AirUnitReady("VS-21") + Return.AirUnitReady("VS-22") < 15 )',
 		action = {
 			[1] = 'Action.CampaignEnd("win")',
 			[2] = 'Action.Text("The USA Air Force is in ruins. After repeated air strikes and disastrous losses (Fighter loss > 70% and Attacker-Bomber loss > 60% ) in air-air combat, USA and Nato Countries are no longer able to produce any sorties or offer any resistance.")',
@@ -619,16 +619,16 @@ camp_triggers = {
 		condition = 'true',
 		action = 'Action.AirUnitReinforce("R/F17 Kallinge", "F17 Kallinge", 6)',
 	},]]
-	["Reinforce 27rd FG"] = {
+	--[[["Reinforce 27rd FG"] = {
 		active = true,
 		condition = 'true',
 		action = 'Action.AirUnitReinforce("R/27rd FG", "27rd FG", 4)',
-	},
-	["Reinforce 12 Gruppo, 36 Stormo"] = {
+	},]]
+	--[[["Reinforce 12 Gruppo, 36 Stormo"] = {
 		active = true,
 		condition = 'true',
 		action = 'Action.AirUnitReinforce("R/12 Gruppo, 36 Stormo", "12 Gruppo, 36 Stormo", 4)',
-	},
+	},]]
 	["Reinforce VF-101"] = {
 		active = true,
 		condition = 'true',

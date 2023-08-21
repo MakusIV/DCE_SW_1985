@@ -284,7 +284,7 @@ db_airbases = {
 		VOR = "116.70",
 		NDB = "432",
 		-- TACAN = "",							-- TACAN : optionnel
-		ILS = "RWY 286/109.10",							-- ILS : optionnel
+		ILS = "RWY 286/109.10",					-- ILS : optionnel
 		LimitedParkNb = 12,
 	},	
 	['Gazipasa'] = {
@@ -495,7 +495,7 @@ db_airbases = {
 		-- ILS = "",							-- ILS : optionnel
 		LimitedParkNb = 4,
 	},
-	['Silifke Storage FARP'] = {                            ----Crisis in PG campaigns only
+	['Silifke Storage FARP'] = {                           
 		y = -175103.09885755,
 		x = 151534.80750016,
 		elevation = 8,
@@ -508,8 +508,7 @@ db_airbases = {
 		-- ILS = "",							-- ILS : optionnel
 		LimitedParkNb = 4,
 	},
-
-	['Ramat David'] = {             
+	--[[['Ramat David'] = {             
 		x =	 -259102.132813,
 		y =  -75789.410156,
 		elevation = 36,
@@ -526,7 +525,7 @@ db_airbases = {
 		TACAN = "84X - 113.70",							-- TACAN : optionnel
 		ILS = "RWY 326/111.10",							-- ILS : optionnel
 		LimitedParkNb = 42,
-	},
+	},]]
 	['Naqoura'] = {             -- UN helibase
 		-- Helicopter base
 		x =	 -209938.1875,
@@ -641,7 +640,7 @@ db_airbases = {
 		-- ILS = "",							-- ILS : optionnel
 		LimitedParkNb = 27,
 	},	
-	['Abu al-Duhur'] = {
+	--[[['Abu al-Duhur'] = {
 		x =	76048.957031,
 		y = 111344.925781,
 		elevation = 250,
@@ -658,7 +657,7 @@ db_airbases = {
 		-- TACAN = "",							-- TACAN : optionnel
 		-- ILS = "",							-- ILS : optionnel
 		LimitedParkNb = 36,
-	},
+	},]]
 	['Bassel Al-Assad'] = {
 		x =	41994.498047,
 		y = 5841.909424,
@@ -857,7 +856,7 @@ db_airbases = {
 		ILS = "RWY 169/110.10 - RWY 179/109.50 - RWY 35/110.70",		-- ILS : optionnel
 		LimitedParkNb = 34,
 	},
-	['Sayqal'] = {
+	--[[['Sayqal'] = {
 		x =	-151781.367188,
 		y = 117529.734375,
 		elevation = 693,
@@ -874,7 +873,7 @@ db_airbases = {
 		-- TACAN = "",							-- TACAN : optionnel
 		-- ILS = "",							-- ILS : optionnel
 		LimitedParkNb = 59,
-	},
+	},]]
 	--[[['Al-Dumayr Airbase'] = {
 		x =	-158713.039063,
 		y = 73973.316406,
@@ -931,7 +930,7 @@ db_airbases = {
 		-- ILS = "",			-- ILS : optionnel
 		LimitedParkNb = 20,
 	},]]
-	['Mezzeh'] = {   
+	--[[['Mezzeh'] = {   
 		x =	-172160.453125,
 		y = 24865.682617,
 		elevation = 720,
@@ -948,7 +947,7 @@ db_airbases = {
 		-- TACAN = "",							-- TACAN : optionnel
 		-- ILS = "",							-- ILS : optionnel
 		LimitedParkNb = 28,
-	},
+	},]]
 	--[[['Qabr as Sitt Airbase'] = {
 		-- Helicopter base
 		x =	 -174597.761535,
