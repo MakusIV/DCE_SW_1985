@@ -115,25 +115,28 @@ oob_air = {
 
 	-- Aircraft
 
-	-- F: 36  (Escort: , CAP: , Fighter Sweep: , Intercept: )
-	-- F/A: 72+36+84+60+30+48+20+36 = 386 (Escort: , CAP: , Fighter Sweep: , Intercept: , CAS: , CAS soft:, CAS armor:, Strike Structure: , Anti-ship: , SEAD: )
-	-- A: 72+30+72 = 174 (CAS: , CAS soft:, CAS armor:, Strike Structure: , Anti-ship: , SEAD: ))
-	-- B:26+24+24+12 = 86 (CAS: , CAS soft:, CAS armor:, Strike Structure: , Anti-ship: , SEAD: )
-	-- AW: 3+6+3 = 12
-	-- T: 6 (incrementare di 30)
-	-- R: 6+3+10+10 = 29
-	-- H: 70+40+68+68 = 246 (H-A: , H-T: ) 
+	-- F: 	36+96+54+48+40 = 264    (Escort: 36+54+48 = 138, CAP: 96, Fighter Sweep: 48_, Intercept: 48_+40 = 88)
+	-- F/A: 48	      				(Escort: 48, CAP: 48_, Fighter Sweep: 48_, Intercept: 48_, CAS: 48_, CAS soft: 48_, CAS armor: 48_, Strike Structure: 48_, Anti-ship: , SEAD: )
+	-- A: 	36+84+124 = 244        	(CAS: 36+48+42 = 126, CAS soft:, CAS armor:, Strike Structure: 84, Anti-ship: 36+42_+84_ = 162, SEAD: 36_+48_+84_ = 168))
+	-- B: 	64+27+29 =	120  		(CAS: , CAS soft:, CAS armor:, Strike Structure: 64+27 = 91, Anti-ship: 29, SEAD: )
+	-- AW: 	3+6 = 9
+	-- T: 	6+6 = 12
+	-- R: 	6+3+6 = 15
+	-- REC:
+	-- H: 	(H-A: 96+96 = 192, H-T: 36+20+20 = 76) 
 
-	-- F+F/A: 422 ()
-	-- A+B: 370 (-)
+	-- F+F/A: 312 ()
+	-- A+B: 364 (-)
 
+	-- Escort: 186, CAP: 144, Fighter Sweep: 96, Intercept: 176
+	-- CAS: 126, CAS soft: , CAS armor, Strike Structure: 175, Anti-ship: 191, SEAD: 168. 
 
 	-------------------- Incirlik (LimitedParkNb = 120) -------------------------
 		-- 111th Squadron Panther		F-4E			6+30			Turkey			Strike-CAS, SEAD
-		-- 151th Squadron Bronze		F-5E-3			12+24			Turkey			Escort
+		-- 151th Squadron Bronze		F-5E-3			8+28			Turkey			Escort
 		-- 315th Air Division 			C-130			2+4				USA				Transport
 		-- 69 BS 						B-52H			1+31			USA				Strike-Structure
-		-- 171 ARW 						KC135MPRS		6				USA				Refueling
+		-- 171 ARW 						KC135MPRS		2+4				USA				Refueling
 		-- 4450th Tactical Group		F-117A			2+30			USA				Strike-Structure
 
 		-- 36 F, 36 A, 64 B, 6 T, 6 R
@@ -171,7 +174,7 @@ oob_air = {
 			number = 30,
 		},
 		[3] = {
-			name = "151th Squadron Bronze",								--unit name
+			name = "151th Squadron Bronze",					--unit name
 			--player = true,								--player unit
 			type = "F-5E-3",								--aircraft type
 			country = "Turkey",								--unit country
@@ -194,7 +197,7 @@ oob_air = {
 				["Escort"] = 0.5,
 				["Fighter Sweep"] = 0.2,	
 			},
-			number = 12,
+			number = 8,
 		},
 		[4] = {
 			name = "R/151th Squadron Bronze",							--unit name
@@ -204,7 +207,7 @@ oob_air = {
 			base = "Reserves",								--unit base
 			skill = getSkill(mission_ini.min_skill_blue_attacker, mission_ini.max_skill_blue_attacker),			--unit skill
 			tasks = {},										--unit tasks
-			number = 20,
+			number = 28,
 		},
 		[5] = {
 			name = "315th Air Division",					--unit name
@@ -260,7 +263,7 @@ oob_air = {
 			tasks = {										--unit tasks
 				["Refueling"] = true,
 			},
-			number = 3,
+			number = 2,
 		},
 		[10] = {
 			name = "R/171 ARW",								--unit name
@@ -270,7 +273,7 @@ oob_air = {
 			base = "Reserves",								--unit base
 			skill = getSkill(mission_ini.min_skill_blue_refuelling, mission_ini.max_skill_blue_refuelling),			--unit skill
 			tasks = {},										--unit tasks
-			number = 6,
+			number = 4,
 		},		
 		[11] = {
 			name = "4450th Tactical Group",								--unit name
@@ -903,11 +906,11 @@ oob_air = {
 			
 	-------------------- CVN-71 Theodore Roosevelt ----------------------
 		-- VF-101					F-14A-135-GR			8+40			USA				Intercept, CAP, Escort, Fighter Sweep, Strike
-		-- VS-29					S-3B Tanker				2+8				USA				Refueling
+		-- VS-29					S-3B Tanker				2+4				USA				Refueling
 		-- VS-21					S-3B					4+25			USA				Anti-ship Strike
 		-- VAW-125					E-2C					2+4				USA				AWACS
 
-		-- 48 F/A, 25 B, 10 R, 6 AW
+		-- 48 F/A, 29 B, 10 R, 6 AW
 
 		[44] = {
 			name = "VF-101",								--unit name
@@ -960,7 +963,7 @@ oob_air = {
 			tasks = {										--unit tasks
 				["Refueling"] = true,
 			},
-			number = 4,
+			number = 2,
 		},
 		[47] = {
 			name = "R/VS-29",								--unit name
@@ -970,7 +973,7 @@ oob_air = {
 			base = "Reserves",								--unit base
 			skill = getSkill(mission_ini.min_skill_blue_refuelling, mission_ini.max_skill_blue_refuelling),			--unit skill
 			tasks = {},										--unit tasks
-			number = 5,
+			number = 4,
 		},
 		[48] = {
 			name = "VS-21",									--unit name
@@ -1034,7 +1037,7 @@ oob_air = {
 		-- INACTIVE VS-22			S-3B					4+36			USA			Anti-ship Strike
 		-- VAW-123					E-2C					3				USA			AWACS
 
-		-- 20 F, 3 AW
+		-- 40 F, 3 AW
 
 		[52] = {
 			name = "VF-118/GA",								--unit name
@@ -1209,7 +1212,7 @@ oob_air = {
 	-------------------- end Naquora Airbase ----------------		
 
 	-------------------- Silifke Storage FARP (LimitedParkNb = 4) -----------------
-		-- INACTIVE 4th Army Aviation Regiment			CH-47D			4+16			Turkey				Transport			
+		-- INACTIVE 4th Army Aviation Regiment	CH-47D			4+16			Turkey				Transport			
 		-- HS-6 Indians							SH-60B			4+16			USA					Transport
 
 		-- 20 H-T
@@ -1264,9 +1267,10 @@ oob_air = {
 
 	-------------------- end Silifke Storage FARP -----------------
 
-	-------------------- Hatay FARP 1 (LimitedParkNb = 4) -----------------
+	-------------------- Hatay FARP (LimitedParkNb = 4) -----------------
 		-- 14th Army Aviation Regiment			CH-47D			4+16			Turkey				Transport
 		-- HMLA-177								AH-1W			4+44			USA					Strike CAS
+		-- 18th Cavalry Regiment				OH-58D			4+44			UK					Strike CAS Soft
 
 		-- 48 H-A, 20 H-T
 
@@ -1276,7 +1280,7 @@ oob_air = {
 			helicopter = true,								--true for helicopter units
 			country = "Turkey",								--unit country
 			livery = "",									--unit livery
-			base = "FARP-Hatay FARP 1",					--unit base
+			base = "FARP-Hatay FARP",					--unit base
 			skill = getSkill(mission_ini.min_skill_red_helicopter, mission_ini.max_skill_red_helicopter),			--unit skill
 			tasks = {
 				["Transport"] = true,
@@ -1299,7 +1303,7 @@ oob_air = {
 			helicopter = true,								--true for helicopter units
 			country = "Turkey",								--unit country
 			livery = "",									--unit livery
-			base = "FARP-Hatay FARP 1",								--unit base
+			base = "FARP-Hatay FARP",								--unit base
 			skill = getSkill(mission_ini.min_skill_red_helicopter, mission_ini.max_skill_red_helicopter),			--unit skill
 			tasks = {
 				["Strike"] = true,
@@ -1316,46 +1320,13 @@ oob_air = {
 			tasks = {},										--unit tasks
 			number = 44,
 		},	
-
-
-	-------------------- end Silifke Storage FARP -----------------
-
-	-------------------- Hatay FARP 2 (LimitedParkNb = 4) -----------------
-		-- 11th Army Aviation Regiment			CH-47D			4+16			Turkey				Transport
-		-- 18th Cavalry Regiment				OH-58D			4+44			UK					Strike CAS Soft
-
-		-- 48 H-A, 20 H-T
-
-		[67] = {
-			name = "11th Army Aviation Regiment",								--unit name
-			type = "CH-47D",								--aircraft type
-			helicopter = true,								--true for helicopter units
-			country = "Turkey",								--unit country
-			livery = "",									--unit livery
-			base = "FARP-Hatay FARP 2",					--unit base
-			skill = getSkill(mission_ini.min_skill_red_helicopter, mission_ini.max_skill_red_helicopter),			--unit skill
-			tasks = {
-				["Transport"] = true,
-			},
-			number = 4,
-		},
-		[68] = {
-			name = "R/11th Army Aviation Regiment",			--unit name
-			inactive = true,
-			type = "CH-47D",								--aircraft type
-			helicopter = true,								--true for helicopter units
-			base = "Reserves",
-			skill = getSkill(mission_ini.min_skill_red_helicopter, mission_ini.max_skill_red_helicopter),			--unit skill
-			tasks = {},										--unit tasks
-			number = 16,
-		},		
 		[69] = {
 			name = "18th Cavalry Regiment",					--unit name
 			type = "OH-58D",								--aircraft type
 			helicopter = true,								--true for helicopter units
 			country = "UK",									--unit country
 			livery = "",									--unit livery
-			base = "FARP-Hatay FARP 2",								--unit base
+			base = "FARP-Hatay FARP",								--unit base
 			skill = getSkill(mission_ini.min_skill_red_helicopter, mission_ini.max_skill_red_helicopter),			--unit skill
 			tasks = {
 				["Strike"] = true,
@@ -1372,9 +1343,7 @@ oob_air = {
 			tasks = {},										--unit tasks
 			number = 44,
 		},	
-
-
-	-------------------- end Silifke Storage FARP -----------------
+	-------------------- end Hatay FARP ----------------
 	},
 
 	

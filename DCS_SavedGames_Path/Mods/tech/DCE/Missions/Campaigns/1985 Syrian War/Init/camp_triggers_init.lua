@@ -702,11 +702,11 @@ camp_triggers = {
 		condition = 'true',
 		action = 'Action.AirUnitReinforce("R/HMLA-177", "HMLA-177", 4)',
 	},
-	["Reinforce 11th Army Aviation Regiment"] = {
+	--[[["Reinforce 11th Army Aviation Regiment"] = {
 		active = true,
 		condition = 'true',
 		action = 'Action.AirUnitReinforce("R/11th Army Aviation Regiment", "11th Army Aviation Regiment", 3)',
-	},
+	},]]
 	["Reinforce 18th Cavalry Regiment"] = {
 		active = true,
 		condition = 'true',

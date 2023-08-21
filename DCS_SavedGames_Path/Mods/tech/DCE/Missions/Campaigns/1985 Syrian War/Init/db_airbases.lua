@@ -469,26 +469,13 @@ db_airbases = {
 		-- ILS = "",							-- ILS : optionnel
 		LimitedParkNb = 8,
 	},]]
-	['FARP-Hatay FARP 1'] = {                            
+	['FARP-Hatay FARP'] = {                            
 		x =	143464.08813154,
 		y = 41871.567590793,
 		elevation = 69,
 		airdromeId = 101,	--be careful this Id depends on units placements and is helipadID in fact
 		helipadId = 101,
 		ATC_frequency = "129.500",
-		side = "blue",							-- side : info obligatoire
-		divert = false,							-- divert : info obligatoire (pour l instant)
-		-- TACAN = "",							-- TACAN : optionnel
-		-- ILS = "",							-- ILS : optionnel
-		LimitedParkNb = 4,
-	},
-	['FARP-Hatay FARP 2'] = {                            
-		y = 42261.054707957,
-        x = 143452.20826485,
-		elevation = 67,
-		airdromeId = 102,	--be careful this Id depends on units placements and is helipadID in fact
-		helipadId = 102,
-		ATC_frequency = "130.500",
 		side = "blue",							-- side : info obligatoire
 		divert = false,							-- divert : info obligatoire (pour l instant)
 		-- TACAN = "",							-- TACAN : optionnel
