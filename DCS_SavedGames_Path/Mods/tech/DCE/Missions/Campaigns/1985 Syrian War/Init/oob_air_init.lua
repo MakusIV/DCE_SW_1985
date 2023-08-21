@@ -496,7 +496,7 @@ oob_air = {
 	-------------------- Adana Sakirpasa (LimitedParkNb = 39) -------------------------------
 		-- Escadron de Chasse 2/5 Ile-de-France				M-2000C				6+18			France			Escort Bomber		
 		-- Escadron de Chasse 1/2 Cigognes					Mirage-F1C			6+24			France			Escort Attacker
-		-- INACTIVE Escadron de Chasse 1/5 Vendée					Mirage-F1EE			6+24			France			Escort Attacker
+		-- INACTIVE Escadron de Chasse 1/5 Vendée			Mirage-F1EE			6+24			France			Escort Attacker
 
 		-- 54 F
 		

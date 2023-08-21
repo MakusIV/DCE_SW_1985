@@ -2909,7 +2909,13 @@ targetlist = {
 					name = "Naquora Helibase Logistic 7",
 				},				
 				[8] = {
+					name = "Naquora Helibase Logistic 8",					
+				},
+				[9] = {
 					name = "Naquora Helibase Logistic 9",					
+				},
+				[10] = {
+					name = "Naquora Helibase Logistic 10",					
 				},
 			},
 		},
