@@ -499,7 +499,7 @@ targetlist = {
 			},
 		},
 
-		["IR-Al Kiswah Military Base"] = {
+		["IR-Al Kiswah Military Base"] = { -- fatto
 			task = "Strike",
 			priority = 4,
 			picture = {"IR_al_Kiswah_Military_base.png"},
@@ -511,102 +511,45 @@ targetlist = {
 			class = "static",
 			elements = {
 				[1] = {
-					name = "IR-Al Kiswah Warehouse-1",
+					name = "IR-Al Kiswah Military Base-1",
 				},
 				[2] = {
-					name = "IR-Al Kiswah Warehouse-2",
+					name = "IR-Al Kiswah Military Base-2",
 				},
 				[3] = {
-					name = "IR-Al Kiswah Warehouse-3",
+					name = "IR-Al Kiswah Military Base-3",
 				},
 				[4] = {
-					name = "IR-Al Kiswah Warehouse-4",
+					name = "IR-Al Kiswah Military Base-4",
 				},
 				[5] = {
-					name = "IR-Al Kiswah Warehouse-5",
+					name = "IR-Al Kiswah Military Base-5",
 				},
 				[6] = {
-					name = "IR-Al Kiswah Warehouse-6",
+					name = "IR-Al Kiswah Military Base-6",
 				},
 				[7] = {
-					name = "IR-Al Kiswah Warehouse-7",
+					name = "IR-Al Kiswah Military Base-7",
 				},
 				[8] = {
-					name = "IR-Al Kiswah Warehouse-8",
+					name = "IR-Al Kiswah Military Base-8",
 				},
 				[9] = {
-					name = "IR-Al Kiswah Warehouse-9",
+					name = "IR-Al Kiswah Military Base-9",
 				},
 				[10] = {
-					name = "IR-Al Kiswah Warehouse-10",
+					name = "IR-Al Kiswah Military Base-10",
 				},
 				[11] = {
-					name = "IR-Al Kiswah Warehouse-11",
+					name = "IR-Al Kiswah Military Base-11",
 				},
 				[12] = {
-					name = "IR-Al Kiswah Warehouse-12",
-				},
-				[13] = {
-					name = "IR-Al Kiswah Warehouse-13",
-				},
-				[14] = {
-					name = "IR-Al Kiswah Warehouse-14",
-				},
-				[15] = {
-					name = "IR-Al Kiswah Warehouse-15",
-				},
-				[16] = {
-					name = "IR-Al Kiswah Warehouse-16",
-				},
-				[17] = {
-					name = "IR-Al Kiswah Warehouse-17",
-				},
-				[18] = {
-					name = "IR-Al Kiswah Warehouse-18",
-				},
-				[19] = {
-					name = "IR-Al Kiswah Warehouse-19",
-				},
-				[20] = {
-					name = "IR-Al Kiswah Warehouse-20",
-				},
-				[21] = {
-					name = "IR-Al Kiswah Warehouse-21",
-				},
-				[22] = {
-					name = "IR-Al Kiswah Warehouse-22",
-				},
-				[23] = {
-					name = "IR-Al Kiswah Warehouse-23",
-				},
-				[24] = {
-					name = "IR-Al Kiswah Hut-1",
-				},
-				[25] = {
-					name = "IR-Al Kiswah Hut-2",
-				},
-				[26] = {
-					name = "IR-Al Kiswah Hut-3",
-				},
-				[27] = {
-					name = "IR-Al Kiswah Barracks-1",
-				},
-				[28] = {
-					name = "IR-Al Kiswah Barracks-2",
-				},
-				[29] = {
-					name = "IR-Al Kiswah Barracks-3",
-				},
-				[30] = {
-					name = "IR-Al Kiswah Barracks-4",
-				},
-				[31] = {
-					name = "IR-Al Kiswah Barracks-5",
+					name = "IR-Al Kiswah Military Base-12",
 				},
 			},
 		},	
 
-		["An Nasiriyah Military Base"] = {
+		["An Nasiriyah Military Base"] = { -- fatto
 			task = "Strike",
 			priority = 4,
 			picture = {"An_Nasiriyah_Military_Base.png"},
@@ -618,101 +561,41 @@ targetlist = {
 			class = "static",
 			elements = {
 				[1] = {
-					name = "Syria An Nasiriyah 1",
+					name = "An Nasiriyah Military Base 1",
 				},
 				[2] = {
-					name = "Syria An Nasiriyah 2",
+					name = "An Nasiriyah Military Base 2",
 				},
 				[3] = {
-					name = "Syria An Nasiriyah 3",
+					name = "An Nasiriyah Military Base 3",
 				},
 				[4] = {
-					name = "Syria An Nasiriyah 4",
+					name = "An Nasiriyah Military Base 4",
 				},
 				[5] = {
-					name = "Syria An Nasiriyah 5",
+					name = "An Nasiriyah Military Base 5",
 				},
 				[6] = {
-					name = "Syria An Nasiriyah 6",
+					name = "An Nasiriyah Military Base 6",
 				},
 				[7] = {
-					name = "Syria An Nasiriyah 7",
+					name = "An Nasiriyah Military Base 7",
 				},
 				[8] = {
-					name = "Syria An Nasiriyah 8",
+					name = "An Nasiriyah Military Base 8",
 				},
 				[9] = {
-					name = "Syria An Nasiriyah 9",
+					name = "An Nasiriyah Military Base 9",
 				},
 				[10] = {
-					name = "Syria An Nasiriyah 10",
+					name = "An Nasiriyah Military Base 10",
 				},
 				[11] = {
-					name = "Syria An Nasiriyah 11",
+					name = "An Nasiriyah Military Base 11",
 				},
 				[12] = {
-					name = "Syria An Nasiriyah 12",
-				},
-				[13] = {
-					name = "Syria An Nasiriyah 13",
-				},
-				[14] = {
-					name = "Syria An Nasiriyah 14",
-				},
-				[15] = {
-					name = "Syria An Nasiriyah 15",
-				},
-				[16] = {
-					name = "Syria An Nasiriyah 16",
-				},
-				[17] = {
-					name = "Syria An Nasiriyah 17",
-				},
-				[18] = {
-					name = "Syria An Nasiriyah 18",
-				},
-				[19] = {
-					name = "Syria An Nasiriyah 19",
-				},
-				[20] = {
-					name = "Syria An Nasiriyah 20",
-				},
-				[21] = {
-					name = "Syria An Nasiriyah 21",
-				},
-				[22] = {
-					name = "Syria An Nasiriyah 22",
-				},
-				[23] = {
-					name = "Syria An Nasiriyah 23",
-				},
-				[24] = {
-					name = "Syria An Nasiriyah 24",
-				},
-				[25] = {
-					name = "Syria An Nasiriyah 25",
-				},
-				[26] = {
-					name = "Syria An Nasiriyah 26",
-				},
-				[27] = {
-					name = "Syria An Nasiriyah Bunker",
-				},
-				[28] = {
-					name = "Syria An Nasiriyah 28",
-				},
-				[29] = {
-					name = "Syria An Nasiriyah 29",
-				},
-				[30] = {
-					name = "Syria An Nasiriyah 30",
-				},
-				[31] = {
-					name = "Syria An Nasiriyah Barrack1",
-				},
-				[32] = {
-					name = "Syria An Nasiriyah Barrack2",
-				},				
+					name = "An Nasiriyah Military Base 12",
+				},		
 			},
 		},
 
@@ -891,89 +774,70 @@ targetlist = {
 			picture = {"An_Nasiriyah_Airbase.png"},
 			attributes = {"Structure"},
 			firepower = {
-				min = 3, -- --3,
-				max = 3, -- --6,
+				min = 6, -- --3,
+				max = 16, -- --6,
 			},
+			class = "static",
 			elements = {
 				[1] = {
 					name = "An Nasiriyah Airbase Logistic 1",
-					["y"] = 86762.515547433,
-                    ["x"] = -122673.50017915,
+					
 				},
 				[2] = {
 					name = "An Nasiriyah Airbase Logistic 2",
-					["y"] = 86776.784711065,
-                    ["x"] = -122680.5221112,
+					
 				},
 				[3] = {
 					name = "An Nasiriyah Airbase Logistic 3",
-					["y"] = 86787.1321199,
-                    ["x"] = -122663.42472333,
+					
 				},
 				[4] = {
 					name = "An Nasiriyah Airbase Logistic 4",
-					["y"] = 86770.358780848,
-                    ["x"] = -122656.06799567,
+					
 				},
 				[5] = {
 					name = "An Nasiriyah Airbase Logistic 5",
-					["y"] = 86779.333988586,
-                    ["x"] = -122637.67617654,
+					
 				},
 				[6] = {
 					name = "An Nasiriyah Airbase Logistic 6",
-					["y"] = 86795.518789426,
-                    ["x"] = -122645.91571151,
+					
 				},
 				[7] = {
 					name = "An Nasiriyah Airbase Logistic 7",
-					["y"] = 86786.837850794,
-                    ["x"] = -122622.66845212,
+					
 				},
 				[8] = {
 					name = "An Nasiriyah Airbase Logistic 8",
-					["y"] = 86803.022651633,
-                    ["x"] = -122630.31944888,
+					
 				},
 				[9] = {
 					name = "An Nasiriyah Airbase Logistic 9",
-					["y"] = 85847.307706892,
-                    ["x"] = -123249.33361623,
+					
 				},
 				[10] = {
 					name = "An Nasiriyah Airbase Logistic 10",
-					["y"] = 85895.452314271,
-                    ["x"] = -123205.12926208,
+					
 				},
 				[11] = {
 					name = "An Nasiriyah Airbase Logistic 11",
-					["y"] = 85783.54873661,
-                    ["x"] = -123872.67395514,
+					
 				},
 				[12] = {
 					name = "An Nasiriyah Airbase Logistic 12",
-					["y"] = 85661.488898936,
-                    ["x"] = -123790.43042815,
+					
 				},
 				[13] = {
 					name = "An Nasiriyah Airbase Logistic 13",
-					["y"] = 85584.467183184,
-                    ["x"] = -123721.89415566,
+					
 				},
 				[14] = {
 					name = "An Nasiriyah Airbase Logistic 14",
-					["y"] = 85487.210948887,
-                    ["x"] = -123640.95608148,
+					
 				},
 				[15] = {
 					name = "An Nasiriyah Airbase Logistic 15",
-					["y"] = 85971.674528902,
-                    ["x"] = -122655.5654005,
-				},
-				[16] = {
-					name = "An Nasiriyah Airbase Logistic 16",
-					["y"] = 85994.52327452,
-                    ["x"] = -122705.29502332,
+					
 				},
 			},
 		},
@@ -1000,66 +864,67 @@ targetlist = {
 				min = 3, -- --3,
 				max = 3, -- --6,
 			},
+			class = "static",
 			elements = {
 				[1] = {
 					name = "Damascus Airbase Logistic-1",
-					["y"] = 52528.232495553,
-                    ["x"] = -180191.34926924,
+					
 				},
 				[2] = {
 					name = "Damascus Airbase Logistic-2",
-					["y"] = 52556.369910765,
-                    ["x"] = -180223.46644492,
+					
 				},
 				[3] = {
 					name = "Damascus Airbase Logistic-3",
-					["y"] = 52586.939808088,
-                    ["x"] = -180254.58223326,
+					
 				},
 				[4] = {
 					name = "Damascus Airbase Logistic-4",
-					["y"] = 52557.461692813,
-                    ["x"] = -180154.13828492,
+					
 				},
 				[5] = {
 					name = "Damascus Airbase Logistic-5",
-					["y"] = 52591.306936277,
-                    ["x"] = -180182.52461814,
+					
 				},
 				[6] = {
 					name = "Damascus Airbase Logistic-6",
-					["y"] = 52624.060397693,
-                    ["x"] = -180221.28288082,
+					
 				},
 				[7] = {
 					name = "Damascus Airbase Logistic-7",
-					["y"] = 51804.244522921,
-                    ["x"] = -179513.83714859,
+					
 				},
 				[8] = {
 					name = "Damascus Airbase Logistic-8",
-					["y"] = 51826.539551566,
-                    ["x"] = -179539.56218164,
+					
 				},
 				[9] = {
 					name = "Damascus Airbase Logistic-9",
-					["y"] = 51847.977079109,
-                    ["x"] = -179565.28721469,
+					
 				},
 				[10] = {
 					name = "Damascus Airbase Logistic-10",
-					["y"] = 50497.230964957,
-					["x"] = -182199.06180369,
+					
 				},
 				[11] = {
 					name = "Damascus Airbase Logistic-11",
-					["y"] = 50257.372863667,
-                    ["x"] = -181989.46857361,
+					
 				},
 				[12] = {
 					name = "Damascus Airbase Logistic-12",
-					["y"] = 50479.71472886,
-                    ["x"] = -182178.3607974,
+					
+				},
+				[13] = {
+					name = "Damascus Airbase Logistic-13",
+					
+				},
+				[14] = {
+					name = "Damascus Airbase Logistic-14",
+					
+				},
+				[15] = {
+					name = "Damascus Airbase Logistic-15",
+					
 				},
 			},
 		},
