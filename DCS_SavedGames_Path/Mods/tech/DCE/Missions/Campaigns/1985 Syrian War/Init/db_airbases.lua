@@ -211,9 +211,9 @@ db_airbases = {
 		-- LimitedParkNb = 11,
 	-- },
 
-	-- blue coal: USA, Turkish, UK, Italy, Germany, Israely, Georgia
-	-- red: Russia, Syria, Lebanon, Lybia, France, Abkhazia, Ossetia
-	-- neutral: Jordan,
+	-- blue coal: USA, Turkey, UK, Italy, Germany, France, Sweden
+	-- red: Russia, Syria, Lebanon, Iran
+
 
 	-- blue navy
 	['CVN-72 Abraham Lincoln'] = {                            
@@ -223,7 +223,6 @@ db_airbases = {
 		LimitedParkNb  = 9, 
 		ATC_frequency = "272.500",				--si ATC_frequency non present, on utilise la freq de base_mission
 	},
-	
 	['CVN-71 Theodore Roosevelt'] = {                            
 		unitname = "CVN-71 Theodore Roosevelt",
 		startup = 300,
@@ -231,7 +230,6 @@ db_airbases = {
 		ATC_frequency = "275.500",			--si ATC_frequency non present, on utilise la freq de base_mission
 		LimitedParkNb  = 9, 
 	},	
-
 	-- blue turkish
 	['Incirlik'] = {
 		x =	221207.765625,
@@ -340,7 +338,6 @@ db_airbases = {
 		ILS = "RWY 44/108.90 - RWY 224/108.15",		-- ILS : optionnel
 		LimitedParkNb = 10,
 	},	
-
 	-- blue Cyprus
 	['Larnaca'] = {
 		x =	 -7674.737061,
@@ -954,7 +951,6 @@ db_airbases = {
 		-- ILS = "",							-- ILS : optionnel
 		LimitedParkNb = 8,
 	},]]
-
 	['Damascus'] = {
 		x =	 -178652.320313,
 		y =  52081.296875,
@@ -973,7 +969,6 @@ db_airbases = {
 		ILS = "RWY 230/109.90 - 50/111.10",							-- ILS : optionnel
 		LimitedParkNb = 90,
 	},
-
 	['Deir ez-Zor'] = {
 		x =	 25461,
 		y =  389768,
@@ -992,7 +987,6 @@ db_airbases = {
 		--ILS = "RWY 230/109.90 - 50/111.10",							-- ILS : optionnel
 		LimitedParkNb = 90,
 	},
-
 	--[[['Marj Ruhayyil Airbase'] = {             
 		x =	 -194233.6875,
 		y =  46043.976563,
@@ -1011,7 +1005,6 @@ db_airbases = {
 		-- ILS = "",							-- ILS : optionnel
 		LimitedParkNb = 33,
 	},]]
-
 	--[[['Kiryat Shmona Airbase'] = {             
 		x =	 -199486.164063,
 		y =  -34500.691406,
@@ -1030,7 +1023,6 @@ db_airbases = {
 		-- ILS = "",							-- ILS : optionnel
 		LimitedParkNb = 5,
 	},]]
-
 	['Khalkhalah'] = {             
 		x =	 -218620.25,
 		y =  56161.078125,

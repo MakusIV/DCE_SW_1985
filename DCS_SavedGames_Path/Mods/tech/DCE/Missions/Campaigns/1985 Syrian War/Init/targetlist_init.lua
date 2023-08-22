@@ -753,20 +753,8 @@ targetlist = {
 		},	
 
 		-- Intercept
-		["Larnaca 120 km Alert"] = {
-			task = "Intercept",
-			priority = 5,
-			attributes = {},
-			firepower = {
-				min = 2,  -- min num enemy aircraft
-				max = 4, -- max num enemy aircraft
-			},
-			base = "Larnaca",
-			radius = 120000,
-			inactive = false,
-		},
 
-		["Incirlik 120 km Alert"] = {
+		["Gaziantep 120 km Alert"] = {
 			task = "Intercept",
 			priority = 5,
 			attributes = {},
@@ -774,7 +762,7 @@ targetlist = {
 				min = 2,  -- min num enemy aircraft
 				max = 4, -- max num enemy aircraft
 			},
-			base = "Incirlik",
+			base = "Gaziantep",
 			radius = 120000,
 			inactive = false,
 		},
@@ -792,7 +780,7 @@ targetlist = {
 			inactive = false,
 		},
 
-		["Gazipasa 200 km Alert"] = {
+		["Adana Sakirpasa 200 km Alert"] = {
 			task = "Intercept",
 			priority = 5,
 			attributes = {},
@@ -800,7 +788,7 @@ targetlist = {
 				min = 2,  -- min num enemy aircraft
 				max = 4, -- max num enemy aircraft
 			},
-			base = "Gazipasa",
+			base = "Adana Sakirpasa",
 			radius = 200000,
 			inactive = false,
 		},
@@ -2468,7 +2456,7 @@ targetlist = {
 			inactive = false,
 		},
 
-		["Beirut-Rafic Hariri 80km Alert"] = {
+		["Khalkhalah 80km Alert"] = {
 			task = "Intercept",
 			priority = 5,
 			attributes = {},
@@ -2476,7 +2464,7 @@ targetlist = {
 				min = 2,  -- min num enemy aircraft
 				max = 4, -- max num enemy aircraft
 			},
-			base = "Beirut-Rafic Hariri",
+			base = "Khalkhalah",
 			radius = 80000,
 			inactive = false,
 		},
@@ -2507,7 +2495,7 @@ targetlist = {
 			inactive = false,
 		},
 
-		["Palmyra 200km Alert"] = {
+		["An Nasiriyah 200km Alert"] = {
 			task = "Intercept",
 			priority = 5,
 			attributes = {},
@@ -2515,7 +2503,7 @@ targetlist = {
 				min = 2,  -- min num enemy aircraft
 				max = 4, -- max num enemy aircraft
 			},
-			base = "Palmyra",
+			base = "An Nasiriyah",
 			radius = 200000,
 			inactive = false,
 		},
@@ -3217,7 +3205,7 @@ targetlist = {
 			name = "Paphos",
 		},
 
-		['FARP-Hatay FARP 1'] = {
+		['FARP-Hatay FARP'] = {
 			task = "Strike",
 			priority = 4,
 			picture = {""},
