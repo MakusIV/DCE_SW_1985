@@ -479,7 +479,7 @@ db_airbases = {
 		-- ILS = "",							-- ILS : optionnel
 		LimitedParkNb = 4,
 	},
-	['Silifke Storage FARP'] = {                           
+	['FARP-Silifke Storage FARP'] = {                           
 		y = -175103.09885755,
 		x = 151534.80750016,
 		elevation = 8,

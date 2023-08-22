@@ -1418,93 +1418,7 @@ targetlist = {
 			},
 			class = "airbase",
 			name = "Palmyra",
-		},
-
-		--[[["Sayqal Airbase"] = { --   
-			task = "Strike",
-			priority = 4,
-			picture = {"Sayqal_Helibase.png"},
-			attributes = {"Structure"},
-			firepower = {
-				min = 3, -- --3,
-				max = 3, -- --6,
-			},
-			class = "static",
-			elements = {
-				[1] = {
-					name = "Sayqal Helibase Logistic 1",
-					
-				},
-				[2] = {
-					name = "Sayqal Helibase Logistic 2",
-					
-				},
-				[3] = {
-					name = "Sayqal Helibase Logistic 3",
-					
-				},
-				[4] = {
-					name = "Sayqal Helibase Logistic 4",
-					
-				},
-				[5] = {
-					name = "Sayqal Helibase Logistic 5",
-					
-				},
-				[6] = {
-					name = "Sayqal Helibase Logistic 6",
-					
-				},
-				[7] = {
-					name = "Sayqal Helibase Logistic 7",
-					
-				},
-				[8] = {
-					name = "Sayqal Helibase Logistic 8",
-					
-				},
-				[9] = {
-					name = "Sayqal Helibase Logistic 9",
-					
-				},
-				[10] = {
-					name = "Sayqal Helibase Logistic 10",
-					
-				},
-				[11] = {
-					name = "Sayqal Helibase Logistic 11",
-					
-				},
-				[12] = {
-					name = "Sayqal Helibase Logistic 12",
-					
-				},
-				[13] = {
-					name = "Sayqal Helibase Logistic 13",
-					
-				},
-				[14] = {
-					name = "Sayqal Helibase Logistic 14",
-					
-				},
-				[15] = {
-					name = "Sayqal Helibase Logistic 15",
-					
-				},
-			},
-		},
-
-		["Sayqal airbase OCA Strike"] = {
-			task = "Strike",
-			priority = 1,
-			attributes = {"Parked Aircraft"},
-			firepower = {
-				min = 2,
-				max = 4, 
-			},
-			class = "airbase",
-			name = "Sayqal",
-		},]]
+		},		
 
 		["Khalkhalah Airbase"] = { --   
 			task = "Strike",
@@ -1763,77 +1677,7 @@ targetlist = {
 			class = "airbase",
 			name = "Taftanaz",
 		},
-
-		--[[["Mezzeh Airbase"] = { --   
-			task = "Strike",
-			priority = 4,
-			picture = {"Mezze_Airbase.png"},
-			attributes = {"Structure"},
-			firepower = {
-				min = 3, -- --3,
-				max = 3, -- --6,
-			},
-			class = "static",
-			elements = {
-				[1] = {
-					name = "Mezzeh Airbase Logistic 1",
-					
-				},
-				[2] = {
-					name = "Mezzeh Airbase Logistic 2",
-					
-				},
-				[3] = {
-					name = "Mezzeh Airbase Logistic 3",
-					
-				},
-				[4] = {
-					name = "Mezzeh Airbase Logistic 4",
-					
-				},
-				[5] = {
-					name = "Mezzeh Airbase Logistic 5",
-					
-				},
-				[6] = {
-					name = "Mezzeh Airbase Logistic 6",
-					
-				},
-				[7] = {
-					name = "Mezzeh Airbase Logistic 7",
-					
-				},
-				[8] = {
-					name = "Mezzeh Airbase Logistic 8",
-					
-				},
-				[9] = {
-					name = "Mezzeh Airbase Logistic 9",
-					
-				},
-				[10] = {
-					name = "Mezzeh Airbase Logistic 10",
-					
-				},
-				[11] = {
-					name = "Mezzeh Airbase Logistic 11",
-					
-				},
-			},
-		},
-
-		["Mezzeh Airbase OCA Strike"] = { --   
-			task = "Strike",
-			priority = 1,
-			attributes = {"Parked Aircraft"},
-			firepower = {
-				min = 2,
-				max = 4, 
-			},
-			class = "airbase",
-			name = "Mezzeh",
-		},]]
-
+		
 		["Bassel Al-Assad Airbase"] = { --   
 			task = "Strike",
 			priority = 4,
@@ -2108,7 +1952,163 @@ targetlist = {
 				},
 			},
 		},
+
+		--[[["Sayqal Airbase"] = { --   
+			task = "Strike",
+			priority = 4,
+			picture = {"Sayqal_Helibase.png"},
+			attributes = {"Structure"},
+			firepower = {
+				min = 3, -- --3,
+				max = 3, -- --6,
+			},
+			class = "static",
+			elements = {
+				[1] = {
+					name = "Sayqal Helibase Logistic 1",
+					
+				},
+				[2] = {
+					name = "Sayqal Helibase Logistic 2",
+					
+				},
+				[3] = {
+					name = "Sayqal Helibase Logistic 3",
+					
+				},
+				[4] = {
+					name = "Sayqal Helibase Logistic 4",
+					
+				},
+				[5] = {
+					name = "Sayqal Helibase Logistic 5",
+					
+				},
+				[6] = {
+					name = "Sayqal Helibase Logistic 6",
+					
+				},
+				[7] = {
+					name = "Sayqal Helibase Logistic 7",
+					
+				},
+				[8] = {
+					name = "Sayqal Helibase Logistic 8",
+					
+				},
+				[9] = {
+					name = "Sayqal Helibase Logistic 9",
+					
+				},
+				[10] = {
+					name = "Sayqal Helibase Logistic 10",
+					
+				},
+				[11] = {
+					name = "Sayqal Helibase Logistic 11",
+					
+				},
+				[12] = {
+					name = "Sayqal Helibase Logistic 12",
+					
+				},
+				[13] = {
+					name = "Sayqal Helibase Logistic 13",
+					
+				},
+				[14] = {
+					name = "Sayqal Helibase Logistic 14",
+					
+				},
+				[15] = {
+					name = "Sayqal Helibase Logistic 15",
+					
+				},
+			},
+		},
+
+		["Sayqal airbase OCA Strike"] = {
+			task = "Strike",
+			priority = 1,
+			attributes = {"Parked Aircraft"},
+			firepower = {
+				min = 2,
+				max = 4, 
+			},
+			class = "airbase",
+			name = "Sayqal",
+		},]]
 		
+		--[[["Mezzeh Airbase"] = { --   
+			task = "Strike",
+			priority = 4,
+			picture = {"Mezze_Airbase.png"},
+			attributes = {"Structure"},
+			firepower = {
+				min = 3, -- --3,
+				max = 3, -- --6,
+			},
+			class = "static",
+			elements = {
+				[1] = {
+					name = "Mezzeh Airbase Logistic 1",
+					
+				},
+				[2] = {
+					name = "Mezzeh Airbase Logistic 2",
+					
+				},
+				[3] = {
+					name = "Mezzeh Airbase Logistic 3",
+					
+				},
+				[4] = {
+					name = "Mezzeh Airbase Logistic 4",
+					
+				},
+				[5] = {
+					name = "Mezzeh Airbase Logistic 5",
+					
+				},
+				[6] = {
+					name = "Mezzeh Airbase Logistic 6",
+					
+				},
+				[7] = {
+					name = "Mezzeh Airbase Logistic 7",
+					
+				},
+				[8] = {
+					name = "Mezzeh Airbase Logistic 8",
+					
+				},
+				[9] = {
+					name = "Mezzeh Airbase Logistic 9",
+					
+				},
+				[10] = {
+					name = "Mezzeh Airbase Logistic 10",
+					
+				},
+				[11] = {
+					name = "Mezzeh Airbase Logistic 11",
+					
+				},
+			},
+		},
+
+		["Mezzeh Airbase OCA Strike"] = { --   
+			task = "Strike",
+			priority = 1,
+			attributes = {"Parked Aircraft"},
+			firepower = {
+				min = 2,
+				max = 4, 
+			},
+			class = "airbase",
+			name = "Mezzeh",
+		},]]
+
 	},
 
 	["red"] = {		
@@ -2890,75 +2890,7 @@ targetlist = {
 			},
 			class = "airbase",
 			name = "Gaziantep",
-		},
-
-		--[[["Ramat David Airbase"] = {
-			task = "Strike",
-			priority = 4,
-			picture = {"Ramat.David.Airbase.png"},
-			attributes = {"Structure"},
-			firepower = {
-				min = 3, -- --3,
-				max = 3, -- --6,
-			},
-			class = "static",
-			elements = {
-				[1] = {
-					name = "Ramat David Airbase Logistic 1",
-				},
-				[2] = {
-					name = "Ramat David Airbase Logistic 2",
-				},
-				[3] = {
-					name = "Ramat David Airbase Logistic 3",
-				},
-				[4] = {
-					name = "Ramat David Airbase Logistic 4",
-				},
-				[5] = {
-					name = "Ramat David Airbase Logistic 5",
-				},
-				[6] = {
-					name = "Ramat David Airbase Logistic 6",
-				},
-				[7] = {
-					name = "Ramat David Airbase Logistic 7",
-				},				
-				[8] = {
-					name = "Ramat David Airbase Logistic 9",					
-				},
-				[9] = {
-					name = "Ramat David Airbase Logistic 10",
-				},
-				[10] = {
-					name = "Ramat David Airbase Logistic 11",
-				},
-				[11] = {
-					name = "Ramat David Airbase Logistic 12",
-				},
-				[12] = {
-					name = "Ramat David Airbase Logistic 13",
-				},
-				[13] = {
-					name = "Ramat David Airbase Logistic 14",
-				},
-				[14] = {
-					name = "Ramat David Airbase Logistic 15",
-				},
-			},
-		},
-
-		["Ramat David airbase OCA Strike"] = {
-			task = "Strike",
-			priority = 1,
-			attributes = {"Parked Aircraft"},
-			firepower = {
-				min = 2,
-				max = 4, 
-			},
-			class = "airbase",
-			name = "Ramat David",
-		},]]
+		},		
 
 		["Hatay Airbase"] = {
 			task = "Strike",
@@ -3272,7 +3204,74 @@ targetlist = {
 				},			
 			},
 		},
+		
+		--[[["Ramat David Airbase"] = {
+			task = "Strike",
+			priority = 4,
+			picture = {"Ramat.David.Airbase.png"},
+			attributes = {"Structure"},
+			firepower = {
+				min = 3, -- --3,
+				max = 3, -- --6,
+			},
+			class = "static",
+			elements = {
+				[1] = {
+					name = "Ramat David Airbase Logistic 1",
+				},
+				[2] = {
+					name = "Ramat David Airbase Logistic 2",
+				},
+				[3] = {
+					name = "Ramat David Airbase Logistic 3",
+				},
+				[4] = {
+					name = "Ramat David Airbase Logistic 4",
+				},
+				[5] = {
+					name = "Ramat David Airbase Logistic 5",
+				},
+				[6] = {
+					name = "Ramat David Airbase Logistic 6",
+				},
+				[7] = {
+					name = "Ramat David Airbase Logistic 7",
+				},				
+				[8] = {
+					name = "Ramat David Airbase Logistic 9",					
+				},
+				[9] = {
+					name = "Ramat David Airbase Logistic 10",
+				},
+				[10] = {
+					name = "Ramat David Airbase Logistic 11",
+				},
+				[11] = {
+					name = "Ramat David Airbase Logistic 12",
+				},
+				[12] = {
+					name = "Ramat David Airbase Logistic 13",
+				},
+				[13] = {
+					name = "Ramat David Airbase Logistic 14",
+				},
+				[14] = {
+					name = "Ramat David Airbase Logistic 15",
+				},
+			},
+		},
 
+		["Ramat David airbase OCA Strike"] = {
+			task = "Strike",
+			priority = 1,
+			attributes = {"Parked Aircraft"},
+			firepower = {
+				min = 2,
+				max = 4, 
+			},
+			class = "airbase",
+			name = "Ramat David",
+		},]]
 
 		--Supply Line
 

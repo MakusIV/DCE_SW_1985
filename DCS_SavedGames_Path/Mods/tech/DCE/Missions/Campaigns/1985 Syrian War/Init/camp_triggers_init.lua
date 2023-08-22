@@ -365,21 +365,6 @@ camp_triggers = {
 			[1] = 'Action.Text("After the facilities at Tabqa Airbase have been hit by air strikes, air operations at this base came to a complete stop. Intelligence believes that due to the heavy damage inflicted, the base is no longer ably to produce any aviation sorties.")',
 		}
 	},	
-	["Sayqal Airbase Disabled"] = {
-		active = true,
-		condition = 'Return.TargetAlive("Sayqal Airbase") < 5',
-		action = {
-			[1] = 'db_airbases["Sayqal"].inactive = true',
-		}
-	},
-	["Sayqal Airbase Disabled Text"] = {
-		active = true,
-		once = false,
-		condition = 'Return.TargetAlive("Sayqal Airbase") < 5',
-		action = {
-			[1] = 'Action.Text("The infrastructure at Sayqal Airbase has been destroyed by air strikes. Flying operations at this base have ceased completely and are unlikely to resume. This will ease our efforts to hit other targets in the Kutaisi Country area.")',
-		}
-	},
 	["Khalkhalah Airbase Disabled"] = {
 		active = true,
 		condition = 'Return.TargetAlive("Khalkhalah Airbase") < 5',
@@ -392,7 +377,7 @@ camp_triggers = {
 		once = false,
 		condition = 'Return.TargetAlive("Khalkhalah Airbase") < 5',
 		action = {
-			[1] = 'Action.Text("The infrastructure at Khalkhalah Airbase has been destroyed by air strikes. Flying operations at this base have ceased completely and are unlikely to resume. This will ease our efforts to hit other targets in the Kutaisi Country area.")',
+			[1] = 'Action.Text("The infrastructure at Khalkhalah Airbase has been destroyed by air strikes. Flying operations at this base have ceased completely and are unlikely to resume.")',
 		}
 	},	
 	["Beirut-Rafic Hariri Airbase Disabled"] = {
@@ -438,7 +423,7 @@ camp_triggers = {
 		once = true,
 		condition = 'Return.TargetAlive("Mezzeh Airbase") < 3',
 		action = {
-			[1] = 'Action.Text("The infrastructure at Mezzeh Airbase has been destroyed by air strikes. Flying operations at this base have ceased completely and are unlikely to resume. This will ease our efforts to hit other targets in the Nalchik Country area.")',
+			[1] = 'Action.Text("The infrastructure at Mezzeh Airbase has been destroyed by air strikes. Flying operations at this base have ceased completely and are unlikely to resume.")',
 		--[[		[2] = 'Action.AddImage("BDA_Lincoln.jpg")', ]]--  ---A changer
 		}
 	},
@@ -457,7 +442,182 @@ camp_triggers = {
 			[1] = 'Action.Text("Recent air strikes have destroyed enemy ground elements running operations at Bassel Al-Assad Airbase. Without their ground support, any remaining aircraft at the airstrip will no longer be able to launch on sorties.")',
 		}
 	},
-	
+	["Hama Airbase Disabled"] = {
+		active = true,
+		condition = 'Return.TargetAlive("Hama Airbase") < 3',
+		action = {
+			[1] = 'db_airbases["Hama"].inactive = true',
+		}
+	},
+	["Hama Airbase Disabled Text"] = {
+		active = true,
+		once = true,
+		condition = 'Return.TargetAlive("Hama Airbase") < 3',
+		action = {
+			[1] = 'Action.Text("The infrastructure at Hama Airbase has been destroyed by air strikes. Flying operations at this base have ceased completely and are unlikely to resume.")',
+		--[[		[2] = 'Action.AddImage("BDA_Lincoln.jpg")', ]]--  ---A changer
+		}
+	},
+	["Palmyra Airbase Disabled"] = {
+		active = true,
+		condition = 'Return.TargetAlive("Palmyra Airbase") < 3',
+		action = {
+			[1] = 'db_airbases["Palmyra"].inactive = true',
+		}
+	},
+	["Palmyra Airbase Disabled Text"] = {
+		active = true,
+		once = true,
+		condition = 'Return.TargetAlive("Palmyra Airbase") < 3',
+		action = {
+			[1] = 'Action.Text("The infrastructure at Palmyra Airbase has been destroyed by air strikes. Flying operations at this base have ceased completely and are unlikely to resume.")',
+		--[[		[2] = 'Action.AddImage("BDA_Lincoln.jpg")', ]]--  ---A changer
+		}
+	},
+	["Incirlik Airbase Disabled"] = {
+		active = true,
+		condition = 'Return.TargetAlive("Incirlik Airbase") < 3',
+		action = {
+			[1] = 'db_airbases["Incirlik"].inactive = true',
+		}
+	},
+	["Incirlik Airbase Disabled Text"] = {
+		active = true,
+		once = true,
+		condition = 'Return.TargetAlive("Incirlik Airbase") < 3',
+		action = {
+			[1] = 'Action.Text("The infrastructure at Incirlik Airbase has been destroyed by air strikes. Flying operations at this base have ceased completely and are unlikely to resume.")',
+		--[[		[2] = 'Action.AddImage("BDA_Lincoln.jpg")', ]]--  ---A changer
+		}
+	},
+	["Adana Sakirpasa Airbase Disabled"] = {
+		active = true,
+		condition = 'Return.TargetAlive("Adana Sakirpasa Airbase") < 3',
+		action = {
+			[1] = 'db_airbases["Adana Sakirpasa"].inactive = true',
+		}
+	},
+	["Adana Sakirpasa Airbase Disabled Text"] = {
+		active = true,
+		once = true,
+		condition = 'Return.TargetAlive("Adana Sakirpasa Airbase") < 3',
+		action = {
+			[1] = 'Action.Text("The infrastructure at Adana Sakirpasaa Airbase has been destroyed by air strikes. Flying operations at this base have ceased completely and are unlikely to resume.")',
+		--[[		[2] = 'Action.AddImage("BDA_Lincoln.jpg")', ]]--  ---A changer
+		}
+	},
+	["Gaziantep Airbase Disabled"] = {
+		active = true,
+		condition = 'Return.TargetAlive("Gaziantep Airbase") < 3',
+		action = {
+			[1] = 'db_airbases["Gaziantep"].inactive = true',
+		}
+	},
+	["Gaziantep Airbase Disabled Text"] = {
+		active = true,
+		once = true,
+		condition = 'Return.TargetAlive("Gaziantep Airbase") < 3',
+		action = {
+			[1] = 'Action.Text("The infrastructure at Gaziantep Airbase has been destroyed by air strikes. Flying operations at this base have ceased completely and are unlikely to resume.")',
+		--[[		[2] = 'Action.AddImage("BDA_Lincoln.jpg")', ]]--  ---A changer
+		}
+	},
+	["Gazipasa Airbase Disabled"] = {
+		active = true,
+		condition = 'Return.TargetAlive("Gazipasa Airbase") < 3',
+		action = {
+			[1] = 'db_airbases["Gazipasa"].inactive = true',
+		}
+	},
+	["Gazipasa Airbase Disabled Text"] = {
+		active = true,
+		once = true,
+		condition = 'Return.TargetAlive("Gazipasa Airbase") < 3',
+		action = {
+			[1] = 'Action.Text("The infrastructure at Gazipasa Airbase has been destroyed by air strikes. Flying operations at this base have ceased completely and are unlikely to resume.")',
+		--[[		[2] = 'Action.AddImage("BDA_Lincoln.jpg")', ]]--  ---A changer
+		}
+	},
+	["Hatay Airbase Disabled"] = {
+		active = true,
+		condition = 'Return.TargetAlive("Hatay Airbase") < 3',
+		action = {
+			[1] = 'db_airbases["Hatay"].inactive = true',
+		}
+	},
+	["Hatay Airbase Disabled Text"] = {
+		active = true,
+		once = true,
+		condition = 'Return.TargetAlive("Hatay Airbase") < 3',
+		action = {
+			[1] = 'Action.Text("The infrastructure at Hatay Airbase has been destroyed by air strikes. Flying operations at this base have ceased completely and are unlikely to resume.")',
+		--[[		[2] = 'Action.AddImage("BDA_Lincoln.jpg")', ]]--  ---A changer
+		}
+	},
+	["Larnaca Airbase Disabled"] = {
+		active = true,
+		condition = 'Return.TargetAlive("Larnaca Airbase") < 3',
+		action = {
+			[1] = 'db_airbases["Larnaca"].inactive = true',
+		}
+	},
+	["Larnaca Airbase Disabled Text"] = {
+		active = true,
+		once = true,
+		condition = 'Return.TargetAlive("Larnaca Airbase") < 3',
+		action = {
+			[1] = 'Action.Text("The infrastructure at Larnaca Airbase has been destroyed by air strikes. Flying operations at this base have ceased completely and are unlikely to resume.")',
+		--[[		[2] = 'Action.AddImage("BDA_Lincoln.jpg")', ]]--  ---A changer
+		}
+	},
+	["Paphos Airbase Disabled"] = {
+		active = true,
+		condition = 'Return.TargetAlive("Paphos Airbase") < 3',
+		action = {
+			[1] = 'db_airbases["Paphos"].inactive = true',
+		}
+	},
+	["Paphos Airbase Disabled Text"] = {
+		active = true,
+		once = true,
+		condition = 'Return.TargetAlive("Hatay Airbase") < 3',
+		action = {
+			[1] = 'Action.Text("The infrastructure at Hatay Airbase has been destroyed by air strikes. Flying operations at this base have ceased completely and are unlikely to resume.")',
+		--[[		[2] = 'Action.AddImage("BDA_Lincoln.jpg")', ]]--  ---A changer
+		}
+	},
+	["Naqoura Airbase Disabled"] = {
+		active = true,
+		condition = 'Return.TargetAlive("Naqoura Airbase") < 3',
+		action = {
+			[1] = 'db_airbases["Naqoura"].inactive = true',
+		}
+	},
+	["Naqoura Airbase Disabled Text"] = {
+		active = true,
+		once = true,
+		condition = 'Return.TargetAlive("Naqoura Airbase") < 3',
+		action = {
+			[1] = 'Action.Text("The infrastructure at Naqoura Airbase has been destroyed by air strikes. Flying operations at this base have ceased completely and are unlikely to resume.")',
+		--[[		[2] = 'Action.AddImage("BDA_Lincoln.jpg")', ]]--  ---A changer
+		}
+	},
+	["FARP-Hatay FARP Disabled"] = {
+		active = true,
+		condition = 'Return.TargetAlive("FARP-Hatay FARP") < 1',
+		action = {
+			[1] = 'db_airbases["FARP-Hatay FARP"].inactive = true',
+		}
+	},
+	["FARP-Hatay FARP Disabled Text"] = {
+		active = true,
+		once = true,
+		condition = 'Return.TargetAlive("FARP-Hatay FARP") < 1',
+		action = {
+			[1] = 'Action.Text("The infrastructure at Hatay FARP has been destroyed by air strikes. Flying operations at this base have ceased completely and are unlikely to resume.")',
+		--[[		[2] = 'Action.AddImage("BDA_Lincoln.jpg")', ]]--  ---A changer
+		}
+	},	
 	["CVN-72 Abraham Lincoln sunk"] = {
 		active = true,
 		condition = 'Return.TargetAlive("CVN-72 Abraham Lincoln") == 0',
@@ -490,10 +650,10 @@ camp_triggers = {
 			[3] = 'Action.TargetActive("CAP Abu al-Duhu", true)',
 			[6] = 'Action.TargetActive("Deir ez-Zor 200km Alert", false)',
 			[7] = 'Action.TargetActive("Damascus 100km Alert", false)',
-			[8] = 'Action.TargetActive("Beirut-Rafic Hariri 80km Alert", false)',
+			[8] = 'Action.TargetActive("Khalkhalah 80km Alert", false)',
 			[9] = 'Action.TargetActive("Tabqua 110km Alert", false)',
 			[10] = 'Action.TargetActive("Hama 120km Alert", false)',
-			[11] = 'Action.TargetActive("Palmyra 200km Alert, false)',
+			[11] = 'Action.TargetActive("An Nasiriyah 200km Alert", false)',
 			[13] = 'Action.Text("With the recent destruction of all Early Warning Radar sites in the operations area, and Russians AWACS squadron being anihilated, the ability of the enemy to launch interceptors against our strike packages was severely degraded. Intelligence expects that the enemy will increasingly depend on Combat Air Patrols to compensate, though without the support of ground controllers these are estimated to be of limited effectiveness.")',
 		},
 	},		
@@ -573,12 +733,7 @@ camp_triggers = {
 		active = true,
 		condition = 'true',
 		action = 'Action.AirUnitReinforce("R/Escadron de Chasse 2/5 Ile-de-France", "Escadron de Chasse 2/5 Ile-de-France", 4)',
-	},
-	--[[["Reinforce Escadron de Chasse 1/5 Vendée"] = {
-		active = true,
-		condition = 'true',
-		action = 'Action.AirUnitReinforce("R/Escadron de Chasse 1/5 Vendée", "Escadron de Chasse 1/5 Vendée", 4)',
-	},]]
+	},	
 	["Reinforce Escadron de Chasse 1/2 Cigognes"] = {
 		active = true,
 		condition = 'true',
@@ -613,22 +768,7 @@ camp_triggers = {
 		active = true,
 		condition = 'true',
 		action = 'Action.AirUnitReinforce("R/4453th Tactical Group", "4453th Tactical Group", 2)',
-	},
-	--[[["Reinforce F17 Kallinge"] = {
-		active = true,
-		condition = 'true',
-		action = 'Action.AirUnitReinforce("R/F17 Kallinge", "F17 Kallinge", 6)',
-	},]]
-	--[[["Reinforce 27rd FG"] = {
-		active = true,
-		condition = 'true',
-		action = 'Action.AirUnitReinforce("R/27rd FG", "27rd FG", 4)',
-	},]]
-	--[[["Reinforce 12 Gruppo, 36 Stormo"] = {
-		active = true,
-		condition = 'true',
-		action = 'Action.AirUnitReinforce("R/12 Gruppo, 36 Stormo", "12 Gruppo, 36 Stormo", 4)',
-	},]]
+	},	
 	["Reinforce VF-101"] = {
 		active = true,
 		condition = 'true',
@@ -653,18 +793,7 @@ camp_triggers = {
 		active = true,
 		condition = 'true',
 		action = 'Action.AirUnitReinforce("R/VF-118/GA", "VF-118/GA", 4)',
-	},
-	--[[["Reinforce VS-22"] = {
-		active = true,
-		condition = 'true',
-		action = 'Action.AirUnitReinforce("R/VS-22", "VS-22", 2)',
-	},]]
-	--[[["Reinforce VAW-123"] = {
-		active = true,
-		condition = 'true',
-		action = 'Action.AirUnitReinforce("R/VAW-123", "VAW-123", 2)',
-
-	},]]
+	},	
 	["Reinforce 1th Army Aviation Regiment"] = {
 		active = true,
 		condition = 'true',
@@ -680,12 +809,7 @@ camp_triggers = {
 		condition = 'true',
 		action = 'Action.AirUnitReinforce("R/17th Cavalry Regiment", "17th Cavalry Regiment", 4)',
 
-	},
-	--[[["Reinforce 4th Army Aviation Regiment"] = {
-		active = true,
-		condition = 'true',
-		action = 'Action.AirUnitReinforce("R/4th Army Aviation Regiment", "4th Army Aviation Regiment", 2)',
-	},]]
+	},	
 	["Reinforce HS-6 Indians"] = {
 		active = true,
 		condition = 'true',
@@ -701,25 +825,56 @@ camp_triggers = {
 		active = true,
 		condition = 'true',
 		action = 'Action.AirUnitReinforce("R/HMLA-177", "HMLA-177", 4)',
-	},
-	--[[["Reinforce 11th Army Aviation Regiment"] = {
-		active = true,
-		condition = 'true',
-		action = 'Action.AirUnitReinforce("R/11th Army Aviation Regiment", "11th Army Aviation Regiment", 3)',
-	},]]
+	},	
 	["Reinforce 18th Cavalry Regiment"] = {
 		active = true,
 		condition = 'true',
 		action = 'Action.AirUnitReinforce("R/18th Cavalry Regiment", "18th Cavalry Regiment", 4)',
 
 	},
+	--[[["Reinforce F17 Kallinge"] = {
+		active = true,
+		condition = 'true',
+		action = 'Action.AirUnitReinforce("R/F17 Kallinge", "F17 Kallinge", 6)',
+	},]]
+	--[[["Reinforce 27rd FG"] = {
+		active = true,
+		condition = 'true',
+		action = 'Action.AirUnitReinforce("R/27rd FG", "27rd FG", 4)',
+	},]]
+	--[[["Reinforce 12 Gruppo, 36 Stormo"] = {
+		active = true,
+		condition = 'true',
+		action = 'Action.AirUnitReinforce("R/12 Gruppo, 36 Stormo", "12 Gruppo, 36 Stormo", 4)',
+	},]]
+	--[[["Reinforce VS-22"] = {
+		active = true,
+		condition = 'true',
+		action = 'Action.AirUnitReinforce("R/VS-22", "VS-22", 2)',
+	},]]
+	--[[["Reinforce VAW-123"] = {
+		active = true,
+		condition = 'true',
+		action = 'Action.AirUnitReinforce("R/VAW-123", "VAW-123", 2)',
 
-
-
-
+	},]]
+	--[[["Reinforce 4th Army Aviation Regiment"] = {
+		active = true,
+		condition = 'true',
+		action = 'Action.AirUnitReinforce("R/4th Army Aviation Regiment", "4th Army Aviation Regiment", 2)',
+	},]]
+	--[[["Reinforce 11th Army Aviation Regiment"] = {
+		active = true,
+		condition = 'true',
+		action = 'Action.AirUnitReinforce("R/11th Army Aviation Regiment", "11th Army Aviation Regiment", 3)',
+	},]]
+	--[[["Reinforce Escadron de Chasse 1/5 Vendée"] = {
+		active = true,
+		condition = 'true',
+		action = 'Action.AirUnitReinforce("R/Escadron de Chasse 1/5 Vendée", "Escadron de Chasse 1/5 Vendée", 4)',
+	},]]
 
 	-- Red Reinforcement
-
 	["Reinforce 117.IAP"] = {
 		active = true,
 		condition = 'true',
@@ -729,12 +884,7 @@ camp_triggers = {
 		active = true,
 		condition = 'true',
 		action = 'Action.AirUnitReinforce("R/113.IAP", "113.IAP", 4)',
-	},
-	--[[["Reinforce 945 Squadron"] = {
-		active = true,
-		condition = 'true',
-		action = 'Action.AirUnitReinforce("R/945 Squadron", "945 Squadron", 4)',
-	},]]
+	},	
 	["Reinforce 127.IAP"] = {
 		active = true,
 		condition = 'true',
@@ -744,32 +894,12 @@ camp_triggers = {
 		active = true,
 		condition = 'true',
 		action = 'Action.AirUnitReinforce("R/123.IAP", "123.IAP", 4)',
-	},
-	--[[["Reinforce 2 Squadron"] = {
-		active = true,
-		condition = 'true',
-		action = 'Action.AirUnitReinforce("R/2 Squadron", "2 Squadron", 4)',
-	},]]
-	--[[["Reinforce 946 Squadron"] = {
-		active = true,
-		condition = 'true',
-		action = 'Action.AirUnitReinforce("R/946 Squadron", "946 Squadron", 4)',
-	},]]
-	--[[["Reinforce 2 Guards BAP 21 th BAA"] = {
-		active = true,
-		condition = 'true',
-		action = 'Action.AirUnitReinforce("R/2 Guards BAP 21 th BAA", "2 Guards BAP 21 th BAA", 4)',
-	},]]
+	},	
 	["Reinforce 948 Squadron"] = {
 		active = true,
 		condition = 'true',
 		action = 'Action.AirUnitReinforce("R/948 Squadron", "948 Squadron", 4)',
-	},
-	--[[["Reinforce 3 Guards BAP 21 th BAA"] = {
-		active = true,
-		condition = 'true',
-		action = 'Action.AirUnitReinforce("R/3 Guards BAP 21 th BAA", "3 Guards BAP 21 th BAA", 4)',
-	},]]		
+	},		
 	["Reinforce 67 Squadron"] = {
 		active = true,
 		condition = 'true',
@@ -794,12 +924,7 @@ camp_triggers = {
 		active = true,
 		condition = 'true',
 		action = 'Action.AirUnitReinforce("R/368 ShAP", "368 ShAP", 4)',
-	},
-	--[[["Reinforce 133.IAP"] = {
-		active = true,
-		condition = 'true',
-		action = 'Action.AirUnitReinforce("R/133.IAP", "133.IAP", 4)',
-	},	]]	
+	},	
 	["Reinforce 3 BAP 149th BAA"] = {
 		active = true,
 		condition = 'true',
@@ -844,47 +969,17 @@ camp_triggers = {
 		active = true,
 		condition = 'true',
 		action = 'Action.AirUnitReinforce("R/23.OSAP", "23.OSAP", 1)',
-	},
-	--[[["Reinforce 267 ShAP"] = {
-		active = true,
-		condition = 'true',
-		action = 'Action.AirUnitReinforce("R/267 ShAP", "267 ShAP", 4)',
-	},]]
-	--[[["Reinforce 137.IAP"] = {
-		active = true,
-		condition = 'true',
-		action = 'Action.AirUnitReinforce("R/137.IAP", "137.IAP", 4)',
-	},]]
-	--[[["Reinforce 27.OSAP"] = {
-		active = true,
-		condition = 'true',
-		action = 'Action.AirUnitReinforce("R/27.OSAP", "27.OSAP", 1)',
-	},]]
+	},	
 	["Reinforce 81st TFS"] = {
 		active = true,
 		condition = 'true',
 		action = 'Action.AirUnitReinforce("R/81st TFS", "81st TFS", 4)',
 	},	
-	--[[["Reinforce 1st GHR"] = {
-		active = true,
-		condition = 'true',
-		action = 'Action.AirUnitReinforce("R/1st GHR", "1st GHR", 4)',
-	},]]
-	--[[["Reinforce 3rd GHR"] = {
-		active = true,
-		condition = 'true',
-		action = 'Action.AirUnitReinforce("R/3rd GHR", "3rd GHR", 4)',
-	},]]
 	["Reinforce 15th Squadron"] = {
 		active = true,
 		condition = 'true',
 		action = 'Action.AirUnitReinforce("R/15th Squadron", "15th Squadron", 4)',
-	},
-	--[[["Reinforce 7 Squadron"] = {
-		active = true,
-		condition = 'true',
-		action = 'Action.AirUnitReinforce("R/7 Squadron", "7 Squadron", 4)',
-	},]]
+	},	
 	["Reinforce 637 Squadron"] = {
 		active = true,
 		condition = 'true',
@@ -900,16 +995,6 @@ camp_triggers = {
 		condition = 'true',
 		action = 'Action.AirUnitReinforce("R/17th GHR", "17th GHR", 4)',
 	},
-	--[[["Reinforce 37 Squadron"] = {
-		active = true,
-		condition = 'true',
-		action = 'Action.AirUnitReinforce("R/37 Squadron", "37 Squadron", 4)',
-	},]]
-	--[[["Reinforce 11 Squadron"] = {
-		active = true,
-		condition = 'true',
-		action = 'Action.AirUnitReinforce("R/11 Squadron", "11 Squadron", 4)',
-	},]]
 	["Reinforce 13th GHR"] = {
 		active = true,
 		condition = 'true',
@@ -930,7 +1015,77 @@ camp_triggers = {
 		condition = 'true',
 		action = 'Action.AirUnitReinforce("R/14th Squadron", "14th Squadron", 4)',
 	},
-	
+	--[[["Reinforce 2 Squadron"] = {
+		active = true,
+		condition = 'true',
+		action = 'Action.AirUnitReinforce("R/2 Squadron", "2 Squadron", 4)',
+	},]]
+	--[[["Reinforce 946 Squadron"] = {
+		active = true,
+		condition = 'true',
+		action = 'Action.AirUnitReinforce("R/946 Squadron", "946 Squadron", 4)',
+	},]]
+	--[[["Reinforce 2 Guards BAP 21 th BAA"] = {
+		active = true,
+		condition = 'true',
+		action = 'Action.AirUnitReinforce("R/2 Guards BAP 21 th BAA", "2 Guards BAP 21 th BAA", 4)',
+	},]]
+	--[[["Reinforce 37 Squadron"] = {
+		active = true,
+		condition = 'true',
+		action = 'Action.AirUnitReinforce("R/37 Squadron", "37 Squadron", 4)',
+	},]]
+	--[[["Reinforce 11 Squadron"] = {
+		active = true,
+		condition = 'true',
+		action = 'Action.AirUnitReinforce("R/11 Squadron", "11 Squadron", 4)',
+	},]]
+	--[[["Reinforce 267 ShAP"] = {
+		active = true,
+		condition = 'true',
+		action = 'Action.AirUnitReinforce("R/267 ShAP", "267 ShAP", 4)',
+	},]]
+	--[[["Reinforce 137.IAP"] = {
+		active = true,
+		condition = 'true',
+		action = 'Action.AirUnitReinforce("R/137.IAP", "137.IAP", 4)',
+	},]]
+	--[[["Reinforce 27.OSAP"] = {
+		active = true,
+		condition = 'true',
+		action = 'Action.AirUnitReinforce("R/27.OSAP", "27.OSAP", 1)',
+	},]]
+	--[[["Reinforce 1st GHR"] = {
+		active = true,
+		condition = 'true',
+		action = 'Action.AirUnitReinforce("R/1st GHR", "1st GHR", 4)',
+	},]]
+	--[[["Reinforce 3rd GHR"] = {
+		active = true,
+		condition = 'true',
+		action = 'Action.AirUnitReinforce("R/3rd GHR", "3rd GHR", 4)',
+	},]]
+	--[[["Reinforce 7 Squadron"] = {
+		active = true,
+		condition = 'true',
+		action = 'Action.AirUnitReinforce("R/7 Squadron", "7 Squadron", 4)',
+	},]]
+	--[[["Reinforce 133.IAP"] = {
+		active = true,
+		condition = 'true',
+		action = 'Action.AirUnitReinforce("R/133.IAP", "133.IAP", 4)',
+	},	]]	
+	--[[["Reinforce 3 Guards BAP 21 th BAA"] = {
+		active = true,
+		condition = 'true',
+		action = 'Action.AirUnitReinforce("R/3 Guards BAP 21 th BAA", "3 Guards BAP 21 th BAA", 4)',
+	},]]
+	--[[["Reinforce 945 Squadron"] = {
+		active = true,
+		condition = 'true',
+		action = 'Action.AirUnitReinforce("R/945 Squadron", "945 Squadron", 4)',
+	},]]	
+
 	----- AVIATION UNIT STATUS -----
 	["VF-101 Alive 75%"] = {-- aircraft=16+30 = 46 --> 75% = 40, 40% = 23,  25% = 15
 		active = true,
