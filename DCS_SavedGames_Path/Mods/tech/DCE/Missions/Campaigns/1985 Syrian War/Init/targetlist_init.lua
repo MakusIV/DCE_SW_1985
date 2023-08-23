@@ -51,7 +51,7 @@ targetlist = {
 	["blue"] = {
 
 		-- Production & Storage
-		["Hin Shinshar Chemical Storage"] = {
+		["Hin Shinshar Chemical Storage"] = { --fatto
 			task = "Strike",
 			priority = 4,
 			picture = {"Hin _hinshar_Chemical_Storage.png"},
@@ -63,45 +63,45 @@ targetlist = {
 			class = "static",
 			elements = {
 				[1] = {
-					name = "Hin Shinshar Chemical Weapons-1",
+					name = "Hin Shinshar Chemical Storage 1",
 				},
 				[2] = {
-					name = "Hin Shinshar Chemical Weapons-2",
+					name = "Hin Shinshar Chemical Storage 2",
 				},
 				[3] = {
-					name = "Hin Shinshar Chemical Weapons-3",
+					name = "Hin Shinshar Chemical Storage 3",
 				},
 				[4] = {
-					name = "Hin Shinshar Chemical Weapons-4",
+					name = "Hin Shinshar Chemical Storage 4",
 				},
 				[5] = {
-					name = "Hin Shinshar Chemical Weapons-5",
+					name = "Hin Shinshar Chemical Storage 5",
 				},
 				[6] = {
-					name = "Hin Shinshar Chemical Weapons-6",
+					name = "Hin Shinshar Chemical Storage 6",
 				},
 				[7] = {
-					name = "Hin Shinshar Chemical Weapons-7",
+					name = "Hin Shinshar Chemical Storage 7",
 				},
 				[8] = {
-					name = "Hin Shinshar Chemical Weapons-8",
+					name = "Hin Shinshar Chemical Storage 8",
 				},
 				[9] = {
-					name = "Hin Shinshar Chemical Weapons-9",
+					name = "Hin Shinshar Chemical Storage 9",
 				},
 				[10] = {
-					name = "Hin Shinshar Chemical Weapons-10",
+					name = "Hin Shinshar Chemical Storage 10",
 				},
 				[11] = {
-					name = "Hin Shinshar Chemical Weapons-11",
+					name = "Hin Shinshar Chemical Storage 11",
 				},
 				[12] = {
-					name = "Hin Shinshar Chemical Weapons-12",
+					name = "Hin Shinshar Chemical Storage 12",
 				},
 			},
 		},
 
-		["Khirbet Tin Nur Chemical Storage"] = {
+		["Khirbet Tin Nur Chemical Storage"] = { --fatto
 			task = "Strike",
 			priority = 4,
 			picture = {"Khirbet_Tin_Nur_Chemical_Storage.png"},
@@ -113,42 +113,45 @@ targetlist = {
 			class = "static",
 			elements = {
 				[1] = {
-					name = "Khirbet Tin Nur Chemical Weapons-1",
+					name = "Khirbet Tin Nur Chemical Storage 1",
 				},
 				[2] = {
-					name = "Khirbet Tin Nur Chemical Weapons-2",
+					name = "Khirbet Tin Nur Chemical Storage 2",
 				},
 				[3] = {
-					name = "Khirbet Tin Nur Chemical Weapons-3",
+					name = "Khirbet Tin Nur Chemical Storage 3",
 				},
 				[4] = {
-					name = "Khirbet Tin Nur Chemical Weapons-4",
+					name = "Khirbet Tin Nur Chemical Storage 4",
 				},
 				[5] = {
-					name = "Khirbet Tin Nur Chemical Weapons-5",
+					name = "Khirbet Tin Nur Chemical Storage 5",
 				},
 				[6] = {
-					name = "Khirbet Tin Nur Chemical Weapons-6",
+					name = "Khirbet Tin Nur Chemical Storage 6",
 				},
 				[7] = {
-					name = "Khirbet Tin Nur Chemical Weapons-7",
+					name = "Khirbet Tin Nur Chemical Storage 7",
 				},
 				[8] = {
-					name = "Khirbet Tin Nur Chemical Weapons-8",
+					name = "Khirbet Tin Nur Chemical Storage 8",
 				},
 				[9] = {
-					name = "Khirbet Tin Nur Chemical Weapons-9",
+					name = "Khirbet Tin Nur Chemical Storage 9",
 				},
 				[10] = {
-					name = "Khirbet Tin Nur Chemical Weapons-10",
+					name = "Khirbet Tin Nur Chemical Storage 10",
 				},
 				[11] = {
-					name = "Khirbet Tin Nur Chemical Weapons-11",
+					name = "Khirbet Tin Nur Chemical Storage 11",
+				},
+				[12] = {
+					name = "Khirbet Tin Nur Chemical Storage 12",
 				},
 			},
 		},
 
-		["Iranian Storage Facility"] = {
+		["Iranian Storage Facility"] = { --fatto
 			task = "Strike",
 			priority = 4,
 			picture = {"Iranian_Storage_Facility.png"},
@@ -160,45 +163,45 @@ targetlist = {
 			class = "static",
 			elements = {
 				[1] = {
-					name = "Iranian Storage Facility-1",
+					name = "Iranian Storage Facility 1",
 				},
 				[2] = {
-					name = "Iranian Storage Facility-2",
+					name = "Iranian Storage Facility 2",
 				},
 				[3] = {
-					name = "Iranian Storage Facility-3",
+					name = "Iranian Storage Facility 3",
 				},
 				[4] = {
-					name = "Iranian Storage Facility-4",
+					name = "Iranian Storage Facility 4",
 				},
 				[5] = {
-					name = "Iranian Storage Facility-5",
+					name = "Iranian Storage Facility 5",
 				},
 				[6] = {
-					name = "Iranian Storage Facility-6",
+					name = "Iranian Storage Facility 6",
 				},
 				[7] = {
-					name = "Iranian Storage Facility-7",
+					name = "Iranian Storage Facility 7",
 				},
 				[8] = {
-					name = "Iranian Storage Facility-8",
+					name = "Iranian Storage Facility 8",
 				},
 				[9] = {
-					name = "Iranian Storage Facility-9",
+					name = "Iranian Storage Facility 9",
 				},
 				[10] = {
-					name = "Iranian Storage Facility-10",
+					name = "Iranian Storage Facility 10",
 				},
 				[11] = {
-					name = "Iranian Storage Facility-11",
+					name = "Iranian Storage Facility 11",
 				},	
 				[12] = {
-					name = "Iranian Storage Facility-12",
+					name = "Iranian Storage Facility 12",
 				},							
 			},
 		},
 
-		["Palmyra Syrian Chemical Storage"] = {
+		["Palmyra Storage"] = {--fatto
 			task = "Strike",
 			priority = 4,
 			picture = {"Target.Palmyra_Storage.png"},
@@ -210,30 +213,45 @@ targetlist = {
 			class = "static",
 			elements = {
 				[1] = {
-					name = "Palmyra Syrian Chemical Storage-1",
+					name = "Palmyra Storage 1",
 				},
 				[2] = {
-					name = "Palmyra Syrian Chemical Storage-2",
+					name = "Palmyra Storage 2",
 				},
 				[3] = {
-					name = "Palmyra Syrian Chemical Storage-3",
+					name = "Palmyra Storage 3",
 				},
 				[4] = {
-					name = "Palmyra Syrian Chemical Storage-4",
+					name = "Palmyra Storage 4",
 				},
 				[5] = {
-					name = "Palmyra Syrian Chemical Storage-5",
+					name = "Palmyra Storage 5",
 				},
 				[6] = {
-					name = "Palmyra Syrian Chemical Storage-6",
+					name = "Palmyra Storage 6",
 				},
 				[7] = {
-					name = "Palmyra Syrian Chemical Storage-7",
+					name = "Palmyra Storage 7",
+				},
+				[8] = {
+					name = "Palmyra Storage 8",
+				},
+				[9] = {
+					name = "Palmyra Storage 9",
+				},
+				[10] = {
+					name = "Palmyra Storage 10",
+				},
+				[11] = {
+					name = "Palmyra Storage 11",
+				},
+				[12] = {
+					name = "Palmyra Storage 12",
 				},
 			},
 		},
 
-		["IR-Abukamal Storage"] = {
+		["IR-Abukamal Storage"] = {--fatto
 			task = "Strike",
 			priority = 4,
 			picture = {"Target.IR_Abukamal_Storage.png"},
@@ -245,23 +263,42 @@ targetlist = {
 			class = "static",
 			elements = {
 				[1] = {
-					name = "IR-Abukamal Warehouse-1",
+					name = "IR-Abukamal Storage 1",
 				},
 				[2] = {
-					name = "IR-Abukamal Warehouse-2",
+					name = "IR-Abukamal Storage 2",
 				},
 				[3] = {
-					name = "IR-Abukamal Warehouse-3",
+					name = "IR-Abukamal Storage 3",
 				},
 				[4] = {
-					name = "IR-Abukamal Warehouse-4",
+					name = "IR-Abukamal Storage 4",
 				},
 				[5] = {
-					name = "IR-Abukamal Tank-1",
+					name = "IR-Abukamal Storage 5",
 				},
 				[6] = {
-					name = "IR-Abukamal Bunker-1",
-				},								
+					name = "IR-Abukamal Storage 6",
+				},
+				[7] = {
+					name = "IR-Abukamal Storage 7",
+				},
+				[8] = {
+					name = "IR-Abukamal Storage 8",
+				},
+				[9] = {
+					name = "IR-Abukamal Storage 9",
+				},
+				[10] = {
+					name = "IR-Abukamal Storage 10",
+				},
+				[11] = {
+					name = "IR-Abukamal Storage 11",
+				},
+				[12] = {
+					name = "IR-Abukamal Storage 12",
+				},
+											
 			},
 		},
 
@@ -431,73 +468,6 @@ targetlist = {
 
 
 		-- Army
-		["Al Ghizlaniyah Military Base"] = {
-			task = "Strike",
-			priority = 4,
-			picture = {"Syria_Al Ghizlaniyah_Military_base.png"},
-			attributes = {"Structure"},
-			firepower = {
-				min = 3,  --3,
-				max = 3,  --6,
-			},
-			class = "static",
-			elements = {
-				[1] = {
-					name = "Al Ghizlaniyah Military Base 1",
-				},
-				[2] = {
-					name = "Al Ghizlaniyah Military Base 2",
-				},
-				[3] = {
-					name = "Al Ghizlaniyah Military Base 3",
-				},
-				[4] = {
-					name = "Al Ghizlaniyah Military Base 4",
-				},	
-				[5] = {
-					name = "Al Ghizlaniyah Military Base 5",
-				},
-				[6] = {
-					name = "Al Ghizlaniyah Military Base 6",
-				},
-				[7] = {
-					name = "Al Ghizlaniyah Military Base 7",
-				},
-				[8] = {
-					name = "Al Ghizlaniyah Military Base 8",
-				},	
-				[9] = {
-					name = "Al Ghizlaniyah Military Base 9",
-				},
-				[10] = {
-					name = "Al Ghizlaniyah Military Base 10",
-				},
-				[11] = {
-					name = "Al Ghizlaniyah Military Base 11",
-				},
-				[12] = {
-					name = "Al Ghizlaniyah Military Base 12",
-				},	
-				[13] = {
-					name = "Al Ghizlaniyah Military Base 13",
-				},
-				[14] = {
-					name = "Al Ghizlaniyah Military Base 14",
-				},
-				[15] = {
-					name = "Al Ghizlaniyah Military Base 15",
-				},
-				[16] = {
-					name = "Al Ghizlaniyah Military Base 16",
-				},	
-				[17] = {
-					name = "Al Ghizlaniyah Military Base 17",
-				},
-				[18] = {
-					name = "Al Ghizlaniyah Military Base 18",
-				},			
-			},
-		},
 
 		["IR-Al Kiswah Military Base"] = { -- fatto
 			task = "Strike",
@@ -1746,77 +1716,7 @@ targetlist = {
 			y = -40359,
 			text = "in the south east front area",
 		},
-		
-		["Hin Shinshar-Bassel Al-Assad Supply Line 0-1"] =  { 
-			task = "Strike",
-			priority = 6,
-			picture = {"Hin_Shinshar-Bassel_Al-Assad_Supply_Line_1.png"},
-			attributes = {"Structure"},
-			firepower = {
-				min = 4,
-				max = 8,
-			},			
-			elements = {
-				[1] = {
-					name = "Hin Shinshar-Bassel Al-Assad Supply Line 1",
-					["y"] = 67783.039689622,
-                    ["x"] = -15303.365799022,
-					
-				},
-				
-				[2] = {
-					name = "Hin Shinshar-Bassel Al-Assad Supply Line 0",
-					["y"] = 53317.571853383,
-                    ["x"] = -33876.656685705,
-				},				
-			},
-		},
 
-		["Hin Shinshar-Bassel Al-Assad Supply Line 2-3"] =  { 
-			task = "Strike",
-			priority = 6,
-			picture = {"Hin_Shinshar-Bassel_Al-Assad_Supply_Line_2.png"},
-			attributes = {"Structure"},
-			firepower = {
-				min = 4,
-				max = 8,
-			},			
-			elements = {				
-				[1] = {
-					name = "Hin Shinshar-Bassel Al-Assad Supply Line 2",
-					["y"] = 79942.168727853,
-                    ["x"] = 819.57518052162,
-				},
-				[2] = {
-					name = "Hin Shinshar-Bassel Al-Assad Supply Line 3",
-					["y"] = 61885.904216987,
-                    ["x"] = 2079.5342061071,
-				},								
-			},
-		},
-
-		["Hin Shinshar-Bassel Al-Assad Supply Line 4-5"] =  { 
-			task = "Strike",
-			priority = 6,
-			picture = {"Hin_Shinshar-Bassel_Al-Assad_Supply_Line_3.png"},
-			attributes = {"Structure"},
-			firepower = {
-				min = 4,
-				max = 8,
-			},			
-			elements = {
-				[1] = {
-					name = "Hin Shinshar-Bassel Al-Assad Supply Line 4",
-					["y"] = 58504.348294302,
-                    ["x"] = 26427.4535455,
-				},
-				[2] = {
-					name = "Hin Shinshar-Bassel Al-Assad Supply Line 5",
-					["y"] = 35281.133523481,
-                    ["x"] = 40834.165859223,
-				},
-			},
-		},
 
 		--[[["Sayqal Airbase"] = { --   
 			task = "Strike",
@@ -1979,7 +1879,7 @@ targetlist = {
 	["red"] = {		
 
 		-- Production & Storage
-		["Silifke Storage Site"] = { -- Supply Plant
+		["Silifke Storage Site"] = { -- Supply Plant fatto
 			task = "Strike",
 			priority = 4,
 			picture = {"Silifke.Storage.Site.png"},
@@ -2026,61 +1926,13 @@ targetlist = {
 				[12] = {
 					name = "Silifke Storage Site 12",
 				},
-				[13] = {
-					name = "Silifke Storage Site 13",
-				},
-				[14] = {
-					name = "Silifke Storage Site 14",
-				},
-				[15] = {
-					name = "Silifke Storage Site 15",
-				},
-				[16] = {
-					name = "Silifke Storage Site 16",
-				},
-				[17] = {
-					name = "Silifke Storage Site 19",
-				},
-				[18] = {
-					name = "Silifke Storage Site 20",
-				},
-				[19] = {
-					name = "Silifke Storage Site 21",
-				},
-				[20] = {
-					name = "Silifke Storage Site 22",
-				},
-				[21] = {
-					name = "Silifke Storage Site 23",
-				},
-				[22] = {
-					name = "Silifke Storage Site 24",
-				},
-				[23] = {
-					name = "Silifke Storage Site 25",
-				},
-				[24] = {
-					name = "Silifke Storage Site 26",
-				},
-				[25] = {
-					name = "Silifke Storage Site 27",
-				},
-				[26] = {
-					name = "Silifke Storage Site 28",
-				},
-				[27] = {
-					name = "Silifke Storage Site 29",
-				},
-				[28] = {
-					name = "Silifke Storage FARP",
-				},
 			},
 		},	
 
-		["Hamdilli Ammunition Depot"] = {  --Supply Plant
+		["Islahiye Storage Site"] = {  --Supply Plant fatto
 			task = "Strike",
 			priority = 4,
-			picture = {"Hamdilli_Ammunition_Depot.png"},
+			picture = {"Islahiye Storage Site.png"},
 			attributes = {"Structure"},
 			firepower = {
 				min = 3,  --3,
@@ -2089,46 +1941,40 @@ targetlist = {
 			class = "static",
 			elements = {
 				[1] = {
-					name = "Hamdilli Ammunition Depot-1",
+					name = "Islahiye Storage Site 1",
 				},
 				[2] = {
-					name = "Hamdilli Ammunition Depot-2",
+					name = "Islahiye Storage Site 2",
 				},
 				[3] = {
-					name = "Hamdilli Ammunition Depot-3",
+					name = "Islahiye Storage Site 3",
 				},
 				[4] = {
-					name = "Hamdilli Ammunition Depot-4",
+					name = "Islahiye Storage Site 4",
 				},
 				[5] = {
-					name = "Hamdilli Ammunition Depot-5",
+					name = "Islahiye Storage Site 5",
 				},
 				[6] = {
-					name = "Hamdilli Ammunition Depot-6",
+					name = "Islahiye Storage Site 6",
 				},
 				[7] = {
-					name = "Hamdilli Ammunition Depot-7",
+					name = "Islahiye Storage Site 7",
 				},
 				[8] = {
-					name = "Hamdilli Ammunition Depot-8",
+					name = "Islahiye Storage Site 8",
 				},
 				[9] = {
-					name = "Hamdilli Ammunition Depot-9",
+					name = "Islahiye Storage Site 9",
 				},
 				[10] = {
-					name = "Hamdilli Ammunition Depot-10",
+					name = "Islahiye Storage Site 10",
 				},				
 				[11] = {
-					name = "Hamdilli Ammunition Depot-12",
+					name = "Islahiye Storage Site 12",
 				},
 				[12] = {
-					name = "Hamdilli Ammunition Depot-13",
-				},
-				[13] = {
-					name = "Hamdilli Ammunition Depot-14",
-				},
-				[14] = {
-					name = "Hamdilli Ammunition Depot-15",
+					name = "Islahiye Storage Site 13",
 				},
 			},
 		},	
@@ -3002,7 +2848,7 @@ targetlist = {
 			name = "Paphos",
 		},
 
-		['FARP-Hatay FARP'] = {
+		['FARP-Hatay FARP'] = { fatto
 			task = "Strike",
 			priority = 4,
 			picture = {""},
@@ -3037,36 +2883,6 @@ targetlist = {
 				[8] = {
 					name = "Hatay FARP 8",
 				},
-				[9] = {
-					name = "Hatay FARP 9",
-				},
-				[10] = {
-					name = "Hatay FARP 10",
-				},
-				[11] = {
-					name = "Hatay FARP 11",
-				},
-				[12] = {
-					name = "Hatay FARP 20",
-				},
-				[13] = {
-					name = "Hatay FARP 13",
-				},
-				[14] = {
-					name = "Hatay FARP 14",
-				},
-				[15] = {
-					name = "Hatay FARP 15",
-				},
-				[16] = {
-					name = "Hatay FARP 19",
-				},
-				[17] = {
-					name = "Hatay FARP 17",
-				},
-				[18] = {
-					name = "Hatay FARP 18",
-				},			
 			},
 		},
 		
@@ -3140,330 +2956,7 @@ targetlist = {
 
 		--Supply Line
 
-		["Hamdilli-Hatay Supply Line 1-3"] =  { 
-			task = "Strike",
-			priority = 6,
-			picture = {"Hamdilli-Hatay_Supply_Line_1.png"},
-			attributes = {"Structure"},
-			firepower = {
-				min = 4,
-				max = 8,
-			},			
-			elements = {
-				[1] = {
-					name = "Hamdilli - Hatay Supply Line 1",
-					["y"] = 28198.314541683,
-					["x"] = 221394.92055014,
-					
-				},
-				[2] = {
-					name = "Hamdilli - Hatay Supply Line 2",
-					["y"] = 27128.936783981,
-                    ["x"] = 214502.26472623,
-				},
-				[3] = {
-					name = "Hamdilli - Hatay Supply Line 3",
-					["y"] = 26760.063072063,
-                    ["x"] = 208599.57844244,
-				},
-			},
-		},
-
-		["Hamdilli-Hatay Supply Line 4-6"] =  { 
-			task = "Strike",
-			priority = 6,
-			picture = {"Hamdilli-Hatay_Supply_Line_2.png"},
-			attributes = {"Structure"},
-			firepower = {
-				min = 4,
-				max = 8,
-			},			
-			elements = {				
-				[1] = {
-					name = "Hamdilli - Hatay Supply Line 4",
-					["y"] = 31096.874017278,
-                    ["x"] = 202018.49843269,
-				},
-				[2] = {
-					name = "Hamdilli - Hatay Supply Line 5",
-					["y"] = 34456.154797002,
-                    ["x"] = 189834.90355686,
-				},
-				[3] = {
-					name = "Hamdilli - Hatay Supply Line 6",
-					["y"] = 35013.127525455,
-                    ["x"] = 177387.11039036,
-				},
-			},
-		},
-
-		["Hamdilli-Hatay Supply Line 6-7"] =  { 
-			task = "Strike",
-			priority = 6,
-			picture = {"Hamdilli-Hatay_Supply_Line_3.png"},
-			attributes = {"Structure"},
-			firepower = {
-				min = 4,
-				max = 8,
-			},			
-			elements = {				
-				[1] = {
-					name = "Hamdilli - Hatay Supply Line 6",
-					["y"] = 35013.127525455,
-                    ["x"] = 177387.11039036,
-				},
-				[2] = {
-					name = "Hamdilli - Hatay Supply Line 7",
-					["y"] = 29149.718483914,
-                    ["x"] = 165180.04738535,
-				},
-			},
-		},
-
-		["Silifke-Gazipasa Supply Line 1-3"] =  { 
-			task = "Strike",
-			priority = 6,
-			picture = {"Silifke-Gazipasa_Supply_Line_1.png"},
-			attributes = {"Structure"},
-			firepower = {
-				min = 4,
-				max = 8,
-			},			
-			elements = {
-				[1] = {
-					name = "Silifke-Gazipasa-Incirlik Supply Line 1",
-					["y"] = -176932.22283624,
-                    ["x"] = 156022.67709244,
-				},
-				[2] = {
-					name = "Silifke-Gazipasa-Incirlik Supply Line 2",
-					["y"] = -179975.94432493,
-                    ["x"] = 158061.81960631,
-					
-				},
-				[3] = {
-					name = "Silifke-Gazipasa Supply Line 3",
-					["y"] = -188108.07874371,
-                    ["x"] = 154566.06699264,
-				},
-			},
-		},
-
-		["Silifke-Gazipasa Supply Line 3-5"] =  { 
-			task = "Strike",
-			priority = 6,
-			picture = {"Silifke-Gazipasa_Supply_Line_2.png"},
-			attributes = {"Structure"},
-			firepower = {
-				min = 4,
-				max = 8,
-			},			
-			elements = {				
-				[1] = {
-					name = "Silifke-Gazipasa Supply Line 3",
-					["y"] = -188108.07874371,
-                    ["x"] = 154566.06699264,
-				},
-				[2] = {
-					name = "Silifke-Gazipasa Supply Line 4",
-					["y"] = -196791.25411094,
-                    ["x"] = 154657.76831347,
-				},
-				[3] = {
-					name = "Silifke-Gazipasa Supply Line 5",
-					["y"] = -213876.93337131,
-                    ["x"] = 156978.9667143,
-				},
-			},
-		},
-
-		["Silifke-Gazipasa Supply Line 6-8"] =  { 
-			task = "Strike",
-			priority = 6,
-			picture = {"Silifke-Gazipasa_Supply_Line_3.png"},
-			attributes = {"Structure"},
-			firepower = {
-				min = 4,
-				max = 8,
-			},			
-			elements = {				
-				[1] = {
-					name = "Silifke-Gazipasa Supply Line 6",
-					["y"] = -245348.25867567,
-                    ["x"] = 160493.44533889,
-				},
-				[2] = {
-					name = "Silifke-Gazipasa Supply Line 7",
-					["y"] = -255049.8381875,
-                    ["x"] = 156184.89304219,
-				},
-				[3] = {
-					name = "Silifke-Gazipasa Supply Line 8",
-					["y"] = -282123.30517246,
-                    ["x"] = 157715.69855442,
-				},
-			},
-		},
-
-		["Silifke-Incirlik Supply Line 1-2"] =  { 
-			task = "Strike",
-			priority = 6,
-			picture = {"Silifke-Incirlik_Supply_Line_1-2.png"},
-			attributes = {"Structure"},
-			firepower = {
-				min = 4,
-				max = 8,
-			},			
-			elements = {
-				[1] = {
-					name = "Silifke-Gazipasa-Incirlik Supply Line 1",
-					["y"] = -176932.22283624,
-                    ["x"] = 156022.67709244,
-				},
-				[2] = {
-					name = "Silifke-Gazipasa-Incirlik Supply Line 2",
-					["y"] = -179975.94432493,
-                    ["x"] = 158061.81960631,
-					
-				},				
-			},
-		},
-
-		["Silifke-Incirlik Supply Line 3-4"] =  { 
-			task = "Strike",
-			priority = 6,
-			picture = {"Silifke-Incirlik_Supply_Line_3-4.png"},
-			attributes = {"Structure"},
-			firepower = {
-				min = 4,
-				max = 8,
-			},			
-			elements = {
-				[1] = {
-					name = "Silifke-Incirlik Supply Line 4",
-					["y"] = -167690.647473,
-					["x"] = 172016.9904773,
-				},				
-				[2] = {
-					name = "Silifke-Incirlik Supply Line 3",
-					["y"] = -168163.41850772,
-					["x"] = 166613.88972863,
-				},				
-			},
-		},
-
-		["Silifke-Incirlik Supply Line 5-6-7"] =  { 
-			task = "Strike",
-			priority = 6,
-			picture = {"Silifke-Incirlik_Supply_Line_5-6-7.png"},
-			attributes = {"Structure"},
-			firepower = {
-				min = 4,
-				max = 8,
-			},			
-			elements = {
-				[1] = {
-					name = "Silifke-Incirlik Supply Line 5",
-					["y"] = -161044.66246656,
-                    ["x"] = 181844.02840373,
-				},
-				[2] = {
-					name = "Silifke-Incirlik Supply Line 6",
-					["y"] = -155718.61588662,
-                    ["x"] = 194385.06613007,
-				},
-				[3] = {
-					name = "Silifke-Incirlik Supply Line 7",
-					["y"] = -139742.94816455,
-                    ["x"] = 187532.45572413,
-				},
-				[2] = {
-					name = "Silifke-Incirlik Supply Line 8",
-					["y"] = -129568.22014551,
-                    ["x"] = 199758.84098011,
-				},
-				[3] = {
-					name = "Silifke-Incirlik Supply Line 9",
-					["y"] = -112406.13518949,
-					["x"] = 207887.50792655,
-				},
-			},
-		},
-
-		["Silifke-Incirlik Supply Line 8-9"] =  { 
-			task = "Strike",
-			priority = 6,
-			picture = {"Silifke-Incirlik_Supply_Line_8-9.png"},
-			attributes = {"Structure"},
-			firepower = {
-				min = 4,
-				max = 8,
-			},			
-			elements = {
-				[1] = {
-					name = "Silifke-Incirlik Supply Line 8",
-					["y"] = -129568.22014551,
-                    ["x"] = 199758.84098011,
-				},
-				[2] = {
-					name = "Silifke-Incirlik Supply Line 9",
-					["y"] = -112406.13518949,
-					["x"] = 207887.50792655,
-				},
-			},
-		},
-
-		["Hamdilli - Gaziantep Supply Line 1-2"] =  { 
-			task = "Strike",
-			priority = 6,
-			picture = {"Hamdilli-Gaziantep_Supply_Line_1.png"},
-			attributes = {"Structure"},
-			firepower = {
-				min = 4,
-				max = 8,
-			},			
-			elements = {
-				[1] = {
-					name = "Hamdilli - Gaziantep Supply Line 1",
-					["y"] = 47771.494929525,
-                                        ["x"] = 234135.64673827,
-					
-				},
-				[2] = {
-					name = "Hamdilli - Gaziantep Supply Line 2",
-					["y"] = 69451.669307728,
-                    ["x"] = 239237.89443122,
-				},				
-			},
-		},
-
-		["Hamdilli - Gaziantep Supply Line 3-5"] =  { 
-			task = "Strike",
-			priority = 6,
-			picture = {"Hamdilli-Gaziantep_Supply_Line_2.png"},
-			attributes = {"Structure"},
-			firepower = {
-				min = 4,
-				max = 8,
-			},			
-			elements = {				
-				[1] = {
-					name = "Hamdilli - Gaziantep Supply Line 3",
-					["y"] = 95630.716609183,
-					["x"] = 242538.85450581,
-				},
-				[2] = {
-					name = "Hamdilli - Gaziantep Supply Line 4",
-					["y"] = 126723.08451733,
-                    ["x"] = 243716.66026956,
-				},
-				[3] = {
-					name = "Hamdilli - Gaziantep Supply Line 6",
-					["y"] = 132165.32745219,
-                    ["x"] = 238219.95028591,
-				},				
-			},
-		},
+		--NOTA: NON DEFINIRE LE SUPPLY LINE: ESSENDO TARGET, DCE PRENDE IL BARICENTRO COME IP PER GLI ATTACCHI; SE LE SUPPLY LINE SONO ESTESE, GLI ATTACCHI NON AVRANNO MAI LUOGO E GLI AEREI SORVOLERANNO L'INTERO TERRITORIO
 
 	},
 }
