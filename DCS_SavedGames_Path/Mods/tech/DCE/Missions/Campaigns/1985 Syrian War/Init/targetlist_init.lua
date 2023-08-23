@@ -304,7 +304,7 @@ targetlist = {
 
 		--
 		-- SAM Site
-		["Syria al-Safirah SAM SA-2"] = {
+		["al-Safirah SAM SA-2"] = {
 			task = "Strike",
 			priority = 6,
 			attributes = {"SAM"},
@@ -316,7 +316,7 @@ targetlist = {
 			name = "Syria al-Safirah SAM SA-2",
 		},
 
-		["Syria Marj Ruhayyil SAM SA-2-1"] = {
+		["Marj Ruhayyil SAM SA-2"] = {
 			task = "Strike",
 			priority = 6,
 			attributes = {"SAM"},
@@ -328,19 +328,7 @@ targetlist = {
 			name = "Syria Marj Ruhayyil SAM SA-2-1",
 		},
 
-		["Syria Marj Ruhayyil SAM SA-2-2"] = {
-			task = "Strike",
-			priority = 6,
-			attributes = {"SAM"},
-			firepower = {
-				min = 2, 
-				max = 4, 
-			},
-			class = "vehicle",
-			name = "Syria Marj Ruhayyil SAM SA-2-2",
-		},
-
-		["Ad Dumayr SAM SA-6 Site"] = {
+		["Ad Dumayr SAM SA-6 Site"] = {-- e sam 2
 			task = "Strike",
 			priority = 6,
 			attributes = {"SAM"},
@@ -350,18 +338,6 @@ targetlist = {
 			},
 			class = "vehicle",
 			name = "Syria Ad Dumayr SAM SA-6 Site",
-		},
-
-		["Ad Dumayr SAM SA-2 Site"] = {
-			task = "Strike",
-			priority = 6,
-			attributes = {"SAM"},
-			firepower = {
-				min = 2, 
-				max = 4, 
-			},
-			class = "vehicle",
-			name = "Ad Dumayr SAM SA-2 Site",
 		},
 
 		["An Nasiriyah SAM SA-2 Site"] = {
@@ -376,7 +352,7 @@ targetlist = {
 			name = "Syria An Nasiriyah SAM SA-2",
 		},
 
-		["Ram Tarza SA10 A Site"] = {
+		["Ram Tarza SA10 Site"] = {
 			task = "Strike",
 			priority = 6,
 			attributes = {"SAM"},
@@ -1591,6 +1567,18 @@ targetlist = {
 			name = "Bassel Al-Assad",
 		},
 
+		["Lebanon Fleet"] = {--from Beirut to Naquora
+			task = "Anti-ship Strike",
+			priority = 1,
+			attributes = {"ship"},
+			firepower = {
+				min = 3,
+				max = 6,
+			},
+			class = "ship",
+			name = "Lebanon Fleet",
+		},
+
 		["Battle Group CAP"] = {
 			task = "CAP",
 			priority = 10,
@@ -1992,7 +1980,7 @@ targetlist = {
 			name = "SAM Patriot Site Mersin",
 		},
 
-		["SAM Patriot SIte Gaziantep"] = {
+		["SAM Patriot Site Gaziantep"] = {
 			task = "Strike",
 			priority = 6,
 			attributes = {"SAM"},
@@ -2127,7 +2115,7 @@ targetlist = {
 		},	
 
 		--EWR Site
-		["EWR NATO Mersin"] = {
+		["EWR NATO"] = {
 			task = "Strike",
 			priority = 5,
 			picture = {"EWR_NATO_Mersin.png"},
@@ -2848,7 +2836,7 @@ targetlist = {
 			name = "Paphos",
 		},
 
-		['FARP-Hatay FARP'] = { fatto
+		['FARP-Hatay FARP'] = { --fatto
 			task = "Strike",
 			priority = 4,
 			picture = {""},
