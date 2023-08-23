@@ -304,7 +304,7 @@ targetlist = {
 
 		--
 		-- SAM Site
-		["al-Safirah SAM SA-2"] = {
+		["al-Safirah SAM SA-2"] = { --fatto
 			task = "Strike",
 			priority = 6,
 			attributes = {"SAM"},
@@ -313,10 +313,10 @@ targetlist = {
 				max = 4, 
 			},
 			class = "vehicle",
-			name = "Syria al-Safirah SAM SA-2",
+			name = "al-Safirah SAM SA-2",
 		},
 
-		["Marj Ruhayyil SAM SA-2"] = {
+		["Marj Ruhayyil SAM SA-2"] = {--fatto
 			task = "Strike",
 			priority = 6,
 			attributes = {"SAM"},
@@ -325,10 +325,10 @@ targetlist = {
 				max = 4, 
 			},
 			class = "vehicle",
-			name = "Syria Marj Ruhayyil SAM SA-2-1",
+			name = "Marj Ruhayyil SAM SA-2",
 		},
 
-		["Ad Dumayr SAM SA-6 Site"] = {-- e sam 2
+		["Bassel Al-Assad SAM SA-6 Site"] = {--fatto
 			task = "Strike",
 			priority = 6,
 			attributes = {"SAM"},
@@ -337,10 +337,10 @@ targetlist = {
 				max = 4, 
 			},
 			class = "vehicle",
-			name = "Syria Ad Dumayr SAM SA-6 Site",
+			name = "Bassel Al-Assad SAM SA-6 Site",
 		},
 
-		["An Nasiriyah SAM SA-2 Site"] = {
+		["An Nasiriyah SAM SA-2 Site"] = { --fatto
 			task = "Strike",
 			priority = 6,
 			attributes = {"SAM"},
@@ -349,10 +349,10 @@ targetlist = {
 				max = 4, 
 			},
 			class = "vehicle",
-			name = "Syria An Nasiriyah SAM SA-2",
+			name = "An Nasiriyah SAM SA-2 Site",
 		},
 
-		["Ram Tarza SA10 Site"] = {
+		["Ram Tarza SA10 Site"] = { --fatto
 			task = "Strike",
 			priority = 6,
 			attributes = {"SAM"},
@@ -361,10 +361,10 @@ targetlist = {
 				max = 4, 
 			},
 			class = "vehicle",
-			name = "Syria Ram Tarza SA10 A Site",
+			name = "Ram Tarza SA10 Site",
 		},
 
-		["Al Haylunah SA10 Site"] = {
+		["Palmyra SA10 Site"] = { --fatto
 			task = "Strike",
 			priority = 6,
 			attributes = {"SAM"},
@@ -373,22 +373,10 @@ targetlist = {
 				max = 4, 
 			},
 			class = "vehicle",
-			name = "Al Haylunah SA10 Site",
+			name = "Palmyra SA10 Site",
 		},
 
-		["Khirbet Tin Nur SA-2 Site"] = {
-			task = "Strike",
-			priority = 6,
-			attributes = {"SAM"},
-			firepower = {
-				min = 2, 
-				max = 4, 
-			},
-			class = "vehicle",
-			name = "Syria Khirbet Tin Nur SA-2 Site",
-		},
-
-		["Deir ez-Zor SA-5 Site"] = {
+		["Deir ez-Zor SA-5 Site"] = {--fatto
 			task = "Strike",
 			picture = {"Deir_ez_Zor_Airbase_and_SAM.png"},
 			priority = 6,
@@ -401,8 +389,7 @@ targetlist = {
 			name = "Deir ez-Zor SA-5 Site",
 		},
 
-		["SA-11 Buk Site Beirut"] = {
-
+		["Beirut SA-11 Buk Site"] = {--fatto
 			task = "Strike",
 			picture = {},
 			priority = 6,
@@ -412,11 +399,11 @@ targetlist = {
 				max = 4, 
 			},
 			class = "vehicle",
-			name = "SA-11 Buk Site Beirut",
+			name = "Beirut SA-11 Buk Site",
 		},
 
 		--EWR Site
-		["102 EWR Site"] = {
+		["102 EWR Site"] = { --fatto
 			task = "Strike",
 			priority = 5,
 			picture = {"102_EWR_Site.png"},
@@ -429,7 +416,7 @@ targetlist = {
 			name = "102 EWR Site",
 		},
 
-		["101 EWR Site"] = {
+		["101 EWR Site"] = { --fatto
 			task = "Strike",
 			priority = 5,
 			picture = {"101_EWR_Site.png"},
@@ -545,7 +532,7 @@ targetlist = {
 			},
 		},
 
-		["23th-Artillery Brigade"] = {
+		["154th Artillery Regiment"] = { --Syria -- supported by Russian Air Defence
 			task = "Strike",
 			priority = 1,
 			attributes = {"soft"},
@@ -554,10 +541,10 @@ targetlist = {
 				max = 3,  -- 4,
 			},
 			class = "vehicle",
-			name = "23th-Artillery Brigade",
+			name = "154th Artillery Regiment",
 		},	
 		
-		["248th Armored Regiment"] = {
+		["42nd Armored Brigade"] = { -- Syria -- supported by Russian Air Defence
 			task = "Strike",
 			priority = 1,
 			attributes = {"armor"},
@@ -566,19 +553,19 @@ targetlist = {
 				max = 3,  -- 4,
 			},
 			class = "vehicle",
-			name = "248th Armored Regiment",
+			name = "42nd Armored Brigade",
 		},	
 
-		["237th Armored Regiment"] = {
+		["5th Heavy Brigades"] = { -- Lebanon (Mechanised) -- supported by Russian Air Defence
 			task = "Strike",
 			priority = 1,
-			attributes = {"armor"},
+			attributes = {"soft"},
 			firepower = {
 				min = 3,  -- 2,
 				max = 3,  -- 4,
 			},
 			class = "vehicle",
-			name = "237th Armored Regiment",
+			name = "5th Heavy Brigades",
 		},	
 
 		-- Intercept
@@ -1567,7 +1554,7 @@ targetlist = {
 			name = "Bassel Al-Assad",
 		},
 
-		["Lebanon Fleet"] = {--from Beirut to Naquora
+		["Lebanon Fleet"] = {
 			task = "Anti-ship Strike",
 			priority = 1,
 			attributes = {"ship"},
@@ -1640,7 +1627,7 @@ targetlist = {
 			text = "",
 		},
 
-		["Tanker Track North"] = {
+		["Tanker Track North"] = {--fatto
 			task = "Refueling",
 			priority = 10,
 			attributes = {"KC135MPRS"},
@@ -1653,7 +1640,7 @@ targetlist = {
 			text = "North-West of Incirlik ",
 		},
 
-		["Tanker Track South"] = {
+		["Tanker Track South"] = {--fatto
 			task = "Refueling",
 			priority = 10,
 			attributes = {"KC135"},
@@ -1666,7 +1653,7 @@ targetlist = {
 			text = "South-West of Ramat David",
 		},
 		
-		["Sweep Center"] = {
+		["Sweep Center"] = { --fatto
 			task = "Fighter Sweep",
 			priority = 1,
 			attributes = {},
@@ -1674,12 +1661,12 @@ targetlist = {
 				min = 3, --estimated aircraft : 5, efficiency: 0.5 ( 2 missile for one shot ): 5 / 0.5 = 10
 				max = 5,
 			},
-			x = -23033,
-			y = 31546,
+			x = +00020378,
+			y = +00016106,
 			text = "in the center front area near Hama",
 		},
 
-		["Sweep North East"] = {
+		["Sweep North East"] = {--fatto
 			task = "Fighter Sweep",
 			priority = 1,
 			attributes = {},
@@ -1687,12 +1674,12 @@ targetlist = {
 				min = 3,
 				max = 5,
 			},
-			x = 102324,
-			y = 73626,
+			x = +00100820,
+			y = +00064696,
 			text = "in the north east front area near Taftanaz",
 		},
 
-		["Sweep South East"] = {
+		["Sweep South East"] = {--fatto
 			task = "Fighter Sweep",
 			priority = 1,
 			attributes = {},
@@ -1700,8 +1687,8 @@ targetlist = {
 				min = 3,
 				max = 5,
 			},
-			x = -141653,
-			y = -40359,
+			x = -00169946,
+			y = -00047807,
 			text = "in the south east front area",
 		},
 
@@ -1968,7 +1955,7 @@ targetlist = {
 		},	
 
 		-- SAM Site
-		["SAM Patriot Site Mersin"] = {
+		["Mersin SAM Patriot Site"] = {--fatto
 			task = "Strike",
 			priority = 6,
 			attributes = {"SAM"},
@@ -1977,10 +1964,10 @@ targetlist = {
 				max = 4, 
 			},
 			class = "vehicle",
-			name = "SAM Patriot Site Mersin",
+			name = "Mersin SAM Patriot Site",
 		},
 
-		["SAM Patriot Site Gaziantep"] = {
+		["Gaziantep SAM Patriot Site"] = {--fatto
 			task = "Strike",
 			priority = 6,
 			attributes = {"SAM"},
@@ -1989,10 +1976,10 @@ targetlist = {
 				max = 4, 
 			},
 			class = "vehicle",
-			name = "SAM Patriot SIte Gaziantep",
+			name = "Gaziantep SAM Patriot Site",
 		},
 
-		["Cyprus Larnaca SAM Hawk"] = {
+		["Larnaca SAM Hawk Site"] = { --fatto
 			task = "Strike",
 			priority = 6,
 			attributes = {"SAM"},
@@ -2001,10 +1988,10 @@ targetlist = {
 				max = 4, 
 			},
 			class = "vehicle",
-			name = "Cyprus Larnaca SAM Hawk",
+			name = "Larnaca SAM Hawk Site",
 		},
 
-		["SAM Hawk Site Haifa"] = {
+		["Haifa SAM Hawk Site"] = {--fatto
 			task = "Strike",
 			priority = 6,
 			attributes = {"SAM"},
@@ -2013,11 +2000,11 @@ targetlist = {
 				max = 4, 
 			},
 			class = "vehicle",
-			name = "SAM Hawk Site Haifa",
+			name = "Haifa SAM Hawk Site",
 		},
 
 		-- Fleet
-		["CVN-71 Theodore Roosevelt"] = {
+		["CVN-71 Theodore Roosevelt"] = {--fatto
 			task = "Anti-ship Strike",
 			priority = 5,
 			attributes = {"ship"},
@@ -2029,7 +2016,7 @@ targetlist = {
 			name = "CVN-71",
 		},
 
-		["CVN-72 Abraham Lincoln"] = {
+		["CVN-72 Abraham Lincoln"] = {--fatto
 			task = "Anti-ship Strike",
 			priority = 5,
 			attributes = {"ship"},
@@ -2041,7 +2028,7 @@ targetlist = {
 			name = "CVN-72",
 		},
 
-		["USA Fleet 1"] = {
+		["USA Fleet"] = {--fatto
 			task = "Anti-ship Strike",
 			priority = 1,
 			attributes = {"ship"},
@@ -2053,7 +2040,7 @@ targetlist = {
 			name = "USA Fleet 1",
 		},
 
-		["USA Fleet 2"] = {
+		["UK Fleet"] = {--fatto
 			task = "Anti-ship Strike",
 			priority = 1,
 			attributes = {"ship"},
@@ -2062,11 +2049,11 @@ targetlist = {
 				max = 6,
 			},
 			class = "ship",
-			name = "USA Fleet 2",
+			name = "UK Fleet",
 		},
 
 		-- Army
-		["3th Mechanized Division"] = {
+		["3th Mechanized Division"] = {--fatto
 			task = "Strike",
 			priority = 1,
 			attributes = {"soft"},
@@ -2078,7 +2065,7 @@ targetlist = {
 			name = "3th Mechanized Division",
 		},	
 
-		["4th Armored Division"] = {
+		["4th Armored Division"] = {--fatto
 			task = "Strike",
 			priority = 1,
 			attributes = {"armor"},
@@ -2090,7 +2077,7 @@ targetlist = {
 			name = "4th Armored Division",
 		},	
 
-		["6th Mechanized Division"] = {
+		["6th Mechanized Division"] = {--fatto
 			task = "Strike",
 			priority = 1,
 			attributes = {"soft"},
@@ -2100,22 +2087,10 @@ targetlist = {
 			},
 			class = "vehicle",
 			name = "6th Mechanized Division",
-		},	
-
-		["9th Armored Division"] = {
-			task = "Strike",
-			priority = 1,
-			attributes = {"armor"},
-			firepower = {
-				min = 3,  -- 2,
-				max = 3,  -- 4,
-			},
-			class = "vehicle",
-			name = "9th Armored Division",
-		},	
+		},		
 
 		--EWR Site
-		["EWR NATO"] = {
+		["EWR NATO"] = {--fatto
 			task = "Strike",
 			priority = 5,
 			picture = {"EWR_NATO_Mersin.png"},

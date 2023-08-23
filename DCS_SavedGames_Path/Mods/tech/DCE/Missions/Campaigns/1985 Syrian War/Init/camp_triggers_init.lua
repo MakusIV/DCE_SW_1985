@@ -267,18 +267,18 @@ camp_triggers = {
 	},
 
 	----- CARRIER MOVEMENT -----
-	["CVN-72 Abraham Lincoln Patrol ATest Sea"] = {
+	["CVN-72 Abraham Lincoln movement"] = {
 		active = true,
 		once = true,
 		condition = 'Return.Mission() == 1',
-		action = 'Action.ShipMission("CVN-72", {{"Indy 1-1", "Indy 1-2", "Indy 1-3"}}, 10, 8, nil)',
+		action = 'Action.ShipMission("CVN-72", {{"CVN-72 Destination 1", "CVN-72 Destination 2", "CVN-72 Destination 3"}}, 10, 8, nil)',
 	},
 
-	["CVN-71 Theodore Roosevelt Patrol ATest Sea"] = {
+	["CVN-71 Theodore Roosevelt movement"] = {
 		active = true,
 		once = true,
 		condition = 'Return.Mission() == 1',
-		action = 'Action.ShipMission("CVN-71", {{"Indy 2-1", "Indy 2-2", "Indy 2-3"}}, 10, 8, nil)',
+		action = 'Action.ShipMission("CVN-71", {{"CVN-71 Destination 1", "CVN-71 Destination 2", "CVN-71 Destination 3"}}, 10, 8, nil)',
 	},
 	--[[["LHA-Group Patrol ATest Sea"] = {
 		active = true,
@@ -289,18 +289,25 @@ camp_triggers = {
 	
 	
 	----- CONVOY MOVEMENT -----	
-	["USA Fleet 1 movement"] = {
+	["USA Fleet movement"] = {
 		active = true,
 		once = true,
 		condition = 'Return.Mission() == 1',
-		action = 'Action.ShipMission("USA Fleet 1", {{"USA Fleet 1 Destination 1", "USA Fleet 1 Destination 2", "USA Fleet 1 Destination 3"}}, 8, 5, nil)',
+		action = 'Action.ShipMission("USA Fleet", {{"USA Fleet Destination 1", "USA Fleet Destination 2", "USA Fleet Destination 3"}}, 8, 5, nil)',
 	},
 
-	["USA Fleet 2 movement"] = {
+	["UK Fleet movement"] = {
 		active = true,
 		once = true,
 		condition = 'Return.Mission() == 1',
-		action = 'Action.ShipMission("USA Fleet 1", {{"USA Fleet 2 Destination 1", "USA Fleet 2 Destination 2", "USA Fleet 2 Destination 3"}}, 8, 5, nil)',
+		action = 'Action.ShipMission("UK Fleet", {{"UK Fleet Destination 1", "UK Fleet Destination 2", "UK Fleet Destination 3"}}, 8, 5, nil)',
+	},
+
+	["Lebanon Fleet movement"] = { --fatto
+		active = true,
+		once = true,
+		condition = 'Return.Mission() == 1',
+		action = 'Action.ShipMission("Lebanon Fleet", {{"Lebanon Fleet Destination 1", "Lebanon Fleet Destination 2", "Lebanon Fleet Destination 3"}}, 8, 5, nil)',
 	},
 	
 	
