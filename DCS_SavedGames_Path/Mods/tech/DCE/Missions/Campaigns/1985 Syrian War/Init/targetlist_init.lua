@@ -532,7 +532,7 @@ targetlist = {
 			},
 		},
 
-		["154th Artillery Regiment"] = { --Syria -- supported by Russian Air Defence
+		["154th Artillery Regiment"] = { --Syria -- supported by Russian Air Defence --fatto
 			task = "Strike",
 			priority = 1,
 			attributes = {"soft"},
@@ -544,7 +544,7 @@ targetlist = {
 			name = "154th Artillery Regiment",
 		},	
 		
-		["42nd Armored Brigade"] = { -- Syria -- supported by Russian Air Defence
+		["42nd Armored Brigade"] = { -- Syria -- supported by Russian Air Defence --fatto
 			task = "Strike",
 			priority = 1,
 			attributes = {"armor"},
@@ -556,7 +556,7 @@ targetlist = {
 			name = "42nd Armored Brigade",
 		},	
 
-		["5th Heavy Brigades"] = { -- Lebanon (Mechanised) -- supported by Russian Air Defence
+		["5th Heavy Brigades"] = { -- Lebanon (Mechanised) -- supported by Russian Air Defence --fatto
 			task = "Strike",
 			priority = 1,
 			attributes = {"soft"},
@@ -1661,8 +1661,8 @@ targetlist = {
 				min = 3, --estimated aircraft : 5, efficiency: 0.5 ( 2 missile for one shot ): 5 / 0.5 = 10
 				max = 5,
 			},
-			x = +00020378,
-			y = +00016106,
+			x = 20378,
+			y = 16106,
 			text = "in the center front area near Hama",
 		},
 
@@ -1674,8 +1674,8 @@ targetlist = {
 				min = 3,
 				max = 5,
 			},
-			x = +00100820,
-			y = +00064696,
+			x = 0100820,
+			y = 64696,
 			text = "in the north east front area near Taftanaz",
 		},
 
@@ -1687,8 +1687,8 @@ targetlist = {
 				min = 3,
 				max = 5,
 			},
-			x = -00169946,
-			y = -00047807,
+			x = -169946,
+			y = -47807,
 			text = "in the south east front area",
 		},
 

@@ -431,7 +431,6 @@ camp_triggers = {
 		condition = 'Return.TargetAlive("Mezzeh Airbase") < 3',
 		action = {
 			[1] = 'Action.Text("The infrastructure at Mezzeh Airbase has been destroyed by air strikes. Flying operations at this base have ceased completely and are unlikely to resume.")',
-		--[[		[2] = 'Action.AddImage("BDA_Lincoln.jpg")', ]]--  ---A changer
 		}
 	},
 	["Bassel Al-Assad Airbase Disabled"] = {
@@ -494,7 +493,6 @@ camp_triggers = {
 		condition = 'Return.TargetAlive("Incirlik Airbase") < 3',
 		action = {
 			[1] = 'Action.Text("The infrastructure at Incirlik Airbase has been destroyed by air strikes. Flying operations at this base have ceased completely and are unlikely to resume.")',
-		--[[		[2] = 'Action.AddImage("BDA_Lincoln.jpg")', ]]--  ---A changer
 		}
 	},
 	["Adana Sakirpasa Airbase Disabled"] = {
@@ -509,8 +507,6 @@ camp_triggers = {
 		once = true,
 		condition = 'Return.TargetAlive("Adana Sakirpasa Airbase") < 3',
 		action = {
-			[1] = 'Action.Text("The infrastructure at Adana Sakirpasaa Airbase has been destroyed by air strikes. Flying operations at this base have ceased completely and are unlikely to resume.")',
-		--[[		[2] = 'Action.AddImage("BDA_Lincoln.jpg")', ]]--  ---A changer
 		}
 	},
 	["Gaziantep Airbase Disabled"] = {
@@ -526,7 +522,6 @@ camp_triggers = {
 		condition = 'Return.TargetAlive("Gaziantep Airbase") < 3',
 		action = {
 			[1] = 'Action.Text("The infrastructure at Gaziantep Airbase has been destroyed by air strikes. Flying operations at this base have ceased completely and are unlikely to resume.")',
-		--[[		[2] = 'Action.AddImage("BDA_Lincoln.jpg")', ]]--  ---A changer
 		}
 	},
 	["Gazipasa Airbase Disabled"] = {
@@ -542,7 +537,6 @@ camp_triggers = {
 		condition = 'Return.TargetAlive("Gazipasa Airbase") < 3',
 		action = {
 			[1] = 'Action.Text("The infrastructure at Gazipasa Airbase has been destroyed by air strikes. Flying operations at this base have ceased completely and are unlikely to resume.")',
-		--[[		[2] = 'Action.AddImage("BDA_Lincoln.jpg")', ]]--  ---A changer
 		}
 	},
 	["Hatay Airbase Disabled"] = {
@@ -558,7 +552,6 @@ camp_triggers = {
 		condition = 'Return.TargetAlive("Hatay Airbase") < 3',
 		action = {
 			[1] = 'Action.Text("The infrastructure at Hatay Airbase has been destroyed by air strikes. Flying operations at this base have ceased completely and are unlikely to resume.")',
-		--[[		[2] = 'Action.AddImage("BDA_Lincoln.jpg")', ]]--  ---A changer
 		}
 	},
 	["Larnaca Airbase Disabled"] = {
@@ -574,7 +567,6 @@ camp_triggers = {
 		condition = 'Return.TargetAlive("Larnaca Airbase") < 3',
 		action = {
 			[1] = 'Action.Text("The infrastructure at Larnaca Airbase has been destroyed by air strikes. Flying operations at this base have ceased completely and are unlikely to resume.")',
-		--[[		[2] = 'Action.AddImage("BDA_Lincoln.jpg")', ]]--  ---A changer
 		}
 	},
 	["Paphos Airbase Disabled"] = {
@@ -587,10 +579,10 @@ camp_triggers = {
 	["Paphos Airbase Disabled Text"] = {
 		active = true,
 		once = true,
-		condition = 'Return.TargetAlive("Hatay Airbase") < 3',
+		condition = 'Return.TargetAlive("Paphos Airbase") < 3',
 		action = {
 			[1] = 'Action.Text("The infrastructure at Hatay Airbase has been destroyed by air strikes. Flying operations at this base have ceased completely and are unlikely to resume.")',
-		--[[		[2] = 'Action.AddImage("BDA_Lincoln.jpg")', ]]--  ---A changer
+
 		}
 	},
 	["Naqoura Airbase Disabled"] = {

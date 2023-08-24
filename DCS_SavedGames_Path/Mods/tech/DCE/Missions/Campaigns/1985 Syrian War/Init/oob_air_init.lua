@@ -133,7 +133,7 @@ oob_air = {
 
 	-------------------- Incirlik (LimitedParkNb = 120) -------------------------
 		-- 111th Squadron Panther		F-4E			6+30			Turkey			Strike-CAS, SEAD
-		-- 151th Squadron Bronze		F-5E-3			8+28			Turkey			Escort
+		-- 151th Squadron Bronze		F-5E-3			8+28			Turkey			Escort (attacker and bomber @ normal altitude)
 		-- 315th Air Division 			C-130			2+4				USA				Transport
 		-- 69 BS 						B-52H			1+31			USA				Strike-Structure
 		-- 171 ARW 						KC135MPRS		2+4				USA				Refueling
@@ -1372,7 +1372,7 @@ oob_air = {
 	-------------------- Damascus (LimitedParkNb = 90) -------------------	
 		-- 790.IAP							MiG-25PD		18		Russia			Intercept
 		-- 117.IAP							MiG-27K			8+34	Russia			Strike CAS, Anti-ship Strike 
-		-- 113.IAP							MiG-23MLD		8+28	Russia			Escort
+		-- 113.IAP							MiG-23MLD		8+28	Russia			Escort (attacker and bomber)
 		-- INACTIVE 945 Squadron			MiG-21Bis		8+28	Syria			Escort
 		-- INACTIVE 3.OSAP					An-26B			6		Russia			Transport
 		-- 13.OSAP							Il-76MD			4		Russia			Transport
