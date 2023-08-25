@@ -221,10 +221,10 @@ campMod = {
 		},
 		syria = {
 				pos = {
-					x =	-00011409,	-- 
-					y = -00000712,	-- 
+					x =	-11409,	-- 
+					y = -712,	-- 
 				},
-				rayon = 50,		-- distance en Km autour de laquelle on peut placer le bullsEye
+				rayon = 200,		-- distance en Km autour de laquelle on peut placer le bullsEye
 		},
 	},
 
