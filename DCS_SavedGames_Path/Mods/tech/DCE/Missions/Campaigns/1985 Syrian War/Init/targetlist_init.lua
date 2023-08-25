@@ -570,7 +570,7 @@ targetlist = {
 
 		-- Intercept
 
-		["Gaziantep 120 km Alert"] = {
+		--[[["Gaziantep 120 km Alert"] = {
 			task = "Intercept",
 			priority = 5,
 			attributes = {},
@@ -581,9 +581,9 @@ targetlist = {
 			base = "Gaziantep",
 			radius = 120000,
 			inactive = false,
-		},
+		},]]
 
-		["Gaziantep 70 km Alert"] = {
+		["Gaziantep 70 km Alert"] = {--fatto
 			task = "Intercept",
 			priority = 5,
 			attributes = {},
@@ -596,7 +596,7 @@ targetlist = {
 			inactive = false,
 		},
 
-		["Adana Sakirpasa 200 km Alert"] = {
+		["Adana Sakirpasa 150 km Alert"] = {--fatto
 			task = "Intercept",
 			priority = 5,
 			attributes = {},
@@ -605,11 +605,11 @@ targetlist = {
 				max = 4, -- max num enemy aircraft
 			},
 			base = "Adana Sakirpasa",
-			radius = 200000,
+			radius = 150000,
 			inactive = false,
 		},
 
-		["CVN-71 Theodore Roosevelt Alert"] = {
+		["CVN-71 Theodore Roosevelt Alert"] = {--fatto
 			task = "Intercept",
 			priority = 7,
 			attributes = {},
@@ -618,10 +618,10 @@ targetlist = {
 				max = 4,
 			},
 			base = "CVN-71 Theodore Roosevelt",
-			radius = 250000,
+			radius = 150000,
 		},
 
-		["CVN-72 Abraham Lincoln Alert"] = {
+		["CVN-72 Abraham Lincoln Alert"] = {--fatto
 			task = "Intercept",
 			priority = 7,
 			attributes = {},
@@ -630,11 +630,11 @@ targetlist = {
 				max = 4,
 			},
 			base = "CVN-72 Abraham Lincoln",
-			radius = 150000,
+			radius = 100000,
 		},
 
 		-- CAP
-		["CAP Megiddo south"] = {
+		["CAP Megiddo south"] = {--fatto
 			task = "CAP",
 			priority = 20,
 			attributes = {"Air Forces"},
@@ -647,7 +647,7 @@ targetlist = {
 			text = "south-east of Megiddo",
 		},		
 
-		["CAP Cyprus south"] = {
+		["CAP Cyprus"] = {--fatto
 			task = "CAP",
 			priority = 20,
 			attributes = {"Air Forces"},
@@ -655,12 +655,12 @@ targetlist = {
 				min = 2,
 				max = 4,
 			},
-			refpoint = "CAP Cyprus south",
+			refpoint = "CAP Cyprus",
 			radius = 50000,
-			text = "south-east of Cyprus",
+			text = "north-west of Cyprus",
 		},
 
-		["CAP Cyprus north"] = {
+		["CAP Incirlik north"] = {--fatto
 			task = "CAP",
 			priority = 20,
 			attributes = {"Air Forces"},
@@ -668,25 +668,12 @@ targetlist = {
 				min = 2,
 				max = 4,
 			},
-			refpoint = "CAP Cyprus north",
+			refpoint = "CAP Incirlik north",
 			radius = 50000,
-			text = "north-est of Cyprus",
+			text = "north-est of Incirlik",
 		},
 
-		["CAP AWACS"] = {
-			task = "CAP",
-			priority = 20,
-			attributes = {"Air Forces"},
-			firepower = {
-				min = 2,
-				max = 4,
-			},
-			refpoint = "CAP AWACS",
-			radius = 50000,
-			text = "west of Cyprus",
-		},
-
-		["AWACS"] = {
+		["AWACS"] = { --fatto
 			task = "AWACS",
 			priority = 10,
 			attributes = {"Sentry"},
@@ -696,7 +683,7 @@ targetlist = {
 			},
 			refpoint = "AWACS USA",
 			radius = 30000,
-			text = "",
+			text = "north-west of Cyprus",
 		},
 
 		-- Airbase
@@ -2104,7 +2091,7 @@ targetlist = {
 		},
 
 		-- Intercept
-		["Deir ez-Zor 200km Alert"] = {
+		["Deir ez-Zor 200km Alert"] = {--fatto
 			task = "Intercept",
 			priority = 5,
 			attributes = {},
@@ -2117,7 +2104,7 @@ targetlist = {
 			inactive = false,
 		},
 
-		["Damascus 100km Alert"] = {
+		["Damascus 100km Alert"] = {--fatto
 			task = "Intercept",
 			priority = 5,
 			attributes = {},
@@ -2130,7 +2117,7 @@ targetlist = {
 			inactive = false,
 		},
 
-		["Khalkhalah 80km Alert"] = {
+		["Khalkhalah 80km Alert"] = {--fatto
 			task = "Intercept",
 			priority = 5,
 			attributes = {},
@@ -2143,7 +2130,7 @@ targetlist = {
 			inactive = false,
 		},
 
-		["Tabqa 110km Alert"] = {
+		["Tabqa 110km Alert"] = {--fatto
 			task = "Intercept",
 			priority = 5,
 			attributes = {},
@@ -2156,7 +2143,7 @@ targetlist = {
 			inactive = false,
 		},
 
-		["Hama 120km Alert"] = {
+		["Hama 100km Alert"] = {--fatto
 			task = "Intercept",
 			priority = 5,
 			attributes = {},
@@ -2165,11 +2152,11 @@ targetlist = {
 				max = 4, -- max num enemy aircraft
 			},
 			base = "Hama",
-			radius = 120000,
+			radius = 100000,
 			inactive = false,
 		},
 
-		["An Nasiriyah 200km Alert"] = {
+		["An Nasiriyah 150km Alert"] = {--fatto
 			task = "Intercept",
 			priority = 5,
 			attributes = {},
@@ -2178,12 +2165,12 @@ targetlist = {
 				max = 4, -- max num enemy aircraft
 			},
 			base = "An Nasiriyah",
-			radius = 200000,
+			radius = 150000,
 			inactive = false,
 		},
 
 		-- CAP 
-		["CAP Deir ez-Zor south"] = {
+		["CAP Deir ez-Zor south"] = {--fatto
 			task = "CAP",
 			priority = 20,
 			attributes = {"Air Forces"},
@@ -2192,12 +2179,12 @@ targetlist = {
 				max = 4,
 			},
 			refpoint = "CAP Deir ez-Zor south",
-			radius = 80000,
+			radius = 50000,
 			text = "south-west of Deir ez-Zor",
 			--inactive = true,
 		},
 
-		["CAP Abu al-Duhu"] = {
+		["CAP Abu al-Duhu"] = { --fatto
 			task = "CAP",
 			priority = 20,
 			attributes = {"Air Forces"},
@@ -2207,11 +2194,11 @@ targetlist = {
 			},
 			refpoint = "CAP Abu al-Duhu",
 			radius = 50000,
-			text = "CAP at Abu al-Duhu",
+			text = "south-west of Abu al-Duhu",
 			inactive = true,
 		},
 
-		["CAP Tabqa east"] = {
+		["CAP Tabqa"] = {--fatto
 			task = "CAP",
 			priority = 20,
 			attributes = {"Air Forces"},
@@ -2219,13 +2206,13 @@ targetlist = {
 				min = 2,
 				max = 4,
 			},
-			refpoint = "CAP Tabqa east",
-			radius = 80000,
-			text = "north-west of Tabqa",
+			refpoint = "CAP Tabqa",
+			radius = 50000,
+			text = "north of Tabqa",
 			--inactive = true,
 		},
 	
-		["CAP Hama west"] = {
+		["CAP Hama west"] = {--fatto
 			task = "CAP",
 			priority = 20,
 			attributes = {"Air Forces"},
@@ -2239,7 +2226,7 @@ targetlist = {
 			inactive = true,
 		},
 
-		["CAP Beirut east"] = {
+		["CAP Beirut east"] = {--fatto
 			task = "CAP",
 			priority = 20,
 			attributes = {"Air Forces"},
@@ -2253,7 +2240,7 @@ targetlist = {
 			inactive = true,
 		},
 
-		["CAP Damascus south"] = {
+		["CAP Damascus south"] = {--fatto
 			task = "CAP",
 			priority = 20,
 			attributes = {"Air Forces"},
@@ -2267,7 +2254,7 @@ targetlist = {
 			--inactive = true,
 		},
 
-		["AWACS"] = {
+		["AWACS"] = {--fatto
 			task = "AWACS",
 			priority = 10,
 			attributes = {"Sentry"},
@@ -2277,7 +2264,7 @@ targetlist = {
 			},
 			refpoint = "AWACS Russia",
 			radius = 30000,
-			text = "",
+			text = "north-west of Deir ez-Zor",
 		},
 		
 		-- Airbase, Helibase, Farp 

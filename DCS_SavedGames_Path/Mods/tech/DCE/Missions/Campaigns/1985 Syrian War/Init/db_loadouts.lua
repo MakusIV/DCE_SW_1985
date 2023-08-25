@@ -2406,9 +2406,7 @@ db_loadouts = {
 		},
 		["CAP"] = {
 			["TF-Old-AIM-54A-MK60*4, AIM-7M*2, AIM-9M*2, XT*2"] = {
-				attributes = {},
-				role = "escort_bomber",
-				role_altitude = "normal",
+				attributes = {"Air Forces"},
 				weapons = {-- task dedicated weapons
 					["AIM-54A-MK60"] = 4,
 					["AIM-7M"] = 2,
@@ -2496,9 +2494,7 @@ db_loadouts = {
 				},
 			},			
 			["CAP-Escort AIM-54C-Mk47*4, AIM-7P*2, AIM-9M*1, ACMI Pod, Fuel *2"] = {
-				attributes = {},
-				role = "escort_attacker",
-				role_altitude = "normal",
+				attributes = {"Air Forces"},
 				weapons = {-- task dedicated weapons
 					["AIM-54C-MK47"] = 4,
 					["AIM-7P"] = 2,
@@ -2587,10 +2583,8 @@ db_loadouts = {
 				},
 			},
 			["IRAN-TF-Old-AIM-54A-MK60*4, AIM-7M*2, AIM-9M*2, XT*2"] = {
-				attributes = {},
+				attributes = {"Air Forces"},
 				coalition = "red",
-				role = "escort_bomber",
-				role_altitude = "normal",
 				weapons = {-- task dedicated weapons
 					["AIM-54A-MK60"] = 4,
 					["AIM-7M"] = 2,
@@ -6236,7 +6230,7 @@ db_loadouts = {
 		},
 		["CAP"] = {
 			["Day, AIM-9P*2, Fuel_275*3"] = {
-				attributes = {},
+				attributes = {"Air Forces"},
 				weapons = { -- task dedicated weapons
 					["AIM-9P"] = 2,										
 				},
@@ -7448,7 +7442,7 @@ db_loadouts = {
 		},
 		["CAP"] = {
 			["MirageF1C_CAP_2xR550_2xR530EM_1xFuel"] = {
-				attributes = {},
+				attributes = {"Air Forces"},
 				weaponType = nil,
 				weapons = { -- task dedicated weapons
 					["R-550"] = 2, -- 														
@@ -7872,7 +7866,7 @@ db_loadouts = {
 		},
 		["CAP"] = {
 			["CAP-Escort, S-530F*2, R-550-Magic IR*2, ECM, Fuel"] = {
-				attributes = {},
+				attributes = {"Air Forces"},
 				weaponType = nil,
 				weapons = { -- task dedicated weapons
 					["R-550"] = 2, -- 														
@@ -8545,7 +8539,7 @@ db_loadouts = {
 		},
 		["CAP"] = {
 			["GTA AIR/AIR Medium AIM-9*4,AIM-7*4"] = {
-				attributes = {"medium"},
+				attributes = {"Air Forces"},
 				weapons = { -- task dedicated weapons
 					["AIM-9B"] = 4, -- 														
 					["AIM-7E"] = 4, -- 
@@ -8601,7 +8595,7 @@ db_loadouts = {
 				},
 			},
 			["GTA AIR/AIR Low AIM-9*4,AIM-7*4"] = {
-				attributes = {"low"},
+				attributes = {"Air Forces"},
 				weapons = { -- task dedicated weapons
 					["AIM-9B"] = 4, -- 														
 					["AIM-7E"] = 4, -- 
@@ -8657,7 +8651,7 @@ db_loadouts = {
 				},
 			},
 			["CAP, AIM-9P*4, AIM-7M*4, Fuel*2"] = {
-				attributes = {},
+				attributes = {"Air Forces"},
 				weapons = { -- task dedicated weapons
 					["AIM-9B"] = 4, -- 														
 					["AIM-7E"] = 4, -- 
@@ -10723,7 +10717,7 @@ db_loadouts = {
 		["CAP"] = {
 			
 			["CAP - AIM-7M*4, AIM-9M*2, Fuel*2"] = {
-				attributes = {},
+				attributes = {"Air Forces"},
 				coalition = "red",
 				role = "escort_bomber",
 				role_altitude = "normal",
@@ -11337,7 +11331,7 @@ db_loadouts = {
 		},		
 		["CAP"] = {
 			["Intercept Normal R-33 *4, R-60*4"] = {
-				attributes = {},
+				attributes = {"Air Forces"},
 				weaponType = nil,
 				weapons = { -- task dedicated weapons				
 					["R-60"] = 4,
@@ -11650,7 +11644,7 @@ db_loadouts = {
 		},
 		["CAP"] = {
 			["R-27R*2, R-60M*4, Fuel*1"] = {
-				attributes = {},
+				attributes = {"Air Forces"},
 				weaponType = nil,
 				weapons = { -- task dedicated weapons				
 					["R-27R"] = 2,
@@ -11711,7 +11705,7 @@ db_loadouts = {
 				},
 			},
 			["CAP R-73*2 R-60*2 R-27R*2 Fuel 1500"] = {
-				attributes = {},
+				attributes = {"Air Forces"},
 				weaponType = nil,
 				weapons = { -- task dedicated weapons				
 					["R-73"] = 2,
@@ -12246,7 +12240,7 @@ db_loadouts = {
 		},		
 		["CAP"] = {
 			["CAP High R-73*2 R-27ER*4 R-27ET*2 ECM"] = {
-				attributes = {},
+				attributes = {"Air Forces"},
 				weaponType = nil,
 				weapons = { -- task dedicated weapons				
 					["R-27ER"] = 4,
@@ -12321,7 +12315,7 @@ db_loadouts = {
 			},
 
 			["CAP Normal R-73*2 R-27E*4 R-27E*2"] = {
-				attributes = {},
+				attributes = {"Air Forces"},
 				weaponType = nil,
 				weapons = { -- task dedicated weapons				
 					["R-27R"] = 4,
@@ -12389,7 +12383,7 @@ db_loadouts = {
 
 			--[[
 			["R-40R*4"] = {
-			attributes = {},
+			attributes = {"Air Forces"},
 			weaponType = nil,
 			expend = nil,
 			day = true,
@@ -16547,7 +16541,7 @@ db_loadouts = {
 		},
 		["CAP"] = {
 			["IPW R-3R*2, R-3S*2, FT800L"] = {
-				attributes = {},
+				attributes = {"Air Forces"},
 				weaponType = nil,
 				expend = nil,
 				weapons = { -- task dedicated weapons
@@ -19482,7 +19476,7 @@ db_loadouts = {
 		},
 		["CAP"] = {
 			["R-24R*2, R-60M*4, Fuel"] = {
-				attributes = {},
+				attributes = {"Air Forces"},
 				weapons = { -- task dedicated weapons				
 					["R-24R"] = 2,
 					["R-60M"] = 4,
@@ -19534,7 +19528,7 @@ db_loadouts = {
 				},
 			},
 			["R-24R*1, R-24T*1, R-60M*4, Fuel"] = {
-				attributes = {},
+				attributes = {"Air Forces"},
 				weapons = { -- task dedicated weapons				
 					["R-24R"] = 1,
 					["R-24T"] = 1,
@@ -20309,7 +20303,7 @@ db_loadouts = {
 		},
 		["CAP"] = {
 			["R-40R*4"] = {
-				attributes = {},
+				attributes = {"Air Forces"},
 				weapons = { -- task dedicated weapons				
 					["R-40R"] = 4,				
 				},
@@ -20356,7 +20350,7 @@ db_loadouts = {
 				},
 			},
 			["R-40R*2, R-40T*2"] = {
-				attributes = {},
+				attributes = {"Air Forces"},
 				weapons = { -- task dedicated weapons				
 					["R-40R"] = 2,
 					["R-40T"] = 2,					
@@ -20833,7 +20827,7 @@ db_loadouts = {
 		},
 		["CAP"] = {
 			["IPW R-3R*2, R-3S*2, FT800L"] = {
-				attributes = {},
+				attributes = {"Air Forces"},
 				weapons = { -- task dedicated weapons				
 					["R-3R"] = 2,
 					["R-3S"] = 2,
