@@ -126,7 +126,7 @@ camp_triggers = {
 	["Campaign End Victory 5"] = {
 		active = true,
 		once = true,
-		condition = 'Return.TargetAlive("An Nasiriyah Airbase") < 6 and Return.TargetAlive("Damascus Airbase") < 5 and Return.TargetAlive("Tabqa Airbase") < 4 and Return.TargetAlive("Khalkhalah Airbase") < 6 and Return.TargetAlive("Bassel Al-Assad Airbase") < 5',
+		condition = 'Return.TargetAlive("An Nasiriyah Airbase") < 3 and Return.TargetAlive("Damascus Airbase") < 12 and Return.TargetAlive("Tabqa Airbase") < 8 and Return.TargetAlive("Khalkhalah Airbase") < 8 and Return.TargetAlive("Bassel Al-Assad Airbase") < 9 and Return.TargetAlive("Deir ez-Zor Airbase") < 8 and Return.TargetAlive("Beirut-Rafic Hariri Airbase") < 3 and Return.TargetAlive("Taftanaz Airbase") < 5 and Return.TargetAlive("Hama Airbase") < 9 and Return.TargetAlive("Palmyra Airbase") < 8',
 		action = {
 			[1] = 'Action.CampaignEnd("win")',
 			[2] = 'Action.Text("The Russian Air Force is in ruins. All their main bases are destroyed, Russians are no longer able to produce any sorties or offer any resistance. The Allied forces now owns complete air superiority. Well done.")',
@@ -134,20 +134,7 @@ camp_triggers = {
 			[4] = 'Action.AddImage("Newspaper_Defeat_red.jpg", "red")',
 			[5] = 'NoMoreNewspaper = true',
 		},
-	},
-	["Campaign End Victory 6"] = {
-		active = true,
-		once = true,
-		condition = 'Return.TargetAlive("Deir ez-Zor Airbase") < 3 and Return.TargetAlive("Sayqal Airbase") < 6 and Return.TargetAlive("Beirut-Rafic Hariri Airbase") < 6 and Return.TargetAlive("Taftanaz Airbase") < 6 and Return.TargetAlive("Mezzeh Airbase") < 4',
-		action = {
-			[1] = 'Action.CampaignEnd("win")',
-			[2] = 'Action.Text("The Russian Air Force is in ruins. All their main bases are destroyed, Russians are no longer able to produce any sorties or offer any resistance. The Allied forces now owns complete air superiority. Well done.")',
-			[3] = 'Action.AddImage("Newspaper_Victory_blue.jpg", "blue")',
-			[4] = 'Action.AddImage("Newspaper_Defeat_red.jpg", "red")',
-			[5] = 'NoMoreNewspaper = true',
-		},
-	},
-	
+	},		
 	["Campaign End Loss"] = {
 		active = true,
 		once = true,
@@ -217,6 +204,18 @@ camp_triggers = {
 			[2] = 'Action.Text("The USA Air Force is in ruins. After repeated air strikes and disastrous losses (Fighter loss > 70% and Attacker-Bomber loss > 60% ) in air-air combat, USA and Nato Countries are no longer able to produce any sorties or offer any resistance.")',
 			[3] = 'Action.AddImage("Newspaper_Victory_blue.jpg", "blue")',
 			[4] = 'Action.AddImage("Newspaper_Defeat_red.jpg", "red")',
+			[5] = 'NoMoreNewspaper = true',
+		},
+	},
+	["Campaign End Loss 7"] = {
+		active = true,
+		once = true,
+		condition = 'Return.TargetAlive("Incirlik Airbase") < 7 and Return.TargetAlive("Gaziantep Airbase") < 5 and Return.TargetAlive("Hatay Airbase") < 5 and Return.TargetAlive("Adana Sakirpasa") < 8 and Return.TargetAlive("Larnaca") < 7 and Return.TargetAlive("Paphos") < 2',
+		action = {
+			[1] = 'Action.CampaignEnd("win")',
+			[2] = 'Action.Text("The USA and NATO Air Force are in ruins. All ours main bases are destroyed, USA and NATO Countries are not longer able to produce any sorties or offer any resistance. The Russian forces now owns complete air superiority and reconquer their territories.")',
+			[3] = 'Action.AddImage("Newspaper_Victory_red.jpg", "red")',
+			[4] = 'Action.AddImage("Newspaper_Defeat_blue.jpg", "blue")',
 			[5] = 'NoMoreNewspaper = true',
 		},
 	},
@@ -417,22 +416,7 @@ camp_triggers = {
 			[1] = 'Action.Text("After the facilities at Taftanaz Airbase have been hit by air strikes, air operations at this base came to a complete stop. Intelligence believes that due to the heavy damage inflicted, the base is no longer ably to produce any aviation sorties.")',
 		--[[		[2] = 'Action.AddImage("BDA_Beatty.jpg")', ]]--  ---A changer
 		}
-	},
-	["Mezzeh Airbase Disabled"] = {
-		active = true,
-		condition = 'Return.TargetAlive("Mezzeh Airbase") < 3',
-		action = {
-			[1] = 'db_airbases["Mezzeh"].inactive = true',
-		}
-	},
-	["Mezzeh Airbase Disabled Text"] = {
-		active = true,
-		once = true,
-		condition = 'Return.TargetAlive("Mezzeh Airbase") < 3',
-		action = {
-			[1] = 'Action.Text("The infrastructure at Mezzeh Airbase has been destroyed by air strikes. Flying operations at this base have ceased completely and are unlikely to resume.")',
-		}
-	},
+	},	
 	["Bassel Al-Assad Airbase Disabled"] = {
 		active = true,
 		condition = 'Return.TargetAlive("Bassel Al-Assad Airbase") < 2',
@@ -585,17 +569,17 @@ camp_triggers = {
 
 		}
 	},
-	["Naqoura Airbase Disabled"] = {
+	["Naqoura Helibase Disabled"] = {
 		active = true,
-		condition = 'Return.TargetAlive("Naqoura Airbase") < 3',
+		condition = 'Return.TargetAlive("Naqoura Helibase") < 3',
 		action = {
 			[1] = 'db_airbases["Naqoura"].inactive = true',
 		}
 	},
-	["Naqoura Airbase Disabled Text"] = {
+	["Naqoura Helibase Disabled Text"] = {
 		active = true,
 		once = true,
-		condition = 'Return.TargetAlive("Naqoura Airbase") < 3',
+		condition = 'Return.TargetAlive("Naqoura Helibase") < 3',
 		action = {
 			[1] = 'Action.Text("The infrastructure at Naqoura Airbase has been destroyed by air strikes. Flying operations at this base have ceased completely and are unlikely to resume.")',
 		--[[		[2] = 'Action.AddImage("BDA_Lincoln.jpg")', ]]--  ---A changer
@@ -637,7 +621,6 @@ camp_triggers = {
 			-- [5] = 'NoMoreNewspaper = true',
 		}	
 	},
-	
 	----- RED CAP -----
 	["CAP After EWR Destroyed"] = {
 		active = true,

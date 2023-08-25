@@ -807,7 +807,7 @@ oob_air = {
 
 		-- 48 F/A, 29 B, 10 R, 6 AW
 
-		[44] = {
+		[40] = {
 			name = "VF-101",								--unit name
 			player = true,									--player unit
 			type = "F-14A-135-GR",							--aircraft type
@@ -838,7 +838,7 @@ oob_air = {
 			},
 			number = 8,
 		},
-		[45] = {
+		[41] = {
 			name = "R/VF-101",								--unit name
 			inactive = true,
 			type = "F-14A-135-GR",							--aircraft type
@@ -847,7 +847,7 @@ oob_air = {
 			tasks = {},										--unit tasks
 			number = 40,
 		},
-		[46] = {
+		[42] = {
 			name = "VS-29",								--unit name
 			type = "S-3B Tanker",							--aircraft type
 			country = "USA",								--unit country
@@ -860,7 +860,7 @@ oob_air = {
 			},
 			number = 2,
 		},
-		[47] = {
+		[43] = {
 			name = "R/VS-29",								--unit name
 			inactive = true,
 			type = "S-3B Tanker",							--aircraft type
@@ -870,7 +870,7 @@ oob_air = {
 			tasks = {},										--unit tasks
 			number = 4,
 		},
-		[48] = {
+		[44] = {
 			name = "VS-21",									--unit name
 			type = "S-3B",									--aircraft type
 			country = "USA",								--unit country
@@ -891,7 +891,7 @@ oob_air = {
 			},
 			number = 4,
 		},
-		[49] = {
+		[45] = {
 			name = "R/VS-21",								--unit name
 			inactive = true,
 			type = "S-3B",									--aircraft type
@@ -901,7 +901,7 @@ oob_air = {
 			tasks = {},										--unit tasks
 			number = 25,
 		},
-		[50] = {
+		[46] = {
 			name = "VAW-125",								--unit name
 			type = "E-2C",									--aircraft type
 			country = "USA",								--unit country
@@ -914,7 +914,7 @@ oob_air = {
 			},
 			number = 2,
 		},
-		[51] = {
+		[47] = {
 			name = "R/VAW-125",								--unit name
 			inactive = true,
 			type = "E-2C",									--aircraft type
@@ -934,7 +934,7 @@ oob_air = {
 
 		-- 40 F, 3 AW
 
-		[52] = {
+		[48] = {
 			name = "VF-118/GA",								--unit name
 			player = false, 								--player unit
 			type = "F-14A-135-GR",							--aircraft type
@@ -964,7 +964,7 @@ oob_air = {
 			},
 			number = 4,
 		},
-		[53] = {
+		[49] = {
 			name = "R/VF-118/GA",							--unit name
 			inactive = true,
 			type = "F-14A-135-GR",							--aircraft type
@@ -1011,7 +1011,7 @@ oob_air = {
 			tasks = {},										--unit tasks
 			number = 36,
 		},]]
-		[54] = {
+		[50] = {
 			name = "VAW-123",									--unit name
 			type = "E-2C",									--aircraft type
 			country = "USA",								--unit country
@@ -1034,7 +1034,7 @@ oob_air = {
 
 		-- 96 H-A, 36 H-T
 
-		[55] = {
+		[51] = {
 			name = "1th Army Aviation Regiment",								--unit name
 			type = "CH-47D",								--aircraft type
 			helicopter = true,								--true for helicopter units
@@ -1047,7 +1047,7 @@ oob_air = {
 			},
 			number = 4,
 		},
-		[56] = {
+		[52] = {
 			name = "R/1th Army Aviation Regiment",			--unit name
 			inactive = true,
 			type = "CH-47D",								--aircraft type
@@ -1057,7 +1057,7 @@ oob_air = {
 			tasks = {},										--unit tasks
 			number = 32,
 		},	
-		[57] = {
+		[53] = {
 			name = "HMLA-167",								--unit name
 			type = "AH-1W",									--aircraft type
 			helicopter = true,								--true for helicopter units
@@ -1070,7 +1070,7 @@ oob_air = {
 			},
 			number = 4,
 		},
-		[58] = {
+		[54] = {
 			name = "R/HMLA-167",							--unit name
 			inactive = true,
 			type = "AH-1W",									--aircraft type
@@ -1080,7 +1080,7 @@ oob_air = {
 			tasks = {},										--unit tasks
 			number = 44,
 		},	
-		[59] = {
+		[55] = {
 			name = "17th Cavalry Regiment",					--unit name
 			type = "OH-58D",								--aircraft type
 			helicopter = true,								--true for helicopter units
@@ -1093,7 +1093,7 @@ oob_air = {
 			},
 			number = 4,
 		},
-		[60] = {
+		[56] = {
 			name = "R/17th Cavalry Regiment",				--unit name
 			inactive = true,
 			type = "OH-58D",								--aircraft type
@@ -1135,7 +1135,7 @@ oob_air = {
 			tasks = {},										--unit tasks
 			number = 16,
 		},]]		
-		[61] = {
+		[57] = {
 			name = "HS-6 Indians",							--unit name
 			type = "SH-60B",								--aircraft type
 			helicopter = true,								--true for helicopter units
@@ -1148,7 +1148,7 @@ oob_air = {
 			},
 			number = 4,
 		},
-		[62] = {
+		[58] = {
 			name = "R/HS-6 Indians",						--unit name
 			inactive = true,
 			type = "SH-60B",								--aircraft type
@@ -1169,7 +1169,7 @@ oob_air = {
 
 		-- 48 H-A, 20 H-T
 
-		[63] = {
+		[59] = {
 			name = "14th Army Aviation Regiment",								--unit name
 			type = "CH-47D",								--aircraft type
 			helicopter = true,								--true for helicopter units
@@ -1182,7 +1182,7 @@ oob_air = {
 			},
 			number = 4,
 		},
-		[64] = {
+		[60] = {
 			name = "R/14th Army Aviation Regiment",			--unit name
 			inactive = true,
 			type = "CH-47D",								--aircraft type
@@ -1192,7 +1192,7 @@ oob_air = {
 			tasks = {},										--unit tasks
 			number = 16,
 		},		
-		[65] = {
+		[61] = {
 			name = "HMLA-177",								--unit name
 			type = "AH-1W",									--aircraft type
 			helicopter = true,								--true for helicopter units
@@ -1205,7 +1205,7 @@ oob_air = {
 			},
 			number = 4,
 		},
-		[66] = {
+		[62] = {
 			name = "R/HMLA-177",							--unit name
 			inactive = true,
 			type = "AH-1W",									--aircraft type
@@ -1215,7 +1215,7 @@ oob_air = {
 			tasks = {},										--unit tasks
 			number = 44,
 		},	
-		[69] = {
+		[63] = {
 			name = "18th Cavalry Regiment",					--unit name
 			type = "OH-58D",								--aircraft type
 			helicopter = true,								--true for helicopter units
@@ -1228,7 +1228,7 @@ oob_air = {
 			},
 			number = 4,
 		},
-		[70] = {
+		[64] = {
 			name = "R/18th Cavalry Regiment",				--unit name
 			inactive = true,
 			type = "OH-58D",								--aircraft type
@@ -1645,7 +1645,7 @@ oob_air = {
 
 		-- 36 F
 
-		[15] = {
+		[11] = {
 			name = "948 Squadron",							--unit name
 			type = "MiG-21Bis",								--aircraft type
 			country = "Syria",								--unit country
@@ -1673,7 +1673,7 @@ oob_air = {
 			},
 			number = 6,
 		},
-		[16] = {
+		[12] = {
 			name = "R/948 Squadron",								--unit name
 			inactive = true,
 			type = "MiG-21Bis",								--aircraft type
@@ -1723,7 +1723,7 @@ oob_air = {
 
 		-- 36 F, 36 A, 38 B, 4 T
 
-		[17] = {
+		[13] = {
 			name = "67 Squadron",							--unit name
 			type = "MiG-23MLD",								--aircraft type
 			country = "Syria",								--unit country
@@ -1746,7 +1746,7 @@ oob_air = {
 			},
 			number = 8,
 		},
-		[18] = {
+		[14] = {
 			name = "R/67 Squadron",							--unit name
 			inactive = true,
 			type = "MiG-23MLD",								--aircraft type
@@ -1756,7 +1756,7 @@ oob_air = {
 			tasks = {},										--unit tasks
 			number = 36,
 		},		
-		[19] = {
+		[15] = {
 			name = "3 Squadron",							--unit name
 			type = "L-39C",									--aircraft type
 			country = "Syria",								--unit country
@@ -1782,7 +1782,7 @@ oob_air = {
 			},
 			number = 8,
 		},
-		[20] = {
+		[16] = {
 			name = "R/3 Squadron",							--unit name
 			inactive = true,
 			type = "L-39C",									--aircraft type
@@ -1792,7 +1792,7 @@ oob_air = {
 			tasks = {},										--unit tasks
 			number = 28,
 		},
-		[21] = {
+		[17] = {
 			name = "677 Squadron",							--unit name
 			type = "Su-17M4",								--aircraft type
 			country = "Syria",								--unit country
@@ -1812,7 +1812,7 @@ oob_air = {
 			},
 			number = 4,
 		},
-		[22] = {
+		[18] = {
 			name = "R/677 Squadron",							--unit name
 			inactive = true,
 			type = "Su-17M4",								--aircraft type
@@ -1822,7 +1822,7 @@ oob_air = {
 			tasks = {},										--unit tasks
 			number = 34,
 		},
-		[23] = {
+		[19] = {
 			name = "522 Squadron",							--unit name
 			type = "An-26B",								--aircraft type
 			country = "Russia",								--unit country
@@ -1834,7 +1834,7 @@ oob_air = {
 			},
 			number = 4,
 		},
-		[24] = {
+		[20] = {
 			name = "R/522 Squadron",							--unit name
 			inactive = true,
 			type = "An-26B",								--aircraft type
@@ -1853,7 +1853,7 @@ oob_air = {
 
 		-- 30 F, 68 A, 6 T
 		
-		[25] = {
+		[21] = {
 			name = "368 ShAP",							--unit name
 			type = "Su-25",								--aircraft type
 			country = "Russia",								--unit country
@@ -1874,7 +1874,7 @@ oob_air = {
 			},
 			number = 4,
 		},
-		[26] = {
+		[22] = {
 			name = "R/368 ShAP",							--unit name
 			inactive = true,
 			type = "Su-25",								--aircraft type
@@ -1884,7 +1884,7 @@ oob_air = {
 			tasks = {},										--unit tasks
 			number = 36,
 		},
-		[27] = {
+		[23] = {
 			name = "133.IAP",							--unit name
 			type = "MiG-29A",								--aircraft type
 			country = "Russia",								--unit country
@@ -1907,7 +1907,7 @@ oob_air = {
 			},
 			number = 6,
 		},
-		[28] = {
+		[24] = {
 			name = "R/133.IAP",							--unit name
 			inactive = true,
 			type = "MiG-29A",								--aircraft type
@@ -1917,7 +1917,7 @@ oob_air = {
 			tasks = {},										--unit tasks
 			number = 34,
 		},
-		[29] = {
+		[25] = {
 			name = "3 BAP 149th BAA",								--unit name
 			type = "Su-24M",								--aircraft type
 			country = "Russia",								--unit country
@@ -1938,7 +1938,7 @@ oob_air = {
 			},
 			number = 4,
 		},
-		[30] = {
+		[26] = {
 			name = "R/3 BAP 149th BAA",								--unit name
 			inactive = true,
 			type = "Su-24M",								--aircraft type
@@ -1947,7 +1947,7 @@ oob_air = {
 			tasks = {},										--unit tasks
 			number = 28,
 		},
-		[31] = {
+		[27] = {
 			name = "27.OSAP",								--unit name
 			type = "An-26B",								--aircraft type
 			country = "Russia",								--unit country
@@ -1969,7 +1969,7 @@ oob_air = {
 
 		-- 34 F, 18 B, 6 T
 
-		[32] = {
+		[28] = {
 			name = "2.OSAP",								--unit name
 			type = "An-26B",								--aircraft type
 			country = "Russia",								--unit country
@@ -1981,7 +1981,7 @@ oob_air = {
 			},
 			number = 6,
 		},		
-		[33] = {
+		[29] = {
 			name = "402nd Heavy Bomber Aviation Regiment",								--unit name
 			type = "Tu-22M3",								--aircraft type
 			country = "Russia",								--unit country
@@ -1998,7 +1998,7 @@ oob_air = {
 			},
 			number = 1,
 		},
-		[34] = {
+		[30] = {
 			name = "R/402nd Heavy Bomber Aviation Regiment",								--unit name
 			inactive = true,
 			type = "Tu-22M3",								--aircraft type
@@ -2007,7 +2007,7 @@ oob_air = {
 			tasks = {},										--unit tasks
 			number = 18,
 		},
-		[35] = {
+		[31] = {
 			name = "159.IAP",								--unit name
 			type = "Su-27",								--aircraft type
 			country = "Russia",								--unit country
@@ -2030,7 +2030,7 @@ oob_air = {
 			},
 			number = 6,
 		},
-		[36] = {
+		[32] = {
 			name = "R/159.IAP",								--unit name
 			inactive = true,
 			type = "Su-27",									--aircraft type
@@ -2048,7 +2048,7 @@ oob_air = {
 
 		-- 22 F, 36 A
 
-		[37] = {
+		[33] = {
 			name = "373 ShAP",							    --unit name
 			type = "Su-25",									--aircraft type
 			country = "Russia",								--unit country
@@ -2069,7 +2069,7 @@ oob_air = {
 			},
 			number = 4,
 		},
-		[38] = {
+		[34] = {
 			name = "R/373 ShAP",							--unit name
 			inactive = true,
 			type = "Su-25",								--aircraft type
@@ -2079,7 +2079,7 @@ oob_air = {
 			tasks = {},										--unit tasks
 			number = 38,
 		},
-		[39] = {
+		[35] = {
 			name = "764.IAP",								--unit name
 			type = "MiG-31",								--aircraft type
 			country = "Russia",								--unit country
@@ -2100,7 +2100,7 @@ oob_air = {
 			},
 			number = 2,
 		},
-		[40] = {
+		[36] = {
 			name = "R/764.IAP",								--unit name
 			type = "MiG-31",								--aircraft type
 			country = "Russia",								--unit country
@@ -2123,7 +2123,7 @@ oob_air = {
 
 		-- 24 F, 30 A, 10 B, 4 R, 4 AW, 1+3 T
 
-		[41] = {
+		[37] = {
 			name = "132nd Heavy Bomber Aviation Regiment",								--unit name
 			type = "Tu-22M3",								--aircraft type
 			country = "Russia",								--unit country
@@ -2140,7 +2140,7 @@ oob_air = {
 			},
 			number = 1,
 		},
-		[42] = {
+		[38] = {
 			name = "R/132nd Heavy Bomber Aviation Regiment",								--unit name
 			inactive = true,
 			type = "Tu-22M3",								--aircraft type
@@ -2149,7 +2149,7 @@ oob_air = {
 			tasks = {},										--unit tasks
 			number = 9,
 		},
-		[43] = {
+		[39] = {
 			name = "797.IAP",								--unit name
 			type = "Su-27",									--aircraft type
 			country = "Russia",								--unit country
@@ -2172,7 +2172,7 @@ oob_air = {
 			},
 			number = 6,
 		},
-		[44] = {
+		[40] = {
 			name = "R/797.IAP",								--unit name
 			type = "Su-27",								--aircraft type
 			country = "Russia",
@@ -2183,7 +2183,7 @@ oob_air = {
 			tasks = {},			
 			number = 20,
 		},
-		[45] = {
+		[41] = {
 			name = "2457 SDRLO",							--unit name
 			type = "A-50",									--aircraft type
 			country = "Russia",								--unit country
@@ -2196,7 +2196,7 @@ oob_air = {
 			},
 			number = 4,
 		},
-		[46] = {
+		[42] = {
 			name = "O7 SDRLO",								--unit name
 			type = "Su-24MR",								--aircraft type
 			country = "Russia",								--unit country
@@ -2209,7 +2209,7 @@ oob_air = {
 			},
 			number = 5,
 		},
-		[47] = {
+		[43] = {
 			name = "4 Guards BAP 132nd BAA",								--unit name
 			type = "Su-24M",								--aircraft type
 			country = "Russia",								--unit country
@@ -2230,7 +2230,7 @@ oob_air = {
 			},
 			number = 4,
 		},
-		[48] = {
+		[44] = {
 			name = "R/4 Guards BAP 132nd BAA",								--unit name
 			inactive = true,
 			type = "Su-24M",								--aircraft type
@@ -2239,7 +2239,7 @@ oob_air = {
 			tasks = {},										--unit tasks
 			number = 26,
 		},
-		[49] = {
+		[45] = {
 			name = "23.OSAP",								--unit name
 			type = "An-26B",								--aircraft type
 			country = "Russia",								--unit country
@@ -2251,7 +2251,7 @@ oob_air = {
 			},
 			number = 1,
 		},
-		[50] = {
+		[46] = {
 			name = "R/23.OSAP",								--unit name
 			inactive = true,
 			type = "An-26B",								--aircraft type
@@ -2308,7 +2308,7 @@ oob_air = {
 			tasks = {},										--unit tasks
 			number = 24,
 		},]]
-		[56] = {
+		[47] = {
 			name = "81st TFS",							--unit name
 			type = "F-14A",								--aircraft type
 			country = "Iran",							--unit country
@@ -2331,7 +2331,7 @@ oob_air = {
 			},
 			number = 4,
 		},
-		[57] = {
+		[48] = {
 			name = "R/81st TFS",							--unit name
 			inactive = true,
 			type = "F-14A",								--aircraft type
@@ -2341,7 +2341,7 @@ oob_air = {
 			tasks = {},										--unit tasks
 			number = 24,
 		},
-		[64] = {
+		[49] = {
 			name = "637 Squadron",							--unit name
 			type = "Su-17M4",								--aircraft type
 			country = "Syria",								--unit country
@@ -2361,7 +2361,7 @@ oob_air = {
 			},
 			number = 4,
 		},
-		[65] = {
+		[50] = {
 			name = "R/637 Squadron",							--unit name
 			inactive = true,
 			type = "Su-17M4",								--aircraft type
@@ -2371,7 +2371,7 @@ oob_air = {
 			tasks = {},										--unit tasks
 			number = 26,
 		},		
-		[66] = { 
+		[51] = { 
 			name = "9th GHR",								--unit name
 			type = "Mi-8MT",								--aircraft type
 			helicopter = true,								--true for helicopter units
@@ -2385,7 +2385,7 @@ oob_air = {
 			},
 			number = 4,
 		},
-		[67] = {
+		[52] = {
 			name = "R/9th GHR",								--unit name
 			inactive = true,
 			type = "Mi-8MT",								--aircraft type
@@ -2395,7 +2395,7 @@ oob_air = {
 			tasks = {},										--unit tasks
 			number = 26,
 		},	
-		[68] = {
+		[53] = {
 			name = "17th GHR",								--unit name
 			type = "Mi-24P",								--aircraft type
 			helicopter = true,								--true for helicopter units
@@ -2409,7 +2409,7 @@ oob_air = {
 			},
 			number = 4,
 		},
-		[69] = {
+		[54] = {
 			name = "R/17th GHR",							--unit name
 			inactive = true,
 			type = "Mi-24P",								--aircraft type
@@ -2431,7 +2431,7 @@ oob_air = {
 
 		-- 130 H-A
 
-		[74] = {
+		[55] = {
 			name = "13th GHR",								--unit name
 			type = "Mi-24P",								--aircraft type
 			helicopter = true,								--true for helicopter units
@@ -2445,7 +2445,7 @@ oob_air = {
 			},
 			number = 4,
 		},
-		[75] = {
+		[56] = {
 			name = "R/13th GHR",							--unit name
 			inactive = true,
 			type = "Mi-24P",								--aircraft type
@@ -2455,7 +2455,7 @@ oob_air = {
 			tasks = {},										--unit tasks
 			number = 26,
 		},		
-		[76] = {
+		[57] = {
 			name = "2nd GHR",								--unit name
 			type = "Mi-24V",								--aircraft type
 			helicopter = true,								--true for helicopter units
@@ -2469,7 +2469,7 @@ oob_air = {
 			},
 			number = 4,
 		},
-		[77] = {
+		[58] = {
 			name = "R/2nd GHR",								--unit name
 			inactive = true,
 			type = "Mi-24V",								--aircraft type
@@ -2479,7 +2479,7 @@ oob_air = {
 			tasks = {},										--unit tasks
 			number = 26,
 		},	
-		[78] = {
+		[59] = {
 			name = "16th Squadron",							--unit name
 			type = "SA342Minigun",							--aircraft type
 			helicopter = true,								--true for helicopter units
@@ -2493,7 +2493,7 @@ oob_air = {
 			},
 			number = 2,
 		},
-		[79] = {
+		[60] = {
 			name = "R/16th Squadron",						--unit name
 			inactive = true,
 			type = "SA342Minigun",							--aircraft type
@@ -2503,7 +2503,7 @@ oob_air = {
 			tasks = {},										--unit tasks
 			number = 18,
 		},
-		[80] = {
+		[61] = {
 			name = "14th Squadron",							--unit name
 			type = "SA342Mistral",							--aircraft type
 			helicopter = true,								--true for helicopter units
@@ -2517,7 +2517,7 @@ oob_air = {
 			},
 			number = 2,
 		},
-		[81] = {
+		[62] = {
 			name = "R/14th Squadron",						--unit name
 			inactive = true,
 			type = "SA342Mistral",							--aircraft type
@@ -2527,7 +2527,7 @@ oob_air = {
 			tasks = {},										--unit tasks
 			number = 18,
 		},
-		[62] = {
+		[63] = {
 			name = "15th Squadron",							--unit name
 			type = "SA342M",								--aircraft type
 			helicopter = true,								--true for helicopter units
@@ -2541,7 +2541,7 @@ oob_air = {
 			},
 			number = 4,
 		},
-		[63] = {
+		[64] = {
 			name = "R/15th Squadron",						--unit name
 			inactive = true,
 			type = "SA342M",								--aircraft type
@@ -2888,7 +2888,7 @@ oob_air = {
 			skill = getSkill(mission_ini.min_skill_red_attacker, mission_ini.max_skill_red_attacker),			--unit skill
 			tasks = {},										--unit tasks
 			number = 28,
-		},]	
+		},]]	
 
 	-------------------- end Abu al-Duhur -----------
 	}
