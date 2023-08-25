@@ -376,7 +376,7 @@ targetlist = {
 			name = "Palmyra SA10 Site",
 		},
 
-		["Deir ez-Zor SA-5 Site"] = {--fatto
+		["Deir ez-Zor SA55 Site"] = {--fatto
 			task = "Strike",
 			picture = {"Deir_ez_Zor_Airbase_and_SAM.png"},
 			priority = 6,
@@ -386,7 +386,7 @@ targetlist = {
 				max = 4, 
 			},
 			class = "vehicle",
-			name = "Deir ez-Zor SA-5 Site",
+			name = "Deir ez-Zor SA5 Site",
 		},
 
 		["Beirut SA-11 Buk Site"] = {--fatto
@@ -2087,7 +2087,7 @@ targetlist = {
 				max = 4, 
 			},
 			class = "vehicle",
-			name = "EWR NATO Mersin",
+			name = "EWR NATO",
 		},
 
 		-- Intercept

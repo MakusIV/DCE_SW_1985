@@ -789,6 +789,7 @@ for side,unit in pairs(oob_air) do																								--iterate through all 
 																						
 																						if active_log then log.traceLow("task: " .. task) end
 																						if active_log then log.traceLow("r: " .. r .. ", variant: " .. variant  .. ", base: " .. unit[n].base .. "airbasePoint: " .. (airbasePoint.x or "nil") .. ", " .. (airbasePoint.y or "nil") .. ", target: " .. target_name) end
+																						--print("r: " .. r .. ", variant: " .. variant  .. ", base: " .. unit[n].base .. "airbasePoint: " .. (airbasePoint.x or "nil") .. ", " .. (airbasePoint.y or "nil") .. ", target: " .. target_name .. ", target coord: ".. (target.x or "nil") .. ", " .. (target.y or "nil"))
 
 																						if target.x ~= nil and target.y ~= nil then
 																							if active_log then log.info("target coord: ".. target.x .. ", " .. target.y) end													
