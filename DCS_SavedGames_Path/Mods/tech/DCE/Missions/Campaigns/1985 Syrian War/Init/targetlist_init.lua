@@ -2024,7 +2024,7 @@ targetlist = {
 				max = 6,
 			},
 			class = "ship",
-			name = "USA Fleet 1",
+			name = "USA Fleet",
 		},
 
 		["UK Fleet"] = {--fatto
