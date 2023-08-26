@@ -1771,7 +1771,7 @@ weapon_db = {
         },
 
         ["GBU-10"] = {
-            ["type"] = "Guided Bombs",
+            ["type"] = "Guided bombs",
             ["task"] = {"Strike", "Anti-ship Strike"},
             ["start_service"] = 1980,
             ["end_service"] = nil,
@@ -1840,7 +1840,7 @@ weapon_db = {
         },
     
         ["GBU-16"] = {  -- like Mk-83
-            ["type"] = "Guided Bombs",
+            ["type"] = "Guided bombs",
             ["task"] = {"Strike", "Anti-ship Strike"},
             ["start_service"] = 1970,
             ["end_service"] = nil,
@@ -1909,7 +1909,7 @@ weapon_db = {
         },
 
         ["GBU-12"] = {
-            ["type"] = "Guided Bombs",
+            ["type"] = "Guided bombs",
             ["task"] = {"Strike"},
             ["start_service"] = 1970,
             ["end_service"] = nil,
@@ -1956,7 +1956,7 @@ weapon_db = {
         },
 
         ["GBU-24"] = {  -- like Mk-84
-            ["type"] = "Guided Bombs",
+            ["type"] = "Guided bombs",
             ["task"] = {"Strike"},
             ["start_service"] = 1983,
             ["end_service"] = nil,
@@ -2024,7 +2024,7 @@ weapon_db = {
         },
 
         ["GBU-27"] = { -- bunker
-            ["type"] = "Guided Bombs",
+            ["type"] = "Guided bombs",
             ["task"] = {"Strike"},
             ["start_service"] = 1985,
             ["end_service"] = nil,
@@ -2092,7 +2092,7 @@ weapon_db = {
         },
             
         ["Mk-20"] = {  --aka CBU-100 anti-armor cluster
-            ["type"] = "Cluster Bombs",
+            ["type"] = "Cluster bombs",
             ["task"] = {"Strike"},	
             ["start_service"] = 1970,
             ["end_service"] = nil,
@@ -2180,7 +2180,7 @@ weapon_db = {
         },
 
         ["BLG66"] = {  --aka Belouga cluster soft target
-            ["type"] = "Cluster Bombs",
+            ["type"] = "Cluster bombs",
             ["task"] = {"Strike"},	
             ["start_service"] = 1980,
             ["end_service"] = nil,
@@ -2268,7 +2268,7 @@ weapon_db = {
         },
 
         ["CBU-52B"] = {  --aka cluster soft target
-            ["type"] = "Cluster Bombs",
+            ["type"] = "Cluster bombs",
             ["task"] = {"Strike"},	
             ["start_service"] = 1970,
             ["end_service"] = nil,
@@ -2337,7 +2337,7 @@ weapon_db = {
         },
 
         ["BK-90MJ1"] = {  --aka DWS 39 Mjölner MJ1 soft target, mj2 anti-armor, mj1+2 both,  cluster bomb
-            ["type"] = "Cluster Bombs",
+            ["type"] = "Cluster bombs",
             ["task"] = {"Strike"},	
             ["start_service"] = 1990,
             ["end_service"] = nil,
@@ -2425,7 +2425,7 @@ weapon_db = {
         },
 
         ["BK-90MJ1-2"] = {  --aka DWS 39 Mjölner MJ1 soft target, mj2 anti-armor, mj1+2 both,  cluster bomb
-            ["type"] = "Cluster Bombs",
+            ["type"] = "Cluster bombs",
             ["task"] = {"Strike"},	
             ["start_service"] = 1990,
             ["end_service"] = nil,
@@ -2513,7 +2513,7 @@ weapon_db = {
         },
 
         ["BK-90MJ2"] = {  --aka DWS 39 Mjölner MJ1 soft target, mj2 anti-armor, mj1+2 both,  cluster bomb
-            ["type"] = "Cluster Bombs",
+            ["type"] = "Cluster bombs",
             ["task"] = {"Strike"},	
             ["start_service"] = 1990,
             ["end_service"] = nil,
@@ -4601,7 +4601,7 @@ weapon_db = {
             },                              
         }, 
 
-        ["Kh-22N"] = { -- radar
+        ["Kh-22N"] = { -- radar antiship
             ["type"] = "ASM",       
             ["task"] = {"Anti-ship Strike"},
             ["start_service"] = 1967,
@@ -5351,8 +5351,8 @@ weapon_db = {
                     },
                 },        
             },                               
-    },
-        
+        },
+
         ["R-13M"] = {                                              -- weapon name
             ["type"] = "AAM",                                       -- weapon type            
             ["seeker"] = "infrared",                                -- seeker type (infrared, semiactive_radar, active_radar)
@@ -6120,7 +6120,7 @@ weapon_db = {
         },
 
         ["RBK-250AO"] = {  --cluster bomb soft target
-            ["type"] = "Cluster Bombs",
+            ["type"] = "Cluster bombs",
             ["task"] = {"Strike"},	
             ["start_service"] = 1970,
             ["end_service"] = nil,
@@ -6208,7 +6208,7 @@ weapon_db = {
         },
 
         ["RBK-500AO"] = {  --cluster bomb soft target
-            ["type"] = "Cluster Bombs",
+            ["type"] = "Cluster bombs",
             ["task"] = {"Strike"},	
             ["start_service"] = 1970,
             ["end_service"] = nil,
@@ -6296,7 +6296,7 @@ weapon_db = {
         },
 
         ["RBK-500PTAB"] = {  --cluster bomb armor target (Anti-tank)
-            ["type"] = "Cluster Bombs",
+            ["type"] = "Cluster bombs",
             ["task"] = {"Strike"},	
             ["start_service"] = 1970,
             ["end_service"] = nil,
@@ -6523,7 +6523,7 @@ weapon_db = {
         },
 
         ["KAB-500L"] = { -- laser bomb (FAB-500 with laser guide)
-            ["type"] = "Bombs",       
+            ["type"] = "Guided bombs",       
             ["task"] = {"Strike"},
             ["start_service"] = 1975,
             ["end_service"] = nil,
@@ -6655,7 +6655,7 @@ weapon_db = {
         },
 
         ["KAB-500Kr"] = { -- tv-guided bomb fire&forget (FAB-500)
-            ["type"] = "Bombs",       
+            ["type"] = "Guided bombs",       
             ["task"] = {"Strike"},
             ["start_service"] = 1980,
             ["end_service"] = nil,
@@ -6787,7 +6787,7 @@ weapon_db = {
         },
 
         ["KGBU-2AO"] = {  --cluster bomb soft target
-            ["type"] = "Cluster Bombs",
+            ["type"] = "Cluster bombs",
             ["task"] = {"Strike"},	
             ["start_service"] = 1970,
             ["end_service"] = nil,
@@ -6875,7 +6875,7 @@ weapon_db = {
         },
 
         ["KGBU-2PTAB"] = {  --cluster bomb armor target
-            ["type"] = "Cluster Bombs",
+            ["type"] = "Cluster bombs",
             ["task"] = {"Strike"},	
             ["start_service"] = 1970,
             ["end_service"] = nil,
@@ -6963,7 +6963,7 @@ weapon_db = {
         },
 
         ["KGBU-96r"] = {  --?? cluster bomb soft target VERIFY
-            ["type"] = "Cluster Bombs",
+            ["type"] = "Cluster bombs",
             ["task"] = {"Strike"},	
             ["start_service"] = 1970,
             ["end_service"] = nil,

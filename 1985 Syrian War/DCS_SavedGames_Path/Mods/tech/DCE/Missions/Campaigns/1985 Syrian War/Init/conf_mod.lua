@@ -157,9 +157,9 @@ MISSION_START_COMMANDER = 5     -- first mission for start commander execution
 
 
 Debug = {
-	AfficheFailure = false,                        -- affiche les infos Pannes Al�atoires
-	AfficheFlight = false,						-- affiche les infos des packages cr��s dans ATO_FlightPlan
-	AfficheSol = false,							-- affiche les infos des cibles encore intactes
+	AfficheFailure = true,                        -- affiche les infos Pannes Al�atoires
+	AfficheFlight = true,						-- affiche les infos des packages cr��s dans ATO_FlightPlan
+	AfficheSol = true,							-- affiche les infos des cibles encore intactes
 	KillGround  = {
 		flag = false,				-- Active la destruction al�atoires des cibles, via les options plus bas
 		sideGround = "red",			-- le camp o� l'on veut d�truire les unit�s
@@ -167,7 +167,7 @@ Debug = {
 		pourcent = 50,				-- pourcentage de chance que l'unit� soit d�truite (juste l'unit�, pas le groupe)
 	},
 	Generator  = {
-		affiche = false,			-- affiche les infos des premiers vols cr��s dans ATO_Generator
+		affiche = true,			-- affiche les infos des premiers vols cr��s dans ATO_Generator
 		nb = 200,					-- nb de vol � afficher
 	},
 	checkTargetName = true,						-- FirsMission Alerte si les noms des targets possede 1 espace en premier ou en dernier
@@ -221,10 +221,10 @@ campMod = {
 		},
 		syria = {
 				pos = {
-					x =	-00011409,	-- 
-					y = -00000712,	-- 
+					x =	-11409,	-- 
+					y = -712,	-- 
 				},
-				rayon = 100,		-- distance en Km autour de laquelle on peut placer le bullsEye
+				rayon = 200,		-- distance en Km autour de laquelle on peut placer le bullsEye
 		},
 	},
 

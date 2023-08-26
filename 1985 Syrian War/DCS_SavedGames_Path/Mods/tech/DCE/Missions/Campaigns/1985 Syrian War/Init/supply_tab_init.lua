@@ -1,30 +1,41 @@
-supply_tab = {
+supply_tab = { --NOTA: NON DEFINIRE LE SUPPLY LINE: ESSENDO TARGET, DCE PRENDE IL BARICENTRO COME IP PER GLI ATTACCHI; SE LE SUPPLY LINE SONO ESTESE, GLI ATTACCHI NON AVRANNO MAI LUOGO E GLI AEREI SORVOLERANNO L'INTERO TERRITORIO
 	['red'] = {
 		['Hin Shinshar Chemical Storage'] = {--        supply plant
 			['integrity'] = 1, --             supply plant integrity    
 			['supply_line_names'] = {--         table of supply lines supplyed by supply plant
-				['Hin Shinshar-Bassel Al-Assad Supply Line'] = {
+				['Taftanaz Airbase'] = {
 					['integrity'] = 1,
-					['airbase_supply'] = {
-						['Bassel Al-Assad'] = true,	
-						['Reserves-R/67 Squadron'] = true,	
-						['Reserves-R/3 Squadron'] = true,
-						['Reserves-R/677 Squadron'] = true,
-						['Reserves-R/522 Squadron'] = true,										
+					['airbase_supply'] = {						
+						['Taftanaz'] = true,	
+						['Reserves-R/13th GHR'] = true,								
+						['Reserves-R/2nd GHR'] = true,
+						['Reserves-R/16th Squadron'] = true,								
+						['Reserves-R/14th Squadron'] = true,
+						['Reserves-R/15th Squadron'] = true,
 					},
-				},			
+				},	
+				['Tabqua Airbase'] = {
+					['integrity'] = 1,
+					['airbase_supply'] = {													
+						['Tabqua'] = true,							
+						['Reserves-R/127.IAP'] = true,	
+						['Reserves-R/123.IAP'] = true,	
+						['Reserves-R/2 Squadron'] = true,												
+					},
+				},							
 			},
 		},
 		['Khirbet Tin Nur Chemical Storage'] = {
 			['integrity'] = 1,    
 			['supply_line_names'] = {
-				['Hin Shinshar-Bassel Al-Assad Supply Line'] = { -- si è la stessa line utilizzata per Hin Shinshar
+				['Bassel Al-Assad Airbase'] = { 
 					['integrity'] = 1,
 					['airbase_supply'] = {							
-						['Hama'] = true,
-						['Reserves-R/368 ShAP'] = true,		
-						['Reserves-R/133.IAP'] = true,		
-						['Reserves-R/3 BAP 149th BAA'] = true,										
+						['Bassel Al-Assad'] = true,	
+						['Reserves-R/67 Squadron'] = true,	
+						['Reserves-R/3 Squadron'] = true,
+						['Reserves-R/677 Squadron'] = true,
+						['Reserves-R/522 Squadron'] = true,												
 					},
 				},	
 				['Beirut-Rafic Hariri Airbase'] = {
@@ -54,15 +65,7 @@ supply_tab = {
 		},
 		['IR-Al Kiswah Military Base'] = {
 			['integrity'] = 1,
-			['supply_line_names'] = {
-				['Mezzeh Airbase'] = {
-					['integrity'] = 1,
-					['airbase_supply'] = {					
-						['Mezzeh'] = true,			
-						['Reserves-R/37 Squadron'] = true,	
-						['Reserves-R/11 Squadron'] = true,												
-					},
-				},		
+			['supply_line_names'] = {					
 				['Damascus Airbase'] = {
 					['integrity'] = 1,
 					['airbase_supply'] = {					
@@ -71,7 +74,18 @@ supply_tab = {
 						['Reserves-R/113.IAP'] = true,				
 						['Reserves-R/945 Squadron'] = true,				
 					},
-				},					
+				},	
+				['Khalkhalah Airbase'] = {
+					['integrity'] = 1,
+					['airbase_supply'] = {					
+						['Khalkhalah'] = true,			
+						['Reserves-R/7 Squadron'] = true,
+						['Reserves-R/637 Squadron'] = true,	
+						['Reserves-R/9th GHR'] = true,
+						['Reserves-R/17th GHR'] = true,	
+						['Reserves-R/81st TFS'] = true,											
+					},
+				},				
 			},
 		},
 		['An Nasiriyah Military Base'] = {
@@ -85,16 +99,15 @@ supply_tab = {
 						['Reserves-R/764.IAP'] = true,												
 					},
 				},
-				['Khalkhalah Airbase'] = {
+				--[[['Mezzeh Airbase'] = {
 					['integrity'] = 1,
 					['airbase_supply'] = {					
-						['Khalkhalah'] = true,			
-						['Reserves-R/7 Squadron'] = true,
-						['Reserves-R/637 Squadron'] = true,	
-						['Reserves-R/9th GHR'] = true,
-						['Reserves-R/17th GHR'] = true,												
+						['Mezzeh'] = true,			
+						['Reserves-R/37 Squadron'] = true,	
+						['Reserves-R/11 Squadron'] = true,												
 					},
-				},		
+				},]]	
+						
 			},
 		},
 		["Palmyra Syrian Chemical Storage"] = {
@@ -108,49 +121,37 @@ supply_tab = {
 						['Reserves-R/159.IAP'] = true,					
 					},
 				},	
-				['Sayqal Airbase'] = {
+				--[[['Sayqal Airbase'] = {
 					['integrity'] = 1,
 					['airbase_supply'] = {						
 						['Sayqal'] = true,
 						['Reserves-R/267 ShAP'] = true,		
 						['Reserves-R/137.IAP'] = true,
-						['Reserves-R/27.OSAP'] = true,		
-						['Reserves-R/81st TFS'] = true,
+						['Reserves-R/27.OSAP'] = true,								
 						['Reserves-R/1st GHR'] = true,		
-						['Reserves-R/3rd GHR'] = true,
-						['Reserves-R/15th Squadron'] = true,													
+						['Reserves-R/3rd GHR'] = true,																			
 					},
-				},				
+				},]]				
 			},
 		},		
 		['Iranian Storage Facility'] = {
 			['integrity'] = 1,
 			['supply_line_names'] = {
-				['Abu al-Duhur Airbase'] = {
+				--[[['Abu al-Duhur Airbase'] = {
 					['integrity'] = 1,
 					['airbase_supply'] = {													
 						['Abu al-Duhur'] = true,							
 						['Reserves-R/946 Squadron'] = true,	
 						['Reserves-R/2 Guards BAP 21 th BAA'] = true,													
 					},
-				},	
-				['Taftanaz Airbase'] = {
+				},]]	
+				['Hama Airbase'] = {
 					['integrity'] = 1,
-					['airbase_supply'] = {						
-						['Taftanaz'] = true,	
-						['Reserves-R/13th GHR'] = true,								
-						['Reserves-R/2nd GHR'] = true,
-						['Reserves-R/16th Squadron'] = true,								
-						['Reserves-R/14th Squadron'] = true,
-					},
-				},	
-				['Tabqua Airbase'] = {
-					['integrity'] = 1,
-					['airbase_supply'] = {													
-						['Tabqua'] = true,							
-						['Reserves-R/127.IAP'] = true,	
-						['Reserves-R/123.IAP'] = true,	
-						['Reserves-R/2 Squadron'] = true,												
+					['airbase_supply'] = {
+						['Hama'] = true,
+						['Reserves-R/368 ShAP'] = true,		
+						['Reserves-R/133.IAP'] = true,		
+						['Reserves-R/3 BAP 149th BAA'] = true,								
 					},
 				},		
 			},
@@ -158,7 +159,7 @@ supply_tab = {
 	},
 
 	['blue'] = {
-		['Hamdilli Ammunition Depot'] = {     
+		['Islahiye Storage Site'] = {     
 			['integrity'] = 1,
 			['supply_line_names'] = {
 				['Gaziantep Airbase'] = {
@@ -169,17 +170,16 @@ supply_tab = {
 						['Reserves-R/173rd Fighter Group'] = true,																									
 					},
 				},
-				['Hamdilli-Hatay Supply Line'] = {
+				['Hatay Airbase'] = {
 					['integrity'] = 1,
 					['airbase_supply'] = {	
 						['Hatay'] = true,
-						['FARP-Hatay FARP 1'] = true,
-						['FARP-Hatay FARP 2'] = true,
+						['FARP-Hatay FARP'] = true,
 						['Reserves-R/F6 Karlsborg'] = true,
 						['Reserves-R/23rd FG'] = true,	
 						['Reserves-R/14th Army Aviation Regiment'] = true,
 						['Reserves-R/HMLA-177'] = true,		
-						['Reserves-R/11th Army Aviation Regiment'] = true,
+						--['Reserves-R/11th Army Aviation Regiment'] = true,
 						['Reserves-R/18th Cavalry Regiment'] = true,																									
 					},
 				},
@@ -188,14 +188,14 @@ supply_tab = {
 		['Silifke Storage Site'] = {     
 			['integrity'] = 1,
 			['supply_line_names'] = {
-				['Silifke-Gazipasa Supply Line'] = {
+				['Gazipasa Airbase'] = {
 					['integrity'] = 1,
 					['airbase_supply'] = {	
 						['Gazipasa'] = true,
 						['Reserves-R/801 ARS'] = true,											
 					},
 				},
-				['Silifke-Incirlik Supply Line'] = {
+				['Incirlik Airbase'] = {
 					['integrity'] = 1,
 					['airbase_supply'] = {
 						['Incirlik'] = true,
@@ -304,7 +304,3 @@ supply_tab = {
 	},
 }
 
--- SUPPLY PLANT:
--- RED: SUPPLY PLANT BAKSAN LP83, "CHERKESSK SUPPLY PLANT KP69, Prohladniy Depot MP 24
--- BLUE:  SUPPLY PLANT DAPNARI KM76, 
----

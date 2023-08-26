@@ -211,9 +211,9 @@ db_airbases = {
 		-- LimitedParkNb = 11,
 	-- },
 
-	-- blue coal: USA, Turkish, UK, Italy, Germany, Israely, Georgia
-	-- red: Russia, Syria, Lebanon, Lybia, France, Abkhazia, Ossetia
-	-- neutral: Jordan,
+	-- blue coal: USA, Turkey, UK, Italy, Germany, France, Sweden
+	-- red: Russia, Syria, Lebanon, Iran
+
 
 	-- blue navy
 	['CVN-72 Abraham Lincoln'] = {                            
@@ -223,7 +223,6 @@ db_airbases = {
 		LimitedParkNb  = 9, 
 		ATC_frequency = "272.500",				--si ATC_frequency non present, on utilise la freq de base_mission
 	},
-	
 	['CVN-71 Theodore Roosevelt'] = {                            
 		unitname = "CVN-71 Theodore Roosevelt",
 		startup = 300,
@@ -231,7 +230,6 @@ db_airbases = {
 		ATC_frequency = "275.500",			--si ATC_frequency non present, on utilise la freq de base_mission
 		LimitedParkNb  = 9, 
 	},	
-
 	-- blue turkish
 	['Incirlik'] = {
 		x =	221207.765625,
@@ -284,7 +282,7 @@ db_airbases = {
 		VOR = "116.70",
 		NDB = "432",
 		-- TACAN = "",							-- TACAN : optionnel
-		ILS = "RWY 286/109.10",							-- ILS : optionnel
+		ILS = "RWY 286/109.10",					-- ILS : optionnel
 		LimitedParkNb = 12,
 	},	
 	['Gazipasa'] = {
@@ -340,7 +338,6 @@ db_airbases = {
 		ILS = "RWY 44/108.90 - RWY 224/108.15",		-- ILS : optionnel
 		LimitedParkNb = 10,
 	},	
-
 	-- blue Cyprus
 	['Larnaca'] = {
 		x =	 -7674.737061,
@@ -469,7 +466,7 @@ db_airbases = {
 		-- ILS = "",							-- ILS : optionnel
 		LimitedParkNb = 8,
 	},]]
-	['FARP-Hatay FARP 1'] = {                            
+	['FARP-Hatay FARP'] = {                            
 		x =	143464.08813154,
 		y = 41871.567590793,
 		elevation = 69,
@@ -482,20 +479,7 @@ db_airbases = {
 		-- ILS = "",							-- ILS : optionnel
 		LimitedParkNb = 4,
 	},
-	['FARP-Hatay FARP 2'] = {                            
-		y = 42261.054707957,
-        x = 143452.20826485,
-		elevation = 67,
-		airdromeId = 102,	--be careful this Id depends on units placements and is helipadID in fact
-		helipadId = 102,
-		ATC_frequency = "130.500",
-		side = "blue",							-- side : info obligatoire
-		divert = false,							-- divert : info obligatoire (pour l instant)
-		-- TACAN = "",							-- TACAN : optionnel
-		-- ILS = "",							-- ILS : optionnel
-		LimitedParkNb = 4,
-	},
-	['Silifke Storage FARP'] = {                            ----Crisis in PG campaigns only
+	['FARP-Silifke Storage FARP'] = {                           
 		y = -175103.09885755,
 		x = 151534.80750016,
 		elevation = 8,
@@ -508,8 +492,7 @@ db_airbases = {
 		-- ILS = "",							-- ILS : optionnel
 		LimitedParkNb = 4,
 	},
-
-	['Ramat David'] = {             
+	--[[['Ramat David'] = {             
 		x =	 -259102.132813,
 		y =  -75789.410156,
 		elevation = 36,
@@ -526,7 +509,7 @@ db_airbases = {
 		TACAN = "84X - 113.70",							-- TACAN : optionnel
 		ILS = "RWY 326/111.10",							-- ILS : optionnel
 		LimitedParkNb = 42,
-	},
+	},]]
 	['Naqoura'] = {             -- UN helibase
 		-- Helicopter base
 		x =	 -209938.1875,
@@ -641,7 +624,7 @@ db_airbases = {
 		-- ILS = "",							-- ILS : optionnel
 		LimitedParkNb = 27,
 	},	
-	['Abu al-Duhur'] = {
+	--[[['Abu al-Duhur'] = {
 		x =	76048.957031,
 		y = 111344.925781,
 		elevation = 250,
@@ -658,7 +641,7 @@ db_airbases = {
 		-- TACAN = "",							-- TACAN : optionnel
 		-- ILS = "",							-- ILS : optionnel
 		LimitedParkNb = 36,
-	},
+	},]]
 	['Bassel Al-Assad'] = {
 		x =	41994.498047,
 		y = 5841.909424,
@@ -857,7 +840,7 @@ db_airbases = {
 		ILS = "RWY 169/110.10 - RWY 179/109.50 - RWY 35/110.70",		-- ILS : optionnel
 		LimitedParkNb = 34,
 	},
-	['Sayqal'] = {
+	--[[['Sayqal'] = {
 		x =	-151781.367188,
 		y = 117529.734375,
 		elevation = 693,
@@ -874,7 +857,7 @@ db_airbases = {
 		-- TACAN = "",							-- TACAN : optionnel
 		-- ILS = "",							-- ILS : optionnel
 		LimitedParkNb = 59,
-	},
+	},]]
 	--[[['Al-Dumayr Airbase'] = {
 		x =	-158713.039063,
 		y = 73973.316406,
@@ -931,7 +914,7 @@ db_airbases = {
 		-- ILS = "",			-- ILS : optionnel
 		LimitedParkNb = 20,
 	},]]
-	['Mezzeh'] = {   
+	--[[['Mezzeh'] = {   
 		x =	-172160.453125,
 		y = 24865.682617,
 		elevation = 720,
@@ -948,7 +931,7 @@ db_airbases = {
 		-- TACAN = "",							-- TACAN : optionnel
 		-- ILS = "",							-- ILS : optionnel
 		LimitedParkNb = 28,
-	},
+	},]]
 	--[[['Qabr as Sitt Airbase'] = {
 		-- Helicopter base
 		x =	 -174597.761535,
@@ -968,7 +951,6 @@ db_airbases = {
 		-- ILS = "",							-- ILS : optionnel
 		LimitedParkNb = 8,
 	},]]
-
 	['Damascus'] = {
 		x =	 -178652.320313,
 		y =  52081.296875,
@@ -987,7 +969,6 @@ db_airbases = {
 		ILS = "RWY 230/109.90 - 50/111.10",							-- ILS : optionnel
 		LimitedParkNb = 90,
 	},
-
 	['Deir ez-Zor'] = {
 		x =	 25461,
 		y =  389768,
@@ -1006,7 +987,6 @@ db_airbases = {
 		--ILS = "RWY 230/109.90 - 50/111.10",							-- ILS : optionnel
 		LimitedParkNb = 90,
 	},
-
 	--[[['Marj Ruhayyil Airbase'] = {             
 		x =	 -194233.6875,
 		y =  46043.976563,
@@ -1025,7 +1005,6 @@ db_airbases = {
 		-- ILS = "",							-- ILS : optionnel
 		LimitedParkNb = 33,
 	},]]
-
 	--[[['Kiryat Shmona Airbase'] = {             
 		x =	 -199486.164063,
 		y =  -34500.691406,
@@ -1044,7 +1023,6 @@ db_airbases = {
 		-- ILS = "",							-- ILS : optionnel
 		LimitedParkNb = 5,
 	},]]
-
 	['Khalkhalah'] = {             
 		x =	 -218620.25,
 		y =  56161.078125,

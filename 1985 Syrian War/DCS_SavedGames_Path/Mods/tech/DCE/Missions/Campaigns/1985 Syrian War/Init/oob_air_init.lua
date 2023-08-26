@@ -115,25 +115,28 @@ oob_air = {
 
 	-- Aircraft
 
-	-- F: 36  (Escort: , CAP: , Fighter Sweep: , Intercept: )
-	-- F/A: 72+36+84+60+30+48+20+36 = 386 (Escort: , CAP: , Fighter Sweep: , Intercept: , CAS: , CAS soft:, CAS armor:, Strike Structure: , Anti-ship: , SEAD: )
-	-- A: 72+30+72 = 174 (CAS: , CAS soft:, CAS armor:, Strike Structure: , Anti-ship: , SEAD: ))
-	-- B:26+24+24+12 = 86 (CAS: , CAS soft:, CAS armor:, Strike Structure: , Anti-ship: , SEAD: )
-	-- AW: 3+6+3 = 12
-	-- T: 6 (incrementare di 30)
-	-- R: 6+3+10+10 = 29
-	-- H: 70+40+68+68 = 246 (H-A: , H-T: ) 
+	-- F: 	36+96+54+48+40 = 264    (Escort: 36+54+48 = 138, CAP: 96, Fighter Sweep: 48_, Intercept: 48_+40+18_ = 106)
+	-- F/A: 48	      				(Escort: 48, CAP: 48_, Fighter Sweep: 48_, Intercept: 48_, CAS: 48_, CAS soft: 48_, CAS armor: 48_, Strike Structure: 48_, Anti-ship: , SEAD: )
+	-- A: 	36+84+124 = 244        	(CAS: 36+48+42 = 126, CAS soft:, CAS armor:, Strike Structure: 84, Anti-ship: 36+42_+84_ = 162, SEAD: 36_+48_+84_ = 168))
+	-- B: 	64+27+29 =	120  		(CAS: , CAS soft:, CAS armor:, Strike Structure: 64+27 = 91, Anti-ship: 29, SEAD: )
+	-- AW: 	3+6 = 9
+	-- T: 	6+6 = 12
+	-- R: 	6+3+6 = 15
+	-- REC:
+	-- H: 	(H-A: 96+96 = 192, H-T: 36+20+20 = 76) 
 
-	-- F+F/A: 422 ()
-	-- A+B: 370 (-)
+	-- F+F/A: 312
+	-- A+B: 364
 
+	-- Escort: 186, CAP: 144, Fighter Sweep: 96, Intercept: 194
+	-- CAS: 126, CAS soft: , CAS armor, Strike Structure: 175, Anti-ship: 191, SEAD: 168. 
 
 	-------------------- Incirlik (LimitedParkNb = 120) -------------------------
 		-- 111th Squadron Panther		F-4E			6+30			Turkey			Strike-CAS, SEAD
-		-- 151th Squadron Bronze		F-5E-3			12+24			Turkey			Escort
+		-- 151th Squadron Bronze		F-5E-3			8+28			Turkey			Escort (attacker and bomber @ normal altitude)
 		-- 315th Air Division 			C-130			2+4				USA				Transport
 		-- 69 BS 						B-52H			1+31			USA				Strike-Structure
-		-- 171 ARW 						KC135MPRS		6				USA				Refueling
+		-- 171 ARW 						KC135MPRS		2+4				USA				Refueling
 		-- 4450th Tactical Group		F-117A			2+30			USA				Strike-Structure
 
 		-- 36 F, 36 A, 64 B, 6 T, 6 R
@@ -171,7 +174,7 @@ oob_air = {
 			number = 30,
 		},
 		[3] = {
-			name = "151th Squadron Bronze",								--unit name
+			name = "151th Squadron Bronze",					--unit name
 			--player = true,								--player unit
 			type = "F-5E-3",								--aircraft type
 			country = "Turkey",								--unit country
@@ -194,7 +197,7 @@ oob_air = {
 				["Escort"] = 0.5,
 				["Fighter Sweep"] = 0.2,	
 			},
-			number = 12,
+			number = 8,
 		},
 		[4] = {
 			name = "R/151th Squadron Bronze",							--unit name
@@ -204,7 +207,7 @@ oob_air = {
 			base = "Reserves",								--unit base
 			skill = getSkill(mission_ini.min_skill_blue_attacker, mission_ini.max_skill_blue_attacker),			--unit skill
 			tasks = {},										--unit tasks
-			number = 20,
+			number = 28,
 		},
 		[5] = {
 			name = "315th Air Division",					--unit name
@@ -260,7 +263,7 @@ oob_air = {
 			tasks = {										--unit tasks
 				["Refueling"] = true,
 			},
-			number = 3,
+			number = 2,
 		},
 		[10] = {
 			name = "R/171 ARW",								--unit name
@@ -270,7 +273,7 @@ oob_air = {
 			base = "Reserves",								--unit base
 			skill = getSkill(mission_ini.min_skill_blue_refuelling, mission_ini.max_skill_blue_refuelling),			--unit skill
 			tasks = {},										--unit tasks
-			number = 6,
+			number = 4,
 		},		
 		[11] = {
 			name = "4450th Tactical Group",								--unit name
@@ -494,9 +497,9 @@ oob_air = {
 	-------------------- end Hatay -------------------------------------
 
 	-------------------- Adana Sakirpasa (LimitedParkNb = 39) -------------------------------
-		-- Escadron de Chasse 2/5 Ile-de-France				M-2000C				6+18			France			Escort Bomber		
+		-- Escadron de Chasse 2/5 Ile-de-France				M-2000C				6+18			France			Escort Bomber, Intercept		
 		-- Escadron de Chasse 1/2 Cigognes					Mirage-F1C			6+24			France			Escort Attacker
-		-- INACTIVE Escadron de Chasse 1/5 Vendée					Mirage-F1EE			6+24			France			Escort Attacker
+		-- INACTIVE Escadron de Chasse 1/5 Vendée			Mirage-F1EE			6+24			France			Escort Attacker
 
 		-- 54 F
 		
@@ -512,7 +515,7 @@ oob_air = {
 				["CAP"] = false, 
 				["Escort"] = true,
 				["Fighter Sweep"] = false, 
-				["Intercept"] = false,
+				["Intercept"] = true,
 				["Strike"] = false,
 				["Anti-ship Strike"] = false,
 			},
@@ -795,121 +798,16 @@ oob_air = {
 			number = 25,
 		},		
 	-------------------- end Paphos ---------------------	
-
-	-------------------- Ramat David (LimitedParkNb = 42) -------------------------------
-		-- INACTIVE F17 Kallinge					AJS37					12+24			Sweden			Anti-ship Strike, SEAD		
-		-- 27rd FG						A-10A					8+40			USA				Strike CAS
-		-- 12 Gruppo, 36 Stormo			Tornado IDS				8+28			Italy			Strike Structure, Antiship Strike, SEAD
-
-		-- 84 A
-		
-		--[[[42] = {
-			name = "F17 Kallinge",								--unit name
-			--player = true,							--player unit
-			type = "AJS37",								--aircraft type
-			country = "Sweden",							--unit country
-			livery = {"#4 Splinter F7 Skaraborgs Flygflottilj 76"},					--unit livery
-			base = "Ramat David",					--unit base
-			skill = getSkill(mission_ini.min_skill_blue_attacker, mission_ini.max_skill_blue_attacker),			--unit skill
-			tasks = {									--unit tasks
-				["CAP"] = false, -- no loadout
-				["Escort"] = false, -- no loadout
-				["Fighter Sweep"] = false, -- no loadout
-				["Intercept"] = false, -- doubt on loadout
-				["SEAD"] = true,
-				["Strike"] = false,
-				["Anti-ship Strike"] = true,
-				["Escort Jammer"] = true,
-			},
-			tasksCoef = {								--unit tasks coef (optional)
-				["Strike"] = 1.5,						-- coef normal : = 1
-				["SEAD"] = 1.5,
-				["Laser Illumination"] = 1,
-				["Intercept"] = 1,
-				["CAP"] = 0.5,
-				["Escort"] = 1,
-				["Fighter Sweep"] = 0.7,
-				["Anti-ship Strike"] = 2,
-				["Escort Jammer"] = 2,
-			},
-			number = 12,
-		},				
-		[43] = {
-			name = "R/F17 Kallinge",									--unit name
-			inactive = true,
-			type = "AJS37",									--aircraft type
-			country = "Sweden",								--unit country
-			base = "Reserves",								--unit base
-			skill = getSkill(mission_ini.min_skill_blue_attacker, mission_ini.max_skill_blue_attacker),			--unit skill
-			tasks = {},										--unit tasks
-			number = 24,
-		},]]
-		[40] = {
-			name = "27rd FG",								--unit name
-			type = "A-10A",									--aircraft type
-			country = "USA",							--unit country
-			livery = "",									--unit livery
-			base = "Ramat David",								--unit base
-			skill = getSkill(mission_ini.min_skill_blue_fighter, mission_ini.max_skill_blue_fighter),			--unit skill
-			tasks = {										--unit tasks				
-				["Strike"] = true,
-			},
-			tasksCoef = {									--unit tasks coef (optional)
-				["Strike"] = 2,								-- coef normal : = 1
-				["Laser Illumination"] = 1,				
-			},
-			number = 8,
-		},
-		[41] = {
-			name = "R/27rd FG",							--unit name
-			inactive = true,
-			type = "A-10A",								--aircraft type
-			country = "USA",							--unit country
-			base = "Reserves",
-			skill = getSkill(mission_ini.min_skill_blue_fighter, mission_ini.max_skill_blue_fighter),			--unit skill
-			tasks = {},										--unit tasks
-			number = 40,
-		},
-		[42] = {
-			name = "12 Gruppo, 36 Stormo",								--unit name
-			type = "Tornado IDS",								--aircraft type
-			country = "Italy",							--unit country
-			livery = {""},					--unit livery
-			base = "Ramat David",					--unit base
-			skill = getSkill(mission_ini.min_skill_blue_attacker, mission_ini.max_skill_blue_attacker),			--unit skill
-			tasks = {									--unit tasks
-				["Strike"] = true,
-				["Anti-ship Strike"] = true,
-				["SEAD"] = true,
-			},
-			tasksCoef = {								--unit tasks coef (optional)
-				["Strike"] = 2,						-- coef normal : = 1
-				["Anti-ship Strike"] = 2,
-				["SEAD"] = 2,				
-			},
-			number = 8,
-		},				
-		[43] = {
-			name = "R/12 Gruppo, 36 Stormo",									--unit name
-			inactive = true,
-			type = "Tornado IDS",									--aircraft type
-			country = "Italy",								--unit country
-			base = "Reserves",								--unit base
-			skill = getSkill(mission_ini.min_skill_blue_attacker, mission_ini.max_skill_blue_attacker),			--unit skill
-			tasks = {},										--unit tasks
-			number = 28,
-		},
-	-------------------- end Ramat David -------------------------------------
 			
 	-------------------- CVN-71 Theodore Roosevelt ----------------------
 		-- VF-101					F-14A-135-GR			8+40			USA				Intercept, CAP, Escort, Fighter Sweep, Strike
-		-- VS-29					S-3B Tanker				2+8				USA				Refueling
+		-- VS-29					S-3B Tanker				2+4				USA				Refueling
 		-- VS-21					S-3B					4+25			USA				Anti-ship Strike
 		-- VAW-125					E-2C					2+4				USA				AWACS
 
-		-- 48 F/A, 25 B, 10 R, 6 AW
+		-- 48 F/A, 29 B, 10 R, 6 AW
 
-		[44] = {
+		[40] = {
 			name = "VF-101",								--unit name
 			player = true,									--player unit
 			type = "F-14A-135-GR",							--aircraft type
@@ -940,7 +838,7 @@ oob_air = {
 			},
 			number = 8,
 		},
-		[45] = {
+		[41] = {
 			name = "R/VF-101",								--unit name
 			inactive = true,
 			type = "F-14A-135-GR",							--aircraft type
@@ -949,7 +847,7 @@ oob_air = {
 			tasks = {},										--unit tasks
 			number = 40,
 		},
-		[46] = {
+		[42] = {
 			name = "VS-29",								--unit name
 			type = "S-3B Tanker",							--aircraft type
 			country = "USA",								--unit country
@@ -960,9 +858,9 @@ oob_air = {
 			tasks = {										--unit tasks
 				["Refueling"] = true,
 			},
-			number = 4,
+			number = 2,
 		},
-		[47] = {
+		[43] = {
 			name = "R/VS-29",								--unit name
 			inactive = true,
 			type = "S-3B Tanker",							--aircraft type
@@ -970,9 +868,9 @@ oob_air = {
 			base = "Reserves",								--unit base
 			skill = getSkill(mission_ini.min_skill_blue_refuelling, mission_ini.max_skill_blue_refuelling),			--unit skill
 			tasks = {},										--unit tasks
-			number = 5,
+			number = 4,
 		},
-		[48] = {
+		[44] = {
 			name = "VS-21",									--unit name
 			type = "S-3B",									--aircraft type
 			country = "USA",								--unit country
@@ -993,7 +891,7 @@ oob_air = {
 			},
 			number = 4,
 		},
-		[49] = {
+		[45] = {
 			name = "R/VS-21",								--unit name
 			inactive = true,
 			type = "S-3B",									--aircraft type
@@ -1003,7 +901,7 @@ oob_air = {
 			tasks = {},										--unit tasks
 			number = 25,
 		},
-		[50] = {
+		[46] = {
 			name = "VAW-125",								--unit name
 			type = "E-2C",									--aircraft type
 			country = "USA",								--unit country
@@ -1016,7 +914,7 @@ oob_air = {
 			},
 			number = 2,
 		},
-		[51] = {
+		[47] = {
 			name = "R/VAW-125",								--unit name
 			inactive = true,
 			type = "E-2C",									--aircraft type
@@ -1034,9 +932,9 @@ oob_air = {
 		-- INACTIVE VS-22			S-3B					4+36			USA			Anti-ship Strike
 		-- VAW-123					E-2C					3				USA			AWACS
 
-		-- 20 F, 3 AW
+		-- 40 F, 3 AW
 
-		[52] = {
+		[48] = {
 			name = "VF-118/GA",								--unit name
 			player = false, 								--player unit
 			type = "F-14A-135-GR",							--aircraft type
@@ -1066,7 +964,7 @@ oob_air = {
 			},
 			number = 4,
 		},
-		[53] = {
+		[49] = {
 			name = "R/VF-118/GA",							--unit name
 			inactive = true,
 			type = "F-14A-135-GR",							--aircraft type
@@ -1113,7 +1011,7 @@ oob_air = {
 			tasks = {},										--unit tasks
 			number = 36,
 		},]]
-		[54] = {
+		[50] = {
 			name = "VAW-123",									--unit name
 			type = "E-2C",									--aircraft type
 			country = "USA",								--unit country
@@ -1136,7 +1034,7 @@ oob_air = {
 
 		-- 96 H-A, 36 H-T
 
-		[55] = {
+		[51] = {
 			name = "1th Army Aviation Regiment",								--unit name
 			type = "CH-47D",								--aircraft type
 			helicopter = true,								--true for helicopter units
@@ -1149,7 +1047,7 @@ oob_air = {
 			},
 			number = 4,
 		},
-		[56] = {
+		[52] = {
 			name = "R/1th Army Aviation Regiment",			--unit name
 			inactive = true,
 			type = "CH-47D",								--aircraft type
@@ -1159,7 +1057,7 @@ oob_air = {
 			tasks = {},										--unit tasks
 			number = 32,
 		},	
-		[57] = {
+		[53] = {
 			name = "HMLA-167",								--unit name
 			type = "AH-1W",									--aircraft type
 			helicopter = true,								--true for helicopter units
@@ -1172,7 +1070,7 @@ oob_air = {
 			},
 			number = 4,
 		},
-		[58] = {
+		[54] = {
 			name = "R/HMLA-167",							--unit name
 			inactive = true,
 			type = "AH-1W",									--aircraft type
@@ -1182,7 +1080,7 @@ oob_air = {
 			tasks = {},										--unit tasks
 			number = 44,
 		},	
-		[59] = {
+		[55] = {
 			name = "17th Cavalry Regiment",					--unit name
 			type = "OH-58D",								--aircraft type
 			helicopter = true,								--true for helicopter units
@@ -1195,7 +1093,7 @@ oob_air = {
 			},
 			number = 4,
 		},
-		[60] = {
+		[56] = {
 			name = "R/17th Cavalry Regiment",				--unit name
 			inactive = true,
 			type = "OH-58D",								--aircraft type
@@ -1209,7 +1107,7 @@ oob_air = {
 	-------------------- end Naquora Airbase ----------------		
 
 	-------------------- Silifke Storage FARP (LimitedParkNb = 4) -----------------
-		-- INACTIVE 4th Army Aviation Regiment			CH-47D			4+16			Turkey				Transport			
+		-- INACTIVE 4th Army Aviation Regiment	CH-47D			4+16			Turkey				Transport			
 		-- HS-6 Indians							SH-60B			4+16			USA					Transport
 
 		-- 20 H-T
@@ -1237,20 +1135,20 @@ oob_air = {
 			tasks = {},										--unit tasks
 			number = 16,
 		},]]		
-		[61] = {
+		[57] = {
 			name = "HS-6 Indians",							--unit name
 			type = "SH-60B",								--aircraft type
 			helicopter = true,								--true for helicopter units
 			country = "USA",								--unit country
 			livery = "",									--unit livery
-			base = "Silifke Storage FARP",					--unit base
+			base = "FARP-Silifke Storage FARP",					--unit base
 			skill = getSkill(mission_ini.min_skill_red_helicopter, mission_ini.max_skill_red_helicopter),			--unit skill
 			tasks = {
 				["Transport"] = true,
 			},
 			number = 4,
 		},
-		[62] = {
+		[58] = {
 			name = "R/HS-6 Indians",						--unit name
 			inactive = true,
 			type = "SH-60B",								--aircraft type
@@ -1264,26 +1162,27 @@ oob_air = {
 
 	-------------------- end Silifke Storage FARP -----------------
 
-	-------------------- Hatay FARP 1 (LimitedParkNb = 4) -----------------
+	-------------------- Hatay FARP (LimitedParkNb = 4) -----------------
 		-- 14th Army Aviation Regiment			CH-47D			4+16			Turkey				Transport
 		-- HMLA-177								AH-1W			4+44			USA					Strike CAS
+		-- 18th Cavalry Regiment				OH-58D			4+44			UK					Strike CAS Soft
 
 		-- 48 H-A, 20 H-T
 
-		[63] = {
+		[59] = {
 			name = "14th Army Aviation Regiment",								--unit name
 			type = "CH-47D",								--aircraft type
 			helicopter = true,								--true for helicopter units
 			country = "Turkey",								--unit country
 			livery = "",									--unit livery
-			base = "FARP-Hatay FARP 1",					--unit base
+			base = "FARP-Hatay FARP",					--unit base
 			skill = getSkill(mission_ini.min_skill_red_helicopter, mission_ini.max_skill_red_helicopter),			--unit skill
 			tasks = {
 				["Transport"] = true,
 			},
 			number = 4,
 		},
-		[64] = {
+		[60] = {
 			name = "R/14th Army Aviation Regiment",			--unit name
 			inactive = true,
 			type = "CH-47D",								--aircraft type
@@ -1293,20 +1192,20 @@ oob_air = {
 			tasks = {},										--unit tasks
 			number = 16,
 		},		
-		[65] = {
+		[61] = {
 			name = "HMLA-177",								--unit name
 			type = "AH-1W",									--aircraft type
 			helicopter = true,								--true for helicopter units
 			country = "Turkey",								--unit country
 			livery = "",									--unit livery
-			base = "FARP-Hatay FARP 1",								--unit base
+			base = "FARP-Hatay FARP",								--unit base
 			skill = getSkill(mission_ini.min_skill_red_helicopter, mission_ini.max_skill_red_helicopter),			--unit skill
 			tasks = {
 				["Strike"] = true,
 			},
 			number = 4,
 		},
-		[66] = {
+		[62] = {
 			name = "R/HMLA-177",							--unit name
 			inactive = true,
 			type = "AH-1W",									--aircraft type
@@ -1316,53 +1215,20 @@ oob_air = {
 			tasks = {},										--unit tasks
 			number = 44,
 		},	
-
-
-	-------------------- end Silifke Storage FARP -----------------
-
-	-------------------- Hatay FARP 2 (LimitedParkNb = 4) -----------------
-		-- 11th Army Aviation Regiment			CH-47D			4+16			Turkey				Transport
-		-- 18th Cavalry Regiment				OH-58D			4+44			UK					Strike CAS Soft
-
-		-- 48 H-A, 20 H-T
-
-		[67] = {
-			name = "11th Army Aviation Regiment",								--unit name
-			type = "CH-47D",								--aircraft type
-			helicopter = true,								--true for helicopter units
-			country = "Turkey",								--unit country
-			livery = "",									--unit livery
-			base = "FARP-Hatay FARP 2",					--unit base
-			skill = getSkill(mission_ini.min_skill_red_helicopter, mission_ini.max_skill_red_helicopter),			--unit skill
-			tasks = {
-				["Transport"] = true,
-			},
-			number = 4,
-		},
-		[68] = {
-			name = "R/11th Army Aviation Regiment",			--unit name
-			inactive = true,
-			type = "CH-47D",								--aircraft type
-			helicopter = true,								--true for helicopter units
-			base = "Reserves",
-			skill = getSkill(mission_ini.min_skill_red_helicopter, mission_ini.max_skill_red_helicopter),			--unit skill
-			tasks = {},										--unit tasks
-			number = 16,
-		},		
-		[69] = {
+		[63] = {
 			name = "18th Cavalry Regiment",					--unit name
 			type = "OH-58D",								--aircraft type
 			helicopter = true,								--true for helicopter units
 			country = "UK",									--unit country
 			livery = "",									--unit livery
-			base = "FARP-Hatay FARP 2",								--unit base
+			base = "FARP-Hatay FARP",								--unit base
 			skill = getSkill(mission_ini.min_skill_red_helicopter, mission_ini.max_skill_red_helicopter),			--unit skill
 			tasks = {
 				["Strike"] = true,
 			},
 			number = 4,
 		},
-		[70] = {
+		[64] = {
 			name = "R/18th Cavalry Regiment",				--unit name
 			inactive = true,
 			type = "OH-58D",								--aircraft type
@@ -1372,9 +1238,112 @@ oob_air = {
 			tasks = {},										--unit tasks
 			number = 44,
 		},	
+	-------------------- end Hatay FARP ----------------
 
+	-------------------- INACTIVE Ramat David (LimitedParkNb = 42) -------------------------------
+		-- INACTIVE F17 Kallinge					AJS37					12+24			Sweden			Anti-ship Strike, SEAD		
+		-- INACTIVE 27rd FG						A-10A					8+40			USA				Strike CAS
+		-- INACTIVE 12 Gruppo, 36 Stormo			Tornado IDS				8+28			Italy			Strike Structure, Antiship Strike, SEAD
 
-	-------------------- end Silifke Storage FARP -----------------
+		-- 84 A
+		
+		--[[[42] = {
+			name = "F17 Kallinge",								--unit name
+			--player = true,							--player unit
+			type = "AJS37",								--aircraft type
+			country = "Sweden",							--unit country
+			livery = {"#4 Splinter F7 Skaraborgs Flygflottilj 76"},					--unit livery
+			base = "Ramat David",					--unit base
+			skill = getSkill(mission_ini.min_skill_blue_attacker, mission_ini.max_skill_blue_attacker),			--unit skill
+			tasks = {									--unit tasks
+				["CAP"] = false, -- no loadout
+				["Escort"] = false, -- no loadout
+				["Fighter Sweep"] = false, -- no loadout
+				["Intercept"] = false, -- doubt on loadout
+				["SEAD"] = true,
+				["Strike"] = false,
+				["Anti-ship Strike"] = true,
+				["Escort Jammer"] = true,
+			},
+			tasksCoef = {								--unit tasks coef (optional)
+				["Strike"] = 1.5,						-- coef normal : = 1
+				["SEAD"] = 1.5,
+				["Laser Illumination"] = 1,
+				["Intercept"] = 1,
+				["CAP"] = 0.5,
+				["Escort"] = 1,
+				["Fighter Sweep"] = 0.7,
+				["Anti-ship Strike"] = 2,
+				["Escort Jammer"] = 2,
+			},
+			number = 12,
+		},				
+		[43] = {
+			name = "R/F17 Kallinge",									--unit name
+			inactive = true,
+			type = "AJS37",									--aircraft type
+			country = "Sweden",								--unit country
+			base = "Reserves",								--unit base
+			skill = getSkill(mission_ini.min_skill_blue_attacker, mission_ini.max_skill_blue_attacker),			--unit skill
+			tasks = {},										--unit tasks
+			number = 24,
+		},]]
+		--[[[40] = {
+			name = "27rd FG",								--unit name
+			type = "A-10A",									--aircraft type
+			country = "USA",							--unit country
+			livery = "",									--unit livery
+			base = "Ramat David",								--unit base
+			skill = getSkill(mission_ini.min_skill_blue_fighter, mission_ini.max_skill_blue_fighter),			--unit skill
+			tasks = {										--unit tasks				
+				["Strike"] = true,
+			},
+			tasksCoef = {									--unit tasks coef (optional)
+				["Strike"] = 2,								-- coef normal : = 1
+				["Laser Illumination"] = 1,				
+			},
+			number = 8,
+		},
+		[41] = {
+			name = "R/27rd FG",							--unit name
+			inactive = true,
+			type = "A-10A",								--aircraft type
+			country = "USA",							--unit country
+			base = "Reserves",
+			skill = getSkill(mission_ini.min_skill_blue_fighter, mission_ini.max_skill_blue_fighter),			--unit skill
+			tasks = {},										--unit tasks
+			number = 40,
+		},]]
+		--[[[42] = {
+			name = "12 Gruppo, 36 Stormo",								--unit name
+			type = "Tornado IDS",								--aircraft type
+			country = "Italy",							--unit country
+			livery = {""},					--unit livery
+			base = "Ramat David",					--unit base
+			skill = getSkill(mission_ini.min_skill_blue_attacker, mission_ini.max_skill_blue_attacker),			--unit skill
+			tasks = {									--unit tasks
+				["Strike"] = true,
+				["Anti-ship Strike"] = true,
+				["SEAD"] = true,
+			},
+			tasksCoef = {								--unit tasks coef (optional)
+				["Strike"] = 2,						-- coef normal : = 1
+				["Anti-ship Strike"] = 2,
+				["SEAD"] = 2,				
+			},
+			number = 8,
+		},				
+		[43] = {
+			name = "R/12 Gruppo, 36 Stormo",									--unit name
+			inactive = true,
+			type = "Tornado IDS",									--aircraft type
+			country = "Italy",								--unit country
+			base = "Reserves",								--unit base
+			skill = getSkill(mission_ini.min_skill_blue_attacker, mission_ini.max_skill_blue_attacker),			--unit skill
+			tasks = {},										--unit tasks
+			number = 28,
+		},]]
+	-------------------- end Ramat David -------------------------------------
 	},
 
 	
@@ -1383,28 +1352,32 @@ oob_air = {
 
 	-- Aircraft
 
-	-- F: 8+8+16+32+12+24+58 = 158
-	-- F/A:72+36+36+72+32+36 = 284
-	-- A:36+72+32+68+36+30+30+32+32 = 348
-	-- B:31+18+10+30 = 88
-	-- AWACS:4 (incrementare di 4)
-	-- T: 10+4+6+6+4+6 = 36
-	-- R:4 (incrementare di 25 serve?)
-	-- H: 75+60+100 = 235
+	-- F: 18+36+36+39+46+4+35+34+22+26+28 = 322 (Escort: 36+36+39+46+42 = 144, CAP: 44_+42_+35+34+26_ = 153, Fighter Sweep: 46_+34_+26_= 124, Intercept: 18+39_+35_+22+26_+28 = 145)
+	
+	-- A: 42+42+36+34+32+40+42 = 268    (CAS: 42+42+34+42 = 160, CAS soft: 36, CAS armor: 32+30 = 62, Strike Structure: 32_+30_ = 62, Anti-ship: 42_+42_ = 86, SEAD: = 30_+32_+40_+42_ = 140)
+	-- B: 38+19+10+30 =	97   			(CAS: , CAS soft:, CAS armor:, Strike Structure: 38+19+10+30 = 97, Anti-ship: 19_+10_ = 29, SEAD: 38_+30_ = 68)
+	-- AW: 4 
+	-- T: 4+4+6+6+4 = 24
+	-- R: 
+	-- REC: 5
+	-- H: 	(H-A: 30+30+30+30+20+20+30 = 190, H-T: = ) 
 
-	-- F+F/A: 442
-	-- A+B: 488 
+	-- F: 322
+	-- A+B: 365
+
+	-- Escort: 144, CAP: 158, Fighter Sweep: 124, Intercept: 150
+	-- CAS: 140, CAS soft: 36, CAS armor: 62, Strike Structure: 153, Anti-ship: 101, SEAD: 188. 
 
 
 	-------------------- Damascus (LimitedParkNb = 90) -------------------	
-		-- 790.IAP							MiG-25PD		8		Russia			Intercept
-		-- 117.IAP							MiG-27K			8+28	Russia			Strike CAS, Anti-ship Strike 
-		-- 113.IAP							MiG-23MLD		8+28	Russia			Escort
+		-- 790.IAP							MiG-25PD		18		Russia			Intercept
+		-- 117.IAP							MiG-27K			8+34	Russia			Strike CAS, Anti-ship Strike 
+		-- 113.IAP							MiG-23MLD		8+28	Russia			Escort (attacker and bomber)
 		-- INACTIVE 945 Squadron			MiG-21Bis		8+28	Syria			Escort
 		-- INACTIVE 3.OSAP					An-26B			6		Russia			Transport
 		-- 13.OSAP							Il-76MD			4		Russia			Transport
 
-		-- 44 F, 36 A, 4 T
+		-- 62 F, 36 A, 4 T
 
 
 		[1] = {
@@ -1426,7 +1399,7 @@ oob_air = {
 				["Escort"] = 0.3,
 				["Fighter Sweep"] = 1,
 			},
-			number = 8,
+			number = 10,
 		},
 		[2] = {
 			name = "117.IAP",							--unit name
@@ -1456,7 +1429,7 @@ oob_air = {
 			base = "Reserves",
 			skill = getSkill(mission_ini.min_skill_red_attacker, mission_ini.max_skill_red_attacker),			--unit skill
 			tasks = {},										--unit tasks
-			number = 28,
+			number = 34,
 		},
 		[4] = {
 			name = "113.IAP",							--unit name
@@ -1490,7 +1463,7 @@ oob_air = {
 			base = "Reserves",
 			skill = getSkill(mission_ini.min_skill_red_fighter, mission_ini.max_skill_red_fighter),			--unit skill
 			tasks = {},										--unit tasks
-			number = 28,
+			number = 34,
 		},						
 		--[[[6] = {
 			name = "945 Squadron",								--unit name
@@ -1558,8 +1531,8 @@ oob_air = {
 	-------------------- end Damascus ---------------	
 
 	-------------------- Tabqa (LimitedParkNb = 27) ----------------------
-		-- 127.IAP					MiG-27K			8+28	Russia				Strike CAS, Anti-ship Strike 
-		-- 123.IAP					MiG-23MLD		8+28	Russia				Escort, CAP
+		-- 127.IAP					MiG-27K			8+36	Russia				Strike CAS, Anti-ship Strike 
+		-- 123.IAP					MiG-23MLD		8+31	Russia				Escort, CAP, Intercept
 		-- INACTIVE 2 Squadron		L-39C			8+28	Syria				Strike CAS soft
 
 		-- 36 F/A, 72 A
@@ -1592,7 +1565,7 @@ oob_air = {
 			base = "Reserves",
 			skill = getSkill(mission_ini.min_skill_red_attacker, mission_ini.max_skill_red_attacker),			--unit skill
 			tasks = {},										--unit tasks
-			number = 28,
+			number = 36,
 		},
 		[9] = {
 			name = "123.IAP",							--unit name
@@ -1602,7 +1575,7 @@ oob_air = {
 			base = "Tabqa",								--unit base
 			skill = getSkill(mission_ini.min_skill_red_fighter, mission_ini.max_skill_red_fighter),			--unit skill
 			tasks = {										--unit tasks
-				["Intercept"] = false,
+				["Intercept"] = true,
 				["CAP"] = true,
 				["Escort"] = true,
 				["Fighter Sweep"] = false,				
@@ -1626,7 +1599,7 @@ oob_air = {
 			base = "Reserves",	
 			skill = getSkill(mission_ini.min_skill_red_fighter, mission_ini.max_skill_red_fighter),			--unit skill
 			tasks = {},										--unit tasks
-			number = 28,	
+			number = 31,	
 		},		
 		--[[[14] = {
 			name = "2 Squadron",							--unit name
@@ -1665,123 +1638,25 @@ oob_air = {
 			number = 24,
 		},]]
 	-------------------- end Tabqa ------------------
-		
-	-------------------- Abu al-Duhur (LimitedParkNb = 36) ---------------
-		-- 946 Squadron							MiG-21Bis			8+28	Syria				Escort, Intercept
-		-- INACTIVE 793.IAP						MiG-25PD			8		Russia				Intercept
-		-- 2 Guards BAP 21 th BAA				Su-24M				4+28	Russia				Strike Structure-armor, SEAD
-
-		-- 36 F, 32 A
-
-		[11] = {
-			name = "946 Squadron",								--unit name
-			type = "MiG-21Bis",								--aircraft type
-			country = "Syria",								--unit country
-			livery = "",									--unit livery
-			base = "Abu al-Duhur",								--unit base
-			skill = getSkill(mission_ini.min_skill_red_fighter, mission_ini.max_skill_red_fighter),			--unit skill
-			tasks = {										--unit tasks
-				["Intercept"] = true,
-				["CAP"] = false,
-				["Escort"] = true,
-				["Fighter Sweep"] = false,
-				["Strike"] = false,
-				["Anti-ship Strike"] = false,			
-				["SEAD"] = false,
-			},
-			tasksCoef = {									--unit tasks coef (optional)				
-				["Intercept"] = 1.5,
-				["CAP"] = 1,
-				["Escort"] = 2,
-				["Fighter Sweep"] = 1,
-				["Anti-ship Strike"] = 0.3,			
-				["Strike"] = 0.3,							-- coef normal : = 1
-				["SEAD"] = 0.3,
-				["Laser Illumination"] = 1,
-			},
-			number = 8,
-		},
-		[12] = {
-			name = "R/946 Squadron",								--unit name
-			inactive = true,
-			type = "MiG-21Bis",								--aircraft type
-			base = "Reserves",
-			skill = getSkill(mission_ini.min_skill_red_fighter, mission_ini.max_skill_red_fighter),			--unit skill
-			tasks = {},										--unit tasks
-			number = 28,
-		},
-		--[[[18] = {
-			name = "793.IAP",								--unit name
-			type = "MiG-25PD",								--aircraft type
-			country = "Russia",								--unit country
-			livery = "af standard",							--unit livery
-			base = "Abu al-Duhur",						--unit base
-			skill = getSkill(mission_ini.min_skill_red_fighter, mission_ini.max_skill_red_fighter),			--unit skill
-			tasks = {										--unit tasks
-				["Intercept"] = true,
-				["CAP"] = false,
-				["Escort"] = false,
-				["Fighter Sweep"] = false,
-			},
-			tasksCoef = {									
-				["Intercept"] = 2, --unit tasks coef (optional)-- coef normal : = 1
-				["CAP"] = 1.5,
-				["Escort"] = 0.5,
-				["Fighter Sweep"] = 1,
-			},
-			number = 8,
-		},]]
-		[13] = {
-			name = "2 Guards BAP 21 th BAA",								--unit name
-			type = "Su-24M",								--aircraft type
-			country = "Russia",								--unit country
-			livery = "",									--unit livery
-			base = "Abu al-Duhur",						--unit base
-			skill = getSkill(mission_ini.min_skill_red_attacker, mission_ini.max_skill_red_attacker),			--unit skill
-			tasks = {
-				["Strike"] = true,
-				["SEAD"] = true,
-				["Laser Illumination"] = true,
-				["Anti-ship Strike"] = false,
-			},
-			tasksCoef = {									--unit tasks coef (optional)
-				["Strike"] = 1.5,								-- coef normal : = 1
-				["SEAD"] = 2,
-				["Laser Illumination"] = 1,				
-				["Anti-ship Strike"] = 1.7,
-			},
-			number = 4,
-		},
-		[14] = {
-			name = "R/2 Guards BAP 21 th BAA",								--unit name
-			inactive = true,
-			type = "Su-24M",								--aircraft type
-			base = "Reserves",
-			skill = getSkill(mission_ini.min_skill_red_attacker, mission_ini.max_skill_red_attacker),			--unit skill
-			tasks = {},										--unit tasks
-			number = 28,
-		},		
-
-	-------------------- end Abu al-Duhur -----------
 
 	-------------------- Beirut-Rafic Hariri (LimitedParkNb = 34) ---------------
-		-- 948 Squadron							MiG-21Bis			8+28	Syria				Escort
+		-- 948 Squadron							MiG-21Bis			6+35	Syria				Escort, Fighter Sweep
 		-- INACTIVE 3 Guards BAP 21 th BAA		Su-24M				4+28	Russia				Strike Structure-armor, SEAD
 
 		-- 36 F
 
-		[15] = {
-			name = "948 Squadron",								--unit name
+		[11] = {
+			name = "948 Squadron",							--unit name
 			type = "MiG-21Bis",								--aircraft type
 			country = "Syria",								--unit country
 			livery = "",									--unit livery
-			base = "Beirut-Rafic Hariri",								--unit base
+			base = "Beirut-Rafic Hariri",					--unit base
 			skill = getSkill(mission_ini.min_skill_red_fighter, mission_ini.max_skill_red_fighter),			--unit skill
 			tasks = {										--unit tasks
 				["Intercept"] = false,
 				["CAP"] = false,
 				["Escort"] = true,
-				["Fighter Sweep"] = false,
+				["Fighter Sweep"] = true,
 				["Strike"] = false,
 				["Anti-ship Strike"] = false,			
 				["SEAD"] = false,
@@ -1796,16 +1671,16 @@ oob_air = {
 				["SEAD"] = 0.3,
 				["Laser Illumination"] = 1,
 			},
-			number = 8,
+			number = 6,
 		},
-		[16] = {
+		[12] = {
 			name = "R/948 Squadron",								--unit name
 			inactive = true,
 			type = "MiG-21Bis",								--aircraft type
 			base = "Reserves",
 			skill = getSkill(mission_ini.min_skill_red_fighter, mission_ini.max_skill_red_fighter),			--unit skill
 			tasks = {},										--unit tasks
-			number = 28,
+			number = 35,
 		},
 		--[[[23] = {
 			name = "3 Guards BAP 21 th BAA",								--unit name
@@ -1841,14 +1716,14 @@ oob_air = {
 	-------------------- end Beirut-Rafic Hariri -----------
 
 	-------------------- Bassel Al-Assad Airbase (LimitedParkNb = 53) -----
-		-- 67 Squadron					MiG-23MLD			8+28	Russia						Escort, CAP
+		-- 67 Squadron					MiG-23MLD			8+36	Russia						Escort, CAP
 		-- 3 Squadron					L-39C				8+28	Syria						Strike CAS soft
-		-- 677 Squadron					Su-17M4				4+28	Syria						Strike Structure, SEAD
+		-- 677 Squadron					Su-17M4				4+34	Syria						Strike Structure, SEAD
 		-- 522 Squadron					An-26B				4		Russia						Transport
 
-		-- 36 F, 36 A, 32 B, 4 T
+		-- 36 F, 36 A, 38 B, 4 T
 
-		[17] = {
+		[13] = {
 			name = "67 Squadron",							--unit name
 			type = "MiG-23MLD",								--aircraft type
 			country = "Syria",								--unit country
@@ -1871,7 +1746,7 @@ oob_air = {
 			},
 			number = 8,
 		},
-		[18] = {
+		[14] = {
 			name = "R/67 Squadron",							--unit name
 			inactive = true,
 			type = "MiG-23MLD",								--aircraft type
@@ -1879,9 +1754,9 @@ oob_air = {
 			base = "Reserves",
 			skill = getSkill(mission_ini.min_skill_red_fighter, mission_ini.max_skill_red_fighter),			--unit skill
 			tasks = {},										--unit tasks
-			number = 28,
+			number = 36,
 		},		
-		[19] = {
+		[15] = {
 			name = "3 Squadron",							--unit name
 			type = "L-39C",									--aircraft type
 			country = "Syria",								--unit country
@@ -1907,7 +1782,7 @@ oob_air = {
 			},
 			number = 8,
 		},
-		[20] = {
+		[16] = {
 			name = "R/3 Squadron",							--unit name
 			inactive = true,
 			type = "L-39C",									--aircraft type
@@ -1917,7 +1792,7 @@ oob_air = {
 			tasks = {},										--unit tasks
 			number = 28,
 		},
-		[21] = {
+		[17] = {
 			name = "677 Squadron",							--unit name
 			type = "Su-17M4",								--aircraft type
 			country = "Syria",								--unit country
@@ -1937,7 +1812,7 @@ oob_air = {
 			},
 			number = 4,
 		},
-		[22] = {
+		[18] = {
 			name = "R/677 Squadron",							--unit name
 			inactive = true,
 			type = "Su-17M4",								--aircraft type
@@ -1945,9 +1820,9 @@ oob_air = {
 			base = "Reserves",
 			skill = getSkill(mission_ini.min_skill_red_attacker, mission_ini.max_skill_red_attacker),			--unit skill
 			tasks = {},										--unit tasks
-			number = 28,
+			number = 34,
 		},
-		[23] = {
+		[19] = {
 			name = "522 Squadron",							--unit name
 			type = "An-26B",								--aircraft type
 			country = "Russia",								--unit country
@@ -1959,7 +1834,7 @@ oob_air = {
 			},
 			number = 4,
 		},
-		[24] = {
+		[20] = {
 			name = "R/522 Squadron",							--unit name
 			inactive = true,
 			type = "An-26B",								--aircraft type
@@ -1971,14 +1846,14 @@ oob_air = {
 	-------------------- end Bassel Al-Assad Airbase -
 
 	-------------------- Hama Airbase (LimitedParkNb = 46) ----------------
-		-- 368 ShAP						Su-25			4+30		Russia					Strike CAS, SEAD
-		-- 133.IAP						MiG-29A			4+12		Russia					CAP
+		-- 368 ShAP						Su-25			4+36		Russia					Strike CAS, SEAD
+		-- 133.IAP						MiG-29A			6+34		Russia					CAP, Intercept
 		-- 3 BAP 149th BAA				Su-24M			4+28 		Russia					Strike Structure-armor, SEAD
 		-- 27.OSAP						An-26B			6			Russia					Transport
 
-		-- 16 F, 68 A, 6 T
+		-- 30 F, 68 A, 6 T
 		
-		[25] = {
+		[21] = {
 			name = "368 ShAP",							--unit name
 			type = "Su-25",								--aircraft type
 			country = "Russia",								--unit country
@@ -1999,7 +1874,7 @@ oob_air = {
 			},
 			number = 4,
 		},
-		[26] = {
+		[22] = {
 			name = "R/368 ShAP",							--unit name
 			inactive = true,
 			type = "Su-25",								--aircraft type
@@ -2007,9 +1882,9 @@ oob_air = {
 			base = "Reserves",
 			skill = getSkill(mission_ini.min_skill_red_attacker, mission_ini.max_skill_red_attacker),			--unit skill
 			tasks = {},										--unit tasks
-			number = 30,
+			number = 36,
 		},
-		[27] = {
+		[23] = {
 			name = "133.IAP",							--unit name
 			type = "MiG-29A",								--aircraft type
 			country = "Russia",								--unit country
@@ -2017,7 +1892,7 @@ oob_air = {
 			base = "Hama",						--unit base
 			skill = getSkill(mission_ini.min_skill_red_fighter, mission_ini.max_skill_red_fighter),			--unit skill
 			tasks = {										--unit tasks
-				["Intercept"] = false,
+				["Intercept"] = true,
 				["CAP"] = true,
 				["Escort"] = false,
 				["Fighter Sweep"] = false,
@@ -2030,9 +1905,9 @@ oob_air = {
 				["Escort"] = 2,
 				["Fighter Sweep"] = 1.5,	
 			},
-			number = 4,
+			number = 6,
 		},
-		[28] = {
+		[24] = {
 			name = "R/133.IAP",							--unit name
 			inactive = true,
 			type = "MiG-29A",								--aircraft type
@@ -2040,9 +1915,9 @@ oob_air = {
 			base = "Reserves",
 			skill = getSkill(mission_ini.min_skill_red_fighter, mission_ini.max_skill_red_fighter),			--unit skill
 			tasks = {},										--unit tasks
-			number = 12,
+			number = 34,
 		},
-		[29] = {
+		[25] = {
 			name = "3 BAP 149th BAA",								--unit name
 			type = "Su-24M",								--aircraft type
 			country = "Russia",								--unit country
@@ -2063,7 +1938,7 @@ oob_air = {
 			},
 			number = 4,
 		},
-		[30] = {
+		[26] = {
 			name = "R/3 BAP 149th BAA",								--unit name
 			inactive = true,
 			type = "Su-24M",								--aircraft type
@@ -2072,7 +1947,7 @@ oob_air = {
 			tasks = {},										--unit tasks
 			number = 28,
 		},
-		[31] = {
+		[27] = {
 			name = "27.OSAP",								--unit name
 			type = "An-26B",								--aircraft type
 			country = "Russia",								--unit country
@@ -2090,11 +1965,11 @@ oob_air = {
 	-------------------- Palmyra Airbase (LimitedParkNb = 22)----------------
 		-- 2.OSAP									An-26B		6			Russia				Transport
 		-- 402nd Heavy Bomber Aviation Regiment		Tu-22M3		1+18 		Russia				Strike Structure, Anti-ship Strike
-		-- 159.IAP									Su-27		4+28 		Russia				CAP, Fighter Sweep				
+		-- 159.IAP									Su-27		6+28 		Russia				CAP, Fighter Sweep				
 
-		-- 32 F, 18 B, 6 T
+		-- 34 F, 18 B, 6 T
 
-		[32] = {
+		[28] = {
 			name = "2.OSAP",								--unit name
 			type = "An-26B",								--aircraft type
 			country = "Russia",								--unit country
@@ -2106,7 +1981,7 @@ oob_air = {
 			},
 			number = 6,
 		},		
-		[33] = {
+		[29] = {
 			name = "402nd Heavy Bomber Aviation Regiment",								--unit name
 			type = "Tu-22M3",								--aircraft type
 			country = "Russia",								--unit country
@@ -2123,7 +1998,7 @@ oob_air = {
 			},
 			number = 1,
 		},
-		[34] = {
+		[30] = {
 			name = "R/402nd Heavy Bomber Aviation Regiment",								--unit name
 			inactive = true,
 			type = "Tu-22M3",								--aircraft type
@@ -2132,7 +2007,7 @@ oob_air = {
 			tasks = {},										--unit tasks
 			number = 18,
 		},
-		[35] = {
+		[31] = {
 			name = "159.IAP",								--unit name
 			type = "Su-27",								--aircraft type
 			country = "Russia",								--unit country
@@ -2153,9 +2028,9 @@ oob_air = {
 				["Escort"] = 1,
 				["Fighter Sweep"] = 1.5,	
 			},
-			number = 4,
+			number = 6,
 		},
-		[36] = {
+		[32] = {
 			name = "R/159.IAP",								--unit name
 			inactive = true,
 			type = "Su-27",									--aircraft type
@@ -2163,17 +2038,17 @@ oob_air = {
 			base = "Reserves",
 			skill = getSkill(mission_ini.min_skill_red_fighter, mission_ini.max_skill_red_fighter),			--unit skill
 			tasks = {},										--unit tasks
-			number = 28,
+			number = 36,
 		},	
 	-------------------- end Palmyra Airbase ----------------
 
 	-------------------- An Nasiriyah Airbase (LimitedParkNb = 20) ----------------
-		-- 373 ShAP						Su-25			4+30 		Russia					Strike CAS, SEAD
-		-- 764.IAP						MiG-31			2+10 		Russia					Intercept
+		-- 373 ShAP						Su-25			4+38 		Russia					Strike CAS, SEAD
+		-- 764.IAP						MiG-31			2+20 		Russia					Intercept
 
-		-- 12 F, 36 A
+		-- 22 F, 36 A
 
-		[37] = {
+		[33] = {
 			name = "373 ShAP",							    --unit name
 			type = "Su-25",									--aircraft type
 			country = "Russia",								--unit country
@@ -2194,7 +2069,7 @@ oob_air = {
 			},
 			number = 4,
 		},
-		[38] = {
+		[34] = {
 			name = "R/373 ShAP",							--unit name
 			inactive = true,
 			type = "Su-25",								--aircraft type
@@ -2202,9 +2077,9 @@ oob_air = {
 			base = "Reserves",
 			skill = getSkill(mission_ini.min_skill_red_attacker, mission_ini.max_skill_red_attacker),			--unit skill
 			tasks = {},										--unit tasks
-			number = 30,
+			number = 38,
 		},
-		[39] = {
+		[35] = {
 			name = "764.IAP",								--unit name
 			type = "MiG-31",								--aircraft type
 			country = "Russia",								--unit country
@@ -2225,7 +2100,7 @@ oob_air = {
 			},
 			number = 2,
 		},
-		[40] = {
+		[36] = {
 			name = "R/764.IAP",								--unit name
 			type = "MiG-31",								--aircraft type
 			country = "Russia",								--unit country
@@ -2234,21 +2109,21 @@ oob_air = {
 			base = "Reserves",								--unit base
 			skill = getSkill(mission_ini.min_skill_red_fighter, mission_ini.max_skill_red_fighter),			--unit skill
 			tasks = {},			
-			number = 8,
+			number = 16,
 		},
 	-------------------- end An Nasiriyah Airbase ------------
 
 	-------------------- Deir ez-Zor Airbase (LimitedParkNb = 90)----------------
 		-- 132nd Heavy Bomber Aviation Regiment		Tu-22M3			1+9 		Russia				Strike Structure, Anti-ship Strike
-		-- 797.IAP									Su-27			4+20 		Russia				CAP, Fighter Sweep
+		-- 797.IAP									Su-27			6+20 		Russia				CAP, Fighter Sweep, Intercept
 		-- 2457 SDRLO								A-50			4 			Russia				AWACS
-		-- O7 SDRLO									Su-24MR			4 			Russia				Recognition
+		-- O7 SDRLO									Su-24MR			5 			Russia				Recognition
 		-- 4 Guards BAP 132nd BAA					Su-24M			4+26		Russia				Strike Structure-armor, SEAD
 		-- 23.OSAP									An-26B			1+3 		Russia				Transport
 
 		-- 24 F, 30 A, 10 B, 4 R, 4 AW, 1+3 T
 
-		[41] = {
+		[37] = {
 			name = "132nd Heavy Bomber Aviation Regiment",								--unit name
 			type = "Tu-22M3",								--aircraft type
 			country = "Russia",								--unit country
@@ -2265,7 +2140,7 @@ oob_air = {
 			},
 			number = 1,
 		},
-		[42] = {
+		[38] = {
 			name = "R/132nd Heavy Bomber Aviation Regiment",								--unit name
 			inactive = true,
 			type = "Tu-22M3",								--aircraft type
@@ -2274,15 +2149,15 @@ oob_air = {
 			tasks = {},										--unit tasks
 			number = 9,
 		},
-		[43] = {
+		[39] = {
 			name = "797.IAP",								--unit name
-			type = "Su-27",								--aircraft type
+			type = "Su-27",									--aircraft type
 			country = "Russia",								--unit country
 			livery = "af standard",							--unit livery
-			base = "Deir ez-Zor",						--unit base
+			base = "Deir ez-Zor",							--unit base
 			skill = getSkill(mission_ini.min_skill_red_fighter, mission_ini.max_skill_red_fighter),			--unit skill
 			tasks = {										--unit tasks
-				["Intercept"] = false,
+				["Intercept"] = true,
 				["CAP"] = true,
 				["Fighter Sweep"] = true,
 				["Escort"] = false,
@@ -2295,9 +2170,9 @@ oob_air = {
 				["Escort"] = 2,
 				["Fighter Sweep"] = 1.5,	
 			},
-			number = 4,
+			number = 6,
 		},
-		[44] = {
+		[40] = {
 			name = "R/797.IAP",								--unit name
 			type = "Su-27",								--aircraft type
 			country = "Russia",
@@ -2308,7 +2183,7 @@ oob_air = {
 			tasks = {},			
 			number = 20,
 		},
-		[45] = {
+		[41] = {
 			name = "2457 SDRLO",							--unit name
 			type = "A-50",									--aircraft type
 			country = "Russia",								--unit country
@@ -2321,7 +2196,7 @@ oob_air = {
 			},
 			number = 4,
 		},
-		[46] = {
+		[42] = {
 			name = "O7 SDRLO",								--unit name
 			type = "Su-24MR",								--aircraft type
 			country = "Russia",								--unit country
@@ -2334,7 +2209,7 @@ oob_air = {
 			},
 			number = 5,
 		},
-		[47] = {
+		[43] = {
 			name = "4 Guards BAP 132nd BAA",								--unit name
 			type = "Su-24M",								--aircraft type
 			country = "Russia",								--unit country
@@ -2355,7 +2230,7 @@ oob_air = {
 			},
 			number = 4,
 		},
-		[48] = {
+		[44] = {
 			name = "R/4 Guards BAP 132nd BAA",								--unit name
 			inactive = true,
 			type = "Su-24M",								--aircraft type
@@ -2364,7 +2239,7 @@ oob_air = {
 			tasks = {},										--unit tasks
 			number = 26,
 		},
-		[49] = {
+		[45] = {
 			name = "23.OSAP",								--unit name
 			type = "An-26B",								--aircraft type
 			country = "Russia",								--unit country
@@ -2376,7 +2251,7 @@ oob_air = {
 			},
 			number = 1,
 		},
-		[50] = {
+		[46] = {
 			name = "R/23.OSAP",								--unit name
 			inactive = true,
 			type = "An-26B",								--aircraft type
@@ -2388,20 +2263,310 @@ oob_air = {
 		},
 	-------------------- end Deir ez-Zor Airbase ----------------
 
-	-------------------- Sayqal Airbase/Helibase (LimitedParkNb = 59) ----------------
-		-- 267 ShAP						Su-25				4+26			Russia				Strike CAS, SEAD
-		-- 133.IAP						MiG-29A				4+26 			Russia				CAP
-		-- INACTIVE 27.OSAP				An-26B				1+4				Russia				Transport
-		-- 09 SDRLO						MiG-25RBT			4				Russia				Recognition, AWACS
-		-- 81st TFS						F-14A				4+24			Iran				Intercept, Fighter Sweep
-		-- 1st GHR						Mi-8MT				4+26			Russia				Strike CAS Soft
-		-- 3rd GHR						Mi-26				3+12			Russia				Transport
-		-- 15th Squadron				SA342M				4+26			Lebanon				Strike CAS Soft
+	-------------------- Khalkhalah Airbase/Helibase (LimitedParkNb = 35) -----
+		-- INACTIVE 7 Squadron			L-39C			8+24			Syria				Strike CAS soft
+		-- 81st TFS						F-14A			4+24			Iran				Intercept, Fighter Sweep
+		-- 637 Squadron					Su-17M4			4+26			Syria				Strike Structure, SEAD
+		-- 9th GHR						Mi-8MT			4+26			Russia				Strike CAS Soft
+		-- 17th GHR						Mi-24P			4+26			Russia				Strike CAS Soft		
+
+		-- 28 F, 30 A, 30 B, 60 H-A
+
+		--[[[74] = {
+			name = "7 Squadron",							--unit name
+			type = "L-39C",									--aircraft type
+			country = "Syria",								--unit country
+			livery = "",									--unit livery
+			base = "Khalkhalah",								--unit base
+			skill = getSkill(mission_ini.min_skill_red_attacker, mission_ini.max_skill_red_attacker),			--unit skill
+			tasks = {										--unit tasks
+				["Intercept"] = false,
+				["CAP"] = false,
+				["Escort"] = false,
+				["Fighter Sweep"] = false,				
+				["Strike"] = true,
+				["Anti-ship Strike"] = false,			
+			},
+			tasksCoef = {									--unit tasks coef (optional)
+				["Strike"] = 1.5,							-- coef normal : = 1				
+				["Laser Illumination"] = 1,
+				["Intercept"] = 0.5,
+				["CAP"] = 0.5,
+				["Escort"] = 0.5,			
+				["Fighter Sweep"] = 0.5,
+				["Anti-ship Strike"] = 0.7,			
+			},
+			number = 8,
+		},
+		[75] = {
+			name = "R/7 Squadron",							--unit name
+			inactive = true,
+			type = "L-39C",									--aircraft type
+			country = "Syria",								--unit country
+			base = "Reserves",
+			skill = getSkill(mission_ini.min_skill_red_attacker, mission_ini.max_skill_red_attacker),			--unit skill
+			tasks = {},										--unit tasks
+			number = 24,
+		},]]
+		[47] = {
+			name = "81st TFS",							--unit name
+			type = "F-14A",								--aircraft type
+			country = "Iran",							--unit country
+			livery = "",								--unit livery
+			base = "Khalkhalah",							--unit base
+			skill = getSkill(mission_ini.min_skill_red_fighter, mission_ini.max_skill_red_fighter),			--unit skill
+			tasks = {									--unit tasks
+				["Intercept"] = true,
+				["CAP"] = false,
+				["Escort"] = false,
+				["Fighter Sweep"] = true,
+				["Strike"] = false,
+			},
+			tasksCoef = {									--unit tasks coef (optional)
+				["Strike"] = 0.5,							-- coef normal : = 1				
+				["Intercept"] = 2,
+				["CAP"] = 2,
+				["Escort"] = 1.3,
+				["Fighter Sweep"] = 2,	
+			},
+			number = 4,
+		},
+		[48] = {
+			name = "R/81st TFS",							--unit name
+			inactive = true,
+			type = "F-14A",								--aircraft type
+			country = "Iran",								--unit country
+			base = "Reserves",
+			skill = getSkill(mission_ini.min_skill_red_fighter, mission_ini.max_skill_red_fighter),			--unit skill
+			tasks = {},										--unit tasks
+			number = 24,
+		},
+		[49] = {
+			name = "637 Squadron",							--unit name
+			type = "Su-17M4",								--aircraft type
+			country = "Syria",								--unit country
+			livery = "",									--unit livery
+			base = "Khalkhalah",						--unit base
+			skill = getSkill(mission_ini.min_skill_red_attacker, mission_ini.max_skill_red_attacker),			--unit skill
+			tasks = {										--unit tasks
+				["Strike"] = true,
+				["Anti-ship Strike"] = false,			
+				["SEAD"] = true,
+			},
+			tasksCoef = {									--unit tasks coef (optional)
+				["Strike"] = 2,								-- coef normal : = 1
+				["SEAD"] = 1.5,
+				["Anti-ship Strike"] = 1,
+				["Laser Illumination"] = 1,				
+			},
+			number = 4,
+		},
+		[50] = {
+			name = "R/637 Squadron",							--unit name
+			inactive = true,
+			type = "Su-17M4",								--aircraft type
+			country = "Syria",								--unit country
+			base = "Reserves",
+			skill = getSkill(mission_ini.min_skill_red_attacker, mission_ini.max_skill_red_attacker),			--unit skill
+			tasks = {},										--unit tasks
+			number = 26,
+		},		
+		[51] = { 
+			name = "9th GHR",								--unit name
+			type = "Mi-8MT",								--aircraft type
+			helicopter = true,								--true for helicopter units
+			country = "Russia",								--unit country
+			livery = "",									--unit livery
+			base = "Khalkhalah", 							--unit base
+			skill = getSkill(mission_ini.min_skill_red_helicopter, mission_ini.max_skill_red_helicopter),			--unit skill
+			tasks = {
+				["Transport"] = false,
+				["Strike"] = true,
+			},
+			number = 4,
+		},
+		[52] = {
+			name = "R/9th GHR",								--unit name
+			inactive = true,
+			type = "Mi-8MT",								--aircraft type
+			helicopter = true,								--true for helicopter units
+			base = "Reserves",
+			skill = getSkill(mission_ini.min_skill_red_helicopter, mission_ini.max_skill_red_helicopter),			--unit skill
+			tasks = {},										--unit tasks
+			number = 26,
+		},	
+		[53] = {
+			name = "17th GHR",								--unit name
+			type = "Mi-24P",								--aircraft type
+			helicopter = true,								--true for helicopter units
+			country = "Russia",								--unit country
+			livery = "",									--unit livery
+			base = "Khalkhalah",					--unit base
+			skill = getSkill(mission_ini.min_skill_red_helicopter, mission_ini.max_skill_red_helicopter),			--unit skill
+			tasks = {
+				["Transport"] = false,
+				["Strike"] = true,
+			},
+			number = 4,
+		},
+		[54] = {
+			name = "R/17th GHR",							--unit name
+			inactive = true,
+			type = "Mi-24P",								--aircraft type
+			helicopter = true,								--true for helicopter units
+			base = "Reserves",
+			skill = getSkill(mission_ini.min_skill_red_helicopter, mission_ini.max_skill_red_helicopter),			--unit skill
+			tasks = {},										--unit tasks
+			number = 26,
+		},
+		
+	-------------------- end Khalkhalah Airbase -------------------------
+
+	-------------------- Taftanaz Helibase (LimitedParkNb = 48) ----------------		
+		-- 13th GHR						Mi-24P			4+26			Russia				Strike CAS Soft
+		-- 2nd GHR						Mi-24V			4+26			Russia				Strike CAS Armor
+		-- 16th Squadron				SA342Minigun	2+18			Lebanon				Strike CAS Soft
+		-- 14th Squadron				SA342Mistral	2+18			Lebanon				Strike CAS Soft
+		-- 15th Squadron				SA342M			4+26			Lebanon				Strike CAS Soft
+
+		-- 130 H-A
+
+		[55] = {
+			name = "13th GHR",								--unit name
+			type = "Mi-24P",								--aircraft type
+			helicopter = true,								--true for helicopter units
+			country = "Russia",								--unit country
+			livery = "",									--unit livery
+			base = "Taftanaz",					--unit base
+			skill = getSkill(mission_ini.min_skill_red_helicopter, mission_ini.max_skill_red_helicopter),			--unit skill
+			tasks = {
+				["Transport"] = false,
+				["Strike"] = true,
+			},
+			number = 4,
+		},
+		[56] = {
+			name = "R/13th GHR",							--unit name
+			inactive = true,
+			type = "Mi-24P",								--aircraft type
+			helicopter = true,								--true for helicopter units
+			base = "Reserves",
+			skill = getSkill(mission_ini.min_skill_red_helicopter, mission_ini.max_skill_red_helicopter),			--unit skill
+			tasks = {},										--unit tasks
+			number = 26,
+		},		
+		[57] = {
+			name = "2nd GHR",								--unit name
+			type = "Mi-24V",								--aircraft type
+			helicopter = true,								--true for helicopter units
+			country = "Russia",								--unit country
+			livery = "",									--unit livery
+			base = "Taftanaz",					--unit base
+			skill = getSkill(mission_ini.min_skill_red_helicopter, mission_ini.max_skill_red_helicopter),			--unit skill
+			tasks = {
+				["Transport"] = false,
+				["Strike"] = true,
+			},
+			number = 4,
+		},
+		[58] = {
+			name = "R/2nd GHR",								--unit name
+			inactive = true,
+			type = "Mi-24V",								--aircraft type
+			helicopter = true,								--true for helicopter units
+			base = "Reserves",
+			skill = getSkill(mission_ini.min_skill_red_helicopter, mission_ini.max_skill_red_helicopter),			--unit skill
+			tasks = {},										--unit tasks
+			number = 26,
+		},	
+		[59] = {
+			name = "16th Squadron",							--unit name
+			type = "SA342Minigun",							--aircraft type
+			helicopter = true,								--true for helicopter units
+			country = "Lebanon",							--unit country
+			livery = "",									--unit livery
+			base = "Taftanaz",								--unit base
+			skill = getSkill(mission_ini.min_skill_red_helicopter, mission_ini.max_skill_red_helicopter),			--unit skill
+			tasks = {
+				["Transport"] = false,
+				["Strike"] = true,
+			},
+			number = 2,
+		},
+		[60] = {
+			name = "R/16th Squadron",						--unit name
+			inactive = true,
+			type = "SA342Minigun",							--aircraft type
+			helicopter = true,								--true for helicopter units
+			base = "Reserves",
+			skill = getSkill(mission_ini.min_skill_red_helicopter, mission_ini.max_skill_red_helicopter),			--unit skill
+			tasks = {},										--unit tasks
+			number = 18,
+		},
+		[61] = {
+			name = "14th Squadron",							--unit name
+			type = "SA342Mistral",							--aircraft type
+			helicopter = true,								--true for helicopter units
+			country = "Lebanon",							--unit country
+			livery = "",									--unit livery
+			base = "Taftanaz",								--unit base
+			skill = getSkill(mission_ini.min_skill_red_helicopter, mission_ini.max_skill_red_helicopter),			--unit skill
+			tasks = {
+				["Transport"] = false,
+				["Strike"] = true,
+			},
+			number = 2,
+		},
+		[62] = {
+			name = "R/14th Squadron",						--unit name
+			inactive = true,
+			type = "SA342Mistral",							--aircraft type
+			helicopter = true,								--true for helicopter units
+			base = "Reserves",
+			skill = getSkill(mission_ini.min_skill_red_helicopter, mission_ini.max_skill_red_helicopter),			--unit skill
+			tasks = {},										--unit tasks
+			number = 18,
+		},
+		[63] = {
+			name = "15th Squadron",							--unit name
+			type = "SA342M",								--aircraft type
+			helicopter = true,								--true for helicopter units
+			country = "Lebanon",							--unit country
+			livery = "",									--unit livery
+			base = "Taftanaz",								--unit base
+			skill = getSkill(mission_ini.min_skill_red_helicopter, mission_ini.max_skill_red_helicopter),			--unit skill
+			tasks = {
+				["Transport"] = false,
+				["Strike"] = true,
+			},
+			number = 4,
+		},
+		[64] = {
+			name = "R/15th Squadron",						--unit name
+			inactive = true,
+			type = "SA342M",								--aircraft type
+			helicopter = true,								--true for helicopter units
+			base = "Reserves",
+			skill = getSkill(mission_ini.min_skill_red_helicopter, mission_ini.max_skill_red_helicopter),			--unit skill
+			tasks = {},										--unit tasks
+			number = 26,
+		},
+		
+	-------------------- end Taftanaz Airbase ----------------		
+	
+	-------------------- INACTIVE Sayqal Airbase/Helibase (LimitedParkNb = 59) ----------------
+		-- INACTIVE 267 ShAP					Su-25				4+26			Russia				Strike CAS, SEAD
+		-- INACTIVE 133.IAP						MiG-29A				4+26 			Russia				CAP
+		-- INACTIVE 27.OSAP						An-26B				1+4				Russia				Transport
+		-- INACTIVE 09 SDRLO					MiG-25RBT			4				Russia				Recognition, AWACS		
+		-- INACTIVE 1st GHR						Mi-8MT				4+26			Russia				Strike CAS Soft
+		-- INACTIVE 3rd GHR						Mi-26				3+12			Russia				Transport
+		
 
 		-- 58 F, 30 A, 1+5 T, 60 H-A, 15 H-T 
 
 		
-		[51] = {
+		--[[[51] = {
 			name = "267 ShAP",							--unit name
 			type = "Su-25",								--aircraft type
 			country = "Russia",								--unit country
@@ -2464,7 +2629,7 @@ oob_air = {
 			skill = getSkill(mission_ini.min_skill_red_fighter, mission_ini.max_skill_red_fighter),			--unit skill
 			tasks = {},										--unit tasks
 			number = 26,
-		},
+		},]]
 		--[[[63] = {
 			name = "27.OSAP",								--unit name
 			type = "An-26B",								--aircraft type
@@ -2487,7 +2652,7 @@ oob_air = {
 			tasks = {},										--unit tasks
 			number = 4,
 		},]]
-		[55] = {
+		--[[[55] = {
 			name = "09 SDRLO",								--unit name
 			type = "MiG-25RBT",								--aircraft type
 			country = "Russia",								--unit country
@@ -2500,40 +2665,7 @@ oob_air = {
 				["Reconnaissance"] = true,
 			},
 			number = 4,
-		},
-		[56] = {
-			name = "81st TFS",							--unit name
-			type = "F-14A",								--aircraft type
-			country = "Iran",							--unit country
-			livery = "",								--unit livery
-			base = "Sayqal",							--unit base
-			skill = getSkill(mission_ini.min_skill_red_fighter, mission_ini.max_skill_red_fighter),			--unit skill
-			tasks = {									--unit tasks
-				["Intercept"] = true,
-				["CAP"] = false,
-				["Escort"] = false,
-				["Fighter Sweep"] = true,
-				["Strike"] = false,
-			},
-			tasksCoef = {									--unit tasks coef (optional)
-				["Strike"] = 0.5,							-- coef normal : = 1				
-				["Intercept"] = 2,
-				["CAP"] = 2,
-				["Escort"] = 1.3,
-				["Fighter Sweep"] = 2,	
-			},
-			number = 4,
-		},
-		[57] = {
-			name = "R/81st TFS",							--unit name
-			inactive = true,
-			type = "F-14A",								--aircraft type
-			country = "Iran",								--unit country
-			base = "Reserves",
-			skill = getSkill(mission_ini.min_skill_red_fighter, mission_ini.max_skill_red_fighter),			--unit skill
-			tasks = {},										--unit tasks
-			number = 24,
-		},
+		},		
 		[58] = { 
 			name = "1st GHR",								--unit name
 			type = "Mi-8MT",								--aircraft type
@@ -2580,164 +2712,17 @@ oob_air = {
 			skill = getSkill(mission_ini.min_skill_red_helicopter, mission_ini.max_skill_red_helicopter),			--unit skill
 			tasks = {},										--unit tasks
 			number = 12,
-		},
-		[62] = {
-			name = "15th Squadron",							--unit name
-			type = "SA342M",								--aircraft type
-			helicopter = true,								--true for helicopter units
-			country = "Lebanon",							--unit country
-			livery = "",									--unit livery
-			base = "Sayqal",								--unit base
-			skill = getSkill(mission_ini.min_skill_red_helicopter, mission_ini.max_skill_red_helicopter),			--unit skill
-			tasks = {
-				["Transport"] = false,
-				["Strike"] = true,
-			},
-			number = 4,
-		},
-		[63] = {
-			name = "R/15th Squadron",						--unit name
-			inactive = true,
-			type = "SA342M",								--aircraft type
-			helicopter = true,								--true for helicopter units
-			base = "Reserves",
-			skill = getSkill(mission_ini.min_skill_red_helicopter, mission_ini.max_skill_red_helicopter),			--unit skill
-			tasks = {},										--unit tasks
-			number = 26,
-		},
+		},]]
+		
 	-------------------- end Sayqal Airbase ----------------
 
-	-------------------- Khalkhalah Airbase/Helibase (LimitedParkNb = 35) -----
-		-- INACTIVE 7 Squadron			L-39C			8+24			Syria				Strike CAS soft
-		-- 637 Squadron					Su-17M4			4+26			Syria				Strike Structure, SEAD
-		-- 9th GHR						Mi-8MT			4+26			Russia				Strike CAS Soft
-		-- 17th GHR						Mi-24P			4+26			Russia				Strike CAS Soft
-
-		-- 30 A, 30 B, 60 H-A
-
-		--[[[74] = {
-			name = "7 Squadron",							--unit name
-			type = "L-39C",									--aircraft type
-			country = "Syria",								--unit country
-			livery = "",									--unit livery
-			base = "Khalkhalah",								--unit base
-			skill = getSkill(mission_ini.min_skill_red_attacker, mission_ini.max_skill_red_attacker),			--unit skill
-			tasks = {										--unit tasks
-				["Intercept"] = false,
-				["CAP"] = false,
-				["Escort"] = false,
-				["Fighter Sweep"] = false,				
-				["Strike"] = true,
-				["Anti-ship Strike"] = false,			
-			},
-			tasksCoef = {									--unit tasks coef (optional)
-				["Strike"] = 1.5,							-- coef normal : = 1				
-				["Laser Illumination"] = 1,
-				["Intercept"] = 0.5,
-				["CAP"] = 0.5,
-				["Escort"] = 0.5,			
-				["Fighter Sweep"] = 0.5,
-				["Anti-ship Strike"] = 0.7,			
-			},
-			number = 8,
-		},
-		[75] = {
-			name = "R/7 Squadron",							--unit name
-			inactive = true,
-			type = "L-39C",									--aircraft type
-			country = "Syria",								--unit country
-			base = "Reserves",
-			skill = getSkill(mission_ini.min_skill_red_attacker, mission_ini.max_skill_red_attacker),			--unit skill
-			tasks = {},										--unit tasks
-			number = 24,
-		},]]
-		[64] = {
-			name = "637 Squadron",							--unit name
-			type = "Su-17M4",								--aircraft type
-			country = "Syria",								--unit country
-			livery = "",									--unit livery
-			base = "Khalkhalah",						--unit base
-			skill = getSkill(mission_ini.min_skill_red_attacker, mission_ini.max_skill_red_attacker),			--unit skill
-			tasks = {										--unit tasks
-				["Strike"] = true,
-				["Anti-ship Strike"] = false,			
-				["SEAD"] = true,
-			},
-			tasksCoef = {									--unit tasks coef (optional)
-				["Strike"] = 2,								-- coef normal : = 1
-				["SEAD"] = 1.5,
-				["Anti-ship Strike"] = 1,
-				["Laser Illumination"] = 1,				
-			},
-			number = 4,
-		},
-		[65] = {
-			name = "R/637 Squadron",							--unit name
-			inactive = true,
-			type = "Su-17M4",								--aircraft type
-			country = "Syria",								--unit country
-			base = "Reserves",
-			skill = getSkill(mission_ini.min_skill_red_attacker, mission_ini.max_skill_red_attacker),			--unit skill
-			tasks = {},										--unit tasks
-			number = 26,
-		},		
-		[66] = { 
-			name = "9th GHR",								--unit name
-			type = "Mi-8MT",								--aircraft type
-			helicopter = true,								--true for helicopter units
-			country = "Russia",								--unit country
-			livery = "",									--unit livery
-			base = "Khalkhalah", 						--unit base
-			skill = getSkill(mission_ini.min_skill_red_helicopter, mission_ini.max_skill_red_helicopter),			--unit skill
-			tasks = {
-				["Transport"] = false,
-				["Strike"] = true,
-			},
-			number = 4,
-		},
-		[67] = {
-			name = "R/9th GHR",								--unit name
-			inactive = true,
-			type = "Mi-8MT",								--aircraft type
-			helicopter = true,								--true for helicopter units
-			base = "Reserves",
-			skill = getSkill(mission_ini.min_skill_red_helicopter, mission_ini.max_skill_red_helicopter),			--unit skill
-			tasks = {},										--unit tasks
-			number = 26,
-		},	
-		[68] = {
-			name = "17th GHR",								--unit name
-			type = "Mi-24P",								--aircraft type
-			helicopter = true,								--true for helicopter units
-			country = "Russia",								--unit country
-			livery = "",									--unit livery
-			base = "Khalkhalah",					--unit base
-			skill = getSkill(mission_ini.min_skill_red_helicopter, mission_ini.max_skill_red_helicopter),			--unit skill
-			tasks = {
-				["Transport"] = false,
-				["Strike"] = true,
-			},
-			number = 4,
-		},
-		[69] = {
-			name = "R/17th GHR",							--unit name
-			inactive = true,
-			type = "Mi-24P",								--aircraft type
-			helicopter = true,								--true for helicopter units
-			base = "Reserves",
-			skill = getSkill(mission_ini.min_skill_red_helicopter, mission_ini.max_skill_red_helicopter),			--unit skill
-			tasks = {},										--unit tasks
-			number = 26,
-		},
-	-------------------- end Khalkhalah Airbase -------------------------
-
-	-------------------- Mezzeh Airbase (LimitedParkNb = 28) -----
-		-- 37 Squadron					MiG-21Bis		4+26			Syria				Escort
-		-- 11 Squadron					L-39C			4+26			Syria				Strike CAS soft
+	-------------------- INACTIVE Mezzeh Airbase (LimitedParkNb = 28) -----
+		-- INACTIVE 37 Squadron					MiG-21Bis		4+26			Syria				Escort
+		-- INACTIVE 11 Squadron					L-39C			4+26			Syria				Strike CAS soft
 
 		-- 32 F, 32 A
 
-		[70] = {
+		--[[[70] = {
 			name = "37 Squadron",							--unit name
 			type = "MiG-21Bis",								--aircraft type
 			country = "Syria",								--unit country
@@ -2805,117 +2790,106 @@ oob_air = {
 			skill = getSkill(mission_ini.min_skill_red_attacker, mission_ini.max_skill_red_attacker),			--unit skill
 			tasks = {},										--unit tasks
 			number = 26,
-		},
+		},]] 
 			
 	-------------------- end Mezzeh Airbase -------------------------
 
-	-------------------- Taftanaz Helibase (LimitedParkNb = 48) ----------------		
-		-- 13th GHR						Mi-24P			4+26			Russia				Strike CAS Soft
-		-- 2nd GHR						Mi-24V			4+26			Russia				Strike CAS Armor
-		-- 16th Squadron				SA342Minigun	2+18			Lebanon				Strike CAS Soft
-		-- 14th Squadron				SA342Mistral	2+18			Lebanon				Strike CAS Soft
+	-------------------- INACTIVE Abu al-Duhur (LimitedParkNb = 36) ---------------
+		-- INACTIVE 946 Squadron				MiG-21Bis			8+28	Syria				Escort, Intercept
+		-- INACTIVE 793.IAP						MiG-25PD			8		Russia				Intercept
+		-- INACTIVE 2 Guards BAP 21 th BAA		Su-24M				4+28	Russia				Strike Structure-armor, SEAD
 
-		-- 100 H-A
+		-- 36 F, 32 A
 
-		[74] = {
-			name = "13th GHR",								--unit name
-			type = "Mi-24P",								--aircraft type
-			helicopter = true,								--true for helicopter units
+		--[[[11] = {
+			name = "946 Squadron",								--unit name
+			type = "MiG-21Bis",								--aircraft type
+			country = "Syria",								--unit country
+			livery = "",									--unit livery
+			base = "Abu al-Duhur",								--unit base
+			skill = getSkill(mission_ini.min_skill_red_fighter, mission_ini.max_skill_red_fighter),			--unit skill
+			tasks = {										--unit tasks
+				["Intercept"] = true,
+				["CAP"] = false,
+				["Escort"] = true,
+				["Fighter Sweep"] = false,
+				["Strike"] = false,
+				["Anti-ship Strike"] = false,			
+				["SEAD"] = false,
+			},
+			tasksCoef = {									--unit tasks coef (optional)				
+				["Intercept"] = 1.5,
+				["CAP"] = 1,
+				["Escort"] = 2,
+				["Fighter Sweep"] = 1,
+				["Anti-ship Strike"] = 0.3,			
+				["Strike"] = 0.3,							-- coef normal : = 1
+				["SEAD"] = 0.3,
+				["Laser Illumination"] = 1,
+			},
+			number = 8,
+		},]]
+		--[[[12] = {
+			name = "R/946 Squadron",								--unit name
+			inactive = true,
+			type = "MiG-21Bis",								--aircraft type
+			base = "Reserves",
+			skill = getSkill(mission_ini.min_skill_red_fighter, mission_ini.max_skill_red_fighter),			--unit skill
+			tasks = {},										--unit tasks
+			number = 28,
+		},
+		[18] = {
+			name = "793.IAP",								--unit name
+			type = "MiG-25PD",								--aircraft type
+			country = "Russia",								--unit country
+			livery = "af standard",							--unit livery
+			base = "Abu al-Duhur",						--unit base
+			skill = getSkill(mission_ini.min_skill_red_fighter, mission_ini.max_skill_red_fighter),			--unit skill
+			tasks = {										--unit tasks
+				["Intercept"] = true,
+				["CAP"] = false,
+				["Escort"] = false,
+				["Fighter Sweep"] = false,
+			},
+			tasksCoef = {									
+				["Intercept"] = 2, --unit tasks coef (optional)-- coef normal : = 1
+				["CAP"] = 1.5,
+				["Escort"] = 0.5,
+				["Fighter Sweep"] = 1,
+			},
+			number = 8,
+		},]]
+		--[[[13] = {
+			name = "2 Guards BAP 21 th BAA",								--unit name
+			type = "Su-24M",								--aircraft type
 			country = "Russia",								--unit country
 			livery = "",									--unit livery
-			base = "Taftanaz",					--unit base
-			skill = getSkill(mission_ini.min_skill_red_helicopter, mission_ini.max_skill_red_helicopter),			--unit skill
+			base = "Abu al-Duhur",						--unit base
+			skill = getSkill(mission_ini.min_skill_red_attacker, mission_ini.max_skill_red_attacker),			--unit skill
 			tasks = {
-				["Transport"] = false,
 				["Strike"] = true,
+				["SEAD"] = true,
+				["Laser Illumination"] = true,
+				["Anti-ship Strike"] = false,
+			},
+			tasksCoef = {									--unit tasks coef (optional)
+				["Strike"] = 1.5,								-- coef normal : = 1
+				["SEAD"] = 2,
+				["Laser Illumination"] = 1,				
+				["Anti-ship Strike"] = 1.7,
 			},
 			number = 4,
-		},
-		[75] = {
-			name = "R/13th GHR",							--unit name
+		},]
+		[14] = {
+			name = "R/2 Guards BAP 21 th BAA",								--unit name
 			inactive = true,
-			type = "Mi-24P",								--aircraft type
-			helicopter = true,								--true for helicopter units
+			type = "Su-24M",								--aircraft type
 			base = "Reserves",
-			skill = getSkill(mission_ini.min_skill_red_helicopter, mission_ini.max_skill_red_helicopter),			--unit skill
+			skill = getSkill(mission_ini.min_skill_red_attacker, mission_ini.max_skill_red_attacker),			--unit skill
 			tasks = {},										--unit tasks
-			number = 26,
-		},		
-		[76] = {
-			name = "2nd GHR",								--unit name
-			type = "Mi-24V",								--aircraft type
-			helicopter = true,								--true for helicopter units
-			country = "Russia",								--unit country
-			livery = "",									--unit livery
-			base = "Taftanaz",					--unit base
-			skill = getSkill(mission_ini.min_skill_red_helicopter, mission_ini.max_skill_red_helicopter),			--unit skill
-			tasks = {
-				["Transport"] = false,
-				["Strike"] = true,
-			},
-			number = 4,
-		},
-		[77] = {
-			name = "R/2nd GHR",								--unit name
-			inactive = true,
-			type = "Mi-24V",								--aircraft type
-			helicopter = true,								--true for helicopter units
-			base = "Reserves",
-			skill = getSkill(mission_ini.min_skill_red_helicopter, mission_ini.max_skill_red_helicopter),			--unit skill
-			tasks = {},										--unit tasks
-			number = 26,
-		},	
-		[78] = {
-			name = "16th Squadron",							--unit name
-			type = "SA342Minigun",							--aircraft type
-			helicopter = true,								--true for helicopter units
-			country = "Lebanon",							--unit country
-			livery = "",									--unit livery
-			base = "Taftanaz",								--unit base
-			skill = getSkill(mission_ini.min_skill_red_helicopter, mission_ini.max_skill_red_helicopter),			--unit skill
-			tasks = {
-				["Transport"] = false,
-				["Strike"] = true,
-			},
-			number = 2,
-		},
-		[79] = {
-			name = "R/16th Squadron",						--unit name
-			inactive = true,
-			type = "SA342Minigun",							--aircraft type
-			helicopter = true,								--true for helicopter units
-			base = "Reserves",
-			skill = getSkill(mission_ini.min_skill_red_helicopter, mission_ini.max_skill_red_helicopter),			--unit skill
-			tasks = {},										--unit tasks
-			number = 18,
-		},
-		[80] = {
-			name = "14th Squadron",							--unit name
-			type = "SA342Mistral",							--aircraft type
-			helicopter = true,								--true for helicopter units
-			country = "Lebanon",							--unit country
-			livery = "",									--unit livery
-			base = "Taftanaz",								--unit base
-			skill = getSkill(mission_ini.min_skill_red_helicopter, mission_ini.max_skill_red_helicopter),			--unit skill
-			tasks = {
-				["Transport"] = false,
-				["Strike"] = true,
-			},
-			number = 2,
-		},
-		[81] = {
-			name = "R/14th Squadron",						--unit name
-			inactive = true,
-			type = "SA342Mistral",							--aircraft type
-			helicopter = true,								--true for helicopter units
-			base = "Reserves",
-			skill = getSkill(mission_ini.min_skill_red_helicopter, mission_ini.max_skill_red_helicopter),			--unit skill
-			tasks = {},										--unit tasks
-			number = 18,
-		},
-		
-		
-	-------------------- end Taftanaz Airbase ----------------
-			
+			number = 28,
+		},]]	
+
+	-------------------- end Abu al-Duhur -----------
 	}
 }
