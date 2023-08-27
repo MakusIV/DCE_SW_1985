@@ -210,16 +210,16 @@ supply_tab = { --NOTA: NON DEFINIRE LE SUPPLY LINE: ESSENDO TARGET, DCE PRENDE I
 				['Silifke Storage Site'] = {
 					['integrity'] = 1,
 					['airbase_supply'] = {
-						['Reserves-R/4th Army Aviation Regiment'] = true,
+						--['Reserves-R/4th Army Aviation Regiment'] = true,
 						['Reserves-R/HS-6 Indians'] = true,													
 					},
 				},	
 			},
 		},
-		['USA Fleet 1'] = {
+		['USA Fleet'] = {
 			['integrity'] = 1,
 			['supply_line_names'] = {
-				['Ramat David Airbase'] = {
+				--[[['Ramat David Airbase'] = {
 					['integrity'] = 1,
 					['airbase_supply'] = {
 						['Ramat David'] = true,
@@ -228,7 +228,7 @@ supply_tab = { --NOTA: NON DEFINIRE LE SUPPLY LINE: ESSENDO TARGET, DCE PRENDE I
 						['Reserves-R/12 Gruppo, 36 Stormo'] = true,
 					},
 					
-				},
+				},]]
 				['Naquora Airbase'] = {
 					['integrity'] = 1,
 					['airbase_supply'] = {						
@@ -260,7 +260,7 @@ supply_tab = { --NOTA: NON DEFINIRE LE SUPPLY LINE: ESSENDO TARGET, DCE PRENDE I
 				},
 			},
 		},
-		['USA Fleet 2'] = {
+		['UK Fleet'] = {
 			['integrity'] = 1,
 			['supply_line_names'] = {
 				['Adana Sakirpasa Airbase'] = {
@@ -269,7 +269,7 @@ supply_tab = { --NOTA: NON DEFINIRE LE SUPPLY LINE: ESSENDO TARGET, DCE PRENDE I
 						['Adana Sakirpasa'] = true,
 						['Reserves-R/Escadron de Chasse 2/5 Ile-de-France'] = true,
 						['Reserves-R/Escadron de Chasse 1/2 Cigognes'] = true,		
-						['Reserves-R/Escadron de Chasse 1/5 Vendéee'] = true,													
+						--['Reserves-R/Escadron de Chasse 1/5 Vendéee'] = true,													
 					},
 				},
 			},
@@ -282,7 +282,7 @@ supply_tab = { --NOTA: NON DEFINIRE LE SUPPLY LINE: ESSENDO TARGET, DCE PRENDE I
 					['airbase_supply'] = {																			
 						['Reserves-R/VF-101'] = true,			
 						['Reserves-R/VAW-125'] = true,			
-						['Reserves-R/VS-27'] = true,								
+						['Reserves-R/VS-21'] = true,								
 						['Reserves-R/VS-29'] = true,															
 					},
 				},
@@ -295,7 +295,7 @@ supply_tab = { --NOTA: NON DEFINIRE LE SUPPLY LINE: ESSENDO TARGET, DCE PRENDE I
 					['integrity'] = 1,
 					['airbase_supply'] = {								
 						['Reserves-R/VF-118/GA'] = true,																					
-						['Reserves-R/VS-22'] = true,																						
+						--['Reserves-R/VS-22'] = true,																						
 						['Reserves-VAW-123'] = true,											
 					},
 				},
