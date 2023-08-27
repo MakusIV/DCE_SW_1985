@@ -1194,7 +1194,18 @@ function EventHandler2:onEvent(event)
 		local Gname = event.initiator:getPlayerName()
 		local Uid = event.initiator:getID()
 		local Group = event.initiator:getGroup()
-		local gpGid = event.initiator:getGroup():getID()
+		local gpGid = "Unknow"
+		
+		if not Group or not event.initiator:getGroup():getID() then
+			print("Watch: Group or ID is nil)")
+			print("Gname: " .. (Gname or "nil") .. ", Uid: " .. (Uid or "nil"))
+			
+			if Group then
+				print("inspect Group: " .. inspect(Group))
+			end
+		else
+			gpGid = event.initiator:getGroup():getID()
+		end
 
 		if gpGid  and Group and Gname then 			
 			addFuncs(gpGid, Group)
