@@ -5297,7 +5297,70 @@ weapon_db = {
             ["end_service"] = nil,
             ["cost"] = 160,-- k$  
             ["tnt"] = 320, --kg
-            ["range"] = 11, --Km
+            ["range"] = 10, --Km
+            ["perc_efficiency_variability"] = 0.05, -- efficiecy variability 0-1 (100%)
+            ["efficiency"] = {  
+                
+                ["Structure"] = { -- fixed target (guided bombs and agm missile are more efficiency)            
+                    ["big"] = {
+                        ["accuracy"] = 1,   -- 1 max, 0.1 min ( hit success percentage )
+                        ["destroy_capacity"] = 0.55, -- 1 max: element destroyed (single hit), 0.1 min ( element destroy capacity )                                    
+                    },
+                    ["med"] = {
+                        ["accuracy"] = 1, 
+                        ["destroy_capacity"] = 0.7,
+                    },
+                    ["small"] = {
+                        ["accuracy"] = 0.95, 
+                        ["destroy_capacity"] = 1,
+                    },
+                    ["mix"] = {
+                        ["accuracy"] = 1, 
+                        ["destroy_capacity"] = 0.7,
+                    },
+                },                
+            
+                ["Bridge"] = {-- fixed target (guided bombs and agm missile are more efficiency)            
+                    
+                    ["med"] = {
+                        ["accuracy"] = 1, 
+                        ["destroy_capacity"] = 0.5,
+                    },
+                    ["small"] = {
+                        ["accuracy"] = 0.95, 
+                        ["destroy_capacity"] = 0.95,
+                    },
+                    ["mix"] = {
+                        ["accuracy"] = 1, 
+                        ["destroy_capacity"] = 0.85,
+                    },
+                },        
+
+                ["ship"] = { -- mobile target
+                    ["big"] = {
+                        ["accuracy"] = 1,   -- 
+                        ["destroy_capacity"] = 0.9,
+                    },
+                    ["med"] = {
+                        ["accuracy"] = 1,  
+                        ["destroy_capacity"] = 1,
+                    },
+                    ["mix"] = {
+                        ["accuracy"] = 1, 
+                        ["destroy_capacity"] = 1,
+                    },
+                },        
+            },                               
+        },
+
+        ["Kh-29T"] = { -- TV guided
+            ["type"] = "ASM",       
+            ["task"] = {"Anti-ship Strike", "Strike", "SEAD"},
+            ["start_service"] = 1980,
+            ["end_service"] = nil,
+            ["cost"] = 160,-- k$  
+            ["tnt"] = 320, --kg
+            ["range"] = 12, --Km
             ["perc_efficiency_variability"] = 0.05, -- efficiecy variability 0-1 (100%)
             ["efficiency"] = {  
                 
