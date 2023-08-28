@@ -1,0 +1,15 @@
+Skins to load to have a better Game play experience :
+Generally it's better to put main skin folder to your \Saved Games\DCS.openbeta\Liveries\Aircraft folder
+If it doesn't exist you can create it 
+
+For Cyprus Incident :
+
+
+- Cyprus Hind : https://www.digitalcombatsimulator.com/fr/files/3317166/ and https://www.digitalcombatsimulator.com/fr/files/3317491/
+
+- Greek C-130 :  https://www.digitalcombatsimulator.com/fr/files/2534864/
+
+- Turkish C130 :  https://www.digitalcombatsimulator.com/fr/files/3318189/
+
+
+

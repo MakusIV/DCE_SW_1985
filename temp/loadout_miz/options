@@ -130,17 +130,10 @@ options =
     }, -- end of ["graphics"]
     ["plugins"] = 
     {
-        ["CA"] = 
+        ["Su-25T"] = 
         {
-            ["kompass_options"] = 1,
-            ["ground_aim_helper"] = true,
-            ["ground_platform_shake"] = true,
-            ["ground_target_info"] = true,
-            ["ground_isometric"] = true,
-            ["ground_engine_autostart"] = true,
-            ["ground_automatic"] = true,
-            ["automatic_clutch"] = true,
-        }, -- end of ["CA"]
+            ["CPLocalList"] = "default",
+        }, -- end of ["Su-25T"]
         ["MiG-15bis"] = 
         {
             ["autoLeanToAimMiG15"] = true,
@@ -219,49 +212,20 @@ options =
             ["ACHS1_System_Time"] = false,
             ["RP5_Ground_Return"] = 0,
         }, -- end of ["MiG-19P"]
-        ["CaptoGlove"] = 
+        ["A-10C"] = 
         {
-            ["shoulderJointZ_Right"] = 23,
-            ["armBending"] = 60,
-            ["shoulderJointX_Right"] = -15,
-            ["mouseClickSrc"] = 0,
-            ["shoulderJointZ_Left"] = 23,
-            ["shoulderJointX_Left"] = -15,
-            ["set_debug"] = false,
-            ["pitchOffsetGlove_Left"] = 0,
-            ["yawOffsetGlove_Left"] = 0,
-            ["yawOffsetShoulder_Right"] = 0,
-            ["useBending"] = false,
-            ["shoulderLength_Right"] = 40,
-            ["pitchOffsetGlove_Right"] = 0,
-            ["shoulderJointY_Left"] = -23,
-            ["forearmLength_Left"] = 30,
-            ["shoulderLength_Left"] = 40,
-            ["set_attach"] = false,
-            ["pitchOffsetShoulder_Right"] = 0,
-            ["forearmLength_Right"] = 30,
-            ["pitchOffsetShoulder_Left"] = 0,
-            ["set_symmetrically"] = false,
-            ["yawOffsetShoulder_Left"] = 0,
-            ["enable"] = false,
-            ["shoulderJointY_Right"] = -23,
-            ["yawOffsetGlove_Right"] = 0,
-        }, -- end of ["CaptoGlove"]
-        ["Ka-50"] = 
-        {
-            ["Ka50TrimmingMethod"] = 0,
-            ["Ka50RudderTrimmer"] = false,
-            ["hmdEye"] = 1,
             ["CPLocalList"] = "default",
-            ["helmetCircleDisplacement"] = 11,
-        }, -- end of ["Ka-50"]
-        ["P-51D"] = 
+        }, -- end of ["A-10C"]
+        ["C-101EB"] = 
         {
-            ["assistance"] = 100,
+            ["CPLocalList"] = "default",
+        }, -- end of ["C-101EB"]
+        ["I-16"] = 
+        {
+            ["assistance"] = 0,
+            ["CPLocalList"] = "default",
             ["autoRudder"] = false,
-            ["CPLocalList_P51D25NA"] = "default",
-            ["CPLocalList_P51D30NA"] = "default",
-        }, -- end of ["P-51D"]
+        }, -- end of ["I-16"]
         ["MiG-21Bis"] = 
         {
             ["Pitot"] = false,
@@ -313,6 +277,11 @@ options =
             ["ControlsDisplayLocation"] = 0,
             ["PedalTrimType"] = 0,
         }, -- end of ["SA342"]
+        ["Christen Eagle II"] = 
+        {
+            ["SimplifiedRudder"] = false,
+            ["CPLocalList"] = "default",
+        }, -- end of ["Christen Eagle II"]
         ["F/A-18C"] = 
         {
             ["abDetent"] = 0,
@@ -331,11 +300,13 @@ options =
         }, -- end of ["L-39C"]
         ["AV8BNA"] = 
         {
-            ["INS_Alignment"] = 0,
+            ["MPCD_GAIN"] = 40,
+            ["USE_REAL_TDC"] = false,
             ["INS_GYROHasNAV"] = false,
+            ["MPCD_CONS"] = 70,
             ["USE_MPCD_EXPORT"] = false,
             ["CPLocalList"] = "default",
-            ["USE_REAL_TDC"] = false,
+            ["INS_Alignment"] = 0,
             ["MPCD_EXPORT"] = false,
         }, -- end of ["AV8BNA"]
         ["LeapMotion"] = 
@@ -371,18 +342,22 @@ options =
             ["F1ALR300VoiceLang"] = 0,
             ["F1AutoCounterSet"] = true,
         }, -- end of ["Mirage-F1"]
-        ["FC3"] = 
+        ["F-16C"] = 
         {
-            ["CPLocalList_Su-25"] = "default",
-            ["CPLocalList_Su-27"] = "default",
-            ["CPLocalList_A-10A"] = "default",
-            ["CPLocalList_Su-33"] = "default",
-            ["CPLocalList_MiG-29S"] = "default",
-            ["CPLocalList_MiG-29A"] = "default",
-            ["CPLocalList_J-11A"] = "default",
-            ["CPLocalList_MiG-29G"] = "default",
-            ["CPLocalList_F-15C"] = "default",
-        }, -- end of ["FC3"]
+            ["abDetent"] = 0,
+            ["canopyReflections"] = 0,
+            ["hmdEye"] = 1,
+            ["CPLocalList"] = "default",
+            ["canopyTint"] = 1,
+            ["mfdReflections"] = 0,
+        }, -- end of ["F-16C"]
+        ["SpitfireLFMkIX"] = 
+        {
+            ["assistance"] = 100,
+            ["aileronTrim"] = 0,
+            ["CPLocalList"] = "default",
+            ["autoRudder"] = false,
+        }, -- end of ["SpitfireLFMkIX"]
         ["M-2000C"] = 
         {
             ["FUEL_DETOT_AUTO"] = false,
@@ -408,21 +383,36 @@ options =
             ["RADAR_MAPOBJECTS"] = true,
             ["PCN_DIGIT_MSG"] = true,
         }, -- end of ["M-2000C"]
+        ["TF-51D"] = 
+        {
+            ["assistance"] = 100,
+            ["CPLocalList"] = "default",
+            ["autoRudder"] = false,
+        }, -- end of ["TF-51D"]
         ["A-10C_2"] = 
         {
             ["hmdEye"] = 1,
             ["CPLocalList"] = "aged",
             ["defaultGunMode"] = 0,
         }, -- end of ["A-10C_2"]
-        ["F-16C"] = 
+        ["P-51D"] = 
         {
-            ["abDetent"] = 0,
-            ["canopyReflections"] = 0,
-            ["hmdEye"] = 1,
-            ["CPLocalList"] = "default",
-            ["canopyTint"] = 1,
-            ["mfdReflections"] = 0,
-        }, -- end of ["F-16C"]
+            ["assistance"] = 100,
+            ["autoRudder"] = false,
+            ["CPLocalList_P51D25NA"] = "default",
+            ["CPLocalList_P51D30NA"] = "default",
+        }, -- end of ["P-51D"]
+        ["CA"] = 
+        {
+            ["kompass_options"] = 1,
+            ["ground_aim_helper"] = true,
+            ["ground_platform_shake"] = true,
+            ["ground_target_info"] = true,
+            ["ground_isometric"] = true,
+            ["ground_engine_autostart"] = true,
+            ["ground_automatic"] = true,
+            ["automatic_clutch"] = true,
+        }, -- end of ["CA"]
         ["NS430"] = 
         {
             ["bf109k4_enabled"] = true,
@@ -468,12 +458,6 @@ options =
             ["miraj_enabled"] = true,
             ["sa342_enabled"] = true,
         }, -- end of ["NS430"]
-        ["TF-51D"] = 
-        {
-            ["assistance"] = 100,
-            ["CPLocalList"] = "default",
-            ["autoRudder"] = false,
-        }, -- end of ["TF-51D"]
         ["Mi-24P"] = 
         {
             ["CPLocalList"] = "default",
@@ -495,14 +479,14 @@ options =
             ["Mi24PedalsAutoMove"] = true,
             ["weapTooltipsMi24"] = true,
         }, -- end of ["Mi-24P"]
-        ["Su-25T"] = 
+        ["Ka-50"] = 
         {
+            ["Ka50TrimmingMethod"] = 0,
+            ["Ka50RudderTrimmer"] = false,
+            ["hmdEye"] = 1,
             ["CPLocalList"] = "default",
-        }, -- end of ["Su-25T"]
-        ["C-101EB"] = 
-        {
-            ["CPLocalList"] = "default",
-        }, -- end of ["C-101EB"]
+            ["helmetCircleDisplacement"] = 11,
+        }, -- end of ["Ka-50"]
         ["F-86F"] = 
         {
             ["landSeatAdjustF86"] = true,
@@ -520,10 +504,34 @@ options =
             ["CPLocalList"] = "default",
             ["helmetCircleDisplacement"] = 11,
         }, -- end of ["Ka-50_3"]
-        ["A-10C"] = 
+        ["CaptoGlove"] = 
         {
-            ["CPLocalList"] = "default",
-        }, -- end of ["A-10C"]
+            ["shoulderJointZ_Right"] = 23,
+            ["armBending"] = 60,
+            ["shoulderJointX_Right"] = -15,
+            ["mouseClickSrc"] = 0,
+            ["shoulderJointZ_Left"] = 23,
+            ["shoulderJointX_Left"] = -15,
+            ["set_debug"] = false,
+            ["pitchOffsetGlove_Left"] = 0,
+            ["yawOffsetGlove_Left"] = 0,
+            ["yawOffsetShoulder_Right"] = 0,
+            ["useBending"] = false,
+            ["shoulderLength_Right"] = 40,
+            ["pitchOffsetGlove_Right"] = 0,
+            ["shoulderJointY_Left"] = -23,
+            ["forearmLength_Left"] = 30,
+            ["shoulderLength_Left"] = 40,
+            ["set_attach"] = false,
+            ["pitchOffsetShoulder_Right"] = 0,
+            ["forearmLength_Right"] = 30,
+            ["pitchOffsetShoulder_Left"] = 0,
+            ["set_symmetrically"] = false,
+            ["yawOffsetShoulder_Left"] = 0,
+            ["enable"] = false,
+            ["shoulderJointY_Right"] = -23,
+            ["yawOffsetGlove_Right"] = 0,
+        }, -- end of ["CaptoGlove"]
         ["AJS37"] = 
         {
             ["CPLocalList"] = "default",
@@ -550,13 +558,18 @@ options =
             ["weapTooltips"] = true,
             ["UHTrimmingMethod"] = 0,
         }, -- end of ["UH-1H"]
-        ["SpitfireLFMkIX"] = 
+        ["FC3"] = 
         {
-            ["assistance"] = 100,
-            ["aileronTrim"] = 0,
-            ["CPLocalList"] = "default",
-            ["autoRudder"] = false,
-        }, -- end of ["SpitfireLFMkIX"]
+            ["CPLocalList_Su-25"] = "default",
+            ["CPLocalList_Su-27"] = "default",
+            ["CPLocalList_A-10A"] = "default",
+            ["CPLocalList_Su-33"] = "default",
+            ["CPLocalList_MiG-29S"] = "default",
+            ["CPLocalList_MiG-29A"] = "default",
+            ["CPLocalList_J-11A"] = "default",
+            ["CPLocalList_MiG-29G"] = "default",
+            ["CPLocalList_F-15C"] = "default",
+        }, -- end of ["FC3"]
     }, -- end of ["plugins"]
     ["format"] = 1,
     ["sound"] = 
