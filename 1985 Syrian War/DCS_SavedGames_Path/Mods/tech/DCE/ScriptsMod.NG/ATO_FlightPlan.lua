@@ -2721,8 +2721,17 @@ for side, pack in pairs(ATO) do													--iterate through sides in ATO
 					--High (50 � 75)
 					--Excellent (75 � 100)
 					
-					if flight[f].skill == "high" then
-						calcWish = 62
+					if flight[f].skill == "Excellent" then
+						calcWish = 85
+					
+					elseif flight[f].skill == "high" then
+							calcWish = 62
+					
+					elseif flight[f].skill == "Good" then
+								calcWish = 37								
+					
+					elseif flight[f].skill == "Average" then
+								calcWish = 15
 					else 
 						calcWish = skillWish[side]
 					end
