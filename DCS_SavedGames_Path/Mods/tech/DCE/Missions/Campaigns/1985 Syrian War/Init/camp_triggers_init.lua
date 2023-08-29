@@ -679,7 +679,7 @@ camp_triggers = {
 	["Reinforce 4450th Tactical Group"] = {
 		active = true,
 		condition = 'true',
-		action = 'Action.AirUnitReinforce("R/4450th Tactical Group", "4450th Tactical Group", 2)',
+		action = 'Action.AirUnitReinforce("R/4450th Tactical Group", "4450th Tactical Group", 3)',
 	},
 	["Reinforce 56th Operations Group"] = {
 		active = true,
@@ -749,7 +749,7 @@ camp_triggers = {
 	["Reinforce 4453th Tactical Group"] = {
 		active = true,
 		condition = 'true',
-		action = 'Action.AirUnitReinforce("R/4453th Tactical Group", "4453th Tactical Group", 2)',
+		action = 'Action.AirUnitReinforce("R/4453th Tactical Group", "4453th Tactical Group", 3)',
 	},	
 	["Reinforce VF-101"] = {
 		active = true,
@@ -764,7 +764,7 @@ camp_triggers = {
 	["Reinforce VS-21"] = {
 		active = true,
 		condition = 'true',
-		action = 'Action.AirUnitReinforce("R/VS-21", "VS-21", 2)',
+		action = 'Action.AirUnitReinforce("R/VS-21", "VS-21", 4)',
 	},
 	["Reinforce VAW-125"] = {
 		active = true,
@@ -779,7 +779,7 @@ camp_triggers = {
 	["Reinforce 1th Army Aviation Regiment"] = {
 		active = true,
 		condition = 'true',
-		action = 'Action.AirUnitReinforce("R/1th Army Aviation Regiment", "1th Army Aviation Regiment", 3)',
+		action = 'Action.AirUnitReinforce("R/1th Army Aviation Regiment", "1th Army Aviation Regiment", 2)',
 	},
 	["Reinforce HMLA-167"] = {
 		active = true,
@@ -800,7 +800,7 @@ camp_triggers = {
 	["Reinforce 14th Army Aviation Regiment"] = {
 		active = true,
 		condition = 'true',
-		action = 'Action.AirUnitReinforce("R/14th Army Aviation Regiment", "14th Army Aviation Regiment", 3)',
+		action = 'Action.AirUnitReinforce("R/14th Army Aviation Regiment", "14th Army Aviation Regiment", 2)',
 
 	},
 	["Reinforce HMLA-177"] = {
@@ -960,7 +960,7 @@ camp_triggers = {
 	["Reinforce 15th Squadron"] = {
 		active = true,
 		condition = 'true',
-		action = 'Action.AirUnitReinforce("R/15th Squadron", "15th Squadron", 4)',
+		action = 'Action.AirUnitReinforce("R/15th Squadron", "15th Squadron", 3)',
 	},	
 	["Reinforce 637 Squadron"] = {
 		active = true,
@@ -970,32 +970,32 @@ camp_triggers = {
 	["Reinforce 9th GHR"] = {
 		active = true,
 		condition = 'true',
-		action = 'Action.AirUnitReinforce("R/9th GHR", "9th GHR", 4)',
+		action = 'Action.AirUnitReinforce("R/9th GHR", "9th GHR", 3)',
 	},
 	["Reinforce 17th GHR"] = {
 		active = true,
 		condition = 'true',
-		action = 'Action.AirUnitReinforce("R/17th GHR", "17th GHR", 4)',
+		action = 'Action.AirUnitReinforce("R/17th GHR", "17th GHR", 3)',
 	},
 	["Reinforce 13th GHR"] = {
 		active = true,
 		condition = 'true',
-		action = 'Action.AirUnitReinforce("R/13th GHR", "13th GHR", 4)',
+		action = 'Action.AirUnitReinforce("R/13th GHR", "13th GHR", 3)',
 	},
 	["Reinforce 2nd GHR"] = {
 		active = true,
 		condition = 'true',
-		action = 'Action.AirUnitReinforce("R/2nd GHR", "2nd GHR", 4)',
+		action = 'Action.AirUnitReinforce("R/2nd GHR", "2nd GHR", 3)',
 	},
 	["Reinforce 16th Squadron"] = {
 		active = true,
 		condition = 'true',
-		action = 'Action.AirUnitReinforce("R/16th Squadron", "16th Squadron", 4)',
+		action = 'Action.AirUnitReinforce("R/16th Squadron", "16th Squadron", 3)',
 	},
 	["Reinforce 14th Squadron"] = {
 		active = true,
 		condition = 'true',
-		action = 'Action.AirUnitReinforce("R/14th Squadron", "14th Squadron", 4)',
+		action = 'Action.AirUnitReinforce("R/14th Squadron", "14th Squadron", 3)',
 	},
 	--[[["Reinforce 2 Squadron"] = {
 		active = true,

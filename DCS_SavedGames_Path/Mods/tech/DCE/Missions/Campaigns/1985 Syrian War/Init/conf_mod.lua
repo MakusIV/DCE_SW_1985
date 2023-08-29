@@ -91,7 +91,7 @@ mission_ini = {
 		["F-14B"] = "deck",						-- (default: "deck"), "catapult", "air"
 		["E-2C"] = "deck",
 		["S-3B Tanker"] = "deck",
-		["Pedro"] = "deck",
+		["Pedro"] = "air",
 	},
 
 	MP_PlaneRecovery = false,					--  (defaut: false) In multiplayer, this allows you to control an aircraft already in flight in case of a crash. M11.q
@@ -157,9 +157,9 @@ MISSION_START_COMMANDER = 5     -- first mission for start commander execution
 
 
 Debug = {
-	AfficheFailure = true,                        -- affiche les infos Pannes Al�atoires
+	AfficheFailure = false	,                        -- affiche les infos Pannes Al�atoires
 	AfficheFlight = true,						-- affiche les infos des packages cr��s dans ATO_FlightPlan
-	AfficheSol = true,							-- affiche les infos des cibles encore intactes
+	AfficheSol = false,							-- affiche les infos des cibles encore intactes
 	KillGround  = {
 		flag = false,				-- Active la destruction al�atoires des cibles, via les options plus bas
 		sideGround = "red",			-- le camp o� l'on veut d�truire les unit�s
