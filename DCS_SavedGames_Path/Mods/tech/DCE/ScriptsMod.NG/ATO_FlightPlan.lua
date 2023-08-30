@@ -2720,37 +2720,48 @@ for side, pack in pairs(ATO) do													--iterate through sides in ATO
 					--Good (25� 50)
 					--High (50 � 75)
 					--Excellent (75 � 100)
+					mSkill = 2
 					
 					if flight[f].skill == "Excellent" then
-						calcWish = 85
+
+						if math.random() > 0.75 then
+							mSkill = 4
+						
+						else
+							mSkill = 3
+						end
+						
 					
 					elseif flight[f].skill == "high" then
-							calcWish = 62
+							
+						if math.random() > 0.4 then
+							mSkill = 3
+						
+						else
+							mSkill = 2
+						end
 					
 					elseif flight[f].skill == "Good" then
-								calcWish = 37								
+						
+						if math.random() > 0.2 then
+							mSkill = 2
+						
+						else
+							mSkill = 1
+						end
 					
-					elseif flight[f].skill == "Average" then
-								calcWish = 15
-					else 
-						calcWish = skillWish[side]
-					end
-					
-					if n == 1 or ( flight[f].player and n == 2 )then 
-						mSkill =  math.random(calcWish-20, calcWish+18) / 25 		-- 75-62 = 13 (13 + 5 = 18 )5 % de chance d'avoir excellent
-					else
-						mSkill =  math.random(calcWish-50, calcWish+10) / 25
-					end
+					elseif flight[f].skill == "Average" then						
+							mSkill = 1
 
-		
-					mSkill = math.floor(mSkill) + 1
+					else 
+						mSkill = 2
+					end
 					
-					if mSkill < 1 then mSkill = 1
-					elseif mSkill > 4 then mSkill = 4
-					else mSkill = mSkill
+					if (n == 1 or ( flight[f].player and n == 2 )) and mSkill < 3 then 
+
+						mSkill =  math.random(2, 3) 		-- 75-62 = 13 (13 + 5 = 18 )5 % de chance d'avoir excellent					
 					end	
-					
-					
+										
 					units[n] = {
 						["alt"] = waypoints[1].alt,
 						["heading"] = 0,
