@@ -257,7 +257,7 @@ campMod = {
 	Setting_Generation= {
 		["limit_escort"] = 8,												-- (default : 99)(recommended : 8), limit escort number to
 	},
-	StrikeOnlyWithEscorte = false, 											-- (default : true) strikes are possible with only one escort
+	StrikeOnlyWithEscorte = true, 											-- (default : true) strikes are possible with only one escort
 }
 
 

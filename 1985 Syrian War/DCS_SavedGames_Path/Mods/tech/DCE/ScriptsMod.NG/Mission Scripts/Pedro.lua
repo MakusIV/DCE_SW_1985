@@ -100,7 +100,7 @@ end
 			for PedroName, value in pairs(tab) do
 				
 				-- env.info("PedroPasse02b inAir? "..PedroName.." "..tostring(value.Pedro_unit:inAir()))
-				if value.Pedro_unit:inAir() then
+				if value.Pedro_unit and value.Pedro_unit:inAir() then
 					local current_time = timer.getTime()
 					
 					local ship_Pos = value.Ship_unit:getPoint()

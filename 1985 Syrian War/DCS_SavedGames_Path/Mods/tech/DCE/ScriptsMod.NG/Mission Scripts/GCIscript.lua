@@ -253,8 +253,14 @@ local function GCI_Cycle()
 									
 									-- trigger.action.outText(selected_flight .. " 01 launched to intercept " .. target_name, 15)	--FOR DEBUG
 									-- env.info(selected_flight .. " 01 launched to intercept " .. target_name)
-									local idInfo = Group.getByName(selected_flight):getID()
-									local _side = Group.getByName(selected_flight):getCoalition()
+									local idInfo = "Unknow"
+									local _side = "Unknow"
+
+									if Group.getByName(selected_flight) then
+										idInfo = Group.getByName(selected_flight):getID()
+										_side = Group.getByName(selected_flight):getCoalition()
+									
+									end
 									
 									-- on replace les vecteurs dans un repere x/y/z/
 									local newTarget = {}
