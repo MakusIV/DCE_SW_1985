@@ -5,12 +5,13 @@
 --player can request emergency resupply with S-3B's
 -- It is possible to send the whole PACK in RTB to avoid unnecessary losses. 
 ------------------------------------------------------------------------------------------------------- 
--- Miguel Fichier Revision M29.g M36.e
+-- Old_Boy rev. OB.1.0.0
 ------------------------------------------------------------------------------------------------------- 
 
 if not versionDCE then versionDCE = {} end
 versionDCE["AddCommandRadioF10.lua"] = "1.05.23"
 
+-- Old_Boy rev. OB.1.0.0:  dirty fix object (Group) nil value runtime error
 -- add Function
 -- Miguel21 modification M36.e	(e: 1 h) (d: add timer) MenuRadio request manual TurnIntoWind
 -- debug_ADD_CRF10.c	n'affiche pas les messages d'error sauf à la fin de mission
@@ -1194,20 +1195,17 @@ function EventHandler2:onEvent(event)
 		local Gname = event.initiator:getPlayerName()
 		local Uid = event.initiator:getID()
 		local Group = event.initiator:getGroup()
-		local gpGid = "Unknow"
+		local gpGid
 		
-		if not Group or not event.initiator:getGroup():getID() then
-			print("Watch: Group or ID is nil)")
-			print("Gname: " .. (Gname or "nil") .. ", Uid: " .. (Uid or "nil"))
-			
-			if Group then
-				print("inspect Group: " .. inspect(Group))
-			end
-		else
+		if Group then						
 			gpGid = event.initiator:getGroup():getID()
+
+			if not gpGid then
+				gpGid = "Unknow"
+			end
 		end
 
-		if gpGid  and Group and Gname then 			
+		if gpGid and Group and Gname then 			
 			addFuncs(gpGid, Group)
 		end
 	end

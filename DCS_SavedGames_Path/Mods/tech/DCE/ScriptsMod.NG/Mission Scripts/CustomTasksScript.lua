@@ -2,9 +2,11 @@
 --Script attached to mission and executed via trigger
 --Functions accessed via LUA Run Script on waypoint
 ------------------------------------------------------------------------------------------------------- 
+-- Old_Boy rev. OB.1.0.0
 -- Miguel Fichier Revision M45
 ------------------------------------------------------------------------------------------------------- 
 
+-- Old_Boy rev. OB.1.0.0:  dirty fix object (leader) nil value runtime error
 -- miguel21 modification M45 : compatible with 2.7.0
 -- CTS_DebugChecking01  creates custom files to observe 
 -- CTS_debug14 Helicopter
@@ -1016,7 +1018,7 @@ function CustomSearchThenEngage(FlightName, Radius, TargetType)
 		local flight = Group.getByName(FlightName)							--get group
 		if flight then														--group still exists
 			local leader = flight:getUnit(1)								--get first unit in group
-			if leader:inAir() and leader:getPlayerName() == nil then		--stop it for groups that have landed and don't apply it to players
+			if leader and leader:inAir() and leader:getPlayerName() == nil then		--stop it for groups that have landed and don't apply it to players
 				
 				local cntrl = flight:getController()						--get controller of group
 				local pos = leader:getPoint()								--get position

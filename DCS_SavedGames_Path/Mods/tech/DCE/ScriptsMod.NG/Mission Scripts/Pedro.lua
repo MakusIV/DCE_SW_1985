@@ -3,9 +3,10 @@
 -- Garde le Pedro (Helicoptere de sauvetage), proche du CVN, malgr� les changements de cap
 -- Keeps the Pedro (Rescue Helicopter), close to the CVN, in spite of course changes.
 ------------------------------------------------------------------------------------------------------- 
--- Miguel Fichier Revision M40.b (dev 018)
+-- Old_Boy rev. OB.1.0.0  
 -------------------------------------------------------------------------------------------------------
 
+-- Old_Boy rev. OB.1.0.0:  dirty fix object (value.Pedro_unit) nil value runtime error  
 -- miguel21 modification M40.b : Pedro Helicopter (b: TakeOff)
 do
 
