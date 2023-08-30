@@ -2,8 +2,10 @@
 --Script attached to mission and executed via trigger
 --Requires GCIdata.lua to be attached and run in mission in order to get access to table GCI
 ------------------------------------------------------------------------------------------------------- 
--- Miguel Fichier Revision  M11.j 
+-- Old_Boy rev. OB.1.0.0
 ------------------------------------------------------------------------------------------------------- 
+
+-- Old_Boy rev. OB.1.0.0: dirty fix object (Group.getByName(selected_flight)) nil value runtime error  
 -- Miguel21 modification M11.j : Multiplayer
 
 --example of data structure for table GCI supplied by GCIdata.lua
@@ -275,12 +277,11 @@ local function GCI_Cycle()
 
 									env.info(selected_flight .. " launched to intercept: " .. target.number .." "..target.typeName.." Bearing: "..target.bearing.." Angel: "..target.altitude.." Distance: "..target.distance.." Km")
 									
-									trigger.action.outTextForGroup(idInfo, selected_flight .. " launched to intercept: " .. target.number .." "..target.typeName.." Bearing: "..target.bearing.." Angel: "..target.altitude.." Distance: "..target.distance.." Km", 60 , true)
-
-									-- trigger.action.outSoundForCoalition(_side, "l10n/DEFAULT/alarme.wav" )
-									
-									trigger.action.outSoundForGroup(idInfo, "l10n/DEFAULT/alarme.wav" )
-									
+									if not( idInfo == "Unknow" ) then
+										trigger.action.outTextForGroup(idInfo, selected_flight .. " launched to intercept: " .. target.number .." "..target.typeName.." Bearing: "..target.bearing.." Angel: "..target.altitude.." Distance: "..target.distance.." Km", 60 , true)									
+										-- trigger.action.outSoundForCoalition(_side, "l10n/DEFAULT/alarme.wav" )									
+										trigger.action.outSoundForGroup(idInfo, "l10n/DEFAULT/alarme.wav" )
+									end
 									
 									--assign mission task to interceptor flight
 									ErrorMsg = "Assign interceptors; Target: " .. target_name .. "; Selected Flight: " .. selected_flight				--Error message in case follow on code fails
