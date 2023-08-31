@@ -53,7 +53,7 @@ targetlist = {
 		-- Production & Storage
 		["Hin Shinshar Chemical Storage"] = { --fatto
 			task = "Strike",
-			priority = 4,
+			priority = 7,
 			picture = {"Hin _hinshar_Chemical_Storage.png"},
 			attributes = {"Structure"},
 			firepower = {
@@ -103,7 +103,7 @@ targetlist = {
 
 		["Khirbet Tin Nur Chemical Storage"] = { --fatto
 			task = "Strike",
-			priority = 4,
+			priority = 3,
 			picture = {"Khirbet_Tin_Nur_Chemical_Storage.png"},
 			attributes = {"Structure"},
 			firepower = {
@@ -153,7 +153,7 @@ targetlist = {
 
 		["Iranian Storage Facility"] = { --fatto
 			task = "Strike",
-			priority = 4,
+			priority = 7,
 			picture = {"Iranian_Storage_Facility.png"},
 			attributes = {"Structure"},
 			firepower = {
@@ -203,7 +203,7 @@ targetlist = {
 
 		["Palmyra Storage"] = {--fatto
 			task = "Strike",
-			priority = 4,
+			priority = 3,
 			picture = {"Target.Palmyra_Storage.png"},
 			attributes = {"Structure"},
 			firepower = {
@@ -253,7 +253,7 @@ targetlist = {
 
 		["IR-Abukamal Storage"] = {--fatto
 			task = "Strike",
-			priority = 4,
+			priority = 3,
 			picture = {"Target.IR_Abukamal_Storage.png"},
 			attributes = {"Structure"},
 			firepower = {
@@ -318,7 +318,7 @@ targetlist = {
 
 		["Marj Ruhayyil SAM SA-2"] = {--fatto
 			task = "Strike",
-			priority = 6,
+			priority = 4,
 			attributes = {"SAM"},
 			firepower = {
 				min = 2, 
@@ -330,7 +330,7 @@ targetlist = {
 
 		["Bassel Al-Assad SAM SA-6 Site"] = {--fatto
 			task = "Strike",
-			priority = 6,
+			priority = 7,
 			attributes = {"SAM"},
 			firepower = {
 				min = 2, 
@@ -342,7 +342,7 @@ targetlist = {
 
 		["An Nasiriyah SAM SA-2 Site"] = { --fatto
 			task = "Strike",
-			priority = 6,
+			priority = 4,
 			attributes = {"SAM"},
 			firepower = {
 				min = 2, 
@@ -354,7 +354,7 @@ targetlist = {
 
 		["Ram Tarza SA10 Site"] = { --fatto
 			task = "Strike",
-			priority = 6,
+			priority = 5,
 			attributes = {"SAM"},
 			firepower = {
 				min = 2, 
@@ -366,7 +366,7 @@ targetlist = {
 
 		["Palmyra SA10 Site"] = { --fatto
 			task = "Strike",
-			priority = 6,
+			priority = 7,
 			attributes = {"SAM"},
 			firepower = {
 				min = 2, 
@@ -379,7 +379,7 @@ targetlist = {
 		["Deir ez-Zor SA55 Site"] = {--fatto
 			task = "Strike",
 			picture = {"Deir_ez_Zor_Airbase_and_SAM.png"},
-			priority = 6,
+			priority = 4,
 			attributes = {"SAM"},
 			firepower = {
 				min = 2, 
@@ -392,7 +392,7 @@ targetlist = {
 		["Beirut SA-11 Buk Site"] = {--fatto
 			task = "Strike",
 			picture = {},
-			priority = 6,
+			priority = 8,
 			attributes = {"SAM"},
 			firepower = {
 				min = 2, 
@@ -405,7 +405,7 @@ targetlist = {
 		--EWR Site
 		["102 EWR Site"] = { --fatto
 			task = "Strike",
-			priority = 5,
+			priority = 7,
 			picture = {"102_EWR_Site.png"},
 			attributes = {"soft"},
 			firepower = {
@@ -434,7 +434,7 @@ targetlist = {
 
 		["IR-Al Kiswah Military Base"] = { -- fatto
 			task = "Strike",
-			priority = 4,
+			priority = 5,
 			picture = {"IR_al_Kiswah_Military_base.png"},
 			attributes = {"Structure"},
 			firepower = {
@@ -484,7 +484,7 @@ targetlist = {
 
 		["An Nasiriyah Military Base"] = { -- fatto
 			task = "Strike",
-			priority = 4,
+			priority = 5,
 			picture = {"An_Nasiriyah_Military_Base.png"},
 			attributes = {"Structure"},
 			firepower = {
@@ -534,7 +534,7 @@ targetlist = {
 
 		["154th Artillery Regiment"] = { --Syria -- supported by Russian Air Defence --fatto
 			task = "Strike",
-			priority = 1,
+			priority = 4,
 			attributes = {"soft"},
 			firepower = {
 				min = 3,  -- 2,
@@ -546,7 +546,7 @@ targetlist = {
 		
 		["42nd Armored Brigade"] = { -- Syria -- supported by Russian Air Defence --fatto
 			task = "Strike",
-			priority = 1,
+			priority = 4,
 			attributes = {"armor"},
 			firepower = {
 				min = 3,  -- 2,
@@ -558,7 +558,7 @@ targetlist = {
 
 		["5th Heavy Brigades"] = { -- Lebanon (Mechanised) -- supported by Russian Air Defence --fatto
 			task = "Strike",
-			priority = 1,
+			priority = 4,
 			attributes = {"soft"},
 			firepower = {
 				min = 3,  -- 2,
@@ -585,7 +585,7 @@ targetlist = {
 
 		["Gaziantep 70 km Alert"] = {--fatto
 			task = "Intercept",
-			priority = 5,
+			priority = 4,
 			attributes = {},
 			firepower = {
 				min = 2,  -- min num enemy aircraft
@@ -598,7 +598,7 @@ targetlist = {
 
 		["Adana Sakirpasa 150 km Alert"] = {--fatto
 			task = "Intercept",
-			priority = 5,
+			priority = 4,
 			attributes = {},
 			firepower = {
 				min = 2,  -- min num enemy aircraft
@@ -690,7 +690,7 @@ targetlist = {
 
 		["An Nasiriyah Airbase"] = {
 			task = "Strike",
-			priority = 4,
+			priority = 6,
 			picture = {"An_Nasiriyah_Airbase.png"},
 			attributes = {"Structure"},
 			firepower = {
@@ -764,7 +764,7 @@ targetlist = {
 
 		["An Nasiriyah airbase OCA Strike"] = {
 			task = "Strike",
-			priority = 1,
+			priority = 4,
 			attributes = {"Parked Aircraft"},
 			firepower = {
 				min = 2,
@@ -776,7 +776,7 @@ targetlist = {
 
 		["Damascus Airbase"] = {
 			task = "Strike",
-			priority = 4,
+			priority = 3,
 			picture = {"Damascus_Airbase.png"},
 			attributes = {"Structure"},
 			class = "static",
@@ -784,7 +784,6 @@ targetlist = {
 				min = 3, -- --3,
 				max = 3, -- --6,
 			},
-			class = "static",
 			elements = {
 				[1] = {
 					name = "Damascus Airbase Logistic-1",
@@ -863,7 +862,7 @@ targetlist = {
 
 		["Deir ez-Zor Airbase"] = { --   
 			task = "Strike",
-			priority = 4,
+			priority = 7,
 			picture = {"Deir ez-Zor_Airbase.png"},
 			attributes = {"Structure"},
 			firepower = {
@@ -937,7 +936,7 @@ targetlist = {
 
 		["Deir ez-Zor airbase OCA Strike"] = {
 			task = "Strike",
-			priority = 1,
+			priority = 5,
 			attributes = {"Parked Aircraft"},
 			firepower = {
 				min = 2,
@@ -1035,7 +1034,7 @@ targetlist = {
 
 		["Hama Airbase"] = { --   
 			task = "Strike",
-			priority = 4,
+			priority = 6,
 			picture = {"Hama_Airbase.png"},
 			attributes = {"Structure"},
 			class = "static",
@@ -1109,7 +1108,7 @@ targetlist = {
 
 		["Hama airbase OCA Strike"] = {
 			task = "Strike",
-			priority = 1,
+			priority = 4,
 			attributes = {"Parked Aircraft"},
 			firepower = {
 				min = 2,
@@ -1121,7 +1120,7 @@ targetlist = {
 
 		["Palmyra Airbase"] = { --   
 			task = "Strike",
-			priority = 4,
+			priority = 5,
 			picture = {"Palmyra_Airbase.png"},
 			attributes = {"Structure"},
 			class = "static",
@@ -1195,7 +1194,7 @@ targetlist = {
 
 		["Palmyra airbase OCA Strike"] = {
 			task = "Strike",
-			priority = 1,
+			priority = 2,
 			attributes = {"Parked Aircraft"},
 			firepower = {
 				min = 2,
@@ -1207,7 +1206,7 @@ targetlist = {
 
 		["Khalkhalah Airbase"] = { --   
 			task = "Strike",
-			priority = 4,
+			priority = 5,
 			picture = {"Khalkhalah.Airbase.png"},
 			attributes = {"Structure"},
 			firepower = {
@@ -1281,7 +1280,7 @@ targetlist = {
 
 		["Khalkhalah airbase OCA Strike"] = {
 			task = "Strike",
-			priority = 1,
+			priority = 2,
 			attributes = {"Parked Aircraft"},
 			firepower = {
 				min = 2,
@@ -1293,7 +1292,7 @@ targetlist = {
 
 		["Beirut-Rafic Hariri Airbase"] = {
 			task = "Strike",
-			priority = 4,
+			priority = 8,
 			picture = {"Beirut-Rafic_Hariri.Airbase.png"},
 			attributes = {"Structure"},
 			firepower = {
@@ -1367,7 +1366,7 @@ targetlist = {
 
 		["Beirut-Rafic Hariri airbase OCA Strike"] = {
 			task = "Strike",
-			priority = 1,
+			priority = 7,
 			attributes = {"Parked Aircraft"},
 			firepower = {
 				min = 2,
@@ -1379,7 +1378,7 @@ targetlist = {
 
 		["Taftanaz Airbase"] = { --   
 			task = "Strike",
-			priority = 4,
+			priority = 3,
 			picture = {"Taftanaz_Helibase.png"},
 			attributes = {"Structure"},
 			firepower = {
@@ -1531,7 +1530,7 @@ targetlist = {
 
 		["Bassel Al-Assad Airbase OCA Strike"] = { --   
 			task = "Strike",
-			priority = 1,
+			priority = 2,
 			attributes = {"Parked Aircraft"},
 			firepower = {
 				min = 2,
@@ -1543,7 +1542,7 @@ targetlist = {
 
 		["Lebanon Fleet"] = {
 			task = "Anti-ship Strike",
-			priority = 1,
+			priority = 5,
 			attributes = {"ship"},
 			firepower = {
 				min = 3,
@@ -1580,7 +1579,7 @@ targetlist = {
 
 		["Mission Support Tanker"] = {
 			task = "Refueling",
-			priority = 10,
+			priority = 5,
 			attributes = {"medium"},
 			firepower = {
 				min = 1, -- min num Tanker aircraft
@@ -1592,7 +1591,7 @@ targetlist = {
 
 		["Recovery Tanker CVN-71"] = {
 			task = "Refueling",
-			priority = 5,
+			priority = 2,
 			attributes = {"low"},
 			firepower = {
 				min = 1,
@@ -1642,7 +1641,7 @@ targetlist = {
 		
 		["Sweep Center"] = { --fatto
 			task = "Fighter Sweep",
-			priority = 1,
+			priority = 8,
 			attributes = {},
 			firepower = {
 				min = 3, --estimated aircraft : 5, efficiency: 0.5 ( 2 missile for one shot ): 5 / 0.5 = 10
@@ -1655,7 +1654,7 @@ targetlist = {
 
 		["Sweep North East"] = {--fatto
 			task = "Fighter Sweep",
-			priority = 1,
+			priority = 6,
 			attributes = {},
 			firepower = {
 				min = 3,
@@ -1668,7 +1667,7 @@ targetlist = {
 
 		["Sweep South East"] = {--fatto
 			task = "Fighter Sweep",
-			priority = 1,
+			priority = 5,
 			attributes = {},
 			firepower = {
 				min = 3,
@@ -1843,7 +1842,7 @@ targetlist = {
 		-- Production & Storage
 		["Silifke Storage Site"] = { -- Supply Plant fatto
 			task = "Strike",
-			priority = 4,
+			priority = 6,
 			picture = {"Silifke.Storage.Site.png"},
 			attributes = {"Structure"},
 			firepower = {
@@ -1944,7 +1943,7 @@ targetlist = {
 		-- SAM Site
 		["Mersin SAM Patriot Site"] = {--fatto
 			task = "Strike",
-			priority = 6,
+			priority = 4,
 			attributes = {"SAM"},
 			firepower = {
 				min = 2, 
@@ -1968,7 +1967,7 @@ targetlist = {
 
 		["Larnaca SAM Hawk Site"] = { --fatto
 			task = "Strike",
-			priority = 6,
+			priority = 3,
 			attributes = {"SAM"},
 			firepower = {
 				min = 2, 
@@ -1980,7 +1979,7 @@ targetlist = {
 
 		["Haifa SAM Hawk Site"] = {--fatto
 			task = "Strike",
-			priority = 6,
+			priority = 4,
 			attributes = {"SAM"},
 			firepower = {
 				min = 2, 
@@ -2005,7 +2004,7 @@ targetlist = {
 
 		["CVN-72 Abraham Lincoln"] = {--fatto
 			task = "Anti-ship Strike",
-			priority = 5,
+			priority = 6,
 			attributes = {"ship"},
 			firepower = {
 				min = 3,
@@ -2017,7 +2016,7 @@ targetlist = {
 
 		["USA Fleet"] = {--fatto
 			task = "Anti-ship Strike",
-			priority = 1,
+			priority = 6,
 			attributes = {"ship"},
 			firepower = {
 				min = 3,
@@ -2029,7 +2028,7 @@ targetlist = {
 
 		["UK Fleet"] = {--fatto
 			task = "Anti-ship Strike",
-			priority = 1,
+			priority = 7,
 			attributes = {"ship"},
 			firepower = {
 				min = 3,
@@ -2042,7 +2041,7 @@ targetlist = {
 		-- Army
 		["3th Mechanized Division"] = {--fatto
 			task = "Strike",
-			priority = 1,
+			priority = 8,
 			attributes = {"soft"},
 			firepower = {
 				min = 3,  -- 2,
@@ -2054,7 +2053,7 @@ targetlist = {
 
 		["4th Armored Division"] = {--fatto
 			task = "Strike",
-			priority = 1,
+			priority = 7,
 			attributes = {"armor"},
 			firepower = {
 				min = 3,  -- 2,
@@ -2066,7 +2065,7 @@ targetlist = {
 
 		["6th Mechanized Division"] = {--fatto
 			task = "Strike",
-			priority = 1,
+			priority = 8,
 			attributes = {"soft"},
 			firepower = {
 				min = 3,  -- 2,
@@ -2079,7 +2078,7 @@ targetlist = {
 		--EWR Site
 		["EWR NATO"] = {--fatto
 			task = "Strike",
-			priority = 5,
+			priority = 4,
 			picture = {"EWR_NATO_Mersin.png"},
 			attributes = {"soft"},
 			firepower = {
@@ -2093,7 +2092,7 @@ targetlist = {
 		-- Intercept
 		["Deir ez-Zor 200km Alert"] = {--fatto
 			task = "Intercept",
-			priority = 5,
+			priority = 10,
 			attributes = {},
 			firepower = {
 				min = 2,  -- min num enemy aircraft
@@ -2106,7 +2105,7 @@ targetlist = {
 
 		["Damascus 100km Alert"] = {--fatto
 			task = "Intercept",
-			priority = 5,
+			priority = 10,
 			attributes = {},
 			firepower = {
 				min = 2,  -- min num enemy aircraft
@@ -2119,7 +2118,7 @@ targetlist = {
 
 		["Khalkhalah 80km Alert"] = {--fatto
 			task = "Intercept",
-			priority = 5,
+			priority = 20,
 			attributes = {},
 			firepower = {
 				min = 2,  -- min num enemy aircraft
@@ -2132,7 +2131,7 @@ targetlist = {
 
 		["Tabqa 110km Alert"] = {--fatto
 			task = "Intercept",
-			priority = 5,
+			priority = 10,
 			attributes = {},
 			firepower = {
 				min = 2,  -- min num enemy aircraft
@@ -2145,7 +2144,7 @@ targetlist = {
 
 		["Hama 100km Alert"] = {--fatto
 			task = "Intercept",
-			priority = 5,
+			priority = 15,
 			attributes = {},
 			firepower = {
 				min = 2,  -- min num enemy aircraft
@@ -2158,7 +2157,7 @@ targetlist = {
 
 		["An Nasiriyah 150km Alert"] = {--fatto
 			task = "Intercept",
-			priority = 5,
+			priority = 15,
 			attributes = {},
 			firepower = {
 				min = 2,  -- min num enemy aircraft
@@ -2342,7 +2341,7 @@ targetlist = {
 
 		["Incirlik airbase OCA Strike"] = {
 			task = "Strike",
-			priority = 1,
+			priority = 2,
 			attributes = {"Parked Aircraft"},
 			firepower = {
 				min = 2,
@@ -2410,7 +2409,7 @@ targetlist = {
 
 		["Adana Sakirpasa airbase OCA Strike"] = {
 			task = "Strike",
-			priority = 1,
+			priority = 2,
 			attributes = {"Parked Aircraft"},
 			firepower = {
 				min = 2,
@@ -2422,7 +2421,7 @@ targetlist = {
 
 		["Gazipasa Airbase"] = { 
 			task = "Strike",
-			priority = 4,
+			priority = 2,
 			picture = {"Gazipasa.Airbase.png"},
 			attributes = {"Structure"},
 			firepower = {
@@ -2490,7 +2489,7 @@ targetlist = {
 
 		["Gaziantep Airbase"] = {
 			task = "Strike",
-			priority = 4,
+			priority = 6,
 			picture = {"Gaziantep.Airbase.png"},
 			attributes = {"Structure"},
 			firepower = {
@@ -2543,7 +2542,7 @@ targetlist = {
 
 		["Gaziantep airbase OCA Strike"] = {
 			task = "Strike",
-			priority = 1,
+			priority = 4,
 			attributes = {"Parked Aircraft"},
 			firepower = {
 				min = 2,
@@ -2555,7 +2554,7 @@ targetlist = {
 
 		["Hatay Airbase"] = {
 			task = "Strike",
-			priority = 4,
+			priority = 8,
 			picture = {"Hatay.Airbase.png"},
 			attributes = {"Structure"},
 			firepower = {
@@ -2608,7 +2607,7 @@ targetlist = {
 
 		["Hatay airbase OCA Strike"] = {
 			task = "Strike",
-			priority = 1,
+			priority = 6,
 			attributes = {"Parked Aircraft"},
 			firepower = {
 				min = 2,
@@ -2620,7 +2619,7 @@ targetlist = {
 
 		["Larnaca Airbase"] = {
 			task = "Strike",
-			priority = 4,
+			priority = 3,
 			picture = {"Larnaca.Airbase.png"},
 			attributes = {"Structure"},
 			firepower = {
@@ -2673,7 +2672,7 @@ targetlist = {
 
 		["Naqoura Helibase"] = {
 			task = "Strike",
-			priority = 4,
+			priority = 6,
 			picture = {"Naquora.Helibase.png"},
 			attributes = {"Structure"},
 			firepower = {
@@ -2717,7 +2716,7 @@ targetlist = {
 
 		["Naqoura helibase OCA Strike"] = {
 			task = "Strike",
-			priority = 1,
+			priority = 4,
 			attributes = {"Parked Aircraft"},
 			firepower = {
 				min = 2,
@@ -2729,7 +2728,7 @@ targetlist = {
 
 		["Paphos Airbase"] = {
 			task = "Strike",
-			priority = 4,
+			priority = 3,
 			picture = {"Paphos.Airbase.png"},
 			attributes = {"Structure"},
 			firepower = {
@@ -2800,7 +2799,7 @@ targetlist = {
 
 		['FARP-Hatay FARP'] = { --fatto
 			task = "Strike",
-			priority = 4,
+			priority = 2,
 			picture = {""},
 			attributes = {"Structure"},
 			firepower = {
