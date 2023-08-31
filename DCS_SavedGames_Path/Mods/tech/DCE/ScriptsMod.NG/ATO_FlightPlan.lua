@@ -1,21 +1,18 @@
 --To create the flight plans in the mission file for all flights in the ATO
 --Initiated by Main_NextMission.lua
 ------------------------------------------------------------------------------------------------------- 
+-- Old_Boy rev. OB.1.0.0: update skill assignment
 -- Miguel Fichier Revision M46.f
 ------------------------------------------------------------------------------------------------------- 
 
 if not versionDCE then versionDCE = {} end
 versionDCE["ATO_FlightPlan.lua"] = "1.40.133"
 
--- =====================  Marco implementation ==================================
 local log = dofile("../../../ScriptsMod."..versionPackageICM.."/UTIL_Log.lua")
--- NOTE MARCO: prova a caricarlo usando require(".. . .. . .. .ScriptsMod."versionPackageICM..".UTIL_Log.lua")
--- NOTE MARCO: https://forum.defold.com/t/including-a-lua-module-solved/2747/2
 log.level = LOGGING_LEVEL
 log.outfile = LOG_DIR .. "LOG_ATO_FlightPlan." .. camp.mission .. ".log" 
 local local_debug = true -- local debug   
 log.info("Start")
--- =====================  End Marco implementation ==================================
 
 
 -- CHCM_FP_01 Check and Help CampaignMaker
@@ -66,7 +63,6 @@ log.info("Start")
 ------------------------------------------------------------------------------------------------------- 	
 -- Miguel21 modification M24	Set Multiplayer
 
---todo ajouter une condition: joueur spawn sur sixpack si personne n'y est
 
 local debugStart = true
 local debugTxt = ""
