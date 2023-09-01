@@ -41,19 +41,6 @@
 
 ---------------------- total ------------------------
 
-blue                      red
-f:
-f/a
-a:
-b:
-hb:
-t:
-aw:
-r:
-heli:
-
-
-
 M-2000C *
 F-15C *
 F-117A *
@@ -115,31 +102,28 @@ oob_air = {
 
 	-- Aircraft
 
-	-- F: 	36+72+72+36+36+36 	= 288	    (Escort: 36+72+36+36+, CAP: 72, Fighter Sweep: 36°+36°+, Intercept: 36°+36°+36°+36 )	
-	-- A: 	36+72+36+72+36°		= 252    	(CAS: 36+36+36+36°, CAS soft:, CAS armor:, Strike Structure: 72, Anti-ship: 36+36°+72°+, SEAD: 36°+36°+72°+))
-	-- B: 	56+30+36 			= 122		(CAS: , CAS soft:, CAS armor:, Strike Structure: 56+30, Anti-ship: 36+ , SEAD: )
+	-- F: 	36+72+72+36+36+36 	= 256	    
+	-- A: 	36+72+36+72+36°		= 224    	
+	-- B: 	56+30+36 			= 118		
 	-- AW: 	3+3 				= 6
 	-- T: 	6+6 				= 12
 	-- R: 	6+10+6 				= 22
 	-- REC:						= 0
-	-- H-A: 72+72 				= 144
+	-- H-A: 72+72 				= 140
 
-	-- F: 	288
-	-- A+B: 374
-	-- TOT (F+A+B6+H-A): 806
-
-	-- Escort: , CAP: , Fighter Sweep: , Intercept: 
-	-- CAS: , CAS soft: , CAS armor, Strike Structure: , Anti-ship: , SEAD: . 
+	-- F: 	256
+	-- A+B: 342
+	-- TOT (F+A+B6+H-A): 738
 
 	-------------------- Incirlik (LimitedParkNb = 120) -------------------------
-		-- 111th Squadron Panther		F-4E			12+24			Turkey			Strike-CAS, SEAD
-		-- 151th Squadron Bronze		F-5E-3			12+24			Turkey			Escort (attacker and bomber @ normal altitude)
+		-- 111th Squadron Panther		F-4E			8+24			Turkey			Strike-CAS, SEAD
+		-- 151th Squadron Bronze		F-5E-3			8+24			Turkey			Escort (attacker and bomber @ normal altitude)
 		-- 315th Air Division 			C-130			2+4				USA				Transport
 		-- 69 BS 						B-52H			2+24			USA				Strike-Structure
 		-- 171 ARW 						KC135MPRS		2+4				USA				Refueling
-		-- 4450th Tactical Group		F-117A			6+24			USA				Strike-Structure
+		-- 4450th Tactical Group		F-117A			4+24			USA				Strike-Structure
 
-		-- 36 F, 36 A, 56 B, 6 T, 6 R
+		-- 32 F, 32 A, 54 B, 6 T, 6 R
 
 		[1] = {
 			name = "111th Squadron Panther",				--unit name			
@@ -161,7 +145,7 @@ oob_air = {
 				["Escort"] = 0.3,
 				["Fighter Sweep"] = 0.2,	
 			},
-			number = 12,
+			number = 8,
 		},
 		[2] = {
 			name = "R/111th Squadron Panther",							--unit name
@@ -197,7 +181,7 @@ oob_air = {
 				["Escort"] = 0.5,
 				["Fighter Sweep"] = 0.2,	
 			},
-			number = 12,
+			number = 8,
 		},
 		[4] = {
 			name = "R/151th Squadron Bronze",							--unit name
@@ -285,7 +269,7 @@ oob_air = {
 			tasks = {										--unit tasks
 				["Strike"] = true,
 			},
-			number = 6,
+			number = 4,
 		},
 		[12] = {
 			name = "R/4450th Tactical Group",								--unit name
@@ -300,10 +284,10 @@ oob_air = {
 	-------------------- end Incirlik ---------------------	
 
 	-------------------- Gaziantep (LimitedParkNb = 12) --------
-		-- 56th Operations Group		F-16A		12+24			USA			CAP, Fighter Sweep
-		-- 173rd Fighter Group			F-15C		12+24			USA			CAP, Intercept
+		-- 56th Operations Group		F-16A		8+24			USA			CAP, Fighter Sweep
+		-- 173rd Fighter Group			F-15C		8+24			USA			CAP, Intercept
 
-		-- 72 F
+		-- 64 F
 
 		[13] = { 
 			name = "56th Operations Group",					--unit name
@@ -330,7 +314,7 @@ oob_air = {
 				["SEAD"] = 2,
 				["Laser Illumination"] = 1,				
 			},
-			number = 12,
+			number = 8,
 		},
 		[14] = {
 			name = "R/56th Operations Group",							--unit name
@@ -362,7 +346,7 @@ oob_air = {
 				["Fighter Sweep"] = 2,
 				["Intercept"] = 2,			
 			},
-			number = 12,
+			number = 8,
 		},
 		[16] = {
 			name = "R/173rd Fighter Group",							--unit name
@@ -422,10 +406,10 @@ oob_air = {
 	-------------------- end Gazipasa -------------------------
 
 	-------------------- Hatay (LimitedParkNb = 10) -------------------------------
-		-- F6 Karlsborg					AJS37			12+24			Sweden			Anti-ship Strike, SEAD
-		-- 23rd FG						A-10A			12+24			USA				Strike CAS
+		-- F6 Karlsborg					AJS37			8+24			Sweden			Anti-ship Strike, SEAD
+		-- 23rd FG						A-10A			8+24			USA				Strike CAS
 
-		-- 72 A
+		-- 64 A
 		
 		[20] = {
 			name = "F6 Karlsborg",								--unit name
@@ -456,7 +440,7 @@ oob_air = {
 				["Anti-ship Strike"] = 2,
 				["Escort Jammer"] = 2,
 			},
-			number = 12,
+			number = 8,
 		},				
 		[21] = {
 			name = "R/F6 Karlsborg",									--unit name
@@ -482,7 +466,7 @@ oob_air = {
 				["Strike"] = 2,								-- coef normal : = 1
 				["Laser Illumination"] = 1,				
 			},
-			number = 12,
+			number = 8,
 		},
 		[23] = {
 			name = "R/23rd FG",																					--unit name
@@ -497,11 +481,11 @@ oob_air = {
 	-------------------- end Hatay -------------------------------------
 
 	-------------------- Adana Sakirpasa (LimitedParkNb = 39) -------------------------------
-		-- Escadron de Chasse 2/5 Ile-de-France				M-2000C				12+24			France			Escort Bomber, Intercept		
-		-- Escadron de Chasse 1/2 Cigognes					Mirage-F1C			12+24			France			Escort Attacker
-		-- INACTIVE Escadron de Chasse 1/5 Vendée			Mirage-F1EE			12+24			France			Escort Attacker
+		-- Escadron de Chasse 2/5 Ile-de-France				M-2000C				8+24			France			Escort Bomber, Intercept		
+		-- Escadron de Chasse 1/2 Cigognes					Mirage-F1C			8+24			France			Escort Attacker
+		-- INACTIVE Escadron de Chasse 1/5 Vendée			Mirage-F1EE			8+24			France			Escort Attacker
 
-		-- 72 F
+		-- 64 F
 		
 		[24] = {
 			name = "Escadron de Chasse 2/5 Ile-de-France",								--unit name
@@ -527,7 +511,7 @@ oob_air = {
 				["Escort"] = 1.5,
 				["Fighter Sweep"] = 1.7,				
 			},
-			number = 12,
+			number = 8,
 		},				
 		[25] = {
 			name = "R/Escadron de Chasse 2/5 Ile-de-France",									--unit name
@@ -563,7 +547,7 @@ oob_air = {
 				["Escort"] = 1,
 				["Fighter Sweep"] = 1.5,				
 			},
-			number = 12,
+			number = 8,
 		},				
 		[27] = {
 			name = "R/Escadron de Chasse 1/2 Cigognes",									--unit name
@@ -599,7 +583,7 @@ oob_air = {
 				["Escort"] = 1,
 				["Fighter Sweep"] = 1.5,				
 			},
-			number = 12,
+			number = 8,
 		},				
 		[29] = {
 			name = "R/Escadron de Chasse 1/5 Vendéee",									--unit name
@@ -614,11 +598,11 @@ oob_air = {
 	-------------------- end Adana Sakirpasa -------------------------------
 
 	---------------------Larnaca (LimitedParkNb = 94) --------------------------------------------
-		-- 122nd Squadron									C-101CC				12+24			Spain			Strike CAS, Antiship Strike
-		-- Jagdbombergeschwader 33							Tornado IDS			12+24			Germany			Strike Structure, Antiship Strike, SEAD
-		-- 154 Gruppo, 6 Stormo								Tornado IDS			12+24			Italy			Strike Structure, Antiship Strike, SEAD
+		-- 122nd Squadron									C-101CC				8+24			Spain			Strike CAS, Antiship Strike
+		-- Jagdbombergeschwader 33							Tornado IDS			8+24			Germany			Strike Structure, Antiship Strike, SEAD
+		-- 154 Gruppo, 6 Stormo								Tornado IDS			8+24			Italy			Strike Structure, Antiship Strike, SEAD
 
-		-- 108 A
+		-- 96 A
 		
 		[28] = {
 			name = "122nd Squadron",					--unit name
@@ -637,7 +621,7 @@ oob_air = {
 				["Laser Illumination"] = 1,	
 				["Anti-ship Strike"] = 1.6			
 			},
-			number = 12,
+			number = 8,
 		},				
 		[29] = {
 			name = "R/122nd Squadron",									--unit name
@@ -666,7 +650,7 @@ oob_air = {
 				["Strike"] = 2,						-- coef normal : = 1
 				["SEAD"] = 2,			
 			},
-			number = 12,
+			number = 8,
 		},				
 		[31] = {
 			name = "R/Jagdbombergeschwader 33",									--unit name
@@ -695,7 +679,7 @@ oob_air = {
 				["Strike"] = 2,						-- coef normal : = 1
 				["SEAD"] = 2,				
 			},
-			number = 12,
+			number = 8,
 		},				
 		[33] = {
 			name = "R/154 Gruppo, 6 Stormo",									--unit name
@@ -710,11 +694,11 @@ oob_air = {
 	-------------------- end Larnaca -------------------------------
 
 	-------------------- Paphos (LimitedParkNb = 49) -------------------------
-		-- 152th Squadron Iron			F-5E-3			12+24			Turkey			Escort
+		-- 152th Squadron Iron			F-5E-3			8+24			Turkey			Escort
 		-- 326th Air Division 			C-130			2+4				USA				Transport
-		-- 4453th Tactical Group		F-117A			6+24			USA				Strike Structure
+		-- 4453th Tactical Group		F-117A			4+24			USA				Strike Structure
 
-		-- 36 F, 30 B, 6 T
+		-- 32 F, 28 B, 6 T
 
 		
 		[34] = {
@@ -741,7 +725,7 @@ oob_air = {
 				["Escort"] = 0.5,
 				["Fighter Sweep"] = 0.2,	
 			},
-			number = 12,
+			number = 8,
 		},
 		[35] = {
 			name = "R/152th Squadron Iron",							--unit name
@@ -785,7 +769,7 @@ oob_air = {
 			tasks = {										--unit tasks
 				["Strike"] = true,
 			},
-			number = 6,
+			number = 4,
 		},
 		[39] = {
 			name = "R/4453th Tactical Group",								--unit name
@@ -800,12 +784,12 @@ oob_air = {
 	-------------------- end Paphos ---------------------	
 			
 	-------------------- CVN-71 Theodore Roosevelt ----------------------
-		-- VF-101					F-14A-135-GR			12+24			USA				Intercept, CAP, Escort, Fighter Sweep, Strike
+		-- VF-101					F-14A-135-GR			10+24			USA				Intercept, CAP, Escort, Fighter Sweep, Strike
 		-- VS-29					S-3B Tanker				2+4				USA				Refueling
-		-- VS-21					S-3B					12+24			USA				Anti-ship Strike
+		-- VS-21					S-3B					8+24			USA				Anti-ship Strike
 		-- VAW-125					E-2C					2+4				USA				AWACS
 
-		-- 36 F/A, 36 B, 6 R, 6 AW
+		-- 34 F/A, 32 B, 6 R, 6 AW
 
 		[40] = {
 			name = "VF-101",								--unit name
@@ -836,7 +820,7 @@ oob_air = {
 				["Escort"] = 3,
 				["Fighter Sweep"] = 2,
 			},
-			number = 12,
+			number = 10,
 		},
 		[41] = {
 			name = "R/VF-101",								--unit name
@@ -889,7 +873,7 @@ oob_air = {
 				["SEAD"] = 1,
 				["Anti-ship Strike"] = 1.7,
 			},
-			number = 12,
+			number = 8,
 		},
 		[45] = {
 			name = "R/VS-21",								--unit name
@@ -927,7 +911,7 @@ oob_air = {
 	-------------------- end CVN-71 Theodore Roosevelt ----------------------
 	
 	-------------------- CVN-72 Abraham Lincoln --------------------
-		-- VF-118/GA				F-14A-135-GR			12+24			USA			Intercept
+		-- VF-118/GA				F-14A-135-GR			8+24			USA			Intercept
 		-- INACTIVE VS-31			S-3B Tanker				2+8				USA			Refueling
 		-- INACTIVE VS-22			S-3B					4+36			USA			Anti-ship Strike
 		-- VAW-123					E-2C					3				USA			AWACS
@@ -962,7 +946,7 @@ oob_air = {
 				["Strike"] = 1.3,							-- coef normal : = 1				
 				["Intercept"] = 1.7,
 			},
-			number = 4,
+			number = 8,
 		},
 		[49] = {
 			name = "R/VF-118/GA",							--unit name
@@ -1028,11 +1012,11 @@ oob_air = {
 
 	-------------------- Naqoura Helibase (LimitedParkNb = 9) ----------------		
 		-- 1th Army Aviation Regiment	CH-47D			4+16			Turkey				Transport
-		-- HMLA-167						AH-1W			8+28			USA					Strike CAS
-		-- 17th Cavalry Regiment		OH-58D			8+28			UK					Strike CAS Soft
+		-- HMLA-167						AH-1W			6+28			USA					Strike CAS
+		-- 17th Cavalry Regiment		OH-58D			6+28			UK					Strike CAS Soft
 		
 
-		-- 72 H-A, 20 H-T
+		-- 68 H-A, 20 H-T
 
 		[51] = {
 			name = "1th Army Aviation Regiment",								--unit name
@@ -1068,7 +1052,7 @@ oob_air = {
 			tasks = {
 				["Strike"] = true,
 			},
-			number = 8,
+			number = 6,
 		},
 		[54] = {
 			name = "R/HMLA-167",							--unit name
@@ -1091,7 +1075,7 @@ oob_air = {
 			tasks = {
 				["Strike"] = true,
 			},
-			number = 8,
+			number = 6,
 		},
 		[56] = {
 			name = "R/17th Cavalry Regiment",				--unit name
@@ -1164,10 +1148,10 @@ oob_air = {
 
 	-------------------- Hatay FARP (LimitedParkNb = 4) -----------------
 		-- 14th Army Aviation Regiment			CH-47D			4+16			Turkey				Transport
-		-- HMLA-177								AH-1W			8+28			USA					Strike CAS
-		-- 18th Cavalry Regiment				OH-58D			8+28			UK					Strike CAS Soft
+		-- HMLA-177								AH-1W			6+28			USA					Strike CAS
+		-- 18th Cavalry Regiment				OH-58D			6+28			UK					Strike CAS Soft
 
-		-- 72 H-A, 20 H-T
+		-- 68 H-A, 20 H-T
 
 		[59] = {
 			name = "14th Army Aviation Regiment",								--unit name
@@ -1203,7 +1187,7 @@ oob_air = {
 			tasks = {
 				["Strike"] = true,
 			},
-			number = 8,
+			number = 6,
 		},
 		[62] = {
 			name = "R/HMLA-177",							--unit name
@@ -1226,7 +1210,7 @@ oob_air = {
 			tasks = {
 				["Strike"] = true,
 			},
-			number = 8,
+			number = 6,
 		},
 		[64] = {
 			name = "R/18th Cavalry Regiment",				--unit name
@@ -1352,32 +1336,30 @@ oob_air = {
 
 	-- Aircraft
 
-	-- F: 54+36+36+36+36+32+18+18+28+36	= 330 		(Escort: 36+36+36+36, CAP: 36°+36+36+28, Fighter Sweep: 36°+36°+28° , Intercept: 18+36°+36°+18+28°+)
-	-- A: 36+36+36+72+36+36				= 224    	(CAS: 36+36+36+36, CAS soft: 36+, CAS armor: 36+, Strike Structure: 36+36°+, Anti-ship: 36°+36°, SEAD: 36°+36°+36°+36°+)
-	-- B: 36+20+12+36					= 104		(CAS: , CAS soft:, CAS armor:, Strike Structure: 36+36+12, Anti-ship: 36°+12°, SEAD: 36°+)
+	-- F: 51+32+32+32+32+32+18+18+28+32	= 320 		
+	-- A: 34+32+32+64+32+32				= 204    	
+	-- B: 32+20+12+32					= 96		
 	-- AW: 4  							= 4
 	-- T: 4+6+6+6+4 					= 26			
 	-- R:								= 0 
 	-- REC: 5 							= 5
 	-- H-A: 60+132						= 192
 
-	-- F: 330
-	-- A+B: 328
-	-- TOT (F+A+B6+H-A): 850
+	-- F: 320
+	-- A+B: 300
+	-- TOT (F+A+B6+H-A): 812
 
-	-- Escort: , CAP: , Fighter Sweep: , Intercept: 
-	-- CAS: , CAS soft: , CAS armor: , Strike Structure: , Anti-ship: , SEAD: . 
-
+	
 
 	-------------------- Damascus (LimitedParkNb = 90) -------------------	
-		-- 790.IAP							MiG-25PD		18		Russia			Intercept
-		-- 117.IAP							MiG-27K			12+24	Russia			Strike CAS, Anti-ship Strike 
-		-- 113.IAP							MiG-23MLD		12+24	Russia			Escort (attacker and bomber)
-		-- INACTIVE 945 Squadron			MiG-21Bis		8+28	Syria			Escort
+		-- 790.IAP							MiG-25PD		15		Russia			Intercept
+		-- 117.IAP							MiG-27K			8+24	Russia			Strike CAS, Anti-ship Strike 
+		-- 113.IAP							MiG-23MLD		8+24	Russia			Escort (attacker and bomber)
+		-- INACTIVE 945 Squadron			MiG-21Bis		8+24	Syria			Escort
 		-- INACTIVE 3.OSAP					An-26B			6		Russia			Transport
 		-- 13.OSAP							Il-76MD			4		Russia			Transport
 
-		-- 54 F, 36 A, 4 T
+		-- 51 F, 34 A, 4 T
 
 
 		[1] = {
@@ -1399,7 +1381,7 @@ oob_air = {
 				["Escort"] = 0.3,
 				["Fighter Sweep"] = 1,
 			},
-			number = 10,
+			number = 15,
 		},
 		[2] = {
 			name = "117.IAP",							--unit name
@@ -1419,7 +1401,7 @@ oob_air = {
 				["Laser Illumination"] = 1,	
 				["Anti-ship Strike"] = 1.5,		
 			},		
-			number = 12,
+			number = 8,
 		},
 		[3] = {
 			name = "R/117.IAP",							--unit name
@@ -1453,7 +1435,7 @@ oob_air = {
 				["Escort"] = 2,
 				["Fighter Sweep"] = 1,	
 			},
-			number = 12,
+			number = 8,
 		},
 		[5] = {
 			name = "R/113.IAP",							--unit name
@@ -1531,11 +1513,11 @@ oob_air = {
 	-------------------- end Damascus ---------------	
 
 	-------------------- Tabqa (LimitedParkNb = 27) ----------------------
-		-- 127.IAP					MiG-27K			12+24	Russia				Strike CAS, Anti-ship Strike 
-		-- 123.IAP					MiG-23MLD		12+24	Russia				Escort, CAP, Intercept
-		-- INACTIVE 2 Squadron		L-39C			12+24	Syria				Strike CAS soft
+		-- 127.IAP					MiG-27K			8+24	Russia				Strike CAS, Anti-ship Strike 
+		-- 123.IAP					MiG-23MLD		8+24	Russia				Escort, CAP, Intercept
+		-- INACTIVE 2 Squadron		L-39C			8+24	Syria				Strike CAS soft
 
-		-- 36 F, 36 A
+		-- 32 F, 32 A
 	
 		[7] = {
 			name = "127.IAP",							--unit name
@@ -1555,7 +1537,7 @@ oob_air = {
 				["Laser Illumination"] = 1,	
 				["Anti-ship Strike"] = 1.5,			
 			},
-			number = 12,
+			number = 8,
 		},
 		[8] = {
 			name = "R/127.IAP",							--unit name
@@ -1589,7 +1571,7 @@ oob_air = {
 				["Escort"] = 2,
 				["Fighter Sweep"] = 1.5,	
 			},
-			number = 12,
+			number = 8,
 		},
 		[10] = {
 			name = "R/123.IAP",							--unit name
@@ -1625,7 +1607,7 @@ oob_air = {
 				["Fighter Sweep"] = 0.5,
 				["Anti-ship Strike"] = 0.7,			
 			},
-			number = 12,
+			number = 8,
 		},
 		[15] = {
 			name = "R/2 Squadron",
@@ -1640,10 +1622,10 @@ oob_air = {
 	-------------------- end Tabqa ------------------
 
 	-------------------- Beirut-Rafic Hariri (LimitedParkNb = 34) ---------------
-		-- 948 Squadron							MiG-21Bis			12+24	Syria				Escort, Fighter Sweep
-		-- INACTIVE 3 Guards BAP 21 th BAA		Su-24M				12+24	Russia				Strike Structure-armor, SEAD
+		-- 948 Squadron							MiG-21Bis			8+24	Syria				Escort, Fighter Sweep
+		-- INACTIVE 3 Guards BAP 21 th BAA		Su-24M				8+24	Russia				Strike Structure-armor, SEAD
 
-		-- 36 F
+		-- 32 F
 
 		[11] = {
 			name = "948 Squadron",							--unit name
@@ -1671,7 +1653,7 @@ oob_air = {
 				["SEAD"] = 0.3,
 				["Laser Illumination"] = 1,
 			},
-			number = 12,
+			number = 8,
 		},
 		[12] = {
 			name = "R/948 Squadron",								--unit name
@@ -1701,7 +1683,7 @@ oob_air = {
 				["Laser Illumination"] = 1,				
 				["Anti-ship Strike"] = 1.7,
 			},
-			number = 12,
+			number = 8,
 		},
 		[24] = {
 			name = "R/3 Guards BAP 21 th BAA",								--unit name
@@ -1716,12 +1698,12 @@ oob_air = {
 	-------------------- end Beirut-Rafic Hariri -----------
 
 	-------------------- Bassel Al-Assad Airbase (LimitedParkNb = 53) -----
-		-- 67 Squadron					MiG-23MLD			12+24	Russia						Escort, CAP
-		-- 3 Squadron					L-39C				12+24	Syria						Strike CAS soft
-		-- 677 Squadron					Su-17M4				12+24	Syria						Strike Structure, SEAD
+		-- 67 Squadron					MiG-23MLD			8+24	Russia						Escort, CAP
+		-- 3 Squadron					L-39C				8+24	Syria						Strike CAS soft
+		-- 677 Squadron					Su-17M4				8+24	Syria						Strike Structure, SEAD
 		-- 522 Squadron					An-26B				2+4		Russia						Transport
 
-		-- 36 F, 36 A, 36 B, 6 T
+		-- 32 F, 32 A, 32 B, 6 T
 
 		[13] = {
 			name = "67 Squadron",							--unit name
@@ -1744,7 +1726,7 @@ oob_air = {
 				["Escort"] = 2,
 				["Fighter Sweep"] = 1.3,	
 			},
-			number = 12,
+			number = 8,
 		},
 		[14] = {
 			name = "R/67 Squadron",							--unit name
@@ -1780,7 +1762,7 @@ oob_air = {
 				["Fighter Sweep"] = 0.5,
 				["Anti-ship Strike"] = 0.7,			
 			},
-			number = 12,
+			number = 8,
 		},
 		[16] = {
 			name = "R/3 Squadron",							--unit name
@@ -1810,7 +1792,7 @@ oob_air = {
 				["Anti-ship Strike"] = 1,
 				["Laser Illumination"] = 1,				
 			},
-			number = 12,
+			number = 8,
 		},
 		[18] = {
 			name = "R/677 Squadron",							--unit name
@@ -1846,12 +1828,12 @@ oob_air = {
 	-------------------- end Bassel Al-Assad Airbase -
 
 	-------------------- Hama Airbase (LimitedParkNb = 46) ----------------
-		-- 368 ShAP						Su-25			12+24		Russia					Strike CAS, SEAD
-		-- 133.IAP						MiG-29A			8+28		Russia					CAP, Intercept
-		-- 3 BAP 149th BAA				Su-24M			12+24 		Russia					Strike Structure-armor, SEAD
+		-- 368 ShAP						Su-25			8+24		Russia					Strike CAS, SEAD
+		-- 133.IAP						MiG-29A			8+24		Russia					CAP, Intercept
+		-- 3 BAP 149th BAA				Su-24M			8+24 		Russia					Strike Structure-armor, SEAD
 		-- 27.OSAP						An-26B			6			Russia					Transport
 
-		-- 36 F, 72 A, 6 T
+		-- 32 F, 64 A, 6 T
 		
 		[21] = {
 			name = "368 ShAP",							--unit name
@@ -1872,7 +1854,7 @@ oob_air = {
 				["Anti-ship Strike"] = 1,
 				["Flare Illumination"] = 1,			
 			},
-			number = 12,
+			number = 8,
 		},
 		[22] = {
 			name = "R/368 ShAP",							--unit name
@@ -1936,7 +1918,7 @@ oob_air = {
 				["Laser Illumination"] = 1,				
 				["Anti-ship Strike"] = 1.7,
 			},
-			number = 12,
+			number = 8,
 		},
 		[26] = {
 			name = "R/3 BAP 149th BAA",								--unit name
@@ -2043,7 +2025,7 @@ oob_air = {
 	-------------------- end Palmyra Airbase ----------------
 
 	-------------------- An Nasiriyah Airbase (LimitedParkNb = 20) ----------------
-		-- 373 ShAP						Su-25			12+24 		Russia					Strike CAS, SEAD
+		-- 373 ShAP						Su-25			8+24 		Russia					Strike CAS, SEAD
 		-- 764.IAP						MiG-31			3+15		Russia					Intercept
 
 		-- 18 F, 36 A
@@ -2067,7 +2049,7 @@ oob_air = {
 				["Anti-ship Strike"] = 1,
 				["Flare Illumination"] = 1,				
 			},
-			number = 12,
+			number = 8,
 		},
 		[34] = {
 			name = "R/373 ShAP",							--unit name
@@ -2115,13 +2097,13 @@ oob_air = {
 
 	-------------------- Deir ez-Zor Airbase (LimitedParkNb = 90)----------------
 		-- 132nd Heavy Bomber Aviation Regiment		Tu-22M3			2+10 		Russia				Strike Structure, Anti-ship Strike
-		-- 797.IAP									Su-27			8+20 		Russia				CAP, Fighter Sweep, Intercept
+		-- 797.IAP									Su-27			8+24 		Russia				CAP, Fighter Sweep, Intercept
 		-- 2457 SDRLO								A-50			4 			Russia				AWACS
 		-- O7 SDRLO									Su-24MR			5 			Russia				Recognition
-		-- 4 Guards BAP 132nd BAA					Su-24M			12+24		Russia				Strike Structure-armor, SEAD
+		-- 4 Guards BAP 132nd BAA					Su-24M			8+24		Russia				Strike Structure-armor, SEAD
 		-- 23.OSAP									An-26B			1+3 		Russia				Transport
 
-		-- 28 F, 36 A, 12 B, 5 Rec, 4 AW, 4 T
+		-- 32 F, 32 A, 12 B, 5 Rec, 4 AW, 4 T
 
 		[37] = {
 			name = "132nd Heavy Bomber Aviation Regiment",								--unit name
@@ -2181,7 +2163,7 @@ oob_air = {
 			base = "Reserves",								--unit base
 			skill = getSkill(mission_ini.min_skill_red_fighter, mission_ini.max_skill_red_fighter),			--unit skill
 			tasks = {},			
-			number = 20,
+			number = 24,
 		},
 		[41] = {
 			name = "2457 SDRLO",							--unit name
@@ -2228,7 +2210,7 @@ oob_air = {
 				["Laser Illumination"] = 1,				
 				["Anti-ship Strike"] = 1,
 			},
-			number = 12,
+			number = 8,
 		},
 		[44] = {
 			name = "R/4 Guards BAP 132nd BAA",								--unit name
@@ -2265,8 +2247,8 @@ oob_air = {
 
 	-------------------- Khalkhalah Airbase/Helibase (LimitedParkNb = 35) -----
 		-- INACTIVE 7 Squadron			L-39C			8+24			Syria				Strike CAS soft
-		-- 81st TFS						F-14A			12+24			Iran				Intercept, Fighter Sweep
-		-- 637 Squadron					Su-17M4			12+24			Syria				Strike Structure, SEAD
+		-- 81st TFS						F-14A			8+24			Iran				Intercept, Fighter Sweep
+		-- 637 Squadron					Su-17M4			8+24			Syria				Strike Structure, SEAD
 		-- 9th GHR						Mi-8MT			6+24			Russia				Strike CAS Soft
 		-- 17th GHR						Mi-24P			6+24			Russia				Strike CAS Soft		
 
@@ -2329,7 +2311,7 @@ oob_air = {
 				["Escort"] = 1.3,
 				["Fighter Sweep"] = 2,	
 			},
-			number = 12,
+			number = 8,
 		},
 		[48] = {
 			name = "R/81st TFS",							--unit name
@@ -2359,7 +2341,7 @@ oob_air = {
 				["Anti-ship Strike"] = 1,
 				["Laser Illumination"] = 1,				
 			},
-			number = 12,
+			number = 8,
 		},
 		[50] = {
 			name = "R/637 Squadron",							--unit name
