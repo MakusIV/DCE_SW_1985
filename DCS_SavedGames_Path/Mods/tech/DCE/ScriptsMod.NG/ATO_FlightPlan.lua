@@ -2717,10 +2717,11 @@ for side, pack in pairs(ATO) do													--iterate through sides in ATO
 					--High (50 � 75)
 					--Excellent (75 � 100)
 					mSkill = 2
+					local tie = math.random()
 					
 					if flight[f].skill == "Excellent" then
 
-						if math.random() > 0.75 then
+						if tie > 0.75 then
 							mSkill = 4
 						
 						else
@@ -2730,7 +2731,7 @@ for side, pack in pairs(ATO) do													--iterate through sides in ATO
 					
 					elseif flight[f].skill == "high" then
 							
-						if math.random() > 0.4 then
+						if tie > 0.70 then
 							mSkill = 3
 						
 						else
@@ -2739,7 +2740,7 @@ for side, pack in pairs(ATO) do													--iterate through sides in ATO
 					
 					elseif flight[f].skill == "Good" then
 						
-						if math.random() > 0.2 then
+						if tie > 0.2 then
 							mSkill = 2
 						
 						else
@@ -2753,9 +2754,18 @@ for side, pack in pairs(ATO) do													--iterate through sides in ATO
 						mSkill = 2
 					end
 					
-					if (n == 1 or ( flight[f].player and n == 2 )) and mSkill < 3 then 
+					if (n == 1 or ( flight[f].player and n == 2 )) and mSkill < 3 then -- skill for leader or player wingman
+						
+						if tie > 0.9 then 
+							mSkill = 4
+						
+						elseif tie > 0.4 then
+							mskill = 3
 
-						mSkill =  math.random(2, 3) 		-- 75-62 = 13 (13 + 5 = 18 )5 % de chance d'avoir excellent					
+						else
+							mSkill =  2
+						end
+						
 					end	
 										
 					units[n] = {

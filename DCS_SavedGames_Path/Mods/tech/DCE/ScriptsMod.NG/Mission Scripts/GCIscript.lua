@@ -262,6 +262,8 @@ local function GCI_Cycle()
 										idInfo = Group.getByName(selected_flight):getID()
 										_side = Group.getByName(selected_flight):getCoalition()
 									
+									else
+										break
 									end
 									
 									-- on replace les vecteurs dans un repere x/y/z/
