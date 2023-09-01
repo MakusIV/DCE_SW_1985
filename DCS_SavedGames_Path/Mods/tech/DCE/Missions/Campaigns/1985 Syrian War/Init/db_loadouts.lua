@@ -4245,7 +4245,7 @@ db_loadouts = {
 				adverseWeather = true,
 				avoid_EWR = true,
 				range = 700000,
-				capability = 8,
+				capability = 2,
 				firepower = 8,
 				vCruise = 240,
 				vAttack = 216,
@@ -4305,7 +4305,7 @@ db_loadouts = {
 				night = true,
 				adverseWeather = true,
 				range = 700000,
-				capability = 6,
+				capability = 2,
 				firepower = 6,
 				vCruise = 230,
 				vAttack = 215,
@@ -15130,7 +15130,7 @@ db_loadouts = {
 				night = false,
 				adverseWeather = false,
 				range = 1000000,
-				capability = 3,
+				capability = 2,
 				firepower = 3,
 				vCruise = 200,
 				vAttack = 220,
@@ -18507,7 +18507,7 @@ db_loadouts = {
 				night = false,
 				adverseWeather = false,
 				range = 500000,
-				capability = 3,
+				capability = 8,
 				firepower = 5,
 				vCruise = 200,
 				vAttack = 350,
@@ -21043,7 +21043,7 @@ db_loadouts = {
 			},
 		},
 		["Strike"] = {
-			["IPW - Strike - R-3R*1, R-3S*1, FT800L, FAB-250*2"] = {
+			--[[["IPW - Strike - R-3R*1, R-3S*1, FT800L, FAB-250*2"] = {
 				role = "attacker",
 				role_altitude = "normal",
 				coalition = "red",
@@ -21104,7 +21104,7 @@ db_loadouts = {
 					["chaff"] = 0,
 					["gun"] = 100,
 				},
-			},
+			},]] -- not loaded FAB-250, update loadout in ME
 			["IPW - Strike - R-3R*1, R-3S*1, FT800L, FAB-100*8"] = {
 				role = "attacker",
 				role_altitude = "normal",

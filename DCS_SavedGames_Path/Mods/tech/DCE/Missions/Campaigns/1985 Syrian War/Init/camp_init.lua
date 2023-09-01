@@ -227,7 +227,7 @@ camp = {
         
                         ["normal"] = {
         
-                            ["min_vCruise_TAS"] = 450 / 3.6, -- Km/h @ slm
+                            ["min_vCruise_TAS"] = 600 / 3.6, -- Km/h @ slm
                             ["max_vCruise_TAS"] = 900 / 3.6, -- Km/h @ slm
                             ["min_hCruise"] = 1000, -- m slm
                             ["max_hCruise"] = 7000, -- m slm
@@ -235,8 +235,8 @@ camp = {
         
                         ["low"] = {
         
-                            ["min_vCruise_TAS"] = 400 / 3.6, -- Km/h @ slm
-                            ["max_vCruise_TAS"] = 500 / 3.6, -- Km/h @ slm
+                            ["min_vCruise_TAS"] = 600 / 3.6, -- Km/h @ slm
+                            ["max_vCruise_TAS"] = 700 / 3.6, -- Km/h @ slm
                             ["min_hCruise"] = 100, -- m slm
                             ["max_hCruise"] = 999, -- m slm
                         },			
@@ -336,7 +336,7 @@ camp = {
         
                         ["normal"] = {
         
-                            ["min_vCruise_TAS"] = 450 / 3.6, -- Km/h @ slm
+                            ["min_vCruise_TAS"] = 600 / 3.6, -- Km/h @ slm
                             ["max_vCruise_TAS"] = 900 / 3.6, -- Km/h @ slm
                             ["min_hCruise"] = 1000, -- m slm
                             ["max_hCruise"] = 7000, -- m slm
@@ -344,8 +344,8 @@ camp = {
         
                         ["low"] = {
         
-                            ["min_vCruise_TAS"] = 400 / 3.6, -- Km/h @ slm
-                            ["max_vCruise_TAS"] = 550 / 3.6, -- Km/h @ slm
+                            ["min_vCruise_TAS"] = 600 / 3.6, -- Km/h @ slm
+                            ["max_vCruise_TAS"] = 700 / 3.6, -- Km/h @ slm
                             ["min_hCruise"] = 100, -- m slm
                             ["max_hCruise"] = 999, -- m slm
                         },			
@@ -465,18 +465,18 @@ camp = {
 			GROUND_THREAT_RILEVABILITY_BLUE_GROUND_CAPACITY = 1,					-- capacity for ground threath rilevability (1: max capacity, 0 minimum capacity)
 			GROUND_THREAT_RILEVABILITY_RED_AIR_CAPACITY = 1,						-- capacity for ground threath rilevability (1: max capacity, 0 minimum capacity)
 			GROUND_THREAT_RILEVABILITY_RED_GROUND_CAPACITY = 1,						-- capacity for ground threath rilevability (1: max capacity, 0 minimum capacity)
-			MAN_SAM_RILEVABILITY = 0.2,												-- specific ground asset rilevability (1: detectability ensured, 0 asset undetectable)
-			SMALL_AAA_SAM_IR_VEHICLE_RILEVABILITY = 0.4,							-- specific ground asset rilevability (1: detectability ensured, 0 asset undetectable)
-			SMALL_AAA_SAM_RADAR_VEHICLE_RILEVABILITY = 0.5,							-- specific ground asset rilevability (1: detectability ensured, 0 asset undetectable)
-			MEDIUM_AAA_SAM_IR_VEHICLE_RILEVABILITY = 0.6,							-- specific ground asset rilevability (1: detectability ensured, 0 asset undetectable)
-			MEDIUM_AAA_SAM_RADAR_VEHICLE_RILEVABILITY = 0.7,
-			LARGE_SAM_VEHICLE_RILEVABILITY = 0.8,
-			SMALL_AAA_SAM_FIXEDPOS_RILEVABILITY = 0.6,
-			MEDIUM_AAA_SAM_FIXEDPOS_RILEVABILITY = 0.8,
-			LARGE_AAA_SAM_FIXEDPOS_RILEVABILITY = 0.9,
-			SMALL_SHIP_RILEVABILITY = 0.7,
-			MEDIUM_SHIP_RILEVABILITY = 0.8,
-			LARGE_SHIP_RILEVABILITY = 0.95,
+			MAN_SAM_RILEVABILITY = 0.5,												-- specific ground asset rilevability (1: detectability ensured, 0 asset undetectable)
+			SMALL_AAA_SAM_IR_VEHICLE_RILEVABILITY = 0.65,							-- specific ground asset rilevability (1: detectability ensured, 0 asset undetectable)
+			SMALL_AAA_SAM_RADAR_VEHICLE_RILEVABILITY = 0.7,							-- specific ground asset rilevability (1: detectability ensured, 0 asset undetectable)
+			MEDIUM_AAA_SAM_IR_VEHICLE_RILEVABILITY = 0.75,							-- specific ground asset rilevability (1: detectability ensured, 0 asset undetectable)
+			MEDIUM_AAA_SAM_RADAR_VEHICLE_RILEVABILITY = 0.85,
+			LARGE_SAM_VEHICLE_RILEVABILITY = 0.95,
+			SMALL_AAA_SAM_FIXEDPOS_RILEVABILITY = 0.75,
+			MEDIUM_AAA_SAM_FIXEDPOS_RILEVABILITY = 0.9,
+			LARGE_AAA_SAM_FIXEDPOS_RILEVABILITY = 1,
+			SMALL_SHIP_RILEVABILITY = 0.75,
+			MEDIUM_SHIP_RILEVABILITY = 0.85,
+			LARGE_SHIP_RILEVABILITY = 1,
 		},
 
 		["ATO_Generator"] = {
