@@ -45,8 +45,8 @@ end
 
 require("Init/oob_air_init")																		--run initial oob air
 for side,unit in pairs(oob_air) do																	----update oob_air to add roster and score table
-	for n = 1, #unit do			
-		unit[n].roster = {			
+	for n = 1, #unit do	
+		unit[n].roster = {
 			ready = unit[n].number,																	--number of airframes ready for operations
 			lost = 0,																				--number of airframes lost
 			damaged = 0																				--number of airframes damaged

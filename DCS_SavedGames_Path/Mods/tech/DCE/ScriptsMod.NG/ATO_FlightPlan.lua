@@ -1,18 +1,21 @@
 --To create the flight plans in the mission file for all flights in the ATO
 --Initiated by Main_NextMission.lua
 ------------------------------------------------------------------------------------------------------- 
--- Old_Boy rev. OB.1.0.0: update skill assignment
 -- Miguel Fichier Revision M46.f
 ------------------------------------------------------------------------------------------------------- 
 
 if not versionDCE then versionDCE = {} end
 versionDCE["ATO_FlightPlan.lua"] = "1.40.133"
 
+-- =====================  Marco implementation ==================================
 local log = dofile("../../../ScriptsMod."..versionPackageICM.."/UTIL_Log.lua")
+-- NOTE MARCO: prova a caricarlo usando require(".. . .. . .. .ScriptsMod."versionPackageICM..".UTIL_Log.lua")
+-- NOTE MARCO: https://forum.defold.com/t/including-a-lua-module-solved/2747/2
 log.level = LOGGING_LEVEL
 log.outfile = LOG_DIR .. "LOG_ATO_FlightPlan." .. camp.mission .. ".log" 
 local local_debug = true -- local debug   
 log.info("Start")
+-- =====================  End Marco implementation ==================================
 
 
 -- CHCM_FP_01 Check and Help CampaignMaker
@@ -63,6 +66,7 @@ log.info("Start")
 ------------------------------------------------------------------------------------------------------- 	
 -- Miguel21 modification M24	Set Multiplayer
 
+--todo ajouter une condition: joueur spawn sur sixpack si personne n'y est
 
 local debugStart = true
 local debugTxt = ""
@@ -2716,58 +2720,28 @@ for side, pack in pairs(ATO) do													--iterate through sides in ATO
 					--Good (25� 50)
 					--High (50 � 75)
 					--Excellent (75 � 100)
-					mSkill = 2
-					local tie = math.random()
 					
-					if flight[f].skill == "Excellent" then
-
-						if tie > 0.75 then
-							mSkill = 4
-						
-						else
-							mSkill = 3
-						end
-						
-					
-					elseif flight[f].skill == "high" then
-							
-						if tie > 0.70 then
-							mSkill = 3
-						
-						else
-							mSkill = 2
-						end
-					
-					elseif flight[f].skill == "Good" then
-						
-						if tie > 0.2 then
-							mSkill = 2
-						
-						else
-							mSkill = 1
-						end
-					
-					elseif flight[f].skill == "Average" then						
-							mSkill = 1
-
+					if flight[f].skill == "high" then
+						calcWish = 62
 					else 
-						mSkill = 2
+						calcWish = skillWish[side]
 					end
 					
-					if (n == 1 or ( flight[f].player and n == 2 )) and mSkill < 3 then -- skill for leader or player wingman
-						
-						if tie > 0.9 then 
-							mSkill = 4
-						
-						elseif tie > 0.4 then
-							mskill = 3
+					if n == 1 or ( flight[f].player and n == 2 )then 
+						mSkill =  math.random(calcWish-20, calcWish+18) / 25 		-- 75-62 = 13 (13 + 5 = 18 )5 % de chance d'avoir excellent
+					else
+						mSkill =  math.random(calcWish-50, calcWish+10) / 25
+					end
 
-						else
-							mSkill =  2
-						end
-						
+		
+					mSkill = math.floor(mSkill) + 1
+					
+					if mSkill < 1 then mSkill = 1
+					elseif mSkill > 4 then mSkill = 4
+					else mSkill = mSkill
 					end	
-										
+					
+					
 					units[n] = {
 						["alt"] = waypoints[1].alt,
 						["heading"] = 0,

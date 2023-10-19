@@ -15,6 +15,8 @@ versionDCE["conf_mod_check.lua"] = "1.28.32"
 
 -- =====================  Marco implementation ==================================
 local log = dofile("../../../ScriptsMod."..versionPackageICM.."/UTIL_Log.lua")
+-- NOTE MARCO: prova a caricarlo usando require(".. . .. . .. .ScriptsMod."versionPackageICM..".UTIL_Log.lua")
+-- NOTE MARCO: https://forum.defold.com/t/including-a-lua-module-solved/2747/2
 log.level = LOGGING_LEVEL
 log.outfile = LOG_DIR .. "LOG_conf_mod_check." .. camp.mission .. ".log" 
 local local_debug = true -- local debug   
