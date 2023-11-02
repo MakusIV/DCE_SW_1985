@@ -2,7 +2,9 @@
 
 
 ---------------------------------------------------------------------------------------------------------
--- Old_Boy rev. OB.1.0.0: first implementation
+-- Old_Boy rev. OB.1.0.3: Inherit from Loadouts database Georgian 1975, implements 1985 asset and remove obsolete asset
+-- Old_Boy rev. OB.1.0.2: implements compute loadouts cruise parameters code (property)
+-- Old_Boy rev. OB.1.0.1: implements compute firepower code (property)
 -------------------------------------------------------------------------------------------------------
 
 

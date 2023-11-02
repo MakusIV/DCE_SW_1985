@@ -143,13 +143,13 @@ camp = {
         
                     ["Fighter Sweep"] = {
         
-                        ["min"] = 4,
-                        ["max"] = 7,
+                        ["min"] = 3,
+                        ["max"] = 6,
                     },
         
                     ["Escort"] = {
         
-                        ["min"] = 3,
+                        ["min"] = 2,
                         ["max"] = 5,
                     },
                 },
@@ -170,13 +170,13 @@ camp = {
         
                     ["Fighter Sweep"] = {
         
-                        ["min"] = 4,
-                        ["max"] = 7,
+                        ["min"] = 3,
+                        ["max"] = 6,
                     },
         
                     ["Escort"] = {
         
-                        ["min"] = 3,
+                        ["min"] = 2,
                         ["max"] = 5,
                     },
                 },
@@ -531,7 +531,7 @@ camp = {
                 MAX_AIRCRAFT_FOR_SWEEP = 4,		 			    					-- max number of aircraft for an sweep mission 
                 MAX_AIRCRAFT_FOR_OTHER = 1,		 				    				-- max number of aircraft for other mission 
                 --MIN_AIRCRAFT_FOR_OTHER = 1, 										-- min number of aircraft for other mission 
-                MAX_AIRCRAFT_FOR_BOMBER = 1,										-- max number of aircraft for bomber                 
+                MAX_AIRCRAFT_FOR_BOMBER = 2,										-- max number of aircraft for bomber                 
             },
              
             ["red"] = {
@@ -579,7 +579,7 @@ camp = {
                 MAX_AIRCRAFT_FOR_SWEEP = 4,		 								    -- max number of aircraft for an sweep mission 
                 MAX_AIRCRAFT_FOR_OTHER = 1,		 								    -- max number of aircraft for other mission 
                 --MIN_AIRCRAFT_FOR_OTHER = 1, 										-- min number of aircraft for other mission 
-                MAX_AIRCRAFT_FOR_BOMBER = 1,										-- max number of aircraft for bomber                 
+                MAX_AIRCRAFT_FOR_BOMBER = 2,										-- max number of aircraft for bomber                 
             },
 		},
     },

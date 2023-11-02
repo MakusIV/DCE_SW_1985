@@ -37,7 +37,7 @@ mission_ini = {
 	max_skill_blue_refuelling = "High",	-- Average, Good, High, Excellent
 	min_skill_blue_awacs = "Average",	-- Average, Good, High, Excellent
 	max_skill_blue_awacs = "High",	-- Average, Good, High, Excellent
-	min_skill_blue_helicopter = "Good",	-- Average, Good, High, Excellent
+	min_skill_blue_helicopter = "High",	-- Average, Good, High, Excellent
 	max_skill_blue_helicopter = "Excellent",	-- Average, Good, High, Excellent
 
 	min_skill_red_fighter = "Average",	-- Average, Good, High, Excellent
@@ -54,7 +54,7 @@ mission_ini = {
 	max_skill_red_refuelling = "High",	-- Average, Good, High, Excellent
 	min_skill_red_awacs = "Average",	-- Average, Good, High, Excellent
 	max_skill_red_awacs = "High",	-- Average, Good, High, Excellent
-	min_skill_red_helicopter = "Good",	-- Average, Good, High, Excellent
+	min_skill_red_helicopter = "High",	-- Average, Good, High, Excellent
 	max_skill_red_helicopter = "Excellent",	-- Average, Good, High, Excellent
 
 	PruneScript = true,							-- reduce a mission by removing units (mod Tomsk M09)

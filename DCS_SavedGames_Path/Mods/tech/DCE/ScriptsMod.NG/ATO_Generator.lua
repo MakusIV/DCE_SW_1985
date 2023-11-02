@@ -355,6 +355,7 @@ local function checkWeather(mission, unit, unit_loadout, flight_loadout, task, i
 			if not isSupportFlight and ( task == "Strike" or task == "Anti-ship Strike" or task == "Reconnaissance" ) then		--extra requirement for A-G tasks
 				if active_log then log.traceLow("extra requirement for A-G tasks in weather capable analisys")		 end
 
+				--print("unit: " .. unit.name .. "-" .. unit.type .. ", task: " .. task .. ", unit_loadout: " .. inspect(unit_loadout))
 				if unit_loadout.hAttack > cloud_base then																		--attack alt is above cloud base
 					if active_log then log.traceLow("attack alt(" .. unit_loadout.hAttack .. ") is above cloud base(" .. cloud_base .. ")") end
 					
@@ -485,12 +486,7 @@ for side,unit in pairs(oob_air) do																								--iterate through all 
 				if active_log then log.traceLow("unit[" .. n .. "]: " .. unit[n].name .. " is playable -> insert in trackPlayability tab") end
 			end
 
-			--print("unit[" .. n .. "]: " .. unit[n].name .. " is playable -> insert in trackPlayability tab")
-			--print("unit[" .. n .. "]: " .. unit[n].name .. ", base exists: " .. unit[n].base)
-			--print("db_airbases[unit[n].base]: " .. ( db_airbases[unit[n].base].unitname or "nil"))
-
-			--if db_airbases[unit[n].base] then  print("db_airbases[unit[n].base]: " .. inspect(db_airbases[unit[n].base])) end
-
+			
 			if db_airbases[unit[n].base] and db_airbases[unit[n].base].inactive ~= true and db_airbases[unit[n].base].x and db_airbases[unit[n].base].y then	--base exists and is active and has a position value (carrier that exists)
 				TrackPlayability(unit[n].player, "base")																		--track playabilty criterium has been met
 				if active_log then log.traceLow("unit[" .. n .. "]: " .. unit[n].name .. " active base exists: " .. unit[n].base) end
@@ -789,12 +785,11 @@ for side,unit in pairs(oob_air) do																								--iterate through all 
 																						
 																						if active_log then log.traceLow("task: " .. task) end
 																						if active_log then log.traceLow("r: " .. r .. ", variant: " .. variant  .. ", base: " .. unit[n].base .. "airbasePoint: " .. (airbasePoint.x or "nil") .. ", " .. (airbasePoint.y or "nil") .. ", target: " .. target_name) end
-																						--print("r: " .. r .. ", variant: " .. variant  .. ", base: " .. unit[n].base .. "airbasePoint: " .. (airbasePoint.x or "nil") .. ", " .. (airbasePoint.y or "nil") .. ", target: " .. target_name .. ", target coord: ".. (target.x or "nil") .. ", " .. (target.y or "nil"))
 
 																						if target.x ~= nil and target.y ~= nil then
 																							if active_log then log.info("target coord: ".. target.x .. ", " .. target.y) end													
 																						end
-
+																						--print("unit: " .. unit[n].name .. "-" .. unit[n].type .. ", task: " .. task .. ", target: " .. target_name .. ", side: " .. side .. ", target coord: ".. (target.x or "nil") .. ", " .. (target.y or "nil"))
 																						local ToTarget = GetDistance(airbasePoint, target)											--direct distance to target
 																						if active_log then log.traceLow("direct distance to target: " .. ToTarget) end
 																						
